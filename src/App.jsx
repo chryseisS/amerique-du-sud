@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import BarreOnglets from './composants/BarreOnglets.jsx';
 import Planification from './modules/Planification.jsx';
+import DetailActivite from './modules/DetailActivite.jsx';
 import Apprendre from './modules/Apprendre.jsx';
 import Jeux from './modules/Jeux.jsx';
 import Journal from './modules/Journal.jsx';
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/planification" replace />} />
             <Route path="/planification" element={<Planification />} />
+            <Route path="/planification/:slug" element={<DetailActivite />} />
             <Route path="/apprendre" element={<Apprendre />} />
             <Route path="/jeux" element={<Jeux />} />
             <Route path="/journal" element={<Journal />} />

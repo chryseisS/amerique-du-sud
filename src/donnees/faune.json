@@ -1,0 +1,43 @@
+[
+  {
+    "numero": 1,
+    "nom": "Lama",
+    "emoji": "🦙",
+    "photo": null,
+    "habitats": ["altiplano"],
+    "rarete": 1,
+    "ouLeTrouver": ["Cuzco", "Vallée Sacrée", "Machu Picchu", "Altiplano bolivien"],
+    "reconnaitre": "Grand camélidé domestiqué, jusqu'à 1,80 m au garrot, 130 à 200 kg. Tête allongée, oreilles incurvées en banane, laine épaisse et grossière. Plus grand que l'alpaga, démarche fière, regard hautain. Souvent harnaché ou orné de pompons colorés près des sites touristiques.",
+    "anecdoteCourte": "Il crache, mais seulement quand il est vraiment vexé. Sinon, il vous dévisage avec un calme royal de 6 000 ans.",
+    "sections": [
+      {
+        "titre": "Histoire & rôle culturel",
+        "contenu": "Le lama est domestiqué depuis plus de 6 000 ans dans les Andes, ce qui en fait l'un des plus anciens animaux domestiqués des Amériques. Pour les peuples préincaïques puis pour les Incas, il était la pièce maîtresse de la civilisation : bête de somme capable de transporter 30 kg sur les cols escarpés à 4 500 m d'altitude, fournisseur de laine pour les textiles courants, source de viande, de cuir pour les cordes, et même de combustible (les excréments séchés brûlent). Sa présence a permis aux Incas de développer un empire long de 4 000 km sans connaître la roue ni le cheval.\n\nDans la cosmologie andine, le lama est lié à la pluie : on croyait que les lamas noirs pleuraient pour appeler l'eau pendant les sécheresses. Aujourd'hui encore, certaines cérémonies à la Pachamama (déesse-Terre) incluent des offrandes liées au lama."
+      },
+      {
+        "titre": "Lama, alpaga, vigogne, guanaco — comment ne plus se tromper",
+        "contenu": "Les quatre cousins sont souvent confondus, mais ils se distinguent vite avec un peu d'œil :\n\n• Lama — le plus grand (1,80 m), domestiqué, oreilles en banane, laine grossière, allure fière. C'est lui qui porte les charges.\n• Alpaga — plus petit (90 cm), domestiqué, visage tout rond et touffu façon peluche, laine très fine. Élevé pour la laine, pas pour le portage.\n• Vigogne — sauvage, fine et élancée, couleur cannelle uniforme, allure de gazelle. Vit en altitude (3 500-4 800 m). Très craintive.\n• Guanaco — sauvage, plus grand que la vigogne, visage sombre, beaucoup en Patagonie où il broute en grands troupeaux.\n\nTruc mnémotechnique : lama = camion, alpaga = peluche, vigogne = gazelle, guanaco = patagon."
+      },
+      {
+        "titre": "Comportement & vie quotidienne",
+        "contenu": "Le lama vit en troupeau hiérarchique avec un mâle dominant. Il communique par une grande variété de sons : grognements, hennissements aigus, ronflements. Quand il se sent menacé ou agacé, il abaisse les oreilles, gonfle les joues, et finit parfois par cracher — un mélange de salive et de contenu stomacal qui sent fort, mais qu'il réserve aux conflits sérieux (avec d'autres lamas plus qu'avec les humains).\n\nIl marche au pas, à 6-8 km/h, et peut couvrir 25-30 km par jour avec une charge. Si on le surcharge, il s'assoit purement et simplement et refuse d'avancer — un trait que les muletiers andins connaissent bien et qui a forgé la réputation têtue de l'animal."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Au Machu Picchu, une vingtaine de lamas paissent en liberté sur le site, en partie pour entretenir l'herbe sur les terrasses.\n• Le lama n'a pas de sabots mais des coussinets souples avec deux orteils, ce qui lui permet de marcher sans abîmer les sols fragiles d'altitude.\n• Il existe une vraie filière \"lama-thérapie\" : les lamas sont parfois utilisés comme animaux de soutien émotionnel en hôpital, parce qu'ils sont calmes et dégagent peu d'allergènes.\n• Sa langue est si courte qu'il ne peut pas la sortir — au lieu de lécher, il aspire l'eau."
+      }
+    ]
+  },
+  {
+    "numero": 2,
+    "nom": "Alpaga",
+    "emoji": "🦙",
+    "photo": null,
+    "habitats": ["altiplano"],
+    "rarete": 1,
+    "ouLeTrouver": ["Cuzco", "Vallée Sacrée", "Puno", "Altiplano bolivien"],
+    "reconnaitre": "Plus petit que le lama (90 cm au garrot), visage rond et touffu façon peluche, laine très fine et abondante qui lui donne une silhouette dodue. Souvent élevé en troupeau pour sa laine.",
+    "anecdoteCourte": "Sa laine est l'une des plus douces au monde, sans la rareté ni le prix dément de celle de la vigogne.",
+    "sections": []
+  }
+]

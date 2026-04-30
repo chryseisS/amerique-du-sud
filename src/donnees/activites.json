@@ -1,0 +1,42 @@
+[
+  {
+    "type": "Trek",
+    "nom": "Salkantay Trek",
+    "lieu": "Cusco",
+    "pays": "Pérou",
+    "importance": 5,
+    "duree": "5 jours",
+    "description": "Alternative sauvage au chemin inca. 5 jours, 74km, altitude max 4630m.\n\nAgence recommandée : Alpaca Expeditions. Prévoir 2 jours d'acclimatation à Cusco avant.\n\nPassage du col Salkantay à l'aube — l'un des plus beaux au monde.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Machu Picchu",
+    "lieu": "Aguas Calientes",
+    "pays": "Pérou",
+    "importance": 5,
+    "duree": "1 journée",
+    "description": "Incontournable. Réserver les billets très longtemps à l'avance — quotas stricts.\n\nDeux créneaux : matin (6h-12h) ou après-midi (12h-17h30). Le matin avant les nuages et les groupes.",
+    "visiteGuidee": false
+  },
+    {
+    "type": "Trek",
+    "nom": "Canyon de Colca",
+    "lieu": "Arequipa",
+    "pays": "Pérou",
+    "importance": 4,
+    "duree": "3 jours",
+    "description": "Boucle. Prix 70 soles par personne si contrôlés à l'entrée du canyon. Partir tôt pour ne pas être contrôlé. Le mieux est de dormir à Llahuar et à l'oasis de Sangalle si nous ne voulons pas nous encombrer avec une tente (20 euros la chambre approximativement). A réserver avant de partir.  \n\nDépart du trek à Cabanaconde. \n\nPremière journée Cabanaconde à Llahuar. 11km/1100m de D-. A Llahuar, nombreuses piscines thermales. \n\nDeuxième jour Llahuar à Oasis de Sangalle ou San Juan. 10km/700m D-, 700m D+. \n\nTroisième jour Sangalle à Cabanaconde. 5km/1000m D+. \n\nPossibilité de rajouter 15-20km le 2ème jour en faisant un détour par cascade Huaruro (évite également de monter 2 fois).",
+    "visiteGuidee": false
+  },
+    {
+    "type": "Divers",
+    "nom": "Mirador",
+    "lieu": "Arequipa",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": "",
+    "description":"",
+    "visiteGuidee": false
+  }
+]
