@@ -1,10 +1,24 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import BarreOnglets from './composants/BarreOnglets.jsx';
-import Planification from './modules/Planification.jsx';
+
+// Planification
+import Activites from './modules/Activites.jsx';
+import Lieux from './modules/Lieux.jsx';
+import Pays from './modules/Pays.jsx';
 import DetailActivite from './modules/DetailActivite.jsx';
+import DetailLieu from './modules/DetailLieu.jsx';
+import DetailPays from './modules/DetailPays.jsx';
+
+// Journal
+import Journal from './modules/Journal.jsx';
+import Gastronomie from './modules/Gastronomie.jsx';
+import PremieresFois from './modules/PremieresFois.jsx';
+import Faune from './modules/Faune.jsx';
+import DetailFaune from './modules/DetailFaune.jsx';
+
+// Autres
 import Apprendre from './modules/Apprendre.jsx';
 import Jeux from './modules/Jeux.jsx';
-import Journal from './modules/Journal.jsx';
 
 function App() {
   return (
@@ -13,11 +27,26 @@ function App() {
         <main className="flex-1 overflow-y-auto">
           <Routes>
             <Route path="/" element={<Navigate to="/planification" replace />} />
-            <Route path="/planification" element={<Planification />} />
-            <Route path="/planification/:slug" element={<DetailActivite />} />
+
+            {/* Planification : 3 sous-vues + redirection par défaut */}
+            <Route path="/planification"                  element={<Navigate to="/planification/activites" replace />} />
+            <Route path="/planification/activites"        element={<Activites />} />
+            <Route path="/planification/activites/:slug"  element={<DetailActivite />} />
+            <Route path="/planification/lieux"            element={<Lieux />} />
+            <Route path="/planification/lieux/:id"        element={<DetailLieu />} />
+            <Route path="/planification/pays"             element={<Pays />} />
+            <Route path="/planification/pays/:id"         element={<DetailPays />} />
+
+            {/* Apprendre / Jeux */}
             <Route path="/apprendre" element={<Apprendre />} />
-            <Route path="/jeux" element={<Jeux />} />
-            <Route path="/journal" element={<Journal />} />
+            <Route path="/jeux"      element={<Jeux />} />
+
+            {/* Journal */}
+            <Route path="/journal"                  element={<Journal />} />
+            <Route path="/journal/gastronomie"      element={<Gastronomie />} />
+            <Route path="/journal/premieres-fois"   element={<PremieresFois />} />
+            <Route path="/journal/faune"            element={<Faune />} />
+            <Route path="/journal/faune/:slug"      element={<DetailFaune />} />
           </Routes>
         </main>
         <BarreOnglets />

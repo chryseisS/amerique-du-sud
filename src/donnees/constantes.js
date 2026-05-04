@@ -34,6 +34,10 @@ export const RARETE_LIBELLES = {
   3: 'rare',
 };
 
+// module Gastronomie
+
+export const TYPES_GASTRONOMIE = ['Boisson', 'Plat', 'Dessert'];
+
 
 export function versSlug(texte) {
   return texte

@@ -1,0 +1,27 @@
+[
+  {
+    "id" : "nuit-4000",
+    "nom": "Dormir au-dessus de 4000 m",
+    "description": "Une nuit en altitude, là où l'air se raréfie et où le sommeil devient un sport."
+  },
+  {
+    "id" : "condor-vol",
+    "nom": "Voir un condor en vol",
+    "description": "Trois mètres d'envergure, planant sans un battement d'aile."
+  },
+  {
+    "nom": "Boire un maté de coca",
+    "description": "L'infusion locale contre le mal d'altitude, amère et étrangement réconfortante."
+  },
+  {
+    "nom": "Mâcher des feuilles de coca"
+  },
+    {
+    "id" : "nuit-van",
+    "nom": "Passer une nuit dans un van"
+  },
+  {
+    "id" : "courir-Equateur",
+    "nom": "Courir en Equateur"
+  }
+]

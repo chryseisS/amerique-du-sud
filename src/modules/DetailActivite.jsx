@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, MapPin, Play, ChevronRight } from 'lucide-react';
 import activites from '../donnees/activites.json';
 import { COULEURS_TYPES_ACTIVITES, versSlug } from '../donnees/constantes';
@@ -6,18 +6,19 @@ import Etoiles from '../composants/Etoiles';
 
 function DetailActivite() {
   const { slug } = useParams();
-
-  // On cherche l'activité dont le slug du nom correspond à l'URL
+  const navigate = useNavigate();
   const activite = activites.find((a) => versSlug(a.nom) === slug);
 
-  // Cas où l'activité n'existe pas (URL bidouillée par exemple)
   if (!activite) {
     return (
       <div className="p-4">
-        <Link to="/planification" className="flex items-center gap-2 text-terra-500 mb-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
           <ArrowLeft className="w-4 h-4" strokeWidth={2} />
           <span className="text-sm">Retour</span>
-        </Link>
+        </button>
         <p className="text-terra-muted">Activité introuvable.</p>
       </div>
     );
@@ -25,18 +26,31 @@ function DetailActivite() {
 
   const couleurBadge = COULEURS_TYPES_ACTIVITES[activite.type];
 
+  // Le lieu devient cliquable si lieuId est présent dans le JSON
+  const LieuAffiche = () =>
+    activite.lieuId ? (
+      <Link
+        to={`/planification/lieux/${activite.lieuId}`}
+        className="text-terra-500 underline-offset-2 hover:underline"
+      >
+        {activite.lieu}
+      </Link>
+    ) : (
+      <span>{activite.lieu}</span>
+    );
+
   return (
     <div className="p-4">
-      {/* Bouton retour */}
-      <Link
-        to="/planification"
+      {/* Bouton retour intelligent */}
+      <button
+        onClick={() => navigate(-1)}
         className="flex items-center gap-2 text-terra-500 mb-4"
       >
         <ArrowLeft className="w-4 h-4" strokeWidth={2} />
         <span className="text-sm">Retour</span>
-      </Link>
+      </button>
 
-      {/* Badge type + lieu/pays */}
+      {/* Badge type + lieu cliquable + pays */}
       <div className="flex items-center gap-2 mb-2 flex-wrap">
         <span
           className="text-white text-[11px] font-medium px-2.5 py-0.5 rounded-md"
@@ -46,7 +60,7 @@ function DetailActivite() {
         </span>
         <span className="text-xs text-terra-muted flex items-center gap-1">
           <MapPin className="w-3 h-3" strokeWidth={2} />
-          {activite.lieu} · {activite.pays}
+          <LieuAffiche /> · {activite.pays}
         </span>
       </div>
 
@@ -55,7 +69,7 @@ function DetailActivite() {
         {activite.nom}
       </h1>
 
-      {/* Étoiles + durée (chacun s'affiche seulement si renseigné) */}
+      {/* Étoiles + durée */}
       {(activite.importance || activite.duree) && (
         <div className="flex items-center gap-3 mb-4">
           <Etoiles nombre={activite.importance} />
@@ -67,7 +81,6 @@ function DetailActivite() {
         </div>
       )}
 
-      {/* Séparateur */}
       <div className="h-px bg-terra-border mb-4" />
 
       {/* Description en paragraphes */}
@@ -80,7 +93,7 @@ function DetailActivite() {
         </p>
       ))}
 
-      {/* Bouton visite guidée — visible seulement si visiteGuidee est true */}
+      {/* Bouton visite guidée */}
       {activite.visiteGuidee && (
         <Link
           to={`/visite-guidee/${versSlug(activite.nom)}`}

@@ -88,13 +88,11 @@ function DetailFaune() {
         </span>
       </div>
 
-      {/* ─── Titre + nom scientifique ─── */}
+      {/* ─── Titre ─── */}
       <h1 className="font-serif text-2xl text-terra-900 leading-tight">
         {animal.nom}
       </h1>
-      <div className="text-xs text-terra-muted italic mb-2">
-        {animal.nomScientifique || ''}
-      </div>
+
 
       {/* ─── Tag habitat + rareté ─── */}
       <div className="inline-flex items-center gap-1 text-[11px] px-2 py-1 rounded bg-terra-100 text-terra-muted mb-4">

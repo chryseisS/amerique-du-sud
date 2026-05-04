@@ -1,0 +1,51 @@
+[
+  {
+    "nom": "Ceviche",
+    "type" : "Plat",
+    "pays": ["Pérou"],
+    "description": "Poisson frais, citron vert, piment, oignons rouges, coriandre, patate douce et maïs",
+    "anecdote": "Le ceviche aurait plus de 2 000 ans. Les Mochicas, peuple précolombien de la côte nord péruvienne, le préparaient déjà avec du jus de fruit de la passion fermenté avant l'arrivée du citron vert importé par les Espagnols."
+  },
+  {
+    "nom": "Pisco Sour",
+    "type" : "Boisson",
+    "pays": ["Pérou"],
+    "description": "Cocktail national du Pérou. Pisco, citron vert, sirop de sucre, blanc d'œuf, angostura",
+    "anecdote": "Le Pérou et le Chili se disputent farouchement la paternité du Pisco Sour. Au Pérou, on le célèbre le premier samedi de février ; au Chili, le 8 février. Les deux pays ont chacun leur journée nationale pour la même boisson."
+  },
+  {
+    "nom": "Pique Macho",
+    "type" : "Plat",
+    "pays": ["Bolivie"],
+    "description": "Assiette de viande de bœuf, saucisses, frites, œufs durs, oignons et piments. Très copieux !",
+    "anecdote": "C'est le plat de fin de soirée par excellence, qu'on partage à plusieurs après quelques bières. Une assiette de Pique Macho à 2h du matin entre amis vaut autant comme repas que comme rituel social."
+  },
+  {
+    "nom": "Cuy",
+    "type" : "Plat",
+    "pays": ["Pérou"],
+    "description": "Cochon d'inde rôti.",
+    "anecdote": "Dans la cathédrale de Cuzco, une peinture coloniale du XVIIᵉ siècle représente la Cène avec, au centre de la table devant le Christ, un cuy rôti sur un plat — et non un agneau pascal. L'artiste indigène Marcos Zapata a discrètement réécrit l'iconographie chrétienne avec les codes andins."
+  },
+  {
+    "nom": "Lomo Saltado",
+    "type" : "Plat",
+    "pays": ["Pérou"],
+    "description": "Sauté de bœuf avec oignons, tomates, sauce soja, servi avec frites et riz.",
+    "anecdote": "Le lomo saltado est né au XIXᵉ siècle de la rencontre entre cuisine andine et cuisine cantonaise. Quand des dizaines de milliers de travailleurs chinois sont arrivés au Pérou dans les années 1850, ils ont apporté avec eux le wok, la sauce soja et la technique du sauté à feu vif. Le lomo saltado, c'est littéralement un stir-fry chinois fait avec de la viande de bœuf péruvienne et accompagné de riz et de frites."
+  },
+  {
+    "nom": "Completo",
+    "type" : "Plat",
+    "pays": ["Chili"],
+    "description": "Hot-dog chilien démesuré : saucisse dans un grand pain moelleux, recouverte d'avocat écrasé, tomate en dés, choucroute et d'une montagne de mayonnaise.",
+    "anecdote": "Inventé dans les années 1920 à Santiago dans une fuente de soda (l'équivalent local des diners américains), le Completo est la réponse chilienne au hot-dog importé des États-Unis. Mais là où l'Américain reste sobre, le Chilien empile : avocat, tomate, choucroute, mayonnaise. La règle implicite : si on voit encore la saucisse, ce n'est pas un Completo."
+  },
+  {
+    "nom": "Italiano",
+    "type" : "Plat",
+    "pays": ["Chili"],
+    "description": "Variante du Completo, sans choucroute et sans extra.",
+    "anecdote": "Aucun lien avec l'Italie : le nom vient des couleurs des trois garnitures. L'avocat (vert), la tomate (rouge) et la mayonnaise (blanche) reproduisent exactement le drapeau italien dans le pain. Les Chiliens ont l'œil patriote pour les drapeaux étrangers — il existe aussi le Brasileño (mayo, tomate, fromage) pour le drapeau brésilien."
+  }
+]

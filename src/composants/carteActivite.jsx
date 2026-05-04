@@ -8,7 +8,7 @@ function CarteActivite({ activite }) {
 
   return (
     <Link
-      to={`/planification/${versSlug(activite.nom)}`}
+      to={`/planification/activites/${versSlug(activite.nom)}`}
       className="bg-terra-100 border border-terra-border rounded-xl px-3.5 py-3 mb-2 flex items-center gap-3 hover:border-terra-500/40 transition-colors"
     >
       <div className="flex-1 min-w-0">
