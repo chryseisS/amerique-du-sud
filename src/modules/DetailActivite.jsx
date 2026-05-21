@@ -3,6 +3,9 @@ import { ArrowLeft, MapPin, Play, ChevronRight } from 'lucide-react';
 import activites from '../donnees/activites.json';
 import { COULEURS_TYPES_ACTIVITES, versSlug } from '../donnees/constantes';
 import Etoiles from '../composants/Etoiles';
+import GalerieActivite from '../composants/GalerieActivite';
+import TexteFormate from '../composants/TexteFormate';
+
 
 function DetailActivite() {
   const { slug } = useParams();
@@ -83,20 +86,23 @@ function DetailActivite() {
 
       <div className="h-px bg-terra-border mb-4" />
 
+      {/* Galerie d'images (n'affiche rien si pas d'images) */}
+      <GalerieActivite images={activite.images} />
+
       {/* Description en paragraphes */}
       {activite.description.split('\n\n').map((paragraphe, i) => (
         <p
           key={i}
           className="text-sm text-terra-900 leading-relaxed mb-3 text-justify"
         >
-          {paragraphe}
+          <TexteFormate texte={paragraphe} />
         </p>
       ))}
 
       {/* Bouton visite guidée */}
       {activite.visiteGuidee && (
         <Link
-          to={`/visite-guidee/${versSlug(activite.nom)}`}
+          to={`/apprendre/visites-guidees/${versSlug(activite.nom)}`}
           className="flex items-center gap-3 bg-terra-100 border border-terra-500 rounded-xl px-3.5 py-3 mt-4"
         >
           <div className="w-8 h-8 rounded-full bg-terra-500/15 flex items-center justify-center flex-shrink-0">

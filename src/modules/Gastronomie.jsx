@@ -4,31 +4,20 @@ import { ArrowLeft, Search, X, SlidersHorizontal } from 'lucide-react';
 import gastronomie from '../donnees/gastronomie.json';
 import { PAYS } from '../donnees/constantes';
 import CartePlat from '../composants/CartePlat';
+import { useAvisGastronomie } from '../hooks/useAvisGastronomie';
 
 const TYPES_PLATS = ['Plat', 'Boisson', 'Dessert'];
 
 function Gastronomie() {
-  // ─── ÉTATS ──────────────────────────────────────────
+  // ─── ÉTATS UI ───────────────────────────────────────
   const [paysActif, setPaysActif] = useState('Tous');
   const [typeActif, setTypeActif] = useState('Tous');
   const [statutActif, setStatutActif] = useState('Tous');
   const [recherche, setRecherche] = useState('');
-
-  // Panneau de filtres replié par défaut
   const [filtresOuverts, setFiltresOuverts] = useState(false);
 
-  // Plats testés (Set des noms) — sera remplacé par Dexie plus tard
-  const [platsTestes, setPlatsTestes] = useState(new Set());
-
-  // ─── HANDLERS ───────────────────────────────────────
-  const toggleTeste = (nomPlat) => {
-    setPlatsTestes((ancien) => {
-      const nouveau = new Set(ancien);
-      if (nouveau.has(nomPlat)) nouveau.delete(nomPlat);
-      else nouveau.add(nomPlat);
-      return nouveau;
-    });
-  };
+  // ─── DB (live) ──────────────────────────────────────
+  const { testeSet, avisDe, ajouterAvis, supprimerAvis } = useAvisGastronomie();
 
   // ─── FILTRAGE ───────────────────────────────────────
   const rechercheNorm = recherche.trim().toLowerCase();
@@ -45,37 +34,45 @@ function Gastronomie() {
 
   const parStatut = parType.filter((p) => {
     if (statutActif === 'Tous') return true;
-    if (statutActif === 'Testés') return platsTestes.has(p.nom);
-    if (statutActif === 'PasTestes') return !platsTestes.has(p.nom);
+    if (statutActif === 'Testés') return testeSet.has(p.nom);
+    if (statutActif === 'PasTestes') return !testeSet.has(p.nom);
     return true;
   });
 
-  const resultats = rechercheNorm
+  const filtres = rechercheNorm
     ? parStatut.filter((p) => p.nom.toLowerCase().includes(rechercheNorm))
     : parStatut;
 
+  const ORDRE_TYPES = { Boisson: 0, Plat: 1, Dessert: 2 };
+  const ORDRE_PAYS = Object.fromEntries(PAYS.map((p, i) => [p, i]));
+
+  const resultats = [...filtres].sort((a, b) => {
+    const dt = (ORDRE_TYPES[a.type] ?? 99) - (ORDRE_TYPES[b.type] ?? 99);
+    if (dt !== 0) return dt;
+
+    const paysA = Array.isArray(a.pays) ? a.pays[0] : a.pays;
+    const paysB = Array.isArray(b.pays) ? b.pays[0] : b.pays;
+    const dp = (ORDRE_PAYS[paysA] ?? 99) - (ORDRE_PAYS[paysB] ?? 99);
+    if (dp !== 0) return dp;
+
+    // Non-testés en haut
+    const testeA = testeSet.has(a.nom) ? 1 : 0;
+    const testeB = testeSet.has(b.nom) ? 1 : 0;
+    return testeA - testeB;
+  });
+
   // ─── COMPTEURS ──────────────────────────────────────
-  const totalTestes = platsTestes.size;
+  const totalTestes = testeSet.size;
   const totalPlats = gastronomie.length;
   const pctTestes = totalPlats > 0 ? (totalTestes / totalPlats) * 100 : 0;
 
   // ─── FILTRES ACTIFS ─────────────────────────────────
-  // On construit un tableau des filtres actifs (= ≠ "Tous") avec un libellé
-  // et une fonction pour les retirer individuellement
   const filtresActifs = [];
   if (paysActif !== 'Tous') {
-    filtresActifs.push({
-      cle: 'pays',
-      libelle: paysActif,
-      retirer: () => setPaysActif('Tous'),
-    });
+    filtresActifs.push({ cle: 'pays', libelle: paysActif, retirer: () => setPaysActif('Tous') });
   }
   if (typeActif !== 'Tous') {
-    filtresActifs.push({
-      cle: 'type',
-      libelle: typeActif,
-      retirer: () => setTypeActif('Tous'),
-    });
+    filtresActifs.push({ cle: 'type', libelle: typeActif, retirer: () => setTypeActif('Tous') });
   }
   if (statutActif !== 'Tous') {
     filtresActifs.push({
@@ -98,7 +95,7 @@ function Gastronomie() {
         <span className="text-sm">Retour</span>
       </Link>
 
-      {/* En-tête : titre + compteur */}
+      {/* En-tête */}
       <div className="flex items-end justify-between mb-2">
         <div>
           <h1 className="text-3xl font-serif text-terra-900 leading-tight">
@@ -120,14 +117,13 @@ function Gastronomie() {
       {/* Barre de progression */}
       <div className="h-1 bg-terra-100 rounded-sm overflow-hidden mb-4">
         <div
-          className="h-full bg-terra-500 rounded-sm"
+          className="h-full bg-terra-500 rounded-sm transition-[width] duration-500"
           style={{ width: `${pctTestes}%` }}
         />
       </div>
 
-      {/* ─── Recherche + bouton filtres ─── */}
+      {/* Recherche + bouton filtres */}
       <div className="flex gap-2 mb-2">
-        {/* Champ de recherche */}
         <div className="flex-1 flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2">
           <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
           <input
@@ -147,7 +143,6 @@ function Gastronomie() {
           )}
         </div>
 
-        {/* Bouton filtres avec pastille si actifs */}
         <button
           onClick={() => setFiltresOuverts((v) => !v)}
           className={`relative px-3 rounded-xl border flex items-center justify-center flex-shrink-0 ${
@@ -158,14 +153,13 @@ function Gastronomie() {
           aria-label="Filtres"
         >
           <SlidersHorizontal className="w-4 h-4" strokeWidth={2} />
-          {/* Pastille rouge si filtres actifs ET panneau replié */}
           {aFiltresActifs && !filtresOuverts && (
             <span className="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-red-400 border border-terra-50" />
           )}
         </button>
       </div>
 
-      {/* ─── Barre de filtres actifs (visible seulement s'il y en a) ─── */}
+      {/* Filtres actifs (badges) */}
       {aFiltresActifs && !filtresOuverts && (
         <div className="flex gap-1.5 mb-3 flex-wrap">
           {filtresActifs.map(({ cle, libelle, retirer }) => (
@@ -181,15 +175,11 @@ function Gastronomie() {
         </div>
       )}
 
-      {/* ─── Panneau de filtres (visible si déployé) ─── */}
+      {/* Panneau de filtres */}
       {filtresOuverts && (
         <div className="bg-terra-100 border border-terra-border rounded-xl p-3 mb-3">
-
-          {/* Filtres PAYS */}
           <div className="mb-3">
-            <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-1.5">
-              Pays
-            </div>
+            <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-1.5">Pays</div>
             <div className="flex gap-1.5 flex-wrap">
               {['Tous', ...PAYS].map((pays) => {
                 const actif = pays === paysActif;
@@ -197,11 +187,9 @@ function Gastronomie() {
                   <button
                     key={pays}
                     onClick={() => setPaysActif(pays)}
-                    className={
-                      actif
-                        ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
-                        : 'px-3 py-1 rounded-full text-xs bg-terra-50 text-terra-muted border border-terra-border'
-                    }
+                    className={actif
+                      ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                      : 'px-3 py-1 rounded-full text-xs bg-terra-50 text-terra-muted border border-terra-border'}
                   >
                     {pays}
                   </button>
@@ -210,11 +198,8 @@ function Gastronomie() {
             </div>
           </div>
 
-          {/* Filtres TYPE */}
           <div className="mb-3">
-            <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-1.5">
-              Type
-            </div>
+            <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-1.5">Type</div>
             <div className="flex gap-1.5 flex-wrap">
               {['Tous', ...TYPES_PLATS].map((type) => {
                 const actif = type === typeActif;
@@ -222,11 +207,9 @@ function Gastronomie() {
                   <button
                     key={type}
                     onClick={() => setTypeActif(type)}
-                    className={
-                      actif
-                        ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
-                        : 'px-3 py-1 rounded-full text-xs bg-terra-50 text-terra-muted border border-terra-border'
-                    }
+                    className={actif
+                      ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                      : 'px-3 py-1 rounded-full text-xs bg-terra-50 text-terra-muted border border-terra-border'}
                   >
                     {type}
                   </button>
@@ -235,11 +218,8 @@ function Gastronomie() {
             </div>
           </div>
 
-          {/* Filtres STATUT */}
           <div>
-            <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-1.5">
-              Statut
-            </div>
+            <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-1.5">Statut</div>
             <div className="flex gap-1.5 flex-wrap">
               {[
                 { cle: 'Tous', libelle: 'Tous' },
@@ -251,11 +231,9 @@ function Gastronomie() {
                   <button
                     key={cle}
                     onClick={() => setStatutActif(cle)}
-                    className={
-                      actif
-                        ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
-                        : 'px-3 py-1 rounded-full text-xs bg-terra-50 text-terra-muted border border-terra-border'
-                    }
+                    className={actif
+                      ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                      : 'px-3 py-1 rounded-full text-xs bg-terra-50 text-terra-muted border border-terra-border'}
                   >
                     {libelle}
                   </button>
@@ -266,13 +244,13 @@ function Gastronomie() {
         </div>
       )}
 
-      {/* Compteur de résultats */}
+      {/* Compteur */}
       <div className="text-xs text-terra-muted mb-3">
         {resultats.length} plat{resultats.length !== 1 ? 's' : ''}
         {rechercheNorm && ` pour « ${recherche} »`}
       </div>
 
-      {/* Liste des plats */}
+      {/* Liste */}
       {resultats.length === 0 ? (
         <div className="text-center py-8 text-terra-muted text-sm">
           Aucun plat ne correspond
@@ -282,8 +260,8 @@ function Gastronomie() {
           <CartePlat
             key={plat.nom}
             plat={plat}
-            teste={platsTestes.has(plat.nom)}
-            onToggle={() => toggleTeste(plat.nom)}
+            avis={avisDe(plat.nom)}
+            onAjouter={ajouterAvis}
           />
         ))
       )}

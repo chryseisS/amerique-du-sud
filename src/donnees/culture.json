@@ -1,0 +1,117 @@
+[
+  {
+    "id": "histoire-civilisations",
+    "titre": "Histoire & civilisations",
+    "themes": [
+      {
+        "id": "incas",
+        "titre": "Les Incas",
+        "sousTitre": null,
+        "fichier": "incas",
+        "image" : "/images/themes/incas.jpg"
+      },
+      {
+        "id": "conquete",
+        "titre": "La conquête espagnole",
+        "sousTitre": "Pizarro et l'effondrement",
+        "fichier": "conquete",
+        "image" :null
+      },
+      {
+        "id": "coloniale",
+        "titre": "L'époque coloniale",
+        "sousTitre": "Trois siècles oubliés",
+        "fichier": "coloniale",
+        "image" :null
+      },
+      {
+        "id": "independances",
+        "titre": "Les indépendances",
+        "sousTitre": "Bolívar, San Martín",
+        "fichier": "independances",
+        "image" :null
+      }
+    ]
+  },
+  {
+    "id": "histoire-recente",
+    "titre": "Histoire récente",
+    "themes": [
+      {
+        "id": "dictatures",
+        "titre": "Les dictatures",
+        "sousTitre": "XXe siècle, mémoires vives",
+        "fichier": "dictatures",
+        "image" :null
+      },
+      {
+        "id": "guerre-pacifique",
+        "titre": "La guerre du Pacifique",
+        "sousTitre": "Pourquoi la Bolivie n'a plus la mer",
+        "fichier": "guerre-pacifique",
+        "image" :null
+      }
+    ]
+  },
+  {
+    "id": "nature-geographie",
+    "titre": "Nature & géographie",
+    "themes": [
+      {
+        "id": "amazonie",
+        "titre": "L'Amazonie",
+        "sousTitre": "Forêt, peuples, enjeux",
+        "fichier": "amazonie",
+        "image" :null
+      },
+      {
+        "id": "andes",
+        "titre": "Les Andes",
+        "sousTitre": "Géographie et civilisation",
+        "fichier": "andes",
+        "image" :null
+      },
+      {
+        "id": "patagonie",
+        "titre": "La Patagonie",
+        "sousTitre": "Glaciers, vent, bout du monde",
+        "fichier": "patagonie",
+        "image" :null
+      }
+    ]
+  },
+  {
+    "id": "culture-vivante",
+    "titre": "Culture vivante",
+    "themes": [
+      {
+        "id": "coca",
+        "titre": "La feuille de coca",
+        "sousTitre": "Sacrée et controversée",
+        "fichier": "coca",
+        "image" :null
+      },
+      {
+        "id": "musique-andine",
+        "titre": "La musique andine",
+        "sousTitre": "Du charango à la cumbia",
+        "fichier": "musique-andine",
+        "image" :null
+      },
+      {
+        "id": "quechua",
+        "titre": "Le quechua",
+        "sousTitre": "8 millions de locuteurs",
+        "fichier": "quechua",
+        "image" :null
+      },
+      {
+        "id": "syncretisme",
+        "titre": "Catholicisme & syncrétisme",
+        "sousTitre": "La Pachamama dans une messe",
+        "fichier": "syncretisme",
+        "image" :null
+      }
+    ]
+  }
+]

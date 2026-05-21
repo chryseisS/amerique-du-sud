@@ -3,28 +3,44 @@
     "numero": 1,
     "nom": "Lama",
     "emoji": "🦙",
-    "photo": null,
-    "habitats": ["altiplano"],
+    "photo": "lama.png",
     "rarete": 1,
-    "ouLeTrouver": ["Cuzco", "Vallée Sacrée", "Machu Picchu", "Altiplano bolivien"],
+    "ouLeTrouver": [
+      "Cuzco",
+      "Vallée Sacrée",
+      "Machu Picchu",
+      "Altiplano bolivien"
+    ],
     "reconnaitre": "Grand camélidé domestiqué, jusqu'à 1,80 m au garrot, 130 à 200 kg. Tête allongée, oreilles incurvées en banane, laine épaisse et grossière. Plus grand que l'alpaga, démarche fière, regard hautain. Souvent harnaché ou orné de pompons colorés près des sites touristiques.",
     "anecdoteCourte": "Il crache, mais seulement quand il est vraiment vexé. Sinon, il vous dévisage avec un calme royal de 6 000 ans.",
     "sections": [
       {
         "titre": "Histoire & rôle culturel",
-        "contenu": "Le lama est domestiqué depuis plus de 6 000 ans dans les Andes, ce qui en fait l'un des plus anciens animaux domestiqués des Amériques. Pour les peuples préincaïques puis pour les Incas, il était la pièce maîtresse de la civilisation : bête de somme capable de transporter 30 kg sur les cols escarpés à 4 500 m d'altitude, fournisseur de laine pour les textiles courants, source de viande, de cuir pour les cordes, et même de combustible (les excréments séchés brûlent). Sa présence a permis aux Incas de développer un empire long de 4 000 km sans connaître la roue ni le cheval.\n\nDans la cosmologie andine, le lama est lié à la pluie : on croyait que les lamas noirs pleuraient pour appeler l'eau pendant les sécheresses. Aujourd'hui encore, certaines cérémonies à la Pachamama (déesse-Terre) incluent des offrandes liées au lama."
+        "contenu": "Le lama est domestiqué depuis plus de 6 000 ans dans les Andes, à partir du guanaco, ce qui en fait l'un des plus anciens animaux domestiqués des Amériques. Pour les peuples préincaïques puis pour les Incas, il était la pièce maîtresse de la civilisation : bête de somme capable de transporter 30 kg sur les cols escarpés à 4 500 m d'altitude, fournisseur de laine pour les textiles courants, source de viande, de cuir pour les cordes, et même de combustible (les excréments séchés brûlent). Sa présence a permis aux Incas de développer un empire long de 4 000 km sans connaître la roue ni le cheval.\n\nDans la cosmologie andine, le lama est lié à la pluie : on croyait que les lamas noirs pleuraient pour appeler l'eau pendant les sécheresses. Aujourd'hui encore, certaines cérémonies à la Pachamama (déesse-Terre) incluent des offrandes liées au lama."
       },
       {
         "titre": "Lama, alpaga, vigogne, guanaco — comment ne plus se tromper",
-        "contenu": "Les quatre cousins sont souvent confondus, mais ils se distinguent vite avec un peu d'œil :\n\n• Lama — le plus grand (1,80 m), domestiqué, oreilles en banane, laine grossière, allure fière. C'est lui qui porte les charges.\n• Alpaga — plus petit (90 cm), domestiqué, visage tout rond et touffu façon peluche, laine très fine. Élevé pour la laine, pas pour le portage.\n• Vigogne — sauvage, fine et élancée, couleur cannelle uniforme, allure de gazelle. Vit en altitude (3 500-4 800 m). Très craintive.\n• Guanaco — sauvage, plus grand que la vigogne, visage sombre, beaucoup en Patagonie où il broute en grands troupeaux.\n\nTruc mnémotechnique : lama = camion, alpaga = peluche, vigogne = gazelle, guanaco = patagon."
+        "contenu": "Les quatre cousins sont souvent confondus, mais ils se distinguent vite avec un peu d'œil :\n\n• Lama — le plus grand (1,80 m), domestiqué, oreilles en banane, laine grossière, allure fière. C'est lui qui porte les charges.\n• Alpaga — plus petit (90 cm), domestiqué, visage tout rond et touffu façon peluche, laine très fine. Élevé pour la laine, pas pour le portage.\n• Vigogne — sauvage, fine et élancée, couleur cannelle uniforme, allure de gazelle. Vit en altitude (3 500-4 800 m). Très craintive.\n• Guanaco — sauvage, plus grand que la vigogne, visage sombre, beaucoup en Patagonie où il broute en grands troupeaux."
       },
       {
         "titre": "Comportement & vie quotidienne",
-        "contenu": "Le lama vit en troupeau hiérarchique avec un mâle dominant. Il communique par une grande variété de sons : grognements, hennissements aigus, ronflements. Quand il se sent menacé ou agacé, il abaisse les oreilles, gonfle les joues, et finit parfois par cracher — un mélange de salive et de contenu stomacal qui sent fort, mais qu'il réserve aux conflits sérieux (avec d'autres lamas plus qu'avec les humains).\n\nIl marche au pas, à 6-8 km/h, et peut couvrir 25-30 km par jour avec une charge. Si on le surcharge, il s'assoit purement et simplement et refuse d'avancer — un trait que les muletiers andins connaissent bien et qui a forgé la réputation têtue de l'animal."
+        "contenu": "Le lama est un animal social qui ne s'épanouit qu'en groupe. Dans un troupeau, la hiérarchie est permanente et clairement négociée : un mâle dominant contrôle l'accès aux femelles et aux ressources, tandis que les autres membres connaissent précisément leur rang. Cette organisation n'est pas figée — elle se reconfigure régulièrement, notamment en saison de reproduction, quand les mâles entrent en compétition. Les confrontations restent cependant rarement physiques : les lamas préfèrent une escalade de signaux avant d'en venir aux coups."
+      },
+      {
+        "titre": "Un répertoire de communication très riche",
+        "contenu": "Contrairement à ce qu'on imagine, le lama est loin d'être silencieux. Il dispose d'un vocabulaire sonore étendu : un fredonnement doux et régulier (le humming) qui exprime le calme ou la curiosité, des cris aigus de détresse quand il est séparé du troupeau, des gloussements gutturaux lors des interactions sociales, et un hennissement strident — le wark — réservé aux alertes et aux situations de vraie peur. Les éleveurs apprennent vite à distinguer ces sons, car ils renseignent précisément sur l'état émotionnel de l'animal.\n\nLe corps parle autant que la voix. Les oreilles sont un baromètre : dressées, l'animal est attentif ; couchées en arrière, il est irrité ou soumis selon le contexte. La queue relevée signale l'excitation. Et quand un lama fixe un congénère en baissant lentement la tête, c'est un défi à peine voilé. Le crachat — mélange de salive et de contenu stomacal — est le dernier recours de cette communication : il est réservé aux conflits sérieux entre lamas, généralement autour de la nourriture ou du rang, et est beaucoup plus rare envers les humains qu'on ne le croit."
+      },
+      {
+        "titre": "Un marcheur économe et têtu",
+        "contenu": "Sur le terrain, le lama se déplace au pas, à 6-8 km/h, avec une régularité métronomique. Il peut couvrir 25 à 30 km par jour avec une charge de 25 à 30 kg — soit environ 25 à 30 % de son poids corporel. Au-delà, il refuse net : il s'assoit, croise les jambes sous lui, et aucune force au monde ne le fera repartir avant qu'on allège son bât. Ce n'est pas de l'entêtement au sens négatif — c'est un mécanisme de protection physiologique que les muletiers andins respectent depuis des millénaires. En altitude, cette limite est vitale : un animal épuisé à 4 500 m ne récupère pas facilement.\n\nSes pieds sont remarquablement adaptés à ce rôle. Là où un cheval ou un mulet abîmerait les sols fragiles des chemins incas avec ses sabots durs, le lama repose sur deux orteils munis de coussinets souples, qui lui donnent une adhérence naturelle sur les pentes rocailleuses et n'érodent pas les terrasses agricoles. C'est en partie pour cela que les Incas n'ont jamais cherché à le remplacer par des équidés."
+      },
+      {
+        "titre": "Le rapport aux humains",
+        "contenu": "Le lama domestiqué depuis l'enfance accepte facilement la présence humaine, mais il garde une forme de distance digne qui le distingue d'un chien ou même d'un cheval. Il ne cherche pas le contact pour le contact — il le tolère, parfois l'apprécie, mais à ses conditions. Un lama mal socialisé ou approché trop brusquement réagira par des oreilles couchées, un recul, ou dans les cas extrêmes un crachat. Près des sites touristiques, les lamas habitués aux visiteurs sont souvent très calmes — mais ce calme apparent masque un animal qui évalue en permanence la situation. Évitez de les approcher par derrière et de les toucher sur la tête : c'est systématiquement mal vécu."
       },
       {
         "titre": "Le saviez-vous ?",
-        "contenu": "• Au Machu Picchu, une vingtaine de lamas paissent en liberté sur le site, en partie pour entretenir l'herbe sur les terrasses.\n• Le lama n'a pas de sabots mais des coussinets souples avec deux orteils, ce qui lui permet de marcher sans abîmer les sols fragiles d'altitude.\n• Il existe une vraie filière \"lama-thérapie\" : les lamas sont parfois utilisés comme animaux de soutien émotionnel en hôpital, parce qu'ils sont calmes et dégagent peu d'allergènes.\n• Sa langue est si courte qu'il ne peut pas la sortir — au lieu de lécher, il aspire l'eau."
+        "contenu": "• Au Machu Picchu, une vingtaine de lamas paissent en liberté sur le site, en partie pour entretenir l'herbe sur les terrasses.\n• Il existe une vraie filière \"lama-thérapie\" : les lamas sont parfois utilisés comme animaux de soutien émotionnel en hôpital, parce qu'ils sont calmes et dégagent peu d'allergènes.\n• Sa langue est si courte qu'il ne peut pas la sortir — au lieu de lécher, il aspire l'eau."
       }
     ]
   },
@@ -32,12 +48,606 @@
     "numero": 2,
     "nom": "Alpaga",
     "emoji": "🦙",
-    "photo": null,
+    "photo": "alpaga.png",
     "habitats": ["altiplano"],
     "rarete": 1,
-    "ouLeTrouver": ["Cuzco", "Vallée Sacrée", "Puno", "Altiplano bolivien"],
-    "reconnaitre": "Plus petit que le lama (90 cm au garrot), visage rond et touffu façon peluche, laine très fine et abondante qui lui donne une silhouette dodue. Souvent élevé en troupeau pour sa laine.",
-    "anecdoteCourte": "Sa laine est l'une des plus douces au monde, sans la rareté ni le prix dément de celle de la vigogne.",
-    "sections": []
+    "ouLeTrouver": [
+      "Cuzco",
+      "Vallée Sacrée",
+      "Puno",
+      "Altiplano bolivien",
+      "Arequipa"
+    ],
+    "reconnaitre": "Plus petit que le lama (90 cm au garrot, 55 à 80 kg), visage rond et touffu façon peluche, laine très fine et abondante qui lui donne une silhouette dodue. Museau court, oreilles droites et pointues (pas en banane comme le lama). Existe en deux variétés : le Huacaya (toison bouclée et dense, le plus commun) et le Suri (laine longue et soyeuse qui tombe en mèches plates, plus rare).",
+    "anecdoteCourte": "Sa laine est l'une des plus douces au monde — sans lanoline, donc hypoallergénique — et la première tonte d'un jeune alpaga, le 'baby alpaca', est si fine qu'elle rivalise avec le cachemire.",
+    "sections": [
+      {
+        "titre": "Histoire & rôle culturel",
+        "contenu": "L'alpaga est domestiqué depuis environ 6 000 ans dans les Andes, à partir de la vigogne sauvage. Contrairement au lama, il n'a jamais été utilisé comme bête de somme : sa vocation exclusive, depuis l'origine, est la production de laine. Pour les Incas, la laine d'alpaga fine (la 'qompi') était un matériau de luxe réservé à la noblesse et aux cérémonies religieuses. Le reste de la population portait de la laine de lama, bien plus grossière.\n\nAujourd'hui, le Pérou produit environ 80 % de la laine d'alpaga mondiale, la Bolivie et le Chili se partageant l'essentiel du reste. Arequipa est la capitale mondiale de la transformation : c'est là que la majorité de la fibre brute est triée, filée et exportée vers l'Europe et l'Asie."
+      },
+      {
+        "titre": "Huacaya ou Suri — les deux visages de l'alpaga",
+        "contenu": "Il existe deux races d'alpaga, très différentes d'aspect :\n\n• Huacaya — le plus répandu (environ 90 % des effectifs mondiaux). Sa toison est dense, bouclée et perpendiculaire au corps, ce qui lui donne l'allure d'une peluche gonflée. C'est lui qu'on voit partout sur les marchés et sites touristiques.\n• Suri — beaucoup plus rare (moins de 10 %). Sa laine pousse en longues mèches plates et soyeuses qui tombent le long du corps comme des dreadlocks. Il est plus difficile à trouver dans la nature mais sa laine est encore plus fine et brillante que celle du Huacaya.\n\nSi tu en vois un avec une coiffure qui tombe sur les yeux comme un rideau de soie, c'est un Suri — note-le, c'est un coup de chance."
+      },
+      {
+        "titre": "Comportement & vie quotidienne",
+        "contenu": "L'alpaga est un animal grégaire et anxieux : séparé de son troupeau, il stresse rapidement et peut cesser de s'alimenter. Il est plus craintif que le lama, moins enclin au contact avec les humains, et se laisse approcher avec moins de facilité. Dans un troupeau, il communique par une gamme de sons proches de ceux du lama : fredonnements doux pour le calme, cris aigus pour l'alarme. Il peut aussi cracher, mais le fait moins volontiers que son grand cousin.\n\nIl est tenu à des altitudes entre 3 500 et 5 000 m, dans des zones de puna (haute prairie andine) où il broute des graminées résistantes au froid. Sa toison pousse d'environ 5 à 15 cm par an et est tondue une fois par an, généralement avant la saison des pluies."
+      },
+      {
+        "titre": "Vie avec le lama — une cohabitation millénaire",
+        "contenu": "L'alpaga et le lama vivent souvent ensemble dans les mêmes élevages andins, mais leurs rôles sont complémentaires et leurs tempéraments opposés. L'alpaga, plus craintif et docile, est l'animal de laine par excellence. Le lama, plus grand, plus robuste et plus combatif, est naturellement utilisé comme gardien : sa présence dans un troupeau d'alpagas suffit à dissuader les prédateurs — renards, pumas, chiens errants. C'est une pratique millénaire qui n'a rien perdu de son efficacité.\n\nIls n'occupent pas tout à fait le même étage : l'alpaga préfère les zones entre 3 500 et 5 000 m, là où la puna est humide et l'herbe abondante. Le lama descend plus volontiers, dès 2 500 m, et supporte des terrains plus secs et rocheux. Entre 3 500 et 4 000 m, les deux cohabitent souvent dans les mêmes pâturages.\n\nAutre particularité partagée : les deux espèces font leurs besoins collectivement au même endroit, dans ce qu'on appelle un 'latrine communale'. Tout le troupeau utilise le même coin, instinctivement, ce qui limite la propagation des parasites dans les pâturages. Les éleveurs andins ont appris à en tirer parti depuis longtemps — le fumier collecté est un engrais précieux et un combustible de choix en altitude, où le bois est rare."
+      },
+      {
+        "titre": "La laine : ce qu'il faut savoir pour ne pas se faire avoir",
+        "contenu": "Sur les marchés de Cuzco ou Puno, les vendeurs affichent fièrement 'baby alpaca', '100% alpaca', parfois 'vicuña'. La réalité est souvent plus nuancée.\n\n• '100% alpaca' — peut être vrai, mais la qualité varie énormément selon la partie du corps tondue et l'âge de l'animal.\n• 'Baby alpaca' — ne désigne pas un bébé alpaga, mais la première ou deuxième tonte, qui produit les fibres les plus fines (moins de 22 microns). C'est réel et supérieur, mais le terme est souvent galvaudé.\n• 'Royal alpaca' — fibres sous 19 microns, très rares, prix élevé justifié.\n• Méfie-toi des prix trop bas : un vrai pull en alpaga de qualité ne coûte pas 10 soles. En dessous d'un certain prix, c'est probablement un mélange avec de l'acrylique.\n\nTest simple sur les marchés : frotte le tissu contre ta joue. La vraie laine d'alpaga est douce sans piquer. Si ça gratte légèrement, il y a du synthétique."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• La laine d'alpaga ne contient pas de lanoline (la substance grasse présente dans la laine de mouton), ce qui la rend naturellement hypoallergénique.\n• Il existe plus de 22 couleurs naturelles reconnues dans la laine d'alpaga, du blanc pur au noir en passant par tous les marrons — c'est l'une des fibres animales offrant la plus grande palette naturelle sans teinture.\n• L'alpaga reconnaît les membres de son troupeau individuellement et peut s'attacher à des animaux d'autres espèces — certains éleveurs les utilisent comme gardiens de troupeaux de moutons, car leur présence calme les brebis.\n• Au Pérou, la fête de la tonte (la 'esquila') est encore célébrée dans certains villages avec des rituels de remerciement à la Pachamama avant de couper la laine."
+      }
+    ]
+  },
+  {
+    "numero": 3,
+    "nom": "Vigogne",
+    "emoji": "🦙",
+    "photo": "vigogne.png",
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Altiplano bolivien",
+      "Sud Lipez",
+      "Altiplano péruvien",
+      "Nord Chili"
+    ],
+    "reconnaitre": "Le plus petit et le plus élancé des camélidés (80 cm au garrot, 40 à 60 kg). Silhouette fine comme une gazelle, pelage cannelle uniforme sur le dos, ventre blanc crème, une touffe de longs poils blancs sur la poitrine. Tête petite, yeux immenses et expressifs, oreilles pointues. Toujours sauvage — jamais harnaché ni orné de pompons. Se déplace en petits groupes nerveux, fuit au trot dès qu'on s'approche à pied.",
+    "anecdoteCourte": "Sa laine est si fine (12 microns, deux fois moins qu'un cheveu humain) que seul l'Empereur Inca avait le droit d'en porter. Aujourd'hui, un kilo de fibre brute vaut plusieurs centaines d'euros.",
+    "sections": [
+      {
+        "titre": "Histoire & statut de conservation",
+        "contenu": "La vigogne a failli disparaître. Estimée à 2 millions d'individus à l'époque inca — qui la tondaient vivante lors de grandes chasses cérémonielles appelées 'chaku' avant de la relâcher — elle a été massacrée après la conquête espagnole, chassée pour sa viande et sa peau. En 1960, il n'en restait que 6 000 individus sur tout le continent. L'espèce était au bord de l'extinction.\n\nUne série de lois de protection et un accord international signé en 1979 entre le Pérou, la Bolivie, le Chili, l'Argentine et l'Équateur ont permis un redressement spectaculaire. Aujourd'hui, la population dépasse 350 000 individus et l'espèce est classée 'préoccupation mineure' par l'UICN. C'est l'un des grands succès de conservation d'Amérique du Sud — mais le braconnage reste une menace réelle, car sa laine vaut de l'or."
+      },
+      {
+        "titre": "La laine la plus fine du monde",
+        "contenu": "La fibre de vigogne mesure environ 12 microns de diamètre — soit deux fois moins qu'un cheveu humain, et plus fine que le cachemire ou même le mohair. Seule la soie est plus fine parmi les fibres naturelles. Cette finesse extrême lui confère une douceur et une légèreté incomparables, ainsi qu'une thermorégulation remarquable : un manteau en vigogne est chaud sans être lourd.\n\nDepuis les Incas jusqu'à aujourd'hui, la vigogne n'a jamais été domestiquée : elle vit sauvage et est trop nerveuse pour être gardée en troupeau. Sa laine est donc récoltée lors des 'chakkus' — grandes chasses communautaires où des centaines de personnes forment une chaîne humaine pour encercler doucement les animaux, les tondre, puis les relâcher. Un animal ne peut être tondu qu'une fois tous les deux ans, et produit environ 200 grammes de fibre par tonte.\n\nRésultat : un manteau en vigogne nécessite la tonte d'une vingtaine d'animaux et coûte plusieurs milliers d'euros."
+      },
+      {
+        "titre": "Comportement & vie sociale",
+        "contenu": "La vigogne vit en petits groupes familiaux : un mâle dominant, deux à cinq femelles et leurs petits. Le mâle est très territorial — il défend un espace de pâturage et un territoire de repos séparés, parfois distants de plusieurs kilomètres, qu'il parcourt chaque jour. Les mâles sans territoire forment des groupes de célibataires, parfois plusieurs dizaines d'individus, qui cherchent constamment à déloger un mâle établi.\n\nElle est dotée d'une vue et d'une ouïe exceptionnelles — indispensables à cette altitude où les prédateurs (puma, renard andin) peuvent surgir de loin. Quand elle détecte un danger, elle émet un sifflement strident qui alerte tout le groupe, puis part au trot rapide. Avec un peu de patience en voiture ou en restant immobile, elle peut s'approcher à 20-30 mètres — elle a appris à distinguer les humains à pied (danger) des véhicules (moins menaçants).\n\nCuriosité anatomique : ses incisives poussent en continu tout au long de sa vie, comme chez les rongeurs — une adaptation pour brouter les graminées dures et abrasives de la puna en haute altitude."
+      },
+      {
+        "titre": "Où et comment l'observer",
+        "contenu": "La vigogne vit exclusivement entre 3 200 et 5 500 m d'altitude, dans la puna et l'altiplano. Elle ne descend pas en ville et ne se trouve pas sur les sites touristiques comme le lama — il faut aller la chercher."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• La vigogne est l'animal emblème du Pérou — elle figure sur le blason national aux côtés de l'arbre de quinquina et de la corne d'abondance.\n• Elle est l'un des rares animaux capables de boire de l'eau légèrement salée, une adaptation précieuse dans les zones de lagunes salées de l'altiplano.\n• L'alpaga est une vigogne domestiquée : c'est une étude génétique de 2001 qui l'a confirmé, renversant deux siècles de classification erronée qui rangeait l'alpaga du côté du guanaco.\n• Un groupe de vigognes au pâturage est un indicateur écologique de premier plan : leur présence signale une puna en bonne santé, avec une herbe suffisamment abondante et un équilibre prédateurs-proies maintenu."
+      }
+    ]
+  },
+  {
+    "numero": 4,
+    "nom": "Guanaco",
+    "emoji": "🦙",
+    "photo": "guanaco.png",
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Patagonie chilienne",
+      "Patagonie argentine",
+      "Terre de Feu",
+      "Nord Chili",
+      "Altiplano péruvien"
+    ],
+    "reconnaitre": "Taille intermédiaire entre la vigogne et le lama (1,10 m au garrot, 90 à 140 kg). Dos et flancs brun-roux, ventre et intérieur des pattes blanc crème, museau sombre grisâtre — ce contraste de couleurs est sa marque distinctive. Pattes longues et fines, allure athlétique. Toujours sauvage, jamais harnaché. En Patagonie, se déplace en grands troupeaux dans la steppe ouverte et balayée par le vent. Souvent confondu avec le lama par les voyageurs qui n'en attendent pas là.",
+    "anecdoteCourte": "À Torres del Paine, les guanacos ont appris à tolérer les voitures comme s'ils étaient invisibles — mais qu'un humain descende à pied à 200 mètres, et tout le troupeau déguerpit en 10 secondes.",
+    "sections": [
+      {
+        "titre": "Le plus polyvalent des camélidés",
+        "contenu": "Le guanaco est de loin le camélidé le plus adaptable d'Amérique du Sud. Là où la vigogne ne quitte pas la puna d'altitude et l'alpaga a besoin de prairie humide, le guanaco prospère du niveau de la mer jusqu'à 5 000 m, des déserts côtiers de l'Atacama aux forêts subpolaires de Terre de Feu, en passant par les steppes venteuses de Patagonie et les hauts plateaux andins. Aucun autre camélidé ne couvre une telle gamme d'environnements.\n\nCette flexibilité tient en partie à sa physiologie : son sang contient une concentration inhabituellement élevée de globules rouges, ce qui lui permet d'extraire efficacement l'oxygène aussi bien à 4 500 m dans les Andes que dans les plaines côtières. Certaines populations sont sédentaires, d'autres migrent saisonnièrement — descendant en altitude pour éviter les neiges d'hiver, remontant en été quand les pâturages se dessèchent en bas."
+      },
+      {
+        "titre": "Vie sociale & comportement",
+        "contenu": "Le guanaco est un animal grégaire qui vit en deux types de groupes distincts. Les groupes familiaux rassemblent un mâle dominant, plusieurs femelles et leurs petits — les 'chulengos', nés capables de courir presque immédiatement. Les groupes de célibataires regroupent les jeunes mâles exclus du groupe familial, qui s'entraînent entre eux en jouant à se poursuivre et à se bousculer — une préparation directe aux combats futurs pour conquérir un territoire.\n\nQuand il détecte un danger, le guanaco émet un sifflement d'alarme aigu qui alerte tout le troupeau, puis part au galop à jusqu'à 60 km/h. Sa vue et son ouïe sont remarquables : en terrain ouvert comme la steppe patagonienne, il repère un prédateur à plusieurs centaines de mètres. Les jeunes apprennent progressivement à estimer la 'distance de sécurité' vis-à-vis du puma — généralement 200 à 300 mètres — à travers leurs jeux de poursuite."
+      },
+      {
+        "titre": "Le guanaco et le puma — une relation millénaire",
+        "contenu": "En Patagonie, le guanaco est la proie principale du puma. Cette relation prédateur-proie est l'une des mieux documentées du continent — Torres del Paine est devenu un laboratoire naturel mondial pour l'étudier, avec environ 3 000 guanacos et une population de pumas parmi les plus observables au monde.\n\nLe puma chasse principalement les vieux, les malades et les jeunes chulengos. Cette sélection naturelle maintient les troupeaux en bonne santé et évite le surpâturage. Inversement, la présence du puma influence directement le comportement des guanacos : leurs routes de déplacement, leurs zones de pâturage, l'organisation de la vigilance dans le groupe.\n\nParadoxalement, supprimer le puma aggrave souvent la situation des éleveurs qui l'ont éliminé. Sans prédateur, les populations de guanacos explosent et ne sont plus régulées — les vieux, les malades, les individus faibles survivent au lieu d'être prélevés. Le surpâturage s'installe : trop de guanacos sur le même territoire rasent les graminées, érodent le sol, et appauvrissent l'écosystème. Les guanacos cessent aussi de se déplacer — sans puma pour les pousser à bouger, ils stationnent sur les mêmes zones jusqu'à les épuiser. Résultat : les éleveurs ovins qui ont chassé le puma pour protéger leurs moutons se retrouvent avec une compétition encore plus forte sur les pâturages. Torres del Paine, où le puma est strictement protégé depuis des décennies, a aujourd'hui une végétation et une faune en bien meilleur état que les estancias voisines où il a été éradiqué — une leçon que la Patagonie est encore en train d'apprendre."
+      },
+      {
+        "titre": "Ne pas le confondre avec le lama",
+        "contenu": "C'est l'erreur classique du voyageur : voir un grand camélidé brun en liberté en Patagonie et l'appeler 'lama'. Mais le lama domestique ne vit pas en Patagonie — ce que tu vois là-bas, c'est presque certainement un guanaco.\n\nLes différences sont nettes une fois qu'on les connaît :\n• Guanaco — sauvage, museau sombre, ventre blanc bien contrasté, jamais harnaché, se déplace en troupeaux rapides dans la steppe.\n• Lama — domestiqué, museau clair, souvent orné de pompons ou de harnais, présent près des villages et sites touristiques des Andes du nord.\n\nAutre point de confusion fréquent dans les Andes du nord : la vigogne, qui ressemble au guanaco mais est plus petite, plus fine, de couleur cannelle uniforme sans le ventre blanc, et vit à plus haute altitude."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le guanaco est l'ancêtre sauvage du lama — domestiqué il y a 6 000 ans dans les Andes centrales, probablement au Pérou ou en Bolivie, à partir de populations de guanacos capturés.\n• Il ne boit presque pas d'eau — il tire l'essentiel de son hydratation des plantes qu'il mange, une adaptation cruciale dans les zones arides comme l'Atacama ou la steppe sèche.\n• Le chulengo (petit du guanaco) est capable de se lever et de courir en moins d'une heure après sa naissance — une nécessité absolue dans un environnement avec des pumas.\n• Autrefois présent du Pérou à la Terre de Feu en dizaines de millions d'individus, le guanaco a vu ses effectifs chuter de plus de 90 % au XXe siècle à cause de la chasse et de la compétition avec le bétail ovin. La Patagonie reste son dernier grand bastion."
+      }
+    ]
+  },
+  {
+    "numero": 5,
+    "nom": "Condor des Andes",
+    "emoji": "🦅",
+    "photo": "condor.png",
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Canyon du Colca",
+      "Patagonie chilienne",
+      "Patagonie argentine",
+      "Altiplano bolivien",
+      "Nord Chili"
+    ],
+    "reconnaitre": "Impossible à rater : envergure de 3 m à 3,2 m, le plus grand oiseau volant terrestre du monde. Plumage entièrement noir avec une large collerette de plumes blanches autour du cou et des taches blanches sur les ailes. Tête et cou nus, peau gris-rose. Le mâle a une crête charnue rectangulaire sur le dessus du bec — la femelle non. En vol, il plane sans jamais battre des ailes, les rémiges écartées comme des doigts. Se repère de très loin à sa taille et à son vol parfaitement immobile.",
+    "anecdoteCourte": "Un condor adulte peut planer 170 km sans battre une seule fois des ailes — les chercheurs qui lui ont mis un GPS ont mis des semaines à croire leurs propres données.",
+    "sections": [
+      {
+        "titre": "Un vol sans effort",
+        "contenu": "Le condor est trop lourd pour voler à coups d'ailes — il pèse jusqu'à 15 kg, et battre des ailes à cette masse coûterait une énergie considérable. Sa solution : ne presque jamais le faire. Des études GPS ont montré qu'il passe 99 % de son temps de vol à planer, n'utilisant ses ailes que pour décoller. Il exploite les courants thermiques ascendants créés par les reliefs chauffés par le soleil, montant en spirale jusqu'à 6 000 m d'altitude, puis planant sur des dizaines ou centaines de kilomètres en perdant très lentement de l'altitude.\n\nConséquence pratique : le condor n'est actif qu'une fois que le soleil a suffisamment chauffé les parois rocheuses pour créer ces ascendances — généralement pas avant 9h ou 10h du matin. C'est pourquoi au Canyon du Colca, on attend le soleil avant de voir les premiers condors surgir du fond du canyon, portés par les thermiques qui remontent les parois. Le spectacle dure jusqu'à midi environ, puis ils disparaissent quand les conditions changent."
+      },
+      {
+        "titre": "Charognard — et c'est un compliment",
+        "contenu": "Le condor est un vautour : il ne chasse pas, il mange des carcasses. Loin d'être une limitation, c'est une spécialisation écologique remarquable. Sa tête nue lui permet de plonger à l'intérieur des carcasses sans que les plumes ne s'engloutissent de sang et de bactéries. Son système digestif détruit les pathogènes dangereux — anthrax, botulisme, rage — que la plupart des autres animaux ne pourraient pas digérer.\n\nIl localise sa nourriture principalement par la vue, depuis des hauteurs considérables, en surveillant aussi le comportement d'autres charognards plus petits pour trouver une carcasse. Un groupe de condors peut se rassembler sur une même carcasse, dirigé par un mâle dominant appelé l'apu qui goûte en premier. En nettoyant les carcasses rapidement, les condors limitent la propagation des maladies dans l'écosystème — un service sanitaire gratuit et indispensable."
+      },
+      {
+        "titre": "Reproduction : la lenteur comme stratégie",
+        "contenu": "Le condor a une des reproductions les plus lentes du règne animal. La maturité sexuelle n'est atteinte qu'à 6-7 ans. La femelle ne pond qu'un seul œuf tous les deux ans, directement sur une corniche rocheuse inaccessible — le condor ne construit pas de nid. Les deux parents couvent pendant 2 mois, puis nourrissent le poussin pendant encore 6 mois après l'envol. Tout le cycle dépasse un an.\n\nCe n'est pas une faiblesse — c'est une stratégie cohérente avec une longévité exceptionnelle : un condor peut vivre 50 ans en liberté, parfois plus de 75 ans en captivité. Avec autant de temps devant lui, investir massivement dans chaque poussin est plus efficace que d'en produire beaucoup. Le problème, c'est que cette stratégie rend l'espèce extrêmement vulnérable aux pertes accidentelles : la mort d'un adulte reproducteur ne peut pas être compensée rapidement."
+      },
+      {
+        "titre": "Fidèle à vie — et parfois au-delà",
+        "contenu": "Le condor est monogame à vie. Un couple formé reste uni jusqu'à la mort de l'un des deux partenaires — et parfois même après : on a observé des condors qui cessaient de se reproduire après la mort de leur compagnon, restant seuls plutôt que de se réapparier. Pour les biologistes, c'est une catastrophe silencieuse : un seul individu mort peut en stériliser deux, puisque le survivant ne se reproduit plus.\n\nCela rend les empoisonnements particulièrement dévastateurs. Les condors ingèrent régulièrement du plomb présent dans les balles de chasse à l'intérieur des carcasses d'animaux abattus. Quand plusieurs adultes meurent empoisonnés en même temps, c'est toute une génération de couples reproducteurs qui disparaît — et la population met des décennies à s'en remettre."
+      },
+      {
+        "titre": "Symbole sacré des Andes",
+        "contenu": "Pour les peuples andins, le condor n'est pas simplement un oiseau — c'est un messager entre le monde des vivants et celui des dieux, une incarnation du soleil et du vent. Dans la cosmologie andine traditionnelle, il règne sur le Hanan Pacha, le monde d'en haut, aux côtés du serpent (monde souterrain) et du puma (monde terrestre). Son apparition est considérée comme un présage fort, et sa mort comme un mauvais augure pour la communauté.\n\nIl figure sur les armoiries nationales de la Colombie, du Chili, de l'Équateur, de la Bolivie et du Pérou — cinq pays à la fois, un record. Dans certains villages des Andes, la cérémonie du Yawar Fiesta (fête du sang) associait traditionnellement un condor vivant attaché au dos d'un taureau, symbolisant la victoire des Andes sur la conquête espagnole. Le principe : on capture un condor vivant, on l'attache sur le dos d'un taureau, et les deux animaux se battent. Le taureau représente l'Espagne et la conquête, le condor représente les peuples andins. Si le condor survit et résiste — ce qui est généralement le cas car il s'accroche et blesse le taureau — c'est lu comme un symbole de résistance et de victoire des Andes sur le colonisateur. À la fin, le condor est relâché. La pratique tend à disparaître, mais le symbole reste profondément ancré."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le condor prend un bain de soleil chaque matin — pas par plaisir, mais pour réchauffer son corps dont la température a chuté pendant la nuit afin d'économiser l'énergie. Sans ce rituel, il ne peut pas voler.\n• Sa peau nue change de couleur selon son état émotionnel : du gris rosé au repos, elle peut virer au jaune vif lors de la parade nuptiale ou au rouge lors d'un conflit.\n• Il n'a pas de cordes vocales — il ne peut pas chanter ni crier. Il émet uniquement des sifflements et des claquements de bec.\n• La population mondiale est estimée à moins de 7 000 individus sauvages, classés 'vulnérable' par l'UICN. Le Canyon du Colca abrite l'une des populations les plus denses et les plus facilement observables du monde."
+      }
+    ]
+  },
+  {
+    "numero": 7,
+    "nom": "Flamant des Andes",
+    "emoji": "🦩",
+    "photo": "flamingo.png",
+    "habitats": ["altiplano"],
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Salar d'Atacama (Chili)",
+      "Laguna Colorada (Bolivie)",
+      "Sud Lipez (Bolivie)",
+      "Altiplano péruvien",
+      "Nord-ouest Argentine"
+    ],
+    "reconnaitre": "Grand échassier rose à cou très long et bec courbé vers le bas, caractéristique. Dans les Andes, il existe en réalité trois espèces souvent mélangées : le Flamant des Andes (le plus grand, 1,10 m, rose pâle avec tête et cou rose rougeâtre, pattes jaunes — unique), le Flamant de James (plus petit, rose très pâle, pattes rouge brique, bec jaune et noir) et le Flamant du Chili (le plus commun, plumage pâle, pattes gris rosé avec 'genoux' roses). En vol, toutes les espèces montrent des ailes noires contrastant avec le rose du corps.",
+    "anecdoteCourte": "Le rose du flamant n'est pas une couleur naturelle — c'est un pigment alimentaire absorbé en filtrant les algues et crustacés microscopiques. Un flamant nourri sans ces algues devient blanc en quelques mois.",
+    "sections": [
+      {
+        "titre": "Trois espèces, un même lac — comment les distinguer",
+        "contenu": "Dans les Andes, les trois espèces de flamants cohabitent souvent sur les mêmes lagunes, ce qui ravit les ornithologues et perturbe les autres. Voici les clés de reconnaissance :\n\n• Flamant des Andes — le plus grand (jusqu'à 1,30 m), plumage rose pâle mais tête, cou et poitrine rose rougeâtre plus foncé. Signe distinctif absolu : les seules pattes jaunes parmi les flamants du monde. Classé vulnérable.\n• Flamant de James — le plus petit et le plus rare. Rose très pâle, stries carmin sur le cou et le dos, bec jaune vif à bout noir, pattes rouge brique. A failli disparaître : cru éteint jusqu'en 1957, date à laquelle une colonie a été redécouverte en Bolivie.\n• Flamant du Chili — le plus commun et le plus facile à observer. Plumage rose pâle, pattes gris rosé avec les articulations roses. Se trouve du Pérou jusqu'à la Terre de Feu, y compris Torres del Paine.\n\nSur le terrain, commencer par regarder les pattes : jaunes = Flamant des Andes, rouge brique = Flamant de James, gris rosé = Flamant du Chili."
+      },
+      {
+        "titre": "Vivre dans l'extrême",
+        "contenu": "Le flamant andin vit dans des conditions que presque aucun autre oiseau ne tolère. Les lagunes qu'il fréquente sont saturées de sel ou de soude — des eaux si alcalines qu'elles brûlent la peau de la plupart des animaux. Les températures nocturnes descendent régulièrement sous -20°C à 4 500 m d'altitude. L'oxygène est raréfié. Et pourtant, des milliers de flamants s'y reproduisent chaque année.\n\nLeur secret : une physiologie remarquablement adaptée. Leurs pattes sont recouvertes d'une peau épaisse qui résiste à l'alcalinité. Leur sang transporte l'oxygène efficacement à haute altitude. Leurs reins filtrent les eaux hypersalines. Et leur bec, courbé et muni de lamelles filtrantes, pompe jusqu'à 20 litres d'eau par jour pour en extraire les microalgues et crustacés microscopiques qui constituent leur alimentation — et qui leur donnent leur couleur rose."
+      },
+      {
+        "titre": "La migration journalière",
+        "contenu": "Les flamants andins ne migrent pas vraiment selon les saisons comme leurs cousins européens — ils pratiquent une migration journalière, bien plus surprenante. Dans la région de San Pedro de Atacama, un groupe peut passer la matinée sur le Salar d'Atacama à 2 400 m, s'envoler en milieu de journée vers les lagunes d'altitude à plus de 4 000 m, puis redescendre en fin d'après-midi. Un aller-retour de 1 600 m de dénivelé par jour, piloté par les besoins du moment : nourriture ici, eau douce là, repos ailleurs.\n\nCette mobilité leur permet aussi de traverser quotidiennement les frontières entre le Chili, la Bolivie et l'Argentine dans la région du Sud Lipez — trois pays en une journée, sans passeport."
+      },
+      {
+        "titre": "Reproduction : nids de boue et poussins gris",
+        "contenu": "La reproduction est l'un des spectacles les plus étonnants de l'altiplano. Les flamants se rassemblent en colonies parfois massives — plusieurs milliers d'individus — sur des îlots ou des zones peu profondes de lagunes salées. Là, ils construisent des nids en forme de cône tronqué, faits de boue compactée, surélevés de 20 à 30 cm au-dessus de l'eau pour protéger l'œuf unique des variations de niveau.\n\nLe poussin naît gris et duveteux — aucun rose à la naissance, la couleur viendra avec l'alimentation. Il est nourri par ses deux parents d'un 'lait de jabot', un liquide rouge riche en protéines et en caroténoïdes que les adultes produisent dans leur tube digestif. Les poussins reconnaissent leurs parents à la voix parmi des milliers d'individus dès les premiers jours. À six semaines, ils rejoignent des crèches pouvant regrouper des centaines de jeunes, gardées par quelques adultes pendant que les autres s'alimentent."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le flamant dort souvent sur une seule patte — ce n'est pas pour se reposer, mais pour limiter les pertes de chaleur : en repliant une patte contre le corps, il réduit de moitié la surface exposée au froid.\n• En vol, les flamants forment des 'V' et peuvent voler toute la nuit à plus de 50 km/h — des radars ont détecté des vols nocturnes à haute altitude au-dessus des Andes.\n• Le mot 'flamant' vient du latin flamma (flamme) — une référence à leur couleur, qui rappelait aux conquistadors espagnols les flammes d'un feu.\n• Le Flamant de James a été redécouvert en 1957 par une expédition scientifique dans une lagune reculée de Bolivie — l'espèce était considérée disparue depuis des décennies. Sa population mondiale est estimée à moins de 64 000 individus."
+      }
+    ]
+  },
+  {
+    "numero": 6,
+    "nom": "Viscache des montagnes",
+    "emoji": "🐇",
+    "photo": "viscache.png",
+    "habitats": ["altiplano"],
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Altiplano bolivien",
+      "Sud Lipez (Bolivie)",
+      "Salar d'Atacama (Chili)",
+      "Altiplano péruvien",
+      "Nord-ouest Argentine"
+    ],
+    "reconnaitre": "Rongeur de taille moyenne (40 à 60 cm de corps, queue touffue de 30 cm recourbée sur le dos), pelage gris-fauve épais, grandes oreilles dressées comme un lapin, pattes arrière puissantes. Queue noire au bout, caractéristique. Vit exclusivement sur les rochers et éboulis rocheux en altitude. Souvent vue en bain de soleil sur des rochers en début de matinée, complètement immobile. Ressemble à un croisement entre un lapin et un écureuil.",
+    "anecdoteCourte": "La viscache passe ses matinées allongée sur les rochers à se réchauffer au soleil après les nuits glaciales à 4 500 m — un bain de soleil de plusieurs heures, aussi immobile qu'une sculpture, jusqu'à ce qu'elle soit assez chaude pour bouger.",
+    "sections": [
+      {
+        "titre": "Un chinchilla qui a réussi",
+        "contenu": "La viscache des montagnes appartient à la même famille que le chinchilla — les Chinchillidés — et partage avec lui les mêmes territoires rocheux des Andes. La ressemblance est frappante de loin : même pelage dense et soyeux, mêmes grandes oreilles, même silhouette ronde. Mais là où le chinchilla est aujourd'hui quasi éteint à l'état sauvage, victime de la chasse intensive pour sa fourrure, la viscache est encore abondante.\n\nSa différence clé : elle n'a jamais été aussi prisée commercialement. Sa fourrure est belle mais moins extraordinaire que celle du chinchilla, ce qui lui a paradoxalement sauvé la vie. Aujourd'hui, voir une viscache en liberté dans les Andes est chose courante — voir un chinchilla sauvage est une rareté."
+      },
+      {
+        "titre": "Maître des rochers",
+        "contenu": "La viscache ne s'éloigne pratiquement jamais des rochers. Ce n'est pas par paresse — c'est une stratégie de survie. Les pentes rocheuses escarpées lui offrent une protection absolue contre ses prédateurs : renards, pumas, condors et buses ne peuvent pas la suivre dans les crevasses et les éboulis où elle disparaît en quelques secondes.\n\nElle vit en colonies de plusieurs dizaines d'individus, organisées autour d'un réseau de crevasses et de galeries naturelles dans les rochers. Chaque colonie occupe le même site pendant des générations — on trouve des colonies viscaches dans des rochers précis depuis des décennies, les animaux se transmettant l'emplacement de père en fils. Sur les falaises les plus escarpées, les viscaches utilisent préférentiellement les zones les plus à pic, où elles peuvent échapper plus facilement aux prédateurs terrestres.\n\nSon  comportement au moindre danger est caractéristique : elle émet un sifflement strident qui alerte toute la colonie, puis disparaît dans les rochers en quelques secondes, comme aspirée."
+      },
+      {
+        "titre": "Le bain de soleil : une nécessité physiologique",
+        "contenu": "Le spectacle le plus mémorable avec une viscache, c'est le bain de soleil matinal. À 4 000 ou 4 500 m d'altitude, les nuits descendent souvent sous -10°C, parfois -20°C. La viscache passe la nuit à l'abri dans les rochers, mais sa température corporelle chute considérablement. Au lever du soleil, elle émerge et s'installe sur un rocher exposé, s'allonge à plat ventre ou sur le flanc, pattes écartées, et reste complètement immobile pendant parfois une heure ou deux.\n\nCe n'est pas de la paresse — c'est de la thermorégulation. Elle récupère passivement la chaleur solaire avant d'être capable d'avoir une activité normale. C'est exactement le même mécanisme que les reptiles, mais chez un mammifère. Un voyageur qui passe tôt le matin dans une zone à viscaches verra souvent des dizaines d'individus ainsi drapés sur les rochers, si immobiles qu'on les confond facilement avec des pierres."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Son nom vient du quechua 'wisk'acha' — la langue des Incas avait déjà nommé cet animal omniprésent dans les Andes bien avant l'arrivée des Espagnols.\n• La viscache des montagnes est diurne — active le jour, contrairement à sa cousine la viscache des plaines qui est nocturne.  C'est en partie pour ça qu'elle est si facile à observer.\n• Elle mange principalement des herbes dures, des graminées et des lichens — des végétaux si coriaces que peu d'autres herbivores s'y intéressent à cette altitude.\n• Les viscaches sont d'excellents sauteurs : leurs pattes arrière puissantes leur permettent de bondir de rocher en rocher avec une précision remarquable, même sur des surfaces en pente à plus de 4 000 m."
+      }
+    ]
+  },
+  {
+    "numero": 8,
+    "nom": "Ouette des Andes",
+    "emoji": "🪿",
+    "photo": "goose.png",
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Lac Titicaca",
+      "Altiplano bolivien",
+      "Sud Lipez (Bolivie)",
+      "Altiplano péruvien",
+      "Nord Chili"
+    ],
+    "reconnaitre": "Grande oie de 75 à 80 cm, plumage entièrement blanc sauf les ailes et la queue noires et luisantes — contraste saisissant. Bec et pattes roses, très petits par rapport au corps. Toujours vue en couple ou en famille, jamais seule. Se nourrit en broutant l'herbe au bord des lacs d'altitude, comme une oie de ferme mais à 4 000 m. Le mâle est nettement plus grand que la femelle.",
+    "anecdoteCourte": "L'ouette des Andes forme des couples à vie — et le mâle est l'un des pères les plus agressifs des Andes : il charge sans hésiter tout intrus qui s'approche du nid, que ce soit un autre oiseau, un renard, ou un touriste trop curieux.",
+    "sections": [
+      {
+        "titre": "Une oie qui vit dans l'extrême",
+        "contenu": "L'ouette des Andes est une oie ordinaire dans un environnement extraordinaire. Elle vit entre 3 000 et 4 700 m d'altitude, sur les bords des lacs et marais de la puna andine — des zones où les nuits descendent sous -10°C, où l'oxygène est raréfié, et où la végétation se résume à des graminées dures et des plantes aquatiques résistantes.\n\nSon adaptation à ces conditions est physiologique : comme le guanaco, son sang est riche en globules rouges pour capter l'oxygène à haute altitude. Elle est végétarienne stricte — herbes, laîches, plantes aquatiques — et passe ses journées à brouter lentement au bord de l'eau, en couple, avec la placidité d'une oie domestique. Ce calme apparent cache un animal farouchement territorial dès qu'il s'agit de défendre son nid."
+      },
+      {
+        "titre": "Le couple : une institution andine",
+        "contenu": "L'ouette des Andes est monogame et les couples sont unis pour la vie, ou du moins font preuve d'une grande fidélité durant de nombreuses années.  Sur les bords des lacs d'altitude, on les voit toujours par deux — jamais seuls — broutant côte à côte, se déplaçant ensemble, dormant l'un près de l'autre.\n\nPendant la période de reproduction, le mâle défend vigoureusement les jeunes et le territoire, tandis que la femelle ne défend que le nid.  Cette division des rôles est stricte : le mâle est le garde du corps, la femelle est l'incubatrice. Il charge les intrus sans avertissement — autres oies, renards andins, et parfois randonneurs qui se sont approchés trop près sans le savoir. À 75 cm et plusieurs kilos, une ouette en colère est une expérience mémorable.\n\nLa nidification a lieu vers novembre-janvier. Le nid est un simple creux gratté dans la terre des pentes dominant les points d'eau, parfois dans une crevasse rocheuse, tapissé de végétaux.  La femelle pond 5 à 10 œufs et couve seule pendant environ 30 jours."
+      },
+      {
+        "titre": "Un détail surprenant : elle vole et nage mal",
+        "contenu": "Pour une oie, l'ouette des Andes est une piètre nageuse et une voleuse peu enthousiaste. Elle nage mal, la poitrine enfoncée et l'arrière-train relevé, et ne le fait que lorsque les oisons sont petits ou qu'un danger la menace pendant la mue.  Elle préfère largement marcher et brouter sur la terre ferme.\n\nSa période de mue est particulièrement vulnérable : elle perd toutes ses rémiges primaires (plumes externes de l'aile) en une seule fois et ne peut plus voler pendant plusieurs semaines.  Durant cette période, elle reste collée aux abords immédiats de l'eau, sa seule échappatoire en cas de danger. C'est le moment où elle est la plus facile à approcher — et aussi la plus stressée, ce qu'il faut garder à l'esprit."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Son nom local au Chili et en Argentine est 'Piuquén' — un mot mapuche qui désigne spécifiquement cette oie blanche des hauteurs.\n• Son comportement change radicalement selon l'altitude : peu craintive dans les hauteurs andines où elle vit loin des humains, elle devient farouche et méfiante lorsqu'elle descend dans les vallées en hiver.  Le même oiseau, deux personnalités selon l'endroit.\n• Elle broute jusqu'à 4 700 m d'altitude — soit à peu près la hauteur du Mont Blanc. C'est l'une des oies vivant le plus haut au monde."
+      }
+    ]
+  },
+  {
+    "numero": 9,
+    "nom": "Foulque géante",
+    "emoji": "🦆",
+    "photo": "poule.png",
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Lac Titicaca",
+      "Altiplano bolivien",
+      "Nord Chili",
+      "Altiplano péruvien"
+    ],
+    "reconnaitre": "Gros oiseau aquatique noir de 48 à 64 cm, plumage entièrement noir charbon, bec blanc bordé de noir surmonté d'un petit bouclier frontal blanc, pattes rougeâtres — unique parmi les foulques. Nage en hochant la tête d'avant en arrière comme un pigeon. Souvent vue en couple près d'un énorme nid flottant de végétation. Ne vole pas — ou presque jamais.",
+    "anecdoteCourte": "La foulque géante adulte est trop lourde pour voler — elle a définitivement abandonné les airs au profit de l'eau. Seuls ses jeunes, encore légers, conservent cette capacité avant de la perdre en grandissant.",
+    "sections": [
+      {
+        "titre": "Un oiseau qui a renoncé à voler",
+        "contenu": "En raison de son poids de 2 à 2,7 kg, la foulque géante adulte ne sait pas voler, contrairement à ses jeunes encore immatures et plus légers.  C'est une évolution remarquable : la plupart des oiseaux paient un coût énergétique énorme pour maintenir leur capacité de vol. La foulque géante a fait le choix inverse — elle a investi dans la masse et la robustesse, au prix de l'envol.\n\nCette stratégie fonctionne parce qu'elle vit sur des lacs d'altitude permanents où elle n'a pas besoin de migrer. Elle n'a pas de prédateur aérien sérieux à fuir — le condor ne s'intéresse pas aux oiseaux aquatiques vivants — et ses pattes puissantes lui permettent de courir sur l'eau sur de courtes distances pour fuir ou attaquer. Un lac est sa forteresse, et elle n'en a pas besoin de sortir."
+      },
+      {
+        "titre": "Le nid : une construction pharaonique",
+        "contenu": "La foulque géante est monogame et le couple construit un énorme nid dans un lac des hautes terres, principalement constitué de végétation aquatique.  'Énorme' est un euphémisme : ces nids peuvent atteindre 3 à 4 mètres de diamètre et peser plusieurs centaines de kilos — une plateforme flottante que le couple agrandit et entretient année après année, parfois pendant des décennies.\n\nLa construction est un travail continu. Pendant la saison de reproduction, des compétitions et des disputes agressives pour les matériaux de nidification sont fréquentes.  Les foulques voisines se volent mutuellement des touffes de végétation, ce qui donne lieu à des bagarres bruyantes et spectaculaires sur l'eau. Le nid terminé ressemble à un petit îlot artificiel — et certains sont si stables que d'autres espèces d'oiseaux viennent parfois s'y poser."
+      },
+      {
+        "titre": "Tempérament : territoriale et bruyante",
+        "contenu": "La foulque géante est bruyante et vocale. Pendant les bagarres et les compétitions pour les matériaux, elles produisent des ronronnements et des grognements dirigés vers l'opposant. Le mâle émet des gloussements 'hou hou hou hou' et des 'horr' plus bas.\n\nElle  est farouchement territoriale : chaque couple défend une zone d'eau autour de son nid et charge sans hésiter tout intrus — autre foulque, canard égaré, ou embarcation qui s'approche de trop près. Sur le lac Titicaca, les pêcheurs locaux connaissent bien ces oiseaux agressifs qui défendent leur territoire avec une énergie disproportionnée par rapport à leur taille."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• La foulque géante est le deuxième plus grand membre de la famille des Rallidés (poules d'eau) au monde — seul le takahé de Nouvelle-Zélande la dépasse en taille.\n• C'est la seule foulque au monde à avoir les pattes rougeâtres — chez toutes les autres espèces elles sont vertes ou grises.\n• Elle se nourrit presque exclusivement de végétation aquatique, balayant la surface de l'eau avec son bec pour saisir les herbes au passage.\n• Sur le lac Titicaca, les communautés Uros construisent leurs célèbres îles flottantes avec la même plante — la totora — que la foulque géante utilise pour ses nids. Deux architectes du même matériau, sur le même lac."
+      }
+    ]
+  },
+  {
+    "numero": 10,
+    "nom": "Merganette des torrents",
+    "emoji": "🦆",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": ["Rivières andines", "Canyon du Colca"],
+    "reconnaitre": "Petit canard de 43 à 46 cm, toujours vu sur les torrents et rapides andins. Le mâle est spectaculaire : tête et cou blanc strié de noir, dos noir aux liserés blancs, queue grise. La femelle est plus discrète : dessus gris, joues et dessous roux vif. Tous deux ont un bec fin et crochu, rouge vif, adapté pour attraper des proies sous les pierres. Toujours en couple, toujours sur une rivière à fort courant. Impossible à confondre dans ce contexte.",
+    "anecdoteCourte": "La merganette nage de façon détendue dans des rapides qui noieraient un humain en secondes — elle utilise le courant comme un escalator, se laissant porter puis plongeant entre les rochers pour attraper des larves. Son secret : des griffes acérées qui lui permettent de s'accrocher au fond rocheux même dans le courant le plus violent.",
+    "sections": [
+      {
+        "titre": "Spécialiste des eaux impossibles",
+        "contenu": "La merganette fréquente les torrents des Andes avec rochers émergés, rapides et cascades, alternant avec les espaces où l'eau est plus calme. On la trouve généralement entre 1 500 et 3 500 mètres d'altitude, mais presque au niveau de la mer au Chili et jusqu'à 4 500 mètres en Bolivie.\n\nElle  est la seule espèce de son genre — Merganetta — au monde, ce qui dit quelque chose sur le niveau de spécialisation requis pour vivre dans ces torrents andins. Son corps est hydrodynamique, ses pattes sont placées très en arrière pour la propulsion dans le courant, et ses griffes lui permettent de s'agripper aux rochers sous l'eau. Elle plonge sans crainte dans les rapides les plus impétueux et les cascades, à la recherche de larves d'insectes, de mollusques et autres créatures qu'elle déniche sous les pierres à l'aide de son bec mince et crochu."
+      },
+      {
+        "titre": "La vie en territoire de torrent",
+        "contenu": "Les merganettes vivent en couples ou en familles dispersées le long des torrents et se tiennent souvent sur des rochers au bord ou au milieu du courant.  Chaque couple défend un territoire linéaire le long d'une rivière — une portion de torrent de plusieurs centaines de mètres, qu'il connaît pierre par pierre.\n\nCette sédentarité est totale : c'est une espèce sédentaire.  Un couple de merganettes peut occuper le même tronçon de rivière pendant des années. C'est d'ailleurs pour cela qu'elles sont si sensibles aux perturbations — construction de barrage, pollution, introduction de truites qui chassent les mêmes proies — car elles n'ont nulle part où aller si leur torrent est dégradé.\n\nLe mâle émet des sifflements nets qui peuvent être entendus malgré le bruit des eaux  — un détail qui dit tout sur l'environnement sonore dans lequel cet oiseau a évolué."
+      },
+      {
+        "titre": "Formation des couples et vie sociale",
+        "contenu": "La merganette est monogame à vie — une fois le couple formé, les deux partenaires défendent ensemble leur tronçon de rivière jusqu'à la mort de l'un d'eux. La parade nuptiale est spectaculaire compte tenu de l'environnement : le mâle s'incline répétitivement, bat des ailes violemment en projetant des gerbes d'eau avec ses pattes, tout en échangeant des vocalisations avec la femelle. Les deux oiseaux nagent ensuite en cercles l'un autour de l'autre, se dressant hors de l'eau et se mordillant mutuellement — une chorégraphie improbable au milieu des rapides.\n\nLes jeunes sont très philopatriques : ils ont tendance à ne pas s'éloigner de leur zone natale, certains établissant leur premier territoire directement adjacent à celui de leurs parents. Les autres rejoignent une 'population flottante' de célibataires qui errent sur les rivières, sans territoire fixe, attendant qu'un tronçon se libère — soit parce qu'un couple l'a abandonné, soit parce qu'un adulte est mort. Un jeune peut aussi trouver un tronçon où ne vit qu'un seul individu sans partenaire et former un couple là. La compétition pour les bons tronçons est réelle : les rencontres territoriales peuvent aller jusqu'au contact physique, et un jeune en pleine forme finira par déloger un adulte affaibli."
+      },
+      {
+        "titre": "Durée de vie et causes de mortalité",
+        "contenu": "La merganette ne vieillit pas vraiment — elle meurt de son environnement. Le taux de survie annuel des adultes territoriaux est d'environ 86 %, ce qui donne à un couple établi une espérance de vie commune de 6 à 7 ans avant que l'un des deux disparaisse. Les juvéniles sont bien plus vulnérables : la moitié ne survivent pas à leur première année.\n\nLes causes de mortalité sont multiples. La prédation touche surtout les canetons et les individus affaiblis — loutres, buses et éperviers connaissent bien les berges des torrents. Les rapides eux-mêmes peuvent tuer : une crue soudaine, un tourbillon imprévu, une chute dans une cascade suffisent à noyer un oiseau blessé ou malade. En hiver, quand les torrents gèlent partiellement en altitude, l'accès aux proies devient critique et les individus les plus faibles meurent d'épuisement.\n\nDeux menaces introduites par l'homme aggravent ce tableau. La truite arc-en-ciel, importée pour la pêche sportive, chasse exactement les mêmes larves et invertébrés que la merganette — elle ne la tue pas directement, mais l'affame progressivement sur les tronçons envahis. Le vison d'Amérique, échappé d'élevages en Patagonie, est encore plus dévastateur : excellent nageur, il s'attaque directement aux nids et aux canetons dans des endroits que la merganette croyait inaccessibles.\n\nQuand l'un des partenaires meurt, le survivant se retrouve seul sur un territoire qu'il défend moins efficacement — le mâle assure la défense périphérique, la femelle le nid et les petits, et cette complémentarité ne se remplace pas facilement. Si le veuvage survient en dehors de la saison de reproduction, un réappariement est possible, mais peu documenté chez cette espèce. Certains individus semblent rester seuls sur leur tronçon jusqu'à ce qu'un jeune les déloge."
+      },
+      {
+        "titre": "Comment l'observer ?",
+        "contenu": "La merganette est discrète mais prévisible : si un torrent andin convient, elle y est — et elle y reste. Le Canyon du Colca au Pérou est l'un des meilleurs spots, avec la rivière Colca qui coule au fond du canyon entre 2 000 et 3 500 m.\n\nElle se repère d'abord au mouvement : un petit oiseau qui nage contre le courant dans des rapides où rien ne devrait pouvoir nager. En vol, elle est rapide et rase l'eau en suivant les méandres de la rivière, souvent invisible jusqu'à ce qu'elle passe à quelques mètres. Le matin tôt, quand elle est posée sur un rocher au soleil, elle est beaucoup plus facile à approcher — s'accroupir sur la berge et avancer lentement permet de s'en approcher à moins de 5 mètres."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• La merganette est la seule espèce de son genre au monde — Merganetta armata — une lignée évolutive unique qui n'a pas de cousin proche vivant.\n• L'espèce est en déclin en raison de la déforestation, de la construction de barrages hydroélectriques et de la concurrence des truites introduites qui chassent les mêmes proies.  La truite arc-en-ciel, introduite dans les Andes pour la pêche sportive, est devenue l'une de ses principales menaces indirectes.\n• Le mâle et la femelle ont un plumage si différent qu'on pourrait les prendre pour deux espèces distinctes — c'est le dimorphisme sexuel poussé à l'extrême.\n• Elle niche dans des crevasses de falaises surplombant la rivière, parfois derrière une cascade — l'endroit le plus inaccessible possible, pour protéger les œufs des prédateurs."
+      }
+    ]
+  },
+  {
+    "numero": 11,
+    "nom": "Cuy",
+    "emoji": "🐹",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Villages andins",
+      "Marchés de Cuzco",
+      "Vallée Sacrée",
+      "Équateur"
+    ],
+    "reconnaitre": "Petit rongeur trapu de 25 à 35 cm, sans queue visible, pelage variable (blanc, roux, brun, noir ou mélangé). Ressemble exactement au cochon d'Inde qu'on connaît en Europe — parce que c'est le même animal, mais dans sa version originale andine. Dans les villages, on le voit courir librement dans les cuisines et les cours, ou entassé dans des enclos en bois. Son cri caractéristique — 'cuiii' — lui a donné son nom.",
+    "anecdoteCourte": "Dans la cathédrale de Cuzco, une peinture coloniale du XVIIe siècle représente la Cène avec Jésus et ses apôtres — et au centre de la table, à la place de l'agneau pascal, un cuy rôti. Les moines qui ont commandé le tableau ont simplement adapté le repas à la réalité andine.",
+    "sections": [
+      {
+        "titre": "7 000 ans d'histoire andine",
+        "contenu": "Selon les découvertes fossiles, la présence du cochon d'Inde remonte à environ 7 000 ans sur les hautes terres andines. Dès 5 000 avant J.-C., les peuples indigènes du Pérou, de l'Équateur et de la Bolivie ont commencé à apprivoiser ces petits rongeurs sauvages. C'est l'un des animaux domestiqués les plus anciens des Amériques.\n\nPour les civilisations andines, le cuy n'était pas un simple aliment. Il jouait un rôle central dans la religion, la médecine et l'économie domestique. Pour l'homme andin, le cuy est l'animal le plus populaire, identifié à la vie, aux coutumes de la société indigène et à des rituels sacrés. À l'époque inca, il était offert en sacrifice aux dieux pour garantir de bonnes récoltes. Aujourd'hui encore, certains guérisseurs traditionnels utilisent le cuy vivant pour diagnostiquer des maladies — en le passant sur le corps du patient et en interprétant ses réactions."
+      },
+      {
+        "titre": "Un aliment, pas un animal de compagnie",
+        "contenu": "Le choc culturel est réel pour un Européen : le cuy qu'on élève ici comme animal de compagnie est là-bas un aliment de fête, servi entier et rôti, pattes en l'air, à la table des grandes occasions. Au Pérou, on consomme jusqu'à 65 millions de cochons d'Inde par an.\n\nLa  chair du cochon d'Inde contient davantage de protéines et moins de graisse que celle du poulet ou du porc. Le goût rappelle celui du lapin — une viande blanche, légèrement plus forte, avec beaucoup de petits os. Les préparations varient selon les régions : à Cuzco, le cuy al horno est rôti entier avec du cumin et de l'ail ; à Arequipa, le cuy chactado est aplati et frit dans l'huile jusqu'à être croustillant ; dans la Vallée Sacrée, le cuy al palo est cuit au feu de bois à la broche.\n\nPour le goûter — et ça vaut la peine de le faire au moins une fois — les meilleures adresses sont les picanterías locales plutôt que les restaurants touristiques. Le village de Tipón, près de Cuzco, est surnommé la capitale du cuy rôti."
+      },
+      {
+        "titre": "Dans les maisons andines",
+        "contenu": "Dans les villages traditionnels des Andes, le cuy vit en liberté dans la cuisine ou sous le lit — pas dans une cage. Cette cohabitation n'est pas par affection : le cuy se nourrit des restes et des miettes, produit peu de déchets, ne fait pas de bruit la nuit, et est prêt à être consommé dès qu'on en a besoin. C'est un élevage intégré à la vie domestique depuis des millénaires, d'une efficacité remarquable.\n\nPlus de 800 000 éleveurs et petits producteurs de cobayes travaillent au Pérou,  de la petite cuisine rurale aux fermes d'élevage intensif qui approvisionnent Lima. Depuis 2013, chaque deuxième vendredi d'octobre, le Pérou célèbre la Journée nationale du Cuy — une fête officielle dédiée à un rongeur, ce qui en dit long sur sa place dans la culture nationale."
+      },
+      {
+        "titre": "Une reproduction efficace, pas explosive",
+        "contenu": "Le cuy n'est pas un reproducteur frénétique — c'est un reproducteur efficace, ce qui est très différent. La gestation dure 68 à 73 jours, ce qui est remarquablement long pour un animal de cette taille (le double d'un lapin). Une femelle peut avoir 3 à 4 portées par an, parfois jusqu'à 5, sans saisonnalité — elle se reproduit toute l'année avec la même régularité.\n\nMais c'est la qualité des petits à la naissance qui fait toute la différence. Contrairement aux lapins ou aux souris qui naissent nus, aveugles et totalement dépendants, les petits cuys arrivent au monde couverts de poils, yeux grands ouverts, avec leurs dents définitives déjà en place. En quelques heures, ils courent dans la pièce. En deux semaines, ils sont sevrés et complètement autonomes. La mère n'a pratiquement rien à faire — pas de nid à construire, pas de surveillance intensive, juste deux semaines d'allaitement.\n\nPour un élevage de subsistance en altitude, c'est un avantage décisif : des petits qui ne coûtent presque rien en soins parentaux, qui atteignent 1 kg de viande en 4 mois, et qui eux-mêmes peuvent commencer à se reproduire dès l'âge de 3 mois. Une femelle sur toute sa courte vie de 2 à 3 ans peut produire une dizaine de portées — soit potentiellement une trentaine de petits. C'est pour ça que le cuy a nourri les Andes pendant 5 000 ans sans jamais être remplacé par un autre animal."
+      },
+      {
+        "titre": "Le cuy et l'Europe — un malentendu de 500 ans",
+        "contenu": "Quand les conquistadors espagnols ont découvert le cuy au XVIe siècle, ils l'ont ramené en Europe comme curiosité exotique. Les Européens l'ont adopté non pas comme aliment mais comme animal de compagnie — un destin que les Andins n'avaient pas du tout prévu pour lui.\n\nLes conquistadors l'ont baptisé 'cochon d'Inde' en raison de son cri ressemblant à celui du porc et parce qu'il venait des 'Indes'. Ni cochon, ni originaire des Indes — le nom est doublement inexact. Son vrai nom, 'cuy', vient directement de son cri : *cuiii*. C'est l'un des rares animaux dont le nom est une onomatopée parfaite dans toutes les langues andines."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le cuy andin est plus grand que le cochon d'Inde européen : sélectionné pour la production de viande, un cuy peut atteindre 2 à 3 kg — le double d'un cobaye domestique ordinaire.\n• Le Pérou est le premier producteur mondial de cuy — et cherche activement à exporter cette viande vers les communautés latino-américaines d'Europe et d'Amérique du Nord."
+      }
+    ]
+  },
+  {
+    "numero": 12,
+    "nom": "Caracara andin",
+    "emoji": "🦅",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Altiplano bolivien",
+      "Altiplano péruvien",
+      "Nord Chili",
+      "Sud Lipez",
+      "Nord-ouest Argentine"
+    ],
+    "reconnaitre": "Rapace de taille moyenne, plumage noir et blanc très contrasté : tête, dos et poitrine noirs, ventre et base de queue blancs, bout de queue noir. En vol, les couvertures sous les ailes blanches donnent un motif très reconnaissable. Peau nue du visage orange vif, pattes jaune-orangé. Les jeunes sont bruns. Se pose souvent au sol et marche — comportement inhabituel pour un rapace. Souvent vu en groupes près des routes et des troupeaux.",
+    "anecdoteCourte": "Le caracara andin est le seul rapace des Andes qui préfère marcher sur le sol plutôt que chasser depuis les airs. Il suit les troupeaux de lamas et les véhicules pour récupérer ce qu'ils dérangent ou écrasent — un opportuniste assumé qui a fait de la cohabitation avec l'homme une stratégie de survie.",
+    "sections": [
+      {
+        "titre": "Un faucon qui se comporte comme un corbeau",
+        "contenu": "Le caracara andin appartient à la famille des Falconidés — la même que le faucon pèlerin. Mais là où les faucons sont des chasseurs aériens solitaires et discrets, le caracara est un oiseau de sol, opportuniste, souvent en groupe, qui mange de tout et s'adapte à n'importe quelle situation.\n\nIl est opportuniste et se nourrit au sol de nombreuses proies : rongeurs, oiseaux, arthropodes, lézards et charognes.  Il suit les troupeaux pour attraper les insectes et petits animaux dérangés par le passage des animaux. Il inspecte les bords de routes pour les animaux écrasés. Il rôde autour des sites de prédation du puma pour récupérer les restes de guanaco. C'est le nettoyeur de l'altiplano — moins spécialisé que le condor, mais infiniment plus adaptable.\n\nContrairement à certains vautours, la tête et la gorge du caracara restent recouvertes de plumes  — il n'est pas un charognard pur, mais un généraliste qui mange vivant ou mort selon l'opportunité."
+      },
+      {
+        "titre": "Vie sociale et territoire",
+        "contenu": "Les adultes semblent typiquement monogames et très territoriaux, avec une forte fidélité au site. Les jeunes restent avec leurs parents plusieurs mois après l'envol.  En dehors de la période de reproduction, ils se regroupent volontiers — il n'est pas rare de voir 5 à 10 caracaras ensemble autour d'une carcasse ou au bord d'une route.\n\nIl est présent depuis le sud de l'Équateur jusqu'au nord de la Patagonie, à des altitudes allant jusqu'à 5 200 m.  C'est l'un des rapaces les plus tolérants à l'altitude en Amérique du Sud. Il préfère les régions non boisées où il peut se percher sur des poteaux électriques ou des piquets de clôture pour surveiller une vaste zone, et se regroupe souvent près des villages et le long des autoroutes."
+      },
+      {
+        "titre": "Comment le distinguer du condor et des autres rapaces",
+        "contenu": "Sur l'altiplano, on trouve plusieurs grands oiseaux noirs — voici comment ne pas les confondre :\n\n• Caracara andin — noir et blanc contrasté, ventre blanc, peau du visage orange, marche au sol, se pose sur les poteaux. Taille d'une grosse corneille à un petit aigle.\n• Condor — beaucoup plus grand (3 m d'envergure), vol plané sans battements d'ailes, collerette blanche au cou, ne se pose presque jamais au sol dans les zones habitées.\n• Buse variable des Andes — plumage plus brun et variable, silhouette plus ronde en vol, chasse depuis un perchoir.\n\nLe caracara se distingue surtout par son comportement : c'est le seul rapace qu'on peut voir marcher tranquillement sur la route ou suivre un troupeau à pied."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Son nom espagnol local est 'corequenque' — et il figure sur les armoiries du Pérou depuis l'époque inca. Deux plumes de corequenque ornaient la couronne de l'Inca Sapa, réservées exclusivement au souverain.\n• Il a été observé se nourrissant de restes de guanacos tués par des pumas  — il connaît les habitudes des prédateurs et arrive souvent peu après eux sur les sites de chasse.\n• Malgré son appartenance à la famille des faucons, il ne plonge presque jamais en piqué sur ses proies — il préfère les surprendre au sol ou récupérer ce que d'autres ont tué.\n• Sa peau nue orange vif change légèrement de teinte selon son état émotionnel — un trait qu'il partage avec le condor et qui permet aux individus de communiquer visuellement à courte distance."
+      }
+    ]
+  },
+  {
+    "numero": 13,
+    "nom": "Nandou de Darwin",
+    "emoji": "🦤",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": ["Torres del Paine", "Patagonie", "Altiplano bolivien"],
+    "reconnaitre": "Grand oiseau coureur de 90 à 100 cm de hauteur, 15 à 25 kg, plumage gris-brun avec des taches blanches caractéristiques sur le corps. Pattes longues et puissantes à trois doigts, pas de queue visible, ailes réduites inutilisables pour voler. Ressemble à une petite autruche. Se déplace en groupes de 5 à 30 individus dans la steppe ouverte. Court jusqu'à 60 km/h, ailes légèrement écartées pour se stabiliser.",
+    "anecdoteCourte": "C'est le mâle qui couve et élève les petits — seul, sans la femelle. Après la ponte, la femelle repart chercher un autre mâle, laissant le père incuber une vingtaine d'œufs pondus par plusieurs femelles différentes dans le même nid.",
+    "sections": [
+      {
+        "titre": "L'autruche des Andes",
+        "contenu": "Le nandou de Darwin appartient à la famille des Rheidae — les ratites d'Amérique du Sud, cousins lointains des autruches africaines et des émeus australiens. Comme eux, il a perdu la capacité de voler au profit d'une course efficace. Il peut atteindre 60 km/h  et ses pattes sont munies de griffes acérées qui constituent des armes efficaces contre les prédateurs.\n\nIl existe deux espèces de nandous : le Grand Nandou, plus grand, qui vit dans les pampas d'Argentine et du Brésil, et le Nandou de Darwin, plus petit, qui habite la Patagonie et l'altiplano, reconnaissable à ses taches blanches sur le corps, absentes chez le Grand Nandou."
+      },
+      {
+        "titre": "Un père exemplaire — et une mère absente",
+        "contenu": "Les mâles deviennent agressifs durant la période de reproduction. La femelle pond ses œufs au-dehors du nid et le mâle en pousse la plupart à l'intérieur. Certains œufs restent au-dehors, pourrissent et attirent les mouches : le mâle et, plus tard, les poussins, se nourrissent de ces œufs-là.\n\nLe  système est remarquable : un mâle attire plusieurs femelles successivement. Chacune pond une dizaine d'œufs dans son nid, puis repart immédiatement chercher un autre mâle. Le père se retrouve avec 20 à 50 œufs à couver seul pendant 35 à 40 jours. Une fois les poussins nés, il les élève et les protège pendant plusieurs mois — chargeant avec férocité tout prédateur ou humain qui s'approche trop près du groupe."
+      },
+      {
+        "titre": "Vie sociale et comportement",
+        "contenu": "En dehors de la période de reproduction, les nandous de Darwin sont plutôt sociables et vivent en petits groupes de cinq à trente individus, des deux sexes et de tous âges.  Ces groupes se déplacent lentement dans la steppe en broutant graminées, légumineuses et insectes. Leur grande taille leur donne une vue panoramique et ils détectent les prédateurs de loin — pumas, renards, rapaces — déclenchant une fuite rapide du groupe entier.\n\nEn Patagonie chilienne, le nandou de Darwin fait son retour grâce à des programmes de conservation  après avoir quasi disparu du côté chilien où il ne représente que 10% de la population mondiale, l'essentiel vivant en Argentine."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Son nom rend hommage à Charles Darwin, qui l'observa lors de son voyage sur le Beagle en 1834 et faillit le manger avant de réaliser que c'était une espèce inconnue — il en avait commandé un au cuisinier du bateau, et ce n'est qu'en mangeant qu'il comprit son erreur. Il récupéra les restes et les envoya au British Museum.\n• Son nom 'nandou' vient du guaraní ñandú guazu, ñandú signifiant araignée et guazu grand  — probablement en référence à leur habitude d'ouvrir et abaisser alternativement les ailes lorsqu'ils courent, évoquant une araignée géante.\n• Il ingère des cailloux pour faciliter la digestion — comme les poules avec leur gésier, mais en beaucoup plus grand.\n• Sa sous-espèce patagonienne est listée à l'Annexe I de la CITES — le niveau de protection le plus élevé, réservé aux espèces les plus menacées."
+      }
+    ]
+  },
+  {
+    "numero": 14,
+    "nom": "Mara de Patagonie",
+    "emoji": "🐇",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": ["Torres del Paine", "Patagonie"],
+    "reconnaitre": "Grand rongeur de 70 à 75 cm, ressemblant à un croisement entre un lièvre et une petite antilope. Pelage gris-brun sur le dos, flancs roussâtres, ventre blanc, tache blanche caractéristique sur l'arrière-train. Longues oreilles mobiles, pattes arrière plus longues que les pattes avant. Queue courte et peu visible. Se déplace souvent en bondissant à grande vitesse — peut sprinter à 55 km/h. Toujours actif le jour.",
+    "anecdoteCourte": "Le mara est monogame à vie et le couple est inséparable — le mâle suit sa femelle partout, la surveille pendant qu'elle mange, et la défend contre les autres mâles. Si elle meurt, il reste souvent seul plutôt que de se réapparier.",
+    "sections": [
+      {
+        "titre": "Ni lièvre, ni lapin — un cobaye géant",
+        "contenu": "Le Mara est une espèce de rongeurs de la famille des Cavidés, comme les cobayes communs, bien que son apparence rappelle celle des lièvres.  C'est en réalité le cousin géant du cuy andin — même famille, morphologie radicalement différente. Après le capybara et le castor, le mara est le troisième plus gros rongeur vivant.\n\nSa  morphologie est le résultat d'une évolution convergente remarquable : vivant dans les mêmes environnements ouverts et arides que les lièvres et les antilopes, il a développé les mêmes solutions — longues pattes pour courir, grandes oreilles pour détecter les prédateurs, pelage cryptique pour se fondre dans la steppe. Une preuve que la sélection naturelle trouve souvent les mêmes réponses aux mêmes problèmes."
+      },
+      {
+        "titre": "Un système social unique",
+        "contenu": "Le mara a développé un système de reproduction fascinant qui n'existe que chez très peu d'espèces. Les couples sont monogames à vie — une rareté chez les rongeurs. Mais plusieurs couples partagent un même terrier communal pour élever leurs petits.\n\nLorsque les jeunes maras vivent dans un terrier, les parents leur rendent régulièrement visite pour nourrir leur progéniture. La femelle émet généralement un cri strident, après quoi tous les petits du terrier remontent à la surface. Reconnaissant ses petits à l'odeur, elle repousse les bébés des autres couples qui tentent d'accéder à son lait, emmenant ses petits un peu à l'écart pour les allaiter. Pendant ce temps, le mâle monte la garde.\n\nCe  système — monogamie stricte mais élevage communautaire — est presque unique dans le règne animal. Il combine les avantages de la vie en groupe (protection collective) avec ceux de la monogamie (investissement parental intense)."
+      },
+      {
+        "titre": "Alimentation, prédateurs et rôle dans l'écosystème",
+        "contenu": "Le mara est un herbivore opportuniste mais sélectif. À la limite sud de son aire de répartition, les graminées représentent près de 70 % de son alimentation, mais malgré l'abondance d'herbes et d'arbustes, le mara sélectionne toujours les herbes les plus rares et les plus nutritives.  Il complète ce régime avec des feuilles, des fruits, des graines et — fait surprenant — une part importante de cactus, qui représentent une source d'eau vitale dans les zones arides : les cactus étant composés d'environ 75 % d'eau en poids.  Cette capacité à extraire l'hydratation de sa nourriture lui permet de survivre de longues périodes sans boire dans la steppe sèche.\n\nIl pratique également la coprophagie — il consomme ses propres excréments pour réabsorber les nutriments non digérés lors du premier passage. Un comportement partagé avec les lapins, les viscaches et d'autres herbivores qui tirent le maximum d'une végétation pauvre en nutriments.\n\nSes principaux prédateurs terrestres sont le renard de Magellan, le renard gris d'Argentine, le puma et le petit grison.  Les rapaces — buses, caracaras — s'attaquent surtout aux jeunes dans les terriers communaux. Face à eux, le mara a deux lignes de défense : la vitesse d'abord (60-80 km/h en sprint), et la vigilance collective ensuite. Pendant qu'un individu se nourrit, l'autre surveille les alentours  — les couples se relaient ainsi en permanence, un qui mange, un qui monte la garde.\n\nDans l'écosystème patagonien, le mara joue un rôle de disséminateur de graines — ses excréments transportent des semences sur de longues distances lors de ses déplacements. C'est une contribution silencieuse mais essentielle à la diversité végétale de la steppe."
+      },
+      {
+        "titre": "Un sprinter surprenant",
+        "contenu": "Bâti pour la course, le mara peut sprinter à 55 km/h en moyenne avec des pointes à 80 km/h sur de courtes distances et il peut bondir jusqu'à 2 mètres à la verticale.  Pour un rongeur, c'est exceptionnel.\n\nIl se déplace de plusieurs façons selon la situation : au pas lent pour brouter, au trot souple pour se déplacer, et au galop frénétique pour fuir — avec un style de course qui rappelle celui d'une antilope plutôt que d'un rongeur. Cette polyvalence fait de lui l'un des animaux les plus difficiles à attraper dans la steppe ouverte."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le mara peut vivre de 20 à 25 ans  — une longévité exceptionnelle pour un rongeur de cette taille, comparable à celle d'un chien.\n• Le lièvre européen, introduit en Argentine au XIXe siècle pour la chasse sportive, est devenu l'une des principales menaces pour le mara — plus prolifique et moins spécialisé, il envahit progressivement les territoires du mara.\n• Malgré son allure de lièvre, il n'a aucun lien de parenté avec les lapins ou les lièvres — il est génétiquement plus proche du cuy que de tout lagomorphe."
+      }
+    ]
+  },
+  {
+    "numero": 15,
+    "nom": "Renard de Magellan",
+    "emoji": "🦊",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": ["Torres del Paine", "Terre de Feu", "Patagonie"],
+    "reconnaitre": "Grand canidé de 90 à 130 cm (queue comprise), 5 à 13 kg. Tête et pattes roux vif, dos gris strié de noir, ventre et gorge blancs, queue longue et touffue grise avec une tache noire à la base et à l'extrémité. Plus grand et plus robuste qu'un renard roux européen — silhouette à mi-chemin entre le renard et le coyote. Souvent vu en bord de route à l'aube ou au crépuscule, parfois en plein jour dans les zones peu fréquentées.",
+    "anecdoteCourte": "Malgré son nom de 'renard', le renard de Magellan est génétiquement plus proche d'un loup ou d'un coyote que d'un renard européen. Les deux lignées ont évolué séparément sur des continents différents et sont arrivées au même résultat : le 'renard' opportuniste à longue queue.",
+    "sections": [
+      {
+        "titre": "Un prédateur opportuniste",
+        "contenu": "Le régime alimentaire du culpeo est principalement composé de rongeurs, lapins, oiseaux et lézards. Il consomme également des végétaux et des charognes. Il lui arrive parfois de s'en prendre à des flamants des Andes ou à de jeunes vigognes.\n\nEn  Patagonie, sa proie principale est le lièvre européen — introduit accidentellement mais aujourd'hui omniprésent. Cette adaptabilité alimentaire est sa plus grande force : il mange ce qu'il trouve, où il se trouve. Capable de s'attaquer à des proies aussi imposantes que les jeunes guanacos, ce prédateur opportuniste fait preuve d'une remarquable audace dans des milieux où la nourriture se fait rare."
+      },
+      {
+        "titre": "Relation conflictuelle avec l'élevage",
+        "contenu": "Le culpeo s'attaque parfois aux moutons, ce qui lui vaut d'être chassé ou empoisonné dans certaines régions.  Cette tension avec l'élevage ovin est l'une des principales menaces pour l'espèce en dehors des zones protégées.\n\nLe paradoxe est bien documenté en Patagonie : dans les estancias où le renard est persécuté, les populations de rongeurs et de lapins explosent, causant des dégâts bien plus importants aux pâturages que le renard lui-même. Là où il est protégé, l'équilibre se maintient. C'est le même raisonnement que pour le puma et le guanaco — supprimer le prédateur déstabilise l'ensemble du système."
+      },
+      {
+        "titre": "Comportement et observation",
+        "contenu": "Son activité est principalement crépusculaire et nocturne, bien qu'il puisse être observé en plein jour, surtout dans les zones où la pression humaine est faible ou lorsque les températures sont plus clémentes.\n\nÀ  Torres del Paine, les renards sont habitués aux visiteurs et s'approchent parfois très près des campings et des routes. Ils ont appris à associer la présence humaine à des sources de nourriture potentielles — restes de repas, déchets — ce qui facilite l'observation mais est problématique pour leur comportement naturel. Il ne faut pas les nourrir.\n\nComme d'autres renards, il a des habitudes solitaires, mais vit en petit groupe pendant la saison de reproduction — les parents et leurs petits."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Son nom local 'culpeo' vient du mapuche 'culpeu' — les peuples indigènes de Patagonie avaient bien identifié cet animal comme distinct des autres canidés.\n• Il est présent depuis la Colombie jusqu'à la Terre de Feu, le long de toute la cordillère des Andes.\n• En Terre de Feu, la sous-espèce locale est nettement plus grande que celles du nord — une règle biologique générale : dans les environnements froids, les animaux tendent à être plus massifs pour conserver la chaleur.\n• Il est parfois confondu avec le Renard gris (Lycalopex griseus), plus petit et plus pâle, qui cohabite dans les mêmes zones — les deux espèces se distinguent principalement par la taille et l'intensité du roux sur la tête et les pattes."
+      }
+    ]
+  },
+  {
+    "numero": 16,
+    "nom": "Manchot de Magellan",
+    "emoji": "🐧",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Isla Magdalena (Punta Arenas)",
+      "Seno Otway (Chili)",
+      "Terre de Feu",
+      "Canal Beagle (Ushuaia)"
+    ],
+    "reconnaitre": "Manchot de taille moyenne (60 à 76 cm), plumage noir sur le dos et la tête, ventre blanc. Deux bandes noires caractéristiques entre la tête et la poitrine — une fine autour du cou, une plus large en forme de fer à cheval inversé sur la poitrine. Yeux encerclés d'un anneau rose nu. Marche debout en se dandinent. Ne peut pas voler mais nage avec une agilité extraordinaire. Reconnaissable à ses deux bandes pectorales — aucun autre manchot de la région n'en a deux.",
+    "anecdoteCourte": "Le manchot de Magellan retrouve son partenaire de l'année précédente avec un taux de fidélité de plus de 90% — il revient chaque année au même terrier et retrouve le même conjoint dans une colonie de plusieurs milliers d'individus, guidé uniquement par la voix.",
+    "sections": [
+      {
+        "titre": "Un terrier, pas un nid",
+        "contenu": "Contrairement à l'image classique du manchot sur la banquise, le manchot de Magellan niche dans des terriers creusés dans le sol ou sous des buissons. Chaque couple occupe le même terrier d'une année sur l'autre — certains terriers sont utilisés pendant des décennies. La femelle pond deux œufs, et les deux parents se relaient pour couver pendant 40 jours, alternant des périodes de 10 à 15 jours au nid pendant que l'autre part en mer se nourrir.\n\nLes terriers protègent les œufs et les poussins du froid, du vent et des prédateurs aériens. Dans les grandes colonies comme l'Isla Magdalena au cœur du détroit de Magellan, qui accueille plus de 60 000 couples reproducteurs,  les terriers sont si nombreux et proches qu'ils forment un vrai labyrinthe souterrain."
+      },
+      {
+        "titre": "La fidélité au conjoint et au lieu",
+        "contenu": "Le manchot de Magellan est monogame sur la saison, avec une forte tendance à rester avec le même partenaire d'une année sur l'autre. Chaque printemps austral (septembre-octobre), les individus reviennent de leur migration en mer et retrouvent leur terrier — puis leur conjoint, reconnu à la voix parmi des milliers d'individus.\n\nCette fidélité a une explication pratique : les couples expérimentés qui se connaissent bien coordonnent mieux leur incubation et leur élevage, et ont un taux de survie des poussins nettement supérieur aux nouveaux couples. La fidélité n'est pas romantique — c'est une stratégie d'efficacité reproductive."
+      },
+      {
+        "titre": "Nageur extraordinaire, marcheur maladroit",
+        "contenu": "Dans l'eau, le manchot de Magellan est transformé. Il nage à 20-25 km/h, plonge jusqu'à 90 mètres de profondeur, et peut rester en mer plusieurs semaines d'affilée. Ses ailes sont devenues des nageoires rigides et hydrodynamiques — inutilisables pour voler mais parfaitement adaptées à la propulsion aquatique.\n\nHors de l'eau, il est maladroit et lent, se dandinant avec sa démarche caractéristique. Cette vulnérabilité terrestre explique l'importance des terriers : sur terre, le manchot ne peut pas fuir facilement. Ses principaux prédateurs terrestres sont le renard de Magellan et les rapaces qui s'attaquent aux poussins."
+      },
+      {
+        "titre": "Où et comment les observer ?",
+        "contenu": "Il suffit de monter à bord d'un bateau au départ de Punta Arenas pour atteindre l'Isla Magdalena  — l'excursion dure environ 4 heures aller-retour et permet de marcher au milieu de la colonie sur des chemins balisés. Les manchots sont habitués aux visiteurs et ne fuient pas — certains les regarderont passer à moins d'un mètre avec une curiosité totalement désarmante.\n\nDu côté d'Ushuaia, les excursions en bateau sur le canal Beagle permettent d'approcher des rochers où les manchots se reposent entre deux sessions de pêche. La meilleure période d'observation s'étend de septembre à fin mars  — en dehors de cette fenêtre, les manchots sont en mer et les colonies sont vides."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le manchot de Magellan migre jusqu'au Brésil en hiver — certains individus parcourent plus de 3 000 km en mer pour trouver des zones de pêche plus productives, avant de revenir exactement au même terrier au printemps.\n• La surpêche des anchois prive les oiseaux de leur principale ressource alimentaire, et de nombreux individus meurent noyés pris dans les filets de pêche.\n•  Les poussins naissent couverts d'un duvet gris-brun qui les distingue complètement des adultes — on pourrait croire qu'ils appartiennent à une autre espèce. Le plumage adulte n'apparaît qu'après la première mue.\n• Il vit en moyenne 25 à 30 ans."
+      }
+    ]
+  },
+  {
+    "numero": 17,
+    "nom": "Puma",
+    "emoji": "🐆",
+    "photo": null,
+    "rarete": 3,
+    "ouLeTrouver": ["Torres del Paine (Chili)", "Patagonie chilienne"],
+    "reconnaitre": "Grand félin svelte de 1,5 à 2,5 m (queue comprise), 35 à 100 kg selon la région. Pelage uni fauve à brun-gris, ventre plus clair, museau sombre, longue queue épaisse à bout noir. Pas de taches ni de rayures — contrairement au jaguar ou à l'ocelot. En Patagonie, il est plus grand et plus massif qu'ailleurs. Généralement vu à l'aube ou au crépuscule, souvent posté sur un rocher ou se déplaçant furtivement dans les prairies ouvertes.",
+    "anecdoteCourte": "Les pumas de Torres del Paine sont devenus si habitués aux équipes de photographes animaliers qui les suivent depuis des années qu'ils ignorent les véhicules à moins de 20 mètres — tout en restant parfaitement sauvages et capables de chasser devant les observateurs sans se soucier d'eux.",
+    "sections": [
+      {
+        "titre": "Le meilleur spot mondial pour voir le puma",
+        "contenu": "Torres del Paine offre certaines des meilleures chances d'observation de pumas au monde. Contrairement à de nombreuses autres régions où les pumas sont incroyablement discrets et nocturnes, les pumas de Torres del Paine se sont quelque peu habitués à la présence humaine, notamment ceux associés aux expéditions de pistage, ce qui augmente les chances d'une observation réussie.\n\nLa  raison de cette particularité est simple : le parc est protégé depuis des décennies, les pumas n'y sont pas chassés, et la population de guanacos — leur proie principale — est abondante. Des générations de pumas ont grandi sans apprendre à craindre les humains observateurs. Résultat : certains individus connus des guides locaux se laissent approcher à quelques dizaines de mètres."
+      },
+      {
+        "titre": "Chasseur solitaire, stratège",
+        "contenu": "Durant la journée, le félin se met à l'abri du soleil ou des intempéries dans une anfractuosité rocheuse ou au milieu de broussailles et reste indétectable. Les meilleures chances d'observation sont soit au crépuscule, lorsqu'il part chasser, soit à l'aube avant qu'il n'ait trouvé une cachette pour la journée.\n\nPour  le trouver, les guides utilisent une technique indirecte : observer les guanacos. Un troupeau de guanacos qui regarde fixement dans une direction, nerveux, oreilles dressées — il y a probablement un puma dans cette direction. Les condors qui tournent en cercles bas signalent une carcasse récente, donc un puma qui vient de chasser et se repose à proximité. Le guanaco est une sentinelle indispensable sur le terrain."
+      },
+      {
+        "titre": "Reproduction et éducation des petits",
+        "contenu": "Le puma est solitaire toute sa vie — sauf pendant les deux semaines de l'accouplement. La femelle attire le mâle par des vocalises puissantes ressemblant à des miaulements de chatte amplifiés, audibles à grande distance dans la nuit patagonienne. Plusieurs mâles peuvent répondre à cet appel, ce qui entraîne des confrontations pour accéder à la femelle. Une fois l'accouplement terminé, le mâle repart sur son territoire et n'intervient plus.\n\nLa gestation dure environ 90 jours et aboutit généralement à la naissance de deux à quatre petits dans un abri isolé — une grotte, un fourré dense ou un amas rocheux.  Les chatons naissent tachetés, un camouflage essentiel pendant les premières semaines où ils sont totalement vulnérables. Ils ouvrent les yeux vers dix jours, commencent à se nourrir de viande vers six semaines et obtiennent leur pelage définitif vers 16 mois.\n\nLa  mère élève ses petits seule pendant 18 à 26 mois — une période d'apprentissage intense. Elle leur apprend à chasser progressivement : d'abord en les amenant sur des carcasses, puis en les laissant observer des chasses, puis en les laissant tenter de petites proies seuls. Il est fréquent qu'un seul petit de la portée atteigne l'âge adulte  — prédation, famine, accidents et conflits avec d'autres pumas font des ravages sur les jeunes inexpérimentés. Quand les jeunes quittent leur mère, ils doivent trouver un territoire vacant — les mâles peuvent se disperser à plus de 270 km de leur lieu de naissance avant d'en trouver un."
+      },
+      {
+        "titre": "Territoire, longévité et causes de mortalité",
+        "contenu": "Un mâle adulte occupe un territoire de 250 km² en moyenne, qui peut atteindre 1 000 km² dans les zones où les proies se font rares. Le territoire d'un mâle recouvre partiellement celui de plusieurs femelles, mais jamais celui d'un autre mâle.  Ces frontières sont maintenues par des marquages olfactifs — urine, déjections, griffures sur les troncs — et par des confrontations directes quand un rival s'aventure trop loin.\n\nDans son environnement naturel, le puma vit en moyenne 8 à 13 ans. En captivité, il peut dépasser les 20 ans.  La différence est brutale — et s'explique par les causes de mortalité naturelle qui s'accumulent rapidement dans la vie sauvage.\n\nEn Patagonie, un puma meurt principalement de quatre choses. Les conflits territoriaux d'abord — les combats entre mâles pour un territoire ou une femelle sont violents et les blessures souvent mortelles. La famine ensuite — un puma blessé ou vieillissant qui ne peut plus chasser efficacement dépérit rapidement. La mortalité est plus élevée dans les zones à faibles ressources alimentaires et dans les populations soumises à la chasse, où les conflits pour acquérir un territoire sont plus fréquents.  La troisième cause, spécifique à la Patagonie : les éleveurs qui empoisonnent des carcasses pour protéger leurs moutons — un puma qui mange un appât empoisonné meurt en quelques heures. Enfin, hors des zones protégées, la chasse directe reste une menace réelle.\n\nÀ Torres del Paine, protégé depuis des décennies, les pumas peuvent atteindre leur espérance de vie maximale — et c'est en partie pour cela que certains individus atteignent une taille et une sérénité qui surprennent même les biologistes."
+      },
+      {
+        "titre": "Comment maximiser les chances de le voir",
+        "contenu": "La meilleure période de l'année pour voir les pumas en Patagonie se situe entre mai et août — pendant les mois d'hiver, presque tous les animaux descendent dans les zones plus basses et le parc est moins fréquenté.  Mais l'été (novembre-mars) offre aussi de bonnes opportunités.\n\nConcrètement : réserver une excursion avec un guide spécialisé en pistage (puma tracker) est de loin la meilleure option — ils connaissent les territoires individuels de chaque puma du parc. Partir avant l'aube, rester dans le véhicule, avoir des jumelles puissantes. Pour augmenter les chances de bonnes observations, un minimum de 3 jours est recommandé.  Sans guide spécialisé, tu peux en voir depuis la route — mais c'est aléatoire."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le puma est l'animal terrestre à la plus grande répartition géographique des Amériques — du Yukon canadien à la Terre de Feu, soit plus de 13 000 km du nord au sud. Aucun autre mammifère terrestre n'occupe une telle étendue dans les Amériques.\n• Il ne rugit pas — contrairement aux grands félins africains, il émet des sifflements, des feulements et des miaulements ressemblant à ceux d'un chat domestique amplifié. La nuit dans le parc, on peut parfois l'entendre sans le voir.\n• En Patagonie, les mâles peuvent peser jusqu'à 100 kg — le double de leurs cousins d'Amérique centrale. La règle de Bergmann : dans les environnements froids, les animaux sont plus massifs.\n• Le terme 'lion de montagne' utilisé en Amérique du Nord désigne le même animal que le puma — une des espèces avec le plus de noms locaux au monde : puma, cougar, lion de montagne, panther, catamount."
+      }
+    ]
+  },
+  {
+    "numero": 18,
+    "nom": "Pudù",
+    "emoji": "🦌",
+    "photo": null,
+    "rarete": 3,
+    "ouLeTrouver": [
+      "Forêts de Puerto Montt",
+      "Région des Lacs (Chili)",
+      "Parc Vicente Pérez Rosales",
+      "Réserve Huilo Huilo"
+    ],
+    "reconnaitre": "Le plus petit cervidé du monde — 40 cm au garrot, 6 à 12 kg, soit la taille d'un chien de taille moyenne. Corps trapu et arrondi, pattes courtes et solides, museau pointu, grandes oreilles rondes mobiles. Pelage brun-roux uniforme. Le mâle porte de petits bois pointus de 8 à 10 cm — les plus petits bois de tous les cervidés. Les faons ont deux rangées de taches blanches sur le dos qui disparaissent en grandissant. Souvent vu à l'orée des forêts denses à l'aube ou au crépuscule.",
+    "anecdoteCourte": "Pour fuir un prédateur, le pudù court en zigzag entre les arbres plutôt qu'en ligne droite — une technique qui désoriente le puma ou le renard dans la forêt dense, là où la vitesse pure ne suffit pas.",
+    "sections": [
+      {
+        "titre": "Le plus petit cerf du monde",
+        "contenu": "Le pudù est le plus petit cervidé du monde.  À 40 cm au garrot, il arrive à peine à la cheville d'un élan. Pourtant il appartient bien à la même famille que le cerf élaphe, le renne ou le chevreuil — les Cervidae — avec les mêmes caractéristiques : bois caducs chez le mâle, gestation longue, un seul petit par portée.\n\nIl existe deux espèces : le pudù du nord (Colombie, Équateur, Pérou) et le pudù du sud (Chili, Argentine). Il a presque disparu d'Argentine à la suite d'une chasse excessive et des attaques de chiens.  Aujourd'hui c'est au Chili, dans les forêts tempérées humides entre Puerto Montt et la Patagonie, que sa population est la plus stable."
+      },
+      {
+        "titre": "Maître de la forêt dense",
+        "contenu": "Discret et solitaire, le pudù parcourt jour et nuit son territoire, suivant des chemins bien définis, le long desquels il dépose des marques odorantes grâce à des glandes situées près de ses yeux.  Ces chemins invisibles à l'œil humain constituent un vrai réseau dans la forêt — tunnels dans la végétation, passages sous les racines, zones de repos cachées.\n\nSa petite taille lui permet de se faufiler entre les arbres et dans les fourrés là où aucun autre cervidé ne passerait.  C'est sa principale défense : dans une forêt dense valdivienne avec ses fougères arborescentes et ses bambous, le pudù est pratiquement invisible. Lorsqu'il sent la menace, il fuit en dessinant une trajectoire en zigzag pour désorienter son ennemi."
+      },
+      {
+        "titre": "Reproduction et vie sociale",
+        "contenu": "La période de reproduction a lieu entre avril et juin, la gestation dure environ 200 à 210 jours.  C'est très long pour un animal si petit — l'équivalent d'une gestation humaine. La femelle met bas à un seul faon de 1 kg, couvert de taches blanches qui s'estompent après quelques mois.\n\nLe pudù est solitaire et territorial — les mâles se battent rarement, préférant les marquages olfactifs et les vocalisations pour délimiter leurs territoires. Il est actif jour et nuit, mais surtout en fin d'après-midi, le soir et le matin.  Ses prédateurs principaux sont le puma, le renard de Magellan et les rapaces pour les faons — et de plus en plus les chiens errants, qui constituent aujourd'hui l'une de ses menaces les plus sérieuses."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Son nom vient du mapudungun, la langue des Mapuches du Chili — les peuples indigènes qui vivaient dans ces forêts avant la colonisation espagnole avaient bien sûr nommé cet animal discret depuis longtemps.\n• Seulement 3 à 8% de l'habitat potentiel du pudù est actuellement protégé dans le réseau de parcs nationaux chiliens  — une situation préoccupante pour une espèce déjà classée quasi menacée.\n• Le pudù peut monter jusqu'à 3 200 m d'altitude pour fuir les prédateurs — une capacité surprenante pour un animal de cette taille avec des pattes si courtes.\n• Les mâles perdent leurs bois chaque année comme tous les cervidés — mais chez le pudù, les bois tombent si discrètement et si vite qu'on les retrouve rarement dans la nature."
+      }
+    ]
   }
 ]

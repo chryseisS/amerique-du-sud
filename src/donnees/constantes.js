@@ -1,32 +1,17 @@
 // module Planification
 
-export const PAYS = ['Pérou', 'Équateur', 'Bolivie', 'Chili', 'Argentine'];
+export const PAYS = ['Pérou', 'Equateur', 'Bolivie', 'Chili', 'Argentine'];
 
-export const TYPES_ACTIVITES = ['Trek', 'Visite','Divers'];
+export const TYPES_ACTIVITES = ['Trek', 'Visite','Divers', 'Excursion'];
 
 export const COULEURS_TYPES_ACTIVITES = {
   Trek: '#c9623f',
   Visite: '#7a4f2e',
   Divers: '#d4872a',
+  Excursion: '#d4872a'
 };
 
-// module Pokédex faune
-
-export const HABITATS = {
-  altiplano:        { libelle: 'Altiplano',     icone: '⛰' },
-  patagonie:        { libelle: 'Patagonie',     icone: '🌬' },
-  'cote-pacifique': { libelle: 'Côte Pacifique', icone: '🌊' },
-  'cote-atlantique':{ libelle: 'Côte Atlantique', icone: '🐋' },
-  amazonie:         { libelle: 'Amazonie',      icone: '🌴' },
-};
-
-export const HABITATS_ORDRE = [
-  'altiplano',
-  'patagonie',
-  'cote-pacifique',
-  'cote-atlantique',
-  'amazonie',
-];
+// module Faune
 
 export const RARETE_LIBELLES = {
   1: 'commun',
@@ -37,6 +22,25 @@ export const RARETE_LIBELLES = {
 // module Gastronomie
 
 export const TYPES_GASTRONOMIE = ['Boisson', 'Plat', 'Dessert'];
+
+export const COULEURS_PAYS = {
+  'Pérou':    { barre: '#C8763D', iconBg: '#FAECE7', iconText: '#993C1D', accent: '#C8763D' }, // terracotta
+  'Bolivie':  { barre: '#639922', iconBg: '#EAF3DE', iconText: '#3B6D11', accent: '#639922' }, // vert
+  'Chili':    { barre: '#185FA5', iconBg: '#E6F1FB', iconText: '#042C53', accent: '#185FA5' }, // bleu profond
+  'Equateur': { barre: '#EF9F27', iconBg: '#FAEEDA', iconText: '#854F0B', accent: '#EF9F27' }, // jaune/or
+  'Argentine':{ barre: '#7BB7E0', iconBg: '#E6F1FB', iconText: '#185FA5', accent: '#7BB7E0' }, // bleu ciel
+};
+
+export const COULEURS_TYPE = {
+  Plat:    '#c9623f', // terracotta (terra-500)
+  Boisson: '#7a4f2e', // brun (terra-700)
+  Dessert: '#d4872a', // ambre
+};
+
+export const couleursDuPlat = (plat) => {
+  const pays = Array.isArray(plat.pays) ? plat.pays[0] : plat.pays;
+  return COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
+};
 
 
 export function versSlug(texte) {

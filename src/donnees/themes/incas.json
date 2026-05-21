@@ -1,0 +1,160 @@
+{
+  "id": "incas",
+  "titre": "Les Incas",
+  "sousTitre": "L'empire du Soleil",
+  "episodes": [
+    {
+      "id": "avant-eux",
+      "numero": 1,
+      "titre": "Avant eux",
+      "sousTitre": "Les civilisations qui ont tout inventé avant les Incas",
+      "description": "Les Incas n'ont régné que 100 ans — à peine trois générations. Ce qui est remarquable, c'est tout ce qu'ils ont hérité. Remonter avant eux, c'est découvrir l'un des berceaux de civilisation les plus anciens de l'humanité.",
+      "sections": [
+        {
+          "titre": "Chavín : le premier grand réseau (900 - 200 av. J.-C.)",
+          "contenu": "Tout commence dans les hauteurs du nord du Pérou, à 3 200 mètres d'altitude, dans un lieu qui s'appelle Chavín de Huántar. Pas un empire, pas une armée, pas un roi conquérant. Juste un temple.\n\nMais quel temple. Chavín de Huántar est un complexe souterrain de galeries, de chambres et de conduits acoustiques construit avec une précision qui laisse encore les archéologues perplexes. Au centre du labyrinthe, une stèle de granit de 4,5 mètres de haut — le Lanzón — représente une divinité hybride mi-humaine, mi-jaguar, mi-serpent. Les pèlerins venaient de tout le territoire andin pour la consulter. Des chercheurs pensent que les galeries étaient conçues pour produire des sons déstabilisants pendant les rituels — grondements, échos, confusion sensorielle — amplifiés par l'effet de l'ayahuasca ou du San Pedro, les plantes hallucinogènes utilisées par les prêtres.\n\nCe qui rend Chavín extraordinaire, ce n'est pas la taille. C'est l'influence. On retrouve les mêmes motifs — la divinité aux crocs, le jaguar, l'œil exorbité appelé œil en volut — sur des céramiques, des textiles et des sculptures à des centaines de kilomètres à la ronde. Chavín n'a pas conquis ses voisins. Il les a fascinés. C'est le premier grand réseau culturel des Andes, une sorte de Vatican de la préhistoire andine, dont l'art et la cosmologie vont irriguer toutes les civilisations suivantes pendant mille ans."
+        },
+        {
+          "titre": "Nazca : dessiner pour les dieux (100 av. J.-C. - 800 apr. J.-C.)",
+          "contenu": "Sur la côte sud du Pérou, dans un désert parmi les plus arides de la planète, le peuple Nazca a tracé dans le sol des figures gigantesques. Un colibri de 90 mètres. Un singe avec une queue en spirale. Une araignée de 46 mètres.\n\nElles ne sont visibles dans leur totalité que depuis le ciel, ce qui a nourri toutes les théories possibles — extraterrestres, pistes d'atterrissage, cartes astronomiques. La réalité est à la fois plus simple et plus émouvante : ce sont vraisemblablement des chemins rituels, parcourus à pied lors de processions, liés au culte de l'eau et aux divinités de la fertilité dans un désert où la pluie est une question de survie. Les Nazca n'avaient pas besoin de les voir d'en haut — les dieux, eux, pouvaient.\n\nCe que ce peuple maîtrisait par ailleurs est moins célèbre mais tout aussi impressionnant : un réseau souterrain de canaux d'irrigation appelés puquios, taillés dans la roche pour capter les nappes phréatiques et irriguer les cultures dans un environnement hostile. Certains fonctionnent encore aujourd'hui."
+        },
+        {
+          "titre": "Tiwanaku : l'empire du toit du monde (300 - 1 100 apr. J.-C.)",
+          "contenu": "À 3 850 mètres d'altitude, sur les rives du lac Titicaca, une civilisation bâtit l'une des villes les plus importantes de l'hémisphère occidental. À son apogée, la ville compte peut-être 30 000 à 40 000 habitants.\n\nCe que Tiwanaku laisse en héritage est fondamental. D'abord, la Porte du Soleil : un monolithe taillé dans un seul bloc d'andésite de 10 tonnes, sculpté d'un dieu aux rayons solaires et aux larmes de condor — une image que vous retrouverez partout dans les Andes. Ensuite, et c'est moins connu, une technique agricole révolutionnaire : les camellones, ou champs surélevés. Dans les plaines inondées autour du lac Titicaca, les ingénieurs de Tiwanaku creusent des canaux et élèvent des plates-formes de culture au-dessus de l'eau. Les canaux stockent la chaleur solaire pendant la journée et la restituent la nuit, créant un microclimat qui protège les cultures du gel à 4 000 mètres. Une technologie agricole que les paysans boliviens réapprennent aujourd'hui avec l'aide d'archéologues.\n\nTiwanaku s'effondre autour de l'an 1 100, probablement à cause d'une sécheresse prolongée qui asphyxie son agriculture hydraulique. Mais son héritage cosmologique — le dieu solaire, le condor, le lac Titicaca comme lieu d'origine du monde — sera repris tel quel par les Incas, qui feront du Titicaca le berceau mythique de leur propre civilisation."
+        },
+        {
+          "titre": "Wari : le premier empire des Andes (600 - 1 100 apr. J.-C.)",
+          "contenu": "Contemporain de Tiwanaku et son grand rival, le peuple Wari (ou Huari) fait quelque chose que personne n'avait encore vraiment tenté dans les Andes : il construit un vrai empire administratif, avec des provinces, des routes et des centres régionaux planifiés.\n\nLeur capitale, près de l'actuelle Ayacucho au Pérou, est une ville tentaculaire de plusieurs kilomètres carrés. Mais ce qui est vraiment novateur, ce sont les huaris — des centres administratifs régionaux construits selon un plan standardisé, imposés aux peuples conquis pour contrôler la redistribution des ressources et l'organisation du travail collectif. C'est exactement ce que les Incas feront 400 ans plus tard, avec leurs tampus (relais) et leurs centres administratifs. La ressemblance est si frappante que certains historiens voient dans les Wari les véritables inventeurs du modèle impérial que les Incas ont simplement perfectionné.\n\nLes Wari disparaissent eux aussi vers 1 100. On ne sait pas très bien pourquoi. Effondrement climatique, tensions internes, rébellion des provinces ? Le mystère reste entier."
+        },
+        {
+          "titre": "Chimú : l'empire de la côte (900 - 1 470 apr. J.-C.)",
+          "contenu": "Pendant que les hauts plateaux bouillonnent de civilisations successives, la côte nord du Pérou voit s'élever un empire d'une sophistication stupéfiante : le royaume Chimú, dont la capitale Chan Chan est la plus grande ville en adobe jamais construite. Dix kilomètres carrés de palais, de jardins, de réservoirs et de rues. Aujourd'hui classée au patrimoine mondial de l'UNESCO, elle se dresse encore dans le désert côtier près de Trujillo — une ville fantôme géante couleur sable qui donne le vertige.\n\nLes Chimú sont des ingénieurs de l'eau hors pair. Dans un désert où il ne pleut presque jamais, ils construisent des canaux d'irrigation longs de plusieurs dizaines de kilomètres pour amener l'eau des Andes vers leurs champs côtiers. Ils travaillent l'or et l'argent avec un raffinement qui dépasse tout ce que les Incas produiront. Leur organisation sociale est rigide, hiérarchisée, efficace.\n\nEn 1 470, ils sont absorbés par les Incas — qui sont alors en pleine expansion fulgurante. Signe de respect ou pragmatisme ? Les Incas déportent les meilleurs orfèvres chimús vers Cuzco pour travailler à leur service. Le savoir-faire ne meurt pas, il migre."
+        },
+        {
+          "titre": "Ce que tout ça signifie",
+          "contenu": "Quand les Incas arrivent sur scène, vers 1 400, ils ne partent pas de zéro. Ils héritent de mille ans de savoir-faire accumulé : la cosmologie solaire de Tiwanaku, le modèle impérial des Wari, les techniques hydrauliques de Nazca et des Chimús, l'influence culturelle par le prestige plutôt que la seule force — comme Chavín l'avait déjà compris deux mille ans plus tôt.\n\nCe qui rend les Incas remarquables, ce n'est pas d'avoir inventé. C'est d'avoir su synthétiser, amplifier et organiser à une échelle que personne avant eux n'avait atteinte. En à peine un siècle, ils bâtissent l'empire le plus étendu des Amériques précolumbiennes — 4 000 kilomètres du nord au sud, 12 millions d'habitants, une dizaine de langues et d'écologies différentes sous une même administration."
+        }
+      ]
+    },
+    {
+      "id": "mythe-fondateur",
+      "numero": 2,
+      "titre": "Le mythe fondateur",
+      "sousTitre": "Manco Cápac, le lac Titicaca, les enfants du Soleil",
+      "description": "Toute grande civilisation se raconte une origine. Celle des Incas est l'une des plus belles : des enfants du Soleil surgis du lac Titicaca, en quête d'une terre promise.",
+      "sections": []
+    },
+    {
+      "id": "origines-historiques",
+      "numero": 3,
+      "titre": "La réalité historique des origines",
+      "sousTitre": "Ce que l'archéologie dit vraiment",
+      "description": "Derrière le mythe, que sait-on vraiment des débuts des Incas ? L'archéologie raconte une histoire bien différente — et tout aussi fascinante.",
+      "sections": []
+    },
+    {
+      "id": "pachacutec",
+      "numero": 4,
+      "titre": "Pachacútec, l'homme qui change tout",
+      "sousTitre": "Le coup d'État, la vision, l'empire",
+      "description": "En 1438, un prince renverse son père et transforme un petit royaume en empire. Son nom : Pachacútec. Sans lui, les Incas seraient restés une tribu parmi d'autres.",
+      "sections": []
+    },
+    {
+      "id": "sans-ecriture",
+      "numero": 5,
+      "titre": "Un empire sans écriture",
+      "sousTitre": "Les quipus, la mémoire orale",
+      "description": "Comment administrer 12 millions de personnes sans écriture ? Les Incas ont inventé une réponse stupéfiante : les quipus, un système de cordes à nœuds qui encode des données complexes.",
+      "sections": []
+    },
+    {
+      "id": "enfants-soleil",
+      "numero": 6,
+      "titre": "Les enfants du Soleil",
+      "sousTitre": "Cosmologie, Inti, Pachamama, rituels",
+      "description": "La religion inca n'est pas un simple culte solaire. C'est un système complexe qui organise le temps, l'espace, la politique et la vie quotidienne.",
+      "sections": []
+    },
+    {
+      "id": "momies-pouvoir",
+      "numero": 7,
+      "titre": "La momie comme pouvoir politique",
+      "sousTitre": "Les rois morts qui gouvernent encore",
+      "description": "Les Incas gardaient les momies de leurs rois vivantes politiquement : elles possédaient des terres, recevaient des visiteurs, participaient aux fêtes. Un des faits les plus déconcertants de cette civilisation.",
+      "sections": []
+    },
+    {
+      "id": "construire-impossible",
+      "numero": 8,
+      "titre": "Construire l'impossible",
+      "sousTitre": "Architecture, agriculture, routes",
+      "description": "Machu Picchu, les terrasses agricoles, 40 000 km de routes — sans roue, sans fer, sans mortier. Comment est-ce possible ?",
+      "sections": []
+    },
+    {
+      "id": "coca",
+      "numero": 9,
+      "titre": "La feuille de coca",
+      "sousTitre": "Pilier rituel, médical et politique",
+      "description": "Bien avant d'être au centre d'une guerre internationale contre la drogue, la feuille de coca était le pilier de toute la civilisation andine.",
+      "sections": []
+    },
+    {
+      "id": "sans-argent",
+      "numero": 10,
+      "titre": "Un empire sans argent",
+      "sousTitre": "Le mit'a, la redistribution",
+      "description": "Pas de monnaie, pas de marché. Et pourtant un empire qui fonctionne. Le système économique inca est l'un des plus originaux de l'histoire humaine.",
+      "sections": []
+    },
+    {
+      "id": "femmes-empire",
+      "numero": 11,
+      "titre": "Les femmes dans l'empire",
+      "sousTitre": "Les acllas, les épouses royales",
+      "description": "Les femmes dans l'empire inca avaient un rôle bien plus complexe que ce qu'on imagine. Les acllas, les épouses royales, la corégence — un angle souvent oublié.",
+      "sections": []
+    },
+    {
+      "id": "vie-quotidienne",
+      "numero": 12,
+      "titre": "La vie quotidienne",
+      "sousTitre": "Ce que vivait un Andin ordinaire",
+      "description": "Ce que mangeait, portait, croyait et vivait un habitant de l'empire au quotidien. Loin des temples et des rois.",
+      "sections": []
+    },
+    {
+      "id": "medecine",
+      "numero": 13,
+      "titre": "Médecine et trépanation",
+      "sousTitre": "Un taux de survie chirurgicale remarquable",
+      "description": "Les Incas pratiquaient des trépanations crâniennes avec un taux de survie parmi les plus élevés du monde précolombien. Comment ?",
+      "sections": []
+    },
+    {
+      "id": "guerre-expansion",
+      "numero": 14,
+      "titre": "Guerre, pouvoir et expansion",
+      "sousTitre": "La diplomatie avant la force",
+      "description": "Comment un empire s'étend sur 4 000 km. La diplomatie d'abord, la guerre ensuite — et l'intégration subtile des élites locales.",
+      "sections": []
+    },
+    {
+      "id": "chute",
+      "numero": 15,
+      "titre": "La chute",
+      "sousTitre": "Atahualpa, guerre civile, Pizarro",
+      "description": "La variole arrive avant Pizarro. Puis la guerre civile. Puis 168 Espagnols face à un empire de 12 millions d'habitants. Ce qui suit est une tragédie.",
+      "sections": []
+    },
+    {
+      "id": "ce-qui-survit",
+      "numero": 16,
+      "titre": "Ce qui a survécu",
+      "sousTitre": "Le quechua, l'Inti Raymi, aujourd'hui",
+      "description": "L'empire est tombé en 1533. Mais le quechua est parlé par 8 millions de personnes. L'Inti Raymi est célébré chaque année. Ce qui a survécu est partout autour de vous.",
+      "sections": []
+    }
+  ]
+}

@@ -17,7 +17,12 @@ import Faune from './modules/Faune.jsx';
 import DetailFaune from './modules/DetailFaune.jsx';
 
 // Autres
+// En haut, avec les autres imports :
 import Apprendre from './modules/Apprendre.jsx';
+import Theme from './modules/Theme.jsx';
+import Episode from './modules/Episode.jsx';
+import VisitesGuidees from './modules/VisitesGuidees.jsx';
+import DetailVisiteGuidee from './modules/DetailVisiteGuidee.jsx';
 import Jeux from './modules/Jeux.jsx';
 
 function App() {
@@ -38,7 +43,11 @@ function App() {
             <Route path="/planification/pays/:id"         element={<DetailPays />} />
 
             {/* Apprendre / Jeux */}
-            <Route path="/apprendre" element={<Apprendre />} />
+            <Route path="/apprendre"                          element={<Apprendre />} />
+            <Route path="/apprendre/theme/:themeId"           element={<Theme />} />
+            <Route path="/apprendre/theme/:themeId/:episodeId"  element={<Episode />} />
+            <Route path="/apprendre/visites-guidees"          element={<VisitesGuidees />} />
+            <Route path="/apprendre/visites-guidees/:id"      element={<DetailVisiteGuidee />} />
             <Route path="/jeux"      element={<Jeux />} />
 
             {/* Journal */}

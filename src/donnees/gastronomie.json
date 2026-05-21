@@ -24,7 +24,7 @@
     "nom": "Cuy",
     "type" : "Plat",
     "pays": ["Pérou"],
-    "description": "Cochon d'inde rôti.",
+    "description": "Cochon d'inde rôti. A manger en montagne (Cuzco - Arequipa).",
     "anecdote": "Dans la cathédrale de Cuzco, une peinture coloniale du XVIIᵉ siècle représente la Cène avec, au centre de la table devant le Christ, un cuy rôti sur un plat — et non un agneau pascal. L'artiste indigène Marcos Zapata a discrètement réécrit l'iconographie chrétienne avec les codes andins."
   },
   {
@@ -47,5 +47,208 @@
     "pays": ["Chili"],
     "description": "Variante du Completo, sans choucroute et sans extra.",
     "anecdote": "Aucun lien avec l'Italie : le nom vient des couleurs des trois garnitures. L'avocat (vert), la tomate (rouge) et la mayonnaise (blanche) reproduisent exactement le drapeau italien dans le pain. Les Chiliens ont l'œil patriote pour les drapeaux étrangers — il existe aussi le Brasileño (mayo, tomate, fromage) pour le drapeau brésilien."
+  },
+  {
+    "nom": "Api morado / con pastel",
+    "type" : "Boisson",
+    "pays": ["Bolivie"],
+    "description": "Boisson chaude, épaisse et sucrée à base de maïs violet (souvent servie au petit-déjeuner).",
+    "anecdote": "L'api tire sa couleur violette intense d'une variété précolombienne de maïs, le maíz morado, cultivée dans les Andes depuis plus de 2 500 ans. Ce maïs contient des anthocyanes en concentration record — plus que la myrtille."
+  },
+  {
+    "nom": "Salteñas",
+    "type" : "Plat",
+    "pays": ["Bolivie"],
+    "description": "sorte d'empañada à la viande et aux légumes, souvent très juteux. Défi : en manger un sans s'en mettre partout !",
+    "anecdote": "En Bolivie, la salteña ne se mange qu'avant midi. Les salteñerías ouvrent à 9h et ferment vers 11h30 — une fois le stock du matin écoulé, on n'en trouve plus nulle part. Demander une salteña à 15h, c'est se faire repérer immédiatement comme touriste. C'est le casse-croûte de milieu de matinée, jamais un déjeuner."
+  },
+  {
+    "nom": "Chicha Cochabambina",
+    "type" : "Boisson",
+    "pays": ["Bolivie"],
+    "description": "Boisson fermentée à base de maïs. Origine précolombienne, boisson des incas.",
+    "anecdote": "À Cochabamba, on repère les chicherías à un drapeau blanc accroché à un bâton au-dessus de la porte. C'est un code visuel hérité de l'époque coloniale : le drapeau signale que la fournée du jour est prête à être bue. Pas d'enseigne, pas de pub — juste un bout de tissu blanc qui flotte, et les habitués savent."
+  },
+  {
+    "nom": "Aji de gallina",
+    "type" : "Plat",
+    "pays": ["Pérou"],
+    "description": "Effiloché de poule mijoté dans une sauce crémeuse à base d'ají amarillo, pain trempé dans le lait, noix et fromage. Servi sur du riz blanc avec pommes de terre, olives noires et œuf dur.",
+    "anecdote": "Le nom précise gallina (poule pondeuse) et non pollo (poulet de chair) — ce n'est pas un détail. La poule, plus âgée et plus ferme, demande une longue cuisson qui parfume la sauce et donne une chair effilochée caractéristique. Aujourd'hui la plupart des restaurants utilisent du poulet par commodité, mais les puristes maintiennent qu'un vrai ají de gallina se fait à la poule, sinon « ce n'est qu'un poulet en sauce jaune »."
+  },
+  {
+    "nom": "Anticuchos",
+    "type": "Plat",
+    "pays": ["Pérou"],
+    "description": "Brochettes de cœur de bœuf marinées dans un mélange de vinaigre, ail, cumin et ají panca, grillées au charbon de bois et servies avec pomme de terre bouillie et maïs géant. On les mange dans la rue, le soir.",
+    "anecdote": "Les anticuchos sont nés de l'esclavage : aux XVIᵉ-XVIIᵉ siècles, les colons espagnols gardaient les meilleurs morceaux de bœuf et donnaient les abats — dont le cœur — aux esclaves africains. Ces derniers les ont marinés avec les épices précolombiennes disponibles et grillés sur des brochettes. Le plat des dépossédés est devenu un emblème national."
+  },
+  {
+    "nom": "Tiradito",
+    "type": "Plat",
+    "pays": ["Pérou"],
+    "description": "Fines tranches de poisson cru (souvent corvina ou thon) nappées d'une sauce au citron vert et ají, sans oignon contrairement au ceviche. Présentation épurée, à mi-chemin entre ceviche et sashimi.",
+    "anecdote": "Toute la différence entre un ceviche et un tiradito tient dans la découpe. Le ceviche se coupe en cubes ; le tiradito en lamelles fines, à la japonaise — d'où son nom, qui vient du verbe espagnol tirar au sens de « tirer, étirer ». Cette découpe en tranches fait que le poisson cuit moins dans le citron : un tiradito se sert presque cru, alors qu'un ceviche est plus marqué par l'acide. Même ingrédient, deux plats différents par le seul angle du couteau."
+  },
+  {
+    "nom": "Picarones",
+    "type": "Dessert",
+    "pays": ["Pérou"],
+    "description": "Beignets en forme d'anneaux à base de courge (zapallo) et de patate douce, frits puis nappés d'un sirop de chancaca (sucre de canne complet) parfumé à l'orange et à la cannelle.",
+    "anecdote": "Former un picarón est un savoir-faire de rue : la picaronera prend la pâte molle dans une main, fait passer son pouce au centre pour creuser le trou, et lance l'anneau directement dans l'huile bouillante d'un geste sec. Le tout en une seconde, sans moule, sans pause. Les bonnes picaroneras enchaînent 40 à 50 anneaux à la minute — c'est un des spectacles les plus hypnotisants des marchés de Lima."
+  },
+  {
+    "nom": "Chupe de Camarones",
+    "type": "Plat",
+    "pays": ["Pérou"],
+    "description": "Soupe-ragoût épaisse et crémeuse à base de crevettes de rivière, lait, fromage frais, œuf poché, maïs, pommes de terre et ají. Spécialité d'Arequipa.",
+    "anecdote": "Le chupe de camarones est le plat-roi des picanterías d'Arequipa, ces restaurants traditionnels tenus historiquement par des femmes (les picanteras) où chaque jour de la semaine correspond à un plat précis. Le chupe se sert traditionnellement le lundi — chupe de los lunes. Les picanterías arequipeñas ont été déclarées Patrimoine culturel du Pérou en 2014, en reconnaissance de ce calendrier hebdomadaire transmis depuis le XIXᵉ siècle."
+  },
+  {
+    "nom": "Rocoto Relleno",
+    "type": "Plat",
+    "pays": ["Pérou"],
+    "description": "Gros piment rocoto évidé, farci de viande hachée, oignons, olives, raisins secs et œuf dur, recouvert de fromage fondu et passé au four. Servi avec un gratin de pommes de terre (pastel de papa).",
+    "anecdote": "Plat emblématique d'Arequipa. À l'œil, le rocoto ressemble à un gros poivron rouge bien innocent. C'est précisément ce qui en fait l'un des plats préférés des Péruviens pour piéger les touristes : la première bouchée passe sans alerte, la chaleur monte vingt secondes plus tard, et il n'y a plus de retour possible."
+  },
+  {
+    "nom": "Mazamorra Morada",
+    "type": "Dessert",
+    "pays": ["Pérou"],
+    "description": "Dessert violet à base de maïs morado cuit avec ananas, coing, fruits secs, cannelle et clou de girofle, épaissi avec de la fécule de patate douce. Souvent servi à côté d'un riz au lait — duo appelé « clásico » ou « combinado ».",
+    "anecdote": "La mazamorra morada se sert traditionnellement combinada avec un arroz con leche — riz au lait blanc à la cannelle — versés côte à côte dans le même bol. Le contraste est autant visuel que gustatif : le violet acidulé de la mazamorra contre le blanc crémeux du riz au lait, le maïs précolombien contre le riz et le lait européens. C'est l'un des desserts les plus emblématiques de Lima, et un nouveau résumé liquide du métissage péruvien."
+  },
+  {
+    "nom": "Causa limeña",
+    "type": "Plat",
+    "pays": ["Pérou"],
+    "description": "Terrine froide de purée de pommes de terre jaunes assaisonnée au citron vert et au piment jaune (ají amarillo), garnie d'une farce — souvent thon, poulet ou avocat — et présentée en couches colorées.",
+    "anecdote": "La causa repose sur une variété précise : la papa amarilla, pomme de terre jaune péruvienne à la chair crémeuse et au goût légèrement beurré, qui s'écrase en purée fine sans coller. Le Pérou est le berceau mondial de la pomme de terre — on y cultive plus de 3 000 variétés — et la papa amarilla est considérée comme la plus noble. Hors du Pérou, aucune variété ne la remplace vraiment, ce qui explique pourquoi la vraie causa est difficile à reproduire à l'étranger."
+  },
+  {
+    "nom": "Inca Kola",
+    "type": "Boisson",
+    "pays": ["Pérou"],
+    "description": "Soda péruvien jaune fluo à base de verveine citronnelle.",
+    "anecdote": "Inca Kola est le seul soda local au monde à avoir battu Coca-Cola sur son propre marché : au Pérou, il s'est vendu davantage que le géant américain pendant des décennies. Coca-Cola, incapable de le concurrencer, a fini par racheter la marque en 1999 pour 300 millions de dollars — tout en laissant les Péruviens croire qu'elle restait nationale."
+  },
+  {
+    "nom": "Papa a la Huancaina",
+    "type": "Plat",
+    "pays": ["Pérou"],
+    "description": "Entrée froide incontournable : rondelles de pommes de terre jaunes nappées d'une sauce crémeuse à base d'ají amarillo, fromage frais, crackers et lait. Servie sur feuilles de laitue avec olives noires et œuf dur.",
+    "anecdote": "Ce qui donne à la sauce huancaína sa texture particulière — ni liquide ni épaisse, légèrement granuleuse — ce sont les galletas de soda (crackers salés) mixés dedans. Pas de farine, pas de fécule : ce sont les biscuits qui lient la sauce. Chaque famille péruvienne a sa proportion secrète crackers/fromage, et les débats sur la bonne texture de la huancaína sont aussi sérieux que les débats français sur la béchamel."
+  },
+  {
+    "nom": "Chicharrón de Chancho ",
+    "type": "Plat",
+    "pays": ["Pérou"],
+    "description": "Morceaux de porc frits lentement dans leur propre graisse jusqu'à obtenir une croûte dorée et croustillante. Servi avec pain rond (pan francés), patate douce, sarza criolla (salade d'oignons rouges au citron vert) et ají.",
+    "anecdote": "Le chicharrón de chancho est indissociable du dimanche matin à Lima. Les chicharronerías ouvrent à 7h et ferment quand le stock est épuisé — souvent avant midi. Les familles s'y retrouvent après la messe ou avant le match, dans des salles bruyantes où les tables partagées sont la règle."
+  },
+  {
+    "nom": "Seco de Cabrito",
+    "type": "Plat",
+    "pays": ["Pérou"],
+    "description": "Ragoût de chevreau mijoté lentement à la chicha de jora, coriandre fraîche mixée et ají. Servi avec riz blanc, haricots canarios et yuca. Spécialité du nord du Pérou (Trujillo, Chiclayo).",
+    "anecdote": "Le cabrito désigne strictement un chevreau de moins de trois mois, nourri au lait — pas une chèvre adulte, pas un agneau. Cette précision n'est pas anodine : la chair du cabrito est plus délicate, moins forte en goût que celle d'un animal adulte, et elle supporte la longue cuisson sans devenir filandreuse. Dans le nord péruvien, le cabrito se mange traditionnellement entre mars et juillet, quand les chevreaux de saison sont disponibles — hors saison, les restaurants sérieux servent du mouton et le précisent sur la carte."
+  },
+  {
+    "nom": "Encebollado",
+    "type": "Plat",
+    "pays": ["Equateur"],
+    "description": "Soupe nationale équatorienne : thon frais, yuca, oignons rouges marinés au citron vert, tomate et coriandre. Servie avec chifles (chips de banane verte) ou pain, et un trait de jus de citron. Se mange brûlante, à toute heure — mais surtout à l'aube.",
+    "anecdote": "L'encebollado est officiellement reconnu comme le meilleur remède équatorien à la gueule de bois. Les encebolladerías de Guayaquil et Quito ne ferment pas la nuit — elles attendent leurs clients les plus fidèles entre 3h et 6h du matin, à la sortie des boîtes et des fêtes. Le bouillon chaud, l'acidité du citron et les oignons marinés ont une réputation de remise sur pied en moins d'une heure que les Équatoriens défendent avec le sérieux d'une prescription médicale."
+  },
+  {
+    "nom": "Espumilla",
+    "type": "Dessert",
+    "pays": ["Equateur"],
+    "description": "Dessert de rue équatorien : mousse légère et aérienne de blancs d'œufs montés en neige avec de la pulpe de goyave (ou naranjilla, mora). Servie en spirale dans un cornet de gaufrette par les vendeurs des parcs de Quito.",
+    "anecdote": "Les vendeurs d'espumilla sont indissociables du Parque El Ejido de Quito, où ils officient depuis les années 1950. C'est le souvenir d'enfance de plusieurs générations de Quiténiens : le dimanche après-midi au parc, le cornet rose à la main. Aujourd'hui les vendeurs se raréfient, remplacés par des glaces industrielles — les associations de cuisine traditionnelle équatorienne militent pour que l'espumilla soit déclarée Patrimoine culturel immatériel avant de disparaître complètement."
+  },
+  {
+    "nom": "Hornado",
+    "type": "Plat",
+    "pays": ["Equateur"],
+    "description": "Cochon de lait rôti entier au four à bois pendant plusieurs heures jusqu'à obtenir une peau laquée et croustillante. Vendu à la découpe dans les marchés du samedi de la Sierra. Servi avec llapingachos, mote (maïs blanc cuit), agrio (sauce aigre-douce) et curtido (oignons marinés).",
+    "anecdote": "Le four traditionnel du hornado — un dôme en adobe (terre crue et paille) chauffé au bois pendant des heures avant d'y glisser le cochon — est une technique de cuisson héritée des Incas, qui utilisaient des fours similaires pour cuire le cuy et les tubercules. Les Espagnols ont introduit le porc au XVIᵉ siècle ; les cuisinières indigènes l'ont simplement mis dans leur four existant. Le hornado est littéralement un animal européen cuit dans un four andin."
+  },
+  {
+    "nom": "Llapingachos",
+    "type": "Plat",
+    "pays": ["Equateur"],
+    "description": "Galettes de pomme de terre écrasée fourrées au fromage frais, grillées à la poêle jusqu'à obtenir une croûte dorée. Servies avec chorizo, œuf au plat, avocat et sauce aux cacahuètes (salsa de maní). Plat de Sierra par excellence, vendu dans les marchés et les picanterías andines.",
+    "anecdote": "La ville d'Ambato, dans la province du Tungurahua, se revendique capitale mondiale du llapingacho. Chaque année, le marché central d'Ambato organise un concours officiel de la meilleure llapingachera — jugé sur la texture de la galette, le fondant de la farce et le doré de la croûte. Les gagnantes acquièrent une réputation qui dépasse les frontières de la province et attirent des clients depuis Quito et Guayaquil le week-end."
+  },
+  {
+    "nom": "Quimbolitos",
+    "type": "Dessert",
+    "pays": ["Equateur"],
+    "description": "Petit gâteau vapeur moelleux à base de farine de maïs, beurre, œufs, fromage frais et raisins secs, emballé et cuit dans une feuille d'achira (canna). Sucré et légèrement salé à la fois. Dessert ou goûter de Sierra, vendu dans les marchés et les boulangeries andines.",
+    "anecdote": "En Équateur, le quimbolito est intimement lié au souvenir des dimanches en famille et des grands-mères qui en préparent des dizaines à la fois. La recette se transmet oralement — les proportions se mesurent à la main, jamais à la balance. Chaque famille a sa version légèrement différente : plus de raisins secs, moins de fromage, pâte plus épaisse. Demander la recette à une abuela équatorienne, c'est recevoir une liste d'ingrédients sans aucune quantité précise et l'assurance que « ça se sent quand c'est bon »."
+  },
+  {
+    "nom": "Fritada",
+    "type": "Plat",
+    "pays": ["Equateur"],
+    "description": "Morceaux de porc mijotés longuement dans leur propre jus avec ail, cumin, jus d'orange et chicha de jora jusqu'à caramélisation, puis frits dans leur propre graisse. Servis avec mote (maïs blanc cuit), llapingachos, maduro frit (banane plantain mûre) et curtido. Plat de marché de la Sierra, copieux et sans compromis.",
+    "anecdote": "Ce qui distingue la fritada équatorienne de tous les autres porcs frits andins, c'est le jus d'orange ajouté en début de cuisson. L'acidité du fruit attendrit la viande, son sucre naturel caramélise en fin de cuisson et donne cette couleur acajou caractéristique. Les cuisinières de Sierra utilisent spécifiquement des naranjillas ou des oranges amères locales — plus acides que les oranges douces importées. Le résultat est une viande simultanément caramélisée, fondante et légèrement acidulée."
+  },
+  {
+    "nom": "Jugo de naranjilla",
+    "type": "Boisson",
+    "pays": ["Equateur"],
+    "description": "Jus frais de naranjilla (lulo), fruit andin à la peau orange et à la pulpe verte, acide et très parfumé. Mixé avec eau et sucre, servi sur glace. Goût unique : quelque part entre la tomate verte, le citron et le fruit de la passion. Introuvable hors d'Équateur et de Colombie.",
+    "anecdote": "La naranjilla est l'un des fruits les plus difficiles à exporter au monde : sa peau fine se meurtrit en quelques heures, sa pulpe oxyde rapidement et son goût change complètement une fois congelée. C'est pourquoi elle reste quasi inconnue hors d'Équateur et de Colombie malgré sa qualité exceptionnelle. Boire un jus de naranjilla fraîchement pressé à Quito, c'est une expérience impossible à reproduire ailleurs — ce qui en fait paradoxalement l'un des meilleurs souvenirs gustatifs qu'on puisse ramener d'Équateur, sans pouvoir le ramener."
+  },
+  {
+    "nom": "Melcocha",
+    "type": "Dessert",
+    "pays": ["Equateur"],
+    "description": "Confiserie traditionnelle de rue : mélasse de canne à sucre cuite puis étirée à la main sur un crochet en bois jusqu'à devenir dorée et satinée. Vendue en petits rouleaux torsadés dans les marchés et les parcs de Quito et Baños. Goût de caramel intense, texture entre le nougat et le caramel mou.",
+    "anecdote": "La ville de Baños de Agua Santa, au pied du volcan Tungurahua, est considérée comme la capitale équatorienne de la melcocha. Les melocheros y tiennent des stands ouverts sur la rue depuis des générations, et la fabrication en direct est devenue une attraction touristique à part entière. Certaines familles pratiquent le métier depuis quatre générations — le geste du crochet se transmet de père en fils, avec les mêmes proportions de mélasse et le même crochet en bois usé."
+  },
+  {
+    "nom": "Buñuelos",
+    "type": "Dessert",
+    "pays": ["Bolivie"],
+    "description": "Beignets frits légers et dorés à base de farine de blé, servis chauds saupoudrés de sucre glace et accompagnés d'un verre d'api morado. ",
+    "anecdote": "Le buñuelo ne se mange jamais seul en Bolivie — il arrive toujours avec un verre d'api morado, comme le café arrive avec un croissant. Les vendeurs des marchés de La Paz et Cochabamba les vendent systématiquement ensemble, et commander l'un sans l'autre attire un regard légèrement suspicieux. Le buñuelo trempe dans l'api, l'api réchauffe le buñuelo froid — c'est un des duos les plus anciens et les plus stables de la cuisine bolivienne de rue."
+  },
+  {
+    "nom": "Singari",
+    "type": "Boisson",
+    "pays": ["Bolivie"],
+    "description": "Eau-de-vie de raisin muscat de Alexandrie distillée en haute altitude dans les vallées de Tarija et Cinti (2 000 - 3 000 m). Claire, florale et légèrement fruitée. Base du chuflay, du macerado et de nombreux cocktails boliviens. Alcool national bolivien.",
+    "anecdote": "Dans les années 2000, l'acteur américain Steven Soderbergh — réalisateur de Traffic, film tourné partiellement en Bolivie — est tombé amoureux du singani sur le tournage. Il a racheté une distillerie bolivienne et lancé sa propre marque, Casa Real, exportée aux États-Unis. "
+  },
+  {
+    "nom": "Silpancho",
+    "type": "Plat",
+    "pays": ["Bolivie"],
+    "description": "Fine escalope de bœuf panée et frite, servie sur un lit de riz blanc et pommes de terre bouillies écrasées, couverte d'un œuf au plat et de sarza criolla (oignons, tomate, locoto, coriandre).",
+    "anecdote": "Le silpancho se distingue de toutes les autres escalopes andines par son épaisseur — ou plutôt son absence d'épaisseur. La viande est battue jusqu'à devenir quasi translucide, si fine qu'elle déborde largement de l'assiette. Cette finesse extrême est non négociable : elle garantit une cuisson en quelques secondes à feu vif, une croûte panée croustillante et une viande qui ne devient jamais sèche. Un silpancho épais est un silpancho raté."
+  },
+  {
+    "nom": "Fricasé",
+    "type": "Plat",
+    "pays": ["Bolivie"],
+    "description": "Soupe-ragoût épaisse de porc mijoté au piment amarillo et ají colorado, servie avec mote (maïs blanc cuit) et chuño (pomme de terre déshydratée noire).",
+    "anecdote": "Fricasé vient du français fricassée — technique culinaire européenne de viande cuite dans une sauce blanche au beurre et à la crème. Le fricasé bolivien n'a gardé que le nom : pas de crème, pas de beurre, pas de sauce blanche. À la place, bouillon de porc, piments rouges et noirs, mote et chuño. Les colons espagnols ont importé le terme français via la cuisine coloniale, et les Boliviens l'ont appliqué à quelque chose de radicalement différent — comme si on appelait une soupe miso pot-au-feu."
+  },
+  {
+    "nom": "Chairo",
+    "type": "Plat",
+    "pays": ["Bolivie"],
+    "description": "Soupe andine épaisse et nourrissante à base de chuño (pomme de terre déshydratée), viande de mouton ou de bœuf, légumes (carottes, navets, céleri), maïs et herbes. Mijotée longuement jusqu'à obtenir un bouillon dense et parfumé. Plat précolombien parmi les plus anciens de Bolivie, mangé en altitude depuis des millénaires.",
+    "anecdote": "Le chairo est l'un des rares plats boliviens dont la recette de base n'a presque pas changé depuis l'époque inca. Son ingrédient central — le chuño — était la pierre angulaire du système de stockage alimentaire inca : des entrepôts appelés qollqas dispersés sur tout l'empire conservaient des tonnes de chuño pour nourrir les armées, les ouvriers des grands travaux et les populations en cas de mauvaise récolte. Le chairo, c'est littéralement la soupe de l'empire inca."
+  },
+  {
+    "nom": "Llaucha",
+    "type": "Plat",
+    "pays": ["Bolivie"],
+    "description": "Petit pain rond et moelleux fourré au fromage frais fondant, cuit au four.",
+    "anecdote": "La llaucha est si spécifiquement paceña que les Boliviens des autres villes la considèrent comme un marqueur d'identité locale — comme les salteñas sont cochabambinas ou le silpancho est de Cochabamba. À Santa Cruz ou Sucre, on en trouve rarement en dehors des boulangeries spécialisées. Les Paceños expatriés dans d'autres villes boliviennes citent souvent la llaucha parmi les premières choses qui leur manquent — devant le fricasé du dimanche et avant même le singani."
   }
 ]

@@ -2,34 +2,24 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Search, X } from 'lucide-react';
 import faune from '../donnees/faune.json';
-import { HABITATS, HABITATS_ORDRE } from '../donnees/constantes';
 import CarteFaune from '../composants/CarteFaune';
+import { useObservationsFaune } from '../hooks/useObservationsFaune';
 
 function Faune() {
   // ─── ÉTATS ──────────────────────────────────────────
-  const [habitatActif, setHabitatActif] = useState('Tous');
   const [statutActif, setStatutActif] = useState('Tous');
   const [recherche, setRecherche] = useState('');
 
-  // Pour l'instant, statut vu/pas vu en local (Set des noms vus)
-  // Plus tard : remplacé par un useLiveQuery sur Dexie
-  // eslint-disable-next-line no-unused-vars
-  const [animauxVus, _setAnimauxVus] = useState(new Set());
+  // Live depuis IndexedDB — se met à jour automatiquement
+  const { vuSet } = useObservationsFaune();
 
   // Helper : un animal est-il vu ?
-  const estVu = (animal) => animauxVus.has(animal.nom);
+  const estVu = (animal) => vuSet.has(animal.nom);
 
   // ─── FILTRAGE ───────────────────────────────────────
   const rechercheNorm = recherche.trim().toLowerCase();
 
-  // Filtre par habitat — un animal peut avoir plusieurs habitats
-  const parHabitat =
-    habitatActif === 'Tous'
-      ? faune
-      : faune.filter((a) => a.habitats.includes(habitatActif));
-
-  // Filtre par statut
-  const parStatut = parHabitat.filter((a) => {
+  const parStatut = faune.filter((a) => {
     if (statutActif === 'Tous') return true;
     if (statutActif === 'Vus') return estVu(a);
     if (statutActif === 'AVoir') return !estVu(a);
@@ -37,22 +27,16 @@ function Faune() {
     return true;
   });
 
-  // Filtre par texte (sur le nom uniquement)
   const resultats = rechercheNorm
     ? parStatut.filter((a) => a.nom.toLowerCase().includes(rechercheNorm))
     : parStatut;
 
-  // Tri par numéro Pokédex croissant
   const resultatsTries = [...resultats].sort((a, b) => a.numero - b.numero);
 
   // ─── COMPTEURS ──────────────────────────────────────
   const totalVus = faune.filter(estVu).length;
   const totalAnimaux = faune.length;
   const pctVus = totalAnimaux > 0 ? (totalVus / totalAnimaux) * 100 : 0;
-
-  // Compte le nombre d'animaux par habitat (pour les chips)
-  const compterHabitat = (habitat) =>
-    faune.filter((a) => a.habitats.includes(habitat)).length;
 
   // ─── RENDU ──────────────────────────────────────────
   return (
@@ -88,7 +72,7 @@ function Faune() {
       {/* Barre de progression globale */}
       <div className="h-1 bg-terra-100 rounded-sm overflow-hidden mb-4">
         <div
-          className="h-full bg-terra-500 rounded-sm"
+          className="h-full bg-terra-500 rounded-sm transition-[width] duration-500"
           style={{ width: `${pctVus}%` }}
         />
       </div>
@@ -111,32 +95,6 @@ function Faune() {
             <X className="w-4 h-4" strokeWidth={2} />
           </button>
         )}
-      </div>
-
-      {/* Filtres HABITAT — chips scrollables */}
-      <div className="flex gap-1.5 mb-2 overflow-x-auto pb-1">
-        {/* Chip "Tous" */}
-        <ChipHabitat
-          actif={habitatActif === 'Tous'}
-          onClick={() => setHabitatActif('Tous')}
-          libelle="Tous"
-          compteur={totalAnimaux}
-        />
-        {/* Une chip par habitat */}
-        {HABITATS_ORDRE.map((cle) => {
-          const compteur = compterHabitat(cle);
-          // On masque les habitats vides pour ne pas afficher des chips inutiles
-          if (compteur === 0) return null;
-          return (
-            <ChipHabitat
-              key={cle}
-              actif={habitatActif === cle}
-              onClick={() => setHabitatActif(cle)}
-              libelle={`${HABITATS[cle].icone} ${HABITATS[cle].libelle}`}
-              compteur={compteur}
-            />
-          );
-        })}
       </div>
 
       {/* Filtres STATUT */}
@@ -188,25 +146,6 @@ function Faune() {
         </div>
       )}
     </div>
-  );
-}
-
-// ─── Sous-composant : chip d'habitat avec compteur intégré ───
-function ChipHabitat({ actif, onClick, libelle, compteur }) {
-  return (
-    <button
-      onClick={onClick}
-      className={`flex-shrink-0 flex items-center gap-1.5 px-3 py-1 rounded-full text-xs whitespace-nowrap border ${
-        actif
-          ? 'bg-terra-500 text-white border-terra-500'
-          : 'bg-terra-100 text-terra-muted border-terra-border'
-      }`}
-    >
-      <span>{libelle}</span>
-      <span className={actif ? 'text-white/70' : 'text-terra-muted/60'}>
-        {compteur}
-      </span>
-    </button>
   );
 }
 

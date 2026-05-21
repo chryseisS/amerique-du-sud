@@ -2,16 +2,19 @@
   {
     "id": "huaraz",
     "nom": "Huaraz",
-    "description": "Capitale de l'andinisme péruvien, base pour les treks de la Cordillère Blanche. La ville est à 3052 m, prévoir 2-3 jours d'acclimatation.\n\nÀ Huaraz, je compte faire le [[Trek Santa Cruz]] et la [[Laguna 69]]."
+    "pays":"Pérou",
+    "description": "Capitale de l'andinisme péruvien, base pour les treks de la Cordillère Blanche. La ville est à 3052 m, prévoir 2-3 jours d'acclimatation.\n\nLa quasi-totalité des randonnées autour de la ville sont dans le parc National Huascaran. Il faut prendre un billet (boleto turistico) qui dépend de la durée du séjour dans le parc. A partir de 4 jours, le prix est de 37 euros.\n\nL'objectif est de faire le [[Trek Santa Cruz]] et le [[Paso del Zorro]]. \n\nPour ce faire, faire quelques journées de randonnée pour acclimatation. Sur le chemin depuis Lima, s'arrêter à [[Glacier Pastoruri]]. Puis faire la [[Laguna Churup]] à côté de Huaraz. Partir ensuite sur le [[Trek Santa Cruz]]. Au retour, faire le [[Paso del Zorro]]. Puis départ vers l'Equateur et sur le chemin faire la ville de Yungay ([[Campo Santo de Yungay]]) et les [[Laguna 69]] et [[Laguna Paron]]. D'autres randonnées sont disponibles à Huaraz pour faire quelques jours d'acclimatation en plus si besoin (Laguna Wilcochoa ou possibilité de faire les lagunes un peu plus lointaines en passant par une agence sur la journée)."
   },
   {
     "id": "cuzco",
     "nom": "Cuzco",
+    "pays":"Pérou",
     "description": "Ancienne capitale inca, point de départ pour la Vallée Sacrée et le Machu Picchu.\n\nDepuis Cuzco, je veux faire le [[Trek du Salkantay]] et visiter le [[Machu Picchu]]."
   },
   {
     "id": "la-paz",
     "nom": "La Paz",
+    "pays":"Bolivie",
     "description": "Capitale administrative bolivienne, étalée dans une cuvette spectaculaire entre 3200 et 4100 m.\n\nÀ ne pas rater : prendre les téléphériques Mi Teleférico et descendre à la Death Road en VTT."
   }
 ]

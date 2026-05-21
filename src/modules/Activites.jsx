@@ -4,12 +4,13 @@ import activites from '../donnees/activites.json';
 import { PAYS, TYPES_ACTIVITES } from '../donnees/constantes';
 import CarteActivite from '../composants/CarteActivite';
 import OngletsPlanification from '../composants/OngletsPlanification';
+import { useEtatPersistant } from '../hooks/useEtatPersistant';
 
 function Activites() {
   // ─── ÉTATS ──────────────────────────────────────────
-  const [paysActif, setPaysActif] = useState('Pérou');
-  const [typeActif, setTypeActif] = useState('Tout');
-  const [recherche, setRecherche] = useState('');
+  const [paysActif, setPaysActif] = useEtatPersistant('activites:pays', 'Pérou');
+  const [typeActif, setTypeActif] = useEtatPersistant('activites:type', 'Tout');
+  const [recherche, setRecherche] = useEtatPersistant('activites:recherche', '');
 
   // ─── FILTRAGE ───────────────────────────────────────
   const rechercheNorm = recherche.trim().toLowerCase();
@@ -31,9 +32,13 @@ function Activites() {
       )
     : parType;
 
-  const resultatsTries = [...resultats].sort(
-    (a, b) => (b.importance || 0) - (a.importance || 0)
-  );
+  const resultatsTries = [...resultats].sort((a, b) => {
+    // 1. Par lieu (alphabétique)
+    const dl = a.lieu.localeCompare(b.lieu, 'fr');
+    if (dl !== 0) return dl;
+    // 2. Par importance décroissante
+    return (b.importance || 0) - (a.importance || 0);
+  });
 
   // ─── RENDU ──────────────────────────────────────────
   return (

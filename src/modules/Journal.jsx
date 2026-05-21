@@ -1,42 +1,30 @@
 import { Link } from 'react-router-dom';
 import { PenLine, UtensilsCrossed, Mountain, Bird } from 'lucide-react';
 import faune from '../donnees/faune.json';
+import gastronomie from '../donnees/gastronomie.json';
+import { useObservationsFaune } from '../hooks/useObservationsFaune';
+import { useAvisGastronomie } from '../hooks/useAvisGastronomie';
 
 function Journal() {
-  // ─── Données fake pour l'instant — à brancher sur Dexie plus tard ───
-  const entries = [
-    {
-      humeur: '🤩',
-      lieu: 'Salkantay',
-      title: "Le col à l'aube",
-      body: 'Départ 4h. Le soleil explose sur les glaciers.',
-      date: '12 mai',
-    },
-  ];
+  // ─── DB (live) ──────────────────────────────────────
+  const { vuSet } = useObservationsFaune();
+  const { testeSet } = useAvisGastronomie();
 
-  const gastro = { fait: 5, total: 28 };
-  const premieresFois = { fait: 3, total: 10 };
+  // ─── Gastro ─────────────────────────────────────────
+  const gastro = { fait: testeSet.size, total: gastronomie.length };
+  const pctGastro = gastro.total > 0 ? (gastro.fait / gastro.total) * 100 : 0;
 
-  // Pokédex : on utilise le vrai total depuis faune.json
-  // Le 'fait' reste 0 jusqu'à Dexie
-  const fauneFait = 0;
+  // ─── Pokédex ────────────────────────────────────────
+  const fauneFait = vuSet.size;
   const fauneTotal = faune.length;
 
-  // Stats globales — fake aussi pour l'instant
-  const stats = [
-    { label: 'Jours', value: '15 j' },
-    { label: 'Entrées', value: entries.length },
-    { label: 'Pays', value: '2' },
-    { label: 'Altitude', value: '4630 m' },
-  ];
+  // ─── Fake en attendant leurs modules DB ─────────────
+  // Journal de bord : pas encore de table en DB
+  const last = null;
 
-  const last = entries[0];
-
-  // Calculs pour les progressions
-  const pctGastro = gastro.total > 0 ? (gastro.fait / gastro.total) * 100 : 0;
+  // 1ères Fois : pas encore de table en DB
+  const premieresFois = { fait: 0, total: 10 };
   const pctPremieres = premieresFois.total > 0 ? (premieresFois.fait / premieresFois.total) * 100 : 0;
-
-  // Cercle de progression pour 1ères Fois (rayon 15, circonférence ≈ 94.25)
   const circonference = 2 * Math.PI * 15;
   const dashPremieres = (pctPremieres / 100) * circonference;
 
@@ -49,7 +37,7 @@ function Journal() {
         {/* ═══ LIGNE 1 : Journal (accent) + Gastronomie ═══ */}
         <div className="grid grid-cols-2 gap-2.5">
 
-          {/* ─── Journal de bord — carte accent terracotta ─── */}
+          {/* ─── Journal de bord ─── */}
           <Link
             to="/journal/bord"
             className="bg-terra-500 rounded-2xl p-3.5 min-h-[130px] flex flex-col justify-between shadow-[0_4px_16px_rgba(201,98,63,0.22)]"
@@ -74,7 +62,7 @@ function Journal() {
             </div>
           </Link>
 
-          {/* ─── Gastronomie — carte claire avec mini barre ─── */}
+          {/* ─── Gastronomie — live ─── */}
           <Link
             to="/journal/gastronomie"
             className="bg-terra-100 border border-terra-border rounded-2xl p-3.5 min-h-[130px] flex flex-col justify-between"
@@ -86,7 +74,7 @@ function Journal() {
               </div>
               <div className="h-1 bg-terra-500/15 rounded-sm mb-1 overflow-hidden">
                 <div
-                  className="h-full bg-terra-500 rounded-sm transition-[width] duration-300"
+                  className="h-full bg-terra-500 rounded-sm transition-[width] duration-500"
                   style={{ width: `${pctGastro}%` }}
                 />
               </div>
@@ -97,10 +85,10 @@ function Journal() {
           </Link>
         </div>
 
-        {/* ═══ LIGNE 2 : 1ères Fois + Pokédex (cartes sombres) ═══ */}
+        {/* ═══ LIGNE 2 : 1ères Fois + Pokédex ═══ */}
         <div className="grid grid-cols-2 gap-2.5">
 
-          {/* ─── 1ères Fois — carte sombre avec anneau de progression ─── */}
+          {/* ─── 1ères Fois — fake en attendant ─── */}
           <Link
             to="/journal/premieres-fois"
             className="bg-terra-900/85 rounded-2xl p-3.5 min-h-[150px] flex flex-col justify-between"
@@ -111,7 +99,6 @@ function Journal() {
                 1ères Fois
               </div>
               <div className="flex items-center gap-2">
-                {/* Cercle de progression SVG */}
                 <svg width="36" height="36" viewBox="0 0 36 36">
                   <circle
                     cx="18" cy="18" r="15"
@@ -147,7 +134,7 @@ function Journal() {
             </div>
           </Link>
 
-          {/* ─── Pokédex — carte sombre avec mini-points ─── */}
+          {/* ─── Pokédex — live ─── */}
           <Link
             to="/journal/faune"
             className="bg-terra-900 rounded-2xl p-3.5 min-h-[150px] flex flex-col justify-between"
@@ -157,13 +144,14 @@ function Journal() {
               <div className="font-serif italic text-base text-white mb-2 leading-tight">
                 Pokédex
               </div>
-              {/* Mini-points : un par animal, allumé si vu */}
+              {/* Mini-points : allumés si l'animal est observé */}
               <div className="flex flex-wrap gap-1 mb-1.5">
                 {faune.slice(0, 10).map((animal) => (
                   <div
                     key={animal.nom}
-                    className="w-2 h-2 rounded-sm bg-white/15"
-                    /* Plus tard : bg-terra-500 si vu, bg-white/15 sinon */
+                    className={`w-2 h-2 rounded-sm transition-colors duration-300 ${
+                      vuSet.has(animal.nom) ? 'bg-terra-500' : 'bg-white/15'
+                    }`}
                   />
                 ))}
               </div>
@@ -173,8 +161,6 @@ function Journal() {
             </div>
           </Link>
         </div>
-
- 
 
       </div>
     </div>

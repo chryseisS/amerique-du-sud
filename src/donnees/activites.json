@@ -7,7 +7,7 @@
     "pays": "Pérou",
     "importance": 5,
     "duree": "4 jours",
-    "description": "Trek permettant de rejoindre le Machu Picchu à pied (70km). Prix d'entrée pour le Salkantay trek + lagune Humantay (environ 10-15 euros au total).Le départ se fait de Soraypampa. Soit en tente avec possibilité de poser la tente dans les jardins des auberges, soit en auberge (20 euros la nuit pour 2, moins cher en dortoir et repas à moins de 5 euros). Nombreux points d'eau, partir avec une gourde filtrante.\n\nJour 1 : trajet Cuzco vers Soraypampa et lagune Humantay. 2 possibilités : bus jusqu'à Mollepata puis taxi pour monter à Soraypampa. Ou excursion organisée vers lagune Humantay depuis Cuzco (20 euros par personne) pour avoir transport et repas compris.Van à laisser à Cuzco.\n\nJour 2 : Soraypampa - Salkantay pass - Colpapampa : 22km avec montée à 4600m d'altitude. 900m D+ - 1700m D-. \n\nJour 3 : Colpapampa - La Playa : 16km, principalement descente.\n\nJour 4 : Colpapampa - Hidroelectrica - Agua Calientes : 19km, principalement plat.",
+    "description": "Trek permettant de rejoindre le Machu Picchu à pied (70km). Prix d'entrée pour le Salkantay trek + lagune Humantay (environ 10-15 euros au total). Le départ se fait de Soraypampa. Soit en tente avec possibilité de poser la tente dans les jardins des auberges, soit en auberge (20 euros la nuit pour 2, moins cher en dortoir et repas à moins de 5 euros). Nombreux points d'eau, partir avec une gourde filtrante.\n\nJour 1 : trajet Cuzco vers Soraypampa et lagune Humantay. 2 possibilités : bus jusqu'à Mollepata puis taxi pour monter à Soraypampa. Ou excursion organisée vers lagune Humantay depuis Cuzco (20 euros par personne) pour avoir transport et repas compris.Van à laisser à Cuzco.\n\nJour 2 : Soraypampa - Salkantay pass - Colpapampa : 22km avec montée à 4600m d'altitude. 900m D+ - 1700m D-. \n\nJour 3 : Colpapampa - La Playa : 16km, principalement descente.\n\nJour 4 : Colpapampa - Hidroelectrica - Agua Calientes : 19km, principalement plat.",
     "visiteGuidee": false
   },
   {
@@ -19,7 +19,7 @@
     "importance": 5,
     "duree": "1 jour",
     "description": "A réserver en avance. Si pas possible (probable car haute saison), 1000 tickets sont mis en vente tous les jours pour le lendemain. Prévoir minimum une journée, voire deux sur place pour réussir à avoir un ticket pour le lendemain. Arriver sur place 1 heure à 2 heures avant l'ouverture, beaucoup de monde qui fait la queue. Passeport nécessaire pour acheter les tickets et pour rentrer sur le site.\n\nIl faut choisir parmi plusieurs circuits :\n\n - Circuit 1 : Panoramique. Vue de haut du Machu Picchu mais ne permet pas de visiter les ruines. Variantes permettant de se balader un peu plus loin (1A étant la meilleure).\n\n - Circuit 2 : Classique. Permet d'avoir une vue en hauteur et de visiter les ruines. 2A en priorité sinon 2B.\n\n - Circuit 3 : moins de bâtiments principaux à visiter, mais le circuit 3A permet de grimper en haut de la montagne Huayna Picchu. Très peu de billets pour ce circuit.\n\nPrix de la visite : 50 euros. Prévoir de laisser les affaires à l'auberge, seul un petit sac est autorisé dans l'enceinte du Machu Picchu. Pas de toilettes non plus.\n\nPour retourner à Cuzco après la visite, marcher jusqu'à Hidroelectrica, puis prendre un bus jusqu'à Cuzco. Ne pas arriver trop tard à Hidroelectrica (dernier bus vers 14h30 - 15h).",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
     {
     "type": "Trek",
@@ -49,9 +49,9 @@
     "lieu": "Huaraz",
     "lieuId": "huaraz",
     "pays": "Pérou",
-    "importance": 4,
+    "importance": 5,
     "duree": "4 jours",
-    "description": "Trek à haute altitude. Prendre quelques jours pour s'acclimater à Huaraz (3000m d'altitude) avec des randos à la journée. Départ à Vaqueria jusqu'à Cashapampa. Pour aller à Vaqueria : soit prendre collectivos jusqu'à Yungai, puis un autre jusqu'à Vaqueria, soit organiser le transport organisé via des agences à Huaraz. Nuits en tente dans des campings. Prévoir nourriture pour la durée du trek. Entrée dans le parc à payer.\n\nJour 1 : Vaqueria - Paria : 10 km de mise en jambes. \n\nJour 2 : Paria - Punta Union (4750m) - Taullipampa : 1100m D+ pour monter au col de Punta Union puis descente vers le camping.\n\nJour 3 : Taullipampa - Laguna Arhuaycocha (A/R) - Llamacorral : petit aller-retour vers Arhuaycocha qui permet de découvrir un des plus beaux spots du trek. \n\nJour 4 : Llamacorral - Cashapampa. Retour en collectivos depuis Cashapampa jusqu'à Huaraz.",
+    "description": "Trek à haute altitude. Prendre quelques jours pour s'acclimater à Huaraz (3000m d'altitude) avec des randos à la journée. Départ à Vaqueria jusqu'à Cashapampa. Pour aller à Vaqueria : soit prendre collectivos jusqu'à Yungai, puis un autre jusqu'à Vaqueria, soit organiser le transport organisé via des agences à Huaraz. Nuits en tente dans des campings. Prévoir nourriture pour la durée du trek. Entrée dans le parc à payer : prendre le billet multi-jours pour 150 soles qui donne également accès à toutes les autres randonnées.\n\nJour 1 : Vaqueria - Paria : 10 km de mise en jambes. \n\nJour 2 : Paria - Punta Union (4750m) - Taullipampa : 12km, 1100m D+ pour monter au col de Punta Union puis descente vers le camping.\n\nJour 3 : Taullipampa - Laguna Arhuaycocha (A/R) - Llamacorral : 15km, 400m D+. Petit aller-retour vers Arhuaycocha qui permet de découvrir un des plus beaux spots du trek. \n\nJour 4 : Llamacorral - Cashapampa : 11km.\n\nRetour en collectivos depuis Cashapampa jusqu'à Huaraz.\n\nIl est possible d'effectuer le trek en 3 jours en faisant le jour 2 Paria puis l'aller retour vers Arhuaycocha. Ce qui fait 2 étapes de 18km pour les 2 derniers jours (premier jour plus tranquille car trajet d'environ 5 heures à prendre en compte pour aller au départ).",
     "visiteGuidee": false
   },
   {
@@ -62,7 +62,7 @@
     "pays": "Pérou",
     "importance": 4,
     "duree": "1 jour",
-    "description": "A 2 heures au nord de Huaraz. Plus belle lagune. Randonnée pour y accéder de 14km - 800m D+, pour atteindre une altitude de 4600m. A faire sur le chemin pour aller en Equateur. Interdiction de faire du packraft",
+    "description": "A 2 heures au nord de Huaraz. Plus belle lagune. Randonnée pour y accéder de 14km - 800m D+, pour atteindre une altitude de 4600m. A faire sur le chemin pour aller en Equateur. Interdiction de faire du packraft.",
     "visiteGuidee": false
   },
   {
@@ -206,6 +206,250 @@
     "importance": 4,
     "duree": null,
     "description": "Montagne située à 4h de route au sud de Cuzco. Une des montagnes colorées moins touristique que Vinicunca. Entrée de 10 soles. Le départ du trek peut s'effectuer à Layo, avec une montée de 8km pour monter au Pallay Punchu. Il est également possible de monter sur une route en terre pour aller directement au départ, juste à côté de la montagne.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Vallée sacrée",
+    "lieu": "Cuzco",
+    "lieuId": "cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Vallée sculptée par la rivière Urubamba (rivière sacrée). Regorge de centres religieux et de domaines royaux. Prendre le boleto turistico integral pour pouvoir visiter l'ensemble des sites (valable 10 jours). \n\nSites à visiter :\n\n - Ollantaytambo : village inca traditionnel, avec forteresse en amont de la ville.\n\n - Maras : Bassins de sel à flanc de montagne. Non inclus dans le boleto turistico\n\n - Moray : laboratoire agricole inca composé de terrasses circulaires concentriques.\n\n - Chinchero : Village dans lequel une église coloniale est construite sur un palais inca.\n\n - Pisac : capitale textile du Pérou et site archéologique (ruines d'une ancienne cité inca).\n\n Andahuaylillas : église San Pedro Apostol à visiter.\n\nIl est possible d'emprunter un bout du chemin inca (gratuitement) de Chinchero à Urquillos (9km de sentier)",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Trek",
+    "nom": "Trek du Choquequirao",
+    "lieu": "Cuzco",
+    "lieuId": "cuzco",
+    "pays": "Pérou",
+    "importance": 4,
+    "duree": "3 jours",
+    "description": "Trek de 45km en aller-retour sur 3 jours, à une altitude maximale de 3000m (pas de mal des montagnes). Il permet de visiter les ruines de Choquequirao, beaucoup moins fréquentée que le Machu Picchu. Le départ se fait à Capuliyoc (mirador), où il est possible de laisser le van au départ du sentier. Le trek consiste en une descente de 1500m, puis une remontée de 1500m avant l'arrivée à Choquequirao. L'idéal est de dormir dans la même auberge les deux jours, ce qui permet de laisser ses affaires à l'auberge pour la visite de Choquequirao. Chambre à moins de 20 euros et repas à 5 euros.\n\nJour 1 : Capuliyoc - Marampata : 15km, 1500m D+, 1500m D-. Partir tôt.\n\nJour 2 : Marampata - Choquequirao - Marampata : visite des ruines de Choquequirao et retour à Marampata.\n\nJour 3 : Marampata - Capuliyoc : 15km, 1500m D+, 1500m D-.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Trek",
+    "nom": "Huayna Potosi",
+    "lieu": "La Paz",
+    "lieuId": "la-paz",
+    "pays": "Bolivie",
+    "importance": 4,
+    "duree": "3 jours",
+    "description": "Huayna Potosi : montagne s'élevant à plus de 6000m à côté de La Paz. Se fait en 3J/2N ou en 2J/1N. Privilégier 3J/2N afin d'avoir plus de temps pour s'acclimater et apprendre les techniques d'alpinisme. Ne pas réserver en ligne (plus cher), aller voir directement sur place les agence. Sur le groupe 'Les Français en Bolivie', beaucoup de recommandations pour des guides locaux à contacter par téléphone. Prix : environ 150 euros pour les 3 jours par personnes.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Excursion",
+    "nom": "Salar d'Uyuni",
+    "lieu": "Uyuni",
+    "lieuId": "uyuni",
+    "pays": "Bolivie",
+    "importance": 5,
+    "duree": "3 jours",
+    "description": "Excursions permettant de visiter le Salar d'Uyuni et Sud Lipez. Non accessible sans guide et sans 4x4. Faire une excursion de 4J/3N ou 3J/2N, départ et retour à Uyuni. Essayer de trouver un groupe sur 'Les Français en Bolivie' pour avoir des prix dégressifs (trop cher à 2). Si pas de groupe, réserver en ligne ou sur place. Prix : environ 300 euros par personne pour l'excursion.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Trek",
+    "nom": "Condoriri",
+    "lieu": "La Paz",
+    "lieuId": "la-paz",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": "1 jour",
+    "description": "Randonnée à côté de La Paz. 10km qui part de La Rinconada (sentier de randonnée, 4500m d'altitude) jsuqu'au sommet du Pico Austria (5300m). Route en terre mais accessible jusqu'au parking. Télécharger la carte sur AllTrails. Si départ de Tuni, cela rajoute 10km aller-retour.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Chan Chan",
+    "lieu": "Nord du Pérou",
+    "lieuId": "nord-pérou",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Site archéologique, capitale de la civilisation chimù, dans la ville de Trujillo. Prix : 11 soles. Donne accès au musée, au palais Tschudi (ou Nik An) et aux sites Huaca La Esmeralda et Huaca El Dragon (temples de la culture Moche).",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Pampachiri",
+    "lieu": "Cuzco",
+    "lieuId": "Cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Sur le chemin entre Cuzco et Lima. Deux attractions principales : le bosquet de pierre (Bosque de Piedras), et le village des Schtroumpfs (la Casa de los Pitufos), dans lequel des gens vivent encore.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Mirador Cielo Punku",
+    "lieu": "Cuzco",
+    "lieuId": "Cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Au Sud de Cuzco, sur le chemin vers l'Ausangate. Petit arrêt avec un beau point de vue, sculpture en forme de main géante. Prix : 2 soles. A faire sur le chemin. Goûter le pan de Huaro dans le village, et visiter l'église de Huaro.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Lignes de Nazca",
+    "lieu": "Paracas",
+    "lieuId": "paracas",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "A Nazca (sur le chemin entre Paracas et Arequipa). Grandes figures tracées au sol par le peuple nazca dans le désert. Se voient mieux en avion. Prix : 100 euros par personne. Certaines d'entre elles peuvent se voir depuis le Mirador de las Lineas de Nazca, pour la modique somme de quelques soles.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Manupata",
+    "lieu": "Cuzco",
+    "lieuId": "cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Au Sud de Cuzco, sur le chemin vers l'Ausangate, à côté du Mirador Cielo Punku. Le Cañón de los Espejos Turquesa de Muñapata permet de faire une petite balade le long d'une rivière. Petit arrêt de 30min.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Mindo",
+    "lieu": "Quito",
+    "lieuId": "quito",
+    "pays": "Equateur",
+    "importance": 5,
+    "duree": "2 jours",
+    "description": "Petite ville située à 2h de route de Quito, connue comme la ville aux oiseaux et des papillons. Très humide. Dormir en lodge pour 30 dollars la nuit, ou dormir dans des zones de camping aménagée avec le van. Les  activités à faire à Mindo :\n\n - Observation des oiseaux : ils s'observent mieux entre 6h et 9h du matin. Certains lodges ont des mangeoires pour attirer les oiseaux. La Casa Amarillo Mindo a des sentiers de randonnée privés (6 dollars) sur lesquels l'observation des oiseaux est possible. La référence est sinon le Refugio Paz de las Avec, mais uniquement en tour guidé.\n\n - Randonnée des 5 cascades. Prendre un téléphérique (Tarabita) pour 5 dollars aller-retour. Arrivée à un réseau de sentiers qui permettent de se balader : sentier de la Cascada Reina et sentier des 5 cascades. Sentiers boueux.\n\n - Ateliers de chocolat : Yumbos Chocolate ou El Quetzal de Mindo. Proposent des tours et des dégustations.\n\n - Mindo Frog Concert : visite qui commence à la nuit tombée (vers 18h30) à Mindo Lago, qui permet d'observer et entendre les espèces nocturnes, notamment les grenouilles.\n\n - Mariposario de Mindo : une serre aux papillons.\n\n - Des expériences de tubing, tyroliennes, canyoning sont organisées.\n\nLes applications eBird ou Merlin Bird ID permettent d'identifier les oiseaux par le son ou la photo. Une carte des sentiers peut être récupérée à l'office du tourisme.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Mitad del Mundo",
+    "lieu": "Quito",
+    "lieuId": "quito",
+    "pays": "Equateur",
+    "importance": null,
+    "duree": null,
+    "description": "Sur le route entre Quito et Mindo. Village dans lequel on peut apercevoir un bâtiment représentant la ligne de latitude 0°. Prix : 5 dollars. Possibilité également de visiter le musée Inti Nan",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Trek",
+    "nom": "Boucle de Quilotoa",
+    "lieu": "Quito",
+    "lieuId": "quito",
+    "pays": "Equateur",
+    "importance": 4,
+    "duree": "3 jours",
+    "description": "Malgré son nom, ce trek est en fait un trek de Sigchos à Quilotoa. Trek de 35km. Possibilité de dormir en tente ou en hostel (20 dollars par personne par nuit avec diner et petit déjeuner compris). Pour réserver les hostels, soit par Booking, WhatsApp, soit via l'hébegement de la nuit d'avant. Laisser le van à Latacunga, et prendre le bus jusqu'à Sigchos, depuis le terminal terrestre  de Latacunga (aller voir la veille les horaires). Au retour, bus direct de Quilotoa vers Latacunga à l'entrée du village.\n\nJour 1 : Sigchos - Isinlivi : 10km, 600m D+.\n\nJour 2 : Isinlivi - Chugchilan : 12.4km - 781m D+.\n\nJour 3 : Chugchilan - Quilotoa : 13km, 1050m D+.\n\nCircuti classique en 3 jours. Si on veut raccourcir, prendre le premier bus du matin et doubler les deux premières étapes. Ou doubler étape 2 et 3, mais attention à l'altitude (3000m) et beaucoup de dénivelé.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Trek",
+    "nom": "Parc national de Cotopaxi",
+    "lieu": "Quito",
+    "lieuId": "quito",
+    "pays": "Equateur",
+    "importance": 3,
+    "duree": "2 jours",
+    "description": "Parc national qui se situe au sud de Quito. Le point central du parc est le volcan Cotopaxi, qui culmine à 5897m. Pour rentrer dans le parc, il faut s'enregistrer à une des entrées. Deux entrée, via Machachi ou Caspi. L'entrée via Caspi est goudronnée, donc plus pratique. Les activités dans ce parc :\n\n - Laguna de Limpiopung : très belle vue sur le volcan.\n\n - Montée au Refuge José Rivas : en van jusqu'à 4600m, puis jusqu'au refuge, puis jusqu'au bas du glacier.\n\n - Ascension du Rumiñahui : le départ se fait à la laguna de Limpiopung et permet de grimper au sommet du volcan de Rumiñahui (11km, 870m D+, trace sur AllTrails). Partir tôt.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Banos",
+    "lieu": "Ambato",
+    "lieuId": "ambato",
+    "pays": "Equateur",
+    "importance": null,
+    "duree": "3 jours",
+    "description":"Petite ville à côté de Ambato. Ville reconnue pour ses activités de sport extrême.\n\n - Casa del Arbol : petit parc avec quelques activités, dont une balançoire pour se balancer au-dessus du vide. Prix : 1 dollar.\n\n - Bains thermaux pour se reposer.\n\n - Route des cascades : à faire en van et s'arrêter à chaque cascade. Ou en vélo mais route partagée et pas forcément agréable. Cascade El Manto de la Novia : soit à pied pour descendre (gratuit), soit par tarabita (2 dollars aller-retour) pour survoler la cascade. Cascade El Pailón del Diablo : la plus connue. Deux entrée (5 dollars) : l'entrée 1 qui mène aux escaliers et au balcon sous la chute (on se fait mouiller), ou l'entrée 2 qui offre une vue d'ensemble avec des ponts suspendus.\n\n - Parque Aventura San Martin : parc aventure où il est possible de faire zipline allongé, pont suspendu et via ferrata.\n\n - Randonnées : sentier de la Vierge (30min) qui permet de monter en hauteur et avoir une vue sur Banos et sur le volcan Tungurahua. Sentier des belvédères : permet d'avoir une vue plongeante sur la ville. Si on continue ensuite, permet d'accéder à Casa del Arbol.\n\n - Rafting, canyoning.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Réserve du Chimborazo",
+    "lieu": "Ambato",
+    "lieuId": "ambato",
+    "pays": "Equateur",
+    "images":["chimborazo.jpg"],
+    "importance": null,
+    "duree": null,
+    "description":"Le sommet du volcan Chimborazo, culminant à 6263m d'altitude, est le point de la Terre le plus proche du soleil. L'accès au parc est gratuit. Il faut s'enregistrer au poste de garde à l'entrée principale. \n\nLa randonnée classique est celle qui va du premier refuge (Carrel à 4800m d'altitude) vers le Refuge Whymper, puis la Laguna Condor Cocha à 5100m. Enormément de vigognes dans cette réserve. La météo est très changeante et souvent brumeuse. Il est possible de descendre en VTT depuis le refuge Whymper jusqu'au village presque 2000m plus bas.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Parc national Las Cajas",
+    "lieu": "Cuenca",
+    "lieuId": "cuenca",
+    "pays": "Equateur",
+    "importance": null,
+    "duree": null,
+    "description":"Le parc National Las Cajas est un parc national à 40min en voiture de Cuenca. Il est gratuit, il faut s'enregistrer au centre des visiteurs au bord de la laguna Toreadora. Les gardiens nous fourniront une carte du parc. De nombreuses randonnées sont disponibles. Possibilité de monter au cerro San Luis (plus haut sommet) et faire une boucle passant par les lagunas Totoras et Patoquinas (environ 10km), partie nord du parc. Possibilité de faire une deuxième journée côté sud. Une application 'Parque Nacional Cajas' permet de visualiser les différents chemins de randonnées. Le temps est très changeant, humide et brumeux.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Amazonie Bolivie",
+    "lieu": "Cochabamba",
+    "lieuId": "cochabamba",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": "5 jours",
+    "description":"Visite de l'Amazonie via Rurennabaque. Prendre l'avion depuis Cochabamba (moins d'une heure de vol). Possibilité de faire 5 jours : quelques jours dans la selva (jungle amazonienne dense) et quelques jours dans la pampa (zones humides ouvertes). La pampa permet d'effectuer un vrai safari amazonien. Compter 400 euros pour 5 jours via des agences du type Jaja Tours. Voir agences recommandées (et autres partenaires) dans le groupe Facebook 'Les Français en Bolivie'.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Parc Pan de Azucar",
+    "lieu": "Nord du Chili",
+    "lieuId": "nord-chili",
+    "images":["pan-de-azucar.jpg"],
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description":"Parc sur la route pour monter de Santiago vers San Pedro de Atacama. Prix : 11 euros environ. A réserver à l'avance sur le site officiel. Quelques randonnées pas très longues, à finir avant 18h, permettant d'observer des guanacos ou des renards gris (avant 10h ou après 16h30). Chemins de randonnées : sendero Mirador (5km aller-retour) et sendero Quebrada del Castillo (4km). Plage Playa Blanca.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Désert d'Atacama",
+    "lieu": "Nord du Chili",
+    "lieuId": "nord-chili",
+    "pays": "Chili",
+    "importance": null,
+    "duree": "3-4 jours",
+    "description":"Le désert d'Atacama est un des endroits les plus arides du monde, avec des paysages lunaires, des lagunes colorées et des geysers fumants. Chaque spot touristique du désert est payant, à réserver en avance. Le désert est à une altitude comprise entre 2000m et 4200m pour certaines zones. La visite du désert se fait en plusieurs jours.\n\n**Arrivée depuis Calama.** Sur le chemin, faire un petit détour vers Valle del Arcoiris (vallée arc-en-ciel) et Yerbas Buenas. 10 euros environ les deux sites. Quelques passages de gué peu profonds.\n\n**Nord de San Pedro de Atacama.** Point d'intérêt principal : les geysers de Tatio. Arriver entre 6h et 8h pour voir les geysers (avant le lever du soleil). 15 euros l'entrée. Accès au champ de geyser, le geyser blanc et les Termas de El Tatio. Sur le chemin, possibilité de s'arrêter à Machuca, petit village traditionnel dans lequel les habitants élèvent des lamas, et dans lequel on peut manger de la viande de lama. Arrêt possible à la Quebrada Escalera (gratuit). Après le point de vue, il y a un sentier qui remonte vers des piscines chaudes gratuites. Sur la route du retour, proche de SPA, petite balade dans le canyon de Guatin et vallée des cactus.\n\n**Sud de San Pedro de Atacama.** Points d'intérêts principaux : Piedras Rojas et lagunas Miscanti et Miniques. 15 euros, à acheter la veille, et entrées papier à récupérer à Socaire une heure avant le jour J. Piedras Rojas est à 4200m d'altitude. Laguna Tuyalito (gratuit) juste après. Sur la route du retour, possibilité de s'arrêter à la lagune de Chaxa (15 euros). Plus proche de SPA, lagunas Cejar et Piedra : 15 euros avec réservation obligatoire. Permet de se baigner dans la laguna Piedra, plus salée que la mer morte.\n\n**Autour de San Pedro de Atacama.** Valle de la Luna : 15 euros, plusieurs secteurs balisés (mirador Duna Mayor, Mina Victoria, Tres Marias, Anfiteatro et mirador de Ckari).Canyon Garganta del Diablo, 5 euros. Mirador Pukara Quito. Valle de Marte. Magic Bus.\n\nLe désert d'Atacama est le meilleur endroit pour faire un tour astronomie. Choisir une nuit dégagée et avec le moins de lune possible.\n\nAprès les quelques jours de route, effectuer un lavage complet du châssis (énormément de sel).",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Boucle Nord de Salta",
+    "lieu": "Salta",
+    "lieuId": "salta",
+    "pays": "Argentine",
+    "importance": 5,
+    "duree": "3 jours",
+    "description":"Il faut pour la plupart des points d'intérêt sur la route, payer en cash une petite somme pour effectuer la randonnée ou voir le point de vue. Depuis la Bolivie, les points d'arrêts sont les suivants :\n\n - Petite randonnée à Tres Cruces pour monter en haut du Cerro Colorado, à 4100m d'altitude.\n\n - Petite randonnée à Inca Cueva.\n\n - **Serrania de Hornocal** à Humahuaca. Point de vue à 4350m sur la montagne aux 14 couleurs. Y être entre 15h30 et 17h30 pour bien voir les couleurs.\n\n - **Quebrada de las Senoritas** à Uquia. Randonnée dans le canyon d'environ 6km.\n\n - Pumamarca et le Paseo de los Colorados. Petite balade de 3km autour de la montagne.\n\n - Salinas Grandes. Implique de faire un aller-retour depuis Pumamarca. La visite n'est pas possible sans guide. Tarif de 15 euros par véhicule. Grand désert de sel avec des bassins d'eau turquoise.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Visite",
+    "nom": "Boucle Sud de Salta",
+    "lieu": "Salta",
+    "lieuId": "salta",
+    "pays": "Argentine",
+    "importance": 5,
+    "duree": "3 jours",
+    "description":"Du Nord vers le Sud, les points d'arrêts sont les suivants :\n\n - Parc national Los Cardones : plateau désertique entouré de millions de cactus. Mirador Ojo de Condor pour s'arrêter. Possibilité de faire quelques randonnées : Cerro Laguna, ou Valle Encantado.\n\n - **Quebrada de las Flechas** : route qui passe au milieu du canyon. Possibilité de s'arrêter visiter Los Colorados ou aller explorer les formations rocheuses.\n\n - **Quebrada de las Conchas** : plusieurs arrêts au Nord de Cafayate : Yesera, Garganta del Diablo, Anfiteatro, El Sapo, El Obelisco. Petite balade au Mirador Tres Cruces.\n\n - **Ruines de Quilmes** : au sud de Cafayate, site archéologique précolombien.\n\n A Cafayate, il est possible de visiter une Bodega (cave à vin), et de faire une dégustation. Possible également de visiter une fromagerie 'Cabras de Cafayate'.",
     "visiteGuidee": false
   }
 ]
