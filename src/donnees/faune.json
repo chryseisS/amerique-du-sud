@@ -349,7 +349,7 @@
     "numero": 10,
     "nom": "Merganette des torrents",
     "emoji": "🦆",
-    "photo": null,
+    "photo": "merganette.png",
     "rarete": 2,
     "ouLeTrouver": ["Rivières andines", "Canyon du Colca"],
     "reconnaitre": "Petit canard de 43 à 46 cm, toujours vu sur les torrents et rapides andins. Le mâle est spectaculaire : tête et cou blanc strié de noir, dos noir aux liserés blancs, queue grise. La femelle est plus discrète : dessus gris, joues et dessous roux vif. Tous deux ont un bec fin et crochu, rouge vif, adapté pour attraper des proies sous les pierres. Toujours en couple, toujours sur une rivière à fort courant. Impossible à confondre dans ce contexte.",
@@ -385,7 +385,7 @@
     "numero": 11,
     "nom": "Cuy",
     "emoji": "🐹",
-    "photo": null,
+    "photo": "cuy.png",
     "rarete": 1,
     "ouLeTrouver": [
       "Villages andins",
@@ -426,7 +426,7 @@
     "numero": 12,
     "nom": "Caracara andin",
     "emoji": "🦅",
-    "photo": null,
+    "photo": "caracara_andin.png",
     "rarete": 1,
     "ouLeTrouver": [
       "Altiplano bolivien",
@@ -460,7 +460,7 @@
     "numero": 13,
     "nom": "Nandou de Darwin",
     "emoji": "🦤",
-    "photo": null,
+    "photo": "darwin_rhea.png",
     "rarete": 1,
     "ouLeTrouver": ["Torres del Paine", "Patagonie", "Altiplano bolivien"],
     "reconnaitre": "Grand oiseau coureur de 90 à 100 cm de hauteur, 15 à 25 kg, plumage gris-brun avec des taches blanches caractéristiques sur le corps. Pattes longues et puissantes à trois doigts, pas de queue visible, ailes réduites inutilisables pour voler. Ressemble à une petite autruche. Se déplace en groupes de 5 à 30 individus dans la steppe ouverte. Court jusqu'à 60 km/h, ailes légèrement écartées pour se stabiliser.",
@@ -488,7 +488,7 @@
     "numero": 14,
     "nom": "Mara de Patagonie",
     "emoji": "🐇",
-    "photo": null,
+    "photo": "mara.png",
     "rarete": 1,
     "ouLeTrouver": ["Torres del Paine", "Patagonie"],
     "reconnaitre": "Grand rongeur de 70 à 75 cm, ressemblant à un croisement entre un lièvre et une petite antilope. Pelage gris-brun sur le dos, flancs roussâtres, ventre blanc, tache blanche caractéristique sur l'arrière-train. Longues oreilles mobiles, pattes arrière plus longues que les pattes avant. Queue courte et peu visible. Se déplace souvent en bondissant à grande vitesse — peut sprinter à 55 km/h. Toujours actif le jour.",
@@ -520,7 +520,7 @@
     "numero": 15,
     "nom": "Renard de Magellan",
     "emoji": "🦊",
-    "photo": null,
+    "photo": "culpeo.png",
     "rarete": 1,
     "ouLeTrouver": ["Torres del Paine", "Terre de Feu", "Patagonie"],
     "reconnaitre": "Grand canidé de 90 à 130 cm (queue comprise), 5 à 13 kg. Tête et pattes roux vif, dos gris strié de noir, ventre et gorge blancs, queue longue et touffue grise avec une tache noire à la base et à l'extrémité. Plus grand et plus robuste qu'un renard roux européen — silhouette à mi-chemin entre le renard et le coyote. Souvent vu en bord de route à l'aube ou au crépuscule, parfois en plein jour dans les zones peu fréquentées.",
@@ -548,7 +548,7 @@
     "numero": 16,
     "nom": "Manchot de Magellan",
     "emoji": "🐧",
-    "photo": null,
+    "photo": "manchot.png",
     "rarete": 1,
     "ouLeTrouver": [
       "Isla Magdalena (Punta Arenas)",
@@ -585,7 +585,7 @@
     "numero": 17,
     "nom": "Puma",
     "emoji": "🐆",
-    "photo": null,
+    "photo": "puma.png",
     "rarete": 3,
     "ouLeTrouver": ["Torres del Paine (Chili)", "Patagonie chilienne"],
     "reconnaitre": "Grand félin svelte de 1,5 à 2,5 m (queue comprise), 35 à 100 kg selon la région. Pelage uni fauve à brun-gris, ventre plus clair, museau sombre, longue queue épaisse à bout noir. Pas de taches ni de rayures — contrairement au jaguar ou à l'ocelot. En Patagonie, il est plus grand et plus massif qu'ailleurs. Généralement vu à l'aube ou au crépuscule, souvent posté sur un rocher ou se déplaçant furtivement dans les prairies ouvertes.",
@@ -621,7 +621,7 @@
     "numero": 18,
     "nom": "Pudù",
     "emoji": "🦌",
-    "photo": null,
+    "photo": "pudu.png",
     "rarete": 3,
     "ouLeTrouver": [
       "Forêts de Puerto Montt",
@@ -647,6 +647,543 @@
       {
         "titre": "Le saviez-vous ?",
         "contenu": "• Son nom vient du mapudungun, la langue des Mapuches du Chili — les peuples indigènes qui vivaient dans ces forêts avant la colonisation espagnole avaient bien sûr nommé cet animal discret depuis longtemps.\n• Seulement 3 à 8% de l'habitat potentiel du pudù est actuellement protégé dans le réseau de parcs nationaux chiliens  — une situation préoccupante pour une espèce déjà classée quasi menacée.\n• Le pudù peut monter jusqu'à 3 200 m d'altitude pour fuir les prédateurs — une capacité surprenante pour un animal de cette taille avec des pattes si courtes.\n• Les mâles perdent leurs bois chaque année comme tous les cervidés — mais chez le pudù, les bois tombent si discrètement et si vite qu'on les retrouve rarement dans la nature."
+      }
+    ]
+  },
+  {
+    "numero": 19,
+    "nom": "Albatros à sourcils noirs",
+    "emoji": "🐦",
+    "photo": "albatros.png",
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Détroit de Magellan",
+      "Canal Beagle (Ushuaia)",
+      "Cap Horn"
+    ],
+    "reconnaitre": "Grand oiseau marin de 80 à 95 cm, envergure de 2 à 2,5 m. Plumage blanc pur sur le corps, dessus des ailes noir luisant, bec jaune crochu à pointe rouge. Trait noir au-dessus de l'œil — le 'sourcil' qui lui donne son nom. En vol, il plane sans jamais battre des ailes, rasant les vagues avec une précision millimétrique. Se repère de loin à sa taille, son contraste noir-blanc tranché et sa façon de surfer les creux de vagues. Souvent vu depuis les bateaux, parfois en groupe autour d'un chalutier.",
+    "anecdoteCourte": "L'albatros à sourcils noirs peut voler à 110 km/h dans les tempêtes du détroit de Magellan — et il préfère les tempêtes au calme plat, car sans vent il ne peut presque pas voler. Un oiseau littéralement fait pour les pires conditions météo au monde.",
+    "sections": [
+      {
+        "titre": "Un planeur parfait dans les pires conditions",
+        "contenu": "L'albatros à sourcils noirs est un maître du vol plané dynamique — une technique qui exploite les différences de vitesse du vent entre la surface de l'eau et quelques mètres au-dessus. Il descend en piqué vers les vagues en accélérant, remonte en profitant de l'élan pour prendre de l'altitude, puis replonge — un cycle continu qui lui permet de parcourir des milliers de kilomètres sans presque battre des ailes.\n\nIl peut atteindre 110 km/h dans les vents forts.  Cette dépendance au vent est totale : par temps calme, décoller et se maintenir en vol devient très difficile. C'est pour cela qu'on le voit surtout dans les zones les plus venteuses de la planète — le détroit de Magellan, le cap Horn, les cinquantièmes rugissants — là où les vents soufflent presque sans interruption."
+      },
+      {
+        "titre": "Une vie presque entièrement en mer",
+        "contenu": "En dehors de la période de reproduction, l'albatros à sourcils noirs évolue uniquement en haute mer sans guère se poser.  Il boit l'eau de mer — une glande nasale spécialisée filtre le sel et l'expulse par les narines. Il dort sur l'eau, posé sur les vagues entre deux sessions de pêche. Il peut rester des mois en mer sans jamais toucher terre.\n\nIl se nourrit principalement de poissons, calmars et crustacés, qu'il capture en surface ou en plongeant à faible profondeur. Lors des tempêtes, il s'abrite dans les fjords et les détroits  — c'est souvent dans ces moments, quand les albatros cherchent un abri dans le canal Beagle ou le détroit de Magellan, qu'on les voit de plus près depuis les bateaux."
+      },
+      {
+        "titre": "Reproduction : un apprentissage de dix ans",
+        "contenu": "La reproduction de l'albatros est l'une des plus lentes et des plus élaborées du monde animal. Tout commence par des années de répétition. Les jeunes, incapables de se reproduire avant 7 à 10 ans, reviennent dans la colonie dès l'âge de 3 ans uniquement pour s'exercer. Ils pratiquent la parade nuptiale avec d'autres jeunes non reproducteurs — queue déployée, danses synchronisées, claquements de bec, cris gutturaux — parfois pendant plusieurs années et avec plusieurs partenaires potentiels avant de former un couple stable. Ce n'est pas anodin : un oiseau qui n'a jamais pratiqué sera mal coordonné, donc peu attractif. La parade est un signal de qualité.\n\nUne fois le couple formé, il est monogame à vie. En septembre, les partenaires retournent toujours au même endroit sur le même nid — un cône de boue, racines et herbes séchées, agrandi chaque année. C'est le nid qui est le point de rendez-vous, pas une vie commune en mer. Un seul œuf est pondu en octobre. Les deux parents se relaient pour couver pendant environ 70 jours, puis nourrissent le poussin pendant 4 mois avant son premier envol. Les adultes peuvent procréer au moins jusqu'à 35 ans et vivre jusqu'à 60 ans."
+      },
+      {
+        "titre": "La vie en mer : séparés mais fidèles",
+        "contenu": "Une fois la saison de reproduction terminée — vers avril-mai — le poussin s'envole et disparaît en mer pour 3 ans minimum, sans revenir dans la colonie. Les deux parents repartent aussi, chacun de leur côté. Même pendant l'incubation, le mâle et la femelle cherchent leur nourriture séparément — en mer, le couple ne vit pas ensemble. Ils peuvent se retrouver à des milliers de kilomètres l'un de l'autre, suivant chacun les zones poissonneuses sans se chercher.\n\nCe qui est remarquable, c'est la précision du retrouvailles : chaque septembre, les deux partenaires reviennent au même nid, au même endroit dans la même colonie, sans s'être coordonnés. C'est la fidélité au lieu qui maintient la fidélité au couple — pas l'inverse.\n\nMais ce système commence à se fissurer. Le réchauffement climatique perturbe les zones de pêche : les eaux plus chaudes et moins poissonneuses obligent les albatros à étendre leur périmètre de chasse, certains ne revenant plus à temps pour la saison de reproduction. Leur partenaire, arrivé seul au nid, finit par repartir avec un autre oiseau disponible. Le taux de divorce est ainsi passé de 1-3% à près de 8% ces dernières années — une anomalie dans une espèce dont la monogamie était proverbiale depuis des siècles, et un signal préoccupant sur l'état des océans australs."
+      },
+      {
+        "titre": "La menace des palangres",
+        "contenu": "La principale menace pour l'albatros à sourcils noirs est le développement de la pêche industrielle et de ses techniques dans tous les océans du Sud. Cet albatros est une des victimes les plus courantes de ces techniques dans l'hémisphère Sud, principalement de la palangre — certaines font 130 km de long et possèdent plusieurs milliers d'hameçons.\n\nLe  mécanisme est simple et brutal : l'albatros plonge sur l'appât au moment où la ligne est filée, se retrouve pris à l'hameçon et se noie quand la palangre descend en profondeur. Ce phénomène touche notamment les femelles ayant quitté leur nid pour aller pêcher  — une femelle morte en mer laisse un œuf ou un poussin sans soins, et un mâle veuf qui ne se reproduira souvent plus. L'UICN estime un déclin de 65 % de la population sur les trois générations à venir sur les principaux sites de nidification."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• C'est l'espèce d'albatros la plus commune et la plus répandue  — et pourtant elle est classée en danger. Une illustration parfaite du fait que 'commun' et 'protégé' ne sont pas synonymes.\n• Son nom scientifique, Thalassarche melanophris, vient du grec : thalassa (mer), arche (maître), melas (noir) et ophris (sourcil) — littéralement 'maître de la mer aux sourcils noirs'.\n• L'albatros inspire depuis des siècles les marins qui voient en lui une âme de marin disparu. Tuer un albatros était considéré comme un très mauvais présage — une superstition immortalisée par le poème de Coleridge 'La Ballade du Vieux Marin'.\n• Sa population mondiale est estimée entre 1 et 2,5 millions d'individus, dont 60 à 80 % nichent aux îles Falkland."
+      }
+    ]
+  },
+  {
+    "numero": 20,
+    "nom": "Huemul",
+    "emoji": "🦌",
+    "photo": "huemul.png",
+    "rarete": 3,
+    "ouLeTrouver": [
+      "Parc Nacional Cerro Castillo (Chili)",
+      "Région d'Aysén (Chili)",
+      "Torres del Paine (Chili)"
+    ],
+    "reconnaitre": "Cerf trapu et robuste de 140 à 165 cm de long, 65 à 85 kg. Pelage épais brun-café uniforme, légèrement plus clair sur le ventre. Pattes courtes et musclées, tête large avec de grandes oreilles mobiles. Le mâle porte des bois fourchus de 25 à 30 cm — bien plus courts et simples que ceux d'un cerf élaphe. Silhouette massive et basse comparée aux autres cervidés. Souvent observé seul ou en petits groupes de 2-3 individus, généralement en lisière de forêt ou sur des versants rocheux.",
+    "anecdoteCourte": "Il figure sur le blason national du Chili aux côtés du condor depuis l'indépendance — symbole de la faune endémique chilienne. Paradoxe : il est classé en danger d'extinction avec moins de 1 500 individus sauvages, et la plupart des Chiliens ne l'ont jamais vu.",
+    "sections": [
+      {
+        "titre": "Le cerf le plus méridional du monde",
+        "contenu": "Le huemul est le cervidé le plus méridional de la planète.  Il vit dans la cordillère des Andes du sud, entre le Chili et l'Argentine, dans les forêts tempérées et les zones alpines de Patagonie. Il vit dans des zones d'altitude moyenne pendant l'été, descend au pied des montagnes en automne et passe l'hiver réfugié dans les bois des vallées.  Cette migration altitudinale saisonnière le rend particulièrement difficile à localiser — il n'est jamais au même endroit selon la saison.\n\nSa population totale est estimée à environ 1 500 individus,  répartis en petits groupes isolés dans des vallées souvent inaccessibles. C'est l'un des cervidés les plus menacés au monde."
+      },
+      {
+        "titre": "Un déclin brutal en un siècle",
+        "contenu": "Avant la colonisation européenne, le huemul était abondant dans toute la Patagonie. En un siècle, sa population a chuté de plus de 90 %. Les causes sont multiples et cumulatives.\n\nLa fragmentation de son habitat par l'urbanisation, l'agriculture, la construction de routes et les pipelines a réduit et isolé ses populations.  Les maladies transmises par le bétail domestique — fièvre aphteuse, brucellose — ont décimé des groupes entiers non immunisés. Le cerf élaphe, introduit au Chili pour la chasse sportive, concurrence directement le huemul pour les pâturages et lui transmet des parasites. Les chiens domestiques et féraux, laissés sans surveillance par les éleveurs ou devenus sauvages, chassent le huemul et causent des pertes importantes dans les populations fragmentées.\n\nLe  résultat est une espèce morcelée en dizaines de petites populations isolées, incapables d'échanger des individus entre elles — un piège génétique à long terme."
+      },
+      {
+        "titre": "Comportement et vie sociale",
+        "contenu": "Les huemuls vivent en petits groupes de deux ou trois animaux, généralement constitués d'une femelle et de sa progéniture. On rencontre également des individus solitaires.  Les mâles sont solitaires hors saison de reproduction et défendent agressivement un harem de femelles pendant le rut, en automne austral.\n\nC'est un animal discret et méfiant, qui privilégie les terrains escarpés et rocheux où il se déplace avec une agilité surprenante pour sa corpulence. Ses pattes courtes et puissantes lui permettent de naviguer sur des versants que les prédateurs ont du mal à suivre. Il est principalement crépusculaire — actif à l'aube et au coucher du soleil — ce qui complique encore son observation."
+      },
+      {
+        "titre": "Comment le voir",
+        "contenu": "Le voir demande de la chance et du timing. Les meilleures options :\n\n• Le Parc National Cerro Castillo, en région d'Aysén, est considéré comme l'un des meilleurs spots au Chili — le trek de 4 jours traverse des zones connues pour accueillir des huemuls. Des observations sont régulièrement signalées par les randonneurs.\n• La région d'Aysén en général — entre Cochrane et Villa O'Higgins — concentre une partie importante de la population chilienne.\n• Torres del Paine — présence documentée mais rare, les observations sont occasionnelles en lisière de forêt.\n\nLe matin très tôt ou en fin d'après-midi sont les meilleures fenêtres. Chercher les lisières entre forêt et zone ouverte, les versants sud moins exposés au soleil, et les bords de cours d'eau. Un guide local en Aysén connaît souvent les zones fréquentées par les individus habitués à la présence humaine."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le huemul figure sur le blason national du Chili aux côtés du condor des Andes  — les deux animaux symbolisent la force et la liberté dans la cosmologie mapuche. Son nom vient du mapudungun 'wümul'.\n• En novembre 2022, une première naissance en semi-captivité a eu lieu en Argentine après 70 ans sans reproduction documentée en captivité — une victoire fragile pour la conservation de l'espèce.\n• Le huemul est si rare que de nombreux biologistes passent des années à travailler en Patagonie sans jamais en observer un dans la nature.\n• Le cerf élaphe européen, introduit au Chili et en Argentine pour la chasse sportive au XIXe siècle, est aujourd'hui l'une de ses principales menaces — une espèce importée pour le plaisir des chasseurs qui contribue à l'extinction d'un emblème national."
+      }
+    ]
+  },
+  {
+    "numero": 21,
+    "nom": "Tortue géante des Galápagos",
+    "emoji": "🐢",
+    "photo": "tortue.png",
+    "rarete": 1,
+    "ouLeTrouver": ["Galápagos", "Île Isabela"],
+    "reconnaitre": "Impossible à confondre : c'est la plus grande tortue terrestre du monde. Corps massif, pattes épaisses comme des troncs, long cou extensible, carapace bombée brun-gris pouvant dépasser 1,2 m de long. Les mâles peuvent peser jusqu'à 250 kg. Se déplace très lentement — 300 m par heure au maximum — avec une dignité imperturbable. Souvent vue à moitié enfouie dans une mare de boue, seule la tête qui dépasse. Le matin, elle se réchauffe au soleil, carapace tournée vers la lumière.",
+    "anecdoteCourte": "Diego, une tortue d'Española rapatriée du zoo de San Diego à 60 ans, a engendré plus de 800 descendants en captivité — soit 40 % de toute son espèce vivante aujourd'hui. Il a été relâché sur son île natale en 2020, à environ 100 ans.",
+    "sections": [
+      {
+        "titre": "Une espèce, dix îles, dix visages",
+        "contenu": "Les tortues géantes des Galápagos ne forment pas une espèce unique mais un complexe de dix espèces distinctes, chacune adaptée à son île d'origine. La différence la plus visible est la forme de la carapace : bombée et haute sur les îles humides où la végétation est abondante à hauteur de sol, en selle de cheval sur les îles sèches où il faut étirer le cou pour atteindre les cactus et la végétation en hauteur.\n\nC'est précisément cette variation d'île en île que Darwin a observée en 1835 — non pas sur les tortues, mais sur les pinsons — qui a contribué à forger sa théorie de l'évolution. Il avouera plus tard avoir sous-estimé les tortues lors de son passage, regrettant de ne pas avoir noté plus précisément de quelle île provenait chaque spécimen qu'il avait mangé à bord du Beagle."
+      },
+      {
+        "titre": "Une journée dans la vie d'une tortue géante",
+        "contenu": "La tortue géante est un animal à sang froid, ce qui structure entièrement sa journée. Elle commence par deux heures d'immobilité au soleil le matin, carapace orientée vers la lumière pour absorber la chaleur. Une fois à température, elle broute — herbes, feuilles, fruits, cactus — pendant quelques heures, couvrant à peine quelques centaines de mètres. L'après-midi, elle se réfugie dans une mare de boue ou une flaque d'eau peu profonde, où elle peut rester immergée jusqu'à 16 heures d'affilée. Ce bain de boue remplit trois fonctions : maintenir la chaleur corporelle pour faciliter la digestion, se protéger des parasites comme les tiques et les moustiques, et tout simplement se reposer.\n\nElle n'est active qu'environ 8 à 9 heures par jour. Le reste, elle dort, flotte ou bronze. Un rythme qui, ajouté à un métabolisme très lent, lui permet de survivre des mois sans manger ni boire — et contribue probablement à sa longévité exceptionnelle, estimée entre 120 et 200 ans."
+      },
+      {
+        "titre": "Reproduction : lente, précaire, et déterminée par la météo",
+        "contenu": "La reproduction n'est pas cantonnée à une saison précise, mais s'intensifie entre janvier et août. Le rituel de séduction du mâle est sonore et peu subtil : il beugle pendant des heures, tête oscillante, pour signaler sa présence aux femelles. Si deux mâles se disputent la même femelle, le conflit se règle sans violence — ils se dressent face à face et étirent le cou au maximum. Le plus petit abandonne. Le plus grand gagne.\n\nAprès l'accouplement, la femelle migre vers les zones côtières basses et sablonneuses, parfois sur plusieurs kilomètres, pour trouver un site de ponte adapté. Elle creuse un trou d'une trentaine de centimètres à l'aide de ses pattes arrière — un travail qui peut prendre plusieurs jours — y dépose entre 2 et 16 œufs de la taille d'une balle de tennis, puis referme le trou avec de la boue humidifiée par son urine pour le sceller.\n\nL'incubation dure entre 120 et 240 jours selon les conditions climatiques. Le sexe des embryons n'est pas déterminé génétiquement mais par la température du nid : les nids chauds produisent des femelles, les nids frais produisent des mâles. Une différence d'altitude de 50 mètres suffit à inverser le ratio. Le réchauffement climatique commence déjà à déséquilibrer cette balance vers davantage de femelles dans certaines zones — une menace silencieuse sur le long terme.\n\nÀ l'éclosion, les petits pèsent entre 80 et 150 grammes — soit environ 0,06 % du poids d'un adulte mâle. Ils doivent sortir du nid seuls, parfois en plus d'un mois d'efforts, puis rejoindre les zones de végétation sans aucune aide parentale. C'est la période la plus dangereuse de leur vie : les buses des Galápagos, les rats et les chats introduits font de lourdes pertes. Ceux qui survivent grandissent vite les premières années, puis ralentissent, et n'atteignent leur maturité sexuelle qu'entre 20 et 25 ans. La reproduction est donc un investissement multigénérationnel — une tortue née aujourd'hui ne se reproduira pas avant 2045 au plus tôt."
+      },
+      {
+        "titre": "Migration, symbiose et rôle écologique",
+        "contenu": "Sur les îles les plus grandes comme Isabela et Santa Cruz, les tortues effectuent une migration saisonnière altitudinale : elles montent vers les hauteurs humides pendant la saison sèche pour trouver de l'eau et de la végétation fraîche, et redescendent vers les plaines côtières pendant la saison des pluies. Ce déplacement, lent mais régulier, peut représenter plusieurs kilomètres sur des pentes volcaniques.\n\nElles sont les ingénieurs de l'écosystème des Galápagos : en broutant, elles entretiennent la végétation basse ; en se déplaçant, elles dispersent les graines dans leurs excréments sur des distances considérables ; en creusant leurs baignoires de boue, elles créent des mares utilisées par d'autres espèces. Sans elles, les paysages des îles se transforment — un phénomène documenté sur les îles où elles ont disparu.\n\nElles entretiennent aussi une relation symbiotique avec les pinsons de Darwin et certains oiseaux : ces derniers se posent sur leur cou et leur carapace pour manger les tiques et parasites. La tortue étire alors le cou et soulève ses pattes pour faciliter l'accès — un comportement qui n'existe pas chez les individus élevés sans oiseaux."
+      },
+      {
+        "titre": "De 250 000 à 15 000 — et le chemin du retour",
+        "contenu": "Avant l'arrivée des premiers navires européens au XVIe siècle, on estimait à 250 000 le nombre de tortues géantes sur l'archipel. En moins de trois siècles, la population s'effondre à environ 3 000 individus. Les causes sont brutales : les pirates et les baleiniers les embarquaient vivantes par centaines comme réserve de viande fraîche — une tortue géante peut survivre plus d'un an sans eau ni nourriture, ce qui en faisait un garde-manger idéal à bord. Puis l'introduction d'espèces invasives — chats, rats, chiens, cochons, chèvres — a décimé les œufs et les juvéniles, et concurrencé les adultes pour la végétation.\n\nDepuis la création du Parc National des Galápagos en 1959 et les programmes d'élevage en captivité de la Station Charles Darwin, la population est remontée à environ 15 000 individus. Plusieurs espèces ont été sauvées in extremis — dont celle de l'île Española, réduite à 15 individus dans les années 1960 et aujourd'hui revenue à plus de 2 000 grâce à un programme d'élevage dont l'un des héros est une certaine tortue prénommée Diego."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Les marins du XVIIe siècle ont baptisé l'archipel 'Galápagos' — le mot espagnol désignant une selle de cheval, en référence à la forme de la carapace des tortues des îles sèches.\n• Un mâle en rut pousse de graves beuglements pendant plusieurs heures pour appeler les femelles — le seul moment où la tortue géante n'est pas silencieuse. On l'entend de loin.\n• La tortue géante adulte n'a aucun prédateur naturel — seuls les œufs et les juvéniles sont vulnérables. Un adulte peut vivre et mourir de vieillesse sans jamais connaître la peur d'être mangé."
+      }
+    ]
+  },
+  {
+    "numero": 22,
+    "nom": "Iguanes des Galápagos",
+    "emoji": "🦎",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Tortuga Bay (Santa Cruz)",
+      "South Plaza (Santa Cruz)",
+      "Dragon Hill (Santa Cruz)",
+      "Puerto Villamil (Isabela)"
+    ],
+    "reconnaitre": "Deux espèces très différentes.\n\nIguane marin — corps trapu et musclé de 60 à 140 cm, peau noire ou gris foncé, crête dorsale d'épines, queue aplatie latéralement comme un gouvernail. Toujours près de la mer, souvent en groupe compact sur les rochers de lave. Parfois tacheté de rouge et vert en saison de reproduction. A fréquemment de petits cristaux blancs autour des narines — du sel éternué.\n\nIguane terrestre — plus grand et plus massif (jusqu'à 1,5 m, 13 kg), couleur jaune-orangé vif côté ventre, brun-gris sur le dos. Crête moins prononcée. Allure lente et débonnaire. Se trouve dans les zones sèches et rocailleuses à l'intérieur des îles, souvent près des cactus Opuntia. Jamais en bord de mer.",
+    "anecdoteCourte": "L'iguane marin éternue du sel. Après chaque plongée, il filtre l'excès de sel de son sang via des glandes nasales et l'expulse par les narines — ce qui lui donne souvent l'air d'avoir la tête poudrée de blanc.",
+    "sections": [
+      {
+        "titre": "Une même origine, deux évolutions radicales",
+        "contenu": "Les deux espèces descendent d'un ancêtre commun — un iguane terrestre venu d'Amérique du Sud, probablement emporté par un radeau de végétation il y a plusieurs millions d'années. Sur les îles, face à la compétition pour les ressources végétales et à l'abondance d'algues sur le littoral rocheux, une partie de la population a progressivement évolué vers un mode de vie semi-aquatique. L'iguane marin est aujourd'hui le seul lézard au monde capable de nager en mer et de se nourrir sous l'eau — une adaptation unique sur la planète.\n\nL'iguane terrestre, lui, est resté fidèle à la terre ferme et a évolué dans une direction opposée : un régime presque exclusivement basé sur le cactus Opuntia, une tolérance à la sécheresse extrême, et une dépendance totale à la végétation des zones arides. Deux cousins issus du même ancêtre, séparés par des millions d'années d'évolution divergente — et qu'on peut parfois observer côte à côte sur l'île Plaza Sud."
+      },
+      {
+        "titre": "L'iguane marin — le plongeur à sang froid",
+        "contenu": "Plonger dans l'eau froide du Pacifique quand on est un reptile à sang froid est un défi physiologique considérable. L'iguane marin y répond par une routine millimétrée. Le matin, il s'entasse avec ses congénères sur les rochers de lave noire — couleur idéale pour absorber la chaleur — pendant une à deux heures, jusqu'à atteindre une température corporelle suffisante. Puis il plonge, reste en apnée entre 5 et 30 minutes en s'agrippant aux rochers grâce à ses longues griffes pour résister aux courants, broute les algues rouges et vertes, et ressort refroidi. Il reprend alors sa séance de bain de soleil avant de replonger.\n\nPour éliminer le sel ingéré, il filtre son sang via des glandes nasales spécialisées et expulse les cristaux de sel par éternuements réguliers — d'où les dépôts blancs autour de ses narines. En période El Niño, quand les eaux chaudes font disparaître les algues, la situation devient critique : la population peut chuter de 90 % sur certaines îles. Face à la disette prolongée, les iguanes réduisent leur taille de façon réversible — leurs os raccourcissent littéralement, réduisant leurs besoins caloriques. Quand les algues reviennent, ils regrandissent."
+      },
+      {
+        "titre": "L'iguane terrestre — le spécialiste du cactus",
+        "contenu": "L'iguane terrestre a résolu le problème de l'eau douce sur les îles sèches d'une façon élégante : il mange le cactus Opuntia en entier. Fruits, fleurs, raquettes et même les épines — qui constituent 80 % de son alimentation. Le cactus lui fournit à la fois sa nourriture et son eau, lui permettant de survivre pendant de longues saisons sèches sans jamais boire.\n\nIl creuse des terriers souterrains où il dort la nuit pour conserver sa chaleur corporelle. Le matin, on le voit étalé au soleil levant pour se réchauffer ; vers midi, il se retire à l'ombre sous les cactus pour éviter la surchauffe. Il entretient une relation symbiotique bien visible avec les pinsons de Darwin, qui se perchent sur son dos pour en ôter les tiques et parasites — l'iguane s'immobilise et adopte une posture de coopération, corps surélevé, pour faciliter l'accès.\n\nLes mâles sont territoriaux et défendent un périmètre incluant plusieurs femelles. Les confrontations se règlent d'abord par des hochements de tête rapides et des postures d'intimidation ; si ça ne suffit pas, des combats à coups de queue et de griffes peuvent éclater."
+      },
+      {
+        "titre": "Darwin les trouvait 'dégoûtants'",
+        "contenu": "Lors de son passage aux Galápagos en 1835, Darwin fut peu enthousiaste face aux iguanes marins, qu'il décrivit comme 'de grands et dégoûtants lézards maladroits'. Il nota cependant avec curiosité que, lorsqu'il en jetait un à la mer, l'animal revenait systématiquement à terre malgré le danger apparent — déduisant que ses véritables prédateurs devaient être marins plutôt que terrestres. Cette observation banale dissimulait en réalité une intuition juste : l'iguane marin n'a quasiment aucun prédateur à terre à l'état adulte, et la mer représente pour lui une zone de travail, pas de refuge.\n\nCette indifférence aux humains, partagée par les deux espèces, est une caractéristique générale de la faune des Galápagos : isolées pendant des millions d'années sans prédateurs terrestres significatifs, ces espèces n'ont pas développé de réflexe de fuite face à l'homme. On peut s'approcher à quelques dizaines de centimètres sans les déranger — ce qui rend l'observation extraordinaire, mais les rend aussi vulnérables aux espèces introduites."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Sur l'île Plaza Sud, les deux espèces cohabitent sur un territoire minuscule et ont même été observées en train de s'hybrider — un hybride rare, stérile, au pelage intermédiaire entre le jaune-orange et le noir.\n• La taille de l'iguane marin varie selon les îles : les plus grands (jusqu'à 140 cm) vivent sur Isabela et Fernandina, les plus petits sur Genovesa. Chaque île a sa sous-population adaptée.\n• L'iguane rose de la caldera du volcan Wolf (Isabela) — découvert en 1986, décrit scientifiquement seulement en 2009 — est une troisième espèce d'iguane terrestre endémique des Galápagos, à peine connue et déjà menacée."
+      }
+    ]
+  },
+  {
+    "numero": 23,
+    "nom": "Fou à pieds bleus",
+    "emoji": "🐦",
+    "photo": "fou.png",
+    "rarete": 1,
+    "ouLeTrouver": [
+      "North Seymour (Santa Cruz)",
+      "Tortuga Bay (Santa Cruz)",
+      "Punta Suárez (Española)",
+      "Isabela"
+    ],
+    "reconnaitre": "Oiseau marin de taille moyenne (75 à 90 cm, envergure 1,5 m). Plumage brun-blanc moucheté, tête légèrement striée brun-blanc, bec long et pointu gris-bleu. Impossible à manquer : les pieds sont d'un bleu turquoise éclatant, parfois presque électrique chez les individus en pleine santé. Sur terre, démarche comique avec une façon d'exhiber les pattes à chaque pas. En mer, plonge comme une torpille ailes repliées, corps vertical.",
+    "anecdoteCourte": "Si un mâle n'a pas mangé depuis 48 heures, ses pieds perdent visiblement de leur éclat. La femelle le détecte immédiatement et préférera un concurrent mieux nourri. Les pieds bleus sont un bulletin de santé en temps réel.",
+    "sections": [
+      {
+        "titre": "Pourquoi les pieds sont bleus",
+        "contenu": "La couleur turquoise des pattes n'est pas un pigment fixe : elle résulte de deux mécanismes combinés. La structure des collagènes de la peau diffuse naturellement une teinte bleue-violacée. Mais c'est la superposition de pigments caroténoïdes — issus directement de l'alimentation en poissons gras comme les sardines et les anchois — qui fait virer cette couleur vers le turquoise vif caractéristique de l'espèce. Ces caroténoïdes ont aussi un rôle immunitaire : ils fonctionnent comme des antioxydants et stimulent le système immunitaire. Un oiseau bien nourri a donc des pattes plus bleues ET un système immunitaire plus robuste — les deux sont corrélés.\n\nConséquence directe : la couleur des pattes est un signal honnête de qualité. Les femelles le savent et l'utilisent. Priver un mâle de nourriture pendant 48 heures suffit à rendre ses pattes perceptiblement plus ternes. La réalimentation les fait revenir à la normale en quelques jours. C'est un des exemples les mieux documentés de sélection sexuelle par signal physiologique direct chez les oiseaux."
+      },
+      {
+        "titre": "La parade — un spectacle à ne pas manquer",
+        "contenu": "La parade nuptiale du fou à pieds bleus est l'une des plus spectaculaires et des plus accessibles à observer aux Galápagos, car elle se déroule au sol, sans distance de fuite. Le mâle commence par un atterrissage théâtral près d'une femelle, puis enchaîne une série de comportements codifiés dans un ordre précis.\n\nIl défile lentement en levant les pattes de façon exagérée — un pas de l'oie appliqué et absurde — pour montrer l'intensité de son bleu. Puis il pointe le bec vers le ciel, ailes étalées vers l'arrière, dans une posture d'auto-présentation. Il peut aussi offrir un fragment de brindille ou de caillou à la femelle — un cadeau symbolique qui représente sa contribution future au nid. La troisième phase est la parade en vis-à-vis : les deux partenaires se font face, becs pointés vers le ciel, tournant lentement sur eux-mêmes en synchronie. L'accouplement ne peut avoir lieu qu'une fois cette troisième étape accomplie.\n\nLe nom anglais 'booby' vient de l'espagnol 'bobo' — idiot ou clown — en référence à cette démarche et à cette parade qui paraissaient ridicules aux premiers marins qui les ont observées."
+      },
+      {
+        "titre": "La pêche en piqué — torpilles synchronisées",
+        "contenu": "En mer, le fou à pieds bleus est un prédateur redoutablement efficace. Il repère les bancs de poissons depuis les airs, à des hauteurs de 10 à 30 mètres, puis plonge en repliant ses ailes contre son corps à la dernière seconde pour former une torpille parfaite — entrant dans l'eau à près de 100 km/h. Des sacs d'air dans la tête absorbent le choc à l'impact. Ses narines sont fermées en permanence (adaptation évolutive aux plongeons répétés) — il respire uniquement par les commissures du bec.\n\nIl chasse souvent en groupe de 12 à 200 individus : quand l'un détecte un banc, il émet un signal et tous plongent simultanément, créant un rideau de torpilles qui désorganise le banc et facilite les captures. Les proies sont généralement avalées sous l'eau avant de remonter à la surface.\n\nPour éviter les frégates — qui leur volent systématiquement leurs prises à la surface — les fous pêchent tôt le matin et en soirée, quand les frégates sont moins actives."
+      },
+      {
+        "titre": "Reproduction et élevage des poussins",
+        "contenu": "Le nid est une simple dépression au sol, délimitée par un cercle d'excréments blancs — la femelle se tourne vers le soleil tout au long de la journée pendant la couvaison, et le cercle se forme progressivement autour d'elle. La femelle pond 2 à 3 œufs avec quelques jours d'intervalle. Les parents couvent en posant leurs grandes pattes palmées directement sur les œufs — une méthode inhabituelle mais très efficace pour maintenir la chaleur.\n\nL'éclosion est asynchrone : les œufs naissent à quelques jours d'intervalle, ce qui crée une hiérarchie immédiate entre poussins. En période de nourriture abondante, tous les poussins survivent. En période de disette, l'aîné, plus fort, pousse l'autre hors du nid — les parents ne l'en empêchent pas. C'est un mécanisme d'ajustement brutal mais efficace au niveau des ressources disponibles.\n\nLes poussins naissent avec des pieds gris, pas encore bleus — la couleur ne se développe qu'avec l'alimentation en poissons gras. Les deux parents se relaient pour nourrir et garder le nid pendant environ 3 mois avant le premier envol."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Plus de 50 % de la population mondiale des fous à pieds bleus — environ 20 000 couples reproducteurs — vit aux Galápagos. C'est ici leur bastion principal.\n• La frégate superbe, régulièrement observée aux Galápagos, suit les fous à pieds bleus lors de leurs sessions de pêche et leur vole leurs prises à la surface — elle est incapable de plonger elle-même (ses plumes ne sont pas imperméables). C'est du kleptoparasitisme pur.\n• Les fous à pieds bleus reconnaissent leur partenaire à la voix — mâles et femelles ont des cris distincts (sifflement pour le mâle, grognement pour la femelle), et chaque individu a une 'signature vocale' unique.\n• Contrairement à beaucoup d'oiseaux qui fuient à l'approche des humains, le fou à pieds bleus n'a pratiquement aucun réflexe de fuite sur terre. On peut s'approcher à moins d'un mètre sans le déranger — ce qui rend l'observation de la parade nuptiale extraordinairement accessible."
+      }
+    ]
+  },
+  {
+    "numero": 24,
+    "nom": "Frégate superbe",
+    "emoji": "🦅",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "North Seymour (Santa Cruz)",
+      "San Cristóbal",
+      "Genovesa",
+      "Partout dans le ciel de l'archipel"
+    ],
+    "reconnaitre": "Grand oiseau noir à queue fourchue très échancrée et longues ailes étroites — envergure jusqu'à 2,4 m pour un poids de seulement 1,5 kg. En vol, silhouette de pterodactyle, ailes en W caractéristique. Le mâle est entièrement noir avec des reflets violacés et un sac gulaire rouge vif sous le cou — gonflé comme un ballon en parade. La femelle a la tête et la poitrine blanches. Se repère immédiatement dans le ciel : il plane sans jamais battre des ailes, très haut, puis pique en chasse sur les autres oiseaux.",
+    "anecdoteCourte": "La frégate superbe est un oiseau marin qui ne peut pas toucher l'eau. Ses plumes ne sont pas imperméables — si elle se pose à la surface, elle est piégée et se noie. Toute son existence est construite autour de cette contrainte absurde.",
+    "sections": [
+      {
+        "titre": "Un oiseau marin qui ne peut pas toucher l'eau",
+        "contenu": "La frégate superbe est une contradiction vivante : c'est un oiseau marin incapable de se poser sur l'eau. La plupart des oiseaux marins possèdent une glande qui produit une graisse imperméabilisante qu'ils étalent sur leurs plumes avec leur bec. La frégate, comme le cormoran, ne possède pas cette glande. Ses plumes sont perméables — si elle se pose à la surface, elles s'imbibent d'eau, elle ne peut plus décoller et coule.\n\nConséquence directe : elle ne peut pas plonger, ne peut pas nager, et ne peut s'envoler qu'à partir d'un perchoir en hauteur — arbre, falaise, mât de bateau — jamais depuis le sol plat. Sur terre, elle se déplace à peine, ses pattes étant trop courtes et trop faibles pour marcher. Dans les airs, en revanche, elle est parmi les oiseaux les plus agiles de la planète : son rapport envergure/poids est exceptionnel, ce qui lui permet de planer pendant des heures sans battre des ailes, de monter jusqu'à 2 500 mètres d'altitude, et de couvrir plus de 200 km en une journée. Des individus équipés de balises ont été observés en vol continu pendant plusieurs semaines."
+      },
+      {
+        "titre": "Le pirate des airs — kleptoparasitisme",
+        "contenu": "Incapable de plonger pour pêcher, la frégate a développé deux stratégies de chasse. La première est légitime : elle repère depuis les hauteurs les bouillonnements en surface causés par des bancs de thons ou des dauphins qui chassent sous l'eau. Les poissons et calamars qui sautent pour fuir leurs prédateurs sous-marins sont alors interceptés en vol par la frégate, qui les saisit avec son bec crochu sans jamais toucher l'eau.\n\nLa seconde stratégie est celle du pirate. Elle repère un fou à pieds bleus, un pélican ou une sterne qui revient de pêche, le prend en chasse, l'attrape par l'aile ou la queue et le secoue jusqu'à ce qu'il régurgite son repas — qu'elle rattrape au vol avant qu'il ne touche l'eau. Cette technique, appelée kleptoparasitisme, est si efficace et si spectaculaire qu'elle lui a valu le surnom d'oiseau pirate. C'est pour l'éviter que les fous à pieds bleus pêchent tôt le matin et en soirée, quand les frégates sont moins actives."
+      },
+      {
+        "titre": "La parade — le ballon rouge",
+        "contenu": "La parade nuptiale de la frégate superbe est l'une des plus spectaculaires des Galápagos. Les mâles se perchent en groupe dans les buissons bas et attendent le passage des femelles en vol. Quand une femelle approche, le mâle gonfle son sac gulaire — une poche membraneuse sous le cou — jusqu'à atteindre la taille d'un ballon de football rouge écarlate. Il rejette la tête en arrière, étend les ailes, et produit un son de tambourinage en faisant vibrer son bec.\n\nCette poche peut rester gonflée pendant plus de 20 minutes. La femelle, en vol au-dessus de la colonie, inspecte les mâles et choisit. Les critères de sélection incluent la taille et l'éclat du sac gulaire — un signal de santé — ainsi que la qualité du site de nidification défendu par le mâle.\n\nUne fois le couple formé, la femelle pond un seul œuf. Les deux parents se relaient pour couver pendant environ 7 semaines, puis nourrissent le poussin pendant 4 à 6 mois. Le taux de reproduction est l'un des plus lents parmi les oiseaux marins — un couple ne réussit souvent qu'un seul poussin tous les deux ans."
+      },
+      {
+        "titre": "Deux frégates aux Galápagos — comment les distinguer",
+        "contenu": "Deux espèces de frégates cohabitent aux Galápagos : la frégate superbe et la frégate du Pacifique. Les distinguer est difficile même pour les guides expérimentés.\n\nLes différences principales :\n• Taille — la frégate du Pacifique est légèrement plus grande.\n• Reflets du plumage — la frégate superbe a des reflets violacés sur les ailes, la frégate du Pacifique des reflets verts.\n• Cri — la frégate superbe émet un son de tambour, la frégate du Pacifique glousse comme une dinde.\n• Femelle — la femelle de la frégate du Pacifique a un anneau oculaire rouge, celle de la superbe un anneau bleu-violet.\n\nEn pratique, la frégate superbe est plus commune sur la plupart des îles visitées, notamment North Seymour. Ne vous prenez pas trop la tête sur l'identification en vol — même les ornithologues passent leur temps à débattre."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le nom 'frégate' a été donné par les marins français du XVe siècle, en référence aux frégates de guerre réputées pour leur vitesse et leur agilité — comme l'oiseau.\n• La frégate superbe a le ratio envergure/poids le plus élevé de tous les oiseaux — ses ailes de 2,4 m portent un corps de seulement 1,5 kg. C'est ce qui lui permet de planer des heures sans effort.\n• Elle peut voler dans des vents d'ouragan sans difficulté — c'est l'un des rares oiseaux à ne pas chercher d'abri par mauvais temps.\n• La frégate vole parfois si haut qu'elle disparaît à l'œil nu — des enregistrements GPS ont documenté des vols à 2 500 mètres d'altitude au-dessus de l'océan.\n• Les jeunes tortues qui tentent de gagner la mer après leur éclosion sont une proie occasionnelle des frégates — elles les saisissent sur la plage avant qu'elles n'atteignent l'eau."
+      }
+    ]
+  },
+  {
+    "numero": 25,
+    "nom": "Manchot des Galápagos",
+    "emoji": "🐧",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Île Fernandina",
+      "Côte ouest d'Isabela",
+      "Bartolomé (Santa Cruz)"
+    ],
+    "reconnaitre": "Petit manchot de 49 à 53 cm, le plus petit de l'hémisphère nord. Dos noir, ventre blanc, deux bandes noires sur la poitrine dont une qui descend le long des flancs. Visage avec des taches dénudées roses autour des yeux et du bec — une adaptation pour dissiper la chaleur. Nageoires noires. Sur terre, souvent debout dans l'ombre d'une anfractuosité volcanique, nageoires écartées. En mer, torpille sous-marine.",
+    "anecdoteCourte": "C'est le seul manchot au monde à vivre sur l'équateur — et au nord de l'équateur pour une partie de la population. Il survit sous le soleil tropical en se comportant comme un chien : il halète.",
+    "sections": [
+      {
+        "titre": "Comment un manchot se retrouve sur l'équateur",
+        "contenu": "Les manchots sont des oiseaux des mers froides — Antarctique, Patagonie, Afrique du Sud. Qu'est-ce qu'un manchot fait à 0° de latitude, sous le soleil équatorial ? La réponse tient à deux courants océaniques.\n\nLe courant de Humboldt remonte la côte ouest de l'Amérique du Sud depuis l'Antarctique, apportant des eaux froides riches en nutriments. Il y a plusieurs millions d'années, des manchots sud-américains ont été entraînés par ce courant jusqu'aux Galápagos. Une fois arrivés, ils ont trouvé des eaux suffisamment froides dans la partie occidentale de l'archipel — là où le courant de Cromwell, venu des profondeurs du Pacifique, affleure en surface. Dans ces eaux fraîches et poissonneuses, ils ont survécu, évolué et sont devenus une espèce distincte.\n\nAujourd'hui, 90 à 95 % de la population vit sur Fernandina et la côte ouest d'Isabela, précisément là où ces courants froids sont les plus présents. C'est l'une des démonstrations les plus claires du rôle des courants océaniques dans la distribution des espèces."
+      },
+      {
+        "titre": "Survivre à la chaleur équatoriale",
+        "contenu": "Un manchot sous le soleil de l'équateur, c'est un problème thermique permanent. L'espèce a développé plusieurs adaptations comportementales et physiologiques pour s'en sortir.\n\nLes taches dénudées roses autour des yeux et à la base du bec ne sont pas une maladie — elles sont une surface de dissipation thermique : la peau nue sans plumes laisse échapper la chaleur par rayonnement. Les nageoires, écartées et exposées au vent, jouent le même rôle. Et comme les manchots n'ont pas de glandes sudoripares, ils halètent comme des chiens pour évacuer la chaleur par évaporation buccale.\n\nLeur rythme de vie s'adapte aussi : ils passent la majorité de la journée en mer dans l'eau fraîche et ne reviennent à terre qu'en fin d'après-midi. Quand ils sont sur terre, ils cherchent l'ombre des anfractuosités volcaniques, des tubes de lave et des grottes — là où ils nichent aussi, à l'abri du soleil direct. La nuit, ils dorment sur les rochers côtiers."
+      },
+      {
+        "titre": "Reproduction opportuniste",
+        "contenu": "Le manchot des Galápagos est le seul manchot à muer deux fois par an — et l'un des rares oiseaux à adapter sa reproduction aux conditions environnementales plutôt qu'à une saison fixe. Quand les eaux sont froides et poissonneuses, les couples se reproduisent. Quand El Niño réchauffe l'océan et fait disparaître les poissons, ils arrêtent tout simplement.\n\nLes nids sont creusés dans des fissures de lave ou des grottes volcaniques — jamais à découvert. La femelle pond 1 à 2 œufs, que les deux parents couvent en alternance pendant 38 à 40 jours. Les poussins deviennent autonomes vers 60 jours. Les couples sont monogames et fidèles à vie — et fidèles au même site de nidification d'une année à l'autre.\n\nLa maturité sexuelle est atteinte à 3 ou 4 ans, pour une espérance de vie de 15 à 20 ans — courte pour un manchot, en partie à cause de la pression des prédateurs introduits et de l'instabilité climatique."
+      },
+      {
+        "titre": "El Niño — la menace qui revient",
+        "contenu": "Pour le manchot des Galápagos, El Niño n'est pas une perturbation occasionnelle — c'est une catastrophe récurrente. Quand El Niño réchauffe les eaux du Pacifique, le courant de Cromwell s'affaiblit, les eaux froides et riches en nutriments disparaissent, et avec elles les bancs de poissons dont dépendent les manchots. En 1982-1983, El Niño a tué environ 77 % de la population totale. En 1997-1998, rebelote : encore 70 % de pertes.\n\nChaque fois, la population met plusieurs années à se reconstituer — et El Niño revient avant qu'elle ait atteint ses effectifs d'avant la crise. Le résultat est une population structurellement sous pression, estimée entre 1 000 et 2 000 individus selon les années, classée en danger par l'UICN. Le réchauffement climatique intensifie la fréquence et la sévérité des épisodes El Niño — c'est la menace principale à long terme sur l'espèce."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• C'est l'espèce de manchot la plus rare au monde, avec une population totale inférieure à 2 000 individus dans les meilleures années.\n• En mer, il peut nager à plus de 35 km/h — plus vite que la plupart des poissons qu'il chasse. Sur terre, il marche à peine.\n• Le manchot des Galápagos est le seul manchot qui vit partiellement au nord de l'équateur — une fraction de la population niche sur la côte nord d'Isabela, qui dépasse légèrement la ligne équatoriale.\n• Le paludisme aviaire, transmis par des moustiques introduits par les humains dans les années 1980, est une menace émergente : les manchots n'ont aucune immunité contre cette maladie qui n'existait pas aux Galápagos avant l'arrivée des hommes.\n• En snorkeling à Bartolomé, il est possible de nager avec des manchots — une des rares expériences au monde où on peut croiser un manchot en eau tropicale."
+      }
+    ]
+  },
+  {
+    "numero": 26,
+    "nom": "Pinsons de Darwin",
+    "emoji": "🐦",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": ["Santa Cruz", "San Cristóbal", "Isabela"],
+    "reconnaitre": "Petits oiseaux de 10 à 20 cm, ternes et discrets — plumage brun-gris rayé pour les femelles, noir pour les mâles de la plupart des espèces. En apparence, ils se ressemblent tous. La différence est dans le bec : court et épais comme un casse-noisette, long et fin comme une pince à épiler, courbé comme un crochet, ou énorme et massif. C'est le bec qui trahit l'espèce et son régime alimentaire. Souvent vus au sol, sur les cactus, ou sur le dos des iguanes terrestres.",
+    "anecdoteCourte": "Darwin a ramassé des dizaines de pinsons aux Galápagos sans comprendre leur importance. C'est seulement de retour en Angleterre, quand un ornithologue lui a expliqué qu'il s'agissait de 13 espèces distinctes, qu'il a réalisé ce qu'il avait sous les yeux.",
+    "sections": [
+      {
+        "titre": "Un ancêtre, 13 espèces, 13 becs",
+        "contenu": "Il y a environ 2 à 3 millions d'années, une petite bande de pinsons sud-américains a été emportée par le vent ou les courants jusqu'aux Galápagos — probablement une seule volée, peut-être quelques dizaines d'individus. Sur ces îles volcaniques isolées, sans compétiteurs, ils ont colonisé toutes les niches écologiques disponibles. Sans prédateurs pour les presser, sans autres espèces d'oiseaux pour les concurrencer, la sélection naturelle a eu tout le temps de sculpter des spécialistes.\n\nAujourd'hui, 13 espèces distinctes descendent de cet ancêtre commun — 17 selon certaines classifications plus récentes. Elles se différencient principalement par la forme et la taille du bec, chacune adaptée à un régime alimentaire différent. C'est ce phénomène — une seule espèce qui donne naissance à de nombreuses espèces spécialisées — qu'on appelle radiation adaptative. Les Galápagos en sont l'exemple le plus célèbre au monde."
+      },
+      {
+        "titre": "Le bec comme outil — qui mange quoi",
+        "contenu": "La forme du bec est une fenêtre directe sur le mode de vie de chaque espèce :\n\n• Bec épais et massif — les pinsons granivores terrestres (Geospiza magnirostris) cassent les graines les plus dures. Leur bec exerce une force comparable à une petite pince industrielle.\n• Bec long et pointu — les pinsons des cactus (Geospiza scandens) s'insèrent dans les fleurs d'Opuntia pour en extraire le nectar et le pollen, ou dans les fissures pour déloger des insectes.\n• Bec fin et effilé — les pinsons charpentiers (Camarhynchus pallidus) chassent les insectes sous l'écorce. Ils sont l'un des rarissimes oiseaux au monde à utiliser des outils : ils tiennent une épine de cactus ou une brindille dans le bec pour débusquer les larves dans les galeries du bois.\n• Bec court et crochu — les pinsons arboricoles insectivores fouillent les bourgeons et feuilles.\n• Bec minuscule et pointu — les pinsons chanteurs (Certhidea olivacea) ressemblent à des fauvettes et chassent les petits insectes dans les buissons.\n\nSur l'île Wolf et Darwin, une population de pinsons terrestres à bec pointu a développé une habitude alimentaire unique : il entaille délicatement la base des plumes d'un fou vivant — à la base d'une aile ou du croupion — et lèche le sang qui s'écoule. La blessure est superficielle et peu douloureuse, pratiquée dans une zone peu innervée. La victime ne réagit généralement pas : les fous ont l'habitude d'être picorés par d'autres oiseaux qui les épouillent, et interprètent le geste comme un service rendu. Le pinson vampire a détourné une relation de confiance existante pour en faire une technique d'alimentation. Ce comportement n'apparaît qu'en saison sèche, quand les graines et insectes se font rares — le reste de l'année, il se nourrit normalement. Ce pinson vampire — officiellement nommé pinson à bec pointu — est l'adaptation la plus spectaculaire et la plus contre-intuitive du groupe."
+      },
+      {
+        "titre": "Vie quotidienne & reproduction",
+        "contenu": "Les pinsons de Darwin sont des oiseaux discrets et territoriaux, actifs principalement le matin. Les mâles défendent leur territoire par le chant — et c'est là que la distinction entre espèces devient parfois plus claire à l'oreille qu'à l'œil. Chaque espèce a un chant propre, et les femelles l'utilisent pour identifier les mâles de leur espèce, ce qui limite les hybridations malgré la cohabitation de plusieurs espèces sur une même île.\n\nLa reproduction est étroitement liée aux pluies. La saison de nidification démarre avec les premières pluies, généralement entre décembre et avril, quand les graines et insectes sont abondants. Le mâle construit un nid en forme de dôme fermé, dans un buisson ou un cactus, et chante sans relâche pour attirer une femelle. Les couples sont généralement monogames pour la saison. La femelle pond 3 à 5 œufs, que les deux parents couvent en alternance pendant environ 12 jours. Les poussins quittent le nid au bout de 2 semaines et sont nourris par les parents encore quelques semaines après.\n\nUne même paire peut enchaîner deux ou trois couvées dans la même saison si les conditions restent favorables. Les années de sécheresse, la reproduction s'arrête complètement — il n'y a tout simplement pas assez à manger pour nourrir des poussins. C'est cette flexibilité reproductive, combinée à la sélection du bec par la disponibilité alimentaire, qui rend les pinsons de Darwin si réactifs aux changements environnementaux — et si précieux pour comprendre l'évolution."
+      },
+      {
+        "titre": "Darwin ne les a pas compris tout de suite",
+        "contenu": "L'ironie de l'histoire est que Darwin lui-même n'a pas immédiatement saisi l'importance des pinsons des Galápagos. Lors de son passage en 1835, il les a collectés sans noter systématiquement de quelle île provenait chaque spécimen — une erreur qu'il regrettera amèrement. Il pensait d'abord avoir affaire à un mélange d'espèces différentes — des merles, des pies, des gros-becs — sans voir le lien entre elles.\n\nC'est seulement de retour à Londres, quand il a remis ses spécimens à l'ornithologue John Gould, que la vérité a éclaté : Gould a immédiatement identifié 13 espèces distinctes, toutes apparentées, toutes endémiques des Galápagos. Cette révélation a été un tournant dans la réflexion de Darwin sur la transformation des espèces. Le nom 'pinsons de Darwin' n'a d'ailleurs été inventé qu'en 1936 — pas par Darwin lui-même."
+      },
+      {
+        "titre": "L'évolution observée en direct — les Grant",
+        "contenu": "Depuis 1973, les biologistes Peter et Rosemary Grant ont passé chaque année sur l'île Daphne Major à étudier les pinsons de Darwin. C'est l'une des études de terrain les plus longues de l'histoire de la biologie — et elle a produit une démonstration en temps réel de l'évolution par sélection naturelle.\n\nEn 1977, une sécheresse sévère a éliminé les petites graines molles de l'île. Seules les grosses graines dures ont survécu. En un an, la taille moyenne du bec de Geospiza fortis a augmenté de façon mesurable — les individus à bec plus épais survivaient mieux, se reproduisaient plus, et transmettaient leur bec à leurs descendants. Quand les pluies sont revenues et que les petites graines ont réapparu, la pression a changé de sens.\n\nLes Grant ont ainsi observé des cycles d'évolution en quelques générations — exactement le mécanisme que Darwin avait postulé 120 ans plus tôt sans pouvoir le démontrer directement."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le pinson charpentier est l'un des seuls oiseaux au monde à utiliser des outils : il tient une épine de cactus dans son bec pour extraire des larves d'insectes des galeries de bois — compensant ainsi sa langue trop courte pour les atteindre directement.\n• Une mouche parasite introduite aux Galápagos, Philornis downsi, pond ses œufs dans les nids de pinsons. Ses larves se nourrissent du sang des poussins et causent une mortalité massive — c'est aujourd'hui l'une des menaces les plus sérieuses sur plusieurs espèces, dont le pinson des mangroves, classé en danger critique.\n• Les pinsons sont si peu méfiants envers les humains qu'ils se posent parfois sur les chaussures des visiteurs pour picorer les lacets. C'est une conséquence directe de l'absence de prédateurs terrestres pendant des millions d'années.\n• Deux espèces de pinsons de Darwin sont aujourd'hui en danger critique d'extinction — non pas à cause de la chasse, mais à cause des espèces introduites : rats, chats, et surtout la mouche Philornis."
+      }
+    ]
+  },
+  {
+    "numero": 27,
+    "nom": "Moqueur des Galápagos",
+    "emoji": "🐦",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": ["Santa Cruz", "San Cristóbal", "Isabela", "Española"],
+    "reconnaitre": "Oiseau de 25 à 26 cm, allure de merle costaud. Dessus brun-gris strié de brun foncé, dessous blanchâtre, tête brun noirâtre, bec court et légèrement courbé vers le bas. Deux fines lignes blanches visibles sur les ailes. Yeux expressifs dont la couleur varie du brun au jaune selon les individus. Passe beaucoup de temps au sol, court plutôt qu'il ne vole. Se distingue immédiatement par son comportement : il s'approche des humains sans hésiter, souvent jusqu'à quelques centimètres.",
+    "anecdoteCourte": "C'est le moqueur des Galápagos, et non les pinsons, qui a déclenché le raisonnement évolutif de Darwin. En notant que chaque île avait sa propre espèce légèrement différente, il a eu l'intuition que les espèces pouvaient se transformer — avant même de comprendre pourquoi.",
+    "sections": [
+      {
+        "titre": "Le vrai déclencheur de Darwin — pas les pinsons",
+        "contenu": "L'histoire officielle dit que Darwin a eu son intuition évolutive en observant les pinsons des Galápagos. C'est inexact. C'est en fait son étude des oiseaux moqueurs des Galápagos qui a eu la plus grande influence sur son travail. Contrairement aux pinsons, qu'il a collectés sans noter leur île d'origine, Darwin a eu la présence d'esprit de noter soigneusement que chaque île avait sa propre espèce de moqueur — légèrement différente de celle des îles voisines.\n\nCette observation l'a conduit à une question inconfortable : si Dieu avait créé chaque espèce une fois pour toutes, pourquoi aurait-il créé quatre espèces presque identiques de moqueurs pour quatre îles voisines ? La réponse logique — que les espèces pouvaient se transformer par adaptation à leur environnement local — était là, mais Darwin n'osait pas encore l'écrire. Les moqueurs ont planté la graine. Les pinsons, identifiés plus tard par l'ornithologue Gould, ont arrosé."
+      },
+      {
+        "titre": "Quatre espèces, quatre îles",
+        "contenu": "Il existe quatre espèces de moqueurs aux Galápagos, chacune endémique d'une zone distincte de l'archipel :\n\n• Moqueur des Galápagos (Mimus parvulus) — le plus commun, présent sur la majorité des îles. Celui que tout visiteur croisera.\n• Moqueur d'Española (Mimus macdonaldi) — plus grand, plus robuste, connu pour un comportement particulièrement audacieux : il a été observé en train de boire le sang d'oiseaux marins blessés, adoptant une niche similaire au pinson vampire mais de façon opportuniste.\n• Moqueur de San Cristóbal (Mimus melanotis) — plus petit et nettement plus timide, menacé par les chats et les rats introduits sur cette île habitée.\n• Moqueur de Floreana (Mimus trifasciatus) — le plus menacé de tous. Éteint sur l'île principale depuis le XIXe siècle à cause des espèces introduites, il ne subsiste plus que sur deux îlots proches avec une population de 100 à 200 individus seulement. Un programme de réintroduction est en cours depuis 2023.\n\nLes quatre espèces descendent d'un ancêtre commun nord-américain et ont divergé par isolement géographique — exactement le même mécanisme que les pinsons, mais Darwin l'a vu en premier ici."
+      },
+      {
+        "titre": "Un oiseau d'une curiosité déconcertante",
+        "contenu": "Le moqueur des Galápagos est probablement l'animal le moins craintif de tout l'archipel — ce qui veut dire quelque chose dans un endroit où les iguanes vous ignorent et les otaries dorment à vos pieds. Ces oiseaux sont incroyablement familiers et capables de venir chercher leur nourriture dans la main de l'homme. Ils s'approchent systématiquement de tout visiteur, inspectent les sacs, picotent les chaussures, se posent sur les appareils photo.\n\nCette absence totale de peur est une conséquence directe de l'évolution en milieu insulaire sans prédateurs terrestres significatifs. Mais elle a une utilité fonctionnelle : le moqueur est omnivore et opportuniste — insectes, fruits, œufs, charognes, parasites prélevés sur d'autres animaux, restes alimentaires. Toute nouvelle source potentielle de nourriture mérite investigation. L'humain est simplement un grand animal inconnu qui pourrait avoir quelque chose d'intéressant à offrir.\n\nIl préfère courir plutôt que voler — ses pattes sont longues et puissantes, et il se déplace au sol avec une rapidité et une agilité qui surprennent pour sa taille."
+      },
+      {
+        "titre": "Vie sociale & reproduction coopérative",
+        "contenu": "Les moqueurs des Galápagos vivent en groupes territoriaux pouvant atteindre 20 à 24 individus, tous résidents permanents du même territoire. La structure est hiérarchique : les mâles dominants sont les plus âgés, les femelles ont un rang inférieur aux mâles — sauf vis-à-vis de leurs propres fils.\n\nLa formation des couples suit une logique asymétrique : les mâles restent presque toujours dans leur groupe natal toute leur vie. Ce sont les jeunes femelles qui se déplacent — elles quittent leur groupe d'origine pour rejoindre un groupe voisin et y trouver un partenaire. Ce sont elles qui assurent le brassage génétique entre groupes. Conséquence directe de cette sédentarité masculine : les relations incestueuses entre frère et sœur, père et fille, ou mère et fils ne sont pas rares au sein d'un groupe — et débouchent souvent sur des nichées tout aussi fructueuses que les autres.\n\nLa reproduction est collaborative : plusieurs femelles peuvent pondre dans le même nid — certains nids contiennent jusqu'à 7 œufs de plusieurs mères différentes. Les deux parents couvent, mais sont activement assistés par d'autres membres du groupe pour nourrir les poussins. Les nids avec assistants ont un meilleur rendement que les nids sans aide.\n\nLa défense du territoire est une affaire collective. Quand un groupe voisin s'approche, tous les membres se mobilisent simultanément : queue dressée et déployée, ailes écartées du corps agitées de soubresauts, cris puissants en chœur. C'est d'abord une parade sonore et visuelle — une démonstration de force plutôt qu'un affrontement physique direct, mais suffisamment intimidante pour maintenir des frontières stables entre groupes."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Malgré son nom, le moqueur des Galápagos n'imite pas vraiment d'autres espèces — curieusement, aucune des espèces des Galápagos n'a hérité de cette compétence pourtant caractéristique de la famille des Mimidés. Le nom lui a été donné par analogie avec ses cousins continentaux.\n• Le moqueur de Floreana a disparu de l'île principale au XIXe siècle — avant même que l'espèce soit scientifiquement décrite. Darwin l'avait observé lors de son passage en 1835 ; quelques décennies plus tard, il n'existait plus que sur deux îlots.\n• Les moqueurs sont l'un des rares oiseaux aux Galápagos à attaquer activement les humains qui s'approchent trop d'un nid — une agressivité surprenante chez un animal par ailleurs si peu craintif.\n• Ils jouent un rôle écologique important dans la dispersion des graines et le contrôle des populations d'arthropodes — leur disparition sur Floreana a eu des effets mesurables sur la végétation de l'île."
+      }
+    ]
+  },
+  {
+    "numero": 28,
+    "nom": "Héron des laves",
+    "emoji": "🦢",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Rochers volcaniques côtiers de toutes les îles",
+      "Mangroves de Santa Cruz",
+      "Puerto Ayora (Santa Cruz)"
+    ],
+    "reconnaitre": "Petit héron trapu de 35 à 40 cm — bien plus petit qu'un héron classique, à peu près la taille d'un pigeon costaud. Plumage gris ardoisé presque noirâtre, avec de légers reflets argentés sur le dos et verdâtres sur les ailes. Bec long et pointu, noir. Courte crête sur la nuque. Pattes grises — qui virent à l'orange vif en période de reproduction. Se repère en bord de mer, immobile comme une statue sur les rochers de lave noire. Son camouflage est si efficace qu'on peut passer à moins d'un mètre sans le voir.",
+    "anecdoteCourte": "Quand un gros crabe est trop grand pour être avalé entier, le héron des laves le saisit et le fracasse répétitivement contre les rochers de lave pour le briser en morceaux. Un outil de cuisine volcanique.",
+    "sections": [
+      {
+        "titre": "Un héron taillé pour la lave",
+        "contenu": "Le héron des laves est endémique des Galápagos — il ne vit nulle part ailleurs. Son ancêtre est le héron strié, une espèce répandue sur tous les continents tropicaux, qui a colonisé l'archipel et s'y est progressivement adapté. La différence la plus visible est la couleur : là où le héron strié arbore un plumage brun-roux contrasté, le héron des laves est gris ardoisé quasi uniforme — une teinte qui le rend quasi invisible sur les rochers de lave noire où il passe sa vie.\n\nCe camouflage est une adaptation de chasse autant que de protection. L'oiseau reste immobile des dizaines de minutes sur un rocher, attendant qu'un poisson, un crabe ou une crevette passe à portée de bec. Sa proie ne le voit pas — il se fond dans la roche. Puis le bec part comme un harpon, avec une précision et une vitesse qui surprennent toujours les visiteurs qui l'observent pour la première fois."
+      },
+      {
+        "titre": "Un chasseur solitaire et méticuleux",
+        "contenu": "Le héron des laves est l'un des oiseaux les plus solitaires des Galápagos. Chaque individu défend un territoire de chasse le long du rivage, qu'il parcourt lentement et méthodiquement à marée basse. Contrairement aux hérons coloniaux qui chassent en groupe, celui-ci tolère rarement un congénère à moins de quelques dizaines de mètres — il poursuit les intrus en dressant sa courte crête, signal d'avertissement clair.\n\nSon régime est varié : poissons en premier lieu (70 % de la ration), puis crabes, crevettes, insectes, et occasionnellement lézards de lave ou petits oiseaux. Les petits crabes sont avalés entiers. Les gros sont saisis dans le bec et fracassés contre les rochers de lave jusqu'à ce qu'ils se brisent en morceaux assimilables. Il est également observé à chasser les mouches qui se rassemblent autour des cactus en bord de côte — une adaptation opportuniste peu commune chez les hérons."
+      },
+      {
+        "titre": "Reproduction & signal visuel",
+        "contenu": "Le héron des laves peut se reproduire toute l'année, avec un pic entre septembre et mars. Le signal le plus visible de sa disponibilité reproductrice est chromatique : les pattes, habituellement gris terne, virent à l'orange vif — et le bec du mâle passe du gris au noir brillant. Ces changements de couleur sont temporaires et disparaissent à la fin de la saison.\n\nLe mâle attire la femelle en décrivant des cercles dans les airs au-dessus de son territoire et en lançant des cris. Une fois le couple formé, la parade se poursuit au sol : les deux oiseaux s'étirent, font des courbettes, se lissent mutuellement les plumes et produisent des roucoulements à quelques centimètres l'un de l'autre.\n\nLe nid — une plate-forme lâche de brindilles de 30 à 50 cm — est construit seul, isolé, dans un arbre de mangrove, un buisson ou entre des blocs de lave. La femelle pond 1 à 3 œufs, couvés en alternance par les deux parents pendant 21 à 22 jours. Les poussins quittent le nid au bout de 5 semaines et deviennent autonomes deux semaines après. Un couple peut enchaîner jusqu'à 3 nichées par an."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Son statut d'espèce est encore débattu — certains ornithologues le considèrent comme une espèce à part entière (Butorides sundevalli), d'autres comme une sous-espèce du héron strié. Les analyses génétiques récentes penchent vers l'espèce distincte, mais le débat n'est pas clos.\n• Il vole toujours au ras du sol quand il se déplace d'un territoire à un autre le long du rivage — jamais en altitude. On le voit donc parfois filer à quelques centimètres des vagues.\n• C'est l'un des oiseaux des Galápagos qui tolère le mieux la proximité humaine — un individu en chasse peut laisser approcher à moins d'un mètre sans bouger, focalisé sur l'eau.\n• Une minorité d'individus présente un plumage plus clair et coloré ressemblant au héron strié continental — longtemps considérés comme des hybrides, les analyses génétiques ont confirmé qu'ils appartiennent bien à l'espèce des laves."
+      }
+    ]
+  },
+  {
+    "numero": 29,
+    "nom": "Cormoran aptère",
+    "emoji": "🐦",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": ["Punta Espinosa (Fernandina)", "Côte ouest d'Isabela"],
+    "reconnaitre": "Grand oiseau trapu de 90 à 100 cm, le plus grand cormoran du monde. Plumage noir-brun dessus, brun plus clair dessous. Le détail qui arrête : les ailes sont ridiculement petites — deux moignons hérissés de plumes éparses, à peine le tiers de la taille nécessaire pour voler. Iris turquoise. Bec long et crochu. Souvent vu debout au bord de l'eau, ailes grandes ouvertes en train de sécher — la posture caractéristique de tous les cormorans, rendue absurde par la taille des ailes.",
+    "anecdoteCourte": "Il étend encore ses ailes pour les sécher après chaque plongée — un comportement hérité de ses ancêtres volants, conservé par pur réflexe évolutif, même si ces ailes ne lui serviront jamais à voler.",
+    "sections": [
+      {
+        "titre": "Comment on perd des ailes en quelques millions d'années",
+        "contenu": "Il y a plusieurs millions d'années, un cormoran ordinaire — probablement semblable au cormoran à aigrettes nord-américain — a colonisé les Galápagos, vraisemblablement porté par des vents favorables. Sur ces îles isolées, sans prédateurs terrestres, voler n'apportait aucun avantage sélectif. En revanche, nager et plonger efficacement pour attraper des poulpes et des poissons de fond en était un énorme. Au fil des générations, les individus aux ailes plus petites consacraient moins d'énergie à des muscles inutiles et en avaient plus pour la nage — ils survivaient mieux, se reproduisaient plus. Les ailes ont rétréci génération après génération.\n\nAujourd'hui, ses ailes mesurent à peine le tiers de ce qu'il faudrait pour voler. Son sternum a perdu le bréchet — la crête osseuse sur laquelle s'accrochent les muscles des ailes chez tous les oiseaux volants. Ce n'est pas une maladie ni un accident : c'est l'évolution à l'œuvre, documentée dans les os et les gènes. Le cormoran aptère est l'un des exemples les plus clairs et les plus accessibles de sélection naturelle visible à l'œil nu."
+      },
+      {
+        "titre": "Un plongeur de fond redoutable",
+        "contenu": "Sans ailes pour nager — contrairement aux manchots qui les utilisent comme des nageoires — le cormoran aptère propulse son corps entier avec ses seules pattes et ses grands pieds palmés. Ses jambes sont très puissantes et positionnées loin en arrière du corps, ce qui le rend maladroit sur terre mais extrêmement efficace sous l'eau.\n\nIl est dit 'benthique' — il chasse au fond de l'océan, fouillant les crevasses rocheuses avec son long cou pour en extraire pieuvres, poulpes, calmars et poissons. Il ne plonge pas en piqué depuis les airs comme les fous, mais s'immerge depuis la surface et descend en donnant des coups de pattes. Ses plumes ne sont pas imperméables — comme celles de la frégate, elles s'imbibent d'eau. C'est pourquoi, à chaque retour à terre, il adopte la posture caractéristique des cormorans : ailes grandes ouvertes, face au soleil, pour sécher. Cette posture, héritée de millions d'années d'ancestres volants, est devenue un réflexe sans objet — mais elle persiste."
+      },
+      {
+        "titre": "Parade nuptiale & reproduction",
+        "contenu": "La parade nuptiale du cormoran aptère est l'une des plus singulières des Galápagos. Elle commence dans l'eau : le mâle et la femelle nagent en cercles rapprochés, leurs cous entrelacés, tournant ensemble dans une danse aquatique lente et synchronisée. Puis le mâle conduit la femelle sur les rochers, allonge démesurément le cou en signe de courtisie, et lui offre des algues et des débris marins — qu'elle s'empresse d'intégrer au nid.\n\nLe nid est construit directement sur les rochers, juste au-dessus de la laisse des hautes eaux, à portée de marche immédiate de la mer. Il est fait d'algues, de débris marins et d'étoiles de mer — matériaux récupérés à chaque sortie de pêche. La femelle pond 2 à 3 œufs, couvés en alternance par les deux parents.\n\nCuriosité documentée : une fois les poussins relativement autonomes, c'est souvent la femelle qui quitte le nid et le mâle pour partir s'accoupler avec un autre partenaire — laissant le père s'occuper seul des jeunes. Un renversement des rôles assez rare chez les oiseaux."
+      },
+      {
+        "titre": "Une espèce vulnérable dans un territoire minuscule",
+        "contenu": "Le cormoran aptère ne vit que sur deux îles : Fernandina et la côte ouest et nord d'Isabela. Toute la population mondiale tient dans cette bande côtière de quelques centaines de kilomètres — environ 1 600 individus matures selon l'UICN, classée 'vulnérable'.\n\nNe pas voler, qui était un avantage quand il n'y avait pas de prédateurs, est devenu un handicap majeur depuis l'introduction d'espèces par l'homme. Chiens et chats l'attaquent à terre. Les filets de pêche le noient. Une marée noire — comme celle de 2001 autour des Galápagos — peut décimer une fraction significative de la population en quelques semaines, sans qu'il puisse fuir.\n\nLa bonne nouvelle : depuis 2000, la population montre une tendance légèrement positive grâce aux protections du parc national. Mais la marge reste étroite."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• C'est le seul cormoran au monde incapable de voler — et de loin le plus grand de sa famille. Son poids (2,5 à 5 kg selon le sexe) serait incompatible avec le vol même s'il avait des ailes normales.\n• Le mâle est en moyenne 35 % plus lourd que la femelle — un dimorphisme sexuel rare chez les oiseaux marins, généralement lié à la compétition pour les partenaires.\n• Ses ailes mesurent encore environ 25 cm — un tiers de ce qu'il faudrait pour voler. Des études génétiques récentes ont identifié les mutations précises qui ont causé ce rétrécissement, en particulier dans des gènes impliqués dans le développement des membres.\n• On le voit souvent aux côtés des manchots des Galápagos et des iguanes marins à Punta Espinosa — trois espèces endémiques, trois solutions évolutives différentes au même problème de base : comment survivre dans un milieu insulaire volcanique avec peu de ressources terrestres."
+      }
+    ]
+  },
+  {
+    "numero": 30,
+    "nom": "Lézard de lave",
+    "emoji": "🦎",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Partout dans l'archipel",
+      "Rochers côtiers de Santa Cruz",
+      "San Cristóbal",
+      "Isabela"
+    ],
+    "reconnaitre": "Petit lézard de 15 à 30 cm selon le sexe, corps élancé et agile, doigts longs adaptés aux rochers. Le mâle est nettement plus grand et plus coloré : plumage gris-brun avec des taches dorées ou jaunes, crête dorsale d'épines, gorge noire et jaune. La femelle est plus petite et plus terne — mais avec une gorge d'un rouge-orange vif, parfois presque écarlate, contrastant avec le reste du corps. Souvent vu immobile au soleil sur les rochers de lave noire, ou courant à toute vitesse entre les pattes des iguanes marins.",
+    "anecdoteCourte": "Quand deux mâles se disputent un territoire, ils ne se battent pas directement — ils font des pompes. Celui qui fait le plus de pompes sans s'épuiser gagne le territoire. Si les scores sont trop proches, alors seulement ils s'affrontent.",
+    "sections": [
+      {
+        "titre": "Sept espèces, sept îles — le même principe que les pinsons",
+        "contenu": "Il existe sept espèces distinctes de lézards de lave aux Galápagos, toutes endémiques, toutes descendues d'un ancêtre commun venu d'Amérique du Sud. L'espèce la plus commune (Microlophus albemariensis) est présente sur dix îles du centre et de l'ouest de l'archipel — ce sont les îles qui étaient probablement reliées entre elles lors des baisses de niveau de la mer. Les six autres espèces vivent chacune sur une île périphérique spécifique — Española, Floreana, Marchena, Pinta, Pinzón et San Cristóbal — et ont divergé par isolement géographique.\n\nC'est exactement le même mécanisme de radiation adaptative que les pinsons de Darwin, mais visible ici dans les couleurs et la taille. Sur une même île, la couleur du lézard varie selon le substrat : les individus des zones de lave noire sont plus foncés, ceux des plages de sable plus clairs. Un camouflage passif qui s'est mis en place île par île, niche par niche."
+      },
+      {
+        "titre": "Un thermomètre vivant",
+        "contenu": "Comme tous les reptiles, le lézard de lave est ectotherme — sa température corporelle dépend de son environnement. Sa journée est entièrement organisée autour de la thermorégulation. Le matin, il s'étale à plat sur les rochers de lave noire, corps perpendiculaire aux rayons du soleil pour maximiser la surface exposée. Une fois à température optimale — environ 35-38°C — il devient actif : chasse, défense du territoire, parade.\n\nEn milieu de journée, quand la lave devient brûlante, il se réfugie à l'ombre des rochers ou des cactus. En fin d'après-midi, il ressort pour une dernière session de chauffe. La nuit, sa température chute et il entre dans une torpeur quasi complète — il devient alors vulnérable, ce qui explique qu'il cherche des crevasses ou des anfractuosités pour dormir.\n\nCette dépendance à la chaleur est aussi une contrainte : par temps couvert prolongé, les lézards de lave deviennent léthargiques et ne peuvent pas chasser efficacement. Les épisodes El Niño, qui amènent plus de nuages et de pluie, peuvent avoir des effets négatifs importants sur leurs populations."
+      },
+      {
+        "titre": "Les pompes — un langage territorial",
+        "contenu": "Le comportement le plus spectaculaire et le plus visible du lézard de lave mâle est la pompe : il se soulève sur ses quatre pattes tendues et effectue des flexions rapides et répétées, haut-bas, haut-bas. Ce n'est pas du sport — c'est un signal. Chaque série de pompes communique la taille, la vigueur et la détermination du mâle à un concurrent ou à une femelle.\n\nUn grand mâle contrôle un territoire pouvant atteindre 400 m², qui englobe lui-même plusieurs petits territoires de femelles. Chaque mâle signale son emprise en se perchant au point le plus visible de son domaine — sommet d'un rocher, dos d'un iguane — et en hochant la tête de façon répétée. Les pompes interviennent quand un autre mâle s'approche malgré ce signal.\n\nQuand deux mâles se rencontrent à la frontière de leurs territoires, ils commencent par un échange de pompes mutuelles, parfois pendant plusieurs minutes. Celui qui fait le plus grand nombre de pompes avec le plus d'amplitude et le moins d'essoufflement affiche une supériorité physique convaincante — l'autre s'en va souvent sans qu'un seul coup n'ait été échangé. Si les deux sont trop équilibrés, le conflit peut dégénérer en combat physique : morsures, coups de queue, roulades. Ces combats sont spectaculaires mais rarement dangereux.\n\nLes femelles font aussi des pompes — un comportement moins courant chez les reptiles — pour signaler leur statut territorial ou leur non-disponibilité à la reproduction."
+      },
+      {
+        "titre": "Reproduction & queue régénérable",
+        "contenu": "La saison de reproduction varie selon les îles mais coïncide généralement avec la saison chaude. Les mâles deviennent plus agressifs et leurs couleurs s'intensifient. Après l'accouplement, la femelle cherche un sol sableux ou meuble pour creuser un terrier peu profond où elle dépose 1 à 6 œufs. Elle recouvre soigneusement le nid et l'abandonne — pas de soins parentaux. Les œufs incubent seuls pendant 3 à 4 mois, la température du sol déterminant en partie la vitesse de développement.\n\nLes juvéniles, minuscules et vulnérables, sont des proies pour les buses des Galápagos, les hérons des laves et — surprise — leurs propres congénères adultes. Les lézards de lave sont occasionnellement cannibales, les adultes mangeant les juvéniles quand l'occasion se présente.\n\nEn cas d'attaque d'un prédateur qui attrape la queue, le lézard peut l'abandonner volontairement — la queue se détache et continue de bouger pour distraire l'attaquant. Une nouvelle queue repousse en quelques semaines, légèrement différente en couleur et en texture, mais fonctionnelle."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le lézard de lave est souvent observé perché sur le dos des iguanes marins, qu'il utilise comme poste d'observation surélevé — et dont il mange les parasites en prime. Une relation gagnant-gagnant tolérée par les iguanes.\n• Sa langue fourchue est un organe sensoriel : il la passe rapidement sur le sol pour capter des molécules chimiques et les analyser via l'organe de Jacobson dans le palais — une façon de 'goûter' l'air et détecter proies, prédateurs et congénères.\n• La gorge rouge vif de la femelle est unique parmi les lézards des Galápagos — son rôle exact est débattu, mais elle semble jouer un rôle dans la compétition entre femelles pour les meilleurs sites de ponte."
+      }
+    ]
+  },
+  {
+    "numero": 31,
+    "nom": "Castor",
+    "emoji": "🦫",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Terre de Feu (Argentine et Chili)",
+      "Isla Navarino (Chili)"
+    ],
+    "reconnaitre": "Grand rongeur trapu de 80 à 100 cm, queue plate et écailleuse très caractéristique (30 cm de long). Fourrure épaisse brun-roux, tête ronde, petites oreilles, pattes arrière palmées. Sur terre, démarche maladroite et dandinante. En rivière, nage avec aisance, queue à plat. Se repère plus souvent à ses œuvres qu'à lui-même : barrages de bois et de boue travestissant les cours d'eau, arbres rongés à la base avec des traces de dents caractéristiques en V, étangs artificiels en pleine forêt. Principalement nocturne — observer tôt le matin ou au crépuscule.",
+    "anecdoteCourte": "En 1946, l'Argentine a introduit 50 castors du Canada en Terre de Feu pour développer une industrie de la fourrure. L'industrie n'a jamais décollé. Les castors, eux, ont proliféré jusqu'à 100 000 individus et détruit 400 km² de forêt. Quatre-vingts ans de catastrophe écologique pour une mauvaise idée.",
+    "sections": [
+      {
+        "titre": "Comment 50 castors ont transformé la Terre de Feu",
+        "contenu": "En 1946, l'état argentin a introduit 50 castors canadiens (Castor canadensis) dans l'île de la Terre de Feu, avec l'ambition de développer une industrie locale de la fourrure. L'idée semblait raisonnable sur le papier : le castor était élevé avec succès au Canada depuis des décennies. Mais personne n'avait mesuré une différence fondamentale entre les deux contextes : en Amérique du Nord, les arbres ont coévolué avec le castor pendant des millions d'années et développé des mécanismes de résilience — certains repoussent après avoir été coupés. En Terre de Feu, les hêtres patagoniens (Nothofagus) n'ont jamais rencontré de rongeur de cette taille. Quand un castor les coupe, ils ne repoussent pas. Ils meurent.\n\nL'industrie de la fourrure n'a jamais décollé. Les castors, libérés de leurs prédateurs naturels (loup, coyote, lynx) absents de Patagonie, ont proliféré sans contrôle. En 80 ans, la population est passée de 50 individus à environ 100 000. Ils ont traversé le Canal Beagle et colonisé la partie chilienne de l'île, puis commencé à se répandre vers le continent. Les autorités estiment qu'ils ont détruit 400 km² de forêt — l'équivalent de plusieurs dizaines de milliers d'hectares de hêtraies centenaires transformées en étangs et marécages."
+      },
+      {
+        "titre": "Un ingénieur hors de contrôle",
+        "contenu": "Le castor est ce qu'on appelle un 'ingénieur de l'écosystème' — un animal qui modifie physiquement son environnement pour créer les conditions de sa propre survie. Il construit des barrages pour créer des étangs suffisamment profonds pour que l'entrée de sa hutte reste sous l'eau (protection contre les prédateurs) et pour constituer des réserves alimentaires hivernales immergées.\n\nEn Amérique du Nord, ce rôle est bénéfique : les étangs de castors créent des zones humides qui abritent des centaines d'espèces. En Terre de Feu, le même comportement est catastrophique. Les barrages modifient le débit des rivières, inondent les zones forestières et créent des marais dans lesquels la végétation locale ne peut plus pousser. Les arbres morts debout dans les étangs — appelés 'forêts fantômes' — sont devenus un paysage emblématique et inquiétant de la Terre de Feu. Un documentaire de scientifiques argentins compare ces zones à un paysage de guerre.\n\nLes barrages peuvent atteindre 100 mètres de long. Une famille de castors abat un petit arbre en quelques heures et un arbre centenaire en quelques jours."
+      },
+      {
+        "titre": "Vie sociale & comportement",
+        "contenu": "Le castor vit en colonie familiale strictement organisée : un couple monogame pour la vie, leurs petits de l'année, et parfois les jeunes de l'année précédente qui aident à s'occuper de la nouvelle portée. La femelle est au centre de la famille. Les jeunes quittent la colonie à deux ans, sexuellement matures, pour aller fonder leur propre territoire — c'est ainsi que l'invasion s'est propagée.\n\nIl est principalement nocturne et crépusculaire. La journée, il reste dans sa hutte ou sous l'eau. Quand il perçoit un danger, il frappe la surface de l'eau avec sa queue plate pour avertir les autres membres de la famille de plonger. Ce claquement — fort et sec — est souvent le premier signe qu'un castor est présent.\n\nIl marque son territoire avec du castoréum — une sécrétion musquée produite par des glandes anales — déposée en petits monticules de boue à des endroits stratégiques. Chaque famille défend un territoire autour de son étang, qu'elle entretient et agrandit continuellement."
+      },
+      {
+        "titre": "Le plan d'éradication",
+        "contenu": "Face à l'ampleur des dégâts, l'Argentine et le Chili ont signé en 2006 une stratégie binationale d'éradication du castor en Patagonie australe. En 2016, un plan d'extermination de 100 000 individus a été annoncé, confié à dix chasseurs-trappeurs entraînés pour opérer dans des conditions extrêmes, avec le soutien des Nations Unies et des grandes organisations de conservation. Les castors sont attirés dans des pièges et tués. L'opération devrait durer plusieurs années.\n\nLe défi est colossal : le terrain est parmi les plus inaccessibles du monde, les castors se reproduisent vite, et ils ont désormais commencé à coloniser le continent au nord du détroit de Magellan. Les militants animalistes s'opposent à l'extermination — en faisant remarquer, justement, que les castors ne sont pas responsables de la situation. C'est une décision humaine de 1946 qui a tout déclenché.\n\nDans la Tierra del Fuego, les traces de cette catastrophe sont partout : forêts fantômes, étangs au milieu de la forêt, barrages en travers des rivières. C'est de loin l'impact environnemental le plus visible de toute la Patagonie."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le castor est le deuxième plus grand rongeur du monde, derrière le capybara.\n• Son castoréum — la sécrétion musquée de ses glandes anales — a été utilisé pendant des siècles en parfumerie et en pharmacopée. Il est aujourd'hui encore un additif alimentaire légal, classifié comme arôme naturel dans certains pays.\n• La hutte du castor n'a pas d'entrée terrestre — elle est entièrement accessible sous l'eau, ce qui la rend imprenable pour les prédateurs terrestres. À l'intérieur, elle comporte deux niveaux : un plancher surélevé sec pour dormir et une zone humide pour stocker la nourriture.\n• Le bison d'Amérique a également été introduit en Terre de Feu dans les années 1980 — une autre espèce invasive dont la situation est moins connue mais tout aussi problématique."
+      }
+    ]
+  },
+  {
+    "numero": 32,
+    "nom": "Pic de Magellan",
+    "emoji": "🐦",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Parc National Tierra del Fuego (Argentine)",
+      "Forêts de Nothofagus de Patagonie",
+      "Isla Navarino (Chili)",
+      "Carretera Austral (Chili)"
+    ],
+    "reconnaitre": "Impossible à manquer : c'est le plus grand pic d'Amérique du Sud, presque la taille d'une corneille (36 à 38 cm). Corps entièrement noir brillant, grande tache blanche sur les ailes visible en vol. Le mâle a une tête et une crête rouge carmin éclatant — comme si on lui avait peint la tête en rouge. La femelle a la tête noire avec seulement une touche de rouge sous le bec. Bec gris puissant en forme de burin. Se repère souvent à l'oreille avant de le voir : un martelage puissant et rythmé, deux coups secs à la suite, qui résonne dans la forêt.",
+    "anecdoteCourte": "On l'appelle 'Carpintero' en Argentine — le charpentier. Les cavités qu'il creuse dans les vieux hêtres patagoniens servent ensuite de nids à des dizaines d'autres espèces qui seraient incapables de les créer elles-mêmes : perruches, rapaces, canards arboricoles. Sans lui, toute une chaîne d'habitants de la forêt s'effondre.",
+    "sections": [
+      {
+        "titre": "Le plus grand pic de l'hémisphère sud",
+        "contenu": "Le pic de Magellan est le représentant le plus austral du genre Campephilus — une famille de grands pics qui comprend le légendaire pic à bec ivoire nord-américain, aujourd'hui probablement éteint. Il vit exclusivement dans les forêts de Nothofagus (hêtres patagoniens) le long des Andes, du nord de la province de Neuquén jusqu'à la Terre de Feu et l'archipel du Cap Horn — l'une des forêts les plus australes du monde.\n\nIl n'est présent que dans les vieilles forêts intactes : il a besoin de grands arbres morts ou mourants, suffisamment épais pour creuser ses cavités de nidification, et d'une densité suffisante d'insectes xylophages (qui vivent dans le bois) dont il se nourrit. Les forêts jeunes ou gérées ne lui conviennent pas. C'est un indicateur direct de la santé et de l'ancienneté d'une forêt — sa présence garantit qu'on est dans une vieille forêt en bon état."
+      },
+      {
+        "titre": "Un menuisier au service de la forêt entière",
+        "contenu": "Le pic de Magellan creuse ses cavités de nidification à 5 à 15 mètres de hauteur dans les troncs de grands hêtres patagoniens, un travail qui prend plusieurs semaines. Chaque année, il en creuse de nouvelles — les anciennes sont abandonnées et immédiatement réquisitionnées par d'autres espèces incapables de percer le bois elles-mêmes.\n\nEn Patagonie, ces cavités abandonnées sont utilisées par les perruches des Andes, plusieurs espèces de rapaces, des canards arboricoles et des chauves-souris. Les trous de fourragement — creusés à la recherche de larves sous l'écorce — peuvent également être agrandis et réutilisés comme nids par d'autres oiseaux. Sa taille lui permet de créer des cavités grandes, utilisables par des espèces volumineuses qui ne pourraient pas se loger dans les trous creusés par des pics plus petits.\n\nSans le pic de Magellan, toute cette communauté d'espèces dites 'cavicoles secondaires' perdrait ses sites de nidification. Il est ce qu'on appelle une espèce clé de voûte — sa disparition entraînerait un effondrement en cascade de nombreuses autres espèces."
+      },
+      {
+        "titre": "Vie en famille & comportement",
+        "contenu": "Le pic de Magellan est monogame et vit en groupes familiaux de 3 à 5 individus — les deux parents et leurs jeunes de l'année, parfois de l'année précédente. C'est une organisation peu commune chez les pics, où la vie solitaire ou en couple est la norme. Les jeunes restent avec les parents jusqu'à deux ans, apprenant à chasser et à creuser avant de s'installer sur leur propre territoire.\n\nLe mâle et la femelle partagent équitablement toutes les tâches : creusage du nid, incubation, nourrissage des poussins. Un seul œuf est généralement pondu — si deux éclosent, un seul survit habituellement jusqu'à l'envol.\n\nSon tambourinage est caractéristique et facilement identifiable : deux coups secs et puissants, espacés, qui résonnent dans les vieux troncs creux comme un signal de présence. Les Campephilus sont réputés pour ce rythme en doublet, distinct du martelage rapide et continu des pics plus communs. On l'entend souvent bien avant de le voir — puis il apparaît, rouge et noir, grimpant en spirale le long d'un tronc mort."
+      },
+      {
+        "titre": "Menaces — une espèce vulnérable",
+        "contenu": "Le pic de Magellan est classé vulnérable par l'UICN, avec une aire de répartition qui se rétracte. Les menaces sont multiples et cumulatives.\n\nL'exploitation forestière et le remplacement des forêts natives par des plantations de pins et d'eucalyptus dans le centre-sud du Chili et en Argentine ont détruit une grande partie de son habitat. Il ne peut pas survivre dans des plantations monospécifiques — trop jeunes, trop homogènes, sans arbres morts.\n\nEn Terre de Feu, la fragmentation de l'habitat par les castors nord-américains introduits est une menace directe et croissante : les 'forêts fantômes' créées par les inondations dues aux barrages de castors détruisent précisément les vieilles hêtraies dont il dépend."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Son territoire familial nécessite un minimum de 100 hectares de vieille forêt intacte — une superficie qui se raréfie rapidement avec la fragmentation forestière.\n• En Terre de Feu, il est parfois appelé 'el pájaro carpintero' (l'oiseau charpentier) par les locaux, qui le considèrent comme l'emblème des forêts australes — au même titre que le condor pour la montagne ou le manchot pour la côte.\n• Son tambourinage en doublet — deux coups, pause, deux coups — est tellement caractéristique que les ornithologues l'utilisent pour distinguer les Campephilus des autres pics sans même voir l'oiseau.\n• Sa présence dans une forêt est utilisée par les biologistes comme indicateur de qualité de l'habitat : là où vit le pic de Magellan, la forêt est ancienne, structurellement complexe, et en bonne santé."
+      }
+    ]
+  },
+  {
+    "numero": 33,
+    "nom": "Tatou pichi",
+    "emoji": "🦔",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Steppe patagonienne (Argentine)",
+      "Pistes en terre de Patagonie",
+      "Torres del Paine (Chili)",
+      "Route 40 (Argentine)"
+    ],
+    "reconnaitre": "Petit animal trapu de 27 à 40 cm, carapace osseuse brun-gris articulée en 6 à 8 bandes sur le dos, tête et queue également blindées. Ventre couvert de poils épais clairs — le seul tatou à avoir cette toison ventrale, d'où son nom de 'tatou velu'. Pattes courtes, griffes robustes et longues. Se voit souvent en bord de piste, fouillant le sol de son museau pointu. Quand il se sent menacé, il ne se roule pas en boule — il plaque sa carapace au sol et s'accroche avec ses griffes.",
+    "anecdoteCourte": "C'est le seul tatou au monde qui hiberne. En mai, il s'enferme dans son terrier pour 3 mois, sa température corporelle chutant de 35°C à 14°C. Un tatou en mode congélateur.",
+    "sections": [
+      {
+        "titre": "Un tatou taillé pour la Patagonie",
+        "contenu": "Le pichi (Zaedyus pichiy) est l'espèce de tatou la plus méridionale du monde — il vit exclusivement dans les steppes et déserts de Patagonie argentine et chilienne. Là où la plupart des tatous sont des animaux des zones tropicales et subtropicales, le pichi a évolué pour survivre aux hivers patagoniens, avec leurs gelées, leurs vents violents et leurs températures négatives.\n\nSon adaptation principale est unique parmi les 21 espèces de tatous vivants : il est le seul à hiberner. En mai, quand les insectes disparaissent et les températures chutent, il s'enferme dans son terrier. Sa température corporelle descend de 35°C à environ 14°C, son rythme cardiaque ralentit considérablement, et il vit sur ses réserves de graisse accumulées à l'automne jusqu'en août ou septembre. Aucun autre tatou au monde ne fait cela.\n\nSon ventre couvert de poils épais est une autre adaptation au froid — tous les autres tatous ont le ventre nu et exposé. En Patagonie, cette isolation thermique est une nécessité."
+      },
+      {
+        "titre": "Une carapace, mais pas pour rouler en boule",
+        "contenu": "Contrairement à l'image populaire du tatou qui se roule en boule face au danger, le pichi n'en est pas capable — sa carapace est trop rigide et ses bandes trop peu nombreuses pour lui permettre une fermeture complète. Sa stratégie défensive est différente et très efficace : quand il se sent menacé, il plaque son corps contre le sol, enfonce ses griffes dans la terre et appuie sa carapace vers le bas, rendant quasiment impossible de le retourner ou de le soulever.\n\nSes griffes sont puissantes et multirôles : elles lui servent à creuser des terriers dans le sol dur de la steppe, à défoncer les nids de fourmis et de termites, et à s'ancrer au sol face aux prédateurs. Il peut creuser un terrier en quelques minutes — assez vite pour disparaître sous terre avant qu'un renard ou un puma ne l'atteigne."
+      },
+      {
+        "titre": "Un omnivore opportuniste",
+        "contenu": "Le pichi est omnivore et peu difficile. Sa nourriture de base est constituée d'invertébrés — coléoptères, fourmis, termites, scorpions — qu'il détecte avec son museau pointu en fouillant le sol. Il mange aussi des lézards, de petits rongeurs, des champignons, des végétaux et des charognes selon l'opportunité.\n\nFait notable : bien qu'il vive dans un environnement aride, on ne le voit presque jamais boire d'eau. Il tire l'essentiel de son hydratation de sa nourriture — les insectes et invertébrés qu'il consomme contiennent suffisamment d'humidité pour ses besoins. Une adaptation à la sécheresse patagonienne qui lui permet de survivre loin de tout point d'eau.\n\nIl est principalement diurne — actif le matin et en fin d'après-midi — contrairement à la plupart des autres tatous qui sont nocturnes. C'est pour cette raison qu'on le voit relativement facilement en bord de piste, contrairement à ses cousins plus communs mais nocturnes."
+      },
+      {
+        "titre": "Reproduction & vie solitaire",
+        "contenu": "Le pichi est un animal solitaire et territorial, qui défend son domaine contre les congénères. Chaque individu creuse plusieurs terriers dans son territoire, qu'il utilise alternativement selon ses déplacements — certains sont des abris temporaires, un ou deux sont des terriers principaux plus profonds utilisés pour l'hivernage et la reproduction.\n\nLa reproduction a lieu au printemps austral, après l'hibernation. La femelle donne naissance à 1 ou 2 petits dans son terrier, après une gestation d'environ deux mois. Les jeunes naissent avec une carapace souple qui durcit progressivement. Ils restent avec la mère quelques semaines avant de devenir autonomes.\n\nSes prédateurs principaux sont les rapaces — buses et aigles couronnés — qui peuvent l'attraper avant qu'il n'atteigne son terrier, ainsi que les renards et pumas. Les chiens de ferme sont aussi une menace dans les zones d'élevage."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Malgré sa carapace, il n'est pas imperméable à tout : les griffes puissantes d'un puma peuvent forcer la carapace, et les rapaces l'attaquent au ventre non blindé en le retournant.\n• Il est chassé localement pour sa chair, considérée comme un met traditionnel par certaines communautés de Patagonie. La pression de chasse, combinée à la fragmentation de l'habitat, a fragilisé certaines populations.\n• Son nom 'pichi' vient du mapudungun, la langue des Mapuches — il signifie simplement 'petit'. Une modestie nomenclaturale qui tranche avec la singularité de l'animal."
       }
     ]
   }

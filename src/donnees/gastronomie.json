@@ -1,77 +1,77 @@
 [
   {
     "nom": "Ceviche",
-    "type" : "Plat",
+    "type": "Plat",
     "pays": ["Pérou"],
     "description": "Poisson frais, citron vert, piment, oignons rouges, coriandre, patate douce et maïs",
     "anecdote": "Le ceviche aurait plus de 2 000 ans. Les Mochicas, peuple précolombien de la côte nord péruvienne, le préparaient déjà avec du jus de fruit de la passion fermenté avant l'arrivée du citron vert importé par les Espagnols."
   },
   {
     "nom": "Pisco Sour",
-    "type" : "Boisson",
+    "type": "Boisson",
     "pays": ["Pérou"],
     "description": "Cocktail national du Pérou. Pisco, citron vert, sirop de sucre, blanc d'œuf, angostura",
     "anecdote": "Le Pérou et le Chili se disputent farouchement la paternité du Pisco Sour. Au Pérou, on le célèbre le premier samedi de février ; au Chili, le 8 février. Les deux pays ont chacun leur journée nationale pour la même boisson."
   },
   {
     "nom": "Pique Macho",
-    "type" : "Plat",
+    "type": "Plat",
     "pays": ["Bolivie"],
     "description": "Assiette de viande de bœuf, saucisses, frites, œufs durs, oignons et piments. Très copieux !",
     "anecdote": "C'est le plat de fin de soirée par excellence, qu'on partage à plusieurs après quelques bières. Une assiette de Pique Macho à 2h du matin entre amis vaut autant comme repas que comme rituel social."
   },
   {
     "nom": "Cuy",
-    "type" : "Plat",
+    "type": "Plat",
     "pays": ["Pérou"],
     "description": "Cochon d'inde rôti. A manger en montagne (Cuzco - Arequipa).",
     "anecdote": "Dans la cathédrale de Cuzco, une peinture coloniale du XVIIᵉ siècle représente la Cène avec, au centre de la table devant le Christ, un cuy rôti sur un plat — et non un agneau pascal. L'artiste indigène Marcos Zapata a discrètement réécrit l'iconographie chrétienne avec les codes andins."
   },
   {
     "nom": "Lomo Saltado",
-    "type" : "Plat",
+    "type": "Plat",
     "pays": ["Pérou"],
     "description": "Sauté de bœuf avec oignons, tomates, sauce soja, servi avec frites et riz.",
     "anecdote": "Le lomo saltado est né au XIXᵉ siècle de la rencontre entre cuisine andine et cuisine cantonaise. Quand des dizaines de milliers de travailleurs chinois sont arrivés au Pérou dans les années 1850, ils ont apporté avec eux le wok, la sauce soja et la technique du sauté à feu vif. Le lomo saltado, c'est littéralement un stir-fry chinois fait avec de la viande de bœuf péruvienne et accompagné de riz et de frites."
   },
   {
     "nom": "Completo",
-    "type" : "Plat",
+    "type": "Plat",
     "pays": ["Chili"],
     "description": "Hot-dog chilien démesuré : saucisse dans un grand pain moelleux, recouverte d'avocat écrasé, tomate en dés, choucroute et d'une montagne de mayonnaise.",
     "anecdote": "Inventé dans les années 1920 à Santiago dans une fuente de soda (l'équivalent local des diners américains), le Completo est la réponse chilienne au hot-dog importé des États-Unis. Mais là où l'Américain reste sobre, le Chilien empile : avocat, tomate, choucroute, mayonnaise. La règle implicite : si on voit encore la saucisse, ce n'est pas un Completo."
   },
   {
     "nom": "Italiano",
-    "type" : "Plat",
+    "type": "Plat",
     "pays": ["Chili"],
     "description": "Variante du Completo, sans choucroute et sans extra.",
     "anecdote": "Aucun lien avec l'Italie : le nom vient des couleurs des trois garnitures. L'avocat (vert), la tomate (rouge) et la mayonnaise (blanche) reproduisent exactement le drapeau italien dans le pain. Les Chiliens ont l'œil patriote pour les drapeaux étrangers — il existe aussi le Brasileño (mayo, tomate, fromage) pour le drapeau brésilien."
   },
   {
     "nom": "Api morado / con pastel",
-    "type" : "Boisson",
+    "type": "Boisson",
     "pays": ["Bolivie"],
     "description": "Boisson chaude, épaisse et sucrée à base de maïs violet (souvent servie au petit-déjeuner).",
     "anecdote": "L'api tire sa couleur violette intense d'une variété précolombienne de maïs, le maíz morado, cultivée dans les Andes depuis plus de 2 500 ans. Ce maïs contient des anthocyanes en concentration record — plus que la myrtille."
   },
   {
     "nom": "Salteñas",
-    "type" : "Plat",
+    "type": "Plat",
     "pays": ["Bolivie"],
     "description": "sorte d'empañada à la viande et aux légumes, souvent très juteux. Défi : en manger un sans s'en mettre partout !",
     "anecdote": "En Bolivie, la salteña ne se mange qu'avant midi. Les salteñerías ouvrent à 9h et ferment vers 11h30 — une fois le stock du matin écoulé, on n'en trouve plus nulle part. Demander une salteña à 15h, c'est se faire repérer immédiatement comme touriste. C'est le casse-croûte de milieu de matinée, jamais un déjeuner."
   },
   {
     "nom": "Chicha Cochabambina",
-    "type" : "Boisson",
+    "type": "Boisson",
     "pays": ["Bolivie"],
     "description": "Boisson fermentée à base de maïs. Origine précolombienne, boisson des incas.",
     "anecdote": "À Cochabamba, on repère les chicherías à un drapeau blanc accroché à un bâton au-dessus de la porte. C'est un code visuel hérité de l'époque coloniale : le drapeau signale que la fournée du jour est prête à être bue. Pas d'enseigne, pas de pub — juste un bout de tissu blanc qui flotte, et les habitués savent."
   },
   {
     "nom": "Aji de gallina",
-    "type" : "Plat",
+    "type": "Plat",
     "pays": ["Pérou"],
     "description": "Effiloché de poule mijoté dans une sauce crémeuse à base d'ají amarillo, pain trempé dans le lait, noix et fromage. Servi sur du riz blanc avec pommes de terre, olives noires et œuf dur.",
     "anecdote": "Le nom précise gallina (poule pondeuse) et non pollo (poulet de chair) — ce n'est pas un détail. La poule, plus âgée et plus ferme, demande une longue cuisson qui parfume la sauce et donne une chair effilochée caractéristique. Aujourd'hui la plupart des restaurants utilisent du poulet par commodité, mais les puristes maintiennent qu'un vrai ají de gallina se fait à la poule, sinon « ce n'est qu'un poulet en sauce jaune »."
@@ -217,7 +217,7 @@
     "anecdote": "Le buñuelo ne se mange jamais seul en Bolivie — il arrive toujours avec un verre d'api morado, comme le café arrive avec un croissant. Les vendeurs des marchés de La Paz et Cochabamba les vendent systématiquement ensemble, et commander l'un sans l'autre attire un regard légèrement suspicieux. Le buñuelo trempe dans l'api, l'api réchauffe le buñuelo froid — c'est un des duos les plus anciens et les plus stables de la cuisine bolivienne de rue."
   },
   {
-    "nom": "Singari",
+    "nom": "Singani",
     "type": "Boisson",
     "pays": ["Bolivie"],
     "description": "Eau-de-vie de raisin muscat de Alexandrie distillée en haute altitude dans les vallées de Tarija et Cinti (2 000 - 3 000 m). Claire, florale et légèrement fruitée. Base du chuflay, du macerado et de nombreux cocktails boliviens. Alcool national bolivien.",
@@ -250,5 +250,145 @@
     "pays": ["Bolivie"],
     "description": "Petit pain rond et moelleux fourré au fromage frais fondant, cuit au four.",
     "anecdote": "La llaucha est si spécifiquement paceña que les Boliviens des autres villes la considèrent comme un marqueur d'identité locale — comme les salteñas sont cochabambinas ou le silpancho est de Cochabamba. À Santa Cruz ou Sucre, on en trouve rarement en dehors des boulangeries spécialisées. Les Paceños expatriés dans d'autres villes boliviennes citent souvent la llaucha parmi les premières choses qui leur manquent — devant le fricasé du dimanche et avant même le singani."
+  },
+  {
+    "nom": "Asado",
+    "type": "Plat",
+    "pays": ["Argentine"],
+    "description": "Rituel de cuisson argentin : viandes de bœuf (côtes, entrecôte, chorizo, morcilla, abats) grillées lentement au feu de bois ou de charbon sur une grille (parrilla) ou une croix de fer (asador).",
+    "anecdote": "Le secret de l'asado argentin n'est pas la température mais le temps. La viande ne se pose jamais sur une flamme vive — l'asador prépare d'abord des braises lentes, sans flamme, qui cuisent la viande par rayonnement et non par contact direct avec le feu. Une côte de bœuf correcte demande deux à trois heures de cuisson à feu doux. La précipitation est la faute cardinale de l'asado : un asador pressé n'est pas un asador."
+  },
+  {
+    "nom": "Centolla",
+    "type": "Plat",
+    "pays": ["Argentine"],
+    "description": "Crabe royal géant pêché dans les eaux glacées du détroit de Magellan et de Tierra del Fuego. Chair blanche et dense, légèrement iodée et naturellement sucrée. Star gastronomique d'Ushuaïa",
+    "anecdote": "La qualité exceptionnelle de la chair de centolla vient directement de la température de l'eau — entre 2 et 6°C dans le détroit de Magellan. Dans une eau aussi froide, le crabe grandit très lentement, ce qui densifie sa chair et concentre ses sucres naturels. C'est le même principe que les huîtres bretonnes ou le saumon sauvage d'Alaska : plus l'eau est froide et la croissance lente, plus la chair est dense et savoureuse. La centolla est littéralement sculptée par le froid."
+  },
+  {
+    "nom": "Locro",
+    "type": "Plat",
+    "pays": ["Argentine"],
+    "description": "Ragoût épais et nourrissant de maïs blanc, haricots, viande de porc, chorizo et courge (zapallo)",
+    "anecdote": "Le locro est le seul plat argentin officiellement associé à une date nationale : le 25 mai (anniversaire de la Révolution de Mai 1810) et le 9 juillet (indépendance). Ce jour-là, des milliers de marmites de locro sont préparées dans les quartiers, les écoles et les places publiques et distribuées gratuitement. Ne pas manger de locro le 25 mai à Buenos Aires, c'est manquer quelque chose d'aussi fondamental que de ne pas regarder les feux d'artifice du 14 juillet en France."
+  },
+  {
+    "nom": "Medialunas",
+    "type": "Dessert",
+    "pays": ["Argentine"],
+    "description": "Croissants argentins légèrement sucrés et laqués au sirop de sucre, plus briochés et moins feuilletés que les croissants français. Deux versions : de manteca (beurre, dorées et sucrées) et de grasa (saindoux, moins sucrées et plus neutres)",
+    "anecdote": "La medialuna descend directement du croissant français importé par les immigrants européens au XIXᵉ siècle — mais les boulangers argentins l'ont transformé jusqu'à le rendre méconnaissable. Moins feuilleté, plus brioché, nappé de sirop de sucre chaud à la sortie du four. Le résultat est si différent que les Français qui commandent une medialuna en pensant trouver leur croissant sont systématiquement déstabilisés."
+  },
+  {
+    "nom": "Choripan",
+    "type": "Plat",
+    "pays": ["Argentine"],
+    "description": "Sandwich populaire argentin : chorizo de porc grillé au feu de bois dans un pain marraqueta croustillant, coupé en deux dans la longueur et généreusement nappé de chimichurri (sauce typique)",
+    "anecdote": "En Argentine, distribuer des choripanes gratuits pendant un meeting politique est une technique électorale documentée depuis l'époque péroniste. Les partis organisent des choripaneadas — distributions massives de sandwichs — pour attirer les foules et fidéliser les militants. L'expression est entrée dans le langage politique : accuser un rassemblement d'être une choripaneada, c'est dire que les gens ne sont venus que pour manger, pas par conviction. Le choripán comme baromètre de l'authenticité politique argentine."
+  },
+  {
+    "nom": "Mate",
+    "type": "Boisson",
+    "pays": ["Argentine"],
+    "description": "Boisson nationale argentine à base de feuilles d'herbe mate séchées, infusées dans un petit récipient traditionnel (calebasse — courge séchée, bois ou céramique). On boit le liquide à travers une paille en métal filtrante (bombilla) qui retient les feuilles. Goût amer et végétal, effet caféiné.",
+    "anecdote": "Le mate nature est amer, végétal et astringent — un goût que presque aucun étranger n'apprécie à la première gorgée. Les Argentins le savent et observent la réaction des étrangers avec une curiosité affectueuse. Certains ajoutent du sucre pour les novices (mate dulce) — geste considéré comme une concession polie mais légèrement condescendante. Un étranger qui boit son mate amère sans grimacer gagne un respect immédiat et silencieux. C'est le test d'intégration non officiel de l'Argentine."
+  },
+  {
+    "nom": "Fernet con coca",
+    "type": "Boisson",
+    "pays": ["Argentine"],
+    "description": "Cocktail argentin iconique : Fernet-Branca (amer italien à base de 27 plantes, très fort et très amer) mélangé à du Coca-Cola, sur glace, dans un grand verre. Ratio traditionnel : un tiers de fernet, deux tiers de coca.",
+    "anecdote": "L'Argentine consomme à elle seule plus de 75% de la production mondiale de Fernet-Branca — et dans cette consommation, Córdoba représente la moitié. La ville est officiellement reconnue comme la capitale mondiale du fernet con coca : les bars cordobeses le servent dans des verres de 500ml, les épiceries l'exposent en tête de gondole et les fêtes universitaires n'existent pas sans lui."
+  },
+  {
+    "nom": "Malbec",
+    "type": "Boisson",
+    "pays": ["Argentine"],
+    "description": "Vin rouge argentin produit principalement à Mendoza, au pied des Andes.",
+    "anecdote": "Le malbec est un cépage français originaire de Cahors (sud-ouest de la France), où il s'appelle cot ou auxerrois. Importé en Argentine au XIXᵉ siècle par l'agronome Michel Pouget sur demande du gouvernement argentin, il a prospéré à Mendoza comme jamais en France — l'altitude (700 à 1 500 m), le soleil intense et les nuits froides des contreforts andins lui convenant parfaitement. Aujourd'hui le malbec argentin est plus connu mondialement que le malbec de Cahors, son pays d'origine. Le cépage a trouvé sa vraie patrie en traversant l'Atlantique."
+  },
+  {
+    "nom": "Alfajores",
+    "type": "Dessert",
+    "pays": ["Argentine"],
+    "description": "Deux biscuits sablés fourrés au dulce de leche, enrobés de chocolat noir, blanc ou de sucre glace.",
+    "anecdote": "L'alfajor argentin repose entièrement sur le dulce de leche — et l'Uruguay revendique la paternité de ce caramel lacté avec la même intensité que le Chili revendique le pisco. Les deux pays ont chacun déposé une demande de reconnaissance culturelle auprès de l'UNESCO. Les Argentins et les Uruguayens s'accordent sur un seul point : le dulce de leche en boîte importé d'Europe ou d'Asie n'a aucun rapport avec l'original. Tout le reste est sujet à guerre diplomatique de basse intensité."
+  },
+  {
+    "nom": "Pastel de choclo",
+    "type": "Plat",
+    "pays": ["Chili"],
+    "description": "Gratin chilien : farce de viande hachée (pino), poulet, olives noires, œuf dur et raisins secs, recouverte d'une épaisse couche de maïs frais râpé. Saupoudré de sucre glace avant de servir. Sucré, salé, fondant — un des plats les plus identitaires du Chili.",
+    "anecdote": "Le détail le plus déstabilisant du pastel de choclo pour un étranger : le sucre glace saupoudré sur le dessus avant de servir. Pas en option — systématiquement. La couche de maïs est déjà légèrement sucrée naturellement ; le sucre glace ajoute une croûte caramélisée au four qui contraste avec la farce salée et olivée en dessous. Les Chiliens trouvent normal de mélanger sucre et olive noire dans la même bouchée. Les étrangers mettent deux ou trois bouchées avant de comprendre que c'est voulu."
+  },
+  {
+    "nom": "Cazuela",
+    "type": "Plat",
+    "pays": ["Chili"],
+    "description": "Soupe-ragoût familiale chilienne : bouillon clair et parfumé avec un morceau de viande (poulet, bœuf ou agneau) sur l'os, maïs en épi, pomme de terre, zapallo (courge), riz et haricots verts.",
+    "anecdote": "En chilien familier, cazuela ne désigne pas seulement ce plat — c'est le mot générique pour dire « le repas du midi », quel qu'il soit. « Qu'est-ce qu'il y a à la cazuela aujourd'hui ? » peut très bien désigner des pâtes ou du riz. Le plat a tellement dominé la table du déjeuner chilien pendant des siècles qu'il est devenu synonyme du repas lui-même — comme si en France on disait « qu'est-ce qu'il y a au pot-au-feu ? » pour demander ce qu'on mange."
+  },
+  {
+    "nom": "Chorillana",
+    "type": "Plat",
+    "pays": ["Chili"],
+    "description": "Plat copieux de Valparaíso : frites recouvertes d'oignons caramélisés à la poêle, lamelles de bœuf sauté et œufs brouillés.",
+    "anecdote": "La chorrillana est le plat officieux de fin de nuit à Valparaíso — servie dans les bars du port jusqu'à l'aube, commandée après plusieurs verres de vino tinto ou de pisco. Les cuisines des bars porteños ne ferment jamais vraiment : tant qu'il y a des clients debout, il y a une chorrillana qui sort. C'est le Pique Macho bolivien de Valparaíso — même heure, même logique de partage, même rôle de lest alimentaire en fin de soirée."
+  },
+  {
+    "nom": "Humitas",
+    "type": "Plat",
+    "pays": ["Chili"],
+    "description": "Préparation de maïs frais râpé, oignon, basilic et saindoux, enveloppée et ficelée dans des feuilles de maïs puis cuite à la vapeur.",
+    "anecdote": "En Chili, les humitas se font en deux versions : saladas (salées, avec oignon et basilic) et dulces (sucrées, avec sucre et parfois cannelle). Les deux coexistent depuis des siècles et les Chiliens ont des opinions tranchées — les familles du nord préfèrent les sucrées, celles du centre les salées."
+  },
+  {
+    "nom": "Machas a la parmesana",
+    "type": "Plat",
+    "pays": ["Chili"],
+    "description": "Palourdes chiliennes (machas) cuites au four dans leur coquille avec parmesan râpé, beurre et vin blanc. La star des restaurants de bord de mer chiliens — de Viña del Mar à Puerto Montt.",
+    "anecdote": "La macha (Mesodesma donacium) est un coquillage bivalve qui vit exclusivement dans le sable des plages du Pacifique sud — des côtes chiliennes jusqu'au Pérou. Sa chair est dense, légèrement iodée et naturellement sucrée, avec une texture ferme qui supporte parfaitement la chaleur du four sans se dessécher. Impossible à trouver hors d'Amérique du Sud — c'est ce qui rend les machas a la parmesana irreproductibles ailleurs."
+  },
+  {
+    "nom": "Terremoto",
+    "type": "Boisson",
+    "pays": ["Chili"],
+    "description": "Cocktail de fête nationale chilien : vin blanc pipeño (vin jeune et légèrement fermenté), grenadine et une boule de glace à l'ananas (helado de piña), servi dans un grand verre d'un litre.",
+    "anecdote": "La légende attribue le nom à un groupe de touristes allemands qui, après avoir bu le cocktail pour la première fois à Santiago, auraient dit que le sol tremblait sous leurs pieds. Le barman aurait alors baptisé sa création terremoto — tremblement de terre. Le Chili étant le pays le plus sismique du monde (il a subi le plus grand séisme jamais enregistré, 9,5 sur l'échelle de Richter en 1960), le nom colle autant au pays qu'au cocktail."
+  },
+  {
+    "nom": "Mote con huesillos",
+    "type": "Boisson",
+    "pays": ["Chili"],
+    "description": "Boisson-dessert d'été chilienne : grand verre de jus sucré de pêches séchées (huesillos) réhydratées, avec du blé cuit (mote) au fond.",
+    "anecdote": "Le mote con huesillos résiste à toute classification culinaire. C'est liquide — mais on le mange à la cuillère. Les restaurateurs chiliens ne savent pas où le mettre sur la carte : certains l'inscrivent dans les boissons, d'autres dans les desserts, d'autres encore lui créent une catégorie à part. En 2012, une enquête informelle du journal El Mercurio a posé la question aux Chiliens — le résultat était parfaitement partagé. Le débat n'est toujours pas tranché."
+  },
+  {
+    "nom": "Sopaipillas",
+    "type": "Dessert",
+    "pays": ["Chili"],
+    "description": "Beignets frits à base de farine de blé et de courge (zapallo), dorés et légèrement moelleux. Mangés nature avec de la moutarde et du ketchup, ou nappés de chancaca (sirop de sucre de canne complet).",
+    "anecdote": "La sopaipilla chilienne a un déclencheur climatique documenté : la pluie. Dès que le ciel se couvre sur Santiago, les friteuses s'allument et les vendeurs de rue sortent leurs chariots. Les Chiliens ne mangent pas de sopaipillas parce qu'ils ont faim — ils en mangent parce qu'il pleut. Le lien est si fort que l'expression « día de sopaipillas » est utilisée couramment pour dire qu'il fait mauvais temps, même sans mentionner la pluie. C'est le seul plat chilien dont la consommation est directement indexée sur la météo."
+  },
+  {
+    "nom": "Kuchen",
+    "type": "Dessert",
+    "pays": ["Chili"],
+    "description": "Gâteau aux fruits d'influence allemande, à pâte sablée épaisse et garniture généreuse de fruits frais (framboises, mûres, pommes, myrtilles) sur une crème pâtissière ou un appareil à base de fromage frais. Spécialité du sud chilien — Valdivia, Osorno, Puerto Montt, Chiloé.",
+    "anecdote": "Entre 1848 et 1900, le gouvernement chilien a activement recruté des immigrants allemands pour coloniser et défricher les régions sauvages du sud — Valdivia, Llanquihue, Osorno. Ces colons ont apporté avec eux leur langue, leur architecture en bois et leur culture boulangère. Cent cinquante ans plus tard, le sud du Chili ressemble encore par endroits à une Bavière tropicale : des maisons à colombages au bord de lacs volcaniques, des fromageries artisanales et des kuchen dans chaque boulangerie. L'immigration allemande a laissé une empreinte culinaire que ni le temps ni la mondialisation n'ont effacée."
+  },
+  {
+    "nom": "Leche asada",
+    "type": "Dessert",
+    "pays": ["Chili"],
+    "description": "Flan chilien cuit au four au bain-marie : lait, œufs, sucre et vanille, avec un fond de caramel doré.",
+    "anecdote": "La leche asada descend directement de la crème caramel française, importée au Chili par les influences culinaires européennes du XIXᵉ siècle. Mais comme la medialuna chilienne avec le croissant français, les cuisinières chiliennes l'ont transformée jusqu'à en faire quelque chose de distinct : plus ferme, moins soyeuse, avec une surface dorée et légèrement granuleuse que la version française n'a pas. L'original français est plus élégant ; le chilien est plus rustique et plus généreux. Les deux sont meilleurs selon l'heure et l'humeur."
+  },
+  {
+    "nom": "Canelazo",
+    "type": "Boisson",
+    "pays": ["Equateur"],
+    "description": "Grog andin équatorien : eau-de-vie de canne à sucre (aguardiente) chauffée avec cannelle, clou de girofle, jus de naranjilla et sucre.",
+    "anecdote": "Le canelazo n'est pas une boisson de fête — c'est une boisson de survie. À Quito (2 850 m), les soirées descendent régulièrement sous les 8°C même en été. Les vendeurs ambulants circulent avec des thermos géants pendant les fêtes de quartier et les processions religieuses. Refuser un canelazo par temps froid, c'est une déclaration d'incompréhension totale du climat andin."
   }
 ]

@@ -10,7 +10,7 @@ function BarreOnglets() {
   ];
 
   return (
-    <nav className="bg-terra-100 border-t border-terra-border grid grid-cols-4 py-2 pb-6">
+    <nav className="bg-terra-100 border-t border-terra-border grid grid-cols-4 py-1.5 pb-3">
       {onglets.map(({ chemin, label, Icone }) => (
         <NavLink
           key={chemin}

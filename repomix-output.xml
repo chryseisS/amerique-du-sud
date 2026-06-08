@@ -1,0 +1,4271 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+.gitignore
+.repomixignore
+compresser-images.js
+eslint.config.js
+index.html
+README.md
+src/App.jsx
+src/composants/Accordeon.jsx
+src/composants/BarreOnglets.jsx
+src/composants/carteActivite.jsx
+src/composants/carteFaune.jsx
+src/composants/CartePlat.jsx
+src/composants/CartePremiereFois.jsx
+src/composants/Etoiles.jsx
+src/composants/GalerieActivite.jsx
+src/composants/OngletsPlanification.jsx
+src/composants/TexteAvecLiens.jsx
+src/composants/TexteFormate.jsx
+src/db.js
+src/donnees/constantes.js
+src/donnees/Enquetes.js
+src/hooks/Useavisgastronomie.js
+src/hooks/useEtatPersistant.jsx
+src/hooks/useObservationsFaune.jsx
+src/index.css
+src/main.jsx
+src/modules/Activites.jsx
+src/modules/Apprendre.jsx
+src/modules/DetailActivite.jsx
+src/modules/Detailcas.jsx
+src/modules/DetailFaune.jsx
+src/modules/DetailLieu.jsx
+src/modules/DetailPays.jsx
+src/modules/DetailVisiteGuidee.jsx
+src/modules/Enquetes.jsx
+src/modules/Episode.jsx
+src/modules/Escapes.jsx
+src/modules/Faune.jsx
+src/modules/Gastronomie.jsx
+src/modules/Jeux.jsx
+src/modules/Journal.jsx
+src/modules/Lieux.jsx
+src/modules/Pays.jsx
+src/modules/Planification.jsx
+src/modules/PremieresFois.jsx
+src/modules/Quiz.jsx
+src/modules/SectionEnquete.jsx
+src/modules/Theme.jsx
+src/modules/VisitesGuidees.jsx
+vite.config.js
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path=".repomixignore">
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.webp
+**/*.svg
+
+**/*.json
+</file>
+
+<file path="src/donnees/Enquetes.js">
+// ════════════════════════════════════════════════════════════════════
+//  DONNÉES — Detective Cases  (/jeux/enquetes)
+//  ────────────────────────────────────────────────────────────────────
+//  POUR AJOUTER UNE SECTION : ajoute un objet dans SECTIONS.
+//    • type: 'explication'  → page descriptive seule (contenu = livre/PDF externe)
+//    • type: 'liste'        → liste d'affaires ; chaque affaire = { id, titre, histoire[], question }
+//  POUR AJOUTER UNE AFFAIRE : ajoute un objet dans le tableau `cas` de la section.
+//  Les images vont dans public/images/jeux/enquetes/  (un fond sépia s'affiche si absente).
+// ════════════════════════════════════════════════════════════════════
+
+export const SECTIONS = [
+  {
+    id: 'murdle',
+    titre: 'Murdle Book',
+    sousTitre: null,
+    type: 'explication',
+    image: '/images/jeux/enquetes/murdle.jpg',
+    explication: [
+      "Devenez le Détective Logico ! Chaque jour, un nouveau crime absurde a été commis. Armé de votre grille de logique, de votre perspicacité et d'une bonne dose d'humour noir, vous devez croiser les indices pour déduire qui est le coupable, avec quelle arme, et dans quel lieu. Il y a 100 criminels à démasquer !",
+    ],
+    note: 'Le matériel se trouve un PDF, en dehors de l\u2019application. Aucune connexion internet n\u2019est nécessaire.',
+  },
+  {
+    id: 'sherlock',
+    titre: 'The Unsolved Case Files of Sherlock Holmes',
+    sousTitre: 'Serez-vous meilleur que Sherlock ?',
+    type: 'liste',
+    image: '/images/jeux/enquetes/sherlock.jpg',
+    cas: [
+      {
+        id: 'condor-noir',
+        titre: 'Le mystère du Condor Noir',
+        histoire: [
+          "Un collectionneur est retrouvé sans vie dans son bureau fermé de l'intérieur, une plume de condor noir posée sur son bureau. La fenêtre est entrouverte, mais aucune empreinte sur le rebord.",
+          "Trois visiteurs avaient rendez-vous ce soir-là : son associé, venu signer un contrat ; sa nièce, à qui il devait de l'argent ; et un antiquaire rival, éconduit la semaine passée. Chacun jure être parti avant la tombée de la nuit.",
+          "Sur la tasse de thé encore tiède, une seule trace de rouge à lèvres. La pendule, elle, s'est arrêtée à 21h04 — bien après le coucher du soleil.",
+        ],
+        question: 'Qui a commis le crime ?',
+      },
+    ],
+  },
+  {
+    id: 'stop-a-murder',
+    titre: 'Stop a Murder',
+    sousTitre: null,
+    type: 'explication',
+    image: '/images/jeux/enquetes/stop-a-murder.jpg',
+    explication: [
+      "Glissez-vous dans la peau d'un profileur du FBI. Face à vous : un dossier criminel brut (rapports d'autopsie, indices physiques, lettres du tueur) et un compte à rebours mortel. Votre mission est d'arrêter un tueur en série machiavélique avant sa prochaine victime.",
+    ],
+    note: 'Le matériel se trouve un PDF, en dehors de l\u2019application. Une connexion internet est nécessaire pour vérifier les réponses.',
+  },
+  {
+    id: 'qui-ment',
+    titre: 'Qui ment ?',
+    sousTitre: null,
+    type: 'liste',
+    image: '/images/jeux/enquetes/qui-ment.jpg',
+    cas: [
+      {
+        id: 'tresor-cusco',
+        titre: 'Le trésor disparu de Cusco',
+        histoire: [
+          "Au petit matin, le conservateur du musée Inka de Cusco découvre que la statuette d'or de Viracocha a disparu de sa vitrine. Aucune trace d'effraction.",
+          "Trois personnes possédaient une clé de la salle. La gardienne de nuit affirme n'avoir quitté son poste qu'une fois, à 3h, pour cinq minutes. Le restaurateur d'art jure être rentré chez lui à 19h et ne jamais être revenu. Le neveu du conservateur dit avoir passé la nuit chez un ami — un ami qui, justement, travaille aussi au musée.",
+          "La poussière sur le rebord de la vitrine n'a été dérangée que d'un seul côté. Et la caméra du couloir est tombée en panne à 19h15.",
+        ],
+        question: 'Qui ment ?',
+      },
+      {
+        id: 'vol-valparaiso',
+        titre: 'Le vol à Valparaíso',
+        histoire: [
+          "Dans une ruelle colorée de Valparaíso, un portefeuille plein disparaît d'un sac à dos pendant une fête de quartier. Quatre amis étaient autour de la table.",
+          "Le premier dit n'avoir pas bougé de sa chaise. Le deuxième assure être allé chercher des boissons et avoir tout vu de loin. La troisième affirme qu'elle dansait, dos au sac. Le dernier prétend être arrivé après la disparition.",
+          "Pourtant, une photo prise à 22h17 montre clairement deux d'entre eux à des endroits qui contredisent leur version.",
+        ],
+        question: 'Qui ment ?',
+      },
+    ],
+  },
+];
+
+export const sectionParId = (id) => SECTIONS.find((s) => s.id === id);
+export const casParId = (section, casId) => section?.cas?.find((c) => c.id === casId);
+</file>
+
+<file path="src/modules/Detailcas.jsx">
+import { useParams, Link } from 'react-router-dom';
+import { ArrowLeft, HelpCircle } from 'lucide-react';
+import { sectionParId, casParId } from '../donnees/enquetes';
+
+export default function DetailCas() {
+  const { sectionId, casId } = useParams();
+  const section = sectionParId(sectionId);
+  const cas = casParId(section, casId);
+
+  if (!section || !cas) {
+    return (
+      <div className="fond-carte-enquete relative min-h-full overflow-hidden">
+        <div className="vignette-carte" aria-hidden="true" />
+        <div className="relative px-5 pt-5">
+          <Link to={`/jeux/enquetes/${sectionId}`} className="inline-flex items-center gap-2 text-encre-douce text-sm">
+            <ArrowLeft className="w-4 h-4" strokeWidth={2} /> Retour
+          </Link>
+          <p className="text-center text-encre-douce text-sm mt-10">Affaire introuvable.</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="fond-carte-enquete relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+
+      {/* En-tête */}
+      <div className="relative px-5 pt-5 pb-1">
+        <Link to={`/jeux/enquetes/${section.id}`} aria-label="Retour"
+              className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+        </Link>
+        <div className="text-center -mt-6 px-10">
+          <div className="text-[10px] uppercase tracking-[0.18em] text-sepia font-semibold">{section.titre}</div>
+          <h1 className="font-serif text-[22px] leading-tight text-encre font-semibold mt-1">{cas.titre}</h1>
+        </div>
+      </div>
+
+      {/* Histoire + question */}
+      <div className="relative px-[18px] pt-4 pb-8">
+        <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+          {cas.histoire.map((p, i) => (
+            <p key={i} className="text-[14px] text-justify leading-relaxed text-encre first:mt-0 mt-3.5">{p}</p>
+          ))}
+        </div>
+
+        {/* La question — sans réponse */}
+        <div className="mt-7 text-center px-4">
+        <div className="mx-auto w-14 h-px bg-parchemin-bordure" />
+        <p className="font-serif italic text-[26px] text-encre font-semibold mt-5 leading-tight">
+            {cas.question}
+        </p>
+        <div className="mx-auto w-14 h-px bg-parchemin-bordure mt-5" />
+        </div>
+      </div>
+    </div>
+  );
+}
+</file>
+
+<file path="src/modules/Enquetes.jsx">
+import { Link } from 'react-router-dom';
+import { ArrowLeft, ChevronRight, FileText, Files } from 'lucide-react';
+import { SECTIONS } from '../donnees/enquetes';
+
+function Vignette({ image }) {
+  return (
+    <div
+      className="relative w-[84px] shrink-0 rounded-xl overflow-hidden border border-[rgba(60,40,20,0.35)] bg-[#5a4a36] shadow-[inset_0_0_18px_rgba(30,15,5,0.4)]"
+      style={{ backgroundImage: `linear-gradient(135deg,rgba(0,0,0,0.15),rgba(0,0,0,0.45)),url('${image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+    />
+  );
+}
+
+function Tag({ section }) {
+  if (section.type === 'liste') {
+    const n = section.cas?.length ?? 0;
+    return (
+      <span className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wide text-sepia">
+        <Files className="w-3 h-3" strokeWidth={2} />
+        {n} {n > 1 ? 'affaires' : 'affaire'}
+      </span>
+    );
+  }
+  return (
+    <span className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wide text-sepia">
+      <FileText className="w-3 h-3" strokeWidth={2} />
+      PDF
+    </span>
+  );
+}
+
+export default function Enquetes() {
+  return (
+    <div className="fond-carte-enquete relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+
+      {/* En-tête */}
+      <div className="relative px-5 pt-5 pb-1">
+        <Link to="/jeux" aria-label="Retour"
+              className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+        </Link>
+        <h1 className="font-serif uppercase tracking-[2px] text-[24px] text-encre font-semibold text-center -mt-6">Detective Cases</h1>
+        <p className="text-center text-[12.5px] text-sepia mt-0.5">Choisis une enquête</p>
+      </div>
+
+      {/* Liste des sections */}
+      <div className="relative px-[18px] pt-4 pb-6 flex flex-col gap-3">
+        {SECTIONS.map((s) => (
+          <Link key={s.id} to={`/jeux/enquetes/${s.id}`}
+                className="flex gap-3.5 items-stretch bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-3 shadow-[0_4px_12px_rgba(60,40,20,0.12)] transition-transform duration-200 hover:-translate-y-0.5">
+            <Vignette image={s.image} />
+            <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
+              <div>
+                <h3 className="font-serif text-[16px] leading-tight text-encre font-semibold m-0">{s.titre}</h3>
+                <p className="text-[11.5px] text-encre-douce mt-1 leading-snug">{s.sousTitre}</p>
+              </div>
+              <div className="mt-2"><Tag section={s} /></div>
+            </div>
+            <ChevronRight className="self-center shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
+</file>
+
+<file path="src/modules/Escapes.jsx">
+import { useState } from 'react';
+import { ArrowLeft, Star, Download, Globe, ChevronRight, Plus, Backpack } from 'lucide-react';
+
+/* ════════════════════════════════════════════════════════════════════
+   ÉCRAN « ESCAPES »  — module destiné à une route /jeux/escapes
+   ──────────────────────────────────────────────────────────────────
+   • Tu n'édites que les IMAGES (champ `image:` des deux tableaux).
+     Dépose-les dans public/images/jeux/escapes/… — un fond sépia
+     s'affiche tant que le fichier manque.
+   • La barre du bas N'EST PAS ici : dans ton app, App.jsx rend déjà
+     <BarreOnglets/> (Planif/Apprendre/Jeux/Journal) sous ce module.
+   ════════════════════════════════════════════════════════════════════ */
+
+// ─── DONNÉES — onglet « HOME MADE » ───────────────────────────────────
+const HOME_MADE = [
+  { id: 'temple', titre: 'Le temple oublié',    image: '/images/jeux/escapes/temple-oublie.jpg',  difficulte: 3, meilleurTemps: '08:42' },
+  { id: 'potosi', titre: 'La mine de Potosí',   image: '/images/jeux/escapes/mine-potosi.jpg',     difficulte: 4, meilleurTemps: '14:31' },
+  { id: 'soleil', titre: 'Le tombeau du Soleil', image: '/images/jeux/escapes/tombeau-soleil.jpg', difficulte: 5, meilleurTemps: '—:—' },
+];
+
+// ─── DONNÉES — onglet « DOWNLOADED » (communauté) ─────────────────────
+const COMMUNAUTE = [
+  { id: 'nazcas',  titre: 'Le secret des Nazcas', auteur: 'Lucas R.',  image: '/images/jeux/escapes/nazcas.jpg', note: 3.5, avis: 124, joueurs: '2 341' },
+  { id: 'arica',   titre: "Le phare d'Arica",     auteur: 'Camila L.', image: '/images/jeux/escapes/arica.jpg',  note: 3.5, avis: 98,  joueurs: '1 842' },
+  { id: 'sanfran', titre: 'La crypte de San Francisco', auteur: 'Juan P.', image: '/images/jeux/escapes/crypte.jpg', note: 4.5, avis: 156, joueurs: '3 107' },
+];
+
+const ONGLETS = [
+  { id: 'home', label: 'Home made',  Icone: Star },
+  { id: 'dl',   label: 'Downloaded', Icone: Download },
+];
+
+// ─── Sous-éléments ────────────────────────────────────────────────────
+function Vignette({ image, ruban }) {
+  return (
+    <div
+      className="relative w-[92px] shrink-0 rounded-xl overflow-hidden border border-[rgba(60,40,20,0.35)] bg-[#7a5a36] shadow-[inset_0_0_18px_rgba(30,15,5,0.4)]"
+      style={{ backgroundImage: `linear-gradient(135deg,rgba(0,0,0,0.15),rgba(0,0,0,0.4)),url('${image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+    >
+      <span className="absolute top-2 -left-2.5 -rotate-[7deg] bg-[#efe2c6] text-[#6a4a28] text-[9px] font-bold tracking-wide px-3 py-0.5 rounded-[3px] shadow-[0_1px_3px_rgba(0,0,0,0.25)]">
+        {ruban}
+      </span>
+    </div>
+  );
+}
+
+function Difficulte({ niveau }) {
+  return (
+    <span className="inline-flex gap-1 items-center">
+      {[1, 2, 3, 4, 5].map((n) => (
+        <span key={n}
+              className={`w-[7px] h-[7px] rounded-full ${n <= niveau ? 'bg-[#7a3a1c]' : 'border border-[#cdb992]'}`} />
+      ))}
+    </span>
+  );
+}
+
+function Etoiles({ note }) {
+  return (
+    <span className="inline-flex gap-[1.5px]">
+      {[1, 2, 3, 4, 5].map((n) => {
+        const plein = n <= Math.floor(note);
+        const demi = !plein && n - 0.5 <= note;
+        return (
+          <Star key={n} className="w-3 h-3" strokeWidth={1.5} color="#b67a2e"
+                fill={plein || demi ? '#d99a3a' : 'transparent'}
+                style={{ opacity: demi ? 0.55 : 1 }} />
+        );
+      })}
+    </span>
+  );
+}
+
+// Tampon « postal » décoratif
+function Tampon() {
+  return (
+    <svg viewBox="0 0 80 80" aria-hidden="true"
+         className="absolute top-1.5 right-2.5 w-16 h-16 opacity-[0.32] text-[#7a4a28] -rotate-12">
+      <circle cx="40" cy="40" r="30" fill="none" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 2" />
+      <circle cx="40" cy="40" r="22" fill="none" stroke="currentColor" strokeWidth="1" />
+      <text x="40" y="44" textAnchor="middle" fontSize="9" fontWeight="700" fill="currentColor" letterSpacing="1" fontFamily="Georgia, serif">JEUX</text>
+    </svg>
+  );
+}
+
+// Styles partagés (classes)
+const CARTE = 'flex gap-3.5 items-stretch bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-3 shadow-[0_4px_12px_rgba(60,40,20,0.12)]';
+const MINI_LABEL = 'text-[9.5px] tracking-wider uppercase text-sepia font-semibold';
+const BTN_ROND = 'self-center shrink-0 w-[34px] h-[34px] rounded-full flex items-center justify-center bg-[rgba(120,90,50,0.10)] border border-parchemin-bordure';
+
+function CarteHomeMade({ titre, image, difficulte, meilleurTemps }) {
+  return (
+    <article className={CARTE}>
+      <Vignette image={image} ruban="ORIGINAL" />
+      <div className="flex-1 min-w-0 flex flex-col justify-between">
+        <h3 className="font-serif text-lg leading-tight text-encre font-semibold m-0">{titre}</h3>
+        <div className="mt-2">
+          <div className={MINI_LABEL}>Difficulté</div>
+          <div className="mt-1"><Difficulte niveau={difficulte} /></div>
+        </div>
+        <div className="mt-2">
+          <div className={MINI_LABEL}>Meilleur temps</div>
+          <div className="font-serif text-base font-semibold text-encre mt-px">{meilleurTemps}</div>
+        </div>
+      </div>
+      <button aria-label="Ouvrir" className={BTN_ROND}>
+        <ChevronRight className="w-5 h-5 text-encre" strokeWidth={2} />
+      </button>
+    </article>
+  );
+}
+
+function CarteCommunaute({ titre, auteur, image, note, avis, joueurs }) {
+  return (
+    <article className={CARTE}>
+      <Vignette image={image} ruban="COMMUNAUTÉ" />
+      <div className="flex-1 min-w-0 flex flex-col justify-between">
+        <div>
+          <h3 className="font-serif text-[17px] leading-tight text-encre font-semibold m-0">{titre}</h3>
+          <div className="text-xs italic text-sepia mt-0.5">par {auteur}</div>
+        </div>
+        <div className="flex items-center gap-1.5 mt-1.5">
+          <Etoiles note={note} />
+          <span className="text-[11px] text-encre-douce">({avis})</span>
+        </div>
+        <div className="text-[11.5px] text-encre-douce mt-1">{joueurs} joueurs</div>
+      </div>
+      <button aria-label="Télécharger" className={BTN_ROND}>
+        <Download className="w-[18px] h-[18px] text-encre" strokeWidth={2} />
+      </button>
+    </article>
+  );
+}
+
+// ─── ÉCRAN PRINCIPAL ──────────────────────────────────────────────────
+export default function Escapes() {
+  const [onglet, setOnglet] = useState('home');
+
+  return (
+    <div className="fond-carte relative min-h-full">
+      <div className="grain-papier" aria-hidden="true" />
+      <div className="vignette-carte" aria-hidden="true" />
+
+      {/* En-tête */}
+      <div className="relative px-5 pt-5 pb-1">
+        <Tampon />
+        <button aria-label="Retour"
+                className="w-[38px] h-[38px] rounded-full flex items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+        </button>
+        <h1 className="font-serif uppercase tracking-[2px] text-[25px] text-encre font-semibold text-center -mt-6">Escapes</h1>
+        <p className="text-center text-[12.5px] text-sepia mt-0.5">Choisis ton univers</p>
+      </div>
+
+      {/* Onglets segmentés */}
+      <div className="relative px-5 pt-3.5 pb-1.5">
+        <div className="flex bg-[rgba(120,90,50,0.10)] rounded-xl p-1 border border-parchemin-bordure">
+          {ONGLETS.map(({ id, label, Icone }) => {
+            const actif = onglet === id;
+            return (
+              <button key={id} onClick={() => setOnglet(id)}
+                      className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-[9px] uppercase tracking-wider text-[12.5px] transition-all ${actif ? 'bg-parchemin-carte text-encre font-bold shadow-[0_1px_4px_rgba(60,40,20,0.18)]' : 'text-[#9c855f] font-medium'}`}>
+                <Icone className="w-[15px] h-[15px]" strokeWidth={2} fill={actif && id === 'home' ? 'currentColor' : 'transparent'} />
+                {label}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+
+      {/* Liste */}
+      <div className="relative px-[18px] pb-6 pt-1 flex flex-col gap-3">
+        {onglet === 'home'
+          ? HOME_MADE.map((e) => <CarteHomeMade key={e.id} {...e} />)
+          : (
+            <>
+              {COMMUNAUTE.map((e) => <CarteCommunaute key={e.id} {...e} />)}
+              {/* Encart « créer un escape » */}
+              <div className={`${CARTE} items-center`}>
+                <div className="flex-1">
+                  <h3 className="font-serif text-base text-encre font-semibold m-0">Tu as une idée d'escape ?</h3>
+                  <p className="text-xs text-encre-douce mt-1 mb-2.5 leading-snug">
+                    Crée le tien et partage-le avec d'autres voyageurs !
+                  </p>
+                  <button className="inline-flex items-center gap-1.5 bg-vert-cta text-creme rounded-[10px] px-4 py-2.5 text-[12.5px] font-semibold tracking-wide uppercase">
+                    <Plus className="w-4 h-4" strokeWidth={2.4} />
+                  </button>
+                </div>
+                <Backpack className="w-12 h-12 text-sepia opacity-55 shrink-0" strokeWidth={1.3} />
+              </div>
+            </>
+          )}
+      </div>
+    </div>
+  );
+}
+</file>
+
+<file path="src/modules/Quiz.jsx">
+import { Link } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
+
+export default function Quiz() {
+  return (
+    <div className="fond-carte relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+
+      {/* En-tête */}
+      <div className="relative px-5 pt-5 pb-1">
+        <Link to="/jeux" aria-label="Retour"
+              className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+        </Link>
+        <h1 className="font-serif uppercase tracking-[2px] text-[25px] text-encre font-semibold text-center -mt-6">Quiz</h1>
+        <p className="text-center text-[12.5px] text-sepia mt-0.5">Choisis un mode de jeu</p>
+      </div>
+
+      {/* Contenu placeholder */}
+      <div className="relative px-5 pt-10 pb-6">
+        <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-6 text-center shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+          <div className="font-serif text-lg text-encre font-semibold">À venir</div>
+          <p className="text-xs text-encre-douce mt-2 leading-snug">
+            Les modes Quiz arriveront bientôt — Exploration, Vrai ou Faux, 2 Vraies 1 Fausse, Chrono, Duel…
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+</file>
+
+<file path="src/modules/SectionEnquete.jsx">
+import { useParams, Link } from 'react-router-dom';
+import { ArrowLeft, ChevronRight, BookText } from 'lucide-react';
+import { sectionParId } from '../donnees/enquetes';
+
+export default function SectionEnquete() {
+  const { sectionId } = useParams();
+  const section = sectionParId(sectionId);
+
+  // En-tête réutilisé
+  const Entete = ({ titre, sousTitre }) => (
+    <div className="relative px-5 pt-5 pb-1">
+      <Link to="/jeux/enquetes" aria-label="Retour"
+            className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+        <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+      </Link>
+      <h1 className="font-serif text-[22px] leading-tight text-encre font-semibold text-center -mt-6 px-10">{titre}</h1>
+      {sousTitre && <p className="text-center text-[12.5px] text-sepia mt-1">{sousTitre}</p>}
+    </div>
+  );
+
+  if (!section) {
+    return (
+      <div className="fond-carte-enquete relative min-h-full overflow-hidden">
+        <div className="vignette-carte" aria-hidden="true" />
+        <Entete titre="Introuvable" />
+        <div className="relative px-5 pt-10">
+          <p className="text-center text-encre-douce text-sm">Cette enquête n'existe pas.</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="fond-carte-enquete relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+      <Entete titre={section.titre} sousTitre={section.sousTitre} />
+
+      <div className="relative px-[18px] pt-4 pb-6">
+        {section.type === 'explication' ? (
+          // ─── Page descriptive ───
+          <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+            {section.explication.map((p, i) => (
+              <p key={i} className="text-[13.5px] text-justify leading-relaxed text-encre-douce first:mt-0 mt-3">{p}</p>
+            ))}
+            {section.note && (
+              <div className="flex items-start gap-2 mt-5 pt-4 border-t border-parchemin-bordure">
+                <BookText className="w-4 h-4 text-sepia shrink-0 mt-0.5" strokeWidth={1.9} />
+                <p className="text-[12px] italic text-sepia leading-snug">{section.note}</p>
+              </div>
+            )}
+          </div>
+        ) : (
+          // ─── Liste d'affaires ───
+          <div className="flex flex-col gap-2.5">
+            {section.cas.map((c, i) => (
+              <Link key={c.id} to={`/jeux/enquetes/${section.id}/${c.id}`}
+                    className="flex items-center gap-3 bg-parchemin-carte border border-parchemin-bordure rounded-xl p-3.5 shadow-[0_4px_12px_rgba(60,40,20,0.10)] transition-transform duration-200 hover:-translate-y-0.5">
+                <span className="font-serif text-[18px] text-encre/35 font-semibold w-7 text-center shrink-0">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <h3 className="flex-1 min-w-0 font-serif text-[16px] leading-tight text-encre font-semibold">{c.titre}</h3>
+                <ChevronRight className="shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+</file>
+
+<file path=".gitignore">
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+</file>
+
+<file path="compresser-images.js">
+// ═══════════════════════════════════════════════════════════════════════════
+// compresser-images.js
+//
+// Script qui compresse et redimensionne automatiquement toutes les images
+// d'un dossier source vers un dossier destination.
+//
+// Usage : node compresser-images.js
+//
+// Configuration :
+//   - Met tes images brutes dans : ./images-brutes/
+//   - Le script les compresse dans : ./public/images/activites/
+//   - Redimensionne à 1200px de large maximum (garde le ratio)
+//   - Compresse en JPEG qualité 78
+// ═══════════════════════════════════════════════════════════════════════════
+
+import sharp from 'sharp';
+import fs from 'fs/promises';
+import path from 'path';
+
+// ─── Configuration ──────────────────────────────────────────────────────────
+const DOSSIER_SOURCE = './images-brutes';
+const DOSSIER_DESTINATION = './public/images/activites';
+const LARGEUR_MAX = 1200;       // pixels, max width
+const QUALITE_JPEG = 78;        // 0-100, sweet spot pour photos
+const EXTENSIONS_ACCEPTEES = ['.jpg', '.jpeg', '.png', '.webp', '.heic'];
+
+// ─── Formatage humain des tailles de fichier ────────────────────────────────
+function formaterTaille(octets) {
+  if (octets < 1024) return `${octets} o`;
+  if (octets < 1024 * 1024) return `${(octets / 1024).toFixed(1)} Ko`;
+  return `${(octets / 1024 / 1024).toFixed(2)} Mo`;
+}
+
+// ─── Le script principal ────────────────────────────────────────────────────
+async function compresser() {
+  console.log('🖼️  Compression d\'images en cours...\n');
+
+  // Vérifie que le dossier source existe
+  try {
+    await fs.access(DOSSIER_SOURCE);
+  } catch {
+    console.error(`❌ Le dossier "${DOSSIER_SOURCE}" n'existe pas.`);
+    console.error(`   Crée-le et mets-y tes images, puis relance.`);
+    return;
+  }
+
+  // Crée le dossier de destination s'il n'existe pas
+  await fs.mkdir(DOSSIER_DESTINATION, { recursive: true });
+
+  // Liste tous les fichiers du dossier source
+  const fichiers = await fs.readdir(DOSSIER_SOURCE);
+
+  // Filtre pour ne garder que les images
+  const images = fichiers.filter((f) =>
+    EXTENSIONS_ACCEPTEES.includes(path.extname(f).toLowerCase())
+  );
+
+  if (images.length === 0) {
+    console.log(`⚠️  Aucune image trouvée dans "${DOSSIER_SOURCE}".`);
+    return;
+  }
+
+  console.log(`📂 ${images.length} image(s) à traiter\n`);
+
+  let tailleTotaleAvant = 0;
+  let tailleTotaleApres = 0;
+
+  // Traite chaque image
+  for (const nomFichier of images) {
+    const cheminSource = path.join(DOSSIER_SOURCE, nomFichier);
+
+    // Force l'extension de sortie en .jpg (on compresse tout en JPEG)
+    const nomBase = path.parse(nomFichier).name;
+    const nomSortie = `${nomBase}.jpg`;
+    const cheminDestination = path.join(DOSSIER_DESTINATION, nomSortie);
+
+    // Taille du fichier original
+    const statsAvant = await fs.stat(cheminSource);
+    const tailleAvant = statsAvant.size;
+    tailleTotaleAvant += tailleAvant;
+
+    // Compression + redimensionnement avec sharp
+    await sharp(cheminSource)
+      .rotate()  // applique la rotation EXIF (utile pour photos d'iPhone)
+      .resize({
+        width: LARGEUR_MAX,
+        withoutEnlargement: true,  // ne pas agrandir les petites images
+      })
+      .jpeg({
+        quality: QUALITE_JPEG,
+        progressive: true,         // chargement progressif
+        mozjpeg: true,             // encodage plus optimisé
+      })
+      .toFile(cheminDestination);
+
+    // Taille du fichier compressé
+    const statsApres = await fs.stat(cheminDestination);
+    const tailleApres = statsApres.size;
+    tailleTotaleApres += tailleApres;
+
+    // Affichage du gain pour cette image
+    const gain = (((tailleAvant - tailleApres) / tailleAvant) * 100).toFixed(0);
+    console.log(
+      `  ✅ ${nomSortie.padEnd(40)} ${formaterTaille(tailleAvant).padStart(10)} → ${formaterTaille(tailleApres).padStart(10)} (-${gain}%)`
+    );
+  }
+
+  // Récap global
+  const gainTotal = (
+    ((tailleTotaleAvant - tailleTotaleApres) / tailleTotaleAvant) *
+    100
+  ).toFixed(0);
+
+  console.log('');
+  console.log(`📊 Récap :`);
+  console.log(`   Avant : ${formaterTaille(tailleTotaleAvant)}`);
+  console.log(`   Après : ${formaterTaille(tailleTotaleApres)}`);
+  console.log(`   Gain  : -${gainTotal}%`);
+  console.log('');
+  console.log(`✨ Terminé ! Images compressées dans "${DOSSIER_DESTINATION}"`);
+}
+
+compresser().catch((err) => {
+  console.error('❌ Erreur :', err.message);
+  process.exit(1);
+});
+</file>
+
+<file path="eslint.config.js">
+import js from '@eslint/js'
+import globals from 'globals'
+import reactHooks from 'eslint-plugin-react-hooks'
+import reactRefresh from 'eslint-plugin-react-refresh'
+import { defineConfig, globalIgnores } from 'eslint/config'
+
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{js,jsx}'],
+    extends: [
+      js.configs.recommended,
+      reactHooks.configs.flat.recommended,
+      reactRefresh.configs.vite,
+    ],
+    languageOptions: {
+      ecmaVersion: 2020,
+      globals: globals.browser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        ecmaFeatures: { jsx: true },
+        sourceType: 'module',
+      },
+    },
+    rules: {
+      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+    },
+  },
+])
+</file>
+
+<file path="README.md">
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+</file>
+
+<file path="src/composants/Accordeon.jsx">
+import { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
+
+function Accordeon({ titre, contenu }) {
+  const [ouvert, setOuvert] = useState(false);
+
+  return (
+    <div className="border-t border-terra-border">
+      <button
+        onClick={() => setOuvert((v) => !v)}
+        className="w-full flex justify-between items-center py-3 text-left"
+      >
+        <span className="text-sm font-medium text-terra-900">{titre}</span>
+        <ChevronDown
+          className={`w-4 h-4 text-terra-muted transition-transform ${
+            ouvert ? 'rotate-180' : ''
+          }`}
+          strokeWidth={2}
+        />
+      </button>
+
+      {ouvert && (
+        <div className="pb-3 text-sm text-terra-900 leading-relaxed whitespace-pre-line">
+          {contenu}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default Accordeon;
+</file>
+
+<file path="src/composants/BarreOnglets.jsx">
+import { NavLink } from 'react-router-dom';
+import { Map, BookOpen, Dices, PenLine } from 'lucide-react';
+
+function BarreOnglets() {
+  const onglets = [
+    { chemin: '/planification', label: 'Planif',    Icone: Map },
+    { chemin: '/apprendre',     label: 'Apprendre', Icone: BookOpen },
+    { chemin: '/jeux',          label: 'Jeux',      Icone: Dices },
+    { chemin: '/journal',       label: 'Journal',   Icone: PenLine },
+  ];
+
+  return (
+    <nav className="bg-terra-100 border-t border-terra-border grid grid-cols-4 py-1.5 pb-3">
+      {onglets.map(({ chemin, label, Icone }) => (
+        <NavLink
+          key={chemin}
+          to={chemin}
+          className="flex flex-col items-center gap-1 py-1.5"
+        >
+          {({ isActive }) => (
+            <>
+              <Icone
+                className={`w-5 h-5 ${isActive ? 'text-terra-500' : 'text-terra-muted'}`}
+                strokeWidth={1.7}
+              />
+              <span
+                className={`text-xs ${
+                  isActive ? 'text-terra-500 font-semibold' : 'text-terra-muted'
+                }`}
+              >
+                {label}
+              </span>
+            </>
+          )}
+        </NavLink>
+      ))}
+    </nav>
+  );
+}
+
+export default BarreOnglets;
+</file>
+
+<file path="src/composants/CartePremiereFois.jsx">
+import { useState } from 'react';
+import { Check, ChevronDown } from 'lucide-react';
+
+function CartePremiereFois({ premiere, fait, onToggle }) {
+  const [ouvert, setOuvert] = useState(false);
+  const aDescription = Boolean(premiere.description);
+
+  return (
+    <div className="bg-terra-100 border border-terra-border rounded-xl mb-2 overflow-hidden">
+      {/* ─── Ligne principale (toujours visible) ─── */}
+      <button
+        onClick={() => setOuvert((v) => !v)}
+        className="w-full flex items-center gap-2.5 px-3.5 py-2 text-left"
+      >
+        {/* Pastille rouge / verte */}
+        <div
+          className={`w-2.5 h-2.5 rounded-full flex-shrink-0 ${
+            fait ? 'bg-emerald-500' : 'bg-red-400'
+          }`}
+        />
+
+        {/* Bloc texte */}
+        <div className="flex-1 min-w-0">
+          <div className="font-serif text-m text-terra-900 leading-tight">
+            {premiere.nom}
+          </div>
+        </div>
+
+        {/* Chevron qui pivote — toujours visible */}
+        <ChevronDown
+          className={`w-4 h-4 text-terra-muted transition-transform ${
+            ouvert ? 'rotate-180' : ''
+          }`}
+          strokeWidth={2}
+        />
+      </button>
+
+      {/* ─── Déroulé (visible si ouvert) ─── */}
+      {ouvert && (
+        <div className="px-3.5 pb-3.5 pt-1 border-t border-terra-border/50">
+          {/* Description si présente */}
+          {aDescription && (
+            <p className="text-sm text-terra-900 leading-relaxed mb-3">
+              {premiere.description}
+            </p>
+          )}
+
+          {/* Bouton Fait / Marquer comme fait — toujours présent */}
+          <button
+            onClick={onToggle}
+            className={`w-full rounded-lg py-2 text-sm font-medium flex items-center justify-center gap-2 ${
+              fait
+                ? 'bg-emerald-500/10 text-emerald-700 border border-emerald-500/30'
+                : 'bg-terra-500 text-white'
+            }`}
+          >
+            <Check className="w-4 h-4" strokeWidth={2.5} />
+            {fait ? 'Fait' : 'Marquer comme fait'}
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default CartePremiereFois;
+</file>
+
+<file path="src/composants/Etoiles.jsx">
+import { Star } from 'lucide-react';
+
+function Etoiles({ nombre, total = 5 }) {
+  if (!nombre) return null;
+
+  const etoiles = Array.from({ length: total }, (_, i) => i);
+
+  return (
+    <div className="flex gap-0.5">
+      {etoiles.map((i) => (
+        <Star
+          key={i}
+          className={
+            i < nombre
+              ? 'w-3.5 h-3.5 fill-terra-500 text-terra-500'
+              : 'w-3.5 h-3.5 text-terra-500/25'
+          }
+          strokeWidth={1.5}
+        />
+      ))}
+    </div>
+  );
+}
+
+export default Etoiles;
+</file>
+
+<file path="src/composants/GalerieActivite.jsx">
+import { useState, useEffect, useCallback } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import Lightbox from 'yet-another-react-lightbox';
+import Zoom from 'yet-another-react-lightbox/plugins/zoom';
+import 'yet-another-react-lightbox/styles.css';
+
+
+function GalerieActivite({ images }) {
+  if (!images || images.length === 0) return null;
+
+  const url = (fichier) => `/images/activites/${fichier}`;
+
+  // ─── Carrousel inline (embla) ───
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });
+  const [indexInline, setIndexInline] = useState(0);
+
+  // Synchronise indexInline avec le carrousel embla
+  useEffect(() => {
+    if (!emblaApi) return;
+    emblaApi.scrollTo(0, true);
+    setIndexInline(0);
+    const onSelect = () => setIndexInline(emblaApi.selectedScrollSnap());
+    emblaApi.on('select', onSelect);
+    return () => emblaApi.off('select', onSelect);
+  }, [emblaApi]);
+
+  const [lightboxOuvert, setLightboxOuvert] = useState(false);
+  const [indexLightbox, setIndexLightbox] = useState(0);
+
+  const ouvrirLightbox = useCallback((index) => {
+    setIndexLightbox(index);
+    setLightboxOuvert(true);
+  }, []);
+
+  // Slides au format attendu par yet-another-react-lightbox
+  const slides = images.map((fichier) => ({ src: url(fichier) }));
+
+  // ─── Barres pour le carrousel INLINE (position: absolute par rapport au conteneur) ───
+  const BarresInline = () => {
+    if (images.length <= 1) return null;
+    return (
+      <div className="absolute top-2 left-2 right-2 z-50 flex gap-1 pointer-events-none">
+        {images.map((_, i) => (
+          <div
+            key={i}
+            className={`flex-1 h-0.5 rounded-full transition-colors duration-300 ${
+              i <= indexInline ? 'bg-white' : 'bg-white/30'
+            }`}
+          />
+        ))}
+      </div>
+    );
+  };
+
+  // ─── Barres pour la LIGHTBOX (position: fixed par rapport au viewport) ───
+  // Style inline pour garantir l'affichage indépendamment du contexte de la lightbox
+  const BarresLightbox = () => {
+    if (images.length <= 1) return null;
+    return (
+      <div
+        style={{
+          position: 'fixed',
+          top: 12,
+          left: 12,
+          right: 12,
+          display: 'flex',
+          gap: 4,
+          zIndex: 9999,
+          pointerEvents: 'none',
+        }}
+      >
+        {images.map((_, i) => (
+          <div
+            key={i}
+            style={{
+              flex: 1,
+              height: 3,
+              borderRadius: 9999,
+              backgroundColor:
+                i <= indexLightbox ? '#ffffff' : 'rgba(255,255,255,0.3)',
+              transition: 'background-color 300ms',
+            }}
+          />
+        ))}
+      </div>
+    );
+  };
+
+  return (
+    <>
+      {/* ─── Carrousel inline ─── */}
+      <div className="relative mb-4 rounded-xl overflow-hidden">
+        <BarresInline />
+
+        {/* Viewport embla */}
+        <div className="overflow-hidden" ref={emblaRef}>
+          <div className="flex">
+            {images.map((fichier, i) => (
+              <div
+                key={fichier}
+                className="flex-[0_0_100%] min-w-0 aspect-[4/3] bg-terra-100"
+              >
+                <img
+                  src={url(fichier)}
+                  alt=""
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                  onClick={() => ouvrirLightbox(i)}
+                  className="w-full h-full object-cover cursor-zoom-in"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── Lightbox plein écran ─── */}
+      <Lightbox
+        open={lightboxOuvert}
+        close={() => setLightboxOuvert(false)}
+        slides={slides}
+        index={indexLightbox}
+        on={{
+          view: ({ index }) => setIndexLightbox(index),
+        }}
+        plugins={[Zoom]}
+        zoom={{
+          maxZoomPixelRatio: 3,
+          zoomInMultiplier: 2,
+          doubleTapDelay: 300,
+          doubleClickDelay: 300,
+          doubleClickMaxStops: 2,
+          keyboardMoveDistance: 50,
+          wheelZoomDistanceFactor: 100,
+          pinchZoomDistanceFactor: 100,
+          scrollToZoom: false,
+        }}
+        carousel={{ finite: true }}
+        controller={{ closeOnBackdropClick: true }}
+        render={{
+          // Barres en haut du viewport, par-dessus tout
+          controls: () => <BarresLightbox />,
+        }}
+        styles={{
+          container: { backgroundColor: 'rgba(0, 0, 0, 0.95)' },
+        }}
+      />
+    </>
+  );
+}
+
+export default GalerieActivite;
+</file>
+
+<file path="src/composants/OngletsPlanification.jsx">
+import { NavLink } from 'react-router-dom';
+
+const ONGLETS = [
+  { chemin: '/planification/activites', label: 'Activités' },
+  { chemin: '/planification/lieux',     label: 'Lieux' },
+  { chemin: '/planification/pays',      label: 'Pays' },
+];
+
+function OngletsPlanification() {
+  return (
+    <div className="sticky top-0 z-10 flex border-b border-terra-border mb-4 -mx-4 px-4 overflow-x-auto bg-terra-50">
+      {ONGLETS.map(({ chemin, label }) => (
+        <NavLink
+          key={chemin}
+          to={chemin}
+          className="flex-shrink-0"
+        >
+          {({ isActive }) => (
+            <div
+              className={`px-4 py-2.5 text-sm border-b-2 -mb-px transition-colors ${
+                isActive
+                  ? 'border-terra-500 text-terra-500 font-medium'
+                  : 'border-transparent text-terra-muted'
+              }`}
+            >
+              {label}
+            </div>
+          )}
+        </NavLink>
+      ))}
+    </div>
+  );
+}
+
+export default OngletsPlanification;
+</file>
+
+<file path="src/composants/TexteAvecLiens.jsx">
+import { Link } from 'react-router-dom';
+import activites from '../donnees/activites.json';
+import { versSlug } from '../donnees/constantes';
+
+/**
+ * Affiche un texte en paragraphes (séparés par \n\n).
+ * Toute mention [[Nom d'activité]] devient un lien cliquable
+ * vers la fiche activité correspondante.
+ *
+ * Si l'activité n'est pas trouvée, le nom s'affiche en italique gris
+ * (pour repérer visuellement les références cassées).
+ */
+function TexteAvecLiens({ texte }) {
+  if (!texte) return null;
+
+  return texte.split('\n\n').map((paragraphe, i) => (
+    <p
+      key={i}
+      className="text-sm text-terra-900 leading-relaxed mb-3 text-justify"
+    >
+      {transformerLiens(paragraphe)}
+    </p>
+  ));
+}
+
+function transformerLiens(texte) {
+  // Capture tout ce qui est entre [[ et ]]
+  const regex = /\[\[([^\]]+)\]\]/g;
+  const morceaux = [];
+  let dernierIndex = 0;
+  let match;
+
+  while ((match = regex.exec(texte)) !== null) {
+    // Texte avant le [[...]]
+    if (match.index > dernierIndex) {
+      morceaux.push(texte.slice(dernierIndex, match.index));
+    }
+
+    const nomActivite = match[1];
+    const activite = activites.find((a) => a.nom === nomActivite);
+
+    if (activite) {
+      morceaux.push(
+        <Link
+          key={match.index}
+          to={`/planification/activites/${versSlug(activite.nom)}`}
+          className="text-terra-500 underline-offset-2 hover:underline"
+        >
+          {nomActivite}
+        </Link>
+      );
+    } else {
+      morceaux.push(
+        <span key={match.index} className="text-terra-muted italic">
+          {nomActivite}
+        </span>
+      );
+    }
+
+    dernierIndex = match.index + match[0].length;
+  }
+
+  if (dernierIndex < texte.length) {
+    morceaux.push(texte.slice(dernierIndex));
+  }
+
+  return morceaux;
+}
+
+export default TexteAvecLiens;
+</file>
+
+<file path="src/composants/TexteFormate.jsx">
+/**
+ * Composant qui affiche du texte avec un mini-formatage type Markdown.
+ *
+ * Syntaxe supportée :
+ *   **gras**         → <strong>gras</strong>
+ *   *italique*       → <em>italique</em>
+ *   __souligné__     → <u>souligné</u>
+ *
+ * Usage :
+ *   <TexteFormate texte="Le **Machu Picchu** est *incroyable*." />
+ *
+ * Le composant rend le texte SANS HTML brut (pas de dangerouslySetInnerHTML),
+ * donc c'est sûr même si un jour le contenu venait d'ailleurs.
+ */
+function TexteFormate({ texte }) {
+  if (!texte) return null;
+
+  // ─── Le parseur ────────────────────────────────────────────────────────
+  // On découpe le texte en morceaux : du texte brut OU des morceaux formatés.
+  // L'astuce : une regex qui capture les 3 patterns en une seule passe,
+  // avec leur contenu entre les marqueurs.
+  //
+  // Le regex :
+  //   \*\*(.+?)\*\*   → **gras** (le .+? est "non gourmand", il s'arrête au 1er **)
+  //   __(.+?)__       → __souligné__
+  //   \*(.+?)\*       → *italique* (à mettre EN DERNIER, sinon ça mangerait les **)
+  //
+  // On utilise split() avec la regex pour découper le texte en :
+  //   [texte_avant, contenu_gras, texte_milieu, contenu_souligne, texte_après, ...]
+  //
+  // Chaque "morceau capturé" se retrouve entre les morceaux de texte brut.
+
+  const regex = /\*\*(.+?)\*\*|__(.+?)__|\*(.+?)\*/g;
+  const morceaux = [];
+  let dernierIndex = 0;
+  let match;
+
+  while ((match = regex.exec(texte)) !== null) {
+    // Ajoute le texte brut entre le dernier match et celui-ci
+    if (match.index > dernierIndex) {
+      morceaux.push({
+        type: 'texte',
+        contenu: texte.slice(dernierIndex, match.index),
+      });
+    }
+
+    // Détermine quel type de formatage on a capturé
+    if (match[1] !== undefined) {
+      // match[1] = contenu de **xxx**
+      morceaux.push({ type: 'gras', contenu: match[1] });
+    } else if (match[2] !== undefined) {
+      // match[2] = contenu de __xxx__
+      morceaux.push({ type: 'souligne', contenu: match[2] });
+    } else if (match[3] !== undefined) {
+      // match[3] = contenu de *xxx*
+      morceaux.push({ type: 'italique', contenu: match[3] });
+    }
+
+    dernierIndex = match.index + match[0].length;
+  }
+
+  // Ajoute le texte brut restant après le dernier match
+  if (dernierIndex < texte.length) {
+    morceaux.push({ type: 'texte', contenu: texte.slice(dernierIndex) });
+  }
+
+  // ─── Rendu ─────────────────────────────────────────────────────────────
+  return (
+    <>
+      {morceaux.map((morceau, i) => {
+        if (morceau.type === 'gras') {
+          return (
+            <strong key={i} className="font-semibold text-terra-900">
+              {morceau.contenu}
+            </strong>
+          );
+        }
+        if (morceau.type === 'italique') {
+          return <em key={i}>{morceau.contenu}</em>;
+        }
+        if (morceau.type === 'souligne') {
+          return (
+            <u key={i} className="underline decoration-terra-500 underline-offset-2">
+              {morceau.contenu}
+            </u>
+          );
+        }
+        // type === 'texte'
+        return <span key={i}>{morceau.contenu}</span>;
+      })}
+    </>
+  );
+}
+
+export default TexteFormate;
+</file>
+
+<file path="src/db.js">
+import Dexie from 'dexie';
+
+
+export const db = new Dexie('MonVoyage');
+
+db.version(1).stores({
+  /**
+   * observationsFaune
+   *   animalNom  : nom de l'animal (clé étrangère vers faune.json)
+   *   date       : Date JS de l'observation
+   *   lieu       : string libre (ex: "Vallée Sacrée, Cuzco")
+   *   note       : string libre, facultatif
+   */
+  observationsFaune: '++id, animalNom, date',
+  avisGastronomie: '++id, platNom, date',
+});
+</file>
+
+<file path="src/hooks/Useavisgastronomie.js">
+import { useLiveQuery } from 'dexie-react-hooks';
+import { db } from '../db';
+
+/**
+ * Tout ce dont on a besoin pour les avis gastronomiques.
+ *
+ * Retourne :
+ *   testeSet     — Set des noms de plats goûtés (lookup O(1))
+ *   avisDe       — fonction(nomPlat) → avis | undefined
+ *   ajouterAvis  — fonction({ platNom, avis }) → enregistre avis
+ *   supprimerAvis — fonction(id) → supprime avis
+ */
+export function useAvisGastronomie() {
+  const avis = useLiveQuery(
+    () => db.avisGastronomie.orderBy('date').reverse().toArray(),
+    [],
+    []
+  );
+
+  const testeSet = new Set(avis.map((a) => a.platNom));
+
+  const avisDe = (platNom) => avis.find((a) => a.platNom === platNom);
+
+  const ajouterAvis = ({ platNom, avis: texte }) =>
+    db.avisGastronomie.add({
+      platNom,
+      date: new Date(),
+      avis: texte,
+    });
+
+  const supprimerAvis = (id) => db.avisGastronomie.delete(id);
+
+  return { testeSet, avisDe, ajouterAvis, supprimerAvis };
+}
+</file>
+
+<file path="src/hooks/useEtatPersistant.jsx">
+import { useState, useEffect } from 'react';
+
+/**
+ * Comme useState, mais persiste dans sessionStorage sous une clé donnée.
+ * Le state survit à la navigation (aller-retour sur une fiche détail)
+ * mais est perdu à la fermeture de l'onglet.
+ */
+export function useEtatPersistant(cle, valeurInitiale) {
+  const [valeur, setValeur] = useState(() => {
+    try {
+      const brut = sessionStorage.getItem(cle);
+      return brut !== null ? JSON.parse(brut) : valeurInitiale;
+    } catch {
+      return valeurInitiale;
+    }
+  });
+
+  useEffect(() => {
+    try {
+      sessionStorage.setItem(cle, JSON.stringify(valeur));
+    } catch {
+      /* sessionStorage indisponible (mode privé safari ancien, etc.) */
+    }
+  }, [cle, valeur]);
+
+  return [valeur, setValeur];
+}
+</file>
+
+<file path="src/hooks/useObservationsFaune.jsx">
+import { useLiveQuery } from 'dexie-react-hooks';
+import { db } from '../db';
+
+/**
+ * Tout ce dont on a besoin pour les observations de faune.
+ *
+ * Retourne :
+ *   observations     — tableau de toutes les observations (live)
+ *   vuSet            — Set des noms d'animaux observés (pour lookup O(1))
+ *   observationDe    — fonction(nomAnimal) → observation | undefined
+ *   marquerVu        — fonction({ animalNom, lieu, note }) → Promise
+ *   supprimerObservation — fonction(id) → Promise
+ */
+export function useObservationsFaune() {
+  // useLiveQuery re-rend automatiquement le composant quand la DB change
+  const observations = useLiveQuery(
+    () => db.observationsFaune.orderBy('date').reverse().toArray(),
+    [],
+    [] // valeur par défaut pendant le chargement initial
+  );
+
+  const vuSet = new Set(observations.map((o) => o.animalNom));
+
+  const observationDe = (animalNom) =>
+    observations.find((o) => o.animalNom === animalNom);
+
+  const marquerVu = ({ animalNom, lieu = '', note = '' }) =>
+    db.observationsFaune.add({
+      animalNom,
+      date: new Date(),
+      lieu,
+      note,
+    });
+
+  const supprimerObservation = (id) =>
+    db.observationsFaune.delete(id);
+
+  return { observations, vuSet, observationDe, marquerVu, supprimerObservation };
+}
+</file>
+
+<file path="src/modules/DetailLieu.jsx">
+import { useParams, useNavigate } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
+import lieux from '../donnees/lieux.json';
+import TexteAvecLiens from '../composants/TexteAvecLiens';
+
+function DetailLieu() {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const lieu = lieux.find((l) => l.id === id);
+
+  if (!lieu) {
+    return (
+      <div className="p-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <span className="text-sm">Retour</span>
+        </button>
+        <p className="text-terra-muted">Lieu introuvable.</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="p-4">
+      <button
+        onClick={() => navigate(-1)}
+        className="flex items-center gap-2 text-terra-500 mb-4"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </button>
+
+      <h1 className="font-serif text-3xl text-terra-900 leading-tight mb-4">
+        {lieu.nom}
+      </h1>
+
+      <TexteAvecLiens texte={lieu.description} />
+    </div>
+  );
+}
+
+export default DetailLieu;
+</file>
+
+<file path="src/modules/DetailPays.jsx">
+import { useParams, useNavigate } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
+import pays from '../donnees/pays.json';
+import TexteAvecLiens from '../composants/TexteAvecLiens';
+
+function DetailPays() {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const p = pays.find((x) => x.id === id);
+
+  if (!p) {
+    return (
+      <div className="p-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <span className="text-sm">Retour</span>
+        </button>
+        <p className="text-terra-muted">Pays introuvable.</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="p-4">
+      <button
+        onClick={() => navigate(-1)}
+        className="flex items-center gap-2 text-terra-500 mb-4"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </button>
+
+      <h1 className="font-serif text-3xl text-terra-900 leading-tight mb-4">
+        {p.nom}
+      </h1>
+
+      <TexteAvecLiens texte={p.description} />
+    </div>
+  );
+}
+
+export default DetailPays;
+</file>
+
+<file path="src/modules/DetailVisiteGuidee.jsx">
+import { useParams, useNavigate } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
+import visites from '../donnees/visitesGuidees.json';
+import Accordeon from '../composants/Accordeon';
+import TexteAvecLiens from '../composants/TexteAvecLiens';
+
+function DetailVisiteGuidee() {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const v = visites.find((x) => x.id === id);
+
+  if (!v) {
+    return (
+      <div className="p-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <span className="text-sm">Retour</span>
+        </button>
+        <p className="text-terra-muted">Visite introuvable.</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="p-4">
+      <button
+        onClick={() => navigate(-1)}
+        className="flex items-center gap-2 text-terra-500 mb-4"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </button>
+
+      <h1 className="font-serif text-3xl text-terra-900 leading-tight mb-1">
+        {v.titre}
+      </h1>
+      <div className="text-[11px] uppercase tracking-wider text-terra-muted mb-4">
+        {v.pays}
+      </div>
+
+      {/* Description courte */}
+      <div className="mb-4 text-sm text-terra-900 leading-relaxed">
+        <TexteAvecLiens texte={v.description} />
+      </div>
+
+      {/* Accordéons sections */}
+      {v.sections && v.sections.length > 0 && (
+        <div className="border-b border-terra-border text-justify">
+          {v.sections.map((section, i) => (
+            <Accordeon
+              key={i}
+              titre={section.titre}
+              contenu={section.contenu}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default DetailVisiteGuidee;
+</file>
+
+<file path="src/modules/Episode.jsx">
+// src/modules/Episode.jsx
+import { useState, useEffect } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import { ArrowLeft, Check } from 'lucide-react';
+import Accordeon from '../composants/Accordeon';
+
+function Episode() {
+  const { themeId, episodeId } = useParams();
+  const navigate = useNavigate();
+
+  // ─── ÉTATS ───────────────────────────────────────
+  const [episode, setEpisode] = useState(null);
+  const [chargement, setChargement] = useState(true);
+  const [erreur, setErreur] = useState(false);
+  const [lu, setLu] = useState(false);
+
+  // ─── CLÉ LOCALSTORAGE ────────────────────────────
+  // Chaque épisode a une clé unique : "lu_incas_avant-eux"
+  const cleStorage = `lu_${themeId}_${episodeId}`;
+
+  // ─── CHARGEMENT DU JSON + STATUT LU ──────────────
+  useEffect(() => {
+    setChargement(true);
+    setErreur(false);
+
+    const dejaLu = localStorage.getItem(cleStorage) === 'true';
+    setLu(dejaLu);
+
+    const modules = import.meta.glob('../donnees/themes/*.json');
+    const chemin = `../donnees/themes/${themeId}.json`;
+
+    if (modules[chemin]) {
+      modules[chemin]()
+        .then((module) => {
+          const theme = module.default;
+          const episodeTrouve = theme.episodes.find(
+            (e) => e.id === episodeId
+          );
+          if (episodeTrouve) {
+            setEpisode(episodeTrouve);
+          } else {
+            setErreur(true);
+          }
+          setChargement(false);
+        })
+        .catch(() => {
+          setErreur(true);
+          setChargement(false);
+        });
+    } else {
+      setErreur(true);
+      setChargement(false);
+    }
+
+  }, [themeId, episodeId, cleStorage]);
+
+  // ─── MARQUER COMME LU ────────────────────────────
+  const marquerLu = () => {
+    localStorage.setItem(cleStorage, 'true');
+    setLu(true);
+  };
+
+  // ─── ÉTATS D'AFFICHAGE ───────────────────────────
+  if (chargement) {
+    return (
+      <div className="p-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <span className="text-sm">Retour</span>
+        </button>
+        <div className="text-terra-muted text-sm">Chargement…</div>
+      </div>
+    );
+  }
+
+  if (erreur || !episode) {
+    return (
+      <div className="p-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <span className="text-sm">Retour</span>
+        </button>
+        <div className="text-terra-muted text-sm">
+          Épisode introuvable.
+        </div>
+      </div>
+    );
+  }
+
+  // ─── RENDU ───────────────────────────────────────
+  return (
+    <div className="p-4">
+
+      {/* Bouton retour */}
+      <button
+        onClick={() => navigate(-1)}
+        className="flex items-center gap-2 text-terra-500 mb-4"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </button>
+
+      {/* Numéro d'épisode */}
+      <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-1">
+        Épisode {episode.numero}
+      </div>
+
+      {/* Titre */}
+      <h1 className="font-serif text-3xl text-terra-900 leading-tight mb-1">
+        {episode.titre}
+      </h1>
+
+      {/* Sous-titre */}
+      <div className="text-[11px] uppercase tracking-wider text-terra-muted mb-4">
+        {episode.sousTitre}
+      </div>
+
+      {/* Description — toujours visible */}
+      <p className="text-sm text-terra-900 leading-relaxed mb-6 text-justify">
+        {episode.description}
+      </p>
+
+      {/* Accordéons — sections détaillées */}
+      {episode.sections && episode.sections.length > 0 && (
+        <div className="border-t border-terra-border mb-8 text-justify">
+          {episode.sections.map((section, i) => (
+            <Accordeon
+              key={i}
+              titre={section.titre}
+              contenu={section.contenu}
+            />
+          ))}
+        </div>
+      )}
+
+      {/* Bouton lu / déjà lu */}
+      {!lu ? (
+        <button
+          onClick={marquerLu}
+          className="w-full bg-terra-500 text-white rounded-xl py-3 font-medium text-sm flex items-center justify-center gap-2"
+        >
+          <Check className="w-4 h-4" strokeWidth={2.5} />
+          J'ai lu cet épisode
+        </button>
+      ) : (
+        <div className="w-full bg-terra-100 border border-terra-500/30 rounded-xl py-3 flex items-center justify-center gap-2">
+          <Check className="w-4 h-4 text-terra-500" strokeWidth={2.5} />
+          <span className="text-sm text-terra-500 font-medium">Lu</span>
+        </div>
+      )}
+
+    </div>
+  );
+}
+
+export default Episode;
+</file>
+
+<file path="src/modules/Jeux.jsx">
+import { Link } from 'react-router-dom';
+
+// Icônes : place tes 3 SVG dans public/images/jeux/icones/
+//   quiz.svg · enquetes.svg · escapes.svg
+
+// ─── Données des 3 cartes (tout s'édite ici) ──────────────────────────
+const CARTES = [
+  {
+    id: 'quiz', titre: 'Quiz', to: '/jeux/quiz', icone: '/images/jeux/icones/quiz.svg', badge: '3 modes', couleur: 'bg-jeu-quiz',
+    desc: 'Teste tes connaissances sur l’histoire, la culture et la géographie.',
+  },
+  {
+    id: 'enquetes', titre: 'Enquêtes', to: '/jeux/enquetes', icone: '/images/jeux/icones/enquetes.svg', badge: '2 séries', couleur: 'bg-jeu-enquete',
+    desc: 'Résous des affaires mystérieuses dans des séries captivantes.',
+  },
+  {
+    id: 'escapes', titre: 'Escapes', to: '/jeux/escapes', icone: '/images/jeux/icones/escapes.svg', badge: '2 onglets', couleur: 'bg-jeu-escape',
+    desc: 'Échappe-toi de lieux légendaires remplis d’énigmes.',
+  },
+];
+
+
+
+export default function Jeux() {
+  return (
+    <div className="fond-carte relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+
+
+      {/* En-tête */}
+      <div className="relative px-6 pt-6 pb-4">
+        <div className="text-[11px] tracking-[0.2em] font-semibold text-sepia mt-4">AIRE DE JEU</div>
+        <h1 className="font-serif text-[52px] leading-none text-encre font-semibold mt-0.5">Jeux</h1>
+        <p className="text-encre-douce text-[13.5px] leading-relaxed max-w-[215px] mt-2.5">
+          Explore, résous, réponds et échappe-toi à travers l’Amérique du Sud.
+        </p>
+      </div>
+
+      {/* Cartes */}
+      <div className="relative px-5 pt-1 pb-6 flex flex-col gap-3.5">
+        {CARTES.map(({ id, titre, desc, badge, icone, couleur, to }) => (
+          <Link key={id} to={to}
+                  className={`relative text-left rounded-[20px] p-[17px] border border-creme/15 ${couleur} texture-cuir shadow-[0_8px_22px_rgba(40,20,8,0.28)] transition-transform duration-200 hover:-translate-y-0.5`}>
+            <div className="flex items-start gap-3.5">
+              <div className="shrink-0 w-[52px] h-[52px] rounded-full flex items-center justify-center bg-creme/10 border border-creme/30">
+                <img src={icone} alt="" className="w-6 h-6" />
+              </div>
+              <div className="pr-14">
+                <div className="font-serif text-2xl text-creme leading-none font-semibold">{titre}</div>
+                <p className="text-[12.5px] leading-snug text-creme/70 mt-1.5">{desc}</p>
+              </div>
+            </div>
+            <span className="absolute right-3.5 bottom-3 bg-black/25 text-creme text-[11px] font-semibold px-2.5 py-[3px] rounded-lg border border-creme/15">
+              {badge}
+            </span>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
+</file>
+
+<file path="src/modules/Lieux.jsx">
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Search, X } from 'lucide-react';
+import lieux from '../donnees/lieux.json';
+import OngletsPlanification from '../composants/OngletsPlanification';
+
+function Lieux() {
+  const [recherche, setRecherche] = useState('');
+  const rechercheNorm = recherche.trim().toLowerCase();
+
+  const resultats = rechercheNorm
+    ? lieux.filter((l) => l.nom.toLowerCase().includes(rechercheNorm))
+    : lieux;
+
+  return (
+    <div className="p-4">
+      <OngletsPlanification />
+
+      {/* Recherche */}
+      <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
+        <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
+        <input
+          type="text"
+          value={recherche}
+          onChange={(e) => setRecherche(e.target.value)}
+          placeholder="Rechercher un lieu…"
+          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted"
+        />
+        {recherche && (
+          <button
+            onClick={() => setRecherche('')}
+            className="text-terra-muted hover:text-terra-500"
+          >
+            <X className="w-4 h-4" strokeWidth={2} />
+          </button>
+        )}
+      </div>
+
+      <div className="text-xs text-terra-muted mb-2">
+        {resultats.length} lieu{resultats.length !== 1 ? 'x' : ''}
+        {rechercheNorm && ` pour « ${recherche} »`}
+      </div>
+
+      {resultats.length === 0 ? (
+        <div className="text-center py-8 text-terra-muted text-sm">
+          Aucun lieu
+        </div>
+      ) : (
+        resultats.map((lieu) => (
+          <Link
+            key={lieu.id}
+            to={`/planification/lieux/${lieu.id}`}
+            className="bg-terra-100 border border-terra-border rounded-xl px-3.5 py-3 mb-2 flex items-center hover:border-terra-500/40 transition-colors"
+          >
+            <div className="font-serif text-base text-terra-900 leading-tight">
+              {lieu.nom}
+            </div>
+          </Link>
+        ))
+      )}
+    </div>
+  );
+}
+
+export default Lieux;
+</file>
+
+<file path="src/modules/Pays.jsx">
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Search, X } from 'lucide-react';
+import pays from '../donnees/pays.json';
+import OngletsPlanification from '../composants/OngletsPlanification';
+
+function Pays() {
+  const [recherche, setRecherche] = useState('');
+  const rechercheNorm = recherche.trim().toLowerCase();
+
+  const resultats = rechercheNorm
+    ? pays.filter((p) => p.nom.toLowerCase().includes(rechercheNorm))
+    : pays;
+
+  return (
+    <div className="p-4">
+      <OngletsPlanification />
+
+      {/* Recherche */}
+      <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
+        <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
+        <input
+          type="text"
+          value={recherche}
+          onChange={(e) => setRecherche(e.target.value)}
+          placeholder="Rechercher un pays…"
+          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted"
+        />
+        {recherche && (
+          <button
+            onClick={() => setRecherche('')}
+            className="text-terra-muted hover:text-terra-500"
+          >
+            <X className="w-4 h-4" strokeWidth={2} />
+          </button>
+        )}
+      </div>
+
+      <div className="text-xs text-terra-muted mb-2">
+        {resultats.length} pays
+        {rechercheNorm && ` pour « ${recherche} »`}
+      </div>
+
+      {resultats.length === 0 ? (
+        <div className="text-center py-8 text-terra-muted text-sm">
+          Aucun pays
+        </div>
+      ) : (
+        resultats.map((p) => (
+          <Link
+            key={p.id}
+            to={`/planification/pays/${p.id}`}
+            className="bg-terra-100 border border-terra-border rounded-xl px-3.5 py-3 mb-2 flex items-center hover:border-terra-500/40 transition-colors"
+          >
+            <div className="font-serif text-base text-terra-900 leading-tight">
+              {p.nom}
+            </div>
+          </Link>
+        ))
+      )}
+    </div>
+  );
+}
+
+export default Pays;
+</file>
+
+<file path="src/modules/PremieresFois.jsx">
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowLeft, Search, X } from 'lucide-react';
+import premieresFois from '../donnees/premieresFois.json';
+import CartePremiereFois from '../composants/CartePremiereFois';
+
+function PremieresFois() {
+  // ─── ÉTATS ──────────────────────────────────────────
+  const [statutActif, setStatutActif] = useState('Tous');
+  const [recherche, setRecherche] = useState('');
+
+  // Premières fois faites (Set des noms) — sera remplacé par Dexie plus tard
+  const [faites, setFaites] = useState(new Set());
+
+  // ─── HANDLERS ───────────────────────────────────────
+  const toggleFait = (nom) => {
+    setFaites((ancien) => {
+      const nouveau = new Set(ancien);
+      if (nouveau.has(nom)) nouveau.delete(nom);
+      else nouveau.add(nom);
+      return nouveau;
+    });
+  };
+
+  // ─── FILTRAGE ───────────────────────────────────────
+  const rechercheNorm = recherche.trim().toLowerCase();
+
+  const parStatut = premieresFois.filter((p) => {
+    if (statutActif === 'Tous') return true;
+    if (statutActif === 'Faites') return faites.has(p.nom);
+    if (statutActif === 'PasFaites') return !faites.has(p.nom);
+    return true;
+  });
+
+  const resultats = rechercheNorm
+    ? parStatut.filter((p) => p.nom.toLowerCase().includes(rechercheNorm))
+    : parStatut;
+
+  // ─── COMPTEURS ──────────────────────────────────────
+  const totalFaites = faites.size;
+  const totalPremieres = premieresFois.length;
+  const pctFaites = totalPremieres > 0 ? (totalFaites / totalPremieres) * 100 : 0;
+
+  // ─── RENDU ──────────────────────────────────────────
+  return (
+    <div className="p-4">
+      {/* Bouton retour */}
+      <Link
+        to="/journal"
+        className="flex items-center gap-2 text-terra-500 mb-3"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </Link>
+
+      {/* En-tête : titre + compteur */}
+      <div className="flex items-end justify-between mb-2">
+        <div>
+          <h1 className="text-3xl font-serif text-terra-900 leading-tight">
+            1ères Fois
+          </h1>
+          <div className="text-[10px] uppercase tracking-wider text-terra-muted mt-0.5">
+            les expériences à vivre
+          </div>
+        </div>
+        <div className="text-right">
+          <div className="text-lg font-medium text-terra-500">
+            {totalFaites}
+            <span className="text-terra-muted font-normal"> / {totalPremieres}</span>
+          </div>
+          <div className="text-[10px] text-terra-muted">accomplies</div>
+        </div>
+      </div>
+
+      {/* Barre de progression */}
+      <div className="h-1 bg-terra-100 rounded-sm overflow-hidden mb-4">
+        <div
+          className="h-full bg-terra-500 rounded-sm"
+          style={{ width: `${pctFaites}%` }}
+        />
+      </div>
+
+      {/* Champ de recherche */}
+      <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
+        <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
+        <input
+          type="text"
+          value={recherche}
+          onChange={(e) => setRecherche(e.target.value)}
+          placeholder="Rechercher une expérience…"
+          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted min-w-0"
+        />
+        {recherche && (
+          <button
+            onClick={() => setRecherche('')}
+            className="text-terra-muted hover:text-terra-500 flex-shrink-0"
+          >
+            <X className="w-4 h-4" strokeWidth={2} />
+          </button>
+        )}
+      </div>
+
+      {/* Filtres STATUT — toujours visibles */}
+      <div className="flex gap-1.5 mb-3 flex-wrap">
+        {[
+          { cle: 'Tous', libelle: 'Toutes' },
+          { cle: 'Faites', libelle: '✓ Faites' },
+          { cle: 'PasFaites', libelle: 'Pas faites' },
+        ].map(({ cle, libelle }) => {
+          const actif = cle === statutActif;
+          return (
+            <button
+              key={cle}
+              onClick={() => setStatutActif(cle)}
+              className={
+                actif
+                  ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                  : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
+              }
+            >
+              {libelle}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Compteur de résultats */}
+      <div className="text-xs text-terra-muted mb-3">
+        {resultats.length} expérience{resultats.length !== 1 ? 's' : ''}
+        {rechercheNorm && ` pour « ${recherche} »`}
+      </div>
+
+      {/* Liste des premières fois */}
+      {resultats.length === 0 ? (
+        <div className="text-center py-8 text-terra-muted text-sm">
+          Aucune expérience ne correspond
+        </div>
+      ) : (
+        resultats.map((premiere) => (
+          <CartePremiereFois
+            key={premiere.nom}
+            premiere={premiere}
+            fait={faites.has(premiere.nom)}
+            onToggle={() => toggleFait(premiere.nom)}
+          />
+        ))
+      )}
+    </div>
+  );
+}
+
+export default PremieresFois;
+</file>
+
+<file path="src/modules/Theme.jsx">
+// src/modules/Theme.jsx
+import { useState, useEffect } from 'react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import { ArrowLeft, ChevronRight } from 'lucide-react';
+
+function Theme() {
+  const { themeId } = useParams();
+  const navigate = useNavigate();
+
+  // ─── ÉTATS ───────────────────────────────────────
+  const [theme, setTheme] = useState(null);
+  const [chargement, setChargement] = useState(true);
+  const [erreur, setErreur] = useState(false);
+
+  // ─── CHARGEMENT DU FICHIER JSON ──────────────────
+  useEffect(() => {
+    setChargement(true);
+    setErreur(false);
+
+    const modules = import.meta.glob('../donnees/themes/*.json');
+    const chemin = `../donnees/themes/${themeId}.json`;
+
+    if (modules[chemin]) {
+      modules[chemin]()
+        .then((module) => {
+          setTheme(module.default);
+          setChargement(false);
+        })
+        .catch(() => {
+          setErreur(true);
+          setChargement(false);
+        });
+    } else {
+      setErreur(true);
+      setChargement(false);
+    }
+  }, [themeId]);
+
+  // ─── ÉTATS D'AFFICHAGE ───────────────────────────
+  if (chargement) {
+    return (
+      <div className="p-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <span className="text-sm">Retour</span>
+        </button>
+        <div className="text-terra-muted text-sm">Chargement…</div>
+      </div>
+    );
+  }
+
+  if (erreur || !theme) {
+    return (
+      <div className="p-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <span className="text-sm">Retour</span>
+        </button>
+        <div className="text-terra-muted text-sm">
+          Ce thème n'est pas encore disponible.
+        </div>
+      </div>
+    );
+  }
+
+  // ─── RENDU ───────────────────────────────────────
+  return (
+    <div className="p-4">
+
+      {/* Bouton retour */}
+      <button
+        onClick={() => navigate(-1)}
+        className="flex items-center gap-2 text-terra-500 mb-4"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </button>
+
+      {/* En-tête */}
+      <h1 className="font-serif text-3xl text-terra-900 leading-tight mb-1">
+        {theme.titre}
+      </h1>
+      <div className="text-[11px] uppercase tracking-wider text-terra-muted mb-6">
+        {theme.sousTitre}
+      </div>
+
+      {/* Compteur */}
+      <div className="text-xs text-terra-muted mb-3">
+        {theme.episodes.length} épisode{theme.episodes.length > 1 ? 's' : ''}
+      </div>
+
+      {/* Liste des épisodes */}
+      <div className="flex flex-col gap-2.5">
+        {theme.episodes.map((episode) => {
+          const estLu = localStorage.getItem(
+            `lu_${themeId}_${episode.id}`
+          ) === 'true';
+
+          return (
+            <Link
+              key={episode.id}
+              to={`/apprendre/theme/${themeId}/${episode.id}`}
+              className={`
+                bg-terra-100 rounded-xl px-3 py-3
+                flex items-center gap-3
+                shadow-[0_2px_8px_rgba(74,47,26,0.08),0_1px_2px_rgba(74,47,26,0.06)]
+                hover:shadow-[0_4px_12px_rgba(74,47,26,0.12),0_2px_4px_rgba(74,47,26,0.08)]
+                active:shadow-[0_1px_3px_rgba(74,47,26,0.1)]
+                transition-shadow
+                ${estLu
+                  ? 'border-l-[3px] border-l-terra-500 border-y border-r border-terra-border'
+                  : 'border border-terra-border'
+                }
+              `}
+            >
+              {/* Pastille ronde avec numéro */}
+              <div
+                className={`
+                  w-11 h-11 rounded-full flex items-center justify-center flex-shrink-0
+                  ${estLu
+                    ? 'bg-gradient-to-br from-terra-500 to-terra-700 shadow-[0_2px_6px_rgba(201,98,63,0.35)]'
+                    : 'bg-white border-2 border-terra-border'
+                  }
+                `}
+              >
+                <span
+                  className={`
+                    font-serif text-base
+                    ${estLu ? 'text-white' : 'text-terra-muted'}
+                  `}
+                >
+                  {episode.numero}
+                </span>
+              </div>
+
+              {/* Titre + sous-titre */}
+              <div className="flex-1 min-w-0">
+                <div className="font-serif text-[15px] text-terra-900 leading-tight font-semibold">
+                  {episode.titre}
+                </div>
+                <div className="text-[10px] text-terra-muted mt-0.5 leading-tight font-semibold">
+                  {episode.sousTitre}
+                </div>
+              </div>
+
+              {/* Chevron */}
+              <ChevronRight
+                className="w-3.5 h-3.5 text-terra-500 flex-shrink-0"
+                strokeWidth={2}
+              />
+            </Link>
+          );
+        })}
+      </div>
+
+    </div>
+  );
+}
+
+export default Theme;
+</file>
+
+<file path="src/modules/VisitesGuidees.jsx">
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowLeft, Search, X } from 'lucide-react';
+import visites from '../donnees/visitesGuidees.json';
+import { PAYS } from '../donnees/constantes';
+
+function VisitesGuidees() {
+  const [paysActif, setPaysActif] = useState('Tous');
+  const [recherche, setRecherche] = useState('');
+  const rechercheNorm = recherche.trim().toLowerCase();
+
+  // Filtre pays : pays est une chaîne ici, pas un tableau
+  const parPays =
+    paysActif === 'Tous'
+      ? visites
+      : visites.filter((v) => v.pays === paysActif);
+
+  const resultats = rechercheNorm
+    ? parPays.filter((v) => v.titre.toLowerCase().includes(rechercheNorm))
+    : parPays;
+
+  return (
+    <div className="p-4">
+      {/* Bouton retour */}
+      <Link to="/apprendre" className="flex items-center gap-2 text-terra-500 mb-3">
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </Link>
+
+      {/* En-tête */}
+      <h1 className="text-3xl font-serif text-terra-900 leading-tight mb-1">
+        Visites guidées
+      </h1>
+      <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-4">
+        lieux et sites à connaître
+      </div>
+
+      {/* Recherche */}
+      <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
+        <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
+        <input
+          type="text"
+          value={recherche}
+          onChange={(e) => setRecherche(e.target.value)}
+          placeholder="Rechercher une visite…"
+          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted min-w-0"
+        />
+        {recherche && (
+          <button onClick={() => setRecherche('')} className="text-terra-muted hover:text-terra-500 flex-shrink-0">
+            <X className="w-4 h-4" strokeWidth={2} />
+          </button>
+        )}
+      </div>
+
+      {/* Filtres pays — toujours visibles, comme PremieresFois */}
+      <div className="flex gap-1.5 mb-3 flex-wrap">
+        {['Tous', ...PAYS].map((pays) => {
+          const actif = pays === paysActif;
+          return (
+            <button
+              key={pays}
+              onClick={() => setPaysActif(pays)}
+              className={
+                actif
+                  ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                  : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
+              }
+            >
+              {pays}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Compteur */}
+      <div className="text-xs text-terra-muted mb-3">
+        {resultats.length} visite{resultats.length !== 1 ? 's' : ''}
+        {rechercheNorm && ` pour « ${recherche} »`}
+      </div>
+
+      {/* Liste */}
+      {resultats.length === 0 ? (
+        <div className="text-center py-8 text-terra-muted text-sm">
+          Aucune visite ne correspond
+        </div>
+      ) : (
+        resultats.map((v) => (
+          <Link
+            key={v.id}
+            to={`/apprendre/visites-guidees/${v.id}`}
+            className="block bg-terra-100 border border-terra-border rounded-xl px-3.5 py-3 mb-2 hover:border-terra-500/40 transition-colors"
+          >
+            <div className="font-serif text-base text-terra-900 leading-tight">
+              {v.titre}
+            </div>
+            <div className="text-[11px] text-terra-muted mt-0.5">{v.pays}</div>
+          </Link>
+        ))
+      )}
+    </div>
+  );
+}
+
+export default VisitesGuidees;
+</file>
+
+<file path="index.html">
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amérique du Sud</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+</file>
+
+<file path="src/composants/carteActivite.jsx">
+import { Link } from 'react-router-dom';
+import { MapPin } from 'lucide-react';
+import { COULEURS_TYPES_ACTIVITES, versSlug } from '../donnees/constantes';
+import Etoiles from './Etoiles';
+
+function CarteActivite({ activite }) {
+  const couleurBadge = COULEURS_TYPES_ACTIVITES[activite.type];
+
+  return (
+    <Link
+      to={`/planification/activites/${versSlug(activite.nom)}`}
+      className="bg-terra-100 border border-terra-border rounded-xl px-3.5 py-3 mb-2 flex items-center gap-3 hover:border-terra-500/40 transition-colors"
+    >
+      <div className="flex-1 min-w-0">
+        {/* Ligne 1 : badge + lieu + durée */}
+        <div className="flex items-center gap-2 mb-1 flex-wrap">
+          <span
+            className="text-white text-[10px] font-medium px-2 py-0.5 rounded-md"
+            style={{ backgroundColor: couleurBadge }}
+          >
+            {activite.type}
+          </span>
+          <span className="text-[11px] text-terra-muted flex items-center gap-1">
+            <MapPin className="w-3 h-3" strokeWidth={2} />
+            {activite.lieu}
+            {activite.duree && (
+              <>
+                <span className="mx-0.5">·</span>
+                <span className="italic">{activite.duree}</span>
+              </>
+            )}
+          </span>
+        </div>
+
+        {/* Ligne 2 : nom de l'activité */}
+        <div className="font-serif text-base text-terra-900 leading-tight">
+          {activite.nom}
+        </div>
+      </div>
+
+      {/* À droite : étoiles (rien si pas d'importance) */}
+      <Etoiles nombre={activite.importance} />
+    </Link>
+  );
+}
+
+export default CarteActivite;
+</file>
+
+<file path="src/composants/carteFaune.jsx">
+import { Link } from 'react-router-dom';
+import { versSlug } from '../donnees/constantes';
+
+function CarteFaune({ animal, vu }) {
+  const numero = String(animal.numero).padStart(3, '0');
+  const etoiles = '★'.repeat(animal.rarete) + '☆'.repeat(3 - animal.rarete);
+
+  return (
+    <Link
+      to={`/journal/faune/${versSlug(animal.nom)}`}
+      className={`relative bg-terra-100 rounded-xl p-2.5 text-center border overflow-hidden ${
+        vu
+          ? 'border-terra-border'
+          : 'border-terra-border border-dashed opacity-55'
+      }`}
+    >
+      {/* Numéro Pokédex */}
+      <div className="text-[9px] text-terra-muted text-left mb-0.5">
+        N°{numero}
+      </div>
+
+      {/* Zone image */}
+      <div className="w-14 h-14 mx-auto mb-1.5 flex items-center justify-center">
+        {animal.photo ? (
+          <img
+            src={`/images/faune/${animal.photo}`}
+            alt={animal.nom}
+            className={`w-full h-full object-contain transition-all duration-500 ${
+              vu ? '' : 'grayscale brightness-0'
+            }`}
+          />
+        ) : (
+          /* Fallback emoji si pas de photo */
+          <div
+            className={`w-14 h-14 rounded-full flex items-center justify-center text-3xl ${
+              vu ? 'bg-terra-500/10' : 'bg-terra-muted/10 grayscale brightness-50'
+            }`}
+          >
+            {animal.emoji}
+          </div>
+        )}
+      </div>
+
+      {/* Nom */}
+      <div
+        className={`text-[11px] font-medium leading-tight ${
+          vu ? 'text-terra-900' : 'text-terra-muted'
+        }`}
+      >
+        {animal.nom}
+      </div>
+
+      {/* Étoiles */}
+      <div
+        className={`text-[8px] mt-0.5 ${
+          vu ? 'text-terra-500' : 'text-terra-muted'
+        }`}
+      >
+        {etoiles}
+      </div>
+    </Link>
+  );
+}
+
+export default CarteFaune;
+</file>
+
+<file path="src/composants/CartePlat.jsx">
+import { useState } from 'react';
+import { Check, ChevronDown, Wine, Cookie, UtensilsCrossed, PenLine } from 'lucide-react';
+import { COULEURS_PAYS, COULEURS_TYPE, couleursDuPlat } from '../donnees/constantes';
+
+const ICONE_TYPE = {
+  'Plat': UtensilsCrossed,
+  'Boisson': Wine,
+  'Dessert': Cookie,
+};
+
+/**
+ * CartePlat
+ *
+ * Props :
+ *   plat         — objet plat depuis gastronomie.json
+ *   avis         — objet avis depuis la DB (undefined si pas encore goûté)
+ *   onAjouter    — ({ platNom, avis }) => enregistre un avis
+ */
+function CartePlat({ plat, avis, onAjouter }) {
+  const [ouvert, setOuvert] = useState(false);
+  const [formulaireOuvert, setFormulaireOuvert] = useState(false);
+  const [texteAvis, setTexteAvis] = useState('');
+  const [enCours, setEnCours] = useState(false);
+
+  const cPays = couleursDuPlat(plat);
+  const cType = COULEURS_TYPE[plat.type] || COULEURS_TYPE['Plat'];
+  const Icone = ICONE_TYPE[plat.type] || UtensilsCrossed;
+
+  const teste = avis !== undefined;
+
+  const handleAjouter = async () => {
+    if (!texteAvis.trim()) return;
+    setEnCours(true);
+    try {
+      await onAjouter({ platNom: plat.nom, avis: texteAvis.trim() });
+      setFormulaireOuvert(false);
+      setTexteAvis('');
+    } finally {
+      setEnCours(false);
+    }
+  };
+
+  return (
+    <div
+      className="bg-terra-100 border border-[#D9CDB5] rounded-xl mb-2 overflow-hidden relative"
+      style={{ borderLeftWidth: 0 }}
+    >
+      {/* Barre verticale colorée par pays */}
+      <div
+        className="absolute left-0 top-0 bottom-0 w-[3px]"
+        style={{ backgroundColor: cPays.barre }}
+      />
+
+      {/* ─── Ligne principale ─── */}
+      <button
+        onClick={() => {
+          setOuvert((v) => !v);
+          // Ferme le formulaire si on replie la carte
+          if (ouvert) setFormulaireOuvert(false);
+        }}
+        className="w-full flex items-start gap-2.5 pl-4 pr-3.5 py-2.5 text-left"
+      >
+        {/* Icône ronde colorée par pays */}
+        <div
+          className="w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0"
+          style={{ backgroundColor: cPays.iconBg, color: cPays.iconText }}
+        >
+          <Icone className="w-[18px] h-[18px]" strokeWidth={2} />
+        </div>
+
+        {/* Bloc texte : nom + (pays · pastille type) */}
+        <div className="flex-1 min-w-0">
+          <div
+            className="font-serif text-[17px] leading-tight font-semibold mb-1"
+            style={{ color: '#3C2814' }}
+          >
+            {plat.nom}
+          </div>
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <span className="text-[11px]" style={{ color: '#8B6F4E' }}>
+              {plat.pays.join(' · ')}
+            </span>
+            <span
+              className="text-white text-[10px] font-medium px-2 py-0.5 rounded-md"
+              style={{ backgroundColor: cType }}
+            >
+              {plat.type}
+            </span>
+          </div>
+        </div>
+
+        {/* Pastille statut */}
+        <div
+          className="w-2 h-2 rounded-full flex-shrink-0 mt-3"
+          style={{
+            backgroundColor: teste ? '#6B8E4E' : '#C8763D',
+            opacity: teste ? 1 : 0.4,
+          }}
+        />
+
+        <ChevronDown
+          className={`w-4 h-4 flex-shrink-0 mt-3 transition-transform ${
+            ouvert ? 'rotate-180' : ''
+          }`}
+          style={{ color: '#8B6F4E' }}
+          strokeWidth={2}
+        />
+      </button>
+
+      {/* ─── Déroulé ─── */}
+      {ouvert && (
+        <div className="pl-4 pr-3.5 pb-3.5 pt-1">
+          {/* Description */}
+          <p
+            className="text-sm leading-relaxed mb-3 text-justify"
+            style={{ color: '#5C4A35' }}
+          >
+            {plat.description}
+          </p>
+
+          {/* Anecdote */}
+          {plat.anecdote && (
+            <div
+              className="rounded-md px-3 py-2 mb-3 relative font-serif italic text-[12px] leading-relaxed pl-6 text-justify"
+              style={{ backgroundColor: '#F0E5D0', color: '#5C4A35' }}
+            >
+              <span
+                className="absolute left-2 top-0.5 text-2xl not-italic font-serif leading-none"
+                style={{ color: cPays.accent }}
+              >
+                «
+              </span>
+              {plat.anecdote}
+            </div>
+          )}
+
+          {teste && (
+            <div className="bg-emerald-500/8 border border-emerald-500/25 rounded-xl p-3 mb-3">
+              <div className="text-[10px] uppercase tracking-wider text-emerald-700 mb-1.5">
+                Mon avis
+              </div>
+              <p className="font-serif text-sm italic text-terra-900/80 leading-relaxed">
+                « {avis.avis} »
+              </p>
+            </div>
+          )}
+
+          {/* ─── Formulaire avis ─── */}
+          {!teste && !formulaireOuvert && (
+            <button
+              onClick={() => setFormulaireOuvert(true)}
+              className="w-full bg-terra-500 text-white rounded-lg py-2 text-sm font-medium flex items-center justify-center gap-2"
+            >
+              <Check className="w-4 h-4" strokeWidth={2.5} />
+              Je l'ai goûté !
+            </button>
+          )}
+
+          {!teste && formulaireOuvert && (
+            <div className="bg-white border border-terra-border rounded-xl p-3 flex flex-col gap-2.5">
+              <div className="text-[10px] uppercase tracking-wider text-terra-muted flex items-center gap-1">
+                <PenLine className="w-3 h-3" strokeWidth={2} />
+                Mon avis
+              </div>
+
+              <textarea
+                value={texteAvis}
+                onChange={(e) => setTexteAvis(e.target.value)}
+                placeholder="Ce que tu en as pensé…"
+                rows={3}
+                className="w-full bg-terra-100 border border-terra-border rounded-lg px-3 py-2 text-sm text-terra-900 placeholder:text-terra-muted outline-none focus:border-terra-500 transition-colors resize-none"
+                autoFocus
+              />
+
+              <div className="flex gap-2">
+                <button
+                  onClick={() => {
+                    setFormulaireOuvert(false);
+                    setTexteAvis('');
+                  }}
+                  className="flex-1 bg-terra-100 border border-terra-border text-terra-muted rounded-lg py-2 text-xs"
+                >
+                  Annuler
+                </button>
+                <button
+                  onClick={handleAjouter}
+                  disabled={enCours || !texteAvis.trim()}
+                  className="flex-1 bg-terra-500 text-white rounded-lg py-2 text-sm font-medium flex items-center justify-center gap-1.5 disabled:opacity-50"
+                >
+                  <Check className="w-4 h-4" strokeWidth={2.5} />
+                  {enCours ? 'Enregistrement…' : 'Confirmer'}
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default CartePlat;
+</file>
+
+<file path="src/main.jsx">
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import './index.css'
+import App from './App.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <BrowserRouter>
+      <App />    
+    </BrowserRouter>
+  </StrictMode>,
+)
+</file>
+
+<file path="src/modules/Activites.jsx">
+import { useState } from 'react';
+import { Search, X } from 'lucide-react';
+import activites from '../donnees/activites.json';
+import { PAYS, TYPES_ACTIVITES } from '../donnees/constantes';
+import CarteActivite from '../composants/CarteActivite';
+import OngletsPlanification from '../composants/OngletsPlanification';
+import { useEtatPersistant } from '../hooks/useEtatPersistant';
+
+function Activites() {
+  // ─── ÉTATS ──────────────────────────────────────────
+  const [paysActif, setPaysActif] = useEtatPersistant('activites:pays', 'Pérou');
+  const [typeActif, setTypeActif] = useEtatPersistant('activites:type', 'Tout');
+  const [recherche, setRecherche] = useEtatPersistant('activites:recherche', '');
+
+  // ─── FILTRAGE ───────────────────────────────────────
+  const rechercheNorm = recherche.trim().toLowerCase();
+
+  const parPays = rechercheNorm
+    ? activites
+    : activites.filter((a) => a.pays === paysActif);
+
+  const parType =
+    typeActif === 'Tout'
+      ? parPays
+      : parPays.filter((a) => a.type === typeActif);
+
+  const resultats = rechercheNorm
+    ? parType.filter(
+        (a) =>
+          a.nom.toLowerCase().includes(rechercheNorm) ||
+          a.lieu.toLowerCase().includes(rechercheNorm)
+      )
+    : parType;
+
+  const resultatsTries = [...resultats].sort((a, b) => {
+    // 1. Par lieu (alphabétique)
+    const dl = a.lieu.localeCompare(b.lieu, 'fr');
+    if (dl !== 0) return dl;
+    // 2. Par importance décroissante
+    return (b.importance || 0) - (a.importance || 0);
+  });
+
+  // ─── RENDU ──────────────────────────────────────────
+  return (
+    <div className="p-4">
+
+      <OngletsPlanification />
+
+      {/* Barre de recherche */}
+      <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
+        <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
+        <input
+          type="text"
+          value={recherche}
+          onChange={(e) => setRecherche(e.target.value)}
+          placeholder="Rechercher une activité, un lieu…"
+          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted"
+        />
+        {recherche && (
+          <button
+            onClick={() => setRecherche('')}
+            className="text-terra-muted hover:text-terra-500"
+          >
+            <X className="w-4 h-4" strokeWidth={2} />
+          </button>
+        )}
+      </div>
+
+      {/* Pills pays — masquées pendant la recherche */}
+      {!rechercheNorm && (
+        <div className="flex gap-1.5 mb-2 flex-wrap">
+          {PAYS.map((pays) => {
+            const actif = pays === paysActif;
+            return (
+              <button
+                key={pays}
+                onClick={() => setPaysActif(pays)}
+                className={
+                  actif
+                    ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                    : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
+                }
+              >
+                {pays}
+              </button>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Pills type */}
+      <div className="flex gap-1.5 mb-3 flex-wrap">
+        {['Tout', ...TYPES_ACTIVITES].map((type) => {
+          const actif = type === typeActif;
+          return (
+            <button
+              key={type}
+              onClick={() => setTypeActif(type)}
+              className={
+                actif
+                  ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                  : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
+              }
+            >
+              {type}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Compteur de résultats */}
+      <div className="text-xs text-terra-muted mb-2">
+        {resultatsTries.length} résultat{resultatsTries.length !== 1 ? 's' : ''}
+        {rechercheNorm ? ` pour « ${recherche} »` : ` · ${paysActif}`}
+      </div>
+
+      {/* Liste */}
+      {resultatsTries.length === 0 ? (
+        <div className="text-center py-8 text-terra-muted text-sm">
+          Aucun résultat
+        </div>
+      ) : (
+        resultatsTries.map((act) => (
+          <CarteActivite key={act.nom} activite={act} />
+        ))
+      )}
+    </div>
+  );
+}
+
+export default Activites;
+</file>
+
+<file path="src/modules/Apprendre.jsx">
+// src/modules/Apprendre.jsx
+import { Link } from 'react-router-dom';
+import { MapPin } from 'lucide-react';
+import culture from '../donnees/culture.json';
+
+function Apprendre() {
+  return (
+    <div className="p-4">
+
+      {/* ─── Titre ─── */}
+      <h1 className="text-3xl font-serif text-terra-900 mb-4">
+        Apprendre
+      </h1>
+
+      {/* ─── Visites guidées ─── */}
+      <Link
+        to="/apprendre/visites-guidees"
+        className="flex items-center justify-between bg-terra-500 rounded-2xl p-4 mb-6 shadow-[0_4px_16px_rgba(201,98,63,0.22)]"
+      >
+        <div>
+          <div className="text-[10px] uppercase tracking-wider text-white/60 mb-1">
+            Sur place
+          </div>
+          <div className="font-serif italic text-lg text-white leading-tight">
+            Visites guidées
+          </div>
+          <div className="text-[11px] text-white/70 mt-1">
+            Fiches terrain · lieux à connaître
+          </div>
+        </div>
+        <MapPin className="w-8 h-8 text-white/30" strokeWidth={1.5} />
+      </Link>
+
+      {/* ─── Se cultiver ─── */}
+      <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-4">
+        Se cultiver
+      </div>
+
+      {/* ─── Catégories ─── */}
+      <div className="flex flex-col gap-6">
+        {culture.map((categorie) => (
+          <div key={categorie.id}>
+
+            {/* Titre de la catégorie */}
+            <div className="flex items-baseline justify-between mb-2.5">
+              <h2 className="font-serif text-lg text-terra-900">
+                {categorie.titre}
+              </h2>
+              <span className="text-[10px] text-terra-muted">
+                {categorie.themes.length} thème{categorie.themes.length > 1 ? 's' : ''}
+              </span>
+            </div>
+
+            {/* Carousel de thèmes */}
+            <div className="flex gap-3 overflow-x-auto pb-2 -mx-4 px-4 scrollbar-hide">
+              {categorie.themes.map((theme) => (
+              <Link
+                key={theme.id}
+                to={`/apprendre/theme/${theme.id}`}
+                className="flex-shrink-0 w-36 rounded-xl overflow-hidden min-h-[100px] relative"
+                style={
+                  theme.image
+                    ? { backgroundImage: `url(${theme.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }
+                    : {}
+                }
+              >
+                {/* Dégradé sombre en bas pour lisibilité du texte */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+
+                {/* Contenu par dessus l'image */}
+                <div className="relative h-full p-3 flex flex-col justify-between min-h-[100px]">
+                  <div className="text-[10px] text-white/70 leading-tight">
+                    {theme.sousTitre}
+                  </div>
+                  <div className="font-serif text-sm text-white leading-tight">
+                    {theme.titre}
+                  </div>
+                </div>
+              </Link>
+              ))}
+            </div>
+
+          </div>
+        ))}
+      </div>
+
+    </div>
+  );
+}
+
+export default Apprendre;
+</file>
+
+<file path="src/modules/Faune.jsx">
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowLeft, Search, X } from 'lucide-react';
+import faune from '../donnees/faune.json';
+import CarteFaune from '../composants/CarteFaune';
+import { useObservationsFaune } from '../hooks/useObservationsFaune';
+
+function Faune() {
+  // ─── ÉTATS ──────────────────────────────────────────
+  const [statutActif, setStatutActif] = useState('Tous');
+  const [recherche, setRecherche] = useState('');
+
+  // Live depuis IndexedDB — se met à jour automatiquement
+  const { vuSet } = useObservationsFaune();
+
+  // Helper : un animal est-il vu ?
+  const estVu = (animal) => vuSet.has(animal.nom);
+
+  // ─── FILTRAGE ───────────────────────────────────────
+  const rechercheNorm = recherche.trim().toLowerCase();
+
+  const parStatut = faune.filter((a) => {
+    if (statutActif === 'Tous') return true;
+    if (statutActif === 'Vus') return estVu(a);
+    if (statutActif === 'AVoir') return !estVu(a);
+    if (statutActif === 'Rares') return a.rarete === 3;
+    return true;
+  });
+
+  const resultats = rechercheNorm
+    ? parStatut.filter((a) => a.nom.toLowerCase().includes(rechercheNorm))
+    : parStatut;
+
+  const resultatsTries = [...resultats].sort((a, b) => a.numero - b.numero);
+
+  // ─── COMPTEURS ──────────────────────────────────────
+  const totalVus = faune.filter(estVu).length;
+  const totalAnimaux = faune.length;
+  const pctVus = totalAnimaux > 0 ? (totalVus / totalAnimaux) * 100 : 0;
+
+  // ─── RENDU ──────────────────────────────────────────
+  return (
+    <div className="p-4">
+      {/* Bouton retour */}
+      <Link
+        to="/journal"
+        className="flex items-center gap-2 text-terra-500 mb-3"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </Link>
+
+      {/* En-tête : titre + compteur global */}
+      <div className="flex items-end justify-between mb-2">
+        <div>
+          <h1 className="text-3xl font-serif text-terra-900 leading-tight">
+            Pokédex
+          </h1>
+          <div className="text-[10px] uppercase tracking-wider text-terra-muted mt-0.5">
+            de la faune
+          </div>
+        </div>
+        <div className="text-right">
+          <div className="text-lg font-medium text-terra-500">
+            {totalVus}
+            <span className="text-terra-muted font-normal"> / {totalAnimaux}</span>
+          </div>
+          <div className="text-[10px] text-terra-muted">espèces vues</div>
+        </div>
+      </div>
+
+      {/* Barre de progression globale */}
+      <div className="h-1 bg-terra-100 rounded-sm overflow-hidden mb-4">
+        <div
+          className="h-full bg-terra-500 rounded-sm transition-[width] duration-500"
+          style={{ width: `${pctVus}%` }}
+        />
+      </div>
+
+      {/* Barre de recherche */}
+      <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
+        <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
+        <input
+          type="text"
+          value={recherche}
+          onChange={(e) => setRecherche(e.target.value)}
+          placeholder="Rechercher une espèce…"
+          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted"
+        />
+        {recherche && (
+          <button
+            onClick={() => setRecherche('')}
+            className="text-terra-muted hover:text-terra-500"
+          >
+            <X className="w-4 h-4" strokeWidth={2} />
+          </button>
+        )}
+      </div>
+
+      {/* Filtres STATUT */}
+      <div className="flex gap-1.5 mb-3 flex-wrap">
+        {[
+          { cle: 'Tous', libelle: 'Tous' },
+          { cle: 'Vus', libelle: '✓ Vus' },
+          { cle: 'AVoir', libelle: 'À voir' },
+          { cle: 'Rares', libelle: '★★★ Rares' },
+        ].map(({ cle, libelle }) => {
+          const actif = statutActif === cle;
+          return (
+            <button
+              key={cle}
+              onClick={() => setStatutActif(cle)}
+              className={
+                actif
+                  ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                  : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
+              }
+            >
+              {libelle}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Compteur de résultats */}
+      <div className="text-xs text-terra-muted mb-3">
+        {resultatsTries.length} espèce
+        {resultatsTries.length !== 1 ? 's' : ''}
+        {rechercheNorm && ` pour « ${recherche} »`}
+      </div>
+
+      {/* Grille 3 colonnes ou message vide */}
+      {resultatsTries.length === 0 ? (
+        <div className="text-center py-8 text-terra-muted text-sm">
+          Aucune espèce ne correspond
+        </div>
+      ) : (
+        <div className="grid grid-cols-3 gap-2">
+          {resultatsTries.map((animal) => (
+            <CarteFaune
+              key={animal.nom}
+              animal={animal}
+              vu={estVu(animal)}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default Faune;
+</file>
+
+<file path="src/modules/Gastronomie.jsx">
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowLeft, Search, X } from 'lucide-react';
+import gastronomie from '../donnees/gastronomie.json';
+import { PAYS } from '../donnees/constantes';
+import CartePlat from '../composants/CartePlat';
+import { useAvisGastronomie } from '../hooks/useAvisGastronomie';
+
+function Gastronomie() {
+  // ─── ÉTATS UI ───────────────────────────────────────
+  const [paysActif, setPaysActif] = useState(PAYS[0]);
+  const [recherche, setRecherche] = useState('');
+
+  // ─── DB (live) ──────────────────────────────────────
+  const { testeSet, avisDe, ajouterAvis, supprimerAvis } = useAvisGastronomie();
+
+  // ─── FILTRAGE ───────────────────────────────────────
+  const rechercheNorm = recherche.trim().toLowerCase();
+
+  const parPays = rechercheNorm
+    ? gastronomie
+    : gastronomie.filter((p) =>
+        Array.isArray(p.pays) ? p.pays.includes(paysActif) : p.pays === paysActif
+      );
+
+  const filtres = rechercheNorm
+    ? parPays.filter((p) => p.nom.toLowerCase().includes(rechercheNorm))
+    : parPays;
+
+  const ORDRE_TYPES = { Boisson: 0, Plat: 1, Dessert: 2 };
+
+  const resultats = [...filtres].sort((a, b) => {
+    const dt = (ORDRE_TYPES[a.type] ?? 99) - (ORDRE_TYPES[b.type] ?? 99);
+    if (dt !== 0) return dt;
+    // Non-testés en haut
+    const testeA = testeSet.has(a.nom) ? 1 : 0;
+    const testeB = testeSet.has(b.nom) ? 1 : 0;
+    return testeA - testeB;
+  });
+
+  // ─── COMPTEURS ──────────────────────────────────────
+  const totalTestes = testeSet.size;
+  const totalPlats = gastronomie.length;
+  const pctTestes = totalPlats > 0 ? (totalTestes / totalPlats) * 100 : 0;
+
+  // ─── RENDU ──────────────────────────────────────────
+  return (
+    <div className="p-4">
+      {/* Bouton retour */}
+      <Link to="/journal" className="flex items-center gap-2 text-terra-500 mb-3">
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </Link>
+
+      {/* En-tête */}
+      <div className="flex items-end justify-between mb-2">
+        <div>
+          <h1 className="text-3xl font-serif text-terra-900 leading-tight">
+            Gastronomie
+          </h1>
+          <div className="text-[10px] uppercase tracking-wider text-terra-muted mt-0.5">
+            cartes des saveurs
+          </div>
+        </div>
+        <div className="text-right">
+          <div className="text-lg font-medium text-terra-500">
+            {totalTestes}
+            <span className="text-terra-muted font-normal"> / {totalPlats}</span>
+          </div>
+          <div className="text-[10px] text-terra-muted">testés</div>
+        </div>
+      </div>
+
+      {/* Barre de progression */}
+      <div className="h-1 bg-terra-100 rounded-sm overflow-hidden mb-4">
+        <div
+          className="h-full bg-terra-500 rounded-sm transition-[width] duration-500"
+          style={{ width: `${pctTestes}%` }}
+        />
+      </div>
+
+      {/* Filtre pays */}
+      <div className="flex gap-1.5 flex-wrap mb-3">
+        {PAYS.map((pays) => (
+          <button
+            key={pays}
+            onClick={() => setPaysActif(pays)}
+            className={
+              pays === paysActif
+                ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
+            }
+          >
+            {pays}
+          </button>
+        ))}
+      </div>
+
+      {/* Recherche */}
+      <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
+        <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
+        <input
+          type="text"
+          value={recherche}
+          onChange={(e) => setRecherche(e.target.value)}
+          placeholder="Rechercher…"
+          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted min-w-0"
+        />
+        {recherche && (
+          <button
+            onClick={() => setRecherche('')}
+            className="text-terra-muted hover:text-terra-500 flex-shrink-0"
+          >
+            <X className="w-4 h-4" strokeWidth={2} />
+          </button>
+        )}
+      </div>
+
+      {/* Compteur */}
+      <div className="text-xs text-terra-muted mb-3">
+        {resultats.length} plat{resultats.length !== 1 ? 's' : ''}
+        {rechercheNorm && ` pour « ${recherche} »`}
+      </div>
+
+      {/* Liste */}
+      {resultats.length === 0 ? (
+        <div className="text-center py-8 text-terra-muted text-sm">
+          Aucun plat ne correspond
+        </div>
+      ) : (
+        resultats.map((plat) => (
+          <CartePlat
+            key={plat.nom}
+            plat={plat}
+            avis={avisDe(plat.nom)}
+            onAjouter={ajouterAvis}
+          />
+        ))
+      )}
+    </div>
+  );
+}
+
+export default Gastronomie;
+</file>
+
+<file path="src/modules/Planification.jsx">
+import { useState } from 'react';
+import { Search, X } from 'lucide-react';
+import activites from '../donnees/activites.json';
+import { PAYS, TYPES_ACTIVITES } from '../donnees/constantes';
+import CarteActivite from '../composants/CarteActivite';
+
+function Planification() {
+  // ─── ÉTATS ──────────────────────────────────────────
+  const [paysActif, setPaysActif] = useState('Pérou');
+  const [typeActif, setTypeActif] = useState('Tout');
+  const [recherche, setRecherche] = useState('');
+
+  // ─── FILTRAGE ───────────────────────────────────────
+  const rechercheNorm = recherche.trim().toLowerCase();
+
+  // Si on tape une recherche, on cherche dans TOUS les pays
+  // Sinon, on filtre par pays sélectionné
+  const parPays = rechercheNorm
+    ? activites
+    : activites.filter((a) => a.pays === paysActif);
+
+  // Filtre par type (sauf si "Tout")
+  const parType =
+    typeActif === 'Tout'
+      ? parPays
+      : parPays.filter((a) => a.type === typeActif);
+
+  // Filtre par texte (nom ou lieu)
+  const resultats = rechercheNorm
+    ? parType.filter(
+        (a) =>
+          a.nom.toLowerCase().includes(rechercheNorm) ||
+          a.lieu.toLowerCase().includes(rechercheNorm)
+      )
+    : parType;
+
+  // Tri par importance décroissante (les null/0 atterrissent en bas)
+  const resultatsTries = [...resultats].sort(
+    (a, b) => (b.importance || 0) - (a.importance || 0)
+  );
+
+  // ─── RENDU ──────────────────────────────────────────
+  return (
+    <div className="p-4">
+      <h1 className="text-3xl font-serif text-terra-900 mb-3">Planification</h1>
+
+      {/* Barre de recherche */}
+      <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
+        <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
+        <input
+          type="text"
+          value={recherche}
+          onChange={(e) => setRecherche(e.target.value)}
+          placeholder="Rechercher une activité, un lieu…"
+          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted"
+        />
+        {recherche && (
+          <button
+            onClick={() => setRecherche('')}
+            className="text-terra-muted hover:text-terra-500"
+          >
+            <X className="w-4 h-4" strokeWidth={2} />
+          </button>
+        )}
+      </div>
+
+      {/* Pills pays — masquées pendant la recherche */}
+      {!rechercheNorm && (
+        <div className="flex gap-1.5 mb-2 flex-wrap">
+          {PAYS.map((pays) => {
+            const actif = pays === paysActif;
+            return (
+              <button
+                key={pays}
+                onClick={() => setPaysActif(pays)}
+                className={
+                  actif
+                    ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                    : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
+                }
+              >
+                {pays}
+              </button>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Pills type */}
+      <div className="flex gap-1.5 mb-3 flex-wrap">
+        {['Tout', ...TYPES_ACTIVITES].map((type) => {
+          const actif = type === typeActif;
+          return (
+            <button
+              key={type}
+              onClick={() => setTypeActif(type)}
+              className={
+                actif
+                  ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                  : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
+              }
+            >
+              {type}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Compteur de résultats */}
+      <div className="text-xs text-terra-muted mb-2">
+        {resultatsTries.length} résultat{resultatsTries.length !== 1 ? 's' : ''}
+        {rechercheNorm ? ` pour « ${recherche} »` : ` · ${paysActif}`}
+      </div>
+
+      {/* Liste */}
+      {resultatsTries.length === 0 ? (
+        <div className="text-center py-8 text-terra-muted text-sm">
+          Aucun résultat
+        </div>
+      ) : (
+        resultatsTries.map((act) => (
+          <CarteActivite key={act.nom} activite={act} />
+        ))
+      )}
+    </div>
+  );
+}
+
+export default Planification;
+</file>
+
+<file path="vite.config.js">
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+})
+</file>
+
+<file path="src/donnees/constantes.js">
+// module Planification
+
+export const PAYS = ['Pérou', 'Equateur', 'Bolivie', 'Chili', 'Argentine'];
+
+export const TYPES_ACTIVITES = ['Trek', 'Visite','Divers', 'Excursion'];
+
+export const COULEURS_TYPES_ACTIVITES = {
+  Trek: '#c9623f',
+  Visite: '#7a4f2e',
+  Divers: '#d4872a',
+  Excursion: '#d4872a'
+};
+
+// module Faune
+
+export const RARETE_LIBELLES = {
+  1: 'commun',
+  2: 'peu commun',
+  3: 'rare',
+};
+
+// module Gastronomie
+
+export const TYPES_GASTRONOMIE = ['Boisson', 'Plat', 'Dessert'];
+
+export const COULEURS_PAYS = {
+  'Pérou':    { barre: '#C8763D', iconBg: '#FAECE7', iconText: '#993C1D', accent: '#C8763D' }, // terracotta
+  'Bolivie':  { barre: '#639922', iconBg: '#EAF3DE', iconText: '#3B6D11', accent: '#639922' }, // vert
+  'Chili':    { barre: '#185FA5', iconBg: '#E6F1FB', iconText: '#042C53', accent: '#185FA5' }, // bleu profond
+  'Equateur': { barre: '#EF9F27', iconBg: '#FAEEDA', iconText: '#854F0B', accent: '#EF9F27' }, // jaune/or
+  'Argentine':{ barre: '#7BB7E0', iconBg: '#E6F1FB', iconText: '#185FA5', accent: '#7BB7E0' }, // bleu ciel
+};
+
+export const COULEURS_TYPE = {
+  Plat:    '#c9623f', // terracotta (terra-500)
+  Boisson: '#7a4f2e', // brun (terra-700)
+  Dessert: '#d4872a', // ambre
+};
+
+export const couleursDuPlat = (plat) => {
+  const pays = Array.isArray(plat.pays) ? plat.pays[0] : plat.pays;
+  return COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
+};
+
+
+export function versSlug(texte) {
+  return texte
+    .toLowerCase()
+    .normalize('NFD')                  // sépare les accents des lettres
+    .replace(/[\u0300-\u036f]/g, '')   // supprime les accents
+    .replace(/\s+/g, '-')              // espaces → tirets
+    .replace(/[^a-z0-9-]/g, '');       // supprime tout sauf lettres/chiffres/tirets
+}
+</file>
+
+<file path="src/index.css">
+@import "tailwindcss";
+
+@theme {
+  --color-terra-50: #fdf8f0;
+  --color-terra-100: #fffcf7;
+  --color-terra-200: #f5e6df;
+  --color-terra-500: #c9623f;
+  --color-terra-700: #7a4f2e;
+  --color-terra-900: #2a1a0e;
+  --color-terra-muted: #9a7055;
+  --color-terra-border: rgba(180, 120, 80, 0.18);
+
+  --font-serif: "Playfair Display", Georgia, serif;
+
+  --color-parchemin: #e7d7b3;
+  --color-parchemin-carte: #f4ecd6;
+  --color-parchemin-bordure: rgba(120, 90, 50, 0.28);
+  --color-encre: #33210f;
+  --color-encre-douce: #6a5236;
+  --color-sepia: #8a6a44;
+  --color-creme: #f3ead4;
+  --color-jeu-quiz: #7a3520;
+  --color-jeu-enquete: #254234;
+  --color-jeu-escape: #1f3340;
+  --color-vert-cta: #234034;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--color-terra-50);
+  color: var(--color-terra-900);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;   /* Internet Explorer */
+  scrollbar-width: none;       /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;               /* Chrome, Safari */
+}
+
+.fond-carte {
+  background: url('/images/jeux/background.png') center/cover no-repeat;
+}
+
+.fond-carte-enquete {
+  background:     
+    url('/images/jeux/enquete.png') center/cover no-repeat;
+  background-size: 100% 100%;
+}
+
+.grain-papier {
+  position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply; opacity: .07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.vignette-carte { position: absolute; inset: 0; pointer-events: none; box-shadow: inset 0 0 90px rgba(90,63,34,.30); }
+
+.texture-cuir {
+  background-image: url('/images/jeux/texture.jpg');
+  background-size: 320px;       
+  background-blend-mode: overlay;
+}
+</file>
+
+<file path="src/modules/DetailActivite.jsx">
+import { useParams, Link, useNavigate } from 'react-router-dom';
+import { ArrowLeft, MapPin, Play, ChevronRight } from 'lucide-react';
+import activites from '../donnees/activites.json';
+import { COULEURS_TYPES_ACTIVITES, versSlug } from '../donnees/constantes';
+import Etoiles from '../composants/Etoiles';
+import GalerieActivite from '../composants/GalerieActivite';
+import TexteFormate from '../composants/TexteFormate';
+
+
+function DetailActivite() {
+  const { slug } = useParams();
+  const navigate = useNavigate();
+  const activite = activites.find((a) => versSlug(a.nom) === slug);
+
+  if (!activite) {
+    return (
+      <div className="p-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <span className="text-sm">Retour</span>
+        </button>
+        <p className="text-terra-muted">Activité introuvable.</p>
+      </div>
+    );
+  }
+
+  const couleurBadge = COULEURS_TYPES_ACTIVITES[activite.type];
+
+  // Le lieu devient cliquable si lieuId est présent dans le JSON
+  const LieuAffiche = () =>
+    activite.lieuId ? (
+      <Link
+        to={`/planification/lieux/${activite.lieuId}`}
+        className="text-terra-500 underline-offset-2 hover:underline"
+      >
+        {activite.lieu}
+      </Link>
+    ) : (
+      <span>{activite.lieu}</span>
+    );
+
+  return (
+    <div className="p-4">
+      {/* Bouton retour intelligent */}
+      <button
+        onClick={() => navigate(-1)}
+        className="flex items-center gap-2 text-terra-500 mb-4"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </button>
+
+      {/* Badge type + lieu cliquable + pays */}
+      <div className="flex items-center gap-2 mb-2 flex-wrap">
+        <span
+          className="text-white text-[11px] font-medium px-2.5 py-0.5 rounded-md"
+          style={{ backgroundColor: couleurBadge }}
+        >
+          {activite.type}
+        </span>
+        <span className="text-xs text-terra-muted flex items-center gap-1">
+          <MapPin className="w-3 h-3" strokeWidth={2} />
+          <LieuAffiche /> · {activite.pays}
+        </span>
+      </div>
+
+      {/* Titre */}
+      <h1 className="font-serif text-2xl text-terra-900 leading-tight mb-2">
+        {activite.nom}
+      </h1>
+
+      {/* Étoiles + durée */}
+      {(activite.importance || activite.duree) && (
+        <div className="flex items-center gap-3 mb-4">
+          <Etoiles nombre={activite.importance} />
+          {activite.duree && (
+            <span className="text-sm text-terra-muted italic">
+              {activite.duree}
+            </span>
+          )}
+        </div>
+      )}
+
+      <div className="h-px bg-terra-border mb-4" />
+
+      {/* Galerie d'images (n'affiche rien si pas d'images) */}
+      <GalerieActivite images={activite.images} />
+
+      {/* Description en paragraphes */}
+      {activite.description.split('\n\n').map((paragraphe, i) => (
+        <p
+          key={i}
+          className="text-sm text-terra-900 leading-relaxed mb-3 text-justify"
+        >
+          <TexteFormate texte={paragraphe} />
+        </p>
+      ))}
+
+      {/* Bouton visite guidée */}
+      {activite.visiteGuidee && (
+        <Link
+          to={`/apprendre/visites-guidees/${versSlug(activite.nom)}`}
+          className="flex items-center gap-3 bg-terra-100 border border-terra-500 rounded-xl px-3.5 py-3 mt-4"
+        >
+          <div className="w-8 h-8 rounded-full bg-terra-500/15 flex items-center justify-center flex-shrink-0">
+            <Play className="w-4 h-4 text-terra-500" strokeWidth={2} fill="currentColor" />
+          </div>
+          <div className="flex-1">
+            <div className="text-sm text-terra-900 font-medium">
+              Visite guidée disponible
+            </div>
+          </div>
+          <ChevronRight className="w-5 h-5 text-terra-500" strokeWidth={2} />
+        </Link>
+      )}
+    </div>
+  );
+}
+
+export default DetailActivite;
+</file>
+
+<file path="src/modules/DetailFaune.jsx">
+import { useState } from 'react';
+import { useParams, Link } from 'react-router-dom';
+import { ArrowLeft, Check, MapPin, Calendar, Trash2, PenLine } from 'lucide-react';
+import faune from '../donnees/faune.json';
+import { RARETE_LIBELLES, versSlug } from '../donnees/constantes';
+import Accordeon from '../composants/Accordeon';
+import { useObservationsFaune } from '../hooks/useObservationsFaune';
+
+function DetailFaune() {
+  const { slug } = useParams();
+  const animal = faune.find((a) => versSlug(a.nom) === slug);
+
+  const { observationDe, marquerVu, supprimerObservation } = useObservationsFaune();
+
+  // Formulaire d'observation
+  const [formulaireOuvert, setFormulaireOuvert] = useState(false);
+  const [lieu, setLieu] = useState('');
+  const [note, setNote] = useState('');
+  const [enCours, setEnCours] = useState(false);
+
+  if (!animal) {
+    return (
+      <div className="p-4">
+        <Link to="/journal/faune" className="flex items-center gap-2 text-terra-500 mb-4">
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <span className="text-sm">Retour</span>
+        </Link>
+        <p className="text-terra-muted">Espèce introuvable.</p>
+      </div>
+    );
+  }
+
+  const numero = String(animal.numero).padStart(3, '0');
+  const etoiles = '★'.repeat(animal.rarete) + '☆'.repeat(3 - animal.rarete);
+  const rareteLibelle = RARETE_LIBELLES[animal.rarete];
+
+  // Observation live depuis la DB
+  const observation = observationDe(animal.nom);
+  const vu = observation !== undefined;
+
+  const handleMarquerVu = async () => {
+    setEnCours(true);
+    try {
+      await marquerVu({ animalNom: animal.nom, lieu, note });
+      setFormulaireOuvert(false);
+      setLieu('');
+      setNote('');
+    } finally {
+      setEnCours(false);
+    }
+  };
+
+  const handleSupprimer = async () => {
+    if (observation) {
+      await supprimerObservation(observation.id);
+    }
+  };
+
+  // Formatage de la date
+  const dateFormatee = observation?.date
+    ? new Date(observation.date).toLocaleDateString('fr-FR', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric',
+      })
+    : null;
+
+  return (
+    <div className="p-4">
+      {/* Bouton retour */}
+      <Link
+        to="/journal/faune"
+        className="flex items-center gap-2 text-terra-500 mb-4"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </Link>
+
+      {/* ─── Header ─── */}
+      <div className="bg-terra-100 rounded-2xl h-48 flex items-end justify-center relative mb-4 overflow-hidden">
+        <span className="absolute top-2.5 left-3 text-[10px] text-terra-muted bg-terra-50/85 px-2 py-0.5 rounded-md z-10">
+          N°{numero}
+        </span>
+        <span
+          className={`absolute top-2.5 right-3 text-[10px] px-2 py-0.5 rounded-md z-10 ${
+            vu
+              ? 'bg-terra-50/85 text-emerald-700'
+              : 'bg-terra-50/85 text-terra-500'
+          }`}
+        >
+          {vu ? '✓ vu' : `${etoiles} ${rareteLibelle}`}
+        </span>
+
+        {animal.photo ? (
+          <img
+            src={`/images/faune/${animal.photo}`}
+            alt={animal.nom}
+            className={`h-44 w-auto object-contain transition-all duration-700 drop-shadow-md ${
+              vu ? '' : 'grayscale brightness-0'
+            }`}
+          />
+        ) : (
+          <span className="text-8xl mb-4">{animal.emoji}</span>
+        )}
+      </div>
+
+      {/* Titre */}
+      <h1 className="font-serif text-2xl text-terra-900 leading-tight">
+        {animal.nom}
+      </h1>
+      <div className="inline-flex items-center gap-1 text-[11px] px-2 py-1 rounded bg-terra-100 text-terra-muted mb-4">
+        {etoiles} {rareteLibelle}
+      </div>
+
+      {/* ─── Bloc observation (si vu) ─── */}
+      {vu && (
+        <div className="bg-terra-500/10 border border-terra-500/20 rounded-xl p-3 mb-4">
+          <div className="flex items-center justify-between mb-2">
+            <div className="text-[10px] uppercase tracking-wider text-terra-500">
+              Mon observation
+            </div>
+            <button
+              onClick={handleSupprimer}
+              className="text-terra-muted hover:text-red-400 transition-colors"
+              title="Supprimer l'observation"
+            >
+              <Trash2 className="w-3.5 h-3.5" strokeWidth={2} />
+            </button>
+          </div>
+          <div className="flex items-center gap-2 text-xs text-terra-900 mb-1">
+            <Calendar className="w-3 h-3" strokeWidth={2} />
+            <span>{dateFormatee}</span>
+          </div>
+          {observation.lieu && (
+            <div className="flex items-center gap-2 text-xs text-terra-900 mb-2">
+              <MapPin className="w-3 h-3" strokeWidth={2} />
+              <span>{observation.lieu}</span>
+            </div>
+          )}
+          {observation.note && (
+            <div className="font-serif text-xs italic text-terra-900/80 leading-relaxed">
+              « {observation.note} »
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Comment le reconnaître */}
+      <div className="mb-4">
+        <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-1">
+          Comment le reconnaître
+        </div>
+        <p className="text-sm text-terra-900 leading-relaxed text-justify">
+          {animal.reconnaitre}
+        </p>
+      </div>
+
+      {/* Anecdote courte */}
+      {animal.anecdoteCourte && (
+        <div className="bg-terra-100 border-l-4 border-terra-500 rounded-md p-3 mb-4">
+          <p className="font-serif text-sm italic text-terra-900/80 leading-relaxed text-justify">
+            « {animal.anecdoteCourte} »
+          </p>
+        </div>
+      )}
+
+      {/* Où le trouver */}
+      {animal.ouLeTrouver && animal.ouLeTrouver.length > 0 && (
+        <div className="mb-4">
+          <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-2">
+            Où le trouver
+          </div>
+          <div className="flex flex-wrap gap-1.5">
+            {animal.ouLeTrouver.map((lieu) => (
+              <span
+                key={lieu}
+                className="text-[11px] px-2 py-1 rounded bg-terra-100 text-terra-500"
+              >
+                {lieu}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Accordéons */}
+      {animal.sections && animal.sections.length > 0 && (
+        <div className="border-b border-terra-border mb-4 text-justify">
+          {animal.sections.map((section, i) => (
+            <Accordeon
+              key={i}
+              titre={section.titre}
+              contenu={section.contenu}
+            />
+          ))}
+        </div>
+      )}
+
+      {/* ─── Bouton / Formulaire ─── */}
+      {!vu && !formulaireOuvert && (
+        <button
+          onClick={() => setFormulaireOuvert(true)}
+          className="w-full bg-terra-500 text-white rounded-xl py-3 font-medium text-sm flex items-center justify-center gap-2"
+        >
+          <Check className="w-4 h-4" strokeWidth={2.5} />
+          Je l'ai vu !
+        </button>
+      )}
+
+      {!vu && formulaireOuvert && (
+        <div className="bg-terra-100 border border-terra-border rounded-xl p-4 flex flex-col gap-3">
+          <div className="text-[10px] uppercase tracking-wider text-terra-muted flex items-center gap-1">
+            <PenLine className="w-3 h-3" strokeWidth={2} />
+            Enregistrer mon observation
+          </div>
+
+          {/* Lieu */}
+          <div>
+            <label className="text-[11px] text-terra-muted block mb-1">
+              Où ? <span className="text-terra-muted/60">(facultatif)</span>
+            </label>
+            <input
+              type="text"
+              value={lieu}
+              onChange={(e) => setLieu(e.target.value)}
+              placeholder="Ex : Vallée Sacrée, Cuzco"
+              className="w-full bg-white border border-terra-border rounded-lg px-3 py-2 text-sm text-terra-900 placeholder:text-terra-muted outline-none focus:border-terra-500 transition-colors"
+            />
+          </div>
+
+          {/* Note */}
+          <div>
+            <label className="text-[11px] text-terra-muted block mb-1">
+              Note <span className="text-terra-muted/60">(facultatif)</span>
+            </label>
+            <textarea
+              value={note}
+              onChange={(e) => setNote(e.target.value)}
+              placeholder="Ce que tu as remarqué…"
+              rows={3}
+              className="w-full bg-white border border-terra-border rounded-lg px-3 py-2 text-sm text-terra-900 placeholder:text-terra-muted outline-none focus:border-terra-500 transition-colors resize-none"
+            />
+          </div>
+
+          {/* Boutons */}
+          <div className="flex gap-2">
+            <button
+              onClick={() => {
+                setFormulaireOuvert(false);
+                setLieu('');
+                setNote('');
+              }}
+              className="flex-1 bg-white border border-terra-border text-terra-muted rounded-xl py-2.5 text-xs"
+            >
+              Annuler
+            </button>
+            <button
+              onClick={handleMarquerVu}
+              disabled={enCours}
+              className="flex-1 bg-terra-500 text-white rounded-xl py-2.5 text-sm font-medium flex items-center justify-center gap-1.5 disabled:opacity-60"
+            >
+              <Check className="w-4 h-4" strokeWidth={2.5} />
+              {enCours ? 'Enregistrement…' : 'Confirmer'}
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default DetailFaune;
+</file>
+
+<file path="src/modules/Journal.jsx">
+import { Link } from 'react-router-dom';
+import { PenLine, UtensilsCrossed, Mountain, Bird } from 'lucide-react';
+import faune from '../donnees/faune.json';
+import gastronomie from '../donnees/gastronomie.json';
+import { useObservationsFaune } from '../hooks/useObservationsFaune';
+import { useAvisGastronomie } from '../hooks/useAvisGastronomie';
+
+function Journal() {
+  // ─── DB (live) ──────────────────────────────────────
+  const { vuSet } = useObservationsFaune();
+  const { testeSet } = useAvisGastronomie();
+
+  // ─── Gastro ─────────────────────────────────────────
+  const gastro = { fait: testeSet.size, total: gastronomie.length };
+  const pctGastro = gastro.total > 0 ? (gastro.fait / gastro.total) * 100 : 0;
+
+  // ─── Pokédex ────────────────────────────────────────
+  const fauneFait = vuSet.size;
+  const fauneTotal = faune.length;
+
+  // ─── Fake en attendant leurs modules DB ─────────────
+  // Journal de bord : pas encore de table en DB
+  const last = null;
+
+  // 1ères Fois : pas encore de table en DB
+  const premieresFois = { fait: 0, total: 10 };
+  const pctPremieres = premieresFois.total > 0 ? (premieresFois.fait / premieresFois.total) * 100 : 0;
+  const circonference = 2 * Math.PI * 15;
+  const dashPremieres = (pctPremieres / 100) * circonference;
+
+  return (
+    <div className="p-4">
+      <h1 className="text-3xl font-serif text-terra-900 mb-4">Journal</h1>
+
+      <div className="flex flex-col gap-2.5">
+
+        {/* ═══ LIGNE 1 : Journal (accent) + Gastronomie ═══ */}
+        <div className="grid grid-cols-2 gap-2.5">
+
+          {/* ─── Journal de bord ─── */}
+          <Link
+            to="/journal/bord"
+            className="bg-terra-500 rounded-2xl p-3.5 min-h-[130px] flex flex-col justify-between shadow-[0_4px_16px_rgba(201,98,63,0.22)]"
+          >
+            <PenLine className="w-7 h-7 text-white/95" strokeWidth={1.7} />
+            <div>
+              <div className="font-serif italic text-lg text-white mb-1 leading-tight">
+                Journal
+              </div>
+              {last ? (
+                <>
+                  <div className="text-[10px] text-white/70">
+                    {last.humeur} {last.lieu} · {last.date}
+                  </div>
+                  <div className="text-[11px] text-white/85 mt-1 leading-snug line-clamp-2">
+                    {last.title || last.body}
+                  </div>
+                </>
+              ) : (
+                <div className="text-[11px] text-white/60">Aucune entrée</div>
+              )}
+            </div>
+          </Link>
+
+          {/* ─── Gastronomie — live ─── */}
+          <Link
+            to="/journal/gastronomie"
+            className="bg-terra-100 border border-terra-border rounded-2xl p-3.5 min-h-[130px] flex flex-col justify-between"
+          >
+            <UtensilsCrossed className="w-7 h-7 text-terra-500" strokeWidth={1.7} />
+            <div>
+              <div className="font-serif italic text-base text-terra-900 mb-2 leading-tight">
+                Gastro
+              </div>
+              <div className="h-1 bg-terra-500/15 rounded-sm mb-1 overflow-hidden">
+                <div
+                  className="h-full bg-terra-500 rounded-sm transition-[width] duration-500"
+                  style={{ width: `${pctGastro}%` }}
+                />
+              </div>
+              <div className="text-[10px] text-terra-muted">
+                {gastro.fait}/{gastro.total} goûtés
+              </div>
+            </div>
+          </Link>
+        </div>
+
+        {/* ═══ LIGNE 2 : 1ères Fois + Pokédex ═══ */}
+        <div className="grid grid-cols-2 gap-2.5">
+
+          {/* ─── 1ères Fois — fake en attendant ─── */}
+          <Link
+            to="/journal/premieres-fois"
+            className="bg-terra-900/85 rounded-2xl p-3.5 min-h-[150px] flex flex-col justify-between"
+          >
+            <Mountain className="w-7 h-7 text-white/90" strokeWidth={1.7} />
+            <div>
+              <div className="font-serif italic text-base text-white mb-2 leading-tight">
+                1ères Fois
+              </div>
+              <div className="flex items-center gap-2">
+                <svg width="36" height="36" viewBox="0 0 36 36">
+                  <circle
+                    cx="18" cy="18" r="15"
+                    fill="none"
+                    stroke="rgba(255,255,255,0.15)"
+                    strokeWidth="3"
+                  />
+                  <circle
+                    cx="18" cy="18" r="15"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="3"
+                    strokeDasharray={`${dashPremieres} ${circonference}`}
+                    strokeLinecap="round"
+                    transform="rotate(-90 18 18)"
+                    className="text-terra-500"
+                  />
+                  <text
+                    x="18" y="22"
+                    textAnchor="middle"
+                    fontSize="10"
+                    fill="white"
+                    fontFamily="system-ui"
+                    fontWeight="700"
+                  >
+                    {premieresFois.fait}
+                  </text>
+                </svg>
+                <div className="text-[11px] text-white/60 leading-snug">
+                  sur {premieresFois.total}<br />accomplis
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          {/* ─── Pokédex — live ─── */}
+          <Link
+            to="/journal/faune"
+            className="bg-terra-900 rounded-2xl p-3.5 min-h-[150px] flex flex-col justify-between"
+          >
+            <Bird className="w-7 h-7 text-white/90" strokeWidth={1.7} />
+            <div>
+              <div className="font-serif italic text-base text-white mb-2 leading-tight">
+                Pokédex
+              </div>
+              {/* Mini-points : allumés si l'animal est observé */}
+              <div className="flex flex-wrap gap-1 mb-1.5">
+                {faune.slice(0, 10).map((animal) => (
+                  <div
+                    key={animal.nom}
+                    className={`w-2 h-2 rounded-sm transition-colors duration-300 ${
+                      vuSet.has(animal.nom) ? 'bg-terra-500' : 'bg-white/15'
+                    }`}
+                  />
+                ))}
+              </div>
+              <div className="text-[10px] text-white/55">
+                {fauneFait}/{fauneTotal} observés
+              </div>
+            </div>
+          </Link>
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+export default Journal;
+</file>
+
+<file path="src/App.jsx">
+import { Routes, Route, Navigate } from 'react-router-dom';
+import BarreOnglets from './composants/BarreOnglets.jsx';
+
+// Planification
+import Activites from './modules/Activites.jsx';
+import Lieux from './modules/Lieux.jsx';
+import Pays from './modules/Pays.jsx';
+import DetailActivite from './modules/DetailActivite.jsx';
+import DetailLieu from './modules/DetailLieu.jsx';
+import DetailPays from './modules/DetailPays.jsx';
+
+// Journal
+import Journal from './modules/Journal.jsx';
+import Gastronomie from './modules/Gastronomie.jsx';
+import PremieresFois from './modules/PremieresFois.jsx';
+import Faune from './modules/Faune.jsx';
+import DetailFaune from './modules/DetailFaune.jsx';
+//Jeux
+import Quiz from './modules/Quiz.jsx';
+import Enquetes from './modules/Enquetes.jsx';
+import SectionEnquete from './modules/SectionEnquete.jsx';
+import DetailCas from './modules/DetailCas.jsx';
+import Escapes from './modules/Escapes.jsx';
+// Autres
+import Apprendre from './modules/Apprendre.jsx';
+import Theme from './modules/Theme.jsx';
+import Episode from './modules/Episode.jsx';
+import VisitesGuidees from './modules/VisitesGuidees.jsx';
+import DetailVisiteGuidee from './modules/DetailVisiteGuidee.jsx';
+import Jeux from './modules/Jeux.jsx';
+
+function App() {
+  return (
+    <div className="min-h-screen flex justify-center bg-terra-muted/10">
+      <div className="w-full max-w-[450px] min-h-screen flex flex-col bg-terra-50 shadow-xl">
+        <main className="flex-1 overflow-y-auto">
+          <Routes>
+            <Route path="/" element={<Navigate to="/planification" replace />} />
+
+            {/* Planification : 3 sous-vues + redirection par défaut */}
+            <Route path="/planification"                  element={<Navigate to="/planification/activites" replace />} />
+            <Route path="/planification/activites"        element={<Activites />} />
+            <Route path="/planification/activites/:slug"  element={<DetailActivite />} />
+            <Route path="/planification/lieux"            element={<Lieux />} />
+            <Route path="/planification/lieux/:id"        element={<DetailLieu />} />
+            <Route path="/planification/pays"             element={<Pays />} />
+            <Route path="/planification/pays/:id"         element={<DetailPays />} />
+
+            {/* Apprendre / Jeux */}
+            <Route path="/apprendre"                          element={<Apprendre />} />
+            <Route path="/apprendre/theme/:themeId"           element={<Theme />} />
+            <Route path="/apprendre/theme/:themeId/:episodeId"  element={<Episode />} />
+            <Route path="/apprendre/visites-guidees"          element={<VisitesGuidees />} />
+            <Route path="/apprendre/visites-guidees/:id"      element={<DetailVisiteGuidee />} />
+            <Route path="/jeux"      element={<Jeux />} />
+            <Route path="/jeux"          element={<Jeux />} />
+            <Route path="/jeux/quiz"     element={<Quiz />} />
+            <Route path="/jeux/enquetes"                    element={<Enquetes />} />
+            <Route path="/jeux/enquetes/:sectionId"         element={<SectionEnquete />} />
+            <Route path="/jeux/enquetes/:sectionId/:casId"  element={<DetailCas />} />
+            <Route path="/jeux/escapes"  element={<Escapes />} />
+
+            {/* Journal */}
+            <Route path="/journal"                  element={<Journal />} />
+            <Route path="/journal/gastronomie"      element={<Gastronomie />} />
+            <Route path="/journal/premieres-fois"   element={<PremieresFois />} />
+            <Route path="/journal/faune"            element={<Faune />} />
+            <Route path="/journal/faune/:slug"      element={<DetailFaune />} />
+          </Routes>
+        </main>
+        <BarreOnglets />
+      </div>
+    </div>
+  );
+}
+
+export default App;
+</file>
+
+</files>

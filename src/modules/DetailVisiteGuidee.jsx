@@ -48,7 +48,7 @@ function DetailVisiteGuidee() {
 
       {/* Accordéons sections */}
       {v.sections && v.sections.length > 0 && (
-        <div className="border-b border-terra-border">
+        <div className="border-b border-terra-border text-justify">
           {v.sections.map((section, i) => (
             <Accordeon
               key={i}

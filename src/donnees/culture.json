@@ -8,28 +8,28 @@
         "titre": "Les Incas",
         "sousTitre": null,
         "fichier": "incas",
-        "image" : "/images/themes/incas.jpg"
+        "image": "/images/themes/incas.jpg"
       },
       {
         "id": "conquete",
         "titre": "La conquête espagnole",
-        "sousTitre": "Pizarro et l'effondrement",
+        "sousTitre": null,
         "fichier": "conquete",
-        "image" :null
+        "image": "/images/themes/conquete.jpg"
       },
       {
         "id": "coloniale",
         "titre": "L'époque coloniale",
         "sousTitre": "Trois siècles oubliés",
         "fichier": "coloniale",
-        "image" :null
+        "image": null
       },
       {
         "id": "independances",
         "titre": "Les indépendances",
         "sousTitre": "Bolívar, San Martín",
         "fichier": "independances",
-        "image" :null
+        "image": null
       }
     ]
   },
@@ -42,14 +42,14 @@
         "titre": "Les dictatures",
         "sousTitre": "XXe siècle, mémoires vives",
         "fichier": "dictatures",
-        "image" :null
+        "image": null
       },
       {
         "id": "guerre-pacifique",
         "titre": "La guerre du Pacifique",
         "sousTitre": "Pourquoi la Bolivie n'a plus la mer",
         "fichier": "guerre-pacifique",
-        "image" :null
+        "image": null
       }
     ]
   },
@@ -62,21 +62,21 @@
         "titre": "L'Amazonie",
         "sousTitre": "Forêt, peuples, enjeux",
         "fichier": "amazonie",
-        "image" :null
+        "image": null
       },
       {
         "id": "andes",
         "titre": "Les Andes",
         "sousTitre": "Géographie et civilisation",
         "fichier": "andes",
-        "image" :null
+        "image": null
       },
       {
         "id": "patagonie",
         "titre": "La Patagonie",
         "sousTitre": "Glaciers, vent, bout du monde",
         "fichier": "patagonie",
-        "image" :null
+        "image": null
       }
     ]
   },
@@ -89,28 +89,28 @@
         "titre": "La feuille de coca",
         "sousTitre": "Sacrée et controversée",
         "fichier": "coca",
-        "image" :null
+        "image": null
       },
       {
         "id": "musique-andine",
         "titre": "La musique andine",
         "sousTitre": "Du charango à la cumbia",
         "fichier": "musique-andine",
-        "image" :null
+        "image": null
       },
       {
         "id": "quechua",
         "titre": "Le quechua",
         "sousTitre": "8 millions de locuteurs",
         "fichier": "quechua",
-        "image" :null
+        "image": null
       },
       {
         "id": "syncretisme",
         "titre": "Catholicisme & syncrétisme",
         "sousTitre": "La Pachamama dans une messe",
         "fichier": "syncretisme",
-        "image" :null
+        "image": null
       }
     ]
   }

@@ -15,9 +15,13 @@ import Gastronomie from './modules/Gastronomie.jsx';
 import PremieresFois from './modules/PremieresFois.jsx';
 import Faune from './modules/Faune.jsx';
 import DetailFaune from './modules/DetailFaune.jsx';
-
+//Jeux
+import Quiz from './modules/Quiz.jsx';
+import Enquetes from './modules/Enquetes.jsx';
+import SectionEnquete from './modules/SectionEnquete.jsx';
+import DetailCas from './modules/DetailCas.jsx';
+import Escapes from './modules/Escapes.jsx';
 // Autres
-// En haut, avec les autres imports :
 import Apprendre from './modules/Apprendre.jsx';
 import Theme from './modules/Theme.jsx';
 import Episode from './modules/Episode.jsx';
@@ -49,6 +53,12 @@ function App() {
             <Route path="/apprendre/visites-guidees"          element={<VisitesGuidees />} />
             <Route path="/apprendre/visites-guidees/:id"      element={<DetailVisiteGuidee />} />
             <Route path="/jeux"      element={<Jeux />} />
+            <Route path="/jeux"          element={<Jeux />} />
+            <Route path="/jeux/quiz"     element={<Quiz />} />
+            <Route path="/jeux/enquetes"                    element={<Enquetes />} />
+            <Route path="/jeux/enquetes/:sectionId"         element={<SectionEnquete />} />
+            <Route path="/jeux/enquetes/:sectionId/:casId"  element={<DetailCas />} />
+            <Route path="/jeux/escapes"  element={<Escapes />} />
 
             {/* Journal */}
             <Route path="/journal"                  element={<Journal />} />
