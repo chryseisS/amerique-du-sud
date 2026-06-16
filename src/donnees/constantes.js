@@ -1,14 +1,16 @@
+import lieux from './lieux.json';
+
 // module Planification
 
 export const PAYS = ['Pérou', 'Equateur', 'Bolivie', 'Chili', 'Argentine'];
 
-export const TYPES_ACTIVITES = ['Trek', 'Visite','Divers', 'Excursion'];
+export const TYPES_ACTIVITES = ['Trek', 'Visite', 'Divers', 'Excursion'];
 
 export const COULEURS_TYPES_ACTIVITES = {
   Trek: '#c9623f',
   Visite: '#7a4f2e',
   Divers: '#d4872a',
-  Excursion: '#d4872a'
+  Excursion: '#d4872a',
 };
 
 // module Faune
@@ -42,7 +44,6 @@ export const couleursDuPlat = (plat) => {
   return COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
 };
 
-
 export function versSlug(texte) {
   return texte
     .toLowerCase()
@@ -52,4 +53,95 @@ export function versSlug(texte) {
     .replace(/[^a-z0-9-]/g, '');       // supprime tout sauf lettres/chiffres/tirets
 }
 
+export function paysDuSlug(slug) {
+  return PAYS.find((p) => versSlug(p) === slug) || null;
+}
 
+// Drapeaux et images pour la page d'accueil Planification
+export const DRAPEAUX = {
+  'Pérou': '/images/planification/perou_flag.png',
+  'Equateur': '/images/planification/equateur_flag.svg',
+  'Bolivie': '/images/planification/bolivie_flag.svg',
+  'Chili': '/images/planification/chili_flag.png',
+  'Argentine': '/images/planification/argentine_flag.png',
+};
+
+export const IMAGES_PAYS = {
+  'Pérou': '/images/planification/perou.jpg',
+  'Equateur': '/images/planification/equateur.jpg',
+  'Bolivie': '/images/planification/bolivie.jpg',
+  'Chili': '/images/planification/chili.jpg',
+  'Argentine': '/images/planification/argentine.jpg',
+};
+
+export const IMAGES_PAYS_HEADER = {
+  'Pérou':    '/images/planification/header_perou.png',
+  'Equateur': '/images/planification/header_equateur.png',
+  'Bolivie':  '/images/planification/header_bolivie.png',
+  'Chili':    '/images/planification/header_chili.png',
+  'Argentine':'/images/planification/header_argentine.png',
+};
+
+export const ICONES_ZONES = {
+  // Pérou
+  'cuzco':           '/images/zones/cuzco.png',
+  'arequipa':        '/images/zones/arequipa.png',
+  'ayacucho':        '/images/zones/ayacucho.png',
+  'huaraz':          '/images/zones/huaraz.png',
+  'paracas':         '/images/zones/paracas.png',
+  'nord-du-perou':   '/images/zones/nord-perou.png',
+ 
+  // Bolivie
+  'la-paz':          '/images/zones/la-paz.png',
+  'uyuni':           '/images/zones/uyuni.png',
+  'cochabamba':      '/images/zones/cochabamba.png',
+ 
+  // Equateur
+  'quito':           '/images/zones/quito.png',
+  'cuenca':          '/images/zones/cuenca.png',
+  'ambato':          '/images/zones/ambato.png',
+ 
+  // Chili
+  'nord-du-chili':       '/images/zones/nord-du-chili.png',
+  'carreterra-austral':  '/images/zones/carretera-austral.png',
+ 
+  // Argentine
+  'patagonie':       '/images/zones/patagonie.png',
+  'terre-de-feu':    '/images/zones/terre-de-feu.png',
+  'salta':           '/images/zones/salta.png',
+};
+
+export const ZONES_SI_TEMPS = ['Nord du Pérou', 'Ayacucho'];
+
+export const estIncontournable = (a) => (a.importance ?? 0) >= 5;
+
+const lieuParSlug = new Map(lieux.map((l) => [versSlug(l.nom), l]));
+
+export function zonesDuPays(activites, pays) {
+  const parZone = new Map();
+  for (const a of activites) {
+    if (a.pays !== pays) continue;
+    const slug = versSlug(a.lieu);
+    if (!parZone.has(slug)) {
+      const ref = lieuParSlug.get(slug);
+      parZone.set(slug, {
+        nom: a.lieu,
+        slug,
+        pays,
+        type: ref?.type ?? 'ville',
+        lieuId: ref?.id ?? null,
+        nbActivites: 0,
+        nbIncontournables: 0,
+        optionnel: ZONES_SI_TEMPS.includes(a.lieu),
+      });
+    }
+    const z = parZone.get(slug);
+    z.nbActivites += 1;
+    if (estIncontournable(a)) z.nbIncontournables += 1;
+  }
+  // tri : zones sûres d'abord, optionnelles (sablier) en bas
+  return [...parZone.values()].sort((x, y) => {
+    if (x.optionnel !== y.optionnel) return x.optionnel ? 1 : -1;
+    return y.nbIncontournables - x.nbIncontournables || x.nom.localeCompare(y.nom, 'fr');
+  });
+}

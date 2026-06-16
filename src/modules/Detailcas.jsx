@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, HelpCircle } from 'lucide-react';
 import { sectionParId, casParId } from '../donnees/enquetes';
+import TexteFormate from '../composants/TexteFormate';
 
 export default function DetailCas() {
   const { sectionId, casId } = useParams();
@@ -41,17 +42,19 @@ export default function DetailCas() {
       <div className="relative px-[18px] pt-4 pb-8">
         <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
           {cas.histoire.map((p, i) => (
-            <p key={i} className="text-[14px] text-justify leading-relaxed text-encre first:mt-0 mt-3.5">{p}</p>
+            <p key={i} className="text-[14px] text-justify leading-relaxed text-encre first:mt-0 mt-3.5">
+              <TexteFormate texte={p} />
+            </p>
           ))}
         </div>
 
         {/* La question — sans réponse */}
         <div className="mt-7 text-center px-4">
-        <div className="mx-auto w-14 h-px bg-parchemin-bordure" />
-        <p className="font-serif italic text-[26px] text-encre font-semibold mt-5 leading-tight">
+          <div className="mx-auto w-14 h-px bg-parchemin-bordure" />
+          <p className="font-serif italic text-[26px] text-encre font-semibold mt-5 leading-tight">
             {cas.question}
-        </p>
-        <div className="mx-auto w-14 h-px bg-parchemin-bordure mt-5" />
+          </p>
+          <div className="mx-auto w-14 h-px bg-parchemin-bordure mt-5" />
         </div>
       </div>
     </div>

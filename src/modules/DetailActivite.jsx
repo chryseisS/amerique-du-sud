@@ -2,7 +2,6 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, MapPin, Play, ChevronRight } from 'lucide-react';
 import activites from '../donnees/activites.json';
 import { COULEURS_TYPES_ACTIVITES, versSlug } from '../donnees/constantes';
-import Etoiles from '../composants/Etoiles';
 import GalerieActivite from '../composants/GalerieActivite';
 import TexteFormate from '../composants/TexteFormate';
 
@@ -30,17 +29,8 @@ function DetailActivite() {
   const couleurBadge = COULEURS_TYPES_ACTIVITES[activite.type];
 
   // Le lieu devient cliquable si lieuId est présent dans le JSON
-  const LieuAffiche = () =>
-    activite.lieuId ? (
-      <Link
-        to={`/planification/lieux/${activite.lieuId}`}
-        className="text-terra-500 underline-offset-2 hover:underline"
-      >
-        {activite.lieu}
-      </Link>
-    ) : (
-      <span>{activite.lieu}</span>
-    );
+const libelleLieu = activite.sousZone || activite.lieu;
+
 
   return (
     <div className="p-4">
@@ -63,7 +53,7 @@ function DetailActivite() {
         </span>
         <span className="text-xs text-terra-muted flex items-center gap-1">
           <MapPin className="w-3 h-3" strokeWidth={2} />
-          <LieuAffiche /> · {activite.pays}
+          <span>{libelleLieu}</span> · {activite.pays}
         </span>
       </div>
 
@@ -73,16 +63,12 @@ function DetailActivite() {
       </h1>
 
       {/* Étoiles + durée */}
-      {(activite.importance || activite.duree) && (
-        <div className="flex items-center gap-3 mb-4">
-          <Etoiles nombre={activite.importance} />
+
           {activite.duree && (
-            <span className="text-sm text-terra-muted italic">
-              {activite.duree}
-            </span>
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-sm text-terra-muted italic">{activite.duree}</span>
+            </div>
           )}
-        </div>
-      )}
 
       <div className="h-px bg-terra-border mb-4" />
 

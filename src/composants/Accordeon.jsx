@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
+import TexteFormate from '../composants/TexteFormate';
+
 
 function Accordeon({ titre, contenu }) {
   const [ouvert, setOuvert] = useState(false);
@@ -21,7 +23,7 @@ function Accordeon({ titre, contenu }) {
 
       {ouvert && (
         <div className="pb-3 text-sm text-terra-900 leading-relaxed whitespace-pre-line">
-          {contenu}
+          <TexteFormate texte={contenu} />
         </div>
       )}
     </div>

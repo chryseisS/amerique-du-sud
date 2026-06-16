@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, X } from 'lucide-react';
 import lieux from '../donnees/lieux.json';
-import OngletsPlanification from '../composants/OngletsPlanification';
 
 function Lieux() {
   const [recherche, setRecherche] = useState('');
@@ -14,7 +13,6 @@ function Lieux() {
 
   return (
     <div className="p-4">
-      <OngletsPlanification />
 
       {/* Recherche */}
       <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">

@@ -2,12 +2,15 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import BarreOnglets from './composants/BarreOnglets.jsx';
 
 // Planification
-import Activites from './modules/Activites.jsx';
+// import Activites from './modules/Activites.jsx';
 import Lieux from './modules/Lieux.jsx';
 import Pays from './modules/Pays.jsx';
+import Zone from './modules/Zone.jsx';
+import Zones from './modules/Zones.jsx';
 import DetailActivite from './modules/DetailActivite.jsx';
 import DetailLieu from './modules/DetailLieu.jsx';
 import DetailPays from './modules/DetailPays.jsx';
+import PlanificationAccueil from './modules/PlanificationAccueil.jsx';
 
 // Journal
 import Journal from './modules/Journal.jsx';
@@ -21,6 +24,8 @@ import Enquetes from './modules/Enquetes.jsx';
 import SectionEnquete from './modules/SectionEnquete.jsx';
 import DetailCas from './modules/DetailCas.jsx';
 import Escapes from './modules/Escapes.jsx';
+import SectionEscape from './composants/SectionEscape';
+
 // Autres
 import Apprendre from './modules/Apprendre.jsx';
 import Theme from './modules/Theme.jsx';
@@ -37,14 +42,13 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/planification" replace />} />
 
-            {/* Planification : 3 sous-vues + redirection par défaut */}
-            <Route path="/planification"                  element={<Navigate to="/planification/activites" replace />} />
-            <Route path="/planification/activites"        element={<Activites />} />
-            <Route path="/planification/activites/:slug"  element={<DetailActivite />} />
-            <Route path="/planification/lieux"            element={<Lieux />} />
-            <Route path="/planification/lieux/:id"        element={<DetailLieu />} />
-            <Route path="/planification/pays"             element={<Pays />} />
-            <Route path="/planification/pays/:id"         element={<DetailPays />} />
+            {/* Planification */}
+            <Route path="/planification" element={<PlanificationAccueil />} />
+            <Route path="/planification/zones/:paysSlug" element={<Zones />} />
+            <Route path="/planification/zones/:paysSlug/:zoneSlug" element={<Zone />} />
+            <Route path="/planification/activites/:slug" element={<DetailActivite />} />
+            <Route path="/planification/pays/:id" element={<DetailPays />} />
+            <Route path="/planification/lieux/:id" element={<DetailLieu />} />
 
             {/* Apprendre / Jeux */}
             <Route path="/apprendre"                          element={<Apprendre />} />
@@ -59,6 +63,8 @@ function App() {
             <Route path="/jeux/enquetes/:sectionId"         element={<SectionEnquete />} />
             <Route path="/jeux/enquetes/:sectionId/:casId"  element={<DetailCas />} />
             <Route path="/jeux/escapes"  element={<Escapes />} />
+            <Route path="/jeux/escapes/:escapeId" element={<SectionEscape />} />
+
 
             {/* Journal */}
             <Route path="/journal"                  element={<Journal />} />

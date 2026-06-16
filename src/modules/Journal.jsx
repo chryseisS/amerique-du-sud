@@ -1,165 +1,195 @@
-import { Link } from 'react-router-dom';
-import { PenLine, UtensilsCrossed, Mountain, Bird } from 'lucide-react';
 import faune from '../donnees/faune.json';
 import gastronomie from '../donnees/gastronomie.json';
 import { useObservationsFaune } from '../hooks/useObservationsFaune';
 import { useAvisGastronomie } from '../hooks/useAvisGastronomie';
+import JournalBlock from '../composants/JournalBlock';
+
+// ═══════════════════════════════════════════════════════
+// Composant stat : titre + sous-titre à gauche, cercle à droite
+// ═══════════════════════════════════════════════════════
+function StatBloc({ titre, sousTitre, fait, total, couleur = 'white' }) {
+  const pct = total > 0 ? fait / total : 0;
+  const r = 18;
+  const circonference = 2 * Math.PI * r;
+  const dash = pct * circonference;
+
+  return (
+    <div className="flex items-center justify-between gap-3">
+
+      {/* Gauche : titre + sous-titre */}
+      <div>
+        <div className={`font-serif font-semibold text-xl leading-tight text-${couleur}`}>
+          {titre}
+        </div>
+        {sousTitre && (
+          <div className={`text-[10px] italic opacity-60 text-${couleur}`}>
+            {sousTitre}
+          </div>
+        )}
+      </div>
+
+      {/* Droite : cercle de progression */}
+      <div className="flex-shrink-0">
+        <svg width="52" height="52" viewBox="0 0 52 52">
+          {/* Fond cercle */}
+          <circle
+            cx="26" cy="26" r={r}
+            fill="none"
+            stroke={`rgba(255,255,255,0.15)`}
+            strokeWidth="3"
+          />
+          {/* Arc progression */}
+          <circle
+            cx="26" cy="26" r={r}
+            fill="none"
+            stroke="white"
+            strokeOpacity="0.85"
+            strokeWidth="3"
+            strokeDasharray={`${dash} ${circonference}`}
+            strokeLinecap="round"
+            transform="rotate(-90 26 26)"
+          />
+          {/* Chiffre */}
+          <text
+            x="26" y="28"
+            textAnchor="middle"
+            fontSize="11"
+            fill="white"
+            fontFamily="system-ui"
+            fontWeight="700"
+          >
+            {fait}
+          </text>
+        </svg>
+      </div>
+
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════
+// Configuration centralisée des 4 blocs
+// ═══════════════════════════════════════════════════════
+const JOURNAL_BLOCKS = [
+  {
+    id: 'journal',
+    to: '/journal/bord',
+    icon: '/images/journal/journal_icone.png',
+    bgStyle: {
+      backgroundImage: 'url(/images/journal/journal_de_bord.png)',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+    },
+  },
+  {
+    id: 'gastro',
+    to: '/journal/gastronomie',
+    icon: '/images/journal/gastronomie_icone.png',
+    bgStyle: {
+      backgroundImage: 'url(/images/journal/gastronomie.png)',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+    },
+  },
+  {
+    id: 'premieres-fois',
+    to: '/journal/premieres-fois',
+    icon: '/images/journal/defis_icone.png',
+    bgStyle: {
+      backgroundImage: 'url(/images/journal/defis.png)',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+    },
+  },
+  {
+    id: 'pokedex',
+    to: '/journal/faune',
+    icon: '/images/journal/pokedex_icone.png',
+    bgStyle: {
+      backgroundImage: 'url(/images/journal/pokedex.png)',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+    },
+  },
+];
 
 function Journal() {
-  // ─── DB (live) ──────────────────────────────────────
   const { vuSet } = useObservationsFaune();
   const { testeSet } = useAvisGastronomie();
 
-  // ─── Gastro ─────────────────────────────────────────
   const gastro = { fait: testeSet.size, total: gastronomie.length };
-  const pctGastro = gastro.total > 0 ? (gastro.fait / gastro.total) * 100 : 0;
-
-  // ─── Pokédex ────────────────────────────────────────
   const fauneFait = vuSet.size;
   const fauneTotal = faune.length;
-
-  // ─── Fake en attendant leurs modules DB ─────────────
-  // Journal de bord : pas encore de table en DB
   const last = null;
-
-  // 1ères Fois : pas encore de table en DB
   const premieresFois = { fait: 0, total: 10 };
-  const pctPremieres = premieresFois.total > 0 ? (premieresFois.fait / premieresFois.total) * 100 : 0;
-  const circonference = 2 * Math.PI * 15;
-  const dashPremieres = (pctPremieres / 100) * circonference;
 
   return (
     <div className="p-4">
-      <h1 className="text-3xl font-serif text-terra-900 mb-4">Journal</h1>
+      {/* ═══ Titre de la page ═══ */}
+      <div className="text-center mb-5">
+        <div className="inline-block border-t border-b border-terra-muted/60 py-3">
+          <h1 className="font-serif text-4xl text-terra-900 font-semibold leading-none">
+            Carnet
+          </h1>
+          <div className="font-serif italic text-sm text-terra-muted mt-1">
+            de notre traversée sud-américaine
+          </div>
+        </div>
+      </div>
 
       <div className="flex flex-col gap-2.5">
 
-        {/* ═══ LIGNE 1 : Journal (accent) + Gastronomie ═══ */}
-        <div className="grid grid-cols-2 gap-2.5">
-
-          {/* ─── Journal de bord ─── */}
-          <Link
-            to="/journal/bord"
-            className="bg-terra-500 rounded-2xl p-3.5 min-h-[130px] flex flex-col justify-between shadow-[0_4px_16px_rgba(201,98,63,0.22)]"
-          >
-            <PenLine className="w-7 h-7 text-white/95" strokeWidth={1.7} />
+        {/* ─── BLOC 1 : JOURNAL DE BORD ─── */}
+        <div style={JOURNAL_BLOCKS[0].bgStyle} className="rounded-2xl min-h-[120px] shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <JournalBlock to={JOURNAL_BLOCKS[0].to} icon={JOURNAL_BLOCKS[0].icon} bgClassName="bg-transparent">
             <div>
-              <div className="font-serif italic text-lg text-white mb-1 leading-tight">
-                Journal
+              <div className="font-serif font-semibold text-xl text-terra-900 leading-tight">
+                Journal de bord
               </div>
+              <div className="text-[10px] italic text-terra-900/50 mb-1">de notre voyage</div>
               {last ? (
-                <>
-                  <div className="text-[10px] text-white/70">
-                    {last.humeur} {last.lieu} · {last.date}
-                  </div>
-                  <div className="text-[11px] text-white/85 mt-1 leading-snug line-clamp-2">
-                    {last.title || last.body}
-                  </div>
-                </>
+                <div className="text-[11px] text-terra-900/80 leading-snug line-clamp-2">{last.title || last.body}</div>
               ) : (
-                <div className="text-[11px] text-white/60">Aucune entrée</div>
+                <div className="text-[9px] text-terra-900/40 italic">Aucune entrée pour l'instant</div>
               )}
             </div>
-          </Link>
-
-          {/* ─── Gastronomie — live ─── */}
-          <Link
-            to="/journal/gastronomie"
-            className="bg-terra-100 border border-terra-border rounded-2xl p-3.5 min-h-[130px] flex flex-col justify-between"
-          >
-            <UtensilsCrossed className="w-7 h-7 text-terra-500" strokeWidth={1.7} />
-            <div>
-              <div className="font-serif italic text-base text-terra-900 mb-2 leading-tight">
-                Gastro
-              </div>
-              <div className="h-1 bg-terra-500/15 rounded-sm mb-1 overflow-hidden">
-                <div
-                  className="h-full bg-terra-500 rounded-sm transition-[width] duration-500"
-                  style={{ width: `${pctGastro}%` }}
-                />
-              </div>
-              <div className="text-[10px] text-terra-muted">
-                {gastro.fait}/{gastro.total} goûtés
-              </div>
-            </div>
-          </Link>
+          </JournalBlock>
         </div>
 
-        {/* ═══ LIGNE 2 : 1ères Fois + Pokédex ═══ */}
-        <div className="grid grid-cols-2 gap-2.5">
+        {/* ─── BLOC 2 : GASTRONOMIE ─── */}
+        <div style={JOURNAL_BLOCKS[1].bgStyle} className="rounded-2xl min-h-[120px] shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <JournalBlock to={JOURNAL_BLOCKS[1].to} icon={JOURNAL_BLOCKS[1].icon} bgClassName="bg-transparent">
+            <StatBloc
+              titre="Gastronomie"
+              sousTitre="des plats goûtés"
+              fait={gastro.fait}
+              total={gastro.total}
+            />
+          </JournalBlock>
+        </div>
 
-          {/* ─── 1ères Fois — fake en attendant ─── */}
-          <Link
-            to="/journal/premieres-fois"
-            className="bg-terra-900/85 rounded-2xl p-3.5 min-h-[150px] flex flex-col justify-between"
-          >
-            <Mountain className="w-7 h-7 text-white/90" strokeWidth={1.7} />
-            <div>
-              <div className="font-serif italic text-base text-white mb-2 leading-tight">
-                1ères Fois
-              </div>
-              <div className="flex items-center gap-2">
-                <svg width="36" height="36" viewBox="0 0 36 36">
-                  <circle
-                    cx="18" cy="18" r="15"
-                    fill="none"
-                    stroke="rgba(255,255,255,0.15)"
-                    strokeWidth="3"
-                  />
-                  <circle
-                    cx="18" cy="18" r="15"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="3"
-                    strokeDasharray={`${dashPremieres} ${circonference}`}
-                    strokeLinecap="round"
-                    transform="rotate(-90 18 18)"
-                    className="text-terra-500"
-                  />
-                  <text
-                    x="18" y="22"
-                    textAnchor="middle"
-                    fontSize="10"
-                    fill="white"
-                    fontFamily="system-ui"
-                    fontWeight="700"
-                  >
-                    {premieresFois.fait}
-                  </text>
-                </svg>
-                <div className="text-[11px] text-white/60 leading-snug">
-                  sur {premieresFois.total}<br />accomplis
-                </div>
-              </div>
-            </div>
-          </Link>
+        {/* ─── BLOC 3 : PREMIÈRES FOIS ─── */}
+        <div style={JOURNAL_BLOCKS[2].bgStyle} className="rounded-2xl min-h-[120px] shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <JournalBlock to={JOURNAL_BLOCKS[2].to} icon={JOURNAL_BLOCKS[2].icon} bgClassName="bg-transparent">
+            <StatBloc
+              titre="1ères Fois"
+              sousTitre="de nos défis accomplis"
+              fait={premieresFois.fait}
+              total={premieresFois.total}
+            />
+          </JournalBlock>
+        </div>
 
-          {/* ─── Pokédex — live ─── */}
-          <Link
-            to="/journal/faune"
-            className="bg-terra-900 rounded-2xl p-3.5 min-h-[150px] flex flex-col justify-between"
-          >
-            <Bird className="w-7 h-7 text-white/90" strokeWidth={1.7} />
-            <div>
-              <div className="font-serif italic text-base text-white mb-2 leading-tight">
-                Pokédex
-              </div>
-              {/* Mini-points : allumés si l'animal est observé */}
-              <div className="flex flex-wrap gap-1 mb-1.5">
-                {faune.slice(0, 10).map((animal) => (
-                  <div
-                    key={animal.nom}
-                    className={`w-2 h-2 rounded-sm transition-colors duration-300 ${
-                      vuSet.has(animal.nom) ? 'bg-terra-500' : 'bg-white/15'
-                    }`}
-                  />
-                ))}
-              </div>
-              <div className="text-[10px] text-white/55">
-                {fauneFait}/{fauneTotal} observés
-              </div>
-            </div>
-          </Link>
+        {/* ─── BLOC 4 : POKÉDEX ─── */}
+        <div style={JOURNAL_BLOCKS[3].bgStyle} className="rounded-2xl min-h-[120px] shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <JournalBlock to={JOURNAL_BLOCKS[3].to} icon={JOURNAL_BLOCKS[3].icon} bgClassName="bg-transparent">
+            <StatBloc
+              titre="Pokédex"
+              sousTitre="de la faune observée"
+              fait={fauneFait}
+              total={fauneTotal}
+            />
+          </JournalBlock>
         </div>
 
       </div>
