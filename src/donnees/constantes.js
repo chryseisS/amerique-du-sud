@@ -4,13 +4,17 @@ import lieux from './lieux.json';
 
 export const PAYS = ['Pérou', 'Equateur', 'Bolivie', 'Chili', 'Argentine'];
 
-export const TYPES_ACTIVITES = ['Trek', 'Visite', 'Divers', 'Excursion'];
+export const TYPES_ACTIVITES = ['Trek', 'Randonnée', 'Culture', 'Nature', 'Faune', 'Excursion', 'Gastronomie', 'Divers'];
 
 export const COULEURS_TYPES_ACTIVITES = {
   Trek: '#c9623f',
-  Visite: '#7a4f2e',
-  Divers: '#d4872a',
+  Randonnée: '#7a4f2e',
+  Culture: '#d4872a',
+  Nature: '#d4872a',
+  Faune: '#d4872a',
   Excursion: '#d4872a',
+  Gastronomie: '#d4872a',
+  Divers: '#d4872a',
 };
 
 // module Faune
@@ -89,7 +93,7 @@ export const ICONES_ZONES = {
   'ayacucho':        '/images/zones/ayacucho.png',
   'huaraz':          '/images/zones/huaraz.png',
   'paracas':         '/images/zones/paracas.png',
-  'nord-du-perou':   '/images/zones/nord-perou.png',
+  'chiclayo-trujillo':   '/images/zones/nord-perou.png',
  
   // Bolivie
   'la-paz':          '/images/zones/la-paz.png',
@@ -103,7 +107,7 @@ export const ICONES_ZONES = {
  
   // Chili
   'nord-du-chili':       '/images/zones/nord-du-chili.png',
-  'carreterra-austral':  '/images/zones/carretera-austral.png',
+  'carretera-austral':  '/images/zones/carretera-austral.png',
  
   // Argentine
   'patagonie':       '/images/zones/patagonie.png',

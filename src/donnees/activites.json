@@ -11,7 +11,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Culture",
     "nom": "Machu Picchu",
     "lieu": "Cuzco",
     "lieuId": "cuzco",
@@ -33,7 +33,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Divers",
+    "type": "Faune",
     "nom": "Mirador Cruz del Condor",
     "lieu": "Arequipa",
     "lieuId": "arequipa",
@@ -55,7 +55,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Randonnée",
     "nom": "Laguna 69",
     "lieu": "Huaraz",
     "lieuId": "huaraz",
@@ -66,7 +66,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Randonnée",
     "nom": "Laguna Churup",
     "lieu": "Huaraz",
     "lieuId": "huaraz",
@@ -77,7 +77,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Randonnée",
     "nom": "Laguna Paron",
     "lieu": "Huaraz",
     "lieuId": "huaraz",
@@ -88,7 +88,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Glacier Pastoruri",
     "lieu": "Huaraz",
     "lieuId": "huaraz",
@@ -99,7 +99,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Culture",
     "nom": "Campo Santo de Yungay",
     "lieu": "Huaraz",
     "lieuId": "huaraz",
@@ -110,7 +110,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Trek",
+    "type": "Randonnée",
     "nom": "Paso del Zorro",
     "lieu": "Huaraz",
     "lieuId": "huaraz",
@@ -132,7 +132,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Excursion",
     "nom": "Huacachina",
     "lieu": "Paracas",
     "lieuId": "paracas",
@@ -143,7 +143,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Laguna de Moron",
     "lieu": "Paracas",
     "lieuId": "paracas",
@@ -154,7 +154,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Réserve de Paracas",
     "lieu": "Paracas",
     "lieuId": "paracas",
@@ -165,7 +165,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Excursion",
     "nom": "Islas Ballestas",
     "lieu": "Paracas",
     "lieuId": "paracas",
@@ -176,7 +176,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Gastronomie",
     "nom": "Bodegas de Pisco",
     "lieu": "Paracas",
     "lieuId": "paracas",
@@ -187,7 +187,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Millpu",
     "lieu": "Ayacucho",
     "lieuId": "ayacucho",
@@ -198,7 +198,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Randonnée",
     "nom": "Pallay Punchu",
     "lieu": "Cuzco",
     "lieuId": "cuzco",
@@ -209,7 +209,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Culture",
     "nom": "Vallée sacrée",
     "lieu": "Cuzco",
     "lieuId": "cuzco",
@@ -253,7 +253,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Trek",
+    "type": "Randonnée",
     "nom": "Condoriri",
     "lieu": "La Paz",
     "lieuId": "la-paz",
@@ -264,10 +264,10 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Culture",
     "nom": "Chan Chan",
-    "lieu": "Nord du Pérou",
-    "lieuId": "nord-pérou",
+    "lieu": "Chiclayo-Trujillo",
+    "lieuId": "chiclayo-trujillo",
     "pays": "Pérou",
     "importance": null,
     "duree": null,
@@ -275,7 +275,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Culture",
     "nom": "Pampachiri",
     "lieu": "Cuzco",
     "lieuId": "Cuzco",
@@ -286,7 +286,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Mirador Cielo Punku",
     "lieu": "Cuzco",
     "lieuId": "Cuzco",
@@ -297,7 +297,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Culture",
     "nom": "Lignes de Nazca",
     "lieu": "Paracas",
     "lieuId": "paracas",
@@ -308,7 +308,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Manupata",
     "lieu": "Cuzco",
     "lieuId": "cuzco",
@@ -319,7 +319,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Faune",
     "nom": "Mindo",
     "lieu": "Quito",
     "lieuId": "quito",
@@ -330,7 +330,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Culture",
     "nom": "Mitad del Mundo",
     "lieu": "Quito",
     "lieuId": "quito",
@@ -352,7 +352,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Trek",
+    "type": "Randonnée",
     "nom": "Parc national de Cotopaxi",
     "lieu": "Quito",
     "lieuId": "quito",
@@ -363,7 +363,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Banos",
     "lieu": "Ambato",
     "lieuId": "ambato",
@@ -374,7 +374,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Randonnée",
     "nom": "Réserve du Chimborazo",
     "lieu": "Ambato",
     "lieuId": "ambato",
@@ -386,7 +386,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Randonnée",
     "nom": "Parc national Las Cajas",
     "lieu": "Cuenca",
     "lieuId": "cuenca",
@@ -397,7 +397,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Faune",
     "nom": "Amazonie Bolivie",
     "lieu": "Cochabamba",
     "lieuId": "cochabamba",
@@ -408,7 +408,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Parc Pan de Azucar",
     "lieu": "Nord du Chili",
     "lieuId": "nord-chili",
@@ -420,7 +420,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Désert d'Atacama",
     "lieu": "Nord du Chili",
     "lieuId": "nord-chili",
@@ -431,7 +431,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Boucle Nord de Salta",
     "lieu": "Salta",
     "lieuId": "salta",
@@ -442,7 +442,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Boucle Sud de Salta",
     "lieu": "Salta",
     "lieuId": "salta",
@@ -453,7 +453,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Nature",
     "nom": "Glacier Perito Moreno",
     "lieu": "Patagonie",
     "lieuId": "patagonie",
@@ -465,18 +465,18 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Randonnée",
     "nom": "Torres del Paine",
     "lieu": "Patagonie",
     "lieuId": "patagonie",
-    "pays": "Chili",
+    "pays": "Argentine",
     "importance": 5,
     "duree": null,
     "description": "Trek le plus connu : W trek. Les campings sont souvent pris d'assault donc compliqué de faire un trek sur plusieurs jours. Randonnées à la journée à la place. Il est interdit de dormir dans le parc. Juste à l'extérieur du parc, il y a de grands espaces dégagés pour dormir.\n\nPrix : environ 50 euros pour 3 jours. A acheter en avance sur le site internet.\n\nPas de station service dans le parc.\n\nRandonnées incontournables :\n\n - Mirador Base Las Torres : 20km, 1000m D+. Rando classique du parc.\n\n - Mirador Ferrier : « km vertical » 6km aller-retour 700m D+. Très raide mais superbe panorama.\n\nD'autres randonnées plus courtes offrent de jolis points de vue : Mirador Condor (45min), sentier Fauna + Laguna Azul pour observer la faune du parc, Salto Grande + Mirador Cuernos.",
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Randonnée",
     "nom": "Parc national Tierra del Fuego",
     "lieu": "Terre de feu",
     "lieuId": "terre-de-feu",
@@ -487,18 +487,18 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Faune",
     "nom": "Parc Pingüino Rey",
     "lieu": "Terre de feu",
     "lieuId": "terre-de-feu",
-    "pays": "Chili",
+    "pays": "Argentine",
     "importance": 3,
     "duree": null,
     "description": "Seule colonie de manchot royaux hors antarctique. Ouvert du mercredi au dimanche de 11h à 17h. Réserver sur le site web avec un créneau horaire précis (20 dollars) quelques jours en avance. Observation des manchots royaux depuis un belvédère avec des jumelles.",
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Culture",
     "nom": "Ushuaia",
     "lieu": "Terre de feu",
     "lieuId": "terre-de-feu",
@@ -509,7 +509,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Randonnée",
     "nom": "Randonnées autour d'Ushuaia",
     "lieu": "Terre de feu",
     "lieuId": "terre-de-feu",
@@ -520,7 +520,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Visite",
+    "type": "Randonnée",
     "nom": "El Chalten",
     "lieu": "Patagonie",
     "lieuId": "patagonie",
@@ -553,7 +553,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Divers",
+    "type": "Excursion",
     "nom": "Plongée en eau froide",
     "lieu": "Terre de feu",
     "lieuId": "terre-de-feu",
@@ -564,10 +564,10 @@
     "visiteGuidee": false
   },
   {
-    "type": "Divers",
+    "type": "Excursion",
     "nom": "Cathédrales de marbre",
-    "lieu": "Carreterra Austral",
-    "lieuId": "carreterra-austral",
+    "lieu": "Carretera Austral",
+    "lieuId": "carretera-austral",
     "pays": "Chili",
     "importance": 5,
     "duree": null,
@@ -577,8 +577,8 @@
   {
     "type": "Trek",
     "nom": "Trek Cerro Castillo",
-    "lieu": "Carreterra Austral",
-    "lieuId": "carreterra-austral",
+    "lieu": "Carretera Austral",
+    "lieuId": "carretera-austral",
     "pays": "Chili",
     "importance": 4,
     "duree": null,

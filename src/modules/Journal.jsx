@@ -7,7 +7,7 @@ import JournalBlock from '../composants/JournalBlock';
 // ═══════════════════════════════════════════════════════
 // Composant stat : titre + sous-titre à gauche, cercle à droite
 // ═══════════════════════════════════════════════════════
-function StatBloc({ titre, sousTitre, fait, total, couleur = 'white' }) {
+function StatBloc({ titre, sousTitre, fait, total, couleur = 'terra-900' }) {
   const pct = total > 0 ? fait / total : 0;
   const r = 18;
   const circonference = 2 * Math.PI * r;
@@ -35,7 +35,7 @@ function StatBloc({ titre, sousTitre, fait, total, couleur = 'white' }) {
           <circle
             cx="26" cy="26" r={r}
             fill="none"
-            stroke={`rgba(255,255,255,0.15)`}
+            stroke="#2a1a0e"
             strokeWidth="3"
           />
           {/* Arc progression */}
@@ -54,7 +54,7 @@ function StatBloc({ titre, sousTitre, fait, total, couleur = 'white' }) {
             x="26" y="28"
             textAnchor="middle"
             fontSize="11"
-            fill="white"
+            fill="#2a1a0e"
             fontFamily="system-ui"
             fontWeight="700"
           >
@@ -147,11 +147,6 @@ function Journal() {
                 Journal de bord
               </div>
               <div className="text-[10px] italic text-terra-900/50 mb-1">de notre voyage</div>
-              {last ? (
-                <div className="text-[11px] text-terra-900/80 leading-snug line-clamp-2">{last.title || last.body}</div>
-              ) : (
-                <div className="text-[9px] text-terra-900/40 italic">Aucune entrée pour l'instant</div>
-              )}
             </div>
           </JournalBlock>
         </div>
