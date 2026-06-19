@@ -7,14 +7,14 @@ export const PAYS = ['Pérou', 'Equateur', 'Bolivie', 'Chili', 'Argentine'];
 export const TYPES_ACTIVITES = ['Trek', 'Randonnée', 'Culture', 'Nature', 'Faune', 'Excursion', 'Gastronomie', 'Divers'];
 
 export const COULEURS_TYPES_ACTIVITES = {
-  Trek: '#c9623f',
-  Randonnée: '#7a4f2e',
-  Culture: '#d4872a',
-  Nature: '#d4872a',
-  Faune: '#d4872a',
-  Excursion: '#d4872a',
-  Gastronomie: '#d4872a',
-  Divers: '#d4872a',
+  Trek:        '#c9623f', // terracotta
+  Randonnée:   '#8a5a2b', // terre brûlée
+  Culture:     '#9a5b8c', // mauve patrimoine
+  Nature:      '#5e8c4a', // vert feuillage
+  Faune:       '#2f8f7f', // sarcelle
+  Excursion:   '#3a7ca5', // bleu eau
+  Gastronomie: '#d4872a', // ambre
+  Divers:      '#8a7560', // taupe
 };
 
 // module Faune

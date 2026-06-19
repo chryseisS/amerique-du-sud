@@ -43,6 +43,11 @@ body {
   background: url('/images/jeux/background.png') center/cover no-repeat;
 }
 
+.fond-carte-journal {
+  background: url('/images/journal/background.png') center/cover no-repeat;
+  background-size: 100% 100%;
+}
+
 .fond-carte-enquete {
   background:     
     url('/images/jeux/enquete.png') center/cover no-repeat;

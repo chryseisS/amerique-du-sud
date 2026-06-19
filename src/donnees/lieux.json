@@ -46,7 +46,7 @@
     "nom": "Cuzco",
     "pays": "Pérou",
     "type": "ville",
-    "description": "Ancienne capitale inca, point de départ pour la Vallée Sacrée et le Machu Picchu.\n\nDepuis Cuzco, je veux faire le [[Trek du Salkantay]] et visiter le [[Machu Picchu]]."
+    "description": "L'arrivée à Cuzco peut se faire progressivement afin de favoriser l'acclimatation à l'altitude tout en découvrant quelques sites remarquables en chemin. Avant d'atteindre la ville, il est intéressant de faire un détour par le [[Pallay Punchu]], célèbre pour ses montagnes aux couleurs spectaculaires, ainsi que par le [[Mirador Cielo Punku]], qui offre de magnifiques panoramas sur les Andes.\n\nUne fois installé à Cuzco, prévoir quelques jours pour explorer la région tout en s'acclimatant. Consacrer notamment deux jours à la [[Vallée sacrée]] des Incas, avec ses villages traditionnels, ses terrasses agricoles et ses nombreux sites archéologiques.\n\nAprès cette phase d'adaptation à l'altitude, il est temps d'entreprendre les incontournables de la région : le [[Salkantay Trek]] et le [[Machu Picchu]].\n\nUne fois bien acclimaté, passer au trek de [[Ausangate - Montagne des 7 couleurs]], réputé pour ses paysages sauvages, ses sommets enneigés et ses lagunes colorées.\n\nAutour du 20 juin, le festival de l'[[Inti Raymi]] est l'un des festival les plus importants du Pérou. L'[[Ollantay Raymi]] permet également de profiter d'un festival dans une atmosphère plus intimiste.\n\nEnfin, sur la route du départ vers l'ouest, possibilité d'ajouter le [[Trek du Choquequirao]], souvent considéré comme le petit frère du Machu Picchu mais beaucoup moins fréquenté. Il est également possible de faire étape à [[Pampachiri]], connu pour ses formations rocheuses étonnantes et ses paysages uniques.\n\nInformations pratiques :\n\n - Le Boleto Turístico del Cusco (BTC) est indispensable pour visiter la majorité des sites archéologiques de la région. Il s'achète obligatoirement sur place (au premier site archéologique ou au centre-ville de Cuzco) et en espèce. Prévoir le passeport. Deux options : le Boleto Integral 130 soles pour 10 jours et accès à 16 sites, ou le Boleto Parcial pour 70 soles et 2 jours, inclus les sites de Pisac, Ollantaytambo, Chinchero et Moray.\n\n - La conduite à Cuzco est compliquée en van. Pour dormir, un camping : Quinta Lala sur les hauteurs de Cuzco à 20-30min à pied du centre-ville."
   },
   {
     "id": "huaraz",
@@ -117,5 +117,12 @@
     "pays": "Bolivie",
     "type": "salar",
     "description": ""
+  },
+  {
+    "id": "mendoza",
+    "nom": "Mendoza",
+    "pays": "Argentine",
+    "type": "Trajet",
+    "description": "Une fois passé la zone au sud de Salta, beaucoup de parcs et de lieux naturels sont très chers, et difficile, voire impossible à visiter en autonomie (excursion de 70 euros minimum pour certains parcs nationaux par exemple). Compter 15 heures de route le long de la route 40 pour atteindre Mendoza. La route [[Cuesta de Miranda]] est très belle. Faire un détour par le [[Parc national de las Quijadas]] avant d'atteindre Mendoza, puis profiter des [[Bodegas de Mendoza]] et visiter le [[Parc de l'Aconcagua]]. En descendant vers la Patagonie, un arrêt au [[Canyon del Atuel]] s'impose."
   }
 ]

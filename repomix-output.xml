@@ -53,9 +53,12 @@ src/composants/carteActivite.jsx
 src/composants/carteFaune.jsx
 src/composants/CartePlat.jsx
 src/composants/CartePremiereFois.jsx
+src/composants/carteZone.jsx
 src/composants/Etoiles.jsx
 src/composants/GalerieActivite.jsx
+src/composants/JournalBlock.jsx
 src/composants/OngletsPlanification.jsx
+src/composants/SectionEscape.jsx
 src/composants/TexteAvecLiens.jsx
 src/composants/TexteFormate.jsx
 src/db.js
@@ -84,552 +87,19 @@ src/modules/Journal.jsx
 src/modules/Lieux.jsx
 src/modules/Pays.jsx
 src/modules/Planification.jsx
+src/modules/PlanificationAccueil.jsx
 src/modules/PremieresFois.jsx
 src/modules/Quiz.jsx
 src/modules/SectionEnquete.jsx
 src/modules/Theme.jsx
 src/modules/VisitesGuidees.jsx
+src/modules/Zone.jsx
+src/modules/Zones.jsx
 vite.config.js
 </directory_structure>
 
 <files>
 This section contains the contents of the repository's files.
-
-<file path=".repomixignore">
-**/*.png
-**/*.jpg
-**/*.jpeg
-**/*.gif
-**/*.webp
-**/*.svg
-
-**/*.json
-</file>
-
-<file path="src/donnees/Enquetes.js">
-// ════════════════════════════════════════════════════════════════════
-//  DONNÉES — Detective Cases  (/jeux/enquetes)
-//  ────────────────────────────────────────────────────────────────────
-//  POUR AJOUTER UNE SECTION : ajoute un objet dans SECTIONS.
-//    • type: 'explication'  → page descriptive seule (contenu = livre/PDF externe)
-//    • type: 'liste'        → liste d'affaires ; chaque affaire = { id, titre, histoire[], question }
-//  POUR AJOUTER UNE AFFAIRE : ajoute un objet dans le tableau `cas` de la section.
-//  Les images vont dans public/images/jeux/enquetes/  (un fond sépia s'affiche si absente).
-// ════════════════════════════════════════════════════════════════════
-
-export const SECTIONS = [
-  {
-    id: 'murdle',
-    titre: 'Murdle Book',
-    sousTitre: null,
-    type: 'explication',
-    image: '/images/jeux/enquetes/murdle.jpg',
-    explication: [
-      "Devenez le Détective Logico ! Chaque jour, un nouveau crime absurde a été commis. Armé de votre grille de logique, de votre perspicacité et d'une bonne dose d'humour noir, vous devez croiser les indices pour déduire qui est le coupable, avec quelle arme, et dans quel lieu. Il y a 100 criminels à démasquer !",
-    ],
-    note: 'Le matériel se trouve un PDF, en dehors de l\u2019application. Aucune connexion internet n\u2019est nécessaire.',
-  },
-  {
-    id: 'sherlock',
-    titre: 'The Unsolved Case Files of Sherlock Holmes',
-    sousTitre: 'Serez-vous meilleur que Sherlock ?',
-    type: 'liste',
-    image: '/images/jeux/enquetes/sherlock.jpg',
-    cas: [
-      {
-        id: 'condor-noir',
-        titre: 'Le mystère du Condor Noir',
-        histoire: [
-          "Un collectionneur est retrouvé sans vie dans son bureau fermé de l'intérieur, une plume de condor noir posée sur son bureau. La fenêtre est entrouverte, mais aucune empreinte sur le rebord.",
-          "Trois visiteurs avaient rendez-vous ce soir-là : son associé, venu signer un contrat ; sa nièce, à qui il devait de l'argent ; et un antiquaire rival, éconduit la semaine passée. Chacun jure être parti avant la tombée de la nuit.",
-          "Sur la tasse de thé encore tiède, une seule trace de rouge à lèvres. La pendule, elle, s'est arrêtée à 21h04 — bien après le coucher du soleil.",
-        ],
-        question: 'Qui a commis le crime ?',
-      },
-    ],
-  },
-  {
-    id: 'stop-a-murder',
-    titre: 'Stop a Murder',
-    sousTitre: null,
-    type: 'explication',
-    image: '/images/jeux/enquetes/stop-a-murder.jpg',
-    explication: [
-      "Glissez-vous dans la peau d'un profileur du FBI. Face à vous : un dossier criminel brut (rapports d'autopsie, indices physiques, lettres du tueur) et un compte à rebours mortel. Votre mission est d'arrêter un tueur en série machiavélique avant sa prochaine victime.",
-    ],
-    note: 'Le matériel se trouve un PDF, en dehors de l\u2019application. Une connexion internet est nécessaire pour vérifier les réponses.',
-  },
-  {
-    id: 'qui-ment',
-    titre: 'Qui ment ?',
-    sousTitre: null,
-    type: 'liste',
-    image: '/images/jeux/enquetes/qui-ment.jpg',
-    cas: [
-      {
-        id: 'tresor-cusco',
-        titre: 'Le trésor disparu de Cusco',
-        histoire: [
-          "Au petit matin, le conservateur du musée Inka de Cusco découvre que la statuette d'or de Viracocha a disparu de sa vitrine. Aucune trace d'effraction.",
-          "Trois personnes possédaient une clé de la salle. La gardienne de nuit affirme n'avoir quitté son poste qu'une fois, à 3h, pour cinq minutes. Le restaurateur d'art jure être rentré chez lui à 19h et ne jamais être revenu. Le neveu du conservateur dit avoir passé la nuit chez un ami — un ami qui, justement, travaille aussi au musée.",
-          "La poussière sur le rebord de la vitrine n'a été dérangée que d'un seul côté. Et la caméra du couloir est tombée en panne à 19h15.",
-        ],
-        question: 'Qui ment ?',
-      },
-      {
-        id: 'vol-valparaiso',
-        titre: 'Le vol à Valparaíso',
-        histoire: [
-          "Dans une ruelle colorée de Valparaíso, un portefeuille plein disparaît d'un sac à dos pendant une fête de quartier. Quatre amis étaient autour de la table.",
-          "Le premier dit n'avoir pas bougé de sa chaise. Le deuxième assure être allé chercher des boissons et avoir tout vu de loin. La troisième affirme qu'elle dansait, dos au sac. Le dernier prétend être arrivé après la disparition.",
-          "Pourtant, une photo prise à 22h17 montre clairement deux d'entre eux à des endroits qui contredisent leur version.",
-        ],
-        question: 'Qui ment ?',
-      },
-    ],
-  },
-];
-
-export const sectionParId = (id) => SECTIONS.find((s) => s.id === id);
-export const casParId = (section, casId) => section?.cas?.find((c) => c.id === casId);
-</file>
-
-<file path="src/modules/Detailcas.jsx">
-import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, HelpCircle } from 'lucide-react';
-import { sectionParId, casParId } from '../donnees/enquetes';
-
-export default function DetailCas() {
-  const { sectionId, casId } = useParams();
-  const section = sectionParId(sectionId);
-  const cas = casParId(section, casId);
-
-  if (!section || !cas) {
-    return (
-      <div className="fond-carte-enquete relative min-h-full overflow-hidden">
-        <div className="vignette-carte" aria-hidden="true" />
-        <div className="relative px-5 pt-5">
-          <Link to={`/jeux/enquetes/${sectionId}`} className="inline-flex items-center gap-2 text-encre-douce text-sm">
-            <ArrowLeft className="w-4 h-4" strokeWidth={2} /> Retour
-          </Link>
-          <p className="text-center text-encre-douce text-sm mt-10">Affaire introuvable.</p>
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="fond-carte-enquete relative min-h-full overflow-hidden">
-      <div className="vignette-carte" aria-hidden="true" />
-
-      {/* En-tête */}
-      <div className="relative px-5 pt-5 pb-1">
-        <Link to={`/jeux/enquetes/${section.id}`} aria-label="Retour"
-              className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
-          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
-        </Link>
-        <div className="text-center -mt-6 px-10">
-          <div className="text-[10px] uppercase tracking-[0.18em] text-sepia font-semibold">{section.titre}</div>
-          <h1 className="font-serif text-[22px] leading-tight text-encre font-semibold mt-1">{cas.titre}</h1>
-        </div>
-      </div>
-
-      {/* Histoire + question */}
-      <div className="relative px-[18px] pt-4 pb-8">
-        <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
-          {cas.histoire.map((p, i) => (
-            <p key={i} className="text-[14px] text-justify leading-relaxed text-encre first:mt-0 mt-3.5">{p}</p>
-          ))}
-        </div>
-
-        {/* La question — sans réponse */}
-        <div className="mt-7 text-center px-4">
-        <div className="mx-auto w-14 h-px bg-parchemin-bordure" />
-        <p className="font-serif italic text-[26px] text-encre font-semibold mt-5 leading-tight">
-            {cas.question}
-        </p>
-        <div className="mx-auto w-14 h-px bg-parchemin-bordure mt-5" />
-        </div>
-      </div>
-    </div>
-  );
-}
-</file>
-
-<file path="src/modules/Enquetes.jsx">
-import { Link } from 'react-router-dom';
-import { ArrowLeft, ChevronRight, FileText, Files } from 'lucide-react';
-import { SECTIONS } from '../donnees/enquetes';
-
-function Vignette({ image }) {
-  return (
-    <div
-      className="relative w-[84px] shrink-0 rounded-xl overflow-hidden border border-[rgba(60,40,20,0.35)] bg-[#5a4a36] shadow-[inset_0_0_18px_rgba(30,15,5,0.4)]"
-      style={{ backgroundImage: `linear-gradient(135deg,rgba(0,0,0,0.15),rgba(0,0,0,0.45)),url('${image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-    />
-  );
-}
-
-function Tag({ section }) {
-  if (section.type === 'liste') {
-    const n = section.cas?.length ?? 0;
-    return (
-      <span className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wide text-sepia">
-        <Files className="w-3 h-3" strokeWidth={2} />
-        {n} {n > 1 ? 'affaires' : 'affaire'}
-      </span>
-    );
-  }
-  return (
-    <span className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wide text-sepia">
-      <FileText className="w-3 h-3" strokeWidth={2} />
-      PDF
-    </span>
-  );
-}
-
-export default function Enquetes() {
-  return (
-    <div className="fond-carte-enquete relative min-h-full overflow-hidden">
-      <div className="vignette-carte" aria-hidden="true" />
-
-      {/* En-tête */}
-      <div className="relative px-5 pt-5 pb-1">
-        <Link to="/jeux" aria-label="Retour"
-              className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
-          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
-        </Link>
-        <h1 className="font-serif uppercase tracking-[2px] text-[24px] text-encre font-semibold text-center -mt-6">Detective Cases</h1>
-        <p className="text-center text-[12.5px] text-sepia mt-0.5">Choisis une enquête</p>
-      </div>
-
-      {/* Liste des sections */}
-      <div className="relative px-[18px] pt-4 pb-6 flex flex-col gap-3">
-        {SECTIONS.map((s) => (
-          <Link key={s.id} to={`/jeux/enquetes/${s.id}`}
-                className="flex gap-3.5 items-stretch bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-3 shadow-[0_4px_12px_rgba(60,40,20,0.12)] transition-transform duration-200 hover:-translate-y-0.5">
-            <Vignette image={s.image} />
-            <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
-              <div>
-                <h3 className="font-serif text-[16px] leading-tight text-encre font-semibold m-0">{s.titre}</h3>
-                <p className="text-[11.5px] text-encre-douce mt-1 leading-snug">{s.sousTitre}</p>
-              </div>
-              <div className="mt-2"><Tag section={s} /></div>
-            </div>
-            <ChevronRight className="self-center shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
-}
-</file>
-
-<file path="src/modules/Escapes.jsx">
-import { useState } from 'react';
-import { ArrowLeft, Star, Download, Globe, ChevronRight, Plus, Backpack } from 'lucide-react';
-
-/* ════════════════════════════════════════════════════════════════════
-   ÉCRAN « ESCAPES »  — module destiné à une route /jeux/escapes
-   ──────────────────────────────────────────────────────────────────
-   • Tu n'édites que les IMAGES (champ `image:` des deux tableaux).
-     Dépose-les dans public/images/jeux/escapes/… — un fond sépia
-     s'affiche tant que le fichier manque.
-   • La barre du bas N'EST PAS ici : dans ton app, App.jsx rend déjà
-     <BarreOnglets/> (Planif/Apprendre/Jeux/Journal) sous ce module.
-   ════════════════════════════════════════════════════════════════════ */
-
-// ─── DONNÉES — onglet « HOME MADE » ───────────────────────────────────
-const HOME_MADE = [
-  { id: 'temple', titre: 'Le temple oublié',    image: '/images/jeux/escapes/temple-oublie.jpg',  difficulte: 3, meilleurTemps: '08:42' },
-  { id: 'potosi', titre: 'La mine de Potosí',   image: '/images/jeux/escapes/mine-potosi.jpg',     difficulte: 4, meilleurTemps: '14:31' },
-  { id: 'soleil', titre: 'Le tombeau du Soleil', image: '/images/jeux/escapes/tombeau-soleil.jpg', difficulte: 5, meilleurTemps: '—:—' },
-];
-
-// ─── DONNÉES — onglet « DOWNLOADED » (communauté) ─────────────────────
-const COMMUNAUTE = [
-  { id: 'nazcas',  titre: 'Le secret des Nazcas', auteur: 'Lucas R.',  image: '/images/jeux/escapes/nazcas.jpg', note: 3.5, avis: 124, joueurs: '2 341' },
-  { id: 'arica',   titre: "Le phare d'Arica",     auteur: 'Camila L.', image: '/images/jeux/escapes/arica.jpg',  note: 3.5, avis: 98,  joueurs: '1 842' },
-  { id: 'sanfran', titre: 'La crypte de San Francisco', auteur: 'Juan P.', image: '/images/jeux/escapes/crypte.jpg', note: 4.5, avis: 156, joueurs: '3 107' },
-];
-
-const ONGLETS = [
-  { id: 'home', label: 'Home made',  Icone: Star },
-  { id: 'dl',   label: 'Downloaded', Icone: Download },
-];
-
-// ─── Sous-éléments ────────────────────────────────────────────────────
-function Vignette({ image, ruban }) {
-  return (
-    <div
-      className="relative w-[92px] shrink-0 rounded-xl overflow-hidden border border-[rgba(60,40,20,0.35)] bg-[#7a5a36] shadow-[inset_0_0_18px_rgba(30,15,5,0.4)]"
-      style={{ backgroundImage: `linear-gradient(135deg,rgba(0,0,0,0.15),rgba(0,0,0,0.4)),url('${image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-    >
-      <span className="absolute top-2 -left-2.5 -rotate-[7deg] bg-[#efe2c6] text-[#6a4a28] text-[9px] font-bold tracking-wide px-3 py-0.5 rounded-[3px] shadow-[0_1px_3px_rgba(0,0,0,0.25)]">
-        {ruban}
-      </span>
-    </div>
-  );
-}
-
-function Difficulte({ niveau }) {
-  return (
-    <span className="inline-flex gap-1 items-center">
-      {[1, 2, 3, 4, 5].map((n) => (
-        <span key={n}
-              className={`w-[7px] h-[7px] rounded-full ${n <= niveau ? 'bg-[#7a3a1c]' : 'border border-[#cdb992]'}`} />
-      ))}
-    </span>
-  );
-}
-
-function Etoiles({ note }) {
-  return (
-    <span className="inline-flex gap-[1.5px]">
-      {[1, 2, 3, 4, 5].map((n) => {
-        const plein = n <= Math.floor(note);
-        const demi = !plein && n - 0.5 <= note;
-        return (
-          <Star key={n} className="w-3 h-3" strokeWidth={1.5} color="#b67a2e"
-                fill={plein || demi ? '#d99a3a' : 'transparent'}
-                style={{ opacity: demi ? 0.55 : 1 }} />
-        );
-      })}
-    </span>
-  );
-}
-
-// Tampon « postal » décoratif
-function Tampon() {
-  return (
-    <svg viewBox="0 0 80 80" aria-hidden="true"
-         className="absolute top-1.5 right-2.5 w-16 h-16 opacity-[0.32] text-[#7a4a28] -rotate-12">
-      <circle cx="40" cy="40" r="30" fill="none" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 2" />
-      <circle cx="40" cy="40" r="22" fill="none" stroke="currentColor" strokeWidth="1" />
-      <text x="40" y="44" textAnchor="middle" fontSize="9" fontWeight="700" fill="currentColor" letterSpacing="1" fontFamily="Georgia, serif">JEUX</text>
-    </svg>
-  );
-}
-
-// Styles partagés (classes)
-const CARTE = 'flex gap-3.5 items-stretch bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-3 shadow-[0_4px_12px_rgba(60,40,20,0.12)]';
-const MINI_LABEL = 'text-[9.5px] tracking-wider uppercase text-sepia font-semibold';
-const BTN_ROND = 'self-center shrink-0 w-[34px] h-[34px] rounded-full flex items-center justify-center bg-[rgba(120,90,50,0.10)] border border-parchemin-bordure';
-
-function CarteHomeMade({ titre, image, difficulte, meilleurTemps }) {
-  return (
-    <article className={CARTE}>
-      <Vignette image={image} ruban="ORIGINAL" />
-      <div className="flex-1 min-w-0 flex flex-col justify-between">
-        <h3 className="font-serif text-lg leading-tight text-encre font-semibold m-0">{titre}</h3>
-        <div className="mt-2">
-          <div className={MINI_LABEL}>Difficulté</div>
-          <div className="mt-1"><Difficulte niveau={difficulte} /></div>
-        </div>
-        <div className="mt-2">
-          <div className={MINI_LABEL}>Meilleur temps</div>
-          <div className="font-serif text-base font-semibold text-encre mt-px">{meilleurTemps}</div>
-        </div>
-      </div>
-      <button aria-label="Ouvrir" className={BTN_ROND}>
-        <ChevronRight className="w-5 h-5 text-encre" strokeWidth={2} />
-      </button>
-    </article>
-  );
-}
-
-function CarteCommunaute({ titre, auteur, image, note, avis, joueurs }) {
-  return (
-    <article className={CARTE}>
-      <Vignette image={image} ruban="COMMUNAUTÉ" />
-      <div className="flex-1 min-w-0 flex flex-col justify-between">
-        <div>
-          <h3 className="font-serif text-[17px] leading-tight text-encre font-semibold m-0">{titre}</h3>
-          <div className="text-xs italic text-sepia mt-0.5">par {auteur}</div>
-        </div>
-        <div className="flex items-center gap-1.5 mt-1.5">
-          <Etoiles note={note} />
-          <span className="text-[11px] text-encre-douce">({avis})</span>
-        </div>
-        <div className="text-[11.5px] text-encre-douce mt-1">{joueurs} joueurs</div>
-      </div>
-      <button aria-label="Télécharger" className={BTN_ROND}>
-        <Download className="w-[18px] h-[18px] text-encre" strokeWidth={2} />
-      </button>
-    </article>
-  );
-}
-
-// ─── ÉCRAN PRINCIPAL ──────────────────────────────────────────────────
-export default function Escapes() {
-  const [onglet, setOnglet] = useState('home');
-
-  return (
-    <div className="fond-carte relative min-h-full">
-      <div className="grain-papier" aria-hidden="true" />
-      <div className="vignette-carte" aria-hidden="true" />
-
-      {/* En-tête */}
-      <div className="relative px-5 pt-5 pb-1">
-        <Tampon />
-        <button aria-label="Retour"
-                className="w-[38px] h-[38px] rounded-full flex items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
-          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
-        </button>
-        <h1 className="font-serif uppercase tracking-[2px] text-[25px] text-encre font-semibold text-center -mt-6">Escapes</h1>
-        <p className="text-center text-[12.5px] text-sepia mt-0.5">Choisis ton univers</p>
-      </div>
-
-      {/* Onglets segmentés */}
-      <div className="relative px-5 pt-3.5 pb-1.5">
-        <div className="flex bg-[rgba(120,90,50,0.10)] rounded-xl p-1 border border-parchemin-bordure">
-          {ONGLETS.map(({ id, label, Icone }) => {
-            const actif = onglet === id;
-            return (
-              <button key={id} onClick={() => setOnglet(id)}
-                      className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-[9px] uppercase tracking-wider text-[12.5px] transition-all ${actif ? 'bg-parchemin-carte text-encre font-bold shadow-[0_1px_4px_rgba(60,40,20,0.18)]' : 'text-[#9c855f] font-medium'}`}>
-                <Icone className="w-[15px] h-[15px]" strokeWidth={2} fill={actif && id === 'home' ? 'currentColor' : 'transparent'} />
-                {label}
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-
-      {/* Liste */}
-      <div className="relative px-[18px] pb-6 pt-1 flex flex-col gap-3">
-        {onglet === 'home'
-          ? HOME_MADE.map((e) => <CarteHomeMade key={e.id} {...e} />)
-          : (
-            <>
-              {COMMUNAUTE.map((e) => <CarteCommunaute key={e.id} {...e} />)}
-              {/* Encart « créer un escape » */}
-              <div className={`${CARTE} items-center`}>
-                <div className="flex-1">
-                  <h3 className="font-serif text-base text-encre font-semibold m-0">Tu as une idée d'escape ?</h3>
-                  <p className="text-xs text-encre-douce mt-1 mb-2.5 leading-snug">
-                    Crée le tien et partage-le avec d'autres voyageurs !
-                  </p>
-                  <button className="inline-flex items-center gap-1.5 bg-vert-cta text-creme rounded-[10px] px-4 py-2.5 text-[12.5px] font-semibold tracking-wide uppercase">
-                    <Plus className="w-4 h-4" strokeWidth={2.4} />
-                  </button>
-                </div>
-                <Backpack className="w-12 h-12 text-sepia opacity-55 shrink-0" strokeWidth={1.3} />
-              </div>
-            </>
-          )}
-      </div>
-    </div>
-  );
-}
-</file>
-
-<file path="src/modules/Quiz.jsx">
-import { Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
-
-export default function Quiz() {
-  return (
-    <div className="fond-carte relative min-h-full overflow-hidden">
-      <div className="vignette-carte" aria-hidden="true" />
-
-      {/* En-tête */}
-      <div className="relative px-5 pt-5 pb-1">
-        <Link to="/jeux" aria-label="Retour"
-              className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
-          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
-        </Link>
-        <h1 className="font-serif uppercase tracking-[2px] text-[25px] text-encre font-semibold text-center -mt-6">Quiz</h1>
-        <p className="text-center text-[12.5px] text-sepia mt-0.5">Choisis un mode de jeu</p>
-      </div>
-
-      {/* Contenu placeholder */}
-      <div className="relative px-5 pt-10 pb-6">
-        <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-6 text-center shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
-          <div className="font-serif text-lg text-encre font-semibold">À venir</div>
-          <p className="text-xs text-encre-douce mt-2 leading-snug">
-            Les modes Quiz arriveront bientôt — Exploration, Vrai ou Faux, 2 Vraies 1 Fausse, Chrono, Duel…
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
-</file>
-
-<file path="src/modules/SectionEnquete.jsx">
-import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, ChevronRight, BookText } from 'lucide-react';
-import { sectionParId } from '../donnees/enquetes';
-
-export default function SectionEnquete() {
-  const { sectionId } = useParams();
-  const section = sectionParId(sectionId);
-
-  // En-tête réutilisé
-  const Entete = ({ titre, sousTitre }) => (
-    <div className="relative px-5 pt-5 pb-1">
-      <Link to="/jeux/enquetes" aria-label="Retour"
-            className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
-        <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
-      </Link>
-      <h1 className="font-serif text-[22px] leading-tight text-encre font-semibold text-center -mt-6 px-10">{titre}</h1>
-      {sousTitre && <p className="text-center text-[12.5px] text-sepia mt-1">{sousTitre}</p>}
-    </div>
-  );
-
-  if (!section) {
-    return (
-      <div className="fond-carte-enquete relative min-h-full overflow-hidden">
-        <div className="vignette-carte" aria-hidden="true" />
-        <Entete titre="Introuvable" />
-        <div className="relative px-5 pt-10">
-          <p className="text-center text-encre-douce text-sm">Cette enquête n'existe pas.</p>
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="fond-carte-enquete relative min-h-full overflow-hidden">
-      <div className="vignette-carte" aria-hidden="true" />
-      <Entete titre={section.titre} sousTitre={section.sousTitre} />
-
-      <div className="relative px-[18px] pt-4 pb-6">
-        {section.type === 'explication' ? (
-          // ─── Page descriptive ───
-          <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
-            {section.explication.map((p, i) => (
-              <p key={i} className="text-[13.5px] text-justify leading-relaxed text-encre-douce first:mt-0 mt-3">{p}</p>
-            ))}
-            {section.note && (
-              <div className="flex items-start gap-2 mt-5 pt-4 border-t border-parchemin-bordure">
-                <BookText className="w-4 h-4 text-sepia shrink-0 mt-0.5" strokeWidth={1.9} />
-                <p className="text-[12px] italic text-sepia leading-snug">{section.note}</p>
-              </div>
-            )}
-          </div>
-        ) : (
-          // ─── Liste d'affaires ───
-          <div className="flex flex-col gap-2.5">
-            {section.cas.map((c, i) => (
-              <Link key={c.id} to={`/jeux/enquetes/${section.id}/${c.id}`}
-                    className="flex items-center gap-3 bg-parchemin-carte border border-parchemin-bordure rounded-xl p-3.5 shadow-[0_4px_12px_rgba(60,40,20,0.10)] transition-transform duration-200 hover:-translate-y-0.5">
-                <span className="font-serif text-[18px] text-encre/35 font-semibold w-7 text-center shrink-0">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <h3 className="flex-1 min-w-0 font-serif text-[16px] leading-tight text-encre font-semibold">{c.titre}</h3>
-                <ChevronRight className="shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
-              </Link>
-            ))}
-          </div>
-        )}
-      </div>
-    </div>
-  );
-}
-</file>
 
 <file path=".gitignore">
 # Logs
@@ -656,6 +126,17 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+</file>
+
+<file path=".repomixignore">
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.webp
+**/*.svg
+
+**/*.json
 </file>
 
 <file path="compresser-images.js">
@@ -838,84 +319,6 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 </file>
 
-<file path="src/composants/Accordeon.jsx">
-import { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
-
-function Accordeon({ titre, contenu }) {
-  const [ouvert, setOuvert] = useState(false);
-
-  return (
-    <div className="border-t border-terra-border">
-      <button
-        onClick={() => setOuvert((v) => !v)}
-        className="w-full flex justify-between items-center py-3 text-left"
-      >
-        <span className="text-sm font-medium text-terra-900">{titre}</span>
-        <ChevronDown
-          className={`w-4 h-4 text-terra-muted transition-transform ${
-            ouvert ? 'rotate-180' : ''
-          }`}
-          strokeWidth={2}
-        />
-      </button>
-
-      {ouvert && (
-        <div className="pb-3 text-sm text-terra-900 leading-relaxed whitespace-pre-line">
-          {contenu}
-        </div>
-      )}
-    </div>
-  );
-}
-
-export default Accordeon;
-</file>
-
-<file path="src/composants/BarreOnglets.jsx">
-import { NavLink } from 'react-router-dom';
-import { Map, BookOpen, Dices, PenLine } from 'lucide-react';
-
-function BarreOnglets() {
-  const onglets = [
-    { chemin: '/planification', label: 'Planif',    Icone: Map },
-    { chemin: '/apprendre',     label: 'Apprendre', Icone: BookOpen },
-    { chemin: '/jeux',          label: 'Jeux',      Icone: Dices },
-    { chemin: '/journal',       label: 'Journal',   Icone: PenLine },
-  ];
-
-  return (
-    <nav className="bg-terra-100 border-t border-terra-border grid grid-cols-4 py-1.5 pb-3">
-      {onglets.map(({ chemin, label, Icone }) => (
-        <NavLink
-          key={chemin}
-          to={chemin}
-          className="flex flex-col items-center gap-1 py-1.5"
-        >
-          {({ isActive }) => (
-            <>
-              <Icone
-                className={`w-5 h-5 ${isActive ? 'text-terra-500' : 'text-terra-muted'}`}
-                strokeWidth={1.7}
-              />
-              <span
-                className={`text-xs ${
-                  isActive ? 'text-terra-500 font-semibold' : 'text-terra-muted'
-                }`}
-              >
-                {label}
-              </span>
-            </>
-          )}
-        </NavLink>
-      ))}
-    </nav>
-  );
-}
-
-export default BarreOnglets;
-</file>
-
 <file path="src/composants/CartePremiereFois.jsx">
 import { useState } from 'react';
 import { Check, ChevronDown } from 'lucide-react';
@@ -983,6 +386,74 @@ function CartePremiereFois({ premiere, fait, onToggle }) {
 }
 
 export default CartePremiereFois;
+</file>
+
+<file path="src/composants/carteZone.jsx">
+import { Link } from 'react-router-dom';
+import { Flame, Hourglass, ChevronRight, MapPin } from 'lucide-react';
+import { COULEURS_PAYS, versSlug, ICONES_ZONES } from '../donnees/constantes';
+
+function CarteZone({ zone }) {
+  const couleurs = COULEURS_PAYS[zone.pays] || COULEURS_PAYS['Pérou'];
+  const iconeUrl = ICONES_ZONES?.[zone.slug];
+
+  return (
+    <Link
+      to={`/planification/zones/${versSlug(zone.pays)}/${zone.slug}`}
+      className="bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-2 flex items-center gap-3.5 hover:bg-terra-50 hover:border-terra-500/40 active:scale-[0.99] transition"
+    >
+      {/* ICÔNE RONDE */}
+      <div
+        className="w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden"
+        style={{ backgroundColor: couleurs.iconBg, color: couleurs.iconText }}
+      >
+        {iconeUrl ? (
+          <img
+            src={iconeUrl}
+            alt=""
+            className="w-16 h-16 object-contain"
+            onError={(e) => { e.currentTarget.style.display = 'none'; }}
+          />
+        ) : (
+          <MapPin className="w-5 h-5" strokeWidth={2} />
+        )}
+      </div>
+
+      {/* CONTENU */}
+      <div className="flex-1 min-w-0">
+        {/* Nom de la zone */}
+        <div className="font-serif font-semibold text-base text-terra-900 leading-tight">
+          {zone.nom}
+        </div>
+
+        {/* Nombre d'activités */}
+        <div className="text-xs text-terra-muted mt-1">
+          {zone.nbActivites} activité{zone.nbActivites !== 1 ? 's' : ''}
+        </div>
+
+        {/* Nombre d'incontournables avec flamme */}
+        {zone.nbIncontournables > 0 && (
+          <div className="text-xs text-orange-600 mt-0.5 flex items-center gap-1">
+            <Flame className="w-3 h-3" strokeWidth={2} />
+            {zone.nbIncontournables} incontournable{zone.nbIncontournables !== 1 ? 's' : ''}
+          </div>
+        )}
+
+        {/* Optionnel "si le temps" */}
+        {zone.optionnel && (
+          <div className="text-xs text-terra-muted mt-0.5 flex items-center gap-1">
+            <Hourglass className="w-3 h-3" strokeWidth={2} />
+            si le temps
+          </div>
+        )}
+      </div>
+
+      <ChevronRight className="w-5 h-5 text-terra-muted flex-shrink-0" strokeWidth={2} />
+    </Link>
+  );
+}
+
+export default CarteZone;
 </file>
 
 <file path="src/composants/Etoiles.jsx">
@@ -1167,6 +638,50 @@ function GalerieActivite({ images }) {
 export default GalerieActivite;
 </file>
 
+<file path="src/composants/JournalBlock.jsx">
+import { Link } from 'react-router-dom';
+
+/**
+ * Bloc réutilisable pour le Journal
+ * @param {string} to - Lien de destination
+ * @param {string|React.ReactNode} icon - Chemin image (/images/...) ou composant Lucide
+ * @param {string} bgClassName - Classe Tailwind/CSS pour le fond (avec image si besoin)
+ * @param {React.ReactNode} children - Contenu du bloc
+ * @param {string} minHeight - Hauteur minimale (défaut: "min-h-[140px]")
+ */
+function JournalBlock({ to, icon, bgClassName, children, minHeight = 'min-h-[140]' }) {
+  const isImageIcon = typeof icon === 'string';
+  const IconComponent = !isImageIcon ? icon : null;
+
+  return (
+    <Link
+      to={to}
+      className={`${bgClassName} rounded-2xl px-5 py-4 ${minHeight} flex items-center gap-5 shadow-md hover:shadow-lg transition-shadow relative overflow-hidden group`}
+    >
+      {/* Icône grosse — calée à gauche */}
+      <div className="flex items-center justify-center flex-shrink-0">
+        {isImageIcon ? (
+          <img
+            src={icon}
+            alt="icon"
+            className="w-24 h-24 object-contain drop-shadow-md group-hover:scale-110 transition-transform"
+          />
+        ) : (
+          <IconComponent className="w-20 h-20" strokeWidth={1.7} />
+        )}
+      </div>
+
+      {/* Contenu — juste à droite de l'icône, centré verticalement */}
+      <div className="flex flex-col justify-center">
+        {children}
+      </div>
+    </Link>
+  );
+}
+
+export default JournalBlock;
+</file>
+
 <file path="src/composants/OngletsPlanification.jsx">
 import { NavLink } from 'react-router-dom';
 
@@ -1203,6 +718,69 @@ function OngletsPlanification() {
 }
 
 export default OngletsPlanification;
+</file>
+
+<file path="src/composants/SectionEscape.jsx">
+import { useParams, Link } from 'react-router-dom';
+import { ArrowLeft, BookText } from 'lucide-react';
+import escapes from '../donnees/escapes.json';
+
+export default function SectionEscape() {
+  const { escapeId } = useParams();
+
+  // Chercher l'escape dans les deux sections
+  const escape = 
+    escapes.homeMade.find(e => e.id === escapeId) ||
+    escapes.communaute.find(e => e.id === escapeId);
+
+  // En-tête réutilisé
+  const Entete = ({ titre, sousTitre }) => (
+    <div className="relative px-5 pt-5 pb-1">
+      <Link to="/jeux/escapes" state={{ onglet: 'dl' }} aria-label="Retour"
+            className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+        <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+      </Link>
+      <h1 className="font-serif text-[22px] leading-tight text-encre font-semibold text-center -mt-6 px-10">{titre}</h1>
+      {sousTitre && <p className="text-center text-[12.5px] text-sepia mt-1">{sousTitre}</p>}
+    </div>
+  );
+
+  if (!escape) {
+    return (
+      <div className="fond-carte-escape relative min-h-full overflow-hidden">
+        <div className="vignette-carte" aria-hidden="true" />
+        <Entete titre="Introuvable" />
+        <div className="relative px-5 pt-10">
+          <p className="text-center text-encre-douce text-sm">Cet escape n'existe pas.</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="fond-carte-escape relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+      <Entete titre={escape.titre} sousTitre={escape.sousTitre} />
+
+      <div className="relative px-[18px] pt-4 pb-6">
+
+
+        {/* Contenu */}
+        <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+          {escape.explication && escape.explication.map((p, i) => (
+            <p key={i} className="text-[13.5px] text-justify leading-relaxed text-encre-douce first:mt-0 mt-3">{p}</p>
+          ))}
+          {escape.note && (
+            <div className="flex items-start gap-2 mt-5 pt-4 border-t border-parchemin-bordure">
+              <BookText className="w-4 h-4 text-sepia shrink-0 mt-0.5" strokeWidth={1.9} />
+              <p className="text-[12px] italic text-sepia leading-snug">{escape.note}</p>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
 </file>
 
 <file path="src/composants/TexteAvecLiens.jsx">
@@ -1276,104 +854,6 @@ function transformerLiens(texte) {
 }
 
 export default TexteAvecLiens;
-</file>
-
-<file path="src/composants/TexteFormate.jsx">
-/**
- * Composant qui affiche du texte avec un mini-formatage type Markdown.
- *
- * Syntaxe supportée :
- *   **gras**         → <strong>gras</strong>
- *   *italique*       → <em>italique</em>
- *   __souligné__     → <u>souligné</u>
- *
- * Usage :
- *   <TexteFormate texte="Le **Machu Picchu** est *incroyable*." />
- *
- * Le composant rend le texte SANS HTML brut (pas de dangerouslySetInnerHTML),
- * donc c'est sûr même si un jour le contenu venait d'ailleurs.
- */
-function TexteFormate({ texte }) {
-  if (!texte) return null;
-
-  // ─── Le parseur ────────────────────────────────────────────────────────
-  // On découpe le texte en morceaux : du texte brut OU des morceaux formatés.
-  // L'astuce : une regex qui capture les 3 patterns en une seule passe,
-  // avec leur contenu entre les marqueurs.
-  //
-  // Le regex :
-  //   \*\*(.+?)\*\*   → **gras** (le .+? est "non gourmand", il s'arrête au 1er **)
-  //   __(.+?)__       → __souligné__
-  //   \*(.+?)\*       → *italique* (à mettre EN DERNIER, sinon ça mangerait les **)
-  //
-  // On utilise split() avec la regex pour découper le texte en :
-  //   [texte_avant, contenu_gras, texte_milieu, contenu_souligne, texte_après, ...]
-  //
-  // Chaque "morceau capturé" se retrouve entre les morceaux de texte brut.
-
-  const regex = /\*\*(.+?)\*\*|__(.+?)__|\*(.+?)\*/g;
-  const morceaux = [];
-  let dernierIndex = 0;
-  let match;
-
-  while ((match = regex.exec(texte)) !== null) {
-    // Ajoute le texte brut entre le dernier match et celui-ci
-    if (match.index > dernierIndex) {
-      morceaux.push({
-        type: 'texte',
-        contenu: texte.slice(dernierIndex, match.index),
-      });
-    }
-
-    // Détermine quel type de formatage on a capturé
-    if (match[1] !== undefined) {
-      // match[1] = contenu de **xxx**
-      morceaux.push({ type: 'gras', contenu: match[1] });
-    } else if (match[2] !== undefined) {
-      // match[2] = contenu de __xxx__
-      morceaux.push({ type: 'souligne', contenu: match[2] });
-    } else if (match[3] !== undefined) {
-      // match[3] = contenu de *xxx*
-      morceaux.push({ type: 'italique', contenu: match[3] });
-    }
-
-    dernierIndex = match.index + match[0].length;
-  }
-
-  // Ajoute le texte brut restant après le dernier match
-  if (dernierIndex < texte.length) {
-    morceaux.push({ type: 'texte', contenu: texte.slice(dernierIndex) });
-  }
-
-  // ─── Rendu ─────────────────────────────────────────────────────────────
-  return (
-    <>
-      {morceaux.map((morceau, i) => {
-        if (morceau.type === 'gras') {
-          return (
-            <strong key={i} className="font-semibold text-terra-900">
-              {morceau.contenu}
-            </strong>
-          );
-        }
-        if (morceau.type === 'italique') {
-          return <em key={i}>{morceau.contenu}</em>;
-        }
-        if (morceau.type === 'souligne') {
-          return (
-            <u key={i} className="underline decoration-terra-500 underline-offset-2">
-              {morceau.contenu}
-            </u>
-          );
-        }
-        // type === 'texte'
-        return <span key={i}>{morceau.contenu}</span>;
-      })}
-    </>
-  );
-}
-
-export default TexteFormate;
 </file>
 
 <file path="src/db.js">
@@ -1508,6 +988,7 @@ export function useObservationsFaune() {
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import lieux from '../donnees/lieux.json';
+import { COULEURS_PAYS } from '../donnees/constantes';
 import TexteAvecLiens from '../composants/TexteAvecLiens';
 
 function DetailLieu() {
@@ -1515,14 +996,17 @@ function DetailLieu() {
   const navigate = useNavigate();
   const lieu = lieux.find((l) => l.id === id);
 
+  // Récupération de la couleur du pays associé au lieu si elle existe
+  const couleurs = COULEURS_PAYS?.[lieu?.pays] || { accent: 'var(--color-terra-900, #7c2d12)' };
+
   if (!lieu) {
     return (
       <div className="p-4">
         <button
           onClick={() => navigate(-1)}
-          className="flex items-center gap-2 text-terra-500 mb-4"
+          className="flex items-center gap-2 text-terra-00 mb-4"
         >
-          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} style={{ color: couleurs.accent }}/>
           <span className="text-sm">Retour</span>
         </button>
         <p className="text-terra-muted">Lieu introuvable.</p>
@@ -1532,19 +1016,40 @@ function DetailLieu() {
 
   return (
     <div className="p-4">
-      <button
-        onClick={() => navigate(-1)}
-        className="flex items-center gap-2 text-terra-500 mb-4"
-      >
-        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
-        <span className="text-sm">Retour</span>
-      </button>
+      {/* ─── TITRE AVEC FLÈCHE RETOUR INTÉGRÉE ─── */}
+      <div className="mb-6 flex items-start justify-between">
+        <div>
+          <div 
+            className="flex items-center gap-3 active:opacity-70 transition cursor-pointer" 
+            onClick={() => navigate(-1)}
+          >
+            {/* Flèche de retour alignée */}
+            <ArrowLeft 
+              className="w-6 h-6 flex-shrink-0" 
+              strokeWidth={2.5} 
+              style={{ color: couleurs.accent }}
+            />
+            
+            <h1 
+              className="font-serif text-3xl font-semibold text-terra-900 leading-tight tracking-wide"
+              style={{ color: couleurs.accent }}
+            >
+              {lieu.nom}
+            </h1>
+          </div>
+          
+          {/* Ligne décorative calée sous le début du texte */}
+          <div 
+            className="h-[2px] w-8 mt-3.5 ml-9 rounded-full" 
+            style={{ backgroundColor: couleurs.accent }}
+          />
+        </div>
+      </div>
 
-      <h1 className="font-serif text-3xl text-terra-900 leading-tight mb-4">
-        {lieu.nom}
-      </h1>
-
-      <TexteAvecLiens texte={lieu.description} />
+      {/* ─── CONTENU DE LA DESCRIPTION ─── */}
+      <div className="prose prose-terra max-w-none">
+        <TexteAvecLiens texte={lieu.description} />
+      </div>
     </div>
   );
 }
@@ -1556,12 +1061,16 @@ export default DetailLieu;
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import pays from '../donnees/pays.json';
+import { COULEURS_PAYS } from '../donnees/constantes'; // Optionnel : si tu veux caler la vraie couleur du pays
 import TexteAvecLiens from '../composants/TexteAvecLiens';
 
 function DetailPays() {
   const { id } = useParams();
   const navigate = useNavigate();
   const p = pays.find((x) => x.id === id);
+
+  // Récupération des couleurs si disponibles, sinon fallback sur le thème Terra
+  const couleurs = COULEURS_PAYS?.[p?.nom] || { accent: 'var(--color-terra-900, #7c2d12)' };
 
   if (!p) {
     return (
@@ -1580,19 +1089,39 @@ function DetailPays() {
 
   return (
     <div className="p-4">
-      <button
-        onClick={() => navigate(-1)}
-        className="flex items-center gap-2 text-terra-500 mb-4"
-      >
-        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
-        <span className="text-sm">Retour</span>
-      </button>
+      {/* ─── TITRE AVEC FLÈCHE RETOUR INTÉGRÉE ─── */}
+      <div className="mb-6 flex items-start justify-between">
+        <div>
+          <div 
+            className="flex items-center gap-3 active:opacity-70 transition cursor-pointer" 
+            onClick={() => navigate(-1)}
+          >
+            {/* Flèche de retour stylisée */}
+            <ArrowLeft 
+              className="w-6 h-6 flex-shrink-0 text-terra-500" 
+              strokeWidth={2.5} 
+            />
+            
+            <h1 
+              className="font-serif text-3xl font-semibold text-terra-900 leading-tight tracking-wide"
+              style={{ color: couleurs.accent }}
+            >
+              {p.nom}
+            </h1>
+          </div>
+          
+          {/* Petite ligne d'accentuation calée sous le début du texte */}
+          <div 
+            className="h-[2px] w-8 mt-3.5 ml-9 rounded-full" 
+            style={{ backgroundColor: couleurs.accent }}
+          />
+        </div>
+      </div>
 
-      <h1 className="font-serif text-3xl text-terra-900 leading-tight mb-4">
-        {p.nom}
-      </h1>
-
-      <TexteAvecLiens texte={p.description} />
+      {/* ─── CONTENU DU GUIDE ─── */}
+      <div className="prose prose-terra max-w-none">
+        <TexteAvecLiens texte={p.description} />
+      </div>
     </div>
   );
 }
@@ -1600,72 +1129,73 @@ function DetailPays() {
 export default DetailPays;
 </file>
 
-<file path="src/modules/DetailVisiteGuidee.jsx">
-import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
-import visites from '../donnees/visitesGuidees.json';
-import Accordeon from '../composants/Accordeon';
-import TexteAvecLiens from '../composants/TexteAvecLiens';
+<file path="src/modules/Enquetes.jsx">
+import { Link } from 'react-router-dom';
+import { ArrowLeft, ChevronRight, FileText, Files } from 'lucide-react';
+import { SECTIONS } from '../donnees/enquetes';
 
-function DetailVisiteGuidee() {
-  const { id } = useParams();
-  const navigate = useNavigate();
-  const v = visites.find((x) => x.id === id);
-
-  if (!v) {
-    return (
-      <div className="p-4">
-        <button
-          onClick={() => navigate(-1)}
-          className="flex items-center gap-2 text-terra-500 mb-4"
-        >
-          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
-          <span className="text-sm">Retour</span>
-        </button>
-        <p className="text-terra-muted">Visite introuvable.</p>
-      </div>
-    );
-  }
-
+function Vignette({ image }) {
   return (
-    <div className="p-4">
-      <button
-        onClick={() => navigate(-1)}
-        className="flex items-center gap-2 text-terra-500 mb-4"
-      >
-        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
-        <span className="text-sm">Retour</span>
-      </button>
-
-      <h1 className="font-serif text-3xl text-terra-900 leading-tight mb-1">
-        {v.titre}
-      </h1>
-      <div className="text-[11px] uppercase tracking-wider text-terra-muted mb-4">
-        {v.pays}
-      </div>
-
-      {/* Description courte */}
-      <div className="mb-4 text-sm text-terra-900 leading-relaxed">
-        <TexteAvecLiens texte={v.description} />
-      </div>
-
-      {/* Accordéons sections */}
-      {v.sections && v.sections.length > 0 && (
-        <div className="border-b border-terra-border text-justify">
-          {v.sections.map((section, i) => (
-            <Accordeon
-              key={i}
-              titre={section.titre}
-              contenu={section.contenu}
-            />
-          ))}
-        </div>
-      )}
-    </div>
+    <div
+      className="relative w-[84px] shrink-0 rounded-xl overflow-hidden border border-[rgba(60,40,20,0.35)] bg-[#5a4a36] shadow-[inset_0_0_18px_rgba(30,15,5,0.4)]"
+      style={{ backgroundImage: `linear-gradient(135deg,rgba(0,0,0,0.15),rgba(0,0,0,0.45)),url('${image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+    />
   );
 }
 
-export default DetailVisiteGuidee;
+function Tag({ section }) {
+  if (section.type === 'liste') {
+    const n = section.cas?.length ?? 0;
+    return (
+      <span className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wide text-sepia">
+        <Files className="w-3 h-3" strokeWidth={2} />
+        {n} {n > 1 ? 'affaires' : 'affaire'}
+      </span>
+    );
+  }
+  return (
+    <span className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wide text-sepia">
+      <FileText className="w-3 h-3" strokeWidth={2} />
+      PDF
+    </span>
+  );
+}
+
+export default function Enquetes() {
+  return (
+    <div className="fond-carte-enquete relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+
+      {/* En-tête */}
+      <div className="relative px-5 pt-5 pb-1">
+        <Link to="/jeux" aria-label="Retour"
+              className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+        </Link>
+        <h1 className="font-serif uppercase tracking-[2px] text-[24px] text-encre font-semibold text-center -mt-6">Detective Cases</h1>
+        <p className="text-center text-[12.5px] text-sepia mt-0.5">Choisis une enquête</p>
+      </div>
+
+      {/* Liste des sections */}
+      <div className="relative px-[18px] pt-4 pb-6 flex flex-col gap-3">
+        {SECTIONS.map((s) => (
+          <Link key={s.id} to={`/jeux/enquetes/${s.id}`}
+                className="flex gap-3.5 items-stretch bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-3 shadow-[0_4px_12px_rgba(60,40,20,0.12)] transition-transform duration-200 hover:-translate-y-0.5">
+            <Vignette image={s.image} />
+            <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
+              <div>
+                <h3 className="font-serif text-[16px] leading-tight text-encre font-semibold m-0">{s.titre}</h3>
+                <p className="text-[11.5px] text-encre-douce mt-1 leading-snug">{s.sousTitre}</p>
+              </div>
+              <div className="mt-2"><Tag section={s} /></div>
+            </div>
+            <ChevronRight className="self-center shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
 </file>
 
 <file path="src/modules/Episode.jsx">
@@ -1833,138 +1363,6 @@ function Episode() {
 export default Episode;
 </file>
 
-<file path="src/modules/Jeux.jsx">
-import { Link } from 'react-router-dom';
-
-// Icônes : place tes 3 SVG dans public/images/jeux/icones/
-//   quiz.svg · enquetes.svg · escapes.svg
-
-// ─── Données des 3 cartes (tout s'édite ici) ──────────────────────────
-const CARTES = [
-  {
-    id: 'quiz', titre: 'Quiz', to: '/jeux/quiz', icone: '/images/jeux/icones/quiz.svg', badge: '3 modes', couleur: 'bg-jeu-quiz',
-    desc: 'Teste tes connaissances sur l’histoire, la culture et la géographie.',
-  },
-  {
-    id: 'enquetes', titre: 'Enquêtes', to: '/jeux/enquetes', icone: '/images/jeux/icones/enquetes.svg', badge: '2 séries', couleur: 'bg-jeu-enquete',
-    desc: 'Résous des affaires mystérieuses dans des séries captivantes.',
-  },
-  {
-    id: 'escapes', titre: 'Escapes', to: '/jeux/escapes', icone: '/images/jeux/icones/escapes.svg', badge: '2 onglets', couleur: 'bg-jeu-escape',
-    desc: 'Échappe-toi de lieux légendaires remplis d’énigmes.',
-  },
-];
-
-
-
-export default function Jeux() {
-  return (
-    <div className="fond-carte relative min-h-full overflow-hidden">
-      <div className="vignette-carte" aria-hidden="true" />
-
-
-      {/* En-tête */}
-      <div className="relative px-6 pt-6 pb-4">
-        <div className="text-[11px] tracking-[0.2em] font-semibold text-sepia mt-4">AIRE DE JEU</div>
-        <h1 className="font-serif text-[52px] leading-none text-encre font-semibold mt-0.5">Jeux</h1>
-        <p className="text-encre-douce text-[13.5px] leading-relaxed max-w-[215px] mt-2.5">
-          Explore, résous, réponds et échappe-toi à travers l’Amérique du Sud.
-        </p>
-      </div>
-
-      {/* Cartes */}
-      <div className="relative px-5 pt-1 pb-6 flex flex-col gap-3.5">
-        {CARTES.map(({ id, titre, desc, badge, icone, couleur, to }) => (
-          <Link key={id} to={to}
-                  className={`relative text-left rounded-[20px] p-[17px] border border-creme/15 ${couleur} texture-cuir shadow-[0_8px_22px_rgba(40,20,8,0.28)] transition-transform duration-200 hover:-translate-y-0.5`}>
-            <div className="flex items-start gap-3.5">
-              <div className="shrink-0 w-[52px] h-[52px] rounded-full flex items-center justify-center bg-creme/10 border border-creme/30">
-                <img src={icone} alt="" className="w-6 h-6" />
-              </div>
-              <div className="pr-14">
-                <div className="font-serif text-2xl text-creme leading-none font-semibold">{titre}</div>
-                <p className="text-[12.5px] leading-snug text-creme/70 mt-1.5">{desc}</p>
-              </div>
-            </div>
-            <span className="absolute right-3.5 bottom-3 bg-black/25 text-creme text-[11px] font-semibold px-2.5 py-[3px] rounded-lg border border-creme/15">
-              {badge}
-            </span>
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
-}
-</file>
-
-<file path="src/modules/Lieux.jsx">
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Search, X } from 'lucide-react';
-import lieux from '../donnees/lieux.json';
-import OngletsPlanification from '../composants/OngletsPlanification';
-
-function Lieux() {
-  const [recherche, setRecherche] = useState('');
-  const rechercheNorm = recherche.trim().toLowerCase();
-
-  const resultats = rechercheNorm
-    ? lieux.filter((l) => l.nom.toLowerCase().includes(rechercheNorm))
-    : lieux;
-
-  return (
-    <div className="p-4">
-      <OngletsPlanification />
-
-      {/* Recherche */}
-      <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
-        <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
-        <input
-          type="text"
-          value={recherche}
-          onChange={(e) => setRecherche(e.target.value)}
-          placeholder="Rechercher un lieu…"
-          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted"
-        />
-        {recherche && (
-          <button
-            onClick={() => setRecherche('')}
-            className="text-terra-muted hover:text-terra-500"
-          >
-            <X className="w-4 h-4" strokeWidth={2} />
-          </button>
-        )}
-      </div>
-
-      <div className="text-xs text-terra-muted mb-2">
-        {resultats.length} lieu{resultats.length !== 1 ? 'x' : ''}
-        {rechercheNorm && ` pour « ${recherche} »`}
-      </div>
-
-      {resultats.length === 0 ? (
-        <div className="text-center py-8 text-terra-muted text-sm">
-          Aucun lieu
-        </div>
-      ) : (
-        resultats.map((lieu) => (
-          <Link
-            key={lieu.id}
-            to={`/planification/lieux/${lieu.id}`}
-            className="bg-terra-100 border border-terra-border rounded-xl px-3.5 py-3 mb-2 flex items-center hover:border-terra-500/40 transition-colors"
-          >
-            <div className="font-serif text-base text-terra-900 leading-tight">
-              {lieu.nom}
-            </div>
-          </Link>
-        ))
-      )}
-    </div>
-  );
-}
-
-export default Lieux;
-</file>
-
 <file path="src/modules/Pays.jsx">
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -2031,6 +1429,142 @@ function Pays() {
 }
 
 export default Pays;
+</file>
+
+<file path="src/modules/PlanificationAccueil.jsx">
+import { Link } from 'react-router-dom';
+import { ChevronRight, Compass } from 'lucide-react';
+import activites from '../donnees/activites.json';
+import {
+  PAYS,
+  zonesDuPays,
+  DRAPEAUX,
+  IMAGES_PAYS,
+  COULEURS_PAYS,
+  versSlug,
+} from '../donnees/constantes';
+
+// Détecte si un drapeau est une URL d'image (PNG/JPG/SVG) ou un emoji
+const estUneImage = (drapeau) =>
+  typeof drapeau === 'string' && drapeau.startsWith('/');
+
+function PlanificationAccueil() {
+  return (
+    <div className="pb-6">
+      {/* ─── HERO AVEC FOND DE CARTE ─── */}
+      <div className="relative overflow-hidden px-4 pt-8 pb-10">
+        {/* Fond de carte (image décorative en arrière-plan) */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: "url('/images/planification/planif.png')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        />
+        {/* Voile crème léger pour adoucir le bas et faire la transition */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-terra-50/10 to-terra-50" />
+
+        {/* Contenu */}
+        <div className="relative">
+          <h1 className="text-4xl font-serif font-semibold text-terra-900 tracking-tight leading-tight">
+            Planification
+          </h1>
+          <p className="text-sm text-terra-muted mt-2 max-w-sm italic">
+            Planifie ton aventure à travers l'Amérique du Sud
+          </p>
+        </div>
+      </div>
+
+      {/* ─── LABEL ─── */}
+      <div className="px-4 mb-3">
+        <div className="flex items-center gap-2.5">
+          <Compass className="w-4 h-4 text-terra-500 flex-shrink-0" strokeWidth={2} />
+          <h2 className="text-xs font-medium text-terra-500 uppercase tracking-[0.15em] whitespace-nowrap">
+            Choisis un pays
+          </h2>
+          <div className="flex-1 h-px bg-gradient-to-r from-terra-500/40 to-transparent" />
+        </div>
+      </div>
+
+      {/* ─── LISTE DES PAYS ─── */}
+      <div className="px-4 space-y-3">
+        {PAYS.map((pays) => {
+          const zonesCount = zonesDuPays(activites, pays).length;
+          const drapeau = DRAPEAUX[pays] || '🏳️';
+          const image = IMAGES_PAYS[pays];
+          const couleurs = COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
+
+          return (
+            <Link
+              key={pays}
+              to={`/planification/zones/${versSlug(pays)}`}
+              className="group relative block h-28 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition active:scale-[0.99]"
+              style={{ backgroundColor: couleurs.accent }}
+            >
+              {/* IMAGE DE FOND (optionnelle - se superpose si elle charge) */}
+              {image && (
+                <img
+                  src={image}
+                  alt=""
+                  className="absolute inset-0 w-full h-full object-cover"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                  }}
+                />
+              )}
+
+              {/* OVERLAY noir à gauche, transparent à droite (1er tiers) */}
+              <div
+                className="absolute inset-0"
+                style={{
+                  background:
+                    'linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 30%, transparent 60%)',
+                }}
+              />
+
+              {/* CONTENU */}
+              <div className="relative h-full flex items-center px-5 gap-3">
+                {/* GAUCHE : drapeau + nom + nb zones */}
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2.5 mb-1">
+                    {/* DRAPEAU : image PNG ou emoji selon la valeur */}
+                    {estUneImage(drapeau) ? (
+                      <img
+                        src={drapeau}
+                        alt={`Drapeau ${pays}`}
+                        className="w-7 h-5 object-cover rounded-sm shadow-sm flex-shrink-0"
+                      />
+                    ) : (
+                      <span className="text-2xl drop-shadow-sm leading-none">
+                        {drapeau}
+                      </span>
+                    )}
+
+                    <h3 className="font-serif font-semibold text-white text-lg leading-tight uppercase tracking-wider drop-shadow-sm">
+                      {pays}
+                    </h3>
+                  </div>
+                  <p className="text-xs text-white/90 ml-[38px] drop-shadow-sm">
+                    {zonesCount} zone{zonesCount !== 1 ? 's' : ''}
+                  </p>
+                </div>
+
+                {/* DROITE : chevron */}
+                <ChevronRight
+                  className="w-6 h-6 text-white/90 group-hover:translate-x-1 transition-transform drop-shadow-sm"
+                  strokeWidth={2}
+                />
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+export default PlanificationAccueil;
 </file>
 
 <file path="src/modules/PremieresFois.jsx">
@@ -2186,6 +1720,112 @@ function PremieresFois() {
 }
 
 export default PremieresFois;
+</file>
+
+<file path="src/modules/Quiz.jsx">
+import { Link } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
+
+export default function Quiz() {
+  return (
+    <div className="fond-carte relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+
+      {/* En-tête */}
+      <div className="relative px-5 pt-5 pb-1">
+        <Link to="/jeux" aria-label="Retour"
+              className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+        </Link>
+        <h1 className="font-serif uppercase tracking-[2px] text-[25px] text-encre font-semibold text-center -mt-6">Quiz</h1>
+        <p className="text-center text-[12.5px] text-sepia mt-0.5">Choisis un mode de jeu</p>
+      </div>
+
+      {/* Contenu placeholder */}
+      <div className="relative px-5 pt-10 pb-6">
+        <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-6 text-center shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+          <div className="font-serif text-lg text-encre font-semibold">À venir</div>
+          <p className="text-xs text-encre-douce mt-2 leading-snug">
+            Les modes Quiz arriveront bientôt — Exploration, Vrai ou Faux, 2 Vraies 1 Fausse, Chrono, Duel…
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+</file>
+
+<file path="src/modules/SectionEnquete.jsx">
+import { useParams, Link } from 'react-router-dom';
+import { ArrowLeft, ChevronRight, BookText } from 'lucide-react';
+import { sectionParId } from '../donnees/enquetes';
+
+export default function SectionEnquete() {
+  const { sectionId } = useParams();
+  const section = sectionParId(sectionId);
+
+  // En-tête réutilisé
+  const Entete = ({ titre, sousTitre }) => (
+    <div className="relative px-5 pt-5 pb-1">
+      <Link to="/jeux/enquetes" aria-label="Retour"
+            className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+        <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+      </Link>
+      <h1 className="font-serif text-[22px] leading-tight text-encre font-semibold text-center -mt-6 px-10">{titre}</h1>
+      {sousTitre && <p className="text-center text-[12.5px] text-sepia mt-1">{sousTitre}</p>}
+    </div>
+  );
+
+  if (!section) {
+    return (
+      <div className="fond-carte-enquete relative min-h-full overflow-hidden">
+        <div className="vignette-carte" aria-hidden="true" />
+        <Entete titre="Introuvable" />
+        <div className="relative px-5 pt-10">
+          <p className="text-center text-encre-douce text-sm">Cette enquête n'existe pas.</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="fond-carte-enquete relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+      <Entete titre={section.titre} sousTitre={section.sousTitre} />
+
+      <div className="relative px-[18px] pt-4 pb-6">
+        {section.type === 'explication' ? (
+          // ─── Page descriptive ───
+          <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+            {section.explication.map((p, i) => (
+              <p key={i} className="text-[13.5px] text-justify leading-relaxed text-encre-douce first:mt-0 mt-3">{p}</p>
+            ))}
+            {section.note && (
+              <div className="flex items-start gap-2 mt-5 pt-4 border-t border-parchemin-bordure">
+                <BookText className="w-4 h-4 text-sepia shrink-0 mt-0.5" strokeWidth={1.9} />
+                <p className="text-[12px] italic text-sepia leading-snug">{section.note}</p>
+              </div>
+            )}
+          </div>
+        ) : (
+          // ─── Liste d'affaires ───
+          <div className="flex flex-col gap-2.5">
+            {section.cas.map((c, i) => (
+              <Link key={c.id} to={`/jeux/enquetes/${section.id}/${c.id}`}
+                    className="flex items-center gap-3 bg-parchemin-carte border border-parchemin-bordure rounded-xl p-3.5 shadow-[0_4px_12px_rgba(60,40,20,0.10)] transition-transform duration-200 hover:-translate-y-0.5">
+                <span className="font-serif text-[18px] text-encre/35 font-semibold w-7 text-center shrink-0">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <h3 className="flex-1 min-w-0 font-serif text-[16px] leading-tight text-encre font-semibold">{c.titre}</h3>
+                <ChevronRight className="shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
 </file>
 
 <file path="src/modules/Theme.jsx">
@@ -2464,6 +2104,297 @@ function VisitesGuidees() {
 export default VisitesGuidees;
 </file>
 
+<file path="src/modules/Zone.jsx">
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import { ArrowLeft, ChevronRight, Map } from 'lucide-react';
+import activites from '../donnees/activites.json';
+import lieux from '../donnees/lieux.json';
+import { versSlug, estIncontournable, COULEURS_PAYS } from '../donnees/constantes';
+import CarteActivite from '../composants/CarteActivite';
+
+function Zone() {
+  const { zoneSlug } = useParams();
+  const navigate = useNavigate();
+
+  const liste = activites
+    .filter((a) => versSlug(a.lieu) === zoneSlug)
+    .sort((a, b) => (estIncontournable(b) ? 1 : 0) - (estIncontournable(a) ? 1 : 0));
+
+  const lieu = lieux.find((l) => versSlug(l.nom) === zoneSlug);
+  const nomZone = lieu?.nom ?? liste[0]?.lieu ?? 'Zone';
+  const apercu = lieu?.description?.trim()
+    ? lieu.description.split('\n\n')[0].replace(/\[\[([^\]]+)\]\]/g, '$1')
+    : '';
+
+  // Couleurs du pays — pour aligner l'encadré sur le « Guide pratique » du pays
+  const pays = liste[0]?.pays;
+  const couleurs = COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
+
+  return (
+    <div className="p-4">
+      {/* ─── TITRE AVEC FLÈCHE RETOUR INTÉGRÉE ─── */}
+      <div className="mb-6 flex items-start justify-between">
+        <div>
+          <div className="flex items-center gap-3 active:opacity-70 transition cursor-pointer" onClick={() => navigate(-1)}>
+            {/* Flèche de retour stylisée avec la couleur du pays */}
+            <ArrowLeft 
+              className="w-6 h-6 flex-shrink-0" 
+              style={{ color: couleurs.accent }} 
+              strokeWidth={2.5} 
+            />
+            
+            <h1 
+              className="font-serif text-3xl font-semibold text-terra-900 leading-tight tracking-wide"
+              style={{ color: couleurs.accent }}
+            >
+              {nomZone}
+            </h1>
+          </div>
+          
+          {/* Petite ligne d'accentuation décalée pour s'aligner sous le texte */}
+          <div 
+            className="h-[2px] w-8 mt-3.5 ml-9 rounded-full" 
+            style={{ backgroundColor: couleurs.accent }}
+          />
+        </div>
+      </div>
+
+      {/* ─── GUIDE DE VISITE — même format que « Guide pratique » du pays ─── */}
+
+      {/* ─── GUIDE DE VISITE — même format que « Guide pratique » du pays ─── */}
+      {apercu && (
+        <Link
+          to={`/planification/lieux/${lieu.id}`}
+          className="group block mb-6 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition active:scale-[0.99] relative"
+          style={{ backgroundColor: couleurs.iconBg }}
+        >
+          {/* Bordure verticale accent (gauche) */}
+          <div
+            className="absolute left-0 top-0 h-full w-1.5"
+            style={{ backgroundColor: couleurs.accent }}
+          />
+
+          <div className="relative py-3 pl-5 flex items-center gap-3.5">
+            {/* Icône ronde avec couleur du pays */}
+            <div
+              className="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center shadow-sm"
+              style={{ backgroundColor: couleurs.accent, color: 'white' }}
+            >
+              <Map className="w-5 h-5" strokeWidth={2} />
+            </div>
+
+            {/* Contenu */}
+            <div className="flex-1 min-w-0">
+              <div
+                className="text-[10px] font-semibold uppercase tracking-[0.15em] mb-0.5"
+                style={{ color: couleurs.iconText }}
+              >
+                {nomZone}
+              </div>
+              <h2 className="font-serif font-semibold text-terra-900 leading-tight text-base">
+                Guide de visite
+              </h2>
+            </div>
+
+            {/* Chevron coloré */}
+            <ChevronRight
+              className="w-5 h-5 flex-shrink-0 group-hover:translate-x-1 transition-transform"
+              style={{ color: couleurs.accent }}
+              strokeWidth={2.5}
+            />
+          </div>
+        </Link>
+      )}
+
+      {/* ─── SÉPARATEUR / TITRE DE SECTION ─── */}
+      <div className="flex items-center gap-3 mb-3">
+        <h3 className="text-xs font-semibold text-terra-500 uppercase tracking-[0.15em] whitespace-nowrap">
+          À explorer
+        </h3>
+        <div className="flex-1 h-px bg-gradient-to-r from-terra-border to-transparent" />
+        <span className="text-xs text-terra-muted">{liste.length}</span>
+      </div>
+
+      {/* ─── LISTE DES ACTIVITÉS ─── */}
+      {liste.map((act) => (
+        <CarteActivite key={act.nom} activite={act} />
+      ))}
+    </div>
+  );
+}
+
+export default Zone;
+</file>
+
+<file path="src/modules/Zones.jsx">
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import { ChevronRight, ChevronLeft, BookOpen } from 'lucide-react';
+import activites from '../donnees/activites.json';
+import pays from '../donnees/pays.json';
+import {
+  zonesDuPays,
+  paysDuSlug,
+  DRAPEAUX,
+  IMAGES_PAYS_HEADER,
+  COULEURS_PAYS,
+} from '../donnees/constantes';
+import CarteZone from '../composants/CarteZone';
+
+// Détecte si la valeur est une URL d'image ou un emoji
+const estUneImage = (v) => typeof v === 'string' && v.startsWith('/');
+
+function Zones() {
+  const { paysSlug } = useParams();
+  const navigate = useNavigate();
+
+  const paysAffiche = paysDuSlug(paysSlug) || 'Pérou';
+  const zones = zonesDuPays(activites, paysAffiche);
+
+  const paysInfo = pays.find((p) => p.nom === paysAffiche);
+  const apercuPays = paysInfo?.description?.split('\n\n')[0] ?? '';
+
+  const drapeau = DRAPEAUX[paysAffiche];
+  const imageFond = IMAGES_PAYS_HEADER[paysAffiche];
+  const couleurs = COULEURS_PAYS[paysAffiche] || COULEURS_PAYS['Pérou'];
+
+  return (
+    <div>
+      {/* ─── HEADER : image en arrière-plan plein cadre ─── */}
+      <div
+        className="relative h-20 overflow-hidden"
+        style={{ backgroundColor: couleurs.accent }}
+      >
+        {imageFond && (
+          <img
+            src={imageFond}
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover"
+            onError={(e) => { e.currentTarget.style.display = 'none'; }}
+          />
+        )}
+
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(to right, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.15) 80%, transparent 100%)',
+          }}
+        />
+
+        <div
+          className="absolute inset-x-0 bottom-0 h-1 pointer-events-none"
+          style={{
+            background:
+              'linear-gradient(to bottom, transparent 0%, var(--color-terra-50) 100%)',
+          }}
+        />
+
+        <div className="relative h-full px-4 flex items-center gap-2.5">
+          <button
+            onClick={() => navigate(-1)}
+            className="flex-shrink-0 -ml-1 p-1 text-white/90 hover:text-white transition"
+            aria-label="Retour"
+          >
+            <ChevronLeft className="w-6 h-6 drop-shadow-md" strokeWidth={2.5} />
+          </button>
+
+          {drapeau && (
+            estUneImage(drapeau) ? (
+              <img
+                src={drapeau}
+                alt={`Drapeau ${paysAffiche}`}
+                className="w-8 h-5 object-cover rounded-sm shadow-md flex-shrink-0"
+              />
+            ) : (
+              <span className="text-2xl leading-none drop-shadow-lg flex-shrink-0">
+                {drapeau}
+              </span>
+            )
+          )}
+
+          <h1 className="text-xl font-serif font-semibold text-white tracking-wide uppercase drop-shadow-md leading-none truncate">
+            {paysAffiche}
+          </h1>
+        </div>
+      </div>
+
+      {/* ─── CONTENU SOUS LE HEADER ─── */}
+      <div className="p-4">
+
+        {/* ─── À SAVOIR SUR LE PAYS — Carte mise en avant ─── */}
+        {paysInfo && apercuPays && (
+          <Link
+            to={`/planification/pays/${paysInfo.id}`}
+            className="group block mb-6 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition active:scale-[0.99] relative"
+            style={{ backgroundColor: couleurs.iconBg }}
+          >
+            {/* Bordure verticale accent (gauche) */}
+            <div
+              className="absolute left-0 top-0 h-full w-1.5"
+              style={{ backgroundColor: couleurs.accent }}
+            />
+
+            <div className="relative py-3 pl-5 flex items-center gap-3.5">
+              {/* Icône ronde avec couleur du pays */}
+              <div
+                className="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center shadow-sm"
+                style={{ backgroundColor: couleurs.accent, color: 'white' }}
+              >
+                <BookOpen className="w-5 h-5" strokeWidth={2} />
+              </div>
+
+              {/* Contenu */}
+              <div className="flex-1 min-w-0">
+                <div
+                  className="text-[10px] font-semibold uppercase tracking-[0.15em] mb-0.5"
+                  style={{ color: couleurs.iconText }}
+                >
+                  Guide pratique
+                </div>
+                <h2 className="font-serif font-semibold text-terra-900 leading-tight text-base">
+                  À savoir sur : {paysAffiche}
+                </h2>
+                <p className="text-xs text-terra-muted/90 mt-1 line-clamp-1">
+                  Trajet · Frontières · Sécurité · Monnaie
+                </p>
+              </div>
+
+              {/* Chevron coloré */}
+              <ChevronRight
+                className="w-5 h-5 flex-shrink-0 group-hover:translate-x-1 transition-transform"
+                style={{ color: couleurs.accent }}
+                strokeWidth={2.5}
+              />
+            </div>
+          </Link>
+        )}
+
+        {/* ─── SÉPARATEUR / TITRE DE SECTION ─── */}
+        <div className="flex items-center gap-3 mb-3">
+          <h3 className="text-xs font-semibold text-terra-500 uppercase tracking-[0.15em] whitespace-nowrap">
+            Zones à visiter
+          </h3>
+          <div className="flex-1 h-px bg-gradient-to-r from-terra-border to-transparent" />
+          <span className="text-xs text-terra-muted">
+            {zones.length}
+          </span>
+        </div>
+
+        {/* ─── LISTE DES ZONES ─── */}
+        <div>
+          {zones.map((z) => (
+            <CarteZone key={z.slug} zone={z} />
+          ))}
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+export default Zones;
+</file>
+
 <file path="index.html">
 <!doctype html>
 <html lang="fr">
@@ -2482,54 +2413,84 @@ export default VisitesGuidees;
 </html>
 </file>
 
-<file path="src/composants/carteActivite.jsx">
-import { Link } from 'react-router-dom';
-import { MapPin } from 'lucide-react';
-import { COULEURS_TYPES_ACTIVITES, versSlug } from '../donnees/constantes';
-import Etoiles from './Etoiles';
+<file path="src/composants/Accordeon.jsx">
+import { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
+import TexteFormate from '../composants/TexteFormate';
 
-function CarteActivite({ activite }) {
-  const couleurBadge = COULEURS_TYPES_ACTIVITES[activite.type];
+
+function Accordeon({ titre, contenu }) {
+  const [ouvert, setOuvert] = useState(false);
 
   return (
-    <Link
-      to={`/planification/activites/${versSlug(activite.nom)}`}
-      className="bg-terra-100 border border-terra-border rounded-xl px-3.5 py-3 mb-2 flex items-center gap-3 hover:border-terra-500/40 transition-colors"
-    >
-      <div className="flex-1 min-w-0">
-        {/* Ligne 1 : badge + lieu + durée */}
-        <div className="flex items-center gap-2 mb-1 flex-wrap">
-          <span
-            className="text-white text-[10px] font-medium px-2 py-0.5 rounded-md"
-            style={{ backgroundColor: couleurBadge }}
-          >
-            {activite.type}
-          </span>
-          <span className="text-[11px] text-terra-muted flex items-center gap-1">
-            <MapPin className="w-3 h-3" strokeWidth={2} />
-            {activite.lieu}
-            {activite.duree && (
-              <>
-                <span className="mx-0.5">·</span>
-                <span className="italic">{activite.duree}</span>
-              </>
-            )}
-          </span>
-        </div>
+    <div className="border-t border-terra-border">
+      <button
+        onClick={() => setOuvert((v) => !v)}
+        className="w-full flex justify-between items-center py-3 text-left"
+      >
+        <span className="text-sm font-medium text-terra-900">{titre}</span>
+        <ChevronDown
+          className={`w-4 h-4 text-terra-muted transition-transform ${
+            ouvert ? 'rotate-180' : ''
+          }`}
+          strokeWidth={2}
+        />
+      </button>
 
-        {/* Ligne 2 : nom de l'activité */}
-        <div className="font-serif text-base text-terra-900 leading-tight">
-          {activite.nom}
+      {ouvert && (
+        <div className="pb-3 text-sm text-terra-900 leading-relaxed whitespace-pre-line">
+          <TexteFormate texte={contenu} />
         </div>
-      </div>
-
-      {/* À droite : étoiles (rien si pas d'importance) */}
-      <Etoiles nombre={activite.importance} />
-    </Link>
+      )}
+    </div>
   );
 }
 
-export default CarteActivite;
+export default Accordeon;
+</file>
+
+<file path="src/composants/BarreOnglets.jsx">
+import { NavLink } from 'react-router-dom';
+import { Map, BookOpen, Dices, PenLine } from 'lucide-react';
+
+function BarreOnglets() {
+  const onglets = [
+    { chemin: '/planification', label: 'Planif',    Icone: Map },
+    { chemin: '/apprendre',     label: 'Apprendre', Icone: BookOpen },
+    { chemin: '/jeux',          label: 'Jeux',      Icone: Dices },
+    { chemin: '/journal',       label: 'Journal',   Icone: PenLine },
+  ];
+
+  return (
+    <nav className="bg-terra-100 border-t border-terra-border grid grid-cols-4 py-1.5 pb-3">
+      {onglets.map(({ chemin, label, Icone }) => (
+        <NavLink
+          key={chemin}
+          to={chemin}
+          className="flex flex-col items-center gap-1 py-1.5"
+        >
+          {({ isActive }) => (
+            <>
+              <Icone
+                className={`w-5 h-5 ${isActive ? 'text-terra-500' : 'text-terra-muted'}`}
+                strokeWidth={1.7}
+              />
+              <span
+                className={`text-xs ${
+                  isActive ? 'text-terra-500 font-semibold' : 'text-terra-muted'
+                }`}
+              >
+                {label}
+              </span>
+            </>
+          )}
+        </NavLink>
+      ))}
+    </nav>
+  );
+}
+
+export default BarreOnglets;
 </file>
 
 <file path="src/composants/carteFaune.jsx">
@@ -2805,6 +2766,247 @@ function CartePlat({ plat, avis, onAjouter }) {
 export default CartePlat;
 </file>
 
+<file path="src/composants/TexteFormate.jsx">
+/**
+ * Composant qui affiche du texte avec un mini-formatage type Markdown.
+ *
+ * Syntaxe supportée :
+ *   **gras**         → <strong>gras</strong>
+ *   *italique*       → <em>italique</em>
+ *   __souligné__     → <u>souligné</u>
+ *
+ * Usage :
+ *   <TexteFormate texte="Le **Machu Picchu** est *incroyable*." />
+ *
+ * Le gras n'impose plus de couleur : il hérite de celle du contexte
+ * (text-terra-900 dans les activités, text-encre dans les enquêtes…).
+ */
+function TexteFormate({ texte }) {
+  if (!texte) return null;
+
+  const regex = /\*\*(.+?)\*\*|__(.+?)__|\*(.+?)\*/g;
+  const morceaux = [];
+  let dernierIndex = 0;
+  let match;
+
+  while ((match = regex.exec(texte)) !== null) {
+    // Texte brut entre le dernier match et celui-ci
+    if (match.index > dernierIndex) {
+      morceaux.push({
+        type: 'texte',
+        contenu: texte.slice(dernierIndex, match.index),
+      });
+    }
+
+    if (match[1] !== undefined) {
+      morceaux.push({ type: 'gras', contenu: match[1] });
+    } else if (match[2] !== undefined) {
+      morceaux.push({ type: 'souligne', contenu: match[2] });
+    } else if (match[3] !== undefined) {
+      morceaux.push({ type: 'italique', contenu: match[3] });
+    }
+
+    dernierIndex = match.index + match[0].length;
+  }
+
+  // Texte brut restant
+  if (dernierIndex < texte.length) {
+    morceaux.push({ type: 'texte', contenu: texte.slice(dernierIndex) });
+  }
+
+  return (
+    <>
+      {morceaux.map((morceau, i) => {
+        if (morceau.type === 'gras') {
+          return (
+            <strong key={i} className="font-semibold">
+              {morceau.contenu}
+            </strong>
+          );
+        }
+        if (morceau.type === 'italique') {
+          return <em key={i}>{morceau.contenu}</em>;
+        }
+        if (morceau.type === 'souligne') {
+          return (
+            <u key={i} className="underline decoration-terra-500 underline-offset-2">
+              {morceau.contenu}
+            </u>
+          );
+        }
+        return <span key={i}>{morceau.contenu}</span>;
+      })}
+    </>
+  );
+}
+
+export default TexteFormate;
+</file>
+
+<file path="src/donnees/Enquetes.js">
+// ════════════════════════════════════════════════════════════════════
+//  DONNÉES — Detective Cases  (/jeux/enquetes)
+//  ────────────────────────────────────────────────────────────────────
+//  POUR AJOUTER UNE SECTION : ajoute un objet dans SECTIONS.
+//    • type: 'explication'  → page descriptive seule (contenu = livre/PDF externe)
+//    • type: 'liste'        → liste d'affaires ; chaque affaire = { id, titre, histoire[], question }
+//  POUR AJOUTER UNE AFFAIRE : ajoute un objet dans le tableau `cas` de la section.
+//  Les images vont dans public/images/jeux/enquetes/  (un fond sépia s'affiche si absente).
+// ════════════════════════════════════════════════════════════════════
+
+export const SECTIONS = [
+  {
+    id: 'murdle',
+    titre: 'Murdle Book',
+    sousTitre: null,
+    type: 'explication',
+    image: '/images/jeux/enquetes/murdle.jpg',
+    explication: [
+      "Devenez le Détective Logico ! Chaque jour, un nouveau crime absurde a été commis. Armé de votre grille de logique, de votre perspicacité et d'une bonne dose d'humour noir, vous devez croiser les indices pour déduire qui est le coupable, avec quelle arme, et dans quel lieu. Il y a 100 criminels à démasquer !",
+    ],
+    note: 'Le matériel se trouve dans un PDF, en dehors de l\u2019application. Aucune connexion internet n\u2019est nécessaire.',
+  },
+  {
+    id: 'sherlock',
+    titre: 'The Unsolved Case Files of Sherlock Holmes',
+    sousTitre: 'Serez-vous meilleur que Sherlock ?',
+    type: 'explication',
+    image: '/images/jeux/enquetes/sherlock.jpg',
+    explication: [
+      "Le Dr Watson a laissé derrière lui un coffre contenant des affaires si complexes et mystérieuses que Sherlock Holmes lui-même a préféré les garder secrètes... jusqu'à aujourd'hui. Glissez-vous dans la peau du célèbre détective et tentez de résoudre ces énigmes que le reste du monde croyait insolubles."
+    ],
+    note: 'Le matériel se trouve dans deux PDF, en dehors de l\u2019application. Aucune connexion internet n\u2019est nécessaire.',
+
+  },
+  {
+    id: 'stop-a-murder',
+    titre: 'Stop a Murder',
+    sousTitre: null,
+    type: 'explication',
+    image: '/images/jeux/enquetes/stop-a-murder.jpg',
+    explication: [
+      "Glissez-vous dans la peau d'un profileur du FBI. Face à vous : un dossier criminel brut (rapports d'autopsie, indices physiques, lettres du tueur) et un compte à rebours mortel. Votre mission est d'arrêter un tueur en série machiavélique avant sa prochaine victime.",
+    ],
+    note: 'Le matériel se trouve dans plusieurs PDF, en dehors de l\u2019application. Une connexion internet est nécessaire pour vérifier les réponses.',
+  },
+  {
+    id: 'qui-ment',
+    titre: 'Qui ment ?',
+    sousTitre: null,
+    type: 'liste',
+    image: '/images/jeux/enquetes/qui-ment.jpg',
+    cas: [
+      {
+        id: 'abattu',
+        titre: 'ABATTU',
+        histoire: [
+          "L'inspecteur Alva interroge trois suspects dans le cadre de l'enquête sur la mort d'un médecin local, le Dr Fontaine, qui a été abattu dans son allée après être rentré tard du travail. Les suspects sont l'épouse du médecin, Mme Fontaine, un collègue du médecin, le Dr Bass, et un patient, M. Norton.",
+          "Le Dr Fontaine a quitté son travail à 21 h 08, d'après les images de vidéosurveillance situées à l'extérieur de son cabinet. Le trajet en voiture entre son cabinet et son domicile dure environ 15 minutes. Le 9-1-1 a reçu plusieurs appels de voisins vers 21 h 25, mais personne n'a rien vu.",
+          "Mme Fontaine était seule à la maison lorsque son mari s'est garé dans l' allée. Elle dit avoir entendu le coup de feu elle aussi, mais être d'abord sortie au lieu d'appeler. C'est alors qu'elle a trouvé son mari gisant dans l' allée, en sang.",
+          "Il est de notoriété publique que le Dr Bass et le Dr Fontaine entretenaient une rivalité acharnée. En effet, le Dr Fontaine avait récemment reçu un prix que le Dr Bass estimait lui-même mériter, et il l’avait d’ailleurs fait savoir à toute l’assemblée lors de la cérémonie de remise des prix. « Non, je n’aimais pas le Dr Fontaine », répond le Dr Bass lorsqu’on l’interroge. « Mais je ne l’aurais jamais tué. J’étais seul chez moi toute la soirée, de 19 h jusqu’au lendemain matin. »",
+          "M. Norton avait récemment quitté le cabinet du Dr Fontaine en colère parce que le médecin avait refusé de lui prescrire des analgésiques et l’avait orienté vers un centre de désintoxication. « Mais j’ai pris un nouveau départ depuis », dit M. Norton. « Je suis sorti faire un jogging en soirée de 21 h à 22 h ce soir-là. ».",
+          "Mme Fontaine exige que l'inspecteur arrête M. Norton. « Ça ne peut être que lui », dit-elle. « Il habite à quelques kilomètres d'ici et aurait pu venir en courant jusqu'à chez nous. Il a dit à mon mari qu'il regretterait de ne pas lui avoir donné l'ordonnance. Il l'a menacé ! »",
+          "« Mais c'était il y a un mois », dit l'inspecteur Alva. « Pourquoi aurait-il attendu si longtemps ? »",
+          "« Peut-être qu’il devait d’abord tout planifier », dit Mme Fontaine. « Il était dehors, soi-disant en train de faire son jogging, exactement au moment où mon mari s’est fait tirer dessus ! »",
+          "« Je vais toujours courir à la même heure tous les soirs maintenant », dit M. Norton. « Et je ne m’approche pas du tout de l’endroit où habite le Dr Fontaine quand je cours. Vous devriez vraiment vous intéresser davantage au Dr Bass. Tout le monde sait qu’il détestait le Dr Fontaine. »",
+          "« Je regardais le journal télévisé de 21 h quand la fusillade a eu lieu », dit le Dr Bass. « Je peux vous raconter chaque flash d’info : ils couvraient en direct l’incendie d’un entrepôt. Je vous le promets. Je n’ai rien à voir avec le meurtre du Dr Fontaine. »",
+          "« Il aurait pu lire toutes ces informations en ligne plus tard », dit M. Norton. « À quelle heure a eu lieu cet incendie, d’ailleurs ? »",
+          "« Je sais que l’incendie a eu lieu avant 21 h 15 », dit Mme Fontaine. « Je le sais parce que je regardais moi-même le journal télévisé et c’est à cette heure-là que j’ai entendu le coup de feu. »"
+        ],
+        question: 'Quel suspect ment ?',
+      },
+      {
+        id: 'coupable',
+        titre: "QUELQU'UN EST COUPABLE, C'EST CERTAIN",
+        histoire: [
+          "Un vol a eu lieu au Hardy’s Bar, un établissement très apprécié des habitants de Malory Rock, dans le Maine. Les employés ont constaté que l’argent avait été dérobé peu après la fermeture, vendredi soir. La police a interrogé trois suspects le lendemain : Amy, la barmaid qui travaillait le soir du vol ; Stan, un client du bar ; et Alexa, une cliente turbulente à qui on avait demandé de quitter les lieux ce soir-là. Ils ont recueilli les déclarations suivantes :",
+          "**Amy** : La nuit dernière a été difficile. J’ai travaillé jusqu’à la fermeture et j’ai eu affaire à des clients particulièrement difficiles au bar. Une fille avait déjà beaucoup bu lorsqu’elle est entrée et s’est assise au bar. Elle a commandé deux Long Island Iced Teas et est devenue de plus en plus agressive jusqu’à ce que nous devions finalement la mettre à la porte. Peu de temps après, j’ai fermé le bar pour la nuit et lorsque je l’ai rouvert aujourd’hui, l’argent avait disparu.",
+          "**Stan** : J’ai bu quelques bières chez Hardy’s vers minuit. Une fille ivre est entrée, s’est assise à côté de moi et n’arrêtait pas de se plaindre de la grossièreté du barman à son égard. Elle n’arrêtait pas de me demander si je voulais une gorgée de son verre. Ça ressemblait à un Long Island Iced Tea. J’ai poliment refusé, puis je suis parti. J’ai entendu dire qu’elle s’était fait mettre dehors plus tard dans la nuit.",
+          "**Alexa** : Je déteste le Hardy’s Bar. Le barman a été vraiment grossier avec moi hier soir. Je suis entrée et j’ai bu seulement deux verres, rien qui contenait d’alcool fort. Et puis ils m’ont demandé de partir ! C’était vraiment injuste la façon dont ils m’ont traitée. Je n’y remettrai plus jamais les pieds.",
+          "Après avoir examiné les déclarations des témoins, les enquêteurs ont pu établir que l'un des suspects ne disait pas la vérité au sujet des événements de cette nuit-là."
+        ],
+        question: "Quel témoin mentait, et comment l'ont-ils su ?",
+      },
+      {
+        id: 'ventes-suspectes',
+        titre: "VENTES SUSPECTES",
+        histoire: [
+          "Après avoir enquêté sur plusieurs cambriolages commis dans la région au cours de la semaine dernière, la police soupçonne que certains objets volés auraient été vendus au prêteur sur gages Manny’s. Afin d’identifier les cambrioleurs, la police a interrogé les témoins suivants, qui fréquentent le magasin et qui ont vu un suspect de sexe masculin vendre un grand nombre d’objets. Parmi les témoins figurent : Danielle, une employée du prêteur sur gages ; Alex, un client ; et Johnny, le fils de Danielle âgé de 11 ans, qui se trouve souvent dans les locaux du prêteur sur gages après l'école. La police a recueilli les déclarations suivantes des témoins :",
+          "**Danielle** : Oui, j’ai vu un homme entrer avec plein d’appareils électroniques et de bijoux. Il était grand, avait les cheveux foncés et portait une moustache. J’ai enregistré toutes les ventes, et il est reparti rapidement — il m’a à peine adressé la parole. De la fenêtre, je l’ai vu monter dans un monospace et s’éloigner. Je n’y ai pas prêté attention. J’ai traité beaucoup de ventes ce jour-là, mais je reconnaîtrais cet homme si je le revoyais.",
+          "**Alex** : J'attendais mon tour derrière un autre type au prêteur sur gages. Sa vente a pris un certain temps, il avait beaucoup d'objets : des ordinateurs portables, des tablettes, des bijoux, toutes sortes de choses. Il est finalement reparti avec ce que j'imagine être une belle somme d'argent, et c'est la dernière fois que je l'ai vu. Je ne l'ai pas bien regardé, mais c'était un grand gaillard. Il est reparti dans une voiture qui faisait un bruit incroyable sur le parking.",
+          "**Johnny** : Ma mère était occupée à la caisse avec un type costaud qui avait plein de trucs à vendre, alors j’ai pris mon vélo pour aller faire un tour sur le parking. Parfois, quand je m'ennuie, je compte le nombre de voitures sur le parking. C'était une journée chargée, donc il y en avait beaucoup. J'ai compté 4 voitures, 3 camions et 1 moto. La moto était vraiment cool, mais je suis rentré avant de pouvoir voir à qui elle appartenait. Je l'ai entendue partir, par contre, elle faisait un bruit d'enfer !",
+          "Après avoir examiné ces déclarations, la police a conclu que l'un des témoins ne disait pas la vérité et l'a soumis à un interrogatoire plus approfondi."
+        ],
+        question: "Quel témoin mentait, et comment l'ont-ils su ?",
+      },
+      {
+        id: 'soiree-bibliotheque',
+        titre: "UNE SOIRÉE TARDIVE À LA BIBLIOTHÈQUE",
+        histoire: [
+          "À l'université d'Atlantic Coast State, une étudiante nommée Kathy a disparu. Elle a été vue pour la dernière fois en train de sortir seule de la bibliothèque de l'université dans la nuit du 1er novembre. Les enquêteurs ont décidé d'interroger trois témoins qui ont été les derniers à voir Kathy avant sa disparition : Roxanne, une bibliothécaire de l'université ; Alana, une camarade de classe ; et David, le petit ami de Kathy. Ils ont recueilli les déclarations suivantes :",
+          "**Roxanne** : J'ai vu Kathy en train d'étudier avec un camarade de classe au quatrième étage. Ils travaillaient sur un devoir pour un cours de littérature, et elle m'a demandé où elle pouvait trouver des romans des XVIIIe et XIXe siècles. Je lui ai indiqué l'endroit, puis elle et l'autre étudiant ont pris quelques livres et se sont remis au travail. Son camarade est parti vers 21 h, et Kathy est restée encore une demi-heure environ avant de partir.",
+          "**Alana** : Kathy et moi avons travaillé sur un devoir pour notre cours de littérature de l'époque romantique ce soir-là. Nous écrivions sur Jane Austen, alors nous avons pris des exemplaires de trois de ses livres : Orgueil et Préjugés, Raison et Sentiments et La Locataire de Wildfell Hall. Après les avoir parcourus, nous avons terminé le devoir, et je suis partie vers 21 h. Kathy m’a dit qu’elle allait travailler un peu sur d’autres devoirs, et elle semblait contrariée par quelque chose. Je ne l’ai pas revue depuis.",
+          "**David** : J'ai envoyé un SMS à Kathy vers 21 h 15 ce soir-là, et elle m'a dit qu'elle finissait ses devoirs. Je lui ai proposé de passer chez moi après, et elle a accepté. Vers 21 h 30, j'ai reçu un SMS de sa part m'indiquant qu'elle était en route, mais elle n'est jamais arrivée. J'ai fini par l'appeler vers 22 h 30, mais elle n'a pas répondu. C'est la dernière fois que j'ai eu de ses nouvelles.",
+          "Après avoir examiné ces déclarations, la police a conclu que l'un des témoins ne disait pas la vérité et l'a soumis à un interrogatoire plus approfondi."
+        ],
+        question: "Quel témoin mentait, et comment l'ont-ils su ?",
+      },
+      {
+        id: 'disparu',
+        titre: "DISPARU EN UN CLIN D'OEIL",
+        histoire: [
+          "Une jeune femme prénommée Alexis a disparu à New York le 28 juillet. Elle a été vue pour la dernière fois alors qu'elle quittait l'immeuble Criterion Arms, où elle habitait, vers 7 heures du matin. Alexis vivait seule et sa disparition n'a été signalée que près de deux jours plus tard. La police, qui soupçonne un acte criminel, a interrogé trois témoins de l'immeuble : Larry, le portier ; Anna, sa voisine d'à côté ; et Timothy, le facteur. Interrogés sur leur dernière interaction avec Alexis, les témoins ont fait les déclarations suivantes :",
+          "**Larry** : « Alexis était une fille sympa, d’ordinaire très bavarde, mais elle était restée très silencieuse pendant la semaine qui a précédé sa disparition. Je l’ai vue entrer dans l’immeuble vers 4 heures du matin le 28. Elle s’est dirigée directement vers l’ascenseur et est montée au 5e étage, où elle habitait, sans m’adresser la parole, ce qui était inhabituel. Elle s’est changée et a quitté l’immeuble juste avant 7 heures ce même matin. Personne ne l’a revue depuis. »",
+          "**Anna** : « Alexis est d'habitude une voisine formidable, mais dans la nuit du 27, elle m'a empêchée de dormir toute la nuit à cause de la musique à fond qui venait de son appartement. J'ai frappé à sa porte plusieurs fois pendant la nuit, mais personne n'a répondu. J'avais l'impression d'entendre, à travers le mur, qu'elle faisait du bruit en jetant des objets. C'était très agaçant. La musique n'a cessé que juste avant que mon réveil ne sonne pour aller travailler. Je ne l'ai ni vue ni entendue depuis. »",
+          "**Timothy** : « Je distribuais le courrier vers 6 h 50 le 28 quand j'ai aperçu Alexis dans la salle du courrier. Elle avait l'air très fatiguée et m'a dit qu'elle n'était rentrée chez elle que quelques heures auparavant. Elle attendait un colis et m'a demandé de vérifier si j'avais quelque chose pour elle. Effectivement, il y avait un petit paquet à son nom. Elle l'a mis dans son sac et a quitté le bâtiment juste après. »",
+          "Après avoir examiné ces déclarations, la police a conclu que l'un des témoins ne disait pas la vérité et l'a soumis à un interrogatoire plus approfondi."
+        ],
+        question: "Quel témoin mentait, et comment l'ont-ils su ?",
+      },
+      {
+        id: 'miser-reponse',
+        titre: "MISER SUR UNE RÉPONSE",
+        histoire: [
+          "Une tentative de braquage a eu lieu à la Golden Bel Bank à 11 heures du matin. Le suspect portait un masque pour dissimuler son identité et s'est enfui peu après avoir remis un message menaçant au guichetier et exigé de l'argent. La police a arrêté trois suspects potentiels dans cette affaire : Robert, un ancien employé de la Golden Bel Bank ; Cameron, un habitant du quartier ayant des antécédents judiciaires ; et David, le propriétaire d'un restaurant voisin. Interrogés sur leur alibi au moment de la tentative de braquage, ils ont fait les déclarations suivantes :",
+          "**Robert** : « Je devais aller chercher ma dernière paie ce matin-là, mais je n’y suis jamais allé. J’ai découvert une fuite dans mon appartement et j’ai tout de suite appelé un plombier. Je suis resté chez moi à essayer de limiter les dégâts jusqu’à l’arrivée du plombier, peu après 11 h 30. »",
+          "**Cameron** : « Je me promenais en voiture avec mes amis. On était dans le coin, mais on n’a pas eu d’ennuis. Mon pote s’est arrêté à la station-service en face de la banque et a fait le plein. C’est le plus près que je sois allé de les lieux. Après ça, on a traversé la ville pour déposer notre ami au cinéma, où il allait travailler. »",
+          "**David** : « J’étais au restaurant, dans mon bureau. J’étais au téléphone, en train de commander davantage de vin français, car ce type de vin a beaucoup de succès ces derniers temps. Mes clients demandent beaucoup de prosecco pendant le service du dîner, alors ce matin-là, j’ai appelé mon distributeur pour en commander davantage. Ensuite, je me suis préparé pour le service du déjeuner prévu à midi. »",
+          "Après avoir examiné ces déclarations, la police a conclu que l'un des témoins ne disait pas la vérité et l'a soumis à un interrogatoire plus approfondi."
+        ],
+        question: "Quel témoin mentait, et comment l'ont-ils su ?",
+      },
+      {
+        id: 'crime-parfait',
+        titre: "UN CRIME PARFAIT, À COUP SÛR",
+        histoire: [
+          "Plusieurs chiens de grande valeur ont été volés à la clinique vétérinaire Chestnut Fals dans la nuit du 7 juin. Parmi les chiens volés figurent un samoyède, un bouledogue anglais et un chow-chow. La police a interrogé les témoins suivants, qui ont été les derniers à avoir été en contact avec les animaux : Amber, une assistante vétérinaire ; Dawn, une étudiante effectuant un stage d'été à la clinique ; et Toby, le propriétaire du bouledogue anglais. Elle a recueilli les déclarations suivantes :",
+          "**Amber** : Les trois chiens qui ont été enlevés étaient presque complètement remis de leurs problèmes de santé. Je sais que le Chow Chow était soigné pour une dysplasie de la hanche et que le bouledogue se remettait d'une opération. Les copies de leurs certificats de race ont également été volées, donc celui qui a fait ça a l'intention de les vendre à prix fort. J'ai vu les chiens pour la dernière fois l'après-midi du 7 juin, alors que je travaillais au bureau. Le vétérinaire m'avait dit que les trois chiens seraient probablement autorisés à quitter notre clinique le lendemain.",
+          "**Dawn** : J'adorais m'occuper de ces adorables chiens ! La chow-chow qui avait des problèmes de hanche était ma préférée : elle sortait toujours sa grosse langue rose quand j'apportais à manger dans les chenils. J'ai donné à manger et à boire à tous les animaux le soir du 7 juin, avant de quitter le bureau pour la nuit. Quand je suis revenue le lendemain matin pour ouvrir la porte d'entrée, les portes de leurs chenils étaient ouvertes et les chiens avaient disparu.",
+          "**Toby** : C'est une clinique vétérinaire très chère et je ne m'attendais vraiment pas à ce que quelque chose comme ça arrive. Reginald, mon bouledogue anglais, est avec moi depuis près de six ans. Quand je l'ai emmené se faire opérer la semaine dernière, ils m'ont dit que tout s'était bien passé et qu'il se remettait bien. Il devait rentrer à la maison le 8 juin.",
+          "Après avoir examiné ces déclarations, la police a conclu que l'un des témoins ne disait pas la vérité et l'a soumis à un interrogatoire plus approfondi."
+        ],
+        question: "Quel témoin mentait, et comment l'ont-ils su ?",
+      },
+      {
+        id: 'meurtre-hotel',
+        titre: "MEURTRE À L'HÔTEL",
+        histoire: [
+          "Un corps a été découvert dans la chambre 512 de l'hôtel Bluegil. La police a conclu que la mort de cet homme était due à un homicide. Les enquêteurs ont interrogé trois personnes qui se trouvaient dans l'enceinte de l'hôtel la nuit du meurtre : Hilary, une femme de ménage de l'hôtel qui a découvert la victime ; Jacob, un client logeant dans une chambre voisine ; et Rebecca, la sœur de la victime et la dernière personne à avoir été en contact avec lui. Ils ont recueilli les témoignages suivants :",
+          "**Hillary** : J'ai frappé à la porte de la chambre 512 dans l'après-midi pour faire le ménage. Comme personne ne répondait, je suis entrée dans la chambre. J'ai éteint la télévision, allumé les lumières et commencé à ranger la chambre. L'une des ampoules de la lampe était grillée, je l'ai donc remplacée. J'ai également réapprovisionné le minibar, dans lequel il manquait plusieurs petites bouteilles d'alcool. Quand je suis arrivée dans la salle de bains, j'ai découvert le corps de l'homme.",
+          "**Jacob** : Je n’ai entendu aucun bruit fort ni aucun bruit de lutte venant de l’autre côté du couloir cette nuit-là. À un moment donné, j’ai entendu la porte s’ouvrir et quelqu’un entrer dans la chambre. Quand je suis allé plus tard dans la soirée chercher de la glace dans la salle des distributeurs, vers 19 h 30, j’ai remarqué que la porte était légèrement entrouverte et qu’il y avait de la lumière et que le son d’une télévision se propageait dans le couloir. On aurait dit qu'ils regardaient le match des Lakers à la télévision. Quand j'ai quitté ma chambre le lendemain matin, la porte était complètement fermée, donc je n'y ai pas prêté attention.",
+          "**Rebecca** : Après avoir reçu un appel me demandant de venir à l'hôtel, je suis allée voir mon frère. Il était dans la chambre 512, ce que j'ai trouvé drôle car c'était notre ancien indicatif régional quand nous vivions à Los Angeles quand nous étions enfants. J'étais tellement contente de le voir, même s'il m'a dit qu'il allait quitter la ville le lendemain matin. On a bu quelques verres du minibar et regardé la télé ensemble, comme au bon vieux temps. Je suis partie vers 22 h. C'était la dernière fois que je le voyais.",
+          "Après avoir examiné ces déclarations, la police a conclu que l'un des témoins ne disait pas la vérité et l'a soumis à un interrogatoire plus approfondi."
+        ],
+        question: "Quel témoin mentait, et comment l'ont-ils su ?",
+      },
+    ],
+  },
+];
+
+export const sectionParId = (id) => SECTIONS.find((s) => s.id === id);
+export const casParId = (section, casId) => section?.cas?.find((c) => c.id === casId);
+</file>
+
 <file path="src/main.jsx">
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
@@ -3049,6 +3251,282 @@ function Apprendre() {
 export default Apprendre;
 </file>
 
+<file path="src/modules/Detailcas.jsx">
+import { useParams, Link } from 'react-router-dom';
+import { ArrowLeft, HelpCircle } from 'lucide-react';
+import { sectionParId, casParId } from '../donnees/enquetes';
+import TexteFormate from '../composants/TexteFormate';
+
+export default function DetailCas() {
+  const { sectionId, casId } = useParams();
+  const section = sectionParId(sectionId);
+  const cas = casParId(section, casId);
+
+  if (!section || !cas) {
+    return (
+      <div className="fond-carte-enquete relative min-h-full overflow-hidden">
+        <div className="vignette-carte" aria-hidden="true" />
+        <div className="relative px-5 pt-5">
+          <Link to={`/jeux/enquetes/${sectionId}`} className="inline-flex items-center gap-2 text-encre-douce text-sm">
+            <ArrowLeft className="w-4 h-4" strokeWidth={2} /> Retour
+          </Link>
+          <p className="text-center text-encre-douce text-sm mt-10">Affaire introuvable.</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="fond-carte-enquete relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+
+      {/* En-tête */}
+      <div className="relative px-5 pt-5 pb-1">
+        <Link to={`/jeux/enquetes/${section.id}`} aria-label="Retour"
+              className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+        </Link>
+        <div className="text-center -mt-6 px-10">
+          <div className="text-[10px] uppercase tracking-[0.18em] text-sepia font-semibold">{section.titre}</div>
+          <h1 className="font-serif text-[22px] leading-tight text-encre font-semibold mt-1">{cas.titre}</h1>
+        </div>
+      </div>
+
+      {/* Histoire + question */}
+      <div className="relative px-[18px] pt-4 pb-8">
+        <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+          {cas.histoire.map((p, i) => (
+            <p key={i} className="text-[14px] text-justify leading-relaxed text-encre first:mt-0 mt-3.5">
+              <TexteFormate texte={p} />
+            </p>
+          ))}
+        </div>
+
+        {/* La question — sans réponse */}
+        <div className="mt-7 text-center px-4">
+          <div className="mx-auto w-14 h-px bg-parchemin-bordure" />
+          <p className="font-serif italic text-[26px] text-encre font-semibold mt-5 leading-tight">
+            {cas.question}
+          </p>
+          <div className="mx-auto w-14 h-px bg-parchemin-bordure mt-5" />
+        </div>
+      </div>
+    </div>
+  );
+}
+</file>
+
+<file path="src/modules/DetailVisiteGuidee.jsx">
+import { useParams, useNavigate } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
+import visites from '../donnees/visitesGuidees.json';
+import Accordeon from '../composants/Accordeon';
+import TexteAvecLiens from '../composants/TexteAvecLiens';
+
+function DetailVisiteGuidee() {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const v = visites.find((x) => x.id === id);
+
+  if (!v) {
+    return (
+      <div className="p-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
+          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <span className="text-sm">Retour</span>
+        </button>
+        <p className="text-terra-muted">Visite introuvable.</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="p-4">
+      <button
+        onClick={() => navigate(-1)}
+        className="flex items-center gap-2 text-terra-500 mb-4"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </button>
+
+      <h1 className="font-serif text-3xl text-terra-900 leading-tight mb-1">
+        {v.titre}
+      </h1>
+      <div className="text-[11px] uppercase tracking-wider text-terra-muted mb-4">
+        {v.pays}
+      </div>
+
+      {/* Description courte */}
+      <div className="mb-4 text-sm text-terra-900 leading-relaxed">
+        <TexteAvecLiens texte={v.description} />
+      </div>
+
+      {/* Accordéons sections */}
+      {v.sections && v.sections.length > 0 && (
+        <div className="border-b border-terra-border text-justify">
+          {v.sections.map((section, i) => (
+            <Accordeon
+              key={i}
+              titre={section.titre}
+              contenu={section.contenu}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default DetailVisiteGuidee;
+</file>
+
+<file path="src/modules/Escapes.jsx">
+import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { ArrowLeft, Star, Download, ChevronRight, Plus, Backpack, FileText } from 'lucide-react';
+import escapes from '../donnees/escapes.json';
+
+/* ════════════════════════════════════════════════════════════════════
+   ÉCRAN « ESCAPES »  — module destiné à une route /jeux/escapes
+   ──────────────────────────────────────────────────────────────────
+   • Les données sont dans ../donnees/escapes.json
+   • Tu n'édites que les IMAGES (champ `image:` du JSON).
+     Dépose-les dans public/images/jeux/escapes/…
+   • La barre du bas N'EST PAS ici : dans ton app, App.jsx rend déjà
+     <BarreOnglets/> (Planif/Apprendre/Jeux/Journal) sous ce module.
+   ════════════════════════════════════════════════════════════════════ */
+
+const ONGLETS = [
+  { id: 'home', label: 'Home made', Icone: Star },
+  { id: 'dl',   label: 'Downloaded', Icone: Download },
+];
+
+// ─── Sous-éléments ────────────────────────────────────────────────────
+function Vignette({ image }) {
+  return (
+    <div
+      className="relative w-[84px] shrink-0 rounded-xl overflow-hidden border border-[rgba(60,40,20,0.35)] bg-[#5a4a36] shadow-[inset_0_0_18px_rgba(30,15,5,0.4)]"
+      style={{ backgroundImage: `linear-gradient(135deg,rgba(0,0,0,0.15),rgba(0,0,0,0.45)),url('${image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+    />
+  );
+}
+
+function Tag() {
+  return (
+    <span className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wide text-sepia">
+      <FileText className="w-3 h-3" strokeWidth={2} />
+      PDF
+    </span>
+  );
+}// Style partagé (classes)
+const CARTE = 'flex gap-3.5 items-stretch bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-3 shadow-[0_4px_12px_rgba(60,40,20,0.12)] transition-transform duration-200 hover:-translate-y-0.5';
+
+function CarteEscape({ titre, sousTitre, image, isDownloaded, escapeId }) {
+  const content = (
+    <>
+      <Vignette image={image} />
+      <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
+        <div>
+          <h3 className="font-serif text-[16px] leading-tight text-encre font-semibold m-0">{titre}</h3>
+          <p className="text-[11.5px] text-encre-douce mt-1 leading-snug">{sousTitre}</p>
+        </div>
+        {isDownloaded && (
+          <div className="mt-2">
+            <Tag />
+          </div>
+        )}
+      </div>
+      <ChevronRight className="self-center shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
+    </>
+  );
+
+  if (isDownloaded) {
+    return (
+      <Link to={`/jeux/escapes/${escapeId}`} className={CARTE}>
+        {content}
+      </Link>
+    );
+  }
+
+  return (
+    <div className={CARTE}>
+      {content}
+    </div>
+  );
+}
+
+// ─── ÉCRAN PRINCIPAL ──────────────────────────────────────────────────
+export default function Escapes() {
+  const location = useLocation();
+  const [onglet, setOnglet] = useState(location.state?.onglet || 'home');
+
+  return (
+    <div className="fond-carte-escape relative min-h-full">
+      <div className="grain-papier" aria-hidden="true" />
+      <div className="vignette-carte" aria-hidden="true" />
+
+      {/* En-tête */}
+      <div className="relative px-5 pt-5 pb-1">
+        <Link to="/jeux" aria-label="Retour"
+              className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
+          <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
+        </Link>
+        <h1 className="font-serif uppercase tracking-[2px] text-[25px] text-encre font-semibold text-center -mt-6">Escapes</h1>
+        <p className="text-center text-[12.5px] text-sepia mt-0.5">Choisis ton univers</p>
+      </div>
+
+      {/* Onglets segmentés */}
+      <div className="relative px-5 pt-3.5 pb-1.5">
+        <div className="flex bg-[rgba(120,90,50,0.10)] rounded-xl p-1 border border-parchemin-bordure">
+          {ONGLETS.map(({ id, label, Icone }) => {
+            const actif = onglet === id;
+            return (
+              <button key={id} onClick={() => setOnglet(id)}
+                      className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-[9px] uppercase tracking-wider text-[12.5px] transition-all ${actif ? 'bg-parchemin-carte text-encre font-bold shadow-[0_1px_4px_rgba(60,40,20,0.18)]' : 'text-[#9c855f] font-medium'}`}>
+                <Icone className="w-[15px] h-[15px]" strokeWidth={2} fill={actif && id === 'home' ? 'currentColor' : 'transparent'} />
+                {label}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Liste */}
+      <div className="relative px-[18px] pb-6 pt-1 flex flex-col gap-3">
+        {onglet === 'home'
+          ? escapes.homeMade.map((e) => (
+              <CarteEscape
+                key={e.id}
+                titre={e.titre}
+                sousTitre={e.sousTitre}
+                image={e.image}
+                isDownloaded={false}
+              />
+            ))
+          : (
+            <>
+              {escapes.communaute.map((e) => (
+                <CarteEscape
+                  key={e.id}
+                  titre={e.titre}
+                  sousTitre={e.sousTitre}
+                  image={e.image}
+                  isDownloaded={true}
+                  escapeId={e.id}
+                />
+              ))}
+            </>
+          )}
+      </div>
+    </div>
+  );
+}
+</file>
+
 <file path="src/modules/Faune.jsx">
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -3204,104 +3682,84 @@ function Faune() {
 export default Faune;
 </file>
 
-<file path="src/modules/Gastronomie.jsx">
-import { useState } from 'react';
+<file path="src/modules/Jeux.jsx">
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Search, X } from 'lucide-react';
-import gastronomie from '../donnees/gastronomie.json';
-import { PAYS } from '../donnees/constantes';
-import CartePlat from '../composants/CartePlat';
-import { useAvisGastronomie } from '../hooks/useAvisGastronomie';
 
-function Gastronomie() {
-  // ─── ÉTATS UI ───────────────────────────────────────
-  const [paysActif, setPaysActif] = useState(PAYS[0]);
-  const [recherche, setRecherche] = useState('');
 
-  // ─── DB (live) ──────────────────────────────────────
-  const { testeSet, avisDe, ajouterAvis, supprimerAvis } = useAvisGastronomie();
+// ─── Données des 3 cartes (tout s'édite ici) ──────────────────────────
+const CARTES = [
+  {
+    id: 'quiz', titre: 'Quiz', to: '/jeux/quiz', icone: '/images/jeux/icones/quiz.svg', badge: '3 modes', couleur: 'bg-jeu-quiz',
+    desc: 'Teste tes connaissances sur l’histoire, la culture et la géographie.',
+  },
+  {
+    id: 'enquetes', titre: 'Enquêtes', to: '/jeux/enquetes', icone: '/images/jeux/icones/enquetes.svg', badge: '2 séries', couleur: 'bg-jeu-enquete',
+    desc: 'Résous des affaires mystérieuses dans des séries captivantes.',
+  },
+  {
+    id: 'escapes', titre: 'Escapes', to: '/jeux/escapes', icone: '/images/jeux/icones/escapes.svg', badge: '2 onglets', couleur: 'bg-jeu-escape',
+    desc: 'Échappe-toi de lieux légendaires remplis d’énigmes.',
+  },
+];
 
-  // ─── FILTRAGE ───────────────────────────────────────
-  const rechercheNorm = recherche.trim().toLowerCase();
 
-  const parPays = rechercheNorm
-    ? gastronomie
-    : gastronomie.filter((p) =>
-        Array.isArray(p.pays) ? p.pays.includes(paysActif) : p.pays === paysActif
-      );
 
-  const filtres = rechercheNorm
-    ? parPays.filter((p) => p.nom.toLowerCase().includes(rechercheNorm))
-    : parPays;
-
-  const ORDRE_TYPES = { Boisson: 0, Plat: 1, Dessert: 2 };
-
-  const resultats = [...filtres].sort((a, b) => {
-    const dt = (ORDRE_TYPES[a.type] ?? 99) - (ORDRE_TYPES[b.type] ?? 99);
-    if (dt !== 0) return dt;
-    // Non-testés en haut
-    const testeA = testeSet.has(a.nom) ? 1 : 0;
-    const testeB = testeSet.has(b.nom) ? 1 : 0;
-    return testeA - testeB;
-  });
-
-  // ─── COMPTEURS ──────────────────────────────────────
-  const totalTestes = testeSet.size;
-  const totalPlats = gastronomie.length;
-  const pctTestes = totalPlats > 0 ? (totalTestes / totalPlats) * 100 : 0;
-
-  // ─── RENDU ──────────────────────────────────────────
+export default function Jeux() {
   return (
-    <div className="p-4">
-      {/* Bouton retour */}
-      <Link to="/journal" className="flex items-center gap-2 text-terra-500 mb-3">
-        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
-        <span className="text-sm">Retour</span>
-      </Link>
+    <div className="fond-carte relative min-h-full overflow-hidden">
+      <div className="vignette-carte" aria-hidden="true" />
+
 
       {/* En-tête */}
-      <div className="flex items-end justify-between mb-2">
-        <div>
-          <h1 className="text-3xl font-serif text-terra-900 leading-tight">
-            Gastronomie
-          </h1>
-          <div className="text-[10px] uppercase tracking-wider text-terra-muted mt-0.5">
-            cartes des saveurs
-          </div>
-        </div>
-        <div className="text-right">
-          <div className="text-lg font-medium text-terra-500">
-            {totalTestes}
-            <span className="text-terra-muted font-normal"> / {totalPlats}</span>
-          </div>
-          <div className="text-[10px] text-terra-muted">testés</div>
-        </div>
+      <div className="relative px-6 pt-6 pb-4">
+        <div className="text-[11px] tracking-[0.2em] font-semibold text-sepia mt-4">AIRE DE JEU</div>
+        <h1 className="font-serif text-[52px] leading-none text-encre font-semibold mt-0.5">Jeux</h1>
+        <p className="text-encre-douce text-[13.5px] leading-relaxed max-w-[215px] mt-2.5">
+          Explore, résous, réponds et échappe-toi à travers l’Amérique du Sud.
+        </p>
       </div>
 
-      {/* Barre de progression */}
-      <div className="h-1 bg-terra-100 rounded-sm overflow-hidden mb-4">
-        <div
-          className="h-full bg-terra-500 rounded-sm transition-[width] duration-500"
-          style={{ width: `${pctTestes}%` }}
-        />
-      </div>
-
-      {/* Filtre pays */}
-      <div className="flex gap-1.5 flex-wrap mb-3">
-        {PAYS.map((pays) => (
-          <button
-            key={pays}
-            onClick={() => setPaysActif(pays)}
-            className={
-              pays === paysActif
-                ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
-                : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
-            }
-          >
-            {pays}
-          </button>
+      {/* Cartes */}
+      <div className="relative px-5 pt-1 pb-6 flex flex-col gap-3.5">
+        {CARTES.map(({ id, titre, desc, badge, icone, couleur, to }) => (
+          <Link key={id} to={to}
+                  className={`relative text-left rounded-[20px] p-[17px] border border-creme/15 ${couleur} texture-cuir shadow-[0_8px_22px_rgba(40,20,8,0.28)] transition-transform duration-200 hover:-translate-y-0.5`}>
+            <div className="flex items-start gap-3.5">
+              <div className="shrink-0 w-[52px] h-[52px] rounded-full flex items-center justify-center bg-creme/10 border border-creme/30">
+                <img src={icone} alt="" className="w-6 h-6" />
+              </div>
+              <div className="pr-14">
+                <div className="font-serif text-2xl text-creme leading-none font-semibold">{titre}</div>
+                <p className="text-[12.5px] leading-snug text-creme/70 mt-1.5">{desc}</p>
+              </div>
+            </div>
+            <span className="absolute right-3.5 bottom-3 bg-black/25 text-creme text-[11px] font-semibold px-2.5 py-[3px] rounded-lg border border-creme/15">
+              {badge}
+            </span>
+          </Link>
         ))}
       </div>
+    </div>
+  );
+}
+</file>
+
+<file path="src/modules/Lieux.jsx">
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Search, X } from 'lucide-react';
+import lieux from '../donnees/lieux.json';
+
+function Lieux() {
+  const [recherche, setRecherche] = useState('');
+  const rechercheNorm = recherche.trim().toLowerCase();
+
+  const resultats = rechercheNorm
+    ? lieux.filter((l) => l.nom.toLowerCase().includes(rechercheNorm))
+    : lieux;
+
+  return (
+    <div className="p-4">
 
       {/* Recherche */}
       <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
@@ -3310,45 +3768,46 @@ function Gastronomie() {
           type="text"
           value={recherche}
           onChange={(e) => setRecherche(e.target.value)}
-          placeholder="Rechercher…"
-          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted min-w-0"
+          placeholder="Rechercher un lieu…"
+          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted"
         />
         {recherche && (
           <button
             onClick={() => setRecherche('')}
-            className="text-terra-muted hover:text-terra-500 flex-shrink-0"
+            className="text-terra-muted hover:text-terra-500"
           >
             <X className="w-4 h-4" strokeWidth={2} />
           </button>
         )}
       </div>
 
-      {/* Compteur */}
-      <div className="text-xs text-terra-muted mb-3">
-        {resultats.length} plat{resultats.length !== 1 ? 's' : ''}
+      <div className="text-xs text-terra-muted mb-2">
+        {resultats.length} lieu{resultats.length !== 1 ? 'x' : ''}
         {rechercheNorm && ` pour « ${recherche} »`}
       </div>
 
-      {/* Liste */}
       {resultats.length === 0 ? (
         <div className="text-center py-8 text-terra-muted text-sm">
-          Aucun plat ne correspond
+          Aucun lieu
         </div>
       ) : (
-        resultats.map((plat) => (
-          <CartePlat
-            key={plat.nom}
-            plat={plat}
-            avis={avisDe(plat.nom)}
-            onAjouter={ajouterAvis}
-          />
+        resultats.map((lieu) => (
+          <Link
+            key={lieu.id}
+            to={`/planification/lieux/${lieu.id}`}
+            className="bg-terra-100 border border-terra-border rounded-xl px-3.5 py-3 mb-2 flex items-center hover:border-terra-500/40 transition-colors"
+          >
+            <div className="font-serif text-base text-terra-900 leading-tight">
+              {lieu.nom}
+            </div>
+          </Link>
         ))
       )}
     </div>
   );
 }
 
-export default Gastronomie;
+export default Lieux;
 </file>
 
 <file path="src/modules/Planification.jsx">
@@ -3493,251 +3952,80 @@ export default defineConfig({
 })
 </file>
 
-<file path="src/donnees/constantes.js">
-// module Planification
+<file path="src/composants/carteActivite.jsx">
+import { Link } from 'react-router-dom';
+import { Sparkles } from 'lucide-react'; // Ou 'Flame' selon tes préférences
+import { COULEURS_TYPES_ACTIVITES, versSlug, estIncontournable } from '../donnees/constantes';
 
-export const PAYS = ['Pérou', 'Equateur', 'Bolivie', 'Chili', 'Argentine'];
-
-export const TYPES_ACTIVITES = ['Trek', 'Visite','Divers', 'Excursion'];
-
-export const COULEURS_TYPES_ACTIVITES = {
-  Trek: '#c9623f',
-  Visite: '#7a4f2e',
-  Divers: '#d4872a',
-  Excursion: '#d4872a'
-};
-
-// module Faune
-
-export const RARETE_LIBELLES = {
-  1: 'commun',
-  2: 'peu commun',
-  3: 'rare',
-};
-
-// module Gastronomie
-
-export const TYPES_GASTRONOMIE = ['Boisson', 'Plat', 'Dessert'];
-
-export const COULEURS_PAYS = {
-  'Pérou':    { barre: '#C8763D', iconBg: '#FAECE7', iconText: '#993C1D', accent: '#C8763D' }, // terracotta
-  'Bolivie':  { barre: '#639922', iconBg: '#EAF3DE', iconText: '#3B6D11', accent: '#639922' }, // vert
-  'Chili':    { barre: '#185FA5', iconBg: '#E6F1FB', iconText: '#042C53', accent: '#185FA5' }, // bleu profond
-  'Equateur': { barre: '#EF9F27', iconBg: '#FAEEDA', iconText: '#854F0B', accent: '#EF9F27' }, // jaune/or
-  'Argentine':{ barre: '#7BB7E0', iconBg: '#E6F1FB', iconText: '#185FA5', accent: '#7BB7E0' }, // bleu ciel
-};
-
-export const COULEURS_TYPE = {
-  Plat:    '#c9623f', // terracotta (terra-500)
-  Boisson: '#7a4f2e', // brun (terra-700)
-  Dessert: '#d4872a', // ambre
-};
-
-export const couleursDuPlat = (plat) => {
-  const pays = Array.isArray(plat.pays) ? plat.pays[0] : plat.pays;
-  return COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
-};
-
-
-export function versSlug(texte) {
-  return texte
-    .toLowerCase()
-    .normalize('NFD')                  // sépare les accents des lettres
-    .replace(/[\u0300-\u036f]/g, '')   // supprime les accents
-    .replace(/\s+/g, '-')              // espaces → tirets
-    .replace(/[^a-z0-9-]/g, '');       // supprime tout sauf lettres/chiffres/tirets
-}
-</file>
-
-<file path="src/index.css">
-@import "tailwindcss";
-
-@theme {
-  --color-terra-50: #fdf8f0;
-  --color-terra-100: #fffcf7;
-  --color-terra-200: #f5e6df;
-  --color-terra-500: #c9623f;
-  --color-terra-700: #7a4f2e;
-  --color-terra-900: #2a1a0e;
-  --color-terra-muted: #9a7055;
-  --color-terra-border: rgba(180, 120, 80, 0.18);
-
-  --font-serif: "Playfair Display", Georgia, serif;
-
-  --color-parchemin: #e7d7b3;
-  --color-parchemin-carte: #f4ecd6;
-  --color-parchemin-bordure: rgba(120, 90, 50, 0.28);
-  --color-encre: #33210f;
-  --color-encre-douce: #6a5236;
-  --color-sepia: #8a6a44;
-  --color-creme: #f3ead4;
-  --color-jeu-quiz: #7a3520;
-  --color-jeu-enquete: #254234;
-  --color-jeu-escape: #1f3340;
-  --color-vert-cta: #234034;
-}
-
-body {
-  font-family: system-ui, -apple-system, sans-serif;
-  background-color: var(--color-terra-50);
-  color: var(--color-terra-900);
-}
-
-.scrollbar-hide {
-  -ms-overflow-style: none;   /* Internet Explorer */
-  scrollbar-width: none;       /* Firefox */
-}
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;               /* Chrome, Safari */
-}
-
-.fond-carte {
-  background: url('/images/jeux/background.png') center/cover no-repeat;
-}
-
-.fond-carte-enquete {
-  background:     
-    url('/images/jeux/enquete.png') center/cover no-repeat;
-  background-size: 100% 100%;
-}
-
-.grain-papier {
-  position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply; opacity: .07;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-.vignette-carte { position: absolute; inset: 0; pointer-events: none; box-shadow: inset 0 0 90px rgba(90,63,34,.30); }
-
-.texture-cuir {
-  background-image: url('/images/jeux/texture.jpg');
-  background-size: 320px;       
-  background-blend-mode: overlay;
-}
-</file>
-
-<file path="src/modules/DetailActivite.jsx">
-import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, MapPin, Play, ChevronRight } from 'lucide-react';
-import activites from '../donnees/activites.json';
-import { COULEURS_TYPES_ACTIVITES, versSlug } from '../donnees/constantes';
-import Etoiles from '../composants/Etoiles';
-import GalerieActivite from '../composants/GalerieActivite';
-import TexteFormate from '../composants/TexteFormate';
-
-
-function DetailActivite() {
-  const { slug } = useParams();
-  const navigate = useNavigate();
-  const activite = activites.find((a) => versSlug(a.nom) === slug);
-
-  if (!activite) {
-    return (
-      <div className="p-4">
-        <button
-          onClick={() => navigate(-1)}
-          className="flex items-center gap-2 text-terra-500 mb-4"
-        >
-          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
-          <span className="text-sm">Retour</span>
-        </button>
-        <p className="text-terra-muted">Activité introuvable.</p>
-      </div>
-    );
-  }
-
-  const couleurBadge = COULEURS_TYPES_ACTIVITES[activite.type];
-
-  // Le lieu devient cliquable si lieuId est présent dans le JSON
-  const LieuAffiche = () =>
-    activite.lieuId ? (
-      <Link
-        to={`/planification/lieux/${activite.lieuId}`}
-        className="text-terra-500 underline-offset-2 hover:underline"
-      >
-        {activite.lieu}
-      </Link>
-    ) : (
-      <span>{activite.lieu}</span>
-    );
+function CarteActivite({ activite }) {
+  const couleur = COULEURS_TYPES_ACTIVITES[activite.type] || '#8a7560';
+  const important = estIncontournable(activite);
 
   return (
-    <div className="p-4">
-      {/* Bouton retour intelligent */}
-      <button
-        onClick={() => navigate(-1)}
-        className="flex items-center gap-2 text-terra-500 mb-4"
-      >
-        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
-        <span className="text-sm">Retour</span>
-      </button>
+    <Link
+      to={`/planification/activites/${versSlug(activite.nom)}`}
+      className={`
+        group relative mb-3 flex items-stretch overflow-hidden rounded-xl border transition
+        active:scale-[0.99] hover:shadow-md
+        ${important 
+          ? 'border-amber-200/70 bg-gradient-to-br from-amber-50/40 to-terra-100/70 hover:bg-amber-50/60' 
+          : 'border-terra-border bg-terra-100 hover:bg-terra-50 hover:border-terra-500/30'
+        }
+      `}
+    >
+      {/* BARRE D'ACCENT — couleur du type */}
+      <span
+        className="w-1.5 flex-shrink-0"
+        style={{ backgroundColor: couleur }}
+      />
 
-      {/* Badge type + lieu cliquable + pays */}
-      <div className="flex items-center gap-2 mb-2 flex-wrap">
-        <span
-          className="text-white text-[11px] font-medium px-2.5 py-0.5 rounded-md"
-          style={{ backgroundColor: couleurBadge }}
-        >
-          {activite.type}
-        </span>
-        <span className="text-xs text-terra-muted flex items-center gap-1">
-          <MapPin className="w-3 h-3" strokeWidth={2} />
-          <LieuAffiche /> · {activite.pays}
-        </span>
-      </div>
+      {/* CONTENU */}
+      <div className="flex-1 min-w-0 py-3.5 px-4 flex flex-col justify-between">
+        
+        {/* LIGNE DU HAUT — Badges & Info */}
+        <div className="flex items-center justify-between gap-2 mb-2">
+          {/* Gauche : Type + Durée */}
+          <div className="flex items-center gap-2 flex-wrap">
+            <span
+              className="text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md shadow-sm"
+              style={{ backgroundColor: couleur }}
+            >
+              {activite.type}
+            </span>
 
-      {/* Titre */}
-      <h1 className="font-serif text-2xl text-terra-900 leading-tight mb-2">
-        {activite.nom}
-      </h1>
+            {activite.duree && (
+              <span className="text-[11px] italic text-terra-muted/90 font-serif">
+                {activite.duree}
+              </span>
+            )}
 
-      {/* Étoiles + durée */}
-      {(activite.importance || activite.duree) && (
-        <div className="flex items-center gap-3 mb-4">
-          <Etoiles nombre={activite.importance} />
-          {activite.duree && (
-            <span className="text-sm text-terra-muted italic">
-              {activite.duree}
+            {activite.sousZone && (
+              <span className="text-[11px] italic text-terra-muted/90 font-serif">
+                {activite.duree ? `• ${activite.sousZone}` : activite.sousZone}
+              </span>
+            )}
+          </div>
+
+          {/* Droite : Badge Incontournable Premium */}
+          {important && (
+            <span className="flex items-center gap-1 text-[9px] font-extrabold uppercase tracking-[0.1em] text-amber-700 bg-amber-100/80 px-2 py-0.5 rounded-full border border-amber-200/50">
+              <Sparkles className="w-3 h-3 text-amber-600 dynamic-pulse" strokeWidth={2.5} />
+              Incontournable
             </span>
           )}
         </div>
-      )}
 
-      <div className="h-px bg-terra-border mb-4" />
-
-      {/* Galerie d'images (n'affiche rien si pas d'images) */}
-      <GalerieActivite images={activite.images} />
-
-      {/* Description en paragraphes */}
-      {activite.description.split('\n\n').map((paragraphe, i) => (
-        <p
-          key={i}
-          className="text-sm text-terra-900 leading-relaxed mb-3 text-justify"
-        >
-          <TexteFormate texte={paragraphe} />
-        </p>
-      ))}
-
-      {/* Bouton visite guidée */}
-      {activite.visiteGuidee && (
-        <Link
-          to={`/apprendre/visites-guidees/${versSlug(activite.nom)}`}
-          className="flex items-center gap-3 bg-terra-100 border border-terra-500 rounded-xl px-3.5 py-3 mt-4"
-        >
-          <div className="w-8 h-8 rounded-full bg-terra-500/15 flex items-center justify-center flex-shrink-0">
-            <Play className="w-4 h-4 text-terra-500" strokeWidth={2} fill="currentColor" />
-          </div>
-          <div className="flex-1">
-            <div className="text-sm text-terra-900 font-medium">
-              Visite guidée disponible
-            </div>
-          </div>
-          <ChevronRight className="w-5 h-5 text-terra-500" strokeWidth={2} />
-        </Link>
-      )}
-    </div>
+        {/* TITRE */}
+        <h4 className="font-serif text-base text-terra-900 font-medium leading-snug group-hover:text-terra-950 transition-colors">
+          {activite.nom}
+        </h4>
+        
+      </div>
+    </Link>
   );
 }
 
-export default DetailActivite;
+export default CarteActivite;
 </file>
 
 <file path="src/modules/DetailFaune.jsx">
@@ -4015,173 +4303,706 @@ function DetailFaune() {
 export default DetailFaune;
 </file>
 
-<file path="src/modules/Journal.jsx">
+<file path="src/modules/Gastronomie.jsx">
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { PenLine, UtensilsCrossed, Mountain, Bird } from 'lucide-react';
+import { ArrowLeft, Search, X } from 'lucide-react';
+import gastronomie from '../donnees/gastronomie.json';
+import { PAYS } from '../donnees/constantes';
+import CartePlat from '../composants/CartePlat';
+import { useAvisGastronomie } from '../hooks/useAvisGastronomie';
+
+function Gastronomie() {
+  // ─── ÉTATS UI ───────────────────────────────────────
+  const [paysActif, setPaysActif] = useState(PAYS[0]);
+  const [recherche, setRecherche] = useState('');
+
+  // ─── DB (live) ──────────────────────────────────────
+  const { testeSet, avisDe, ajouterAvis, supprimerAvis } = useAvisGastronomie();
+
+  // ─── FILTRAGE ───────────────────────────────────────
+  const rechercheNorm = recherche.trim().toLowerCase();
+
+  const parPays = rechercheNorm
+    ? gastronomie
+    : gastronomie.filter((p) =>
+        Array.isArray(p.pays) ? p.pays.includes(paysActif) : p.pays === paysActif
+      );
+
+  const filtres = rechercheNorm
+    ? parPays.filter((p) => p.nom.toLowerCase().includes(rechercheNorm))
+    : parPays;
+
+  const ORDRE_TYPES = { Boisson: 0, Plat: 1, Dessert: 2 };
+
+  const resultats = [...filtres].sort((a, b) => {
+    const dt = (ORDRE_TYPES[a.type] ?? 99) - (ORDRE_TYPES[b.type] ?? 99);
+    if (dt !== 0) return dt;
+    // Non-testés en haut
+    const testeA = testeSet.has(a.nom) ? 1 : 0;
+    const testeB = testeSet.has(b.nom) ? 1 : 0;
+    return testeA - testeB;
+  });
+
+  // ─── COMPTEURS ──────────────────────────────────────
+  const totalTestes = testeSet.size;
+  const totalPlats = gastronomie.length;
+  const pctTestes = totalPlats > 0 ? (totalTestes / totalPlats) * 100 : 0;
+
+  // ─── RENDU ──────────────────────────────────────────
+  return (
+    <div className="p-4">
+      {/* Bouton retour */}
+      <Link to="/journal" className="flex items-center gap-2 text-terra-500 mb-3">
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </Link>
+
+      {/* En-tête */}
+      <div className="flex items-end justify-between mb-2">
+        <div>
+          <h1 className="text-3xl font-serif text-terra-900 leading-tight">
+            Gastronomie
+          </h1>
+          <div className="text-[10px] uppercase tracking-wider text-terra-muted mt-0.5">
+            cartes des saveurs
+          </div>
+        </div>
+        <div className="text-right">
+          <div className="text-lg font-medium text-terra-500">
+            {totalTestes}
+            <span className="text-terra-muted font-normal"> / {totalPlats}</span>
+          </div>
+          <div className="text-[10px] text-terra-muted">testés</div>
+        </div>
+      </div>
+
+      {/* Barre de progression */}
+      <div className="h-1 bg-terra-100 rounded-sm overflow-hidden mb-4">
+        <div
+          className="h-full bg-terra-500 rounded-sm transition-[width] duration-500"
+          style={{ width: `${pctTestes}%` }}
+        />
+      </div>
+
+      {/* Filtre pays */}
+      <div className="flex gap-1.5 flex-wrap mb-3">
+        {PAYS.map((pays) => (
+          <button
+            key={pays}
+            onClick={() => setPaysActif(pays)}
+            className={
+              pays === paysActif
+                ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
+                : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
+            }
+          >
+            {pays}
+          </button>
+        ))}
+      </div>
+
+      {/* Recherche */}
+      <div className="flex items-center gap-2 bg-terra-100 border border-terra-border rounded-xl px-3.5 py-2 mb-3">
+        <Search className="w-4 h-4 text-terra-muted" strokeWidth={2} />
+        <input
+          type="text"
+          value={recherche}
+          onChange={(e) => setRecherche(e.target.value)}
+          placeholder="Rechercher…"
+          className="flex-1 bg-transparent outline-none text-sm text-terra-900 placeholder:text-terra-muted min-w-0"
+        />
+        {recherche && (
+          <button
+            onClick={() => setRecherche('')}
+            className="text-terra-muted hover:text-terra-500 flex-shrink-0"
+          >
+            <X className="w-4 h-4" strokeWidth={2} />
+          </button>
+        )}
+      </div>
+
+      {/* Compteur */}
+      <div className="text-xs text-terra-muted mb-3">
+        {resultats.length} plat{resultats.length !== 1 ? 's' : ''}
+        {rechercheNorm && ` pour « ${recherche} »`}
+      </div>
+
+      {/* Liste */}
+      {resultats.length === 0 ? (
+        <div className="text-center py-8 text-terra-muted text-sm">
+          Aucun plat ne correspond
+        </div>
+      ) : (
+        resultats.map((plat) => (
+          <CartePlat
+            key={plat.nom}
+            plat={plat}
+            avis={avisDe(plat.nom)}
+            onAjouter={ajouterAvis}
+          />
+        ))
+      )}
+    </div>
+  );
+}
+
+export default Gastronomie;
+</file>
+
+<file path="src/modules/DetailActivite.jsx">
+import { useParams, Link, useNavigate } from 'react-router-dom';
+import { ArrowLeft, MapPin, Play, ChevronRight } from 'lucide-react';
+import activites from '../donnees/activites.json';
+import { COULEURS_TYPES_ACTIVITES, versSlug, COULEURS_PAYS } from '../donnees/constantes';
+import GalerieActivite from '../composants/GalerieActivite';
+import TexteFormate from '../composants/TexteFormate';
+
+
+
+
+function DetailActivite() {
+  const { slug } = useParams();
+  const navigate = useNavigate();
+  const activite = activites.find((a) => versSlug(a.nom) === slug);
+  const pays = activite[0]?.pays;
+  const couleurs = COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
+
+  if (!activite) {
+    return (
+      <div className="p-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-terra-500 mb-4"
+        >
+          <ArrowLeft className="w-4 h-4" strokeWidth={2}/>
+          <span className="text-sm">Retour</span>
+        </button>
+        <p className="text-terra-muted">Activité introuvable.</p>
+      </div>
+    );
+  }
+
+  const couleurBadge = COULEURS_TYPES_ACTIVITES[activite.type];
+
+  // Le lieu devient cliquable si lieuId est présent dans le JSON
+const libelleLieu = activite.sousZone || activite.lieu;
+
+
+  return (
+    <div className="p-4">
+      {/* Bouton retour intelligent */}
+      <button
+        onClick={() => navigate(-1)}
+        className="flex items-center gap-2 text-terra-500 mb-4"
+      >
+        <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+        <span className="text-sm">Retour</span>
+      </button>
+
+      {/* Badge type + lieu cliquable + pays */}
+      <div className="flex items-center gap-2 mb-2 flex-wrap">
+        <span
+          className="text-white text-[11px] font-medium px-2.5 py-0.5 rounded-md"
+          style={{ backgroundColor: couleurBadge }}
+        >
+          {activite.type}
+        </span>
+        <span className="text-xs text-terra-muted flex items-center gap-1">
+          <MapPin className="w-3 h-3" strokeWidth={2} />
+          <span>{libelleLieu}</span> · {activite.pays}
+        </span>
+      </div>
+
+      {/* Titre */}
+      <h1 className="font-serif text-2xl text-terra-900 leading-tight mb-2">
+        {activite.nom}
+      </h1>
+
+      {/* Étoiles + durée */}
+
+          {activite.duree && (
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-sm text-terra-muted italic">{activite.duree}</span>
+            </div>
+          )}
+
+      <div className="h-px bg-terra-border mb-4" />
+
+      {/* Galerie d'images (n'affiche rien si pas d'images) */}
+      <GalerieActivite images={activite.images} />
+
+      {/* Description en paragraphes */}
+      {activite.description.split('\n\n').map((paragraphe, i) => (
+        <p
+          key={i}
+          className="text-sm text-terra-900 leading-relaxed mb-3 text-justify"
+        >
+          <TexteFormate texte={paragraphe} />
+        </p>
+      ))}
+
+      {/* Bouton visite guidée */}
+      {activite.visiteGuidee && (
+        <Link
+          to={`/apprendre/visites-guidees/${versSlug(activite.nom)}`}
+          className="flex items-center gap-3 bg-terra-100 border border-terra-500 rounded-xl px-3.5 py-3 mt-4"
+        >
+          <div className="w-8 h-8 rounded-full bg-terra-500/15 flex items-center justify-center flex-shrink-0">
+            <Play className="w-4 h-4 text-terra-500" strokeWidth={2} fill="currentColor" />
+          </div>
+          <div className="flex-1">
+            <div className="text-sm text-terra-900 font-medium">
+              Visite guidée disponible
+            </div>
+          </div>
+          <ChevronRight className="w-5 h-5 text-terra-500" strokeWidth={2} />
+        </Link>
+      )}
+    </div>
+  );
+}
+
+export default DetailActivite;
+</file>
+
+<file path="src/donnees/constantes.js">
+import lieux from './lieux.json';
+
+// module Planification
+
+export const PAYS = ['Pérou', 'Equateur', 'Bolivie', 'Chili', 'Argentine'];
+
+export const TYPES_ACTIVITES = ['Trek', 'Randonnée', 'Culture', 'Nature', 'Faune', 'Excursion', 'Gastronomie', 'Divers'];
+
+export const COULEURS_TYPES_ACTIVITES = {
+  Trek:        '#c9623f', // terracotta
+  Randonnée:   '#8a5a2b', // terre brûlée
+  Culture:     '#9a5b8c', // mauve patrimoine
+  Nature:      '#5e8c4a', // vert feuillage
+  Faune:       '#2f8f7f', // sarcelle
+  Excursion:   '#3a7ca5', // bleu eau
+  Gastronomie: '#d4872a', // ambre
+  Divers:      '#8a7560', // taupe
+};
+
+// module Faune
+
+export const RARETE_LIBELLES = {
+  1: 'commun',
+  2: 'peu commun',
+  3: 'rare',
+};
+
+// module Gastronomie
+
+export const TYPES_GASTRONOMIE = ['Boisson', 'Plat', 'Dessert'];
+
+export const COULEURS_PAYS = {
+  'Pérou':    { barre: '#C8763D', iconBg: '#FAECE7', iconText: '#993C1D', accent: '#C8763D' }, // terracotta
+  'Bolivie':  { barre: '#639922', iconBg: '#EAF3DE', iconText: '#3B6D11', accent: '#639922' }, // vert
+  'Chili':    { barre: '#185FA5', iconBg: '#E6F1FB', iconText: '#042C53', accent: '#185FA5' }, // bleu profond
+  'Equateur': { barre: '#EF9F27', iconBg: '#FAEEDA', iconText: '#854F0B', accent: '#EF9F27' }, // jaune/or
+  'Argentine':{ barre: '#7BB7E0', iconBg: '#E6F1FB', iconText: '#185FA5', accent: '#7BB7E0' }, // bleu ciel
+};
+
+export const COULEURS_TYPE = {
+  Plat:    '#c9623f', // terracotta (terra-500)
+  Boisson: '#7a4f2e', // brun (terra-700)
+  Dessert: '#d4872a', // ambre
+};
+
+export const couleursDuPlat = (plat) => {
+  const pays = Array.isArray(plat.pays) ? plat.pays[0] : plat.pays;
+  return COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
+};
+
+export function versSlug(texte) {
+  return texte
+    .toLowerCase()
+    .normalize('NFD')                  // sépare les accents des lettres
+    .replace(/[\u0300-\u036f]/g, '')   // supprime les accents
+    .replace(/\s+/g, '-')              // espaces → tirets
+    .replace(/[^a-z0-9-]/g, '');       // supprime tout sauf lettres/chiffres/tirets
+}
+
+export function paysDuSlug(slug) {
+  return PAYS.find((p) => versSlug(p) === slug) || null;
+}
+
+// Drapeaux et images pour la page d'accueil Planification
+export const DRAPEAUX = {
+  'Pérou': '/images/planification/perou_flag.png',
+  'Equateur': '/images/planification/equateur_flag.svg',
+  'Bolivie': '/images/planification/bolivie_flag.svg',
+  'Chili': '/images/planification/chili_flag.png',
+  'Argentine': '/images/planification/argentine_flag.png',
+};
+
+export const IMAGES_PAYS = {
+  'Pérou': '/images/planification/perou.jpg',
+  'Equateur': '/images/planification/equateur.jpg',
+  'Bolivie': '/images/planification/bolivie.jpg',
+  'Chili': '/images/planification/chili.jpg',
+  'Argentine': '/images/planification/argentine.jpg',
+};
+
+export const IMAGES_PAYS_HEADER = {
+  'Pérou':    '/images/planification/header_perou.png',
+  'Equateur': '/images/planification/header_equateur.png',
+  'Bolivie':  '/images/planification/header_bolivie.png',
+  'Chili':    '/images/planification/header_chili.png',
+  'Argentine':'/images/planification/header_argentine.png',
+};
+
+export const ICONES_ZONES = {
+  // Pérou
+  'cuzco':           '/images/zones/cuzco.png',
+  'arequipa':        '/images/zones/arequipa.png',
+  'ayacucho':        '/images/zones/ayacucho.png',
+  'huaraz':          '/images/zones/huaraz.png',
+  'paracas':         '/images/zones/paracas.png',
+  'chiclayo-trujillo':   '/images/zones/nord-perou.png',
+ 
+  // Bolivie
+  'la-paz':          '/images/zones/la-paz.png',
+  'uyuni':           '/images/zones/uyuni.png',
+  'cochabamba':      '/images/zones/cochabamba.png',
+ 
+  // Equateur
+  'quito':           '/images/zones/quito.png',
+  'cuenca':          '/images/zones/cuenca.png',
+  'ambato':          '/images/zones/ambato.png',
+ 
+  // Chili
+  'nord-du-chili':       '/images/zones/nord-du-chili.png',
+  'carretera-austral':  '/images/zones/carretera-austral.png',
+ 
+  // Argentine
+  'patagonie':       '/images/zones/patagonie.png',
+  'terre-de-feu':    '/images/zones/terre-de-feu.png',
+  'salta':           '/images/zones/salta.png',
+};
+
+export const ZONES_SI_TEMPS = ['Nord du Pérou', 'Ayacucho'];
+
+export const estIncontournable = (a) => (a.importance ?? 0) >= 5;
+
+const lieuParSlug = new Map(lieux.map((l) => [versSlug(l.nom), l]));
+
+export function zonesDuPays(activites, pays) {
+  const parZone = new Map();
+  for (const a of activites) {
+    if (a.pays !== pays) continue;
+    const slug = versSlug(a.lieu);
+    if (!parZone.has(slug)) {
+      const ref = lieuParSlug.get(slug);
+      parZone.set(slug, {
+        nom: a.lieu,
+        slug,
+        pays,
+        type: ref?.type ?? 'ville',
+        lieuId: ref?.id ?? null,
+        nbActivites: 0,
+        nbIncontournables: 0,
+        optionnel: ZONES_SI_TEMPS.includes(a.lieu),
+      });
+    }
+    const z = parZone.get(slug);
+    z.nbActivites += 1;
+    if (estIncontournable(a)) z.nbIncontournables += 1;
+  }
+  // tri : zones sûres d'abord, optionnelles (sablier) en bas
+  return [...parZone.values()].sort((x, y) => {
+    if (x.optionnel !== y.optionnel) return x.optionnel ? 1 : -1;
+    return y.nbIncontournables - x.nbIncontournables || x.nom.localeCompare(y.nom, 'fr');
+  });
+}
+</file>
+
+<file path="src/index.css">
+@import "tailwindcss";
+
+@theme {
+  --color-terra-50: #fdf8f0;
+  --color-terra-100: #fffcf7;
+  --color-terra-200: #f5e6df;
+  --color-terra-500: #c9623f;
+  --color-terra-700: #7a4f2e;
+  --color-terra-900: #2a1a0e;
+  --color-terra-muted: #9a7055;
+  --color-terra-border: rgba(180, 120, 80, 0.18);
+
+  --font-serif: "Playfair Display", Georgia, serif;
+
+  --color-parchemin: #e7d7b3;
+  --color-parchemin-carte: #f4ecd6;
+  --color-parchemin-bordure: rgba(120, 90, 50, 0.28);
+  --color-encre: #33210f;
+  --color-encre-douce: #6a5236;
+  --color-sepia: #8a6a44;
+  --color-creme: #f3ead4;
+  --color-jeu-quiz: #7a3520;
+  --color-jeu-enquete: #254234;
+  --color-jeu-escape: #1f3340;
+  --color-vert-cta: #234034;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--color-terra-50);
+  color: var(--color-terra-900);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;   /* Internet Explorer */
+  scrollbar-width: none;       /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;               /* Chrome, Safari */
+}
+
+.fond-carte {
+  background: url('/images/jeux/background.png') center/cover no-repeat;
+}
+
+.fond-carte-journal {
+  background: url('/images/journal/background.png') center/cover no-repeat;
+  background-size: 100% 100%;
+}
+
+.fond-carte-enquete {
+  background:     
+    url('/images/jeux/enquete.png') center/cover no-repeat;
+  background-size: 100% 100%;
+}
+
+.fond-carte-escape {
+  background:     
+    url('/images/jeux/escape.png') center/cover no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.fond-journal {
+  background:
+    linear-gradient(
+      180deg,
+      #5d6f5f 0%,
+      #5d6f5f 180px,
+      var(--color-parchemin) 180px
+    );
+}
+
+.grain-papier {
+  position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply; opacity: .07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.vignette-carte { position: absolute; inset: 0; pointer-events: none; box-shadow: inset 0 0 90px rgba(90,63,34,.30); }
+
+.texture-cuir {
+  background-image: url('/images/jeux/texture.jpg');
+  background-size: 320px;       
+  background-blend-mode: overlay;
+}
+</file>
+
+<file path="src/modules/Journal.jsx">
 import faune from '../donnees/faune.json';
 import gastronomie from '../donnees/gastronomie.json';
 import { useObservationsFaune } from '../hooks/useObservationsFaune';
 import { useAvisGastronomie } from '../hooks/useAvisGastronomie';
+import JournalBlock from '../composants/JournalBlock';
+
+// ═══════════════════════════════════════════════════════
+// Composant stat : titre + sous-titre à gauche, cercle à droite
+// ═══════════════════════════════════════════════════════
+function StatBloc({ titre, sousTitre, fait, total, couleur = 'terra-900' }) {
+  const pct = total > 0 ? fait / total : 0;
+  const r = 18;
+  const circonference = 2 * Math.PI * r;
+  const dash = pct * circonference;
+
+  return (
+
+    <div className="flex items-center justify-between gap-3">
+
+      {/* Gauche : titre + sous-titre */}
+      <div>
+        <div className={`font-serif font-semibold text-xl leading-tight text-${couleur}`}>
+          {titre}
+        </div>
+        {sousTitre && (
+          <div className={`text-[10px] italic opacity-60 text-${couleur}`}>
+            {sousTitre}
+          </div>
+        )}
+      </div>
+
+      {/* Droite : cercle de progression */}
+      <div className="flex-shrink-0">
+        <svg width="52" height="52" viewBox="0 0 52 52">
+          {/* Fond cercle */}
+          <circle
+            cx="26" cy="26" r={r}
+            fill="none"
+            stroke="#2a1a0e"
+            strokeWidth="3"
+          />
+          {/* Arc progression */}
+          <circle
+            cx="26" cy="26" r={r}
+            fill="none"
+            stroke="white"
+            strokeOpacity="0.85"
+            strokeWidth="3"
+            strokeDasharray={`${dash} ${circonference}`}
+            strokeLinecap="round"
+            transform="rotate(-90 26 26)"
+          />
+          {/* Chiffre */}
+          <text
+            x="26" y="28"
+            textAnchor="middle"
+            fontSize="11"
+            fill="#2a1a0e"
+            fontFamily="system-ui"
+            fontWeight="700"
+          >
+            {fait}
+          </text>
+        </svg>
+      </div>
+
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════
+// Configuration centralisée des 4 blocs
+// ═══════════════════════════════════════════════════════
+const JOURNAL_BLOCKS = [
+  {
+    id: 'journal',
+    to: '/journal/bord',
+    icon: '/images/journal/journal_icone.png',
+    bgStyle: {
+      backgroundImage: 'url(/images/journal/journal_de_bord.png)',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+    },
+  },
+  {
+    id: 'gastro',
+    to: '/journal/gastronomie',
+    icon: '/images/journal/gastronomie_icone.png',
+    bgStyle: {
+      backgroundImage: 'url(/images/journal/gastronomie.png)',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+    },
+  },
+  {
+    id: 'premieres-fois',
+    to: '/journal/premieres-fois',
+    icon: '/images/journal/defis_icone.png',
+    bgStyle: {
+      backgroundImage: 'url(/images/journal/defis.png)',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+    },
+  },
+  {
+    id: 'pokedex',
+    to: '/journal/faune',
+    icon: '/images/journal/pokedex_icone.png',
+    bgStyle: {
+      backgroundImage: 'url(/images/journal/pokedex.png)',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+    },
+  },
+];
 
 function Journal() {
-  // ─── DB (live) ──────────────────────────────────────
   const { vuSet } = useObservationsFaune();
   const { testeSet } = useAvisGastronomie();
 
-  // ─── Gastro ─────────────────────────────────────────
   const gastro = { fait: testeSet.size, total: gastronomie.length };
-  const pctGastro = gastro.total > 0 ? (gastro.fait / gastro.total) * 100 : 0;
-
-  // ─── Pokédex ────────────────────────────────────────
   const fauneFait = vuSet.size;
   const fauneTotal = faune.length;
-
-  // ─── Fake en attendant leurs modules DB ─────────────
-  // Journal de bord : pas encore de table en DB
   const last = null;
-
-  // 1ères Fois : pas encore de table en DB
   const premieresFois = { fait: 0, total: 10 };
-  const pctPremieres = premieresFois.total > 0 ? (premieresFois.fait / premieresFois.total) * 100 : 0;
-  const circonference = 2 * Math.PI * 15;
-  const dashPremieres = (pctPremieres / 100) * circonference;
 
   return (
+    <div className="fond-carte-journal relative min-h-full overflow-hidden">
+
     <div className="p-4">
-      <h1 className="text-3xl font-serif text-terra-900 mb-4">Journal</h1>
+
+      {/* ═══ Titre de la page ═══ */}
+      <div className="text-center mb-5">
+        <div className="inline-block border-t border-b border-terra-muted/60 py-3">
+          <h1 className="font-serif text-4xl text-terra-900 font-semibold leading-none">
+            Carnet
+          </h1>
+          <div className="font-serif italic text-sm text-terra-muted mt-1">
+            de notre traversée sud-américaine
+          </div>
+        </div>
+      </div>
 
       <div className="flex flex-col gap-2.5">
 
-        {/* ═══ LIGNE 1 : Journal (accent) + Gastronomie ═══ */}
-        <div className="grid grid-cols-2 gap-2.5">
-
-          {/* ─── Journal de bord ─── */}
-          <Link
-            to="/journal/bord"
-            className="bg-terra-500 rounded-2xl p-3.5 min-h-[130px] flex flex-col justify-between shadow-[0_4px_16px_rgba(201,98,63,0.22)]"
-          >
-            <PenLine className="w-7 h-7 text-white/95" strokeWidth={1.7} />
+        {/* ─── BLOC 1 : JOURNAL DE BORD ─── */}
+        <div style={JOURNAL_BLOCKS[0].bgStyle} className="rounded-2xl min-h-[120px] shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <JournalBlock to={JOURNAL_BLOCKS[0].to} icon={JOURNAL_BLOCKS[0].icon} bgClassName="bg-transparent">
             <div>
-              <div className="font-serif italic text-lg text-white mb-1 leading-tight">
-                Journal
+              <div className="font-serif font-semibold text-xl text-terra-900 leading-tight">
+                Journal de bord
               </div>
-              {last ? (
-                <>
-                  <div className="text-[10px] text-white/70">
-                    {last.humeur} {last.lieu} · {last.date}
-                  </div>
-                  <div className="text-[11px] text-white/85 mt-1 leading-snug line-clamp-2">
-                    {last.title || last.body}
-                  </div>
-                </>
-              ) : (
-                <div className="text-[11px] text-white/60">Aucune entrée</div>
-              )}
+              <div className="text-[10px] italic text-terra-900/50 mb-1">de notre voyage</div>
             </div>
-          </Link>
-
-          {/* ─── Gastronomie — live ─── */}
-          <Link
-            to="/journal/gastronomie"
-            className="bg-terra-100 border border-terra-border rounded-2xl p-3.5 min-h-[130px] flex flex-col justify-between"
-          >
-            <UtensilsCrossed className="w-7 h-7 text-terra-500" strokeWidth={1.7} />
-            <div>
-              <div className="font-serif italic text-base text-terra-900 mb-2 leading-tight">
-                Gastro
-              </div>
-              <div className="h-1 bg-terra-500/15 rounded-sm mb-1 overflow-hidden">
-                <div
-                  className="h-full bg-terra-500 rounded-sm transition-[width] duration-500"
-                  style={{ width: `${pctGastro}%` }}
-                />
-              </div>
-              <div className="text-[10px] text-terra-muted">
-                {gastro.fait}/{gastro.total} goûtés
-              </div>
-            </div>
-          </Link>
+          </JournalBlock>
         </div>
 
-        {/* ═══ LIGNE 2 : 1ères Fois + Pokédex ═══ */}
-        <div className="grid grid-cols-2 gap-2.5">
+        {/* ─── BLOC 2 : GASTRONOMIE ─── */}
+        <div style={JOURNAL_BLOCKS[1].bgStyle} className="rounded-2xl min-h-[120px] shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <JournalBlock to={JOURNAL_BLOCKS[1].to} icon={JOURNAL_BLOCKS[1].icon} bgClassName="bg-transparent">
+            <StatBloc
+              titre="Gastronomie"
+              sousTitre="des plats goûtés"
+              fait={gastro.fait}
+              total={gastro.total}
+            />
+          </JournalBlock>
+        </div>
 
-          {/* ─── 1ères Fois — fake en attendant ─── */}
-          <Link
-            to="/journal/premieres-fois"
-            className="bg-terra-900/85 rounded-2xl p-3.5 min-h-[150px] flex flex-col justify-between"
-          >
-            <Mountain className="w-7 h-7 text-white/90" strokeWidth={1.7} />
-            <div>
-              <div className="font-serif italic text-base text-white mb-2 leading-tight">
-                1ères Fois
-              </div>
-              <div className="flex items-center gap-2">
-                <svg width="36" height="36" viewBox="0 0 36 36">
-                  <circle
-                    cx="18" cy="18" r="15"
-                    fill="none"
-                    stroke="rgba(255,255,255,0.15)"
-                    strokeWidth="3"
-                  />
-                  <circle
-                    cx="18" cy="18" r="15"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="3"
-                    strokeDasharray={`${dashPremieres} ${circonference}`}
-                    strokeLinecap="round"
-                    transform="rotate(-90 18 18)"
-                    className="text-terra-500"
-                  />
-                  <text
-                    x="18" y="22"
-                    textAnchor="middle"
-                    fontSize="10"
-                    fill="white"
-                    fontFamily="system-ui"
-                    fontWeight="700"
-                  >
-                    {premieresFois.fait}
-                  </text>
-                </svg>
-                <div className="text-[11px] text-white/60 leading-snug">
-                  sur {premieresFois.total}<br />accomplis
-                </div>
-              </div>
-            </div>
-          </Link>
+        {/* ─── BLOC 3 : PREMIÈRES FOIS ─── */}
+        <div style={JOURNAL_BLOCKS[2].bgStyle} className="rounded-2xl min-h-[120px] shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <JournalBlock to={JOURNAL_BLOCKS[2].to} icon={JOURNAL_BLOCKS[2].icon} bgClassName="bg-transparent">
+            <StatBloc
+              titre="1ères Fois"
+              sousTitre="de nos défis accomplis"
+              fait={premieresFois.fait}
+              total={premieresFois.total}
+            />
+          </JournalBlock>
+        </div>
 
-          {/* ─── Pokédex — live ─── */}
-          <Link
-            to="/journal/faune"
-            className="bg-terra-900 rounded-2xl p-3.5 min-h-[150px] flex flex-col justify-between"
-          >
-            <Bird className="w-7 h-7 text-white/90" strokeWidth={1.7} />
-            <div>
-              <div className="font-serif italic text-base text-white mb-2 leading-tight">
-                Pokédex
-              </div>
-              {/* Mini-points : allumés si l'animal est observé */}
-              <div className="flex flex-wrap gap-1 mb-1.5">
-                {faune.slice(0, 10).map((animal) => (
-                  <div
-                    key={animal.nom}
-                    className={`w-2 h-2 rounded-sm transition-colors duration-300 ${
-                      vuSet.has(animal.nom) ? 'bg-terra-500' : 'bg-white/15'
-                    }`}
-                  />
-                ))}
-              </div>
-              <div className="text-[10px] text-white/55">
-                {fauneFait}/{fauneTotal} observés
-              </div>
-            </div>
-          </Link>
+        {/* ─── BLOC 4 : POKÉDEX ─── */}
+        <div style={JOURNAL_BLOCKS[3].bgStyle} className="rounded-2xl min-h-[120px] shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <JournalBlock to={JOURNAL_BLOCKS[3].to} icon={JOURNAL_BLOCKS[3].icon} bgClassName="bg-transparent">
+            <StatBloc
+              titre="Pokédex"
+              sousTitre="de la faune observée"
+              fait={fauneFait}
+              total={fauneTotal}
+            />
+          </JournalBlock>
         </div>
 
       </div>
-    </div>
+    </div></div>
   );
 }
 
@@ -4193,12 +5014,15 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import BarreOnglets from './composants/BarreOnglets.jsx';
 
 // Planification
-import Activites from './modules/Activites.jsx';
+// import Activites from './modules/Activites.jsx';
 import Lieux from './modules/Lieux.jsx';
 import Pays from './modules/Pays.jsx';
+import Zone from './modules/Zone.jsx';
+import Zones from './modules/Zones.jsx';
 import DetailActivite from './modules/DetailActivite.jsx';
 import DetailLieu from './modules/DetailLieu.jsx';
 import DetailPays from './modules/DetailPays.jsx';
+import PlanificationAccueil from './modules/PlanificationAccueil.jsx';
 
 // Journal
 import Journal from './modules/Journal.jsx';
@@ -4212,6 +5036,8 @@ import Enquetes from './modules/Enquetes.jsx';
 import SectionEnquete from './modules/SectionEnquete.jsx';
 import DetailCas from './modules/DetailCas.jsx';
 import Escapes from './modules/Escapes.jsx';
+import SectionEscape from './composants/SectionEscape';
+
 // Autres
 import Apprendre from './modules/Apprendre.jsx';
 import Theme from './modules/Theme.jsx';
@@ -4228,14 +5054,13 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/planification" replace />} />
 
-            {/* Planification : 3 sous-vues + redirection par défaut */}
-            <Route path="/planification"                  element={<Navigate to="/planification/activites" replace />} />
-            <Route path="/planification/activites"        element={<Activites />} />
-            <Route path="/planification/activites/:slug"  element={<DetailActivite />} />
-            <Route path="/planification/lieux"            element={<Lieux />} />
-            <Route path="/planification/lieux/:id"        element={<DetailLieu />} />
-            <Route path="/planification/pays"             element={<Pays />} />
-            <Route path="/planification/pays/:id"         element={<DetailPays />} />
+            {/* Planification */}
+            <Route path="/planification" element={<PlanificationAccueil />} />
+            <Route path="/planification/zones/:paysSlug" element={<Zones />} />
+            <Route path="/planification/zones/:paysSlug/:zoneSlug" element={<Zone />} />
+            <Route path="/planification/activites/:slug" element={<DetailActivite />} />
+            <Route path="/planification/pays/:id" element={<DetailPays />} />
+            <Route path="/planification/lieux/:id" element={<DetailLieu />} />
 
             {/* Apprendre / Jeux */}
             <Route path="/apprendre"                          element={<Apprendre />} />
@@ -4250,6 +5075,8 @@ function App() {
             <Route path="/jeux/enquetes/:sectionId"         element={<SectionEnquete />} />
             <Route path="/jeux/enquetes/:sectionId/:casId"  element={<DetailCas />} />
             <Route path="/jeux/escapes"  element={<Escapes />} />
+            <Route path="/jeux/escapes/:escapeId" element={<SectionEscape />} />
+
 
             {/* Journal */}
             <Route path="/journal"                  element={<Journal />} />

@@ -14,6 +14,7 @@ function StatBloc({ titre, sousTitre, fait, total, couleur = 'terra-900' }) {
   const dash = pct * circonference;
 
   return (
+
     <div className="flex items-center justify-between gap-3">
 
       {/* Gauche : titre + sous-titre */}
@@ -124,7 +125,10 @@ function Journal() {
   const premieresFois = { fait: 0, total: 10 };
 
   return (
+    <div className="fond-carte-journal relative min-h-full overflow-hidden">
+
     <div className="p-4">
+
       {/* ═══ Titre de la page ═══ */}
       <div className="text-center mb-5">
         <div className="inline-block border-t border-b border-terra-muted/60 py-3">
@@ -188,7 +192,7 @@ function Journal() {
         </div>
 
       </div>
-    </div>
+    </div></div>
   );
 }
 

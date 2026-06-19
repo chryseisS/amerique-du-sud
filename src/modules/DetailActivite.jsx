@@ -1,15 +1,19 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, MapPin, Play, ChevronRight } from 'lucide-react';
 import activites from '../donnees/activites.json';
-import { COULEURS_TYPES_ACTIVITES, versSlug } from '../donnees/constantes';
+import { COULEURS_TYPES_ACTIVITES, versSlug, COULEURS_PAYS } from '../donnees/constantes';
 import GalerieActivite from '../composants/GalerieActivite';
 import TexteFormate from '../composants/TexteFormate';
+
+
 
 
 function DetailActivite() {
   const { slug } = useParams();
   const navigate = useNavigate();
   const activite = activites.find((a) => versSlug(a.nom) === slug);
+  const pays = activite[0]?.pays;
+  const couleurs = COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
 
   if (!activite) {
     return (
@@ -18,7 +22,7 @@ function DetailActivite() {
           onClick={() => navigate(-1)}
           className="flex items-center gap-2 text-terra-500 mb-4"
         >
-          <ArrowLeft className="w-4 h-4" strokeWidth={2} />
+          <ArrowLeft className="w-4 h-4" strokeWidth={2}/>
           <span className="text-sm">Retour</span>
         </button>
         <p className="text-terra-muted">Activité introuvable.</p>

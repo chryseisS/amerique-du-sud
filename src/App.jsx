@@ -14,6 +14,9 @@ import PlanificationAccueil from './modules/PlanificationAccueil.jsx';
 
 // Journal
 import Journal from './modules/Journal.jsx';
+import JournalBord from './modules/JournalBord.jsx';
+import EditeurEntree from './modules/EditeurEntree.jsx';
+import DetailEntree from './modules/DetailEntree.jsx';
 import Gastronomie from './modules/Gastronomie.jsx';
 import PremieresFois from './modules/PremieresFois.jsx';
 import Faune from './modules/Faune.jsx';
@@ -68,6 +71,10 @@ function App() {
 
             {/* Journal */}
             <Route path="/journal"                  element={<Journal />} />
+            <Route path="/journal/bord"             element={<JournalBord />} />
+            <Route path="/journal/bord/nouveau"     element={<EditeurEntree />} />
+            <Route path="/journal/bord/:id"         element={<DetailEntree />} />
+            <Route path="/journal/bord/:id/modifier" element={<EditeurEntree />} />
             <Route path="/journal/gastronomie"      element={<Gastronomie />} />
             <Route path="/journal/premieres-fois"   element={<PremieresFois />} />
             <Route path="/journal/faune"            element={<Faune />} />

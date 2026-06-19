@@ -766,7 +766,7 @@
     "numero": 22,
     "nom": "Iguanes des Galápagos",
     "emoji": "🦎",
-    "photo": null,
+    "photo": "iguane.png",
     "rarete": 1,
     "ouLeTrouver": [
       "Tortuga Bay (Santa Cruz)",
@@ -840,7 +840,7 @@
     "numero": 24,
     "nom": "Frégate superbe",
     "emoji": "🦅",
-    "photo": null,
+    "photo": "fregate.png",
     "rarete": 1,
     "ouLeTrouver": [
       "North Seymour (Santa Cruz)",
@@ -913,7 +913,7 @@
     "numero": 26,
     "nom": "Pinsons de Darwin",
     "emoji": "🐦",
-    "photo": null,
+    "photo": "pinson.png",
     "rarete": 1,
     "ouLeTrouver": ["Santa Cruz", "San Cristóbal", "Isabela"],
     "reconnaitre": "Petits oiseaux de 10 à 20 cm, ternes et discrets — plumage brun-gris rayé pour les femelles, noir pour les mâles de la plupart des espèces. En apparence, ils se ressemblent tous. La différence est dans le bec : court et épais comme un casse-noisette, long et fin comme une pince à épiler, courbé comme un crochet, ou énorme et massif. C'est le bec qui trahit l'espèce et son régime alimentaire. Souvent vus au sol, sur les cactus, ou sur le dos des iguanes terrestres.",
@@ -1082,7 +1082,7 @@
     "numero": 31,
     "nom": "Castor",
     "emoji": "🦫",
-    "photo": null,
+    "photo": "castor.png",
     "rarete": 2,
     "ouLeTrouver": [
       "Terre de Feu (Argentine et Chili)",
@@ -1154,7 +1154,7 @@
     "numero": 33,
     "nom": "Tatou pichi",
     "emoji": "🦔",
-    "photo": null,
+    "photo": "tatou.png",
     "rarete": 2,
     "ouLeTrouver": [
       "Steppe patagonienne (Argentine)",

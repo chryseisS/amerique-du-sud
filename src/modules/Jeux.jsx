@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 
-// Icônes : place tes 3 SVG dans public/images/jeux/icones/
-//   quiz.svg · enquetes.svg · escapes.svg
 
 // ─── Données des 3 cartes (tout s'édite ici) ──────────────────────────
 const CARTES = [
