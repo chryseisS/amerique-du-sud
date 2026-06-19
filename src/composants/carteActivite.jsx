@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 import { Sparkles } from 'lucide-react'; // Ou 'Flame' selon tes préférences
-import { COULEURS_TYPES_ACTIVITES, versSlug, estIncontournable } from '../donnees/constantes';
+import { COULEURS_TYPES_ACTIVITES, ICONES_TYPES_ACTIVITES, versSlug, estIncontournable } from '../donnees/constantes';
 
 function CarteActivite({ activite }) {
   const couleur = COULEURS_TYPES_ACTIVITES[activite.type] || '#8a7560';
+  const icone = ICONES_TYPES_ACTIVITES[activite.type] || null;
   const important = estIncontournable(activite);
 
   return (
@@ -23,6 +24,18 @@ function CarteActivite({ activite }) {
         className="w-1.5 flex-shrink-0"
         style={{ backgroundColor: couleur }}
       />
+
+      {/* ICÔNE DU TYPE */}
+      {icone && (
+        <div className="flex-shrink-0 flex items-center pl-3">
+          <img
+            src={icone}
+            alt=""
+            aria-hidden="true"
+            className="h-12 w-12 object-contain"
+          />
+        </div>
+      )}
 
       {/* CONTENU */}
       <div className="flex-1 min-w-0 py-3.5 px-4 flex flex-col justify-between">

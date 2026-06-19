@@ -82,3 +82,19 @@ body {
   background-size: 320px;       
   background-blend-mode: overlay;
 }
+
+/* ─── Animation bouton + journal de bord ─────────────────────────────────── */
+@keyframes pulse-scale {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(1.18); }
+}
+
+.animate-pulse-scale {
+  animation: pulse-scale 2s ease-in-out infinite;
+}
+
+/* Stoppe l'animation au tap (évite l'effet saccadé au clic) */
+.animate-pulse-scale:active {
+  animation: none;
+  transform: scale(0.93);
+}

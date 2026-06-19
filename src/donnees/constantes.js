@@ -17,6 +17,17 @@ export const COULEURS_TYPES_ACTIVITES = {
   Divers:      '#8a7560', // taupe
 };
 
+export const ICONES_TYPES_ACTIVITES = {
+  Trek:        '/images/zones/trek.png',
+  Randonnée:   '/images/zones/randonnee.png',
+  Culture:     '/images/zones/culture.png',
+  Nature:      '/images/zones/nature.png',
+  Faune:       '/images/zones/faune.png',
+  Excursion:   '/images/zones/excursion.png',
+  Gastronomie: '/images/zones/gastronomie.png',
+  Divers:      '/images/zones/divers.png',
+};
+
 // module Faune
 
 export const RARETE_LIBELLES = {
@@ -113,6 +124,8 @@ export const ICONES_ZONES = {
   'patagonie':       '/images/zones/patagonie.png',
   'terre-de-feu':    '/images/zones/terre-de-feu.png',
   'salta':           '/images/zones/salta.png',
+  'mendoza':         '/images/zones/mendoza.png',
+  'san-carlos-de-bariloche':         '/images/zones/bariloche.png',
 };
 
 export const ZONES_SI_TEMPS = ['Nord du Pérou', 'Ayacucho'];

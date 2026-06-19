@@ -231,7 +231,7 @@
     "visiteGuidee": false
   },
   {
-    "type": "Trek",
+    "type": "Excursion",
     "nom": "Huayna Potosi",
     "lieu": "La Paz",
     "lieuId": "la-paz",
