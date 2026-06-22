@@ -36,14 +36,14 @@ function StatBloc({ titre, sousTitre, fait, total, couleur = 'terra-900' }) {
           <circle
             cx="26" cy="26" r={r}
             fill="none"
-            stroke="#2a1a0e"
+            stroke="#999999"
             strokeWidth="3"
           />
           {/* Arc progression */}
           <circle
             cx="26" cy="26" r={r}
             fill="none"
-            stroke="white"
+            stroke="#2a1a0e"
             strokeOpacity="0.85"
             strokeWidth="3"
             strokeDasharray={`${dash} ${circonference}`}

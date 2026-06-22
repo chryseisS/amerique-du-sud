@@ -18,7 +18,7 @@ function PlanificationAccueil() {
   return (
     <div className="pb-6">
       {/* ─── HERO AVEC FOND DE CARTE ─── */}
-      <div className="relative overflow-hidden px-4 pt-8 pb-10">
+      <div className="relative overflow-hidden px-4 pt-8 pb-6">
         {/* Fond de carte (image décorative en arrière-plan) */}
         <div
           className="absolute inset-0"
@@ -36,7 +36,7 @@ function PlanificationAccueil() {
           <h1 className="text-4xl font-serif font-semibold text-terra-900 tracking-tight leading-tight">
             Planification
           </h1>
-          <p className="text-sm text-terra-muted mt-2 max-w-sm italic">
+          <p className="text-sm text-terra-muted mt-0.5 max-w-sm italic">
             Planifie ton aventure à travers l'Amérique du Sud
           </p>
         </div>

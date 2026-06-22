@@ -1,17 +1,16 @@
 import { NavLink } from 'react-router-dom';
-import { Map, BookOpen, Dices, PenLine } from 'lucide-react';
 
 function BarreOnglets() {
   const onglets = [
-    { chemin: '/planification', label: 'Planif',    Icone: Map },
-    { chemin: '/apprendre',     label: 'Apprendre', Icone: BookOpen },
-    { chemin: '/jeux',          label: 'Jeux',      Icone: Dices },
-    { chemin: '/journal',       label: 'Journal',   Icone: PenLine },
+    { chemin: '/planification', label: 'Planif\'',  image: '/images/onglets/planif.png' },
+    { chemin: '/apprendre',     label: 'Culture', image: '/images/onglets/apprendre.png' },
+    { chemin: '/jeux',          label: 'Jeux',    image: '/images/onglets/jeux.png' },
+    { chemin: '/journal',       label: 'Journal', image: '/images/onglets/journal.png' },
   ];
 
   return (
-    <nav className="bg-terra-100 border-t border-terra-border grid grid-cols-4 py-1.5 pb-3">
-      {onglets.map(({ chemin, label, Icone }) => (
+    <nav className="bg-terra-100 border-t border-terra-border grid grid-cols-4 py-0.5 pb-2">
+      {onglets.map(({ chemin, label, image }) => (
         <NavLink
           key={chemin}
           to={chemin}
@@ -19,13 +18,15 @@ function BarreOnglets() {
         >
           {({ isActive }) => (
             <>
-              <Icone
-                className={`w-5 h-5 ${isActive ? 'text-terra-500' : 'text-terra-muted'}`}
-                strokeWidth={1.7}
+              <img
+                src={image}
+                className={`w-10 h-10 p-1 transition-all ${
+                  isActive ? 'opacity-100' : 'opacity-50'
+                }`}
               />
               <span
                 className={`text-xs ${
-                  isActive ? 'text-terra-500 font-semibold' : 'text-terra-muted'
+                  isActive ? 'text-terra-500 font-bold' : 'text-terra-muted'
                 }`}
               >
                 {label}

@@ -5,12 +5,34 @@ import culture from '../donnees/culture.json';
 
 function Apprendre() {
   return (
-    <div className="p-4">
+    <div className="px-4">
 
       {/* ─── Titre ─── */}
-      <h1 className="text-3xl font-serif text-terra-900 mb-4">
-        Apprendre
-      </h1>
+      <div className="relative h-28 overflow-hidden -mx-4 px-4 flex flex-col justify-between py-4">
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: "url('/images/themes/header_apprendre.png')",
+            backgroundSize: '100% 100%',
+            backgroundPosition: 'center',
+            WebkitMaskImage: 'linear-gradient(to bottom, black 0%, black 95%, transparent 100%)',
+            maskImage: 'linear-gradient(to bottom, black 0%, black 95%, transparent 100%)',
+          }}
+        />
+        
+        {/* Voile crème léger pour adoucir le bas et faire la transition */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-terra-50/10 to-terra-50" />
+
+        {/* Contenu */}
+        <div className="relative">
+          <h1 className="text-3xl font-serif font-semibold text-terra-900 tracking-tight leading-tight">
+            Halte culturelle
+          </h1>
+          <p className="text-sm text-terra-muted mt-1 max-w-sm italic">
+            Histoires et anecdotes
+          </p>
+        </div>
+      </div>
 
       {/* ─── Visites guidées ─── */}
       <Link

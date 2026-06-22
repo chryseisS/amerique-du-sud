@@ -98,11 +98,10 @@
     "description": ""
   },
   {
-    "id": "salta",
-    "nom": "Salta",
-    "pays": "Argentine",
-    "type": "ville",
-    "description": ""
+    "id": "puno-cuzco",
+    "nom": "De Puno à Cuzco",
+    "pays": "Pérou",
+    "description": "Très belle route appelée la route du Soleil. Compter 9 heures de route. Point le plus haut : Col de la Raya à 4438m. Juliaca, sur le chemin, est une des villes les plus embouteillées du Pérou, éviter le centre-ville.\n\nDans l'ordre des arrêts : [[Aramu Muru]] (avant Puno), [[Lac Titicaca]], [[Sillustani]], [[Canyon de Tinajani]], [[Pallay Punchu]] et [[Checacupe]]."
   },
   {
     "id": "terre-de-feu",

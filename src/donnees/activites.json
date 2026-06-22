@@ -137,7 +137,7 @@
     "lieu": "Paracas",
     "lieuId": "paracas",
     "pays": "Pérou",
-    "importance": null,
+    "importance": 5,
     "duree": "1 jour",
     "description": "Oasis dans le désert à côté de la ville d'Ica. L'activité phare est de faire du buggy dans les dunes avec sandboard/sandski. Possibilité de se balader sur les dunes également. La réservation s'effectue soit en avance (via getYourGuide par exemple), soit sur place (via l'hôtel par exemple). Rester une nuit sur place pour faire le tour au couche du soleil. Prix entre 25 et 50 euros selon durée (et possibilité de faire sandski vs juste descendre en mode luge).",
     "visiteGuidee": false
@@ -200,12 +200,23 @@
   {
     "type": "Randonnée",
     "nom": "Pallay Punchu",
-    "lieu": "Cuzco",
-    "lieuId": "cuzco",
+    "lieu": "De Puno à Cuzco",
+    "lieuId": "puno-cuzco",
     "pays": "Pérou",
-    "importance": 4,
+    "importance": 5,
     "duree": null,
     "description": "Montagne située à 4h de route au sud de Cuzco. Une des montagnes colorées moins touristique que Vinicunca. Entrée de 10 soles. Le départ du trek peut s'effectuer à Layo, avec une montée de 8km pour monter au Pallay Punchu. Il est également possible de monter sur une route en terre pour aller directement au départ, juste à côté de la montagne.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Checacupe",
+    "lieu": "De Puno à Cuzco",
+    "lieuId": "puno-cuzco",
+    "pays": "Pérou",
+    "importance": 5,
+    "duree": null,
+    "description": "Petite ville sur le chemin qui possède une reconstitution de trois ponts construits côte à côte : pont inca, pont colonial et pont républicain. Quelques soles pour traverser le pont inca.",
     "visiteGuidee": false
   },
   {
@@ -236,7 +247,7 @@
     "lieu": "La Paz",
     "lieuId": "la-paz",
     "pays": "Bolivie",
-    "importance": 4,
+    "importance": 5,
     "duree": "3 jours",
     "description": "Huayna Potosi : montagne s'élevant à plus de 6000m à côté de La Paz. Se fait en 3J/2N ou en 2J/1N. Privilégier 3J/2N afin d'avoir plus de temps pour s'acclimater et apprendre les techniques d'alpinisme. Ne pas réserver en ligne (plus cher), aller voir directement sur place les agence. Sur le groupe 'Les Français en Bolivie', beaucoup de recommandations pour des guides locaux à contacter par téléphone. Prix : environ 150 euros pour les 3 jours par personnes.",
     "visiteGuidee": false
@@ -250,6 +261,120 @@
     "importance": 5,
     "duree": "3 jours",
     "description": "Excursions permettant de visiter le Salar d'Uyuni et Sud Lipez. Non accessible sans guide et sans 4x4. Faire une excursion de 4J/3N ou 3J/2N, départ et retour à Uyuni. Essayer de trouver un groupe sur 'Les Français en Bolivie' pour avoir des prix dégressifs (trop cher à 2). Si pas de groupe, réserver en ligne ou sur place. Prix : environ 300 euros par personne pour l'excursion.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Valle de las Animas",
+    "lieu": "La Paz",
+    "lieuId": "la-paz",
+    "pays": "Bolivie",
+    "sousZone": "Sud La Paz",
+    "importance": null,
+    "duree": null,
+    "description": "Située à une heure de route de La Paz, à 4000m d'altitude, la Valle de las Animas est une forêt dense de formation rocheuse. Accessibles en voiture directement ou en bus depuis La Paz. Gratuit. \n\nRandonnée d'environ 10km via la  Río Ovejuyo Route et retour via la Quebrada Negra Route. Télécharger la route depuis AllTrails en amont.\n\nDans la même journée, possibilité de faire une balade aux Canones de Palca (se garer à l'entrée de la ville de Palca).",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Valle de la Luna",
+    "lieu": "La Paz",
+    "lieuId": "la-paz",
+    "pays": "Bolivie",
+    "sousZone": "Sud La Paz",
+    "importance": null,
+    "duree": null,
+    "description": "Parc au Sud de La Paz dans le quartier de Mallasa. Prix : 15 BOB. Petite balade d'une heure au milieu des formations d'argile et de grès.\n\nJournée à combiner avec Valle de las Animas et Canones de Palca.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Tiwanuku",
+    "lieu": "La Paz",
+    "lieuId": "la-paz",
+    "pays": "Bolivie",
+    "sousZone": "Route retour Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Tiwanuku est l'un des sites archéologiques les plus importants d'Amérique du Sud, à 70km à l'Ouest de La Paz. Prix : 15 euros environ. Prévoir 3-4 heures sur place pour la visite.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Isla del Sol - Lac Titicaca",
+    "lieu": "La Paz",
+    "lieuId": "la-paz",
+    "pays": "Bolivie",
+    "sousZone": null,
+    "importance": 5,
+    "duree": "2-3 jours",
+    "description": "Sur la route pour aller de la Bolivie au Pérou, s'arrêter à Copacabana pour visiter la Isla del Sol. En van, passer par Tiquina et prendre le bac. Possitilité de bivouaquer à la Péninsule de Yampupata. Puis laisser le van à Copacabana pour prendre le bateau direction Isla del Sol.\n\nPour prendre le bateau, se rendre sur le port de Copacabana et prendre un bateau public (*lanchas*). Deux horaires pour l'aller : 8h30 le matin et 13h30 l'après-midi. Préciser si on veut débarquer au Nord ou au Sud. Pour le retour, il se fait depuis le Sud (Yumani) à 10h30 et 15h30. Prix : environ 5 euros l'aller-retour. Compter 2h30 de trajet.\n\nSur l'île, il est possible de faire une grande randonnée depuis le Sud permettant d'aller voir les vestiges incas du Nord et de revenir par le littoral (19km sans trop de dénivelé mais à 4000m d'altitude). Faire également une petite randonnée pour visiter la partie sud de l'île.\n\nItinéraire possible : prendre le bateau le matin pour faire le sud, et le lendemain la grande boucle. Puis revenir avec le dernier bateau ou rester une nuit de plus sur l'île.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Excursion",
+    "nom": "Lac Titicaca",
+    "lieu": "De Puno à Cuzco",
+    "lieuId": "puno-cuzco",
+    "pays": "Pérou",
+    "importance": 5,
+    "duree": null,
+    "description": "Pour visiter le lac Titicaca côté péruvien, tout se fait principalement via une excursion. Les zones principales à visiter : iles flottantes d'Uros, ile Taquile et ile Amantani. Le prix de l'excursion pour 2 jours et une nuit est d'environ 50-60 euros par personne et permet de visiter les 3 îles.\n\nIl est possible de faire en autonome sur une journée l'ile de Taquile (bateau directement au port), ou passer une nuit sur l'ile Amantani (bateau + attribution automatique d'une 'famille' pour passer la nuit sur l'ile). Lile d'Uros ne se fait que via une excursion, sur la demi-journée.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Aramu Muru",
+    "lieu": "De Puno à Cuzco",
+    "lieuId": "puno-cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Structure rocheuse rouge sur la route pour aller vers Puno depuis la Bolivie. Prix : 2 euros par personne entre 8h et 17h, gratuit sinon. Possibilité de faire une petite balade derrière et autour de la porte.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Sillustani",
+    "lieu": "De Puno à Cuzco",
+    "lieuId": "puno-cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Site archéologique autour du lac Titicaca, construit par le peuple Kolla. Prix : 15 soles. Grand parking et possibilité de faire le tour de la péninsule à pied.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Raqchi Archeological Park",
+    "lieu": "De Puno à Cuzco",
+    "lieuId": "puno-cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Site archéologique directement sur la route. Prix : 5 euros. Compter entre 1 et 2 heures sur place.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Andahuaylillas",
+    "lieu": "Cuzco",
+    "lieuId": "cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Petit village colonial au Sud de Cuzco. Son église San Pedro est surnommée la 'Chapelle Sixtine des Andes'. Prix : 4 euros. Possibilité de se garer autour de la Plaza de Armas.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Canyon de Tinajani",
+    "lieu": "De Puno à Cuzco",
+    "lieuId": "puno-cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Plusieurs canyons avec des formations rocheuses ocre. Gratuit et possibilité de bivouaquer. Petite balade au milieu des canyons. Goûter le Kankacho (plat typique originaire d'Ayaviri) sur le chemin.",
     "visiteGuidee": false
   },
   {
@@ -277,12 +402,34 @@
   {
     "type": "Culture",
     "nom": "Pampachiri",
-    "lieu": "Cuzco",
-    "lieuId": "Cuzco",
+    "lieu": "De Cuzco à Nazca",
+    "lieuId": "cuzco-nazca",
     "pays": "Pérou",
     "importance": null,
     "duree": null,
     "description": "Sur le chemin entre Cuzco et Lima. Deux attractions principales : le bosquet de pierre (Bosque de Piedras), et le village des Schtroumpfs (la Casa de los Pitufos), dans lequel des gens vivent encore.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Santuario Nacional d'Ampay",
+    "lieu": "De Cuzco à Nazca",
+    "lieuId": "cuzco-nazca",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "A côté de la ville d'Abancay. Route carrossable qui monte jusqu'à 3200m d'altitude. Prix : 30 soles.Randonnée de 10km aller-retour qui permet d'aller à la lagune Uspaccocha en passant par la lagune Angasqocha et la forêt d'Intimpas.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Santuario Nacional d'Ampay",
+    "lieu": "De Cuzco à Nazca",
+    "lieuId": "cuzco-nazca",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Sanctuaire des vigognes. Prix : 30 soles. Visite du musée du site sur la faune locale et petite balade autour. Le 24 juin : Chacchu National, rite ancestral inca : des centaines de membres des communautés locales forment une immense chaîne humaine de plusieurs kilomètres à travers la plaine pour encercler les vigognes sauvages, les rassembler dans un enclos, les tondre pour leur laine ultra-précieuse, puis les relâcher saines et sauves.",
     "visiteGuidee": false
   },
   {
@@ -298,13 +445,24 @@
   },
   {
     "type": "Culture",
-    "nom": "Lignes de Nazca",
+    "nom": "Nazca",
     "lieu": "Paracas",
     "lieuId": "paracas",
     "pays": "Pérou",
     "importance": null,
     "duree": null,
-    "description": "A Nazca (sur le chemin entre Paracas et Arequipa). Grandes figures tracées au sol par le peuple nazca dans le désert. Se voient mieux en avion. Prix : 100 euros par personne. Certaines d'entre elles peuvent se voir depuis le Mirador de las Lineas de Nazca, pour la modique somme de quelques soles.",
+    "description": "A Nazca, grandes figures tracées au sol par le peuple nazca dans le désert. Se voient mieux en avion. Prix : 100 euros par personne. Certaines d'entre elles peuvent se voir depuis le Mirador de las Lineas de Nazca, pour la modique somme de quelques soles.\n\nPossibilité de visiter les aqueducs de Cantalloc et le cimetière de Chauchilla.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "El Carmen",
+    "lieu": "Paracas",
+    "lieuId": "paracas",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "A 30min au Nord de Paracas, El Carmen est le berceau historique de la culture afro-péruvienne. A faire : visite de la Plaza de Armas, goûter la *Carapulcra con Sopa Seca*, visiter l'hacienda San José (20 soles). En ville, possibilité de prendre un cours de *cajon* (boite de percussion en bois).",
     "visiteGuidee": false
   },
   {
