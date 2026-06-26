@@ -2,21 +2,114 @@
   {
     "id": "perou",
     "nom": "Pérou",
-    "description": "Visa : pas de visa nécessaire pour 90 jours pour les ressortissants UE.\n\nMonnaie : Sol péruvien (PEN). BCP et Interbank ont les frais les plus bas aux distributeurs.\n\nFeuilles de coca : légales, mâchées avec de la llipta ou en infusion contre le mal d'altitude. Ne jamais en sortir du pays.\n\nUrgences : 105 (police), 116 (pompiers), 106 (ambulance).\n\nTester la cuisine sino-péruvienne.\n\nAu Pérou, les phares doivent être allumés même en plein jour."
+    "sections": [
+      {
+        "titre": "Visa",
+        "contenu": "Pas de visa nécessaire pour 90 jours pour les ressortissants UE."
+      },
+      {
+        "titre": "Monnaie",
+        "contenu": "Sol péruvien (PEN). BCP et Interbank ont les frais les plus bas aux distributeurs."
+      },
+      {
+        "titre": "Feuilles de coca",
+        "contenu": "Légales, mâchées avec de la llipta ou en infusion contre le mal d'altitude. Ne jamais en sortir du pays."
+      },
+      {
+        "titre": "Urgences",
+        "contenu": "105 (police), 116 (pompiers), 106 (ambulance)."
+      },
+      {
+        "titre": "À savoir",
+        "contenu": "Tester la cuisine sino-péruvienne.\n\nAu Pérou, les phares doivent être allumés même en plein jour."
+      }
+    ]
   },
   {
     "id": "bolivie",
     "nom": "Bolivie",
-    "description": "Visa : pas de visa nécessaire pour 90 jours pour les ressortissants UE.\n\nMonnaie : Boliviano (BOB). Très peu de paiement par carte hors grandes villes, prévoir du cash.\n\nAltitude : La Paz et l'altiplano sont à 3600-4100 m. Prévoir 2-3 jours d'acclimatation.\n\nUrgences : 110 (police), 119 (pompiers).\n\nL'essence en Bolivie est beaucoup plus chère pour les étrangers (pas de subventions du gouvernement). Très peu d'essence hors des grandes villes, prévoir des jerricanes. Les stations essence doivent enregistrer la plaque et parfois le passeport avant de faire le plein."
+    "sections": [
+      {
+        "titre": "Documents obligatoires pour le van",
+        "contenu": "- Le SIVETUR (déclaration d'importation temporaire) : document délivré par la douane bolivienne à la frontière, qui nous donne 90 jours d'autorisation pour le véhicule. Bien vérifier numéro de chassis (VIN) et d'immatriculation. Il peut également être demandé en ligne.\n\n- Assurance SOAT : il faut acheter le SOAT bolivien immédiatement après la frontière. Repérer les agences de la compagnie Univida ou les échoppes dédiées près des frontières. Se paie pour l'année, et coûte entre 20 et 30 euros. Le SOAT couvre les frais médicaux d'urgence, mais ne couvre pas les dommages au van."
+      },
+      {
+        "titre": "Carburant",
+        "contenu": "Les véhicules à plaque étrangère doivent payer environ 3 fois plus cher que le prix local. Pour appliquer le prix étranger, la station-service doit enregistrer votre plaque dans un système informatique connecté (système B-SISA). Beaucoup de stations dans les zones reculées n'ont pas ce système, ont la flemme de faire la paperasse, ou ont simplement peur des plaques étrangères et refuseront de nous servir.\n\nSi la station refuse de servir directement le van à cause des caméras qui filment votre plaque d'immatriculation, se garer à 50 mètres et venir à pied avec un jerrican de 20 litres."
+      },
+      {
+        "titre": "Barrages de route",
+        "contenu": "Des syndicats, des paysans ou des mineurs peuvent bloquer une route majeure pendant des jours avec des pierres ou des pneus enflammés. L'application obligatoire : le site internet ou l'application de l'ABC (Administradora Boliviana de Carreteras). Leur carte d'état des routes montre en temps réel les blocages (conflictos) et les travaux."
+      },
+      {
+        "titre": "Péages",
+        "contenu": "Très fréquents à l'entrée et à la sortie des villes et départements, toujours garder de la petite monnaie."
+      },
+      {
+        "titre": "La police",
+        "contenu": "Les contrôles de police (Tránsito) sont fréquents. Ayez toujours vos papiers en règle (Passeport, SIVETUR, SOAT). Si un policier tente de soutirer un pot-de-vin (coima) pour une infraction imaginaire, rester courtois, souriant, et demander calmement à aller au poste de police pour payer la contravention officielle (« Vamos à la comisaría para pagar la multa oficial »)."
+      },
+      {
+        "titre": "Visa & formalités",
+        "contenu": "Le tampon d'entrée nous couvre 90 jours. Tout étranger entrant sur le territoire bolivien, par voie aérienne ou terrestre, doit s'enregistrer dans un délai de 48 heures auprès de la Direction Générale de la Migration bolivienne et remplir le formulaire Declaración Jurada de Domicilio en indiquant où il sera logé au cours de son séjour. Ce formulaire sera vérifié par les autorités douanières à la sortie de Bolivie. Tout ressortissant étranger n'étant pas en mesure de présenter ce formulaire complété s'expose au paiement d'une amende à hauteur d'environ 300 bolivianos.\n\nLes voyageurs entrant sur le territoire bolivien doivent également présenter le formulaire 250 de déclaration sur l'honneur de bagages et de devises (Formulario de Declaración Jurada de Equipaje Acompañado y Divisas)."
+      },
+      {
+        "titre": "Itinéraire prévu",
+        "contenu": "À l'aller, arrivée en Bolivie depuis le Chili et le désert d'Atacama. Passer par Uyuni pour faire une excursion au salar. Puis remonter vers La Paz. Selon le temps, visiter La Paz et le lac Titicaca. Puis remonter au Pérou.\n\nAu retour, passer par La Paz, puis descendre vers Sucre et Tupiza avant de rejoindre l'Argentine. Excursion en Amazonie à caler soit à l'aller soit au retour selon le temps disponible (avion depuis La Paz)."
+      }
+    ]
   },
   {
     "id": "argentine",
     "nom": "Argentine",
-    "description": "Il existe un pass pour les parcs nationaux argentins valable un an. Il coute cher (environ 200 euros), mais potentiellement moins cher que prendre les tickets à l'unité (entre 30 et 40 euros la journée), sachant que nous irons à minima dans les parcs suivants : Perito Moreno (1 journée), Los Glaciares (7 jours, 140 euros), Tierra del Fuego (1 à 2 jours)."
+    "sections": [
+      {
+        "titre": "Pass parcs nationaux",
+        "contenu": "Il existe un pass pour les parcs nationaux argentins valable un an. Il coûte cher (environ 200 euros), mais potentiellement moins cher que prendre les tickets à l'unité (entre 30 et 40 euros la journée), sachant que nous irons à minima dans les parcs suivants : Perito Moreno (1 journée), Los Glaciares (7 jours, 140 euros), Tierra del Fuego (1 à 2 jours)."
+      }
+    ]
+  },
+  {
+    "id": "equateur",
+    "nom": "Equateur",
+    "sections": [
+      {
+        "titre": "Visa",
+        "contenu": "Pas de visa nécessaire pour les ressortissants UE. Le tampon d'entrée autorise un séjour de 90 jours, renouvelable une fois sur place pour 90 jours supplémentaires (soit 180 jours maximum par an)."
+      },
+      {
+        "titre": "Monnaie",
+        "contenu": "Dollar américain (USD), depuis la dollarisation de janvier 2000. Avantage majeur : aucun risque de change ni de manipulation de monnaie locale. Les billets de 50 et 100 dollars sont souvent refusés dans les commerces, toujours avoir des petites coupures (5, 10, 20 USD). Les distributeurs sont fiables dans les grandes villes ; plus rares et souvent vides dans les zones rurales."
+      },
+      {
+        "titre": "Documents pour le van",
+        "contenu": "- Importation temporaire du véhicule : formulaire délivré par les douanes équatoriennes à la frontière (SENAE). Valable 90 jours. Le numéro de châssis (VIN) et la plaque sont enregistrés dans le système. Conserver ce document pendant tout le séjour et le remettre à la sortie.\n\n- SOAT équatorien : assurance obligatoire de responsabilité civile. S'achète directement à la frontière ou dans les agences agréées. Couvre les dommages corporels aux tiers en cas d'accident, pas les dommages matériels au van."
+      },
+      {
+        "titre": "Carburant",
+        "contenu": "Le carburant est subventionné par l'État et nettement moins cher qu'en Europe. Trois types disponibles : Extra (octane 87, le plus courant), Super (octane 92) et Diesel. Le Diesel est le plus subventionné.\n\nLes véhicules à plaque étrangère paient en théorie le tarif non subventionné, mais dans la pratique la distinction est rarement appliquée aux pompes, surtout en dehors des grandes villes. Pas de système B-SISA comme en Bolivie : le plein se fait normalement.\n\nAttention : en zone rurale et en altitude (páramo), les stations peuvent être très espacées. Faire le plein dès que possible."
+      },
+      {
+        "titre": "Altitude & santé",
+        "contenu": "Quito est à 2 850 m — le mal d'altitude peut toucher dès l'arrivée, surtout en venant de la côte ou des Galápagos. Le Parc El Cajas (près de Cuenca) culmine à plus de 4 400 m. Prévoir 24 à 48 h d'acclimatation à Quito avant toute excursion en altitude.\n\nLes infusions de coca (mate de coca) sont légales en Équateur, disponibles partout, et restent le remède local standard contre le soroche."
+      },
+      {
+        "titre": "Galápagos",
+        "contenu": "Accès uniquement par avion depuis Quito ou Guayaquil (vols vers Santa Cruz ou San Cristóbal). Le van ne peut pas être emmené aux îles.\n\nFormalités obligatoires :\n\n- Tarjeta de Control de Tránsito (TCT) : document de contrôle des flux touristiques, à remplir et payer sur place à l'aéroport de départ avant enregistrement (~20 USD).\n\n- Droits d'entrée au Parc National des Galápagos : 200 USD par personne pour les ressortissants étrangers, à payer en cash (de préférence) ou par carte à l'aéroport d'arrivée aux îles.\n\nUn billet d'avion aller-retour ainsi qu'une preuve de réservation d'hôtel pour toute la durée du séjour seront demandés.\n\nLes bagages sont inspectés pour éviter l'introduction d'espèces invasives : aucun fruit, légume, produit d'origine animale, terre ou plante."
+      },
+      {
+        "titre": "Urgences",
+        "contenu": "911 — numéro unique (police, pompiers, ambulance). Fonctionne sur tout le territoire."
+      },
+      {
+        "titre": "Conduite & sécurité routière",
+        "contenu": "Conduite à droite. Ceinture obligatoire pour tous les passagers. Téléphone au volant strictement interdit (amende élevée). Les contrôles de police (retenes) sont fréquents sur les axes principaux : toujours avoir passeport, carte grise et documents du van à portée.\n\nLes routes de montagne (páramo, entre Quito et Cuenca notamment) peuvent être enveloppées de brouillard dense en fin d'après-midi. Éviter de rouler la nuit en dehors des axes principaux.\n\nÉviter de laisser des affaires visibles dans le van en stationnement, notamment dans les grandes villes (Quito, Guayaquil)."
+      }
+    ]
   },
   {
     "id": "chili",
     "nom": "Chili",
-    "description": ""
+    "sections": []
   }
 ]

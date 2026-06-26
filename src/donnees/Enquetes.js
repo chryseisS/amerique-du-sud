@@ -14,7 +14,7 @@ export const SECTIONS = [
     titre: 'Murdle Book',
     sousTitre: null,
     type: 'explication',
-    image: '/images/jeux/enquetes/murdle.jpg',
+    image: '/images/jeux/enquetes/murdle-book.png',
     explication: [
       "Devenez le Détective Logico ! Chaque jour, un nouveau crime absurde a été commis. Armé de votre grille de logique, de votre perspicacité et d'une bonne dose d'humour noir, vous devez croiser les indices pour déduire qui est le coupable, avec quelle arme, et dans quel lieu. Il y a 100 criminels à démasquer !",
     ],
@@ -25,7 +25,7 @@ export const SECTIONS = [
     titre: 'The Unsolved Case Files of Sherlock Holmes',
     sousTitre: 'Serez-vous meilleur que Sherlock ?',
     type: 'explication',
-    image: '/images/jeux/enquetes/sherlock.jpg',
+    image: '/images/jeux/enquetes/sherlock.png',
     explication: [
       "Le Dr Watson a laissé derrière lui un coffre contenant des affaires si complexes et mystérieuses que Sherlock Holmes lui-même a préféré les garder secrètes... jusqu'à aujourd'hui. Glissez-vous dans la peau du célèbre détective et tentez de résoudre ces énigmes que le reste du monde croyait insolubles."
     ],
@@ -37,7 +37,7 @@ export const SECTIONS = [
     titre: 'Stop a Murder',
     sousTitre: null,
     type: 'explication',
-    image: '/images/jeux/enquetes/stop-a-murder.jpg',
+    image: '/images/jeux/enquetes/stop-a-murder.png',
     explication: [
       "Glissez-vous dans la peau d'un profileur du FBI. Face à vous : un dossier criminel brut (rapports d'autopsie, indices physiques, lettres du tueur) et un compte à rebours mortel. Votre mission est d'arrêter un tueur en série machiavélique avant sa prochaine victime.",
     ],
@@ -48,7 +48,7 @@ export const SECTIONS = [
     titre: 'Qui ment ?',
     sousTitre: null,
     type: 'liste',
-    image: '/images/jeux/enquetes/qui-ment.jpg',
+    image: '/images/jeux/enquetes/qui-ment.png',
     cas: [
       {
         id: 'abattu',

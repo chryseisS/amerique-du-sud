@@ -22,7 +22,6 @@ function Zones() {
   const zones = zonesDuPays(activites, paysAffiche);
 
   const paysInfo = pays.find((p) => p.nom === paysAffiche);
-  const apercuPays = paysInfo?.description?.split('\n\n')[0] ?? '';
 
   const drapeau = DRAPEAUX[paysAffiche];
   const imageFond = IMAGES_PAYS_HEADER[paysAffiche];
@@ -93,7 +92,7 @@ function Zones() {
       <div className="p-4">
 
         {/* ─── À SAVOIR SUR LE PAYS — Carte mise en avant ─── */}
-        {paysInfo && apercuPays && (
+        {paysInfo && (
           <Link
             to={`/planification/pays/${paysInfo.id}`}
             className="group block mb-6 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition active:scale-[0.99] relative"

@@ -390,5 +390,12 @@
     "pays": ["Equateur"],
     "description": "Grog andin équatorien : eau-de-vie de canne à sucre (aguardiente) chauffée avec cannelle, clou de girofle, jus de naranjilla et sucre.",
     "anecdote": "Le canelazo n'est pas une boisson de fête — c'est une boisson de survie. À Quito (2 850 m), les soirées descendent régulièrement sous les 8°C même en été. Les vendeurs ambulants circulent avec des thermos géants pendant les fêtes de quartier et les processions religieuses. Refuser un canelazo par temps froid, c'est une déclaration d'incompréhension totale du climat andin."
+  },
+  {
+    "nom": "Kankacho",
+    "type": "Plat",
+    "pays": ["Pérou"],
+    "description": "Agneau entier rôti lentement dans un four en adobe pendant plusieurs heures, jusqu'à obtenir une viande fondante qui se détache à la main et une peau dorée et croustillante.",
+    "anecdote": "Ayaviri, petite ville du département de Puno à 3 900 mètres d'altitude, est considérée comme la capitale mondiale du kankacho. Les restaurants qui bordent la route panaméricaine y sont quasi exclusivement spécialisés dans ce plat — les voyageurs qui font la route Puno-Cusco s'y arrêtent systématiquement."
   }
 ]

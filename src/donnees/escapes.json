@@ -24,7 +24,7 @@
       "id": "pays-merveilles",
       "titre": "Le pays des merveilles",
       "sousTitre": "404 editions",
-      "image": "/images/jeux/escapes/nazcas.jpg",
+      "image": "/images/jeux/escapes/pays_merveilles.png",
       "type": "explication",
       "explication": [
         "Vous vous réveillez au fond du terrier, mais ce Pays des Merveilles n'a rien d'un conte de fées lénifiant. C'est un labyrinthe mental, absurde et inquiétant. Prisonnier de ce monde déformé, vous devez explorer les lieux, collecter des objets magiques dans votre inventaire et décrypter les énigmes du Chat du Cheshire ou du Chapelier pour espérer retrouver votre taille normale et vous échapper."
@@ -35,7 +35,7 @@
       "id": "tour-alchimiste",
       "titre": "La tour de l'alchimiste",
       "sousTitre": "404 editions",
-      "image": "/images/jeux/escapes/nazcas.jpg",
+      "image": "/images/jeux/escapes/tour_alchimiste.png",
       "type": "explication",
       "explication": [
         "Vous reprenez conscience, enfermé au sommet de la tour d'un mystérieux alchimiste qui a mystérieusement disparu. Autour de vous : des grimoires poussiéreux, des fioles fumantes, des astrolabes et des symboles occultes gravés sur les murs. Le laboratoire est piégé et les secrets qu'il renferme pourraient changer le monde. Serez-vous capable de décoder les formules secrètes du maître pour déverrouiller les portes avant que la tour ne devienne votre tombeau ?"
@@ -46,7 +46,7 @@
       "id": "dirigeable-professeur",
       "titre": "Le dirigeable du professeur",
       "sousTitre": "404 editions",
-      "image": "/images/jeux/escapes/nazcas.jpg",
+      "image": "/images/jeux/escapes/dirigeable_professeur.png",
       "type": "explication",
       "explication": [
         "Vous êtes à bord de L’Éole, le majestueux et ultra-complexe dirigeable du Professeur. Problème : le scientifique a disparu et la machine, privée de pilote, est en train de foncer droit vers un crash inévitable. Seul dans cette immense forteresse volante remplie d'engrenages et de tuyaux de cuivre, vous avez moins d'une heure pour dompter les commandes, réparer les pannes et reprendre le contrôle avant la catastrophe."
@@ -57,7 +57,7 @@
       "id": "marque-ctulhu",
       "titre": "La marque de Ctulhu",
       "sousTitre": "404 editions",
-      "image": "/images/jeux/escapes/nazcas.jpg",
+      "image": "/images/jeux/escapes/marque_ctulhu.png",
       "type": "explication",
       "explication": [
         "Une étrange marque est apparue sur votre peau, et depuis, vos nuits sont peuplées de visions d'un autre monde et d'une cité engloutie. Vos recherches vous mènent dans un vieux manoir isolé, sur les traces d'un culte impie. Mais attention : les couloirs de cette demeure abritent des secrets qui dépassent l'entendement humain. Trouvez le moyen de briser la malédiction avant de perdre totalement la raison... ou d'éveiller ce qui dort dans les profondeurs."
@@ -68,7 +68,7 @@
       "id": "griffes-mafia",
       "titre": "Dans les griffes de la mafia",
       "sousTitre": "404 editions",
-      "image": "/images/jeux/escapes/nazcas.jpg",
+      "image": "/images/jeux/escapes/griffes_mafia.png",
       "type": "explication",
       "explication": [
         "Votre planque au domicile de Don Gravedone, le parrain de la pègre, a mal tourné  : vous vous réveillez avec un sérieux mal de tête dans le bureau du mafieux. Bien entendu, la pièce est fermée à double tour et les hommes de main du Boss vont revenir pour vous régler votre compte d’ici une heure..."
@@ -79,7 +79,7 @@
       "id": "piege moriarty",
       "titre": "Le piège de Moriarty",
       "sousTitre": "404 editions",
-      "image": "/images/jeux/escapes/nazcas.jpg",
+      "image": "/images/jeux/escapes/piege_moriarty.png",
       "type": "explication",
       "explication": [
         "Le professeur Moriarty, le Napoléon du crime, a enfin réussi à capturer son plus grand rival : Sherlock Holmes. Mais au lieu de l'éliminer froidement, son esprit machiavélique a conçu un défi ultime. Enfermé dans un manoir truffé de mécanismes mortels, d'automates et d'énigmes psychologiques, vous incarnez Holmes et devez déjouer ce piège sadique. Vous n'avez que 60 minutes pour prouver que votre esprit est supérieur à celui du criminel le plus brillant de l'Histoire."

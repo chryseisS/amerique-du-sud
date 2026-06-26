@@ -42,6 +42,12 @@
     "description": ""
   },
   {
+    "id": "puno-cuzco",
+    "nom": "De Puno à Cuzco",
+    "pays": "Pérou",
+    "description": "Très belle route appelée la route du Soleil. Compter 9 heures de route. Point le plus haut : Col de la Raya à 4438m. Juliaca, sur le chemin, est une des villes les plus embouteillées du Pérou, éviter le centre-ville.\n\nDans l'ordre des arrêts : [[Aramu Muru]] (avant Puno), [[Lac Titicaca]], [[Sillustani]], [[Canyon de Tinajani]], [[Pallay Punchu]] et [[Checacupe]]."
+  },
+  {
     "id": "cuzco",
     "nom": "Cuzco",
     "pays": "Pérou",
@@ -60,7 +66,7 @@
     "nom": "La Paz",
     "pays": "Bolivie",
     "type": "ville",
-    "description": "Capitale administrative bolivienne, étalée dans une cuvette spectaculaire entre 3200 et 4100 m.\n\nÀ ne pas rater : prendre les téléphériques Mi Teleférico et descendre à la Death Road en VTT."
+    "description": "Capitale administrative bolivienne, étalée dans une cuvette spectaculaire entre 3200 et 4100 m.\n\nRestaurant Manq'a."
   },
   {
     "id": "nord-du-chili",
@@ -98,10 +104,10 @@
     "description": ""
   },
   {
-    "id": "puno-cuzco",
-    "nom": "De Puno à Cuzco",
+    "id": "lima",
+    "nom": "Autour de Lima",
     "pays": "Pérou",
-    "description": "Très belle route appelée la route du Soleil. Compter 9 heures de route. Point le plus haut : Col de la Raya à 4438m. Juliaca, sur le chemin, est une des villes les plus embouteillées du Pérou, éviter le centre-ville.\n\nDans l'ordre des arrêts : [[Aramu Muru]] (avant Puno), [[Lac Titicaca]], [[Sillustani]], [[Canyon de Tinajani]], [[Pallay Punchu]] et [[Checacupe]]."
+    "description": "La ville de Lima est une ville très embouteillée, ne pas aller dans le centre historique en van. La zone la plus sûre de la ville pour laisser le van est le quartier de Miraflores (parkings sécurisés)."
   },
   {
     "id": "terre-de-feu",

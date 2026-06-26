@@ -1,5 +1,16 @@
 [
   {
+    "type": "Randonnée",
+    "nom": "Pallay Punchu",
+    "lieu": "De Puno à Cuzco",
+    "lieuId": "puno-cuzco",
+    "pays": "Pérou",
+    "importance": 5,
+    "duree": null,
+    "description": "Montagne située à 4h de route au sud de Cuzco. Une des montagnes colorées moins touristique que Vinicunca. Entrée de 10 soles. Le départ du trek peut s'effectuer à Layo, avec une montée de 8km pour monter au Pallay Punchu. Il est également possible de monter sur une route en terre pour aller directement au départ, juste à côté de la montagne.",
+    "visiteGuidee": false
+  },
+  {
     "type": "Trek",
     "nom": "Salkantay Trek",
     "lieu": "Cuzco",
@@ -198,17 +209,6 @@
     "visiteGuidee": false
   },
   {
-    "type": "Randonnée",
-    "nom": "Pallay Punchu",
-    "lieu": "De Puno à Cuzco",
-    "lieuId": "puno-cuzco",
-    "pays": "Pérou",
-    "importance": 5,
-    "duree": null,
-    "description": "Montagne située à 4h de route au sud de Cuzco. Une des montagnes colorées moins touristique que Vinicunca. Entrée de 10 soles. Le départ du trek peut s'effectuer à Layo, avec une montée de 8km pour monter au Pallay Punchu. Il est également possible de monter sur une route en terre pour aller directement au départ, juste à côté de la montagne.",
-    "visiteGuidee": false
-  },
-  {
     "type": "Culture",
     "nom": "Checacupe",
     "lieu": "De Puno à Cuzco",
@@ -250,6 +250,28 @@
     "importance": 5,
     "duree": "3 jours",
     "description": "Huayna Potosi : montagne s'élevant à plus de 6000m à côté de La Paz. Se fait en 3J/2N ou en 2J/1N. Privilégier 3J/2N afin d'avoir plus de temps pour s'acclimater et apprendre les techniques d'alpinisme. Ne pas réserver en ligne (plus cher), aller voir directement sur place les agence. Sur le groupe 'Les Français en Bolivie', beaucoup de recommandations pour des guides locaux à contacter par téléphone. Prix : environ 150 euros pour les 3 jours par personnes.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Cholitas Wrestling",
+    "lieu": "La Paz",
+    "lieuId": "la-paz",
+    "pays": "Bolivie",
+    "importance": 5,
+    "duree": null,
+    "description": "Combats de catch. Le meilleur jour est le dimanche (jour historique). Les autres jours, le public est composé principalement de touristes. Privilégier le dimanche, sinon jeudi ou mardi. Début à 16h et dure environ 2h.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Mercado de las Brujas",
+    "lieu": "La Paz",
+    "lieuId": "la-paz",
+    "pays": "Bolivie",
+    "importance": 5,
+    "duree": null,
+    "description": "Situé au centre-ville de La Paz (rues Melchor Jimenez et Linares), c'est le coeur des traditions aymaras de la ville. Ouvert tous les jours de 9h30 à 19h.",
     "visiteGuidee": false
   },
   {
@@ -555,14 +577,25 @@
     "visiteGuidee": false
   },
   {
-    "type": "Faune",
-    "nom": "Amazonie Bolivie",
-    "lieu": "Cochabamba",
-    "lieuId": "cochabamba",
-    "pays": "Bolivie",
+    "type": "Culture",
+    "nom": "Ingapirca",
+    "lieu": "Cuenca",
+    "lieuId": "cuenca",
+    "pays": "Equateur",
     "importance": null,
+    "duree": null,
+    "description": "Site archéologique précolombien le plus important du pays. Visite guidée de 45min obligatoire pour 2 dollars.\n\nPetit sentier à l'extérieur du site pour aller voir la Cara del Inca (formation rocheuse).",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Faune",
+    "nom": "Amazonie",
+    "lieu": "Rurrenabaque",
+    "lieuId": "rurrenabaque",
+    "pays": "Bolivie",
+    "importance": 5,
     "duree": "5 jours",
-    "description": "Visite de l'Amazonie via Rurennabaque. Prendre l'avion depuis Cochabamba (moins d'une heure de vol). Possibilité de faire 5 jours : quelques jours dans la selva (jungle amazonienne dense) et quelques jours dans la pampa (zones humides ouvertes). La pampa permet d'effectuer un vrai safari amazonien. Compter 400 euros pour 5 jours via des agences du type Jaja Tours. Voir agences recommandées (et autres partenaires) dans le groupe Facebook 'Les Français en Bolivie'.",
+    "description": "Visite de l'Amazonie via Rurennabaque. Prendre l'avion depuis La Paz (moins d'une heure de vol). Possibilité de faire 5 jours : quelques jours dans la selva (jungle amazonienne dense) et quelques jours dans la pampa (zones humides ouvertes). La pampa permet d'effectuer un vrai safari amazonien. Compter 400 euros pour 5 jours via des agences du type Jaja Tours. Voir agences recommandées (et autres partenaires) dans le groupe Facebook 'Les Français en Bolivie'.",
     "visiteGuidee": false
   },
   {
@@ -583,7 +616,7 @@
     "lieu": "Nord du Chili",
     "lieuId": "nord-chili",
     "pays": "Chili",
-    "importance": null,
+    "importance": 5,
     "duree": "3-4 jours",
     "description": "Le désert d'Atacama est un des endroits les plus arides du monde, avec des paysages lunaires, des lagunes colorées et des geysers fumants. Chaque spot touristique du désert est payant, à réserver en avance. Le désert est à une altitude comprise entre 2000m et 4200m pour certaines zones. La visite du désert se fait en plusieurs jours.\n\n**Arrivée depuis Calama.** Sur le chemin, faire un petit détour vers Valle del Arcoiris (vallée arc-en-ciel) et Yerbas Buenas. 10 euros environ les deux sites. Quelques passages de gué peu profonds.\n\n**Nord de San Pedro de Atacama.** Point d'intérêt principal : les geysers de Tatio. Arriver entre 6h et 8h pour voir les geysers (avant le lever du soleil). 15 euros l'entrée. Accès au champ de geyser, le geyser blanc et les Termas de El Tatio. Sur le chemin, possibilité de s'arrêter à Machuca, petit village traditionnel dans lequel les habitants élèvent des lamas, et dans lequel on peut manger de la viande de lama. Arrêt possible à la Quebrada Escalera (gratuit). Après le point de vue, il y a un sentier qui remonte vers des piscines chaudes gratuites. Sur la route du retour, proche de SPA, petite balade dans le canyon de Guatin et vallée des cactus.\n\n**Sud de San Pedro de Atacama.** Points d'intérêts principaux : Piedras Rojas et lagunas Miscanti et Miniques. 15 euros, à acheter la veille, et entrées papier à récupérer à Socaire une heure avant le jour J. Piedras Rojas est à 4200m d'altitude. Laguna Tuyalito (gratuit) juste après. Sur la route du retour, possibilité de s'arrêter à la lagune de Chaxa (15 euros). Plus proche de SPA, lagunas Cejar et Piedra : 15 euros avec réservation obligatoire. Permet de se baigner dans la laguna Piedra, plus salée que la mer morte.\n\n**Autour de San Pedro de Atacama.** Valle de la Luna : 15 euros, plusieurs secteurs balisés (mirador Duna Mayor, Mina Victoria, Tres Marias, Anfiteatro et mirador de Ckari).Canyon Garganta del Diablo, 5 euros. Mirador Pukara Quito. Valle de Marte. Magic Bus.\n\nLe désert d'Atacama est le meilleur endroit pour faire un tour astronomie. Choisir une nuit dégagée et avec le moins de lune possible.\n\nAprès les quelques jours de route, effectuer un lavage complet du châssis (énormément de sel).",
     "visiteGuidee": false
@@ -896,6 +929,155 @@
     "importance": 5,
     "duree": null,
     "description": "Route reliant San Martin de los Andes à San Carlos de Bariloche, avec de nombreux miradors et lacs : Lago Nahuel Huapi, Lago Espejo, Lago Correntoso, Lago Villarino, Lago Hermoso, Lago Falkner et Lago Machónico. Plusieurs belles randonnées le long de cette route : volcan Manin, Cerro Falkner (9km, 1000m D+),  Cascade Nivinco.\n\nA Villa La Angostura, s'arrêter au parc national Los Arrayanes. Sentier de 12km aller (24km aller-retour) pour aller jusqu'au Bosque de Arrayanes. Différentes options : le bateau (mais très cher 70 euros aller-retour), en marchant, ou en VTT.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Excursion",
+    "nom": "Iles Palomino",
+    "lieu": "Autour de Lima",
+    "lieuId": "lima",
+    "sousZone": "Callao",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Excursion partant de Callao (Ouest Lima) permettant de nager avec les lions de mer. Compter environ 70 euros par personne pour la demi-journée.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Musée Larco",
+    "lieu": "Autour de Lima",
+    "lieuId": "lima",
+    "sousZone": "Lima",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Meilleur musée du Pérou. Collections d'objets précolombiens et explications accessibles.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Lima",
+    "lieu": "Autour de Lima",
+    "lieuId": "lima",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Les différents points d'intérêt dans la ville de Lima sont les suivants :\n\n - Plaza de Armas : Palais du Gouvernement (relève de la garde à midi), cathédrale de Lima, mercado central.\n\n - Couvent San Francisco : monastère baroque et catacombes souterraines où reposent plus de 25000 ossements.\n\n - Casa de Aliaga : plus ancienne demeure coloniale des Amériques, habitée par la même famille depuis 1535.\n\n - Huaca Pullana (Miraflores) : vestiges d'une pyramide construite par la civilisation Wari.\n\n - Parque de Amor (Miraflores) : parc au bord du Pacifique.\n\n - ChocoMuseo (Miraflores) pour créer ses propres tablettes de chocolat.\n\n - Circuito Mágico del Agua au Parque de la Reserva, plus grand complexe de fontaines publiques au monde, spectacles tous les soirs à 19h15, 20h15 et 21h. 5 soles l'entrée.\n\nLes meilleurs quartiers le soir sont Miraflores et Barranco.\n\nPour boire un coup à Lima, *Lady Bee* fait partie des meilleurs bars au monde (13ème) dans le quartier de Barranco, *Sastreria Martinez* (33ème) juste au Nord de Miraflores.\n\nPour manger à Lima :\n\n - tester la cuisine sino-péruvienne ou Chifa (plats principaux : Arroz Chaufa (plat emblématique), Lomo Saltado, Tallarin Saltado ou Kam Lu Wantán)\n\n - Plusieurs restaurants sont classés parmi les meilleurs du monde : Maido (1er) cuisine Japon/Pérou - à réserver 1 mois à l'avance 300 euros, Kjolle (9ème) - plus de dispo 250 euros, Merito (26ème) lieu chaleureux cuisine Vénézuela/Pérou - plus de dispo 180 euros, Mayta (39ème) - plus de dispo 250 euros. Maido ou Merito à choisir.\n\nPrévoir entre 2 et 3 jours à Lima pour faire le tour.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Gastronomie",
+    "nom": "Food tour",
+    "lieu": "Autour de Sucre",
+    "lieuId": "sucre",
+    "sousZone": "Sucre",
+    "pays": "Bolivie",
+    "importance": 5,
+    "duree": null,
+    "description": "Plusieurs food tours sont conseillés sur le groupe Facebook 'Les Français en Bolivie'. Les deux sont en français. \n\nPremier : food tour with Fabio toute la journée (petit déjeuner boliviano, puis mercado, puis repas et visite de la ville l'après-midi. \n\nDeuxième : food tour avec Christian de 10h à 15h.\n\nCompter entre 30 et 40 euros selon nombre de personnes. Les numéros de téléphone sont sur le groupe Facebook (et voir pour se rajouter à un groupe déjà formé également).",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Divers",
+    "nom": "Cours de salsa",
+    "lieu": "Autour de Sucre",
+    "lieuId": "sucre",
+    "sousZone": "Sucre",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": null,
+    "description": "Cours de salsa avec Renan. 30 euros par personne les deux heures. Contact sur le groupe Facebook 'Les Français en Bolivie'. Plusieurs bars proposent également des soirées salsa et bachata avec des cours certains jours de la semaine (notamment Joy Ride Café le jeudi).",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Cours de tissage",
+    "lieu": "Autour de Sucre",
+    "lieuId": "sucre",
+    "sousZone": "Sucre",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": null,
+    "description": "Atelier tissage traditionnel avec Brigita (contact sur le groupe Facebook 'Les Français en Bolivie') ou sur GetYourGuide. Plusieurs formules selon ce que nous voulons créer : 4h pour initiation, 2x4h ou 3 jours pour bracelet.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Gastronomie",
+    "nom": "Restaurant",
+    "lieu": "Autour de Sucre",
+    "lieuId": "sucre",
+    "sousZone": "Sucre",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": null,
+    "description": "Deux restaurants gastronomiques pas chers à Sucre : Nativa et El Solar.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Trek",
+    "nom": "Cratère de Maragua",
+    "lieu": "Autour de Sucre",
+    "lieuId": "sucre",
+    "pays": "Bolivie",
+    "importance": 5,
+    "duree": "2 jours",
+    "description": "Trek de 2 jours à 40km de Sucre. Trek d'un point A à un point B. Laisser le van à Sucre et prendre un collectivo (ou trufi) en direction de Ravelo, avec arrêt à la chapelle de Chataquila.\n\nJour 1 : Chataquila - Maragua : 15km.\n\nJour 2 : Maragua - Potolo ou Quila Quila : 14km.\n\nLe trek se fait en autonomie, avec tente et nourriture sur 2 jours. Télécharger la carte offline. Quelques magasins à Maragua mais pas grand chose. Partir avec 3L d'eau pour la première journée et une gourde filtrante. Il faut payer à deux moments les communautés locales 20 bs par personne : à la fin du chemin inca et pour l'accès au cratère de Maragua.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Ville de Sucre",
+    "lieu": "Autour de Sucre",
+    "lieuId": "sucre",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": null,
+    "description": "Visite de la ville de Sucre. Ville coloniale avec beaucoup d'histoire. 2 musées : la casa de la Libertad (5 euros), où a été signée la déclaration d'indépendance du pays, et le Museo de Arte Indígena ASUR(4 euros), qui expose l'art textile. \n\nSucre est également la capitale du chocolat (Para ti ou Taboadas).\n\nPour dormir, chez Javier est souvent conseillé sur le groupe Facebook 'Les Français en Bolivie' (à vérifier selon disponibilité d'un parking).\n\nAu Sud de Sucre, à environ 20 min, un joli chateau : Castillo de la Glorieta.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Excursion",
+    "nom": "Mines du Cerro Rico",
+    "lieu": "Autour de Sucre",
+    "lieuId": "sucre",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": null,
+    "description": "Visite des mines du Cerro Rico. Mines exploitées en continu depuis 1545. Conditions de travail très difficiles. Pour le visite, soit passer par une agence, soit avec David, dont le contact est sur le groupe 'Les Français en Bolivie'. Compter environ 150 bs/personne.\n\nPossibilité de visiter la Casa de la Monedad à Potosi également dans lequel l'argent du Cerro Rico était fondu pour frapper les pièces de monnaie espagnoles.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Puerta del Diablo",
+    "lieu": "Tupiza",
+    "lieuId": "tupiza",
+    "pays": "Bolivie",
+    "importance": 5,
+    "duree": null,
+    "description": "Randonnée en boucle de 13km qui part de Tupiza. Télécharger la trace AllTrails.\n\nPeut s'enchainer avec la randonnée El Duende Canyon de 3km dans la même journée.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Cerro de la Cruz",
+    "lieu": "Tupiza",
+    "lieuId": "tupiza",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": null,
+    "description": "Petite balade très courte (1.5km) qui permet de monter à un point de vue donnant sur la ville.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "El Sillar",
+    "lieu": "Tupiza",
+    "lieuId": "tupiza",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": null,
+    "description": "Très beau paysage à 15km au Nord-Ouest de Tupiza. Route qui monte de 3000 à 4000m. Pas de randonnées officielles mais après le belvédère, possibilité d'aller se balader au milieu des formations rocheuses.",
     "visiteGuidee": false
   }
 ]

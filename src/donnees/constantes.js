@@ -109,7 +109,7 @@ export const ICONES_ZONES = {
   // Bolivie
   'la-paz':          '/images/zones/la-paz.png',
   'uyuni':           '/images/zones/uyuni.png',
-  'cochabamba':      '/images/zones/cochabamba.png',
+  'rurrenabaque':      '/images/zones/cochabamba.png',
  
   // Equateur
   'quito':           '/images/zones/quito.png',

@@ -1186,5 +1186,223 @@
         "contenu": "• Malgré sa carapace, il n'est pas imperméable à tout : les griffes puissantes d'un puma peuvent forcer la carapace, et les rapaces l'attaquent au ventre non blindé en le retournant.\n• Il est chassé localement pour sa chair, considérée comme un met traditionnel par certaines communautés de Patagonie. La pression de chasse, combinée à la fragmentation de l'habitat, a fragilisé certaines populations.\n• Son nom 'pichi' vient du mapudungun, la langue des Mapuches — il signifie simplement 'petit'. Une modestie nomenclaturale qui tranche avec la singularité de l'animal."
       }
     ]
+  },
+  {
+    "numero": 34,
+    "nom": "Crabe de lave",
+    "emoji": "🦀",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": ["Galápagos"],
+    "reconnaitre": "Crabe trapu à carapace ronde et plate de 8 à 10 cm. Les adultes sont rouge et orange vif, parfois tachés de bleu et jaune — un des animaux les plus colorés des Galápagos. Les jeunes sont entièrement noirs, quasi invisibles sur la lave noire. Cinq paires de pattes dont deux pinces symétriques petites et acérées. Se déplace latéralement à une vitesse surprenante et peut courir dans les quatre directions — avant, arrière, gauche, droite — ce qui le rend très difficile à attraper. Souvent vu en groupes denses sur les rochers en bord de mer.",
+    "anecdoteCourte": "Les jeunes crabes de lave sont entièrement noirs — camouflés sur la lave — et ne développent leurs couleurs rouge et orange qu'en grandissant, quand leur carapace durcie les protège suffisamment pour qu'ils puissent se permettre d'être visibles.",
+    "sections": [
+      {
+        "titre": "Le nettoyeur des rivages",
+        "contenu": "Le crabe de lave joue un rôle écologique discret mais essentiel sur les rivages des Galápagos : il est l'un des principaux nettoyeurs de la zone intertidale. Son régime est résolument omnivore et opportuniste — algues vertes et rouges en premier lieu, mais aussi petits invertébrés, balanes (crustacés), poissons morts, œufs d'oiseaux, excréments d'oiseaux marins, et même des jeunes tortues qui tentent de rejoindre la mer après leur éclosion.\n\nCette alimentation variée fait de lui un maillon important de la chaîne alimentaire côtière : il recycle la matière organique, contrôle les populations d'algues et de balanes sur les rochers, et constitue lui-même une proie pour les hérons des laves, les pieuvres, et les murènes. Sa présence en grande densité sur tous les rivages rocheux en fait l'un des organismes côtiers les plus abondants de l'archipel."
+      },
+      {
+        "titre": "Un acrobate des rochers",
+        "contenu": "Le crabe de lave est un athlète. Il peut courir dans les quatre directions sans changer d'orientation — avant, arrière, gauche, droite — avec une vitesse et une agilité qui déroutent les prédateurs et les curieux. Ses pattes se terminent en pointes incurvées qui lui permettent de s'agripper aux surfaces verticales et de grimper des falaises à la quasi-verticale. Il résiste aux vagues en s'aplatissant contre le rocher et en s'accrochant avec ses griffes — il vit précisément dans la zone de déferlement, là où la plupart des autres animaux ne peuvent pas se maintenir.\n\nCette agilité lui a valu son surnom anglais 'Sally Lightfoot' — qui viendrait, selon la légende, d'une danseuse antillaise du XXe siècle réputée pour sa légèreté. Son nom scientifique, *Grapsus grapsus*, vient du grec 'crabe' répété deux fois — les taxonomistes n'avaient pas toujours de l'inspiration."
+      },
+      {
+        "titre": "Du noir au rouge — une métamorphose en couleurs",
+        "contenu": "La transformation chromatique du crabe de lave est l'une des plus spectaculaires du monde animal côtier. À l'éclosion, les larves sont microscopiques et planctoniques — elles dérivent en mer pendant plusieurs semaines avant de se métamorphoser en jeunes crabes et de rejoindre les rochers. Ces juvéniles sont entièrement noirs ou brun foncé, presque invisibles sur la lave volcanique noire. Ce camouflage est une nécessité : leur carapace encore molle les rend vulnérables aux prédateurs, et l'invisibilité est leur seule protection.\n\nEn grandissant, la carapace durcit progressivement. Avec cette protection acquise, les crabes développent peu à peu leurs couleurs — d'abord des taches rouges, puis le rouge-orange vif caractéristique des adultes, parfois rehaussé de bleu et de jaune. Ce basculement du camouflage à l'exposition est contre-intuitif : plus l'animal est vulnérable, plus il est discret ; plus il est protégé, plus il est voyant. Les couleurs vives des adultes pourraient jouer un rôle dans la reconnaissance entre individus et dans la sélection sexuelle."
+      },
+      {
+        "titre": "Reproduction & vie sociale",
+        "contenu": "Le crabe de lave se reproduit toute l'année aux Galápagos, sans saison définie. La compétition entre mâles pour l'accès aux femelles donne lieu à un comportement remarquable : deux mâles rivaux se font face, s'agrippent les pinces, et effectuent une danse latérale — pas à gauche, pas à droite — en se jaugeant mutuellement. Si aucun ne cède, le combat s'intensifie et peut aller jusqu'à l'arrachage des pinces. Les pinces perdues repoussent lors de la mue suivante, mais un crabe manchot est temporairement désavantagé.\n\nAprès l'accouplement, la femelle stocke le sperme et l'utilise pour féconder plusieurs pontes successives. Elle porte ses œufs sous l'abdomen jusqu'à leur éclosion, qui a souvent lieu lors des pleines lunes — quand les marées hautes permettent aux larves d'être emportées plus loin en mer. Les larves planctoniques dérivent plusieurs semaines avant de revenir s'installer sur les rochers."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le crabe de lave entretient une relation de nettoyage avec les iguanes marins : il monte sur leur dos pour manger les tiques et parasites. L'iguane écarte les pattes et lève le corps pour faciliter l'accès — une coopération similaire à celle qu'il entretient avec les pinsons de Darwin.\n• Il est l'un des rares crustacés capables de courir dans toutes les directions sans pivoter — une adaptation unique liée à la symétrie de ses pattes et à la forme plate de sa carapace.\n• Sa carapace mue régulièrement — le crabe abandonne son ancienne enveloppe et reste vulnérable pendant quelques heures, le temps que la nouvelle durcisse. Ces carapaces vides sont fréquemment trouvées sur les rochers.\n• Les œufs de crabes de lave font partie du régime alimentaire des fous à pieds bleus et des hérons des laves."
+      }
+    ]
+  },
+  {
+    "numero": 35,
+    "nom": "Colibri géant",
+    "emoji": "🐦",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Vallée du Colca (Pérou)",
+      "Machu Picchu (Pérou)",
+      "Bolivie (La Paz et environs)",
+      "Andes chiliennes",
+      "Équateur andin"
+    ],
+    "reconnaitre": "Le plus grand colibri du monde — 22 à 23 cm de long, soit la taille d'un martinet ou d'une hirondelle. Rien à voir avec les petits colibris verts et brillants qu'on imagine : son plumage est terne, brun-verdâtre dessus, beige rosé dessous, avec une tache blanche bien visible sur le croupion. Bec long, noir, légèrement recourbé vers le bas. En vol, ses battements d'ailes sont lents et amples pour un colibri — 8 à 10 battements par seconde contre 50 chez les petites espèces — ce qui lui donne une allure de papillon ou de martinet plutôt que de colibri. Se pose souvent sur des buissons ou des fils électriques, ce qu'un colibri normal ne fait presque jamais.",
+    "anecdoteCourte": "C'est le seul colibri qui se pose régulièrement pour boire le nectar des fleurs, posé sur la tige comme un oiseau ordinaire. Les autres colibris planent en vol stationnaire. Lui est trop lourd — il a trouvé un raccourci.",
+    "sections": [
+      {
+        "titre": "Un colibri qui ne ressemble pas à un colibri",
+        "contenu": "Le colibri géant (Patagona gigas) est la seule espèce de son genre — une évolution isolée dans la famille des Trochilidae qui a poussé la taille à l'extrême. À 22 cm et 18 à 20 grammes, il est environ huit fois plus lourd qu'un colibri moyen. Cette différence de masse change tout à son comportement.\n\nLà où un petit colibri bat des ailes 50 fois par seconde pour maintenir un vol stationnaire parfait, le colibri géant n'en fait que 8 à 10. Son vol est lent, presque lourd, avec de grandes ailes qui s'agitent en mouvements amples. Il plane de façon irrégulière et saccadée, change de direction avec moins d'agilité. Et surtout, quand une fleur est accessible depuis une tige ou un buisson, il se pose simplement dessus pour boire — un comportement quasi inexistant chez les autres colibris qui sont des maîtres du vol stationnaire.\n\nSon plumage terne le distingue aussi radicalement de ses cousins aux gorges irisées. Il a sacrifié le spectacle visuel à la taille — et la taille lui donne un avantage décisif : il peut chasser les autres colibris loin des meilleures fleurs, simplement en se montrant agressif."
+      },
+      {
+        "titre": "Un spécialiste des Andes sèches",
+        "contenu": "Contrairement à la plupart des colibris qui préfèrent les forêts humides et les jardins fleuris, le colibri géant est un oiseau des milieux semi-arides d'altitude — entre 2 000 et 4 600 m sur les versants andins. Il fréquente les broussailles à cactus et agaves, les zones à Puya (ces broméliaces géantes en forme de chandelier), les bois clairsemés de Polylepis (arbres nains qui poussent au-dessus de la limite forestière dans les Andes) et les jardins andins.\n\nSa présence suit de près les périodes de floraison de ses plantes favorites. Au Pérou méridional, il apparaît en début de saison des pluies quand les Puyas fleurissent. En Bolivie autour de La Paz, les Nicotiana glauca fleurissent presque toute l'année, ce qui lui assure une présence quasi permanente. Il migre localement en altitude selon les saisons — montant l'été jusqu'à 4 600 m, redescendant l'hiver vers les zones plus basses."
+      },
+      {
+        "titre": "Physiologie extrême — le paradoxe du colibri",
+        "contenu": "Tous les colibris partagent une contrainte physiologique exceptionnelle : leur métabolisme est si rapide qu'ils frôlent en permanence l'hypoglycémie. Le cœur d'un petit colibri bat jusqu'à 1 200 fois par minute en vol actif. Ils consomment leur poids en nectar chaque jour et doivent se nourrir toutes les dix à quinze minutes pendant les heures actives. La nuit, pour survivre sans manger, ils entrent en torpeur — leur température corporelle chute de 40°C à 18°C et leur rythme cardiaque ralentit jusqu'à 50 battements par minute, soit 24 fois moins qu'en vol.\n\nLe colibri géant vit la même contrainte en version amplifiée. Sa masse plus importante lui donne un léger avantage — une plus grande inertie thermique — mais ses besoins caloriques totaux restent considérables. C'est pour cette raison qu'il est très sensible aux voleurs de nectar : d'autres oiseaux, insectes ou même chauves-souris qui pillent les fleurs avant lui le contraignent à étendre son territoire de chasse, parfois au-delà de ses capacités métaboliques."
+      },
+      {
+        "titre": "Reproduction — une affaire de femelle",
+        "contenu": "Le mâle ne cherche pas la femelle — il se met en scène et attend. Il défend un territoire autour des meilleures fleurs, depuis lequel il chante et effectue des vols de démonstration : plongées répétées, vol stationnaire face à la femelle, battements d'ailes accélérés, tout en émettant des cris brefs et secs. La femelle observe, évalue, choisit. Une fois l'accouplement accompli, le mâle repart défendre son territoire et ne verra jamais sa progéniture — il peut s'accoupler avec plusieurs femelles dans la même saison. Toute la suite est une affaire exclusivement féminine.\n\nLa femelle construit seule un nid en coupe sur une branche ou dans un buisson. Les matériaux de base sont de la mousse, des lichens et des fibres végétales — mais le vrai liant, l'ingrédient secret, est la soie d'araignée. Pour la collecter, elle frôle les toiles en vol en collant les fils sur son bec et sa poitrine, puis les ramène au nid où elle les presse et étire sur les autres matériaux. La soie remplit trois fonctions : elle colle les matériaux entre eux, ancre le nid à la branche, et — surtout — permet au nid de s'agrandir élastiquement à mesure que les poussins grossissent. Un nid sans soie d'araignée s'effondrerait. La collecte comporte un risque réel : chaque année, des colibris se font capturer dans les toiles pendant l'opération et finissent mangés par l'araignée.\n\nElle pond deux œufs, les couve seule pendant 15 à 19 jours, puis nourrit les poussins par régurgitation — nectar et insectes mélangés — pendant 3 à 4 semaines. Les jeunes quittent le nid capables de voler, mais la mère continue de les alimenter quelques jours encore. Un seul cycle de reproduction par saison est habituel pour le colibri géant, compte tenu de l'investissement maternel."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le colibri géant est le seul oiseau du monde capable de voler en marche arrière de façon soutenue — une capacité partagée avec tous les colibris mais portée ici à une échelle visible à l'œil nu grâce à sa taille.\n• Son croupion blanc est souvent le premier signe qui permet de l'identifier en vol, même de loin — une tache claire très visible sur fond brun.\n• En Équateur et au nord du Pérou, il se nourrit principalement des fleurs d'agaves géants. Dans les Andes méridionales, il est inféodé aux Puyas — ces broméliaces en chandelier qui ne fleurissent qu'une seule fois dans leur vie après des décennies de croissance, puis meurent. La floraison d'une Puya attire immanquablement plusieurs colibris géants.\n• Son nom scientifique, *Patagona gigas*, associe 'Patagonie' (où les premiers spécimens ont été collectés) et 'géant' — une étymologie qui résume parfaitement l'oiseau."
+      }
+    ]
+  },
+  {
+    "numero": 36,
+    "nom": "Coq de roche andin",
+    "emoji": "🐦",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Mindo (Équateur)",
+      "Forêt nuageuse de Mashpi (Équateur)",
+      "Versants orientaux des Andes péruviennes",
+      "Machu Picchu (Pérou)"
+    ],
+    "reconnaitre": "Oiseau de 32 cm, impossible à rater pour le mâle : plumage entièrement orange-rouge vif ou cramoisi, ailes noires avec de larges taches argentées sur les secondaires, pattes orange. La caractéristique la plus frappante est la crête — une disque de plumes semi-circulaire qui recouvre presque entièrement le bec, comme un casque de gladiateur. La femelle est radicalement différente : brune-châtain terne, crête plus petite, quasi invisible dans le sous-bois. Souvent vu posé immobile sur une branche basse dans la pénombre de la forêt, comme une sculpture orange sur fond vert.",
+    "anecdoteCourte": "Sur le lek, le mâle peut passer jusqu'à six heures par jour à parader — immobile comme une statue, exploitant les rais de lumière qui filtrent à travers la canopée pour faire flamboyer ses plumes. La femelle arrive, inspecte, repart. Le mâle recommence demain.",
+    "sections": [
+      {
+        "titre": "L'oiseau le plus flamboyant des Andes",
+        "contenu": "Le coq de roche andin est l'oiseau national du Pérou — et probablement l'oiseau le plus spectaculaire de toute la forêt andine. Son nom en quechua, 'tunqui', témoigne de son ancrage profond dans la culture péruvienne. Il vit dans les forêts nuageuses humides entre 500 et 2 400 mètres d'altitude, sur les versants des Andes de la Colombie à la Bolivie — avec une forte concentration en Équateur et au Pérou.\n\nIl n'est pas rare, mais discret : il se perche souvent immobile dans le sous-bois dense, et sa femelle brune est parfaitement camouflée. Ce qu'on cherche, c'est le mâle — une tache orange absolument incongrue dans la verdure de la forêt nuageuse, visible de loin quand un rayon de lumière tombe dessus."
+      },
+      {
+        "titre": "Le lek — un théâtre collectif à l'aube",
+        "contenu": "Le comportement de reproduction du coq de roche est l'un des plus fascinants du monde animal : il fonctionne en lek. Un lek est une arène collective où les mâles se rassemblent — parfois une quinzaine ou plus — sur un même site traditionnel, utilisé année après année au même endroit. Chaque mâle y défend une petite place individuelle d'environ un mètre carré.\n\nLe spectacle commence à l'aube, quand les premiers rais de lumière filtrent dans la forêt. Chaque mâle adopte une posture figée sur sa branche ou au sol, crête gonflée, plumes étalées au maximum, tirant parti de la lumière rasante pour faire flamboyer son plumage. Il émet par intermittence des cris gutturaux et métalliques — décrits comme semblables aux grognements d'un cochon — et effectue des sauts, des battements d'ailes et des claquements de bec quand une femelle s'approche.\n\nLa femelle arrive, silencieuse et brune, et déambule parmi les mâles en parade. Elle inspecte, compare, et choisit. Pour signaler son consentement, elle s'installe derrière le mâle choisi et pince avec son bec les longues franges de ses plumes. L'accouplement a lieu immédiatement après, hors du lek. Puis la femelle repart seule, et le mâle reprend sa parade pour la prochaine visiteuse."
+      },
+      {
+        "titre": "La femelle fait tout — le mâle ne fait rien",
+        "contenu": "Après l'accouplement, le mâle disparaît complètement du processus de reproduction. La femelle assume seule l'intégralité des responsabilités parentales — sans exception.\n\nElle construit le nid seule : une construction en forme de balcon ou de coupe, faite de boue, de fibres végétales et de racines, cimentée à une paroi rocheuse verticale, sous un auvent, à l'entrée d'une grotte ou dans une crevasse. Elle la fixe grâce à sa salive, qui colle les matériaux au rocher. Le site est toujours choisi selon les mêmes critères : proximité d'un cours d'eau, demi-ombre, humidité élevée, présence de fissures dans la roche.\n\nElle pond 1 à 2 œufs, les couve seule pendant 27 à 28 jours, puis nourrit les poussins seule. Pendant la phase d'élevage, elle leur apporte des fruits mais aussi des lézards et des grenouilles — qu'elle fracasse contre une branche et macère dans son bec avant de les donner tête première aux petits. Les jeunes restent au nid plusieurs semaines. Les jeunes mâles, d'abord bruns comme leur mère, commencent à développer leur plumage orange progressivement — ils n'atteignent leur couleur définitive qu'à 3 ou 4 ans."
+      },
+      {
+        "titre": "Un disperseur de graines irremplaçable",
+        "contenu": "Le coq de roche andin se nourrit principalement de fruits — des dizaines d'espèces végétales différentes selon les saisons. Il avale les fruits entiers et recrache les graines intactes, souvent loin de l'arbre parent. Ce rôle de disperseur est fondamental dans la régénération de la forêt nuageuse : certaines espèces végétales dépendent presque exclusivement de lui pour disséminer leurs graines dans des zones où elles ne pourraient pas arriver autrement.\n\nSa présence dans une forêt est donc un signal de bonne santé écologique — là où il vit, la forêt est suffisamment dense, humide et ancienne pour le nourrir et lui fournir des parois rocheuses pour nicher. Sa disparition entraînerait une modification progressive de la composition végétale des forêts qu'il habite."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• C'est l'oiseau national du Pérou depuis 1941 — il figure dans de nombreuses représentations de l'art textile andin précolombien.\n• Les leks sont des sites traditionnels utilisés pendant des décennies, parfois des générations — les ornithologues qui reviennent sur les mêmes spots après 20 ans y trouvent encore des mâles en parade.\n• Les jeunes mâles apprennent à parader par observation, pendant plusieurs années avant d'être assez compétitifs pour attirer une femelle. Ils fréquentent le lek comme spectateurs avant d'y avoir leur propre place.\n• À Mindo, plusieurs lodges et réserves ornithologiques proposent des sorties guidées à l'aube vers des leks connus — c'est l'une des meilleures expériences ornithologiques accessibles aux non-spécialistes en Amérique du Sud."
+      }
+    ]
+  },
+  {
+    "numero": 37,
+    "nom": "Toucan montagnard",
+    "emoji": "🦜",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Mindo (Équateur)",
+      "Réserve de Bellavista (Équateur)",
+      "Forêt nuageuse de Mashpi (Équateur)",
+      "Versants ouest des Andes équatoriennes"
+    ],
+    "reconnaitre": "Oiseau trapu d'environ 46 cm, spectaculairement coloré. Capuchon et nuque noirs contrastant avec un manteau brun. Joues, gorge et poitrine bleu vif. Croupion jaune citron éclatant visible en vol. La marque distinctive : le bec bicolore, rouge à la base et noir à la pointe, avec une plaque rectangulaire jaune surélevée sur la mandibule supérieure — comme une étiquette collée dessus. Iris, zone oculaire et pattes bleu sombre. Se déplace par petits groupes de 2 à 6 individus dans la canopée, souvent bruyants et agités.",
+    "anecdoteCourte": "Son bec représente un tiers de sa taille totale mais ne pèse presque rien — il est creux, fait d'une structure en nid d'abeille d'os et de kératine. Ce grand outil léger lui permet d'atteindre des fruits suspendus à l'extrémité de branches trop fines pour supporter son poids.",
+    "sections": [
+      {
+        "titre": "Un toucan de montagne — pas celui qu'on imagine",
+        "contenu": "Quand on pense toucan, on imagine l'immense bec jaune-orange du toucan toco des plaines tropicales. Le toucan montagnard est une autre famille — plus petit, plus coloré, et adapté à la forêt nuageuse d'altitude plutôt qu'à la forêt tropicale de basse altitude.\n\nIl appartient au genre Andigena — les toucans des Andes — qui regroupe quatre espèces toutes confinées aux versants montagneux andins. Le toucan montagnard à bec plat est l'espèce phare de l'Équateur occidental, présente quasi exclusivement entre le sud-ouest de la Colombie et l'ouest de l'Équateur. Mindo et ses réserves environnantes sont au cœur de son aire de répartition. Il vit entre 1 400 et 2 500 mètres, dans les forêts humides couverts de mousses et broméliacées caractéristiques de la forêt nuageuse."
+      },
+      {
+        "titre": "Le bec — un outil multifonction en kit léger",
+        "contenu": "Le bec du toucan est l'une des structures les plus mal comprises du monde animal. Sa taille impressionnante — jusqu'à un tiers de la longueur totale de l'oiseau — laisse croire qu'il est lourd et encombrant. C'est l'inverse : il est creux, constitué d'une structure interne en nid d'abeille de trabécules osseuses recouvert d'une enveloppe de kératine. L'ensemble est léger, rigide et solide à la fois.\n\nSes fonctions sont multiples. Il permet d'atteindre des fruits accrochés à l'extrémité de branches trop fines pour supporter le poids de l'oiseau. Il sert d'outil pour peler les fruits, casser les coques et saisir les proies. Il joue un rôle dans la régulation thermique — des études récentes ont montré que le toucan fait circuler le sang dans son bec pour dissiper la chaleur corporelle, comme un radiateur. Et il est clairement impliqué dans la communication visuelle et la sélection sexuelle — les deux sexes ont des becs de taille légèrement différente, les femelles portant un bec un peu plus court."
+      },
+      {
+        "titre": "Vie sociale & comportement",
+        "contenu": "Le toucan montagnard n'est pas très grégaire — les groupes dépassent rarement six individus, souvent deux à quatre. Ces petits groupes sont en mouvement constant dans la canopée, passant d'un arbre fruitier à l'autre avec un vol direct et légèrement ondulé, très reconnaissable. Leurs cris discordants et sonores s'entendent de loin avant de les voir — une série de croassements et de gloussements rauques qui n'ont rien de mélodieux mais portent efficacement dans la forêt dense.\n\nIls sont très territoriaux et défendent énergiquement leur zone de nourrissage contre les intrus de la même espèce — une agressivité probablement liée à la densité relative des ressources fruitières dans la forêt nuageuse. Ils sont actifs du lever du jour jusqu'en début d'après-midi, se reposant à l'ombre pendant les heures les plus chaudes."
+      },
+      {
+        "titre": "Reproduction & nid dans les arbres",
+        "contenu": "Le toucan montagnard niche dans des cavités naturelles d'arbres — creux existants, anciens trous de pics — qu'il agrandit parfois mais ne creuse jamais lui-même. Les deux parents participent à la couvaison et à l'élevage, alternant les séances d'incubation. La femelle pond 2 à 4 œufs blancs.\n\nLes poussins naissent nus, aveugles et sans bec fonctionnel. Leurs talons sont pourvus de coussinets de peau épaisse qui les protègent du fond rugueux de la cavité — une adaptation propre aux toucans. Le bec ne prend sa forme définitive que progressivement, après plusieurs semaines. Les parents nourrissent les jeunes en régurgitant des fruits pré-digérés, puis en leur apportant des fruits entiers et occasionnellement des insectes pour l'apport en protéines.\n\nLes jeunes quittent la cavité au bout de 6 à 8 semaines et restent avec les adultes encore quelques semaines avant de devenir pleinement autonomes."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le toucan montagnard est l'un des principaux disperseurs de graines de la forêt nuageuse équatorienne — il avale des fruits entiers et rejette les graines intactes à distance, souvent dans des zones dégagées où elles ont plus de chances de germer.\n• Son bec lui sert aussi de pince pour retourner les feuilles et les écorces à la recherche d'insectes, d'araignées et de petits lézards — son régime est plus varié qu'il n'y paraît.\n• La plaque rectangulaire jaune surélevée sur sa mandibule supérieure — qui lui vaut le nom de 'bec plat' — est une structure kératineuse unique à cette espèce parmi les toucans des Andes. Son rôle exact n'est pas entièrement élucidé.\n• À Mindo, on le voit souvent traverser les vallées d'un versant à l'autre en vol direct, son croupion jaune citron brillant dans la lumière — un flash de couleur qui permet de l'identifier même de loin et de dos."
+      }
+    ]
+  },
+  {
+    "numero": 38,
+    "nom": "Capybara",
+    "emoji": "🦫",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Pampa du Yacuma (Rurrenabaque, Bolivie)",
+      "Berges de l'Amazonie bolivienne"
+    ],
+    "reconnaitre": "Impossible à confondre — c'est le plus grand rongeur du monde. Corps massif et trapu, 1 à 1,3 m de long, 35 à 66 kg. Silhouette de cochon d'Inde géant : tête large, museau carré et émoussé, pas de queue visible. Pelage brun-rougeâtre court et grossier. Pattes palmées. Toujours près de l'eau. Souvent vu en groupe sur les berges, immobiles au soleil le matin, à moitié dans l'eau l'après-midi. Les yeux, les oreilles et les narines sont positionnés très haut sur la tête — tout en haut, comme un hippopotame — pour nager en laissant juste la surface visible.",
+    "anecdoteCourte": "Le capybara est l'animal le plus paisible de l'Amazonie — et l'internet l'a bien compris. Il est devenu une icône du 'calme absolu' parce qu'il tolère que des singes, des oiseaux, des tortues et parfois des caïmans se posent sur lui ou s'installent à ses côtés sans jamais réagir. Ce n'est pas de la naïveté : c'est une stratégie de coexistence parfaitement calculée.",
+    "sections": [
+      {
+        "titre": "Un rongeur de la taille d'un cochon",
+        "contenu": "Le capybara est le plus grand rongeur vivant — deux fois plus lourd que le castor, dix fois plus lourd qu'un rat musqué. Malgré sa taille, il appartient bien à la même famille que le cochon d'Inde et le mara de Patagonie. Cette famille des Caviidae a produit en Amérique du Sud une gamme de rongeurs herbivores adaptés à des écosystèmes très différents, du froid patagonnien aux zones humides tropicales.\n\nIl est semi-aquatique : ses pattes palmées lui permettent de nager efficacement, il peut rester jusqu'à 5 minutes en apnée complète pour échapper aux prédateurs, et ses yeux, oreilles et narines positionnés au sommet de la tête lui permettent de nager en laissant tout le reste du corps immergé. Il boit et mange dans l'eau, s'y réfugie en cas de danger, et y régule sa température aux heures les plus chaudes."
+      },
+      {
+        "titre": "Une vie sociale très organisée",
+        "contenu": "Le capybara est un animal grégaire qui vit en groupes structurés. Un groupe typique comprend un mâle dominant, plusieurs femelles adultes, leurs petits et quelques mâles subordonnés — de 10 à 20 individus en moyenne, parfois jusqu'à 100 en saison sèche quand les points d'eau se raréfient et que plusieurs groupes fusionnent autour des dernières berges disponibles.\n\nLa hiérarchie est claire mais peu conflictuelle. Le mâle dominant se reconnaît à sa glande nasale — une bosse kératineuse sur le museau qui sécrète un marqueur olfactif utilisé pour marquer les berges et les buissons du territoire. Les mâles subordonnés ont une glande plus petite. Les conflits entre groupes existent, mais les affrontements physiques sont rares — le capybara préfère les signaux sonores : sifflements, grognements, couinements et aboiements d'alarme courts et secs quand un prédateur est détecté.\n\nUne particularité notable : toutes les femelles du groupe participent à l'allaitement des petits de toutes les mères — une forme de maternité collective qui améliore significativement la survie des juvéniles."
+      },
+      {
+        "titre": "L'animal le plus tolérant de l'Amazonie",
+        "contenu": "Le capybara est connu pour une tolérance exceptionnelle envers les autres espèces — une caractéristique si marquée qu'elle lui a valu une notoriété mondiale sur internet comme symbole de sérénité absolue. Dans la pampa bolivienne, il est courant d'observer des oiseaux perchés sur son dos pour manger les parasites de son pelage, des tortues installées à ses côtés, des singes grimpant sur lui, et même des caïmans se reposant à quelques centimètres sans que le capybara ne manifeste la moindre réaction.\n\nCette tolérance n'est pas de la naïveté — c'est une stratégie évolutive. Le capybara n'a aucun moyen de défense actif contre les grands prédateurs (jaguar, anaconda, caïman, puma, loutre géante). Sa seule défense est la fuite vers l'eau. Dans ce contexte, dépenser de l'énergie à chasser les animaux inoffensifs qui l'utilisent comme support n'aurait aucun sens. Il a optimisé sa réponse au stress : ne réagir qu'à ce qui représente une vraie menace."
+      },
+      {
+        "titre": "Reproduction & vie des petits",
+        "contenu": "Le capybara se reproduit toute l'année, avec un pic en saison sèche quand les groupes sont plus concentrés. La femelle atteint sa maturité sexuelle à 18 mois. La gestation dure environ 150 jours — longue pour un rongeur — et donne naissance à une portée de 2 à 8 petits. Contrairement à la plupart des rongeurs, les petits naissent très développés : couverts de poils, yeux ouverts, capables de marcher et de courir en quelques heures. Ils commencent à brouter de l'herbe dès la première semaine tout en continuant à téter.\n\nLe groupe entier s'occupe des petits — les femelles allaitent indifféremment leurs propres petits et ceux des autres mères. Ce système d'allaitement collectif réduit la charge de chaque femelle individuelle et augmente les chances de survie des juvéniles. Les petits se déplacent en groupe compact et restent toujours proches d'un adulte pour profiter de sa vigilance."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Comme les lapins, le capybara pratique la cæcotrophie : il réingère une partie de ses propres excréments pour récupérer les nutriments produits par la fermentation bactérienne dans son gros intestin. C'est dégoûtant, mais très efficace pour digérer la cellulose des graminées.\n• Il est l'un des rares rongeurs à avoir des défenses rapprochées d'un animal de basse-cour : au Brésil et au Venezuela, il est élevé en ranch pour sa viande, considérée comme un mets traditionnel. L'Église catholique l'a classifié comme 'poisson' au XVIe siècle pour permettre sa consommation pendant le Carême.\n• Ses dents continuent de pousser toute sa vie — comme chez tous les rongeurs — et s'usent par le broyage constant des graminées et végétaux aquatiques.\n• En Bolivie autour de Rurrenabaque, les tours en bateau sur la pampa du Yacuma permettent souvent de s'approcher à quelques mètres de groupes entiers en train de paître sur les berges — c'est l'une des observations les plus faciles et les plus garanties de tout le voyage."
+      }
+    ]
+  },
+  {
+    "numero": 39,
+    "nom": "Caïmans de l'Amazonie",
+    "emoji": "🐊",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Pampa du Yacuma (Rurrenabaque, Bolivie)",
+      "Berges et lagunes de l'Amazonie bolivienne"
+    ],
+    "reconnaitre": "Deux espèces à connaître.\n\nCaïman à lunettes — le plus commun, 1,2 à 2,5 m. Vert olive foncé, museau court, queue rayée de bandes verticales sombres. Sa marque distinctive : une crête osseuse entre les yeux qui ressemble à une monture de lunettes. Souvent vu en groupe sur les berges ou flottant immobile, seuls les yeux et les narines hors de l'eau.\n\nCaïman noir — beaucoup plus grand (3 à 5 m couramment, record à 7,7 m), peau noire écailleuse, arête osseuse au-dessus des yeux rouges. Le plus grand prédateur du bassin amazonien. Plus solitaire, plus nocturne, plus discret. La nuit, ses yeux reflètent la lumière d'une torche en rouge.",
+    "anecdoteCourte": "La mère caïman entend ses petits gratter contre leur coquille depuis l'intérieur du nid — et elle vient les déterrer. Elle les transporte ensuite un par un dans sa gueule jusqu'à l'eau. La même gueule qui peut broyer un capybara devient le moyen de transport le plus doux du monde.",
+    "sections": [
+      {
+        "titre": "Deux espèces, deux gabarits, une même niche",
+        "contenu": "Le caïman à lunettes est le crocodilien le plus abondant du monde — plusieurs millions d'individus répartis de l'Amérique centrale au bassin amazonien. C'est lui qu'on voit partout à Rurrenabaque, en groupes parfois denses sur les berges de la pampa. Sa taille modeste pour un crocodilien — rarement plus de 2,5 m — et son abondance en font une proie potentielle pour le caïman noir et l'anaconda.\n\nLe caïman noir est une autre histoire. C'est le plus grand prédateur du bassin amazonien — plus grand que le jaguar, plus grand que l'anaconda en masse — et l'un des plus grands reptiles du monde. Sa peau noire lui sert doublement : camouflage nocturne dans les eaux sombres de l'Amazonie, et thermorégulation — la couleur noire absorbe la chaleur solaire plus efficacement. Chassé à quasi-extinction au XXe siècle pour sa peau (réduction de 99 % de la population en un siècle), il est en lente récupération sous protection."
+      },
+      {
+        "titre": "Un reptile entièrement gouverné par la température",
+        "contenu": "Comme tous les reptiles, le caïman est ectotherme — il ne produit pas sa propre chaleur et doit gérer sa température corporelle par le comportement. Sa journée est entièrement organisée autour de cela.\n\nLe matin, il sort de l'eau et s'étale sur la berge, gueule ouverte, pour absorber la chaleur solaire et monter en température. En milieu de journée, quand la berge devient trop chaude, il retourne dans l'eau dont la température est plus stable. En fin d'après-midi, nouvelle session de bain de soleil. La nuit, il chasse — la fraîcheur nocturne est compensée par le fait que ses proies sont alors moins vigilantes.\n\nCette dépendance à la chaleur externe détermine aussi sa vitesse de digestion, son niveau d'activité et son agressivité. Un caïman froid est léthargique et peu dangereux. Un caïman bien chaud après plusieurs heures de soleil est rapide, alerte et peut être agressif si on l'approche trop."
+      },
+      {
+        "titre": "Un chasseur à l'affût — et à la surprise",
+        "contenu": "Le caïman chasse principalement en restant immobile — un prédateur à l'embuscade. Il flotte en surface, quasi invisible, attendant qu'une proie s'approche. Sa frappe est explosive et fulgurante : une torsion du corps, un claquement de mâchoires, et la proie est saisie avant d'avoir pu réagir. Il ne mâche pas — il avale ses proies entières ou les déchire en secouant la tête et en les faisant tourner sur eux-mêmes pour les démembrer.\n\nLe régime varie selon l'âge et la taille. Les jeunes mangent des insectes, des grenouilles et de petits poissons. Les adultes passent aux poissons plus grands, aux rongeurs, aux oiseaux aquatiques et aux reptiles. Le caïman noir adulte est capable de s'attaquer aux capybaras, aux cervidés qui viennent boire, et même aux anacondas — des affrontements documentés entre les deux espèces existent, sans vainqueur systématique.\n\nLes techniques de chasse varient de l'affût immobile à des méthodes actives de rabattage des proies vers la rive grâce à des mouvements de queue — une forme de chasse coopérative observée chez certaines populations."
+      },
+      {
+        "titre": "Reproduction — le sexe déterminé par la chaleur du nid",
+        "contenu": "La reproduction a lieu pendant la saison des pluies. Après l'accouplement, la femelle construit seule un nid en monticule de boue et de végétation en décomposition, d'environ 40 cm de hauteur et un mètre de diamètre. C'est la chaleur dégagée par la décomposition végétale — et non par le soleil directement — qui assure l'incubation des 14 à 40 œufs pendant 65 à 104 jours selon les espèces.\n\nComme chez la tortue géante des Galápagos, le sexe des petits est déterminé par la température du nid : à environ 32°C ou plus, les embryons deviennent femelles ; en dessous, ils deviennent mâles.\n\nLa femelle reste à proximité du nid et le défend activement. À l'éclosion, elle entend les petits gratter contre leur coquille depuis l'intérieur, dégage la végétation, aide les petits à sortir en croquant délicatement la coquille, et les transporte dans sa gueule jusqu'à l'eau. Elle les surveille plusieurs semaines — mais le taux de survie des juvéniles reste très faible : environ 5 %, victimes des grands poissons, des hérons, des serpents et de leurs propres congénères adultes."
+      },
+      {
+        "titre": "Observer les caïmans la nuit — ce qu'il faut savoir",
+        "contenu": "La sortie nocturne en bateau est l'une des expériences les plus marquantes du circuit de Rurrenabaque. Avec une torche ou une lampe frontale, les yeux des caïmans reflètent la lumière en rouge vif dans l'obscurité — on repère ainsi facilement des dizaines d'individus le long des berges sans les voir autrement.\n\nQuelques points pratiques : ne pas mettre les mains dans l'eau la nuit — les caïmans sont actifs et la visibilité est nulle. Rester dans le bateau. La règle des guides locaux : un caïman à lunettes adulte de taille moyenne ne représente pas de danger pour un humain dans un bateau, mais il faut garder les distances. Le caïman noir adulte, lui, est à respecter sérieusement — même les guides expérimentés maintiennent une distance confortable."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le caïman à lunettes est le seul crocodilien capable de tolérer des eaux légèrement salées — certains individus fréquentent les zones d'estuaires proches des côtes.\n• Plusieurs femelles peuvent partager le même nid et le défendre ensemble — un comportement de garde coopérative rare chez les reptiles.\n• Le caïman noir a été chassé si intensivement au XXe siècle que sa population a chuté de 99 %. Sa récupération en Bolivie et au Pérou est l'un des succès de conservation les moins connus d'Amazonie."
+      }
+    ]
   }
 ]
