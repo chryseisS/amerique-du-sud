@@ -39,7 +39,7 @@
     "nom": "Cuenca",
     "pays": "Equateur",
     "type": "ville",
-    "description": ""
+    "description": "Ville sur le chemin au Sud de l'Equateur. Dernière grosse ville. Sur la route depuis Ambato, faire un arrêt à [[Nariz del Diablo]], puis à [[Ingapirca]]. Puis passer 2 nuits à Cuenca, pour faire le [[Parc national Las Cajas]] sur une journée. Enfin, reprendre la route, et s'arrêter à [[El Chorro de Giron]] sur le chemin.\n\nEn profiter pour visiter la ville. Pour prendre les transports en commun (pas besoin normalement), il faut acheter une carte magnétique, il n'est pas possible de payer en liquide dans le bus. Dans la ville, visiter la Catedral de la Inmaculada Concepcion, le Museo Pumapungo (gratuit), et le marché aux fleurs. Celui-ci se situe à côté de la cathédrale, et a été classé parmi les plus beaux marchés aux fleurs du monde. Ouvert tous les jours de 7h à 18h. Y aller le matin et tester l'Agua de Pitimas (boisson médicinale préparée par les religieuses).\n\nUn lieu recommandé pour dormir avec parking sécurisé est 'Tu parada en Cuenca', proche du centre-ville."
   },
   {
     "id": "puno-cuzco",
@@ -81,6 +81,13 @@
     "pays": "Chili",
     "type": "desert",
     "description": ""
+  },
+  {
+    "id": "chachapoyas",
+    "nom": "Chachapoyas",
+    "pays": "Pérou",
+    "type": "Forêt",
+    "description": "Pour accéder à Chachapoyas, et revenir ensuite sur le littoral, ne pas prendre la route qui mène à Cajamarca (très dangereuse). Contourner par le Nord Ouest.\n\nAller à Chachapoyas implique un détour de 15 heures. Ne le faire que si on a le temps et l'envie de faire autant de km."
   },
   {
     "id": "nord-du-perou",

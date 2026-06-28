@@ -50,6 +50,10 @@
     "nom": "Bolivie",
     "sections": [
       {
+        "titre": "Trajet",
+        "contenu": "À l'aller, arrivée en Bolivie depuis le Chili et le désert d'Atacama. Passer par Uyuni pour faire une excursion au salar. Puis remonter vers La Paz. Selon le temps, visiter La Paz et le lac Titicaca. Puis remonter au Pérou.\n\nAu retour, passer par La Paz, puis descendre vers Sucre et Tupiza avant de rejoindre l'Argentine. Excursion en Amazonie à caler soit à l'aller soit au retour selon le temps disponible (avion depuis La Paz)."
+      },
+      {
         "titre": "Documents obligatoires pour le van",
         "contenu": "- Le SIVETUR (déclaration d'importation temporaire) : document délivré par la douane bolivienne à la frontière, qui nous donne 90 jours d'autorisation pour le véhicule. Bien vérifier numéro de chassis (VIN) et d'immatriculation. Il peut également être demandé en ligne.\n\n- Assurance SOAT : il faut acheter le SOAT bolivien immédiatement après la frontière. Repérer les agences de la compagnie Univida ou les échoppes dédiées près des frontières. Se paie pour l'année, et coûte entre 20 et 30 euros. Le SOAT couvre les frais médicaux d'urgence, mais ne couvre pas les dommages au van."
       },
@@ -72,10 +76,6 @@
       {
         "titre": "Visa & formalités",
         "contenu": "Le tampon d'entrée nous couvre 90 jours. Tout étranger entrant sur le territoire bolivien, par voie aérienne ou terrestre, doit s'enregistrer dans un délai de 48 heures auprès de la Direction Générale de la Migration bolivienne et remplir le formulaire Declaración Jurada de Domicilio en indiquant où il sera logé au cours de son séjour. Ce formulaire sera vérifié par les autorités douanières à la sortie de Bolivie. Tout ressortissant étranger n'étant pas en mesure de présenter ce formulaire complété s'expose au paiement d'une amende à hauteur d'environ 300 bolivianos.\n\nLes voyageurs entrant sur le territoire bolivien doivent également présenter le formulaire 250 de déclaration sur l'honneur de bagages et de devises (Formulario de Declaración Jurada de Equipaje Acompañado y Divisas)."
-      },
-      {
-        "titre": "Itinéraire prévu",
-        "contenu": "À l'aller, arrivée en Bolivie depuis le Chili et le désert d'Atacama. Passer par Uyuni pour faire une excursion au salar. Puis remonter vers La Paz. Selon le temps, visiter La Paz et le lac Titicaca. Puis remonter au Pérou.\n\nAu retour, passer par La Paz, puis descendre vers Sucre et Tupiza avant de rejoindre l'Argentine. Excursion en Amazonie à caler soit à l'aller soit au retour selon le temps disponible (avion depuis La Paz)."
       }
     ]
   },

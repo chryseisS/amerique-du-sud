@@ -128,7 +128,7 @@ export const ICONES_ZONES = {
   'san-carlos-de-bariloche':         '/images/zones/bariloche.png',
 };
 
-export const ZONES_SI_TEMPS = ['Nord du Pérou', 'Ayacucho'];
+export const ZONES_SI_TEMPS = ['Chachapoyas', 'Ayacucho'];
 
 export const estIncontournable = (a) => (a.importance ?? 0) >= 5;
 

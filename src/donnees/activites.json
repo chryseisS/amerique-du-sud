@@ -445,7 +445,7 @@
   },
   {
     "type": "Nature",
-    "nom": "Santuario Nacional d'Ampay",
+    "nom": "Réserve nationale Pampas Galeras",
     "lieu": "De Cuzco à Nazca",
     "lieuId": "cuzco-nazca",
     "pays": "Pérou",
@@ -548,9 +548,9 @@
     "lieu": "Ambato",
     "lieuId": "ambato",
     "pays": "Equateur",
-    "importance": null,
+    "importance": 5,
     "duree": "3 jours",
-    "description": "Petite ville à côté de Ambato. Ville reconnue pour ses activités de sport extrême.\n\n - Casa del Arbol : petit parc avec quelques activités, dont une balançoire pour se balancer au-dessus du vide. Prix : 1 dollar.\n\n - Bains thermaux pour se reposer.\n\n - Route des cascades : à faire en van et s'arrêter à chaque cascade. Ou en vélo mais route partagée et pas forcément agréable. Cascade El Manto de la Novia : soit à pied pour descendre (gratuit), soit par tarabita (2 dollars aller-retour) pour survoler la cascade. Cascade El Pailón del Diablo : la plus connue. Deux entrée (5 dollars) : l'entrée 1 qui mène aux escaliers et au balcon sous la chute (on se fait mouiller), ou l'entrée 2 qui offre une vue d'ensemble avec des ponts suspendus.\n\n - Parque Aventura San Martin : parc aventure où il est possible de faire zipline allongé, pont suspendu et via ferrata.\n\n - Randonnées : sentier de la Vierge (30min) qui permet de monter en hauteur et avoir une vue sur Banos et sur le volcan Tungurahua. Sentier des belvédères : permet d'avoir une vue plongeante sur la ville. Si on continue ensuite, permet d'accéder à Casa del Arbol.\n\n - Rafting, canyoning.",
+    "description": "Petite ville à côté de Ambato. Ville reconnue pour ses activités de sport extrême.\n\n - Casa del Arbol : petit parc avec quelques activités, dont une balançoire pour se balancer au-dessus du vide. Prix : 1 dollar.\n\n - Bains thermaux pour se reposer.\n\n - Route des cascades : à faire en van et s'arrêter à chaque cascade. Ou en vélo mais route partagée et pas forcément agréable. Cascade El Manto de la Novia : soit à pied pour descendre (gratuit), soit par tarabita (2 dollars aller-retour) pour survoler la cascade. Cascade El Pailón del Diablo : la plus connue. Deux entrée (5 dollars) : l'entrée 1 qui mène aux escaliers et au balcon sous la chute (on se fait mouiller), ou l'entrée 2 qui offre une vue d'ensemble avec des ponts suspendus.\n\n - Parque Aventura San Martin : parc aventure où il est possible de faire zipline allongé, pont suspendu et via ferrata.\n\n - Randonnées : sentier de la Vierge (30min) qui permet de monter en hauteur et avoir une vue sur Banos et sur le volcan Tungurahua. Sentier des belvédères : permet d'avoir une vue plongeante sur la ville. Si on continue ensuite, permet d'accéder à Casa del Arbol.\n\n - Thermes de la Virgen. Deux zones différentes. D'un côté les thermes traditionnelles au pied de la cascade. Plusieurs bassins avec des températures différentes. Eau très minéralisée. Ouvert de 5h à 16h puis de 18h à 21h30. Privilégier le créneau du soir hors weekend. 3$ l'entrée, bonnet de bain obligatoire et claquettes. Prendre un cadenas. De l'autre côte, il y a les termas de la Virgen de Agua Santa, un complexe aquatique moderne, avec toboggans, piscine d'eau thermale, etc. \n\n - Rafting, canyoning.",
     "visiteGuidee": false
   },
   {
@@ -562,7 +562,43 @@
     "images": ["chimborazo.jpg"],
     "importance": null,
     "duree": null,
-    "description": "Le sommet du volcan Chimborazo, culminant à 6263m d'altitude, est le point de la Terre le plus proche du soleil. L'accès au parc est gratuit. Il faut s'enregistrer au poste de garde à l'entrée principale. \n\nLa randonnée classique est celle qui va du premier refuge (Carrel à 4800m d'altitude) vers le Refuge Whymper, puis la Laguna Condor Cocha à 5100m. Enormément de vigognes dans cette réserve. La météo est très changeante et souvent brumeuse. Il est possible de descendre en VTT depuis le refuge Whymper jusqu'au village presque 2000m plus bas.",
+    "description": "Le sommet du volcan Chimborazo, culminant à 6263m d'altitude, est le point de la Terre le plus proche du soleil. L'accès au parc est gratuit. Il faut s'enregistrer au poste de garde à l'entrée principale. \n\nLa randonnée classique est celle qui va du premier refuge (Carrel à 4800m d'altitude) vers le Refuge Whymper, puis la Laguna Condor Cocha à 5100m. L'accès aux aiguilles de Whymper ou à El Castillo n'est pas autorisé en autonomie. \n\nEnormément de vigognes dans cette réserve. La météo est très changeante et souvent brumeuse. Il est possible de descendre en VTT depuis le refuge Whymper jusqu'au village presque 2000m plus bas.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Ingapirca",
+    "lieu": "Cuenca",
+    "lieuId": "cuenca",
+    "pays": "Equateur",
+    "importance": null,
+    "sousZone": "Nord de Cuenca",
+    "duree": null,
+    "description": "Complexe archéologique situé à 2 heures de route au Nord de Cuenca. Ouvert du mercredi au dimanche. Prix : 2$ par personne avec guide.\n\nJuste à côté, petite balade pour aller voir La Cara del Inca.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "El Chorro de Giron",
+    "lieu": "Cuenca",
+    "lieuId": "cuenca",
+    "pays": "Equateur",
+    "importance": null,
+    "sousZone": "Sud de Cuenca",
+    "duree": null,
+    "description": "Cascade au Sud de Cuenca, proche de la route principale. 5 dollars l'entrée. Possibilité de faire des activités payantes en plus : balançoire géante, Skybike, tyrolienne pour une dizaine de dollars.\n\nPlusieurs randonnées disponibles : accès à la première cascade en 15-20min, accès à la deuxième cascade via un sentier qui grimpe assez raide (400m D+), compter 2 heures de marche, et une randonnée vers une troisième cascade avec un chemin très peu marqué (compter 3 heures de plus). Les deux premières cascades sont sur des sentiers bien balisés, pour la troisième cascade il faut absolument la trace gpx.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Nariz del Diablo",
+    "lieu": "Cuenca",
+    "lieuId": "cuenca",
+    "pays": "Equateur",
+    "importance": null,
+    "sousZone": "Nord de Cuenca",
+    "duree": null,
+    "description": "Immense paroi rocheuse en forme de nez. Un chemin de fer est construit sur les parois. Dénivelé de 500m en 12km à faire. Système ingénieux de fonctionnement du train : es ingénieurs ont conçu un système de zigzag unique au monde : le train avance, dépasse un aiguillage, s'arrête, change de voie et recule pour continuer à descendre (ou monter) le long de la falaise.\n\nFaire la randonnée du Cerro Pistishi pour atteindre le mirador Condor Pununa. Départ d'Alausi, et aller-retour de 12km. Une taxe communautaire de 2$ peut être demandée pour l'accès au mirador. Depuis le mirador, vue sur Nariz del Diablo et le train. Le train part de la gare d'Alausi toutes les semaines du mercredi au dimanche à 3 horaires : 8h, 11h et 14h (horaires à vérifier la veille). Pour le voir en action, privilégier le créneau du matin (brume) et arriver au mirador au plus tard à 8h45 (45min de trajet entre la gare et l'arrivée à Nariz del Diablo).",
     "visiteGuidee": false
   },
   {
@@ -574,17 +610,6 @@
     "importance": null,
     "duree": null,
     "description": "Le parc National Las Cajas est un parc national à 40min en voiture de Cuenca. Il est gratuit, il faut s'enregistrer au centre des visiteurs au bord de la laguna Toreadora. Les gardiens nous fourniront une carte du parc. De nombreuses randonnées sont disponibles. Possibilité de monter au cerro San Luis (plus haut sommet) et faire une boucle passant par les lagunas Totoras et Patoquinas (environ 10km), partie nord du parc. Possibilité de faire une deuxième journée côté sud. Une application 'Parque Nacional Cajas' permet de visualiser les différents chemins de randonnées. Le temps est très changeant, humide et brumeux.",
-    "visiteGuidee": false
-  },
-  {
-    "type": "Culture",
-    "nom": "Ingapirca",
-    "lieu": "Cuenca",
-    "lieuId": "cuenca",
-    "pays": "Equateur",
-    "importance": null,
-    "duree": null,
-    "description": "Site archéologique précolombien le plus important du pays. Visite guidée de 45min obligatoire pour 2 dollars.\n\nPetit sentier à l'extérieur du site pour aller voir la Cara del Inca (formation rocheuse).",
     "visiteGuidee": false
   },
   {
@@ -796,6 +821,39 @@
     "importance": null,
     "duree": null,
     "description": "Petite fête plus intimiste qu'Inti Raymi. Autour du 18-20 juin. L'Ollantay Raymi est une reconstitution historique et théâtrale basée sur une célèbre pièce de théâtre de l’époque inca : Ollantay. Le festival se déroule en plein air et sur deux sites différents : la place d'armes et le site archéologique d'Ollantaytambo. Gratuit. S'installer sur le site archéologique en début d'après-midi pour choisir un bon endroit où se poser et observer le spectacle.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Cascade de Gocta",
+    "lieu": "Chachapoyas",
+    "lieuId": "chachapoyas",
+    "pays": "Pérou",
+    "importance": 5,
+    "duree": null,
+    "description": "Une des plus hautes chutes du monde (771m). La randonnée part de Cocachimba et fait environ 10km aller-retour. Prix : 30 soles à payer à l'Oficina de Turismo sur la place centrale du village.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Mausolées de Revash",
+    "lieu": "Chachapoyas",
+    "lieuId": "chachapoyas",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Revash est un complexe funéraire constitué de petites maisons situées dans une grotte à même la falaise.  Le départ se fait à San Bartolo. L'entrée coûte 20 soles, à payer au bureau touristique de San Bartolo. Une petite marche de 1.5km mène ensuite aux mausolées.\n\nDans la même journée, faire le musée Leymebamba (20 soles). Ouvert du mardi au dimanche, c'est l'un des musées archéologiques les plus mémorables, avec une salle abritant plus de 200 momies.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Kuelap",
+    "lieu": "Chachapoyas",
+    "lieuId": "chachapoyas",
+    "pays": "Pérou",
+    "importance": 5,
+    "duree": null,
+    "description": "Surnommée le Machu Picchu du Nord, Kuelap est une gigantesque cité fortifiée pré-inca. Site fermé le lundi. Pour y accéder, se rendre au village de Nuevo Tingo, à 1h de route au sud de Chachapoyas. Prendre le téléphérique (26 soles). Le téléphérique nous emmène à 2km de Kuelap. Prix d'accès à Kuelap : 30 soles (billet à réserver en ligne), et recrutement d'un guide local sur place pour 30 soles. Passeport obligatoire pour accès à la forteresse.",
     "visiteGuidee": false
   },
   {
