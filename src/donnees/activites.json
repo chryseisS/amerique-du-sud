@@ -1079,5 +1079,38 @@
     "duree": null,
     "description": "Très beau paysage à 15km au Nord-Ouest de Tupiza. Route qui monte de 3000 à 4000m. Pas de randonnées officielles mais après le belvédère, possibilité d'aller se balader au milieu des formations rocheuses.",
     "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Ile Santa Cruz",
+    "lieu": "Galapagos",
+    "lieuId": "galapagos",
+    "pays": "Equateur",
+    "importance": null,
+    "duree": null,
+    "description": "Une des 4 iles habitées des iles Galapagos. Ile la plus peuplée. Si arrivée en avion sur cette ile, pour aller au centre-ville, il faut : acheter un ticket de bus (nom : Lobito, $5) pour aller jusqu’au canal. De là il y a un bateau ($1 à payer sur le bateau) pour traverser. Une fois de l’autre côté, prendre les bagages et choisir le bus Citteg ($5 pour aller en ville, il s’arrête au coin de l’Avenida Baltra et Isla Duncan). Prendre un logement à Puerto Ayora.\n\nLes activités à faire sont les suivantes :\n\n - Tortuga Bay : Marcher 2.5km du centre-ville pour y accéder. Enormément d'iguanes. Pour faire du snorkeling, continuer jusqu'à Playa Mansa et explorer la mangrove pour essayer de voir des requins. Possibilité de louer des canoës.\n\n - Station Charles Darwin : en centre-ville, musée d'histoire naturelle.\n\n - Las Grietas : grande faille naturelle. Payant (10 dollars). Pour y accéder, prendre un bateau-taxi depuis le quai de Puerto Ayora jusqu'au quai d'Angermeyer (1$). Puis suivre le sentier balisé pendant 20min. Sur le chemin, plage de los Alemanes qui permet de faire un peu de snorkeling.\n\n - Ranch des tortues géantes (El Chato) et cratères Los Gemelos : au centre de l'ile. Pour y accéder, soit taxi à négocier pour qu'il nous y amène et nous attende (50 dollars environ), soit location de vélo (20km de montée pour y aller), soit taxi à l'aller et retour en courant. Possibilité également de prendre le bus de Puerto Ayola jusqu'à Santa Rosa, puis de marcher. Se renseigner sur les horaires à l'hôtel. Los Gemelos est une petite promenade de 1.5km autour de cratères jumeaux. El Chato est une réserve qui accueille des tortues terrestres, et qui permet de visiter des tunnels de lave. Prix 10$.\n\n - Randonnée Cerro Crocker : plus haut sommet de l'ile, début de la randonnée à Bellavista. 15km aller-retour. Taxi ou bus pour aller au départ de la randonnée.\n\n2 à 3 jours suffisent sur cette ile, pour visiter a minima Tortuga Bay.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Ile San Cristobal",
+    "lieu": "Galapagos",
+    "lieuId": "galapagos",
+    "pays": "Equateur",
+    "importance": 5,
+    "duree": null,
+    "description": "Une des 4 iles habitées des iles Galapagos. Ile aux otaries. Si arrivée en avion sur cette ile, l'aéroport est à 10min à pied de la ville.\n\nLes activités à faire sont les suivantes :\n\n - Cerro Tijeretas (gratuit) : sentier qui part du Centre d'interprétation (accès à pied depuis la ville) jusqu'à une petite crique protégée dans laquelle on peut faire du snorkeling. Plus beau spot de snorkeling, à faire absolument. Possibilité de continuer la randonnée jusqu'à la Playa Baquerizo.\n\n - Playa Mann et playa Carola (gratuit) : accès direct depuis le centre-ville. Enormément d'otaries à Playa Mann. A faire en fin de journée quand elles sont plus actives.\n\n - Playa La Loberia : lions de mer et snorkeling. Accès à pied depuis la ville.\n\n - Parte Alta de San Cristobal : excursion sur la demi-journée pour visiter la partie intérieure de l'ile. Plusieurs arrêts sur le chemin : la Galapaguera de Cerro Colorado (grande réserve permettant de voir des tortues géantes), El Junco (lac d'eau douce, niché dans un ancien cratère volcanique) et Puerto Chino Beach (plage pour surfeurs mais fous à pieds bleus à observer dans les rochers). Pour y accéder, soit prendre un taxi pour une demi-journée (prix à négocier avec eux directement pour l'aller-retour avec attente à chaque site, compter environ 70$), soit prendre un vélo (20km mais énormément de dénivelé à faire à l'aller et au retour).\n\nLa meilleure excursion sur l'ile de San Cristobal est Kicker Rock, formation rocheuse avec énormément de vie aquatique. Excursion plongée ou snorkeling (compter 240$ pour la plongée et 190$ pour le snorkeling). Passer par un club de plongée sur l'ile de San Cristobal. Réserver de préférence en avance pour être sûr d'avoir de la place.\n\nA faire a minima : Cerro Tijeretas et les plages autour de la ville. 2 à 3 jours sur place suffisent selon si on fait l'excursion ou la visite du centre de l'ile.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Ile Isabela",
+    "lieu": "Galapagos",
+    "lieuId": "galapagos",
+    "pays": "Equateur",
+    "importance": 5,
+    "duree": null,
+    "description": "Une des 4 iles habitées des iles Galapagos. Ile la plus grande et la plus sauvage. Paysages volcaniques. A l'arrivée sur l'ile, il faut payer une taxe municipale d'entrée de 10$.\n\nLes activités à faire sont les suivantes :\n\n - Concha de Perla : spot de snorkeling gratuit proche de la ville.\n\n - Muro de las Lagrimas : randonnée (ou vélo) de 6km depuis la ville (12km aller-retour). Plusieurs arrêts à faire sur le chemin : El Estero (mangroves), Playa del Amor (iguanes), La Playita, El Pozon de los Flamencos (flamands roses), et el Cerro Orchilla.\n\nLes meilleures excursions de l'ile sont les suivantes : \n\n - Los Tuneles : excursion incontournable des Galapagos. Des vagues et des coulées de lave ont formé des arches, des ponts et des tunnels naturels transparents au-dessus et en dessous de l'eau. Sortie d'environ 5 heures avec snorkeling sur place. Prix : environ 140$.\n\n - Randonnée du volcan Sierra Negra & Chico : randonnée d'environ 16km pour accéder au volcan. Prix : environ 70$.\n\nSur l'ile Isabela, deux jours suffisent si on ne fait pas d'excursion.",
+    "visiteGuidee": false
   }
 ]

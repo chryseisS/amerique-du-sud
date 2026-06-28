@@ -4,24 +4,44 @@
     "nom": "Pérou",
     "sections": [
       {
+        "titre": "Trajet",
+        "contenu": "Entrée au Pérou début juin par la Bolivie. 3 semaines à Cuzco de prévues, puis remonter vers Lima, Huaraz, et la frontière avec l'Equateur. Garder quelques activités sur le chemin pour le retour. Au retour, si nous avons le temps, il est possible de faire la partie Nord du Pérou. Puis descente vers Arequipa et le canyon de Colca, avant de repasser la frontière avec la Bolivie."
+      },
+      {
+        "titre": "Sécurité",
+        "contenu": "Consulter diplomatie.gouv.fr avant le départ pour les zones déconseillées à jour. Certaines zones de la vallée des Apurímac-Ene-Mantaro (VRAEM) et quelques axes en Amazonie sont à éviter.\n\nDans les grandes villes (Lima, Cusco, Arequipa), ne jamais héler un taxi dans la rue : utiliser exclusivement Uber, InDrive ou Cabify. Les vols à l'arraché (sac, téléphone) sont fréquents dans les centres historiques, particulièrement à Lima (Miraflores et Barranco sont plus sûrs que le Centre Historique la nuit).\n\nNe pas conduire de nuit. Les routes de montagne sont particulièrement dangereuses après la tombée du jour."
+      },
+      {
         "titre": "Visa",
-        "contenu": "Pas de visa nécessaire pour 90 jours pour les ressortissants UE."
+        "contenu": "Pas de visa nécessaire pour les ressortissants UE. Le tampon d'entrée autorise 90 jours de séjour. Prolongation possible auprès de la Superintendencia Nacional de Migraciones, mais compliquée en pratique : mieux vaut prévoir le séjour dans les 90 jours."
       },
       {
         "titre": "Monnaie",
-        "contenu": "Sol péruvien (PEN). BCP et Interbank ont les frais les plus bas aux distributeurs."
+        "contenu": "Sol péruvien (PEN). BCP et Interbank ont les frais les plus bas aux distributeurs (ATM). Scotiabank et BBVA sont acceptables. Éviter les distributeurs dans les agences de change ou les petits commerces (frais élevés).\n\nLe paiement par carte est accepté dans les restaurants et hôtels des grandes villes ; prévoir du cash pour les marchés, les péages, les activités en zone rurale et les petits commerces."
+      },
+      {
+        "titre": "Documents pour le van",
+        "contenu": "- Importation temporaire du véhicule : document délivré par la SUNAT (douanes péruviennes) à la frontière. Valable 90 jours. Le numéro de châssis (VIN) et la plaque sont enregistrés dans le système. Conserver impérativement ce document et le présenter à la sortie.\n\n- SOAT péruvien (Seguro Obligatorio de Accidentes de Tránsito) : assurance obligatoire, achetée directement à la frontière ou dans les agences agréées près des postes-frontières. Couvre les frais médicaux en cas d'accident, pas les dommages matériels."
+      },
+      {
+        "titre": "Carburant",
+        "contenu": "Pas de tarification différenciée pour les véhicules étrangers (contrairement à la Bolivie). Le plein se fait normalement dans toutes les stations. Grifo est le mot péruvien pour station-service.\n\nLe carburant est moins cher qu'en Europe mais plus cher qu'en Bolivie ou en Argentine. Diesel disponible partout.\n\nDans les zones reculées (Cordillère Blanche, routes vers Ayacucho, Altiplano), les grifos peuvent être espacés de plus de 100 km. Faire le plein systématiquement dès que possible en altitude."
+      },
+      {
+        "titre": "Altitude & santé",
+        "contenu": "Cusco est à 3 400 m, le col Abra La Raya (entre Cusco et Puno) à 4 335 m. Les zones autour de Huaraz culminent à plus de 4 000 m sur les routes secondaires.\n\nPrévoir au moins 24 à 48 h d'acclimatation à Cusco avant toute excursion en altitude. Les symptômes du mal des montagnes (soroche) : maux de tête, fatigue, nausées. En cas de symptômes sévères, descendre immédiatement en altitude.\n\nL'Acetazolamide (Diamox) peut être prescrit par un médecin avant le départ pour faciliter l'acclimatation. Disponible en pharmacie au Pérou sans ordonnance sous le nom Azetax."
       },
       {
         "titre": "Feuilles de coca",
-        "contenu": "Légales, mâchées avec de la llipta ou en infusion contre le mal d'altitude. Ne jamais en sortir du pays."
+        "contenu": "Légales au Pérou. Mâchées avec de la llipta (pâte alcaline) ou préparées en infusion (mate de coca), elles aident à lutter contre les symptômes du soroche. Disponibles dans tous les marchés.\n\nNe jamais en sortir du pays : classées stupéfiants à la frontière avec d'autres pays et à l'international."
       },
       {
         "titre": "Urgences",
-        "contenu": "105 (police), 116 (pompiers), 106 (ambulance)."
+        "contenu": "105 (police), 116 (pompiers), 106 (ambulance).\n\nEn cas d'accident de la route avec blessés : appeler immédiatement la police et ne pas déplacer les véhicules avant leur arrivée."
       },
       {
-        "titre": "À savoir",
-        "contenu": "Tester la cuisine sino-péruvienne.\n\nAu Pérou, les phares doivent être allumés même en plein jour."
+        "titre": "Conduite & routes",
+        "contenu": "Conduite à droite. Port de la ceinture obligatoire. Les phares doivent être allumés même en plein jour (obligation légale).\n\nLes routes de la côte (Panaméricaine) sont excellentes. Les routes de la sierra sont souvent étroites, sinueuses et défoncées — prévoir des moyennes horaires faibles (40 à 60 km/h) sur les axes de montagne.\n\nSaison des pluies (décembre à avril) : les huaycos (glissements de terrain) peuvent couper les routes plusieurs jours. Consulter l'état des routes sur l'application Waze ou les groupes Facebook de voyageurs en van.\n\nLes bus et camions péruviens dépassent à des endroits improbables. Rester vigilant, ne jamais supposer qu'une route de montagne est libre dans les virages en épingle."
       }
     ]
   },
@@ -64,52 +84,87 @@
     "nom": "Argentine",
     "sections": [
       {
-        "titre": "Pass parcs nationaux",
-        "contenu": "Il existe un pass pour les parcs nationaux argentins valable un an. Il coûte cher (environ 200 euros), mais potentiellement moins cher que prendre les tickets à l'unité (entre 30 et 40 euros la journée), sachant que nous irons à minima dans les parcs suivants : Perito Moreno (1 journée), Los Glaciares (7 jours, 140 euros), Tierra del Fuego (1 à 2 jours)."
-      }
-    ]
-  },
-  {
-    "id": "equateur",
-    "nom": "Equateur",
-    "sections": [
+        "titre": "Trajet",
+        "contenu": "Passage de la frontière depuis la Bolivie vers la fin du mois d'octobre. Descente vers la Patagonie et Ushuaia en passant par Salta, Mendoza et Bariloche. La remontée se fait ensuite côté chilien."
+      },
       {
         "titre": "Visa",
-        "contenu": "Pas de visa nécessaire pour les ressortissants UE. Le tampon d'entrée autorise un séjour de 90 jours, renouvelable une fois sur place pour 90 jours supplémentaires (soit 180 jours maximum par an)."
+        "contenu": "Pas de visa nécessaire pour les ressortissants UE. Séjour autorisé de 90 jours, renouvelable une fois pour 90 jours supplémentaires (sortie du territoire puis ré-entrée)."
       },
       {
         "titre": "Monnaie",
-        "contenu": "Dollar américain (USD), depuis la dollarisation de janvier 2000. Avantage majeur : aucun risque de change ni de manipulation de monnaie locale. Les billets de 50 et 100 dollars sont souvent refusés dans les commerces, toujours avoir des petites coupures (5, 10, 20 USD). Les distributeurs sont fiables dans les grandes villes ; plus rares et souvent vides dans les zones rurales."
+        "contenu": "Peso argentin (ARS). La situation monétaire argentine a été historiquement complexe (taux de change multiples, contrôles des capitaux). Depuis début 2025, le gouvernement Milei a progressivement unifié les taux de change et levé les principales restrictions.\n\nVérifier la situation réelle au moment du voyage sur les groupes de voyageurs francophones et le site du Banco Central de la República Argentina : la politique de change peut évoluer rapidement.\n\nDans tous les cas, éviter de changer de grosses sommes d'un coup sans connaître les conditions du moment. Les dollars USD sont largement acceptés et parfois préférés aux pesos dans les zones touristiques de Patagonie."
       },
       {
         "titre": "Documents pour le van",
-        "contenu": "- Importation temporaire du véhicule : formulaire délivré par les douanes équatoriennes à la frontière (SENAE). Valable 90 jours. Le numéro de châssis (VIN) et la plaque sont enregistrés dans le système. Conserver ce document pendant tout le séjour et le remettre à la sortie.\n\n- SOAT équatorien : assurance obligatoire de responsabilité civile. S'achète directement à la frontière ou dans les agences agréées. Couvre les dommages corporels aux tiers en cas d'accident, pas les dommages matériels au van."
+        "contenu": "- Importation temporaire du véhicule : formulaire délivré par la Aduana argentina à la frontière. Valable 90 jours. Procédure simple, prévoir 30 à 60 minutes au poste-frontière.\n\n- Assurance responsabilité civile : une assurance RC valide en Argentine est obligatoire. Les assurances européennes ne couvrent généralement pas l'Argentine. Souscrire une assurance argentine dès l'entrée (disponible dans les agences au niveau des postes-frontières principaux, ou en ligne via des courtiers spécialisés en véhicules étrangers). Vérifier que la police couvre bien la Patagonie jusqu'à Ushuaia."
       },
       {
         "titre": "Carburant",
-        "contenu": "Le carburant est subventionné par l'État et nettement moins cher qu'en Europe. Trois types disponibles : Extra (octane 87, le plus courant), Super (octane 92) et Diesel. Le Diesel est le plus subventionné.\n\nLes véhicules à plaque étrangère paient en théorie le tarif non subventionné, mais dans la pratique la distinction est rarement appliquée aux pompes, surtout en dehors des grandes villes. Pas de système B-SISA comme en Bolivie : le plein se fait normalement.\n\nAttention : en zone rurale et en altitude (páramo), les stations peuvent être très espacées. Faire le plein dès que possible."
+        "contenu": "YPF est la compagnie nationale, présente sur tout le territoire. Shell et Axion également. Le carburant est subventionné et nettement moins cher qu'en Chili ou en Europe.\n\nEn Patagonie, les stations peuvent être très espacées (150 à 250 km entre Puerto Natales et El Calafate, par exemple). Voyager impérativement avec un jerrican de secours dans le grand sud. Faire le plein à chaque station disponible sans attendre la jauge au rouge.\n\nEn Tierra del Fuego, le carburant est encore moins cher. Faire le plein à Río Grande ou Ushuaia avant de quitter l'île."
       },
       {
-        "titre": "Altitude & santé",
-        "contenu": "Quito est à 2 850 m — le mal d'altitude peut toucher dès l'arrivée, surtout en venant de la côte ou des Galápagos. Le Parc El Cajas (près de Cuenca) culmine à plus de 4 400 m. Prévoir 24 à 48 h d'acclimatation à Quito avant toute excursion en altitude.\n\nLes infusions de coca (mate de coca) sont légales en Équateur, disponibles partout, et restent le remède local standard contre le soroche."
+        "titre": "Pass parcs nationaux",
+        "contenu": "Il existe un pass pour les parcs nationaux argentins valable un an. Il coûte cher (environ 200 euros), mais potentiellement moins cher que prendre les tickets à l'unité (entre 30 et 40 euros la journée), sachant que nous irons à minima dans les parcs suivants : Perito Moreno (1 journée), Los Glaciares (7 jours, 140 euros), Tierra del Fuego (1 à 2 jours)."
       },
       {
-        "titre": "Galápagos",
-        "contenu": "Accès uniquement par avion depuis Quito ou Guayaquil (vols vers Santa Cruz ou San Cristóbal). Le van ne peut pas être emmené aux îles.\n\nFormalités obligatoires :\n\n- Tarjeta de Control de Tránsito (TCT) : document de contrôle des flux touristiques, à remplir et payer sur place à l'aéroport de départ avant enregistrement (~20 USD).\n\n- Droits d'entrée au Parc National des Galápagos : 200 USD par personne pour les ressortissants étrangers, à payer en cash (de préférence) ou par carte à l'aéroport d'arrivée aux îles.\n\nUn billet d'avion aller-retour ainsi qu'une preuve de réservation d'hôtel pour toute la durée du séjour seront demandés.\n\nLes bagages sont inspectés pour éviter l'introduction d'espèces invasives : aucun fruit, légume, produit d'origine animale, terre ou plante."
+        "titre": "Patagonie & Tierra del Fuego",
+        "contenu": "Le vent est la contrainte principale : rafales régulières à 80-100 km/h autour de El Calafate et El Chaltén, parfois plus. Prévoir des ancres de tente pour les nuits en camping sauvage.\n\nUshuaia est accessible par la Route Nationale 3. La ville est le terminus et le point de départ des croisières en Antarctique — réserver l'hébergement à l'avance en haute saison (janvier-février).\n\nPas de réseau mobile fiable entre les villes de Patagonie."
       },
       {
         "titre": "Urgences",
-        "contenu": "911 — numéro unique (police, pompiers, ambulance). Fonctionne sur tout le territoire."
+        "contenu": "101 (police), 100 (pompiers), 107 (SAME — ambulance). 911 fonctionne comme numéro unique dans la plupart des provinces."
       },
       {
-        "titre": "Conduite & sécurité routière",
-        "contenu": "Conduite à droite. Ceinture obligatoire pour tous les passagers. Téléphone au volant strictement interdit (amende élevée). Les contrôles de police (retenes) sont fréquents sur les axes principaux : toujours avoir passeport, carte grise et documents du van à portée.\n\nLes routes de montagne (páramo, entre Quito et Cuenca notamment) peuvent être enveloppées de brouillard dense en fin d'après-midi. Éviter de rouler la nuit en dehors des axes principaux.\n\nÉviter de laisser des affaires visibles dans le van en stationnement, notamment dans les grandes villes (Quito, Guayaquil)."
+        "titre": "Conduite & routes",
+        "contenu": "Conduite à droite. Ceinture obligatoire. Alcool au volant : tolérance zéro.\n\nLa Ruta Nacional 40 (RN40) longe la cordillère des Andes du nord au sud sur plus de 5 000 km — l'un des axes emblématiques du voyage. En Patagonie, certains tronçons de la RN40 sont encore en ripio. L'état du revêtement change d'une année sur l'autre : vérifier les forums de voyageurs avant de choisir un itinéraire.\n\nLes routes de Salta et de la Quebrada de Humahuaca sont spectaculaires mais sinueuses et en altitude. Certains accès (Cuesta del Lipán vers Salinas Grandes) montent à plus de 4 000 m.\n\nLa Gendarmería National effectue des contrôles réguliers aux entrées de provinces : avoir les papiers du van à portée de main."
       }
     ]
   },
   {
     "id": "chili",
     "nom": "Chili",
-    "sections": []
+    "sections": [
+      {
+        "titre": "Trajet",
+        "contenu": "Départ de Santiago après achat du van. Début du road trip vers le Nord pour faire le désert d'Atacama puis passage de frontière vers la Bolivie et Uyuni (pas de passage de frontière possible avec le Pérou). Puis rentrée au Chili en fin d'année pour le parc national Torres del Paine, et la remontée de la Carretera Austral vers Santiago. Le retour doit se faire vers mi-février pour avoir le temps d'aller à l'ile de Pâques, puis festival de Rio. Possibilité également de faire l'ile de Paques lors de la descente vers la Patagonie (autour de Mendoza) si nous arrivons trop tôt, ce qui permet également de profiter de météo plus clémente en Patagonie."
+      },
+      {
+        "titre": "Visa",
+        "contenu": "Pas de visa nécessaire pour les ressortissants UE. Le tampon d'entrée (Tarjeta de Turismo) autorise 90 jours de séjour. Conserver impérativement ce petit papier remis à la frontière : il est exigé à la sortie du territoire."
+      },
+      {
+        "titre": "Monnaie",
+        "contenu": "Peso chilien (CLP). Taux de change fluctuant — le CLP est une devise instable.\n\nLes distributeurs (Redbanc, BCI, Banco de Chile) fonctionnent bien dans toutes les villes. En Patagonie profonde (Carretera Austral sud, Villa O'Higgins), les distributeurs sont rares et peuvent être vides en haute saison. Emporter suffisamment de cash avant de s'enfoncer dans les zones reculées.\n\nLe paiement par carte (Transbank/Visa/Mastercard) est bien développé dans les commerces et stations-service."
+      },
+      {
+        "titre": "Documents pour le van",
+        "contenu": "- Importation temporaire du véhicule : document délivré par le SNA (Servicio Nacional de Aduanas) à la frontière. Valable 90 jours. Simple à obtenir, procédure rapide.\n\n- SOAP chilien (Seguro Obligatorio de Accidentes Personales) : assurance obligatoire couvrant les dommages corporels. Très bon marché (~10-15 USD pour l'année). Peut s'acheter en ligne avant l'entrée ou dans les pharmacies, stations-service et agences près des frontières. À ne pas confondre avec un vrai assurance tous risques : ne couvre pas les dégâts matériels.\n\nUne fois le van sorti du Chili, il doit être revenu dans le pays sous 180 jours. Prévoir un aller-retour rapide à la frontière chilienne lors de la descente vers la Patagonie."
+      },
+      {
+        "titre": "Carburant",
+        "contenu": "Le Chili est le pays le plus cher d'Amérique du Sud pour le carburant — comparable au prix européen, voire supérieur. Aucune subvention d'État significative.\n\nEn Patagonie et sur la Carretera Austral, les stations peuvent être espacées de plus de 150 à 200 km (notamment entre Coyhaique et Villa O'Higgins). Voyager avec un jerrican de secours est fortement recommandé sur la Carretera Austral sud.\n\nLes stations Copec et ENEX sont les plus répandues. Paiement par carte généralement accepté."
+      },
+      {
+        "titre": "Douanes & biosécurité",
+        "contenu": "Le Chili a les contrôles phytosanitaires les plus stricts d'Amérique du Sud. Le SAG (Servicio Agrícola y Ganadero) inspecte les véhicules à la frontière et à des checkpoints internes.\n\nInterdiction absolue d'entrer avec : fruits frais, légumes, viande, produits laitiers, plantes, graines, terre. Même les fruits séchés ou les conserves maison peuvent être confisqués. Les amendes sont élevées (plusieurs centaines de dollars).\n\nÀ la frontière bolivienne/péruvienne : vider ou déclarer tous les stocks alimentaires du van. Les fromages sous vide industriels et les conserves du commerce sont généralement tolérés."
+      },
+      {
+        "titre": "Carretera Austral",
+        "contenu": "La Route 7 (Carretera Austral) relie Puerto Montt à Villa O'Higgins sur environ 1 240 km. La majorité du tracé est en ripio (piste de gravier non goudronnée) — vérifier l'état des pneus avant d'attaquer.\n\nFerries indispensables à plusieurs points :\n- Hornopirén → Caleta Gonzalo : passage obligé, réservation recommandée en haute saison (jan-fév). Opéré par Naviera Austral.\n- Puerto Montt → Chaitén ou Puerto Natales : alternative plus confortable, même opérateur.\n\nRéserver les traversées plusieurs semaines à l'avance en été austral. Réseau mobile quasi inexistant entre les villages. Pas de ravitaillement fiable entre Coyhaique et Villa O'Higgins — planifier les stocks alimentaires."
+      },
+      {
+        "titre": "Péages",
+        "contenu": "Les autoroutes urbaines (Santiago, Valparaíso) sont à péage électronique (TAG). Sans TAG enregistré, le péage est facturé par lecture de plaque et une facture est envoyée — pour une plaque étrangère, ce système ne fonctionne pas bien. Éviter les autoroutes à péage autour de Santiago sauf si on règle à une cabine manuelle (de plus en plus rares). En dehors des zones urbaines, pas de péage sur les routes nationales."
+      },
+      {
+        "titre": "Urgences",
+        "contenu": "133 (Carabineros — police), 132 (pompiers), 131 (SAMU — ambulance). 911 fonctionne également comme numéro unique dans la plupart des régions."
+      },
+      {
+        "titre": "Conduite & sécurité routière",
+        "contenu": "Conduite à droite. Ceinture obligatoire. Alcool au volant : tolérance zéro (0.0 g/L légalement).\n\nLe Chili est en général un pays sûr pour le voyage en van. Éviter de laisser des objets visibles dans le van en ville (Santiago notamment).\n\nEn Patagonie, le vent peut être violent et latéral, particulièrement autour de Torres del Paine et sur la Ruta 40 côté argentin. Doubler prudemment et prévoir des temps de trajet allongés par fort vent."
+      }
+    ]
   }
 ]
