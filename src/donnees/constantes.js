@@ -104,21 +104,29 @@ export const ICONES_ZONES = {
   'ayacucho':        '/images/zones/ayacucho.png',
   'huaraz':          '/images/zones/huaraz.png',
   'paracas':         '/images/zones/paracas.png',
-  'chiclayo-trujillo':   '/images/zones/nord-perou.png',
+  'lima':         '/images/zones/lima.png',
+  'chachapoyas':         '/images/zones/chachapoyas.png',
+  'puno-cuzco':         '/images/zones/puno-cuzco.png',
+  'cuzco-nazca':         '/images/zones/cuzco-nazca.png',
+  'cote-pacifique-nord':   '/images/zones/nord-perou.png',
  
   // Bolivie
   'la-paz':          '/images/zones/la-paz.png',
   'uyuni':           '/images/zones/uyuni.png',
   'rurrenabaque':      '/images/zones/cochabamba.png',
+  'sucre':           '/images/zones/sucre.png',
+  'tupiza':           '/images/zones/tupiza.png',
  
   // Equateur
   'quito':           '/images/zones/quito.png',
   'cuenca':          '/images/zones/cuenca.png',
   'ambato':          '/images/zones/ambato.png',
+  'galapagos':       '/images/zones/galapagos.png',
  
   // Chili
   'nord-du-chili':       '/images/zones/nord-du-chili.png',
   'carretera-austral':  '/images/zones/carretera-austral.png',
+  'pucon':              '/images/zones/pucon.png',
  
   // Argentine
   'patagonie':       '/images/zones/patagonie.png',

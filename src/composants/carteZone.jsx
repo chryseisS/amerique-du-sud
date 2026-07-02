@@ -4,7 +4,7 @@ import { COULEURS_PAYS, versSlug, ICONES_ZONES } from '../donnees/constantes';
 
 function CarteZone({ zone }) {
   const couleurs = COULEURS_PAYS[zone.pays] || COULEURS_PAYS['Pérou'];
-  const iconeUrl = ICONES_ZONES?.[zone.slug];
+  const iconeUrl = ICONES_ZONES?.[zone.lieuId];
 
   return (
     <Link
@@ -20,7 +20,7 @@ function CarteZone({ zone }) {
           <img
             src={iconeUrl}
             alt=""
-            className="w-16 h-16 object-contain"
+            className="w-16 h-16"
             onError={(e) => { e.currentTarget.style.display = 'none'; }}
           />
         ) : (

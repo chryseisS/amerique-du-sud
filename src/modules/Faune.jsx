@@ -97,30 +97,6 @@ function Faune() {
         )}
       </div>
 
-      {/* Filtres STATUT */}
-      <div className="flex gap-1.5 mb-3 flex-wrap">
-        {[
-          { cle: 'Tous', libelle: 'Tous' },
-          { cle: 'Vus', libelle: '✓ Vus' },
-          { cle: 'AVoir', libelle: 'À voir' },
-          { cle: 'Rares', libelle: '★★★ Rares' },
-        ].map(({ cle, libelle }) => {
-          const actif = statutActif === cle;
-          return (
-            <button
-              key={cle}
-              onClick={() => setStatutActif(cle)}
-              className={
-                actif
-                  ? 'px-3 py-1 rounded-full text-xs bg-terra-500 text-white border border-terra-500'
-                  : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
-              }
-            >
-              {libelle}
-            </button>
-          );
-        })}
-      </div>
 
       {/* Compteur de résultats */}
       <div className="text-xs text-terra-muted mb-3">

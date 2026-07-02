@@ -1,5 +1,43 @@
 [
   {
+    "id": "equateur",
+    "nom": "Equateur",
+    "sections": [
+      {
+        "titre": "Visa",
+        "contenu": "Pas de visa nécessaire pour les ressortissants UE. Le tampon d'entrée autorise un séjour de 90 jours, renouvelable une fois sur place pour 90 jours supplémentaires (soit 180 jours maximum par an)."
+      },
+      {
+        "titre": "Monnaie",
+        "contenu": "Dollar américain (USD), depuis la dollarisation de janvier 2000. Les billets de 50 et 100 dollars sont souvent refusés dans les commerces, toujours avoir des petites coupures (5, 10, 20 USD). Les distributeurs sont fiables dans les grandes villes ; plus rares et souvent vides dans les zones rurales."
+      },
+      {
+        "titre": "Documents pour le van",
+        "contenu": "- Importation temporaire du véhicule : formulaire délivré par les douanes équatoriennes à la frontière (SENAE). Valable 90 jours. Le numéro de châssis (VIN) et la plaque sont enregistrés dans le système. Conserver ce document pendant tout le séjour et le remettre à la sortie.\n\n- SOAT équatorien : assurance obligatoire de responsabilité civile. S'achète directement à la frontière ou dans les agences agréées. Couvre les dommages corporels aux tiers en cas d'accident, pas les dommages matériels au van."
+      },
+      {
+        "titre": "Carburant",
+        "contenu": "Le carburant est subventionné par l'État et nettement moins cher qu'en Europe. Trois types disponibles : Extra (octane 87, le plus courant), Super (octane 92) et Diesel. Le Diesel est le plus subventionné.\n\nLes véhicules à plaque étrangère paient en théorie le tarif non subventionné, mais dans la pratique la distinction est rarement appliquée aux pompes, surtout en dehors des grandes villes. Pas de système B-SISA comme en Bolivie : le plein se fait normalement.\n\nAttention : en zone rurale et en altitude (páramo), les stations peuvent être très espacées. Faire le plein dès que possible."
+      },
+      {
+        "titre": "Altitude & santé",
+        "contenu": "Quito est à 2 850 m — le mal d'altitude peut toucher dès l'arrivée, surtout en venant de la côte ou des Galápagos. Le Parc El Cajas (près de Cuenca) culmine à plus de 4 400 m. Prévoir 24 à 48 h d'acclimatation à Quito avant toute excursion en altitude.\n\nLes infusions de coca (mate de coca) sont légales en Équateur, disponibles partout, et restent le remède local standard contre le soroche."
+      },
+      {
+        "titre": "Galápagos",
+        "contenu": "Accès uniquement par avion depuis Quito ou Guayaquil (vols vers Santa Cruz ou San Cristóbal). Le van ne peut pas être emmené aux îles.\n\nFormalités obligatoires à l'aéroport continental avant l'embarquement :\n\n- Tarjeta de Control de Tránsito (TCT) : document de contrôle des flux touristiques, à remplir et payer sur place (~20 USD).\n\n- Droits d'entrée au Parc National des Galápagos : 200 USD par personne pour les ressortissants étrangers, à payer en cash ou par carte à l'aéroport d'arrivée aux îles.\n\nLes bagages sont inspectés pour éviter l'introduction d'espèces invasives : aucun fruit, légume, produit d'origine animale, terre ou plante."
+      },
+      {
+        "titre": "Urgences",
+        "contenu": "911 — numéro unique (police, pompiers, ambulance). Fonctionne sur tout le territoire."
+      },
+      {
+        "titre": "Conduite & sécurité routière",
+        "contenu": "Conduite à droite. Ceinture obligatoire pour tous les passagers. Téléphone au volant strictement interdit (amende élevée). Les contrôles de police (retenes) sont fréquents sur les axes principaux : toujours avoir passeport, carte grise et documents du van à portée.\n\nLes routes de montagne (páramo, entre Quito et Cuenca notamment) peuvent être enveloppées de brouillard dense en fin d'après-midi. Éviter de rouler la nuit en dehors des axes principaux.\n\nÉviter de laisser des affaires visibles dans le van en stationnement, notamment dans les grandes villes (Quito, Guayaquil)."
+      }
+    ]
+  },
+  {
     "id": "perou",
     "nom": "Pérou",
     "sections": [
@@ -127,7 +165,7 @@
     "sections": [
       {
         "titre": "Trajet",
-        "contenu": "Départ de Santiago après achat du van. Début du road trip vers le Nord pour faire le désert d'Atacama puis passage de frontière vers la Bolivie et Uyuni (pas de passage de frontière possible avec le Pérou). Puis rentrée au Chili en fin d'année pour le parc national Torres del Paine, et la remontée de la Carretera Austral vers Santiago. Le retour doit se faire vers mi-février pour avoir le temps d'aller à l'ile de Pâques, puis festival de Rio. Possibilité également de faire l'ile de Paques lors de la descente vers la Patagonie (autour de Mendoza) si nous arrivons trop tôt, ce qui permet également de profiter de météo plus clémente en Patagonie."
+        "contenu": "Départ de Santiago après achat du van. Début du road trip vers le Nord pour faire le désert d'Atacama puis passage de frontière vers la Bolivie et Uyuni (pas de passage de frontière possible avec le Pérou). \n\nUne fois sorti du pays, le van doit repasser la frontière (même pour une journée) au plus tard 180 jours après le passage de frontière. Selon la date de sortie, il faudra probablement repasser par le Chili avant de descendre en Patagonie. Le meilleur moment serait donc à côté de Mendoza (2h de la frontière). Selon le timing, soit on fait un aller-retour pour redescendre directement vers la Patagonie, soit direction Santiago pour faire l'ile de Paques (si on a une semaine de marge). \n\nDescente ensuite côté argentin direction Patagonie et Ushuaia. Puis rentrée au Chili pour le parc national Torres del Paine, et la remontée de la Carretera Austral vers Santiago. Le festival de Rio commence le 25 février il faudra donc être de retour à Santiago au plus tard le 22 février. \n\nCompter 5 semaines pour faire toute la Patagonie (depuis El Chalten, descente vers Ushuaia et remontée)."
       },
       {
         "titre": "Visa",
@@ -147,7 +185,7 @@
       },
       {
         "titre": "Douanes & biosécurité",
-        "contenu": "Le Chili a les contrôles phytosanitaires les plus stricts d'Amérique du Sud. Le SAG (Servicio Agrícola y Ganadero) inspecte les véhicules à la frontière et à des checkpoints internes.\n\nInterdiction absolue d'entrer avec : fruits frais, légumes, viande, produits laitiers, plantes, graines, terre. Même les fruits séchés ou les conserves maison peuvent être confisqués. Les amendes sont élevées (plusieurs centaines de dollars).\n\nÀ la frontière bolivienne/péruvienne : vider ou déclarer tous les stocks alimentaires du van. Les fromages sous vide industriels et les conserves du commerce sont généralement tolérés."
+        "contenu": "Le Chili a les contrôles phytosanitaires les plus stricts d'Amérique du Sud. Le SAG (Servicio Agrícola y Ganadero) inspecte les véhicules à la frontière et à des checkpoints internes.\n\nInterdiction absolue d'entrer avec : fruits frais, légumes, viande, produits laitiers, plantes, graines, terre. Même les fruits séchés ou les conserves maison peuvent être confisqués. Les amendes sont élevées (plusieurs centaines de dollars).\n\nÀ la frontière : vider ou déclarer tous les stocks alimentaires du van. Les fromages sous vide industriels et les conserves du commerce sont généralement tolérés."
       },
       {
         "titre": "Carretera Austral",

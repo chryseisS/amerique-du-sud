@@ -38,7 +38,7 @@
     "lieu": "Arequipa",
     "lieuId": "arequipa",
     "pays": "Pérou",
-    "importance": 4,
+    "importance": 5,
     "duree": "3 jours",
     "description": "Boucle. Prix 70 soles par personne si contrôlés à l'entrée du canyon. Partir tôt pour ne pas être contrôlé. Le mieux est de dormir à Llahuar et à l'oasis de Sangalle si nous ne voulons pas nous encombrer avec une tente (20 euros la chambre approximativement). A réserver avant de partir.  \n\nDépart du trek à Cabanaconde. \n\nJour 1 : Cabanaconde - Llahuar. 11km/1100m de D-. A Llahuar, nombreuses piscines thermales. \n\nJour 2 : Llahuar - Oasis de Sangalle ou San Juan. 10km/700m D-, 700m D+. \n\nJour 3 : Sangalle - Cabanaconde. 5km/1000m D+. \n\nPossibilité de rajouter 15-20km le 2ème jour en faisant un détour par cascade Huaruro (évite également de monter 2 fois).",
     "visiteGuidee": false
@@ -52,6 +52,73 @@
     "importance": null,
     "duree": "",
     "description": "Mirador avec vue sur le canyon de Colca. Permet d'observer les condors andins en vol. Arriver le matin entre 7h et 9h pour avoir plus de chances d'en apercevoir.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Quebrada de Culebrillas",
+    "lieu": "Arequipa",
+    "lieuId": "arequipa",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": "",
+    "description": "Petit canyon sinueux s'élevant à 15m de hauteur, proche d'Arequipa. Prix : 5 soles. Pétroglyphes au milieu du canyon.\n\nDepuis le début du sentier, petite balade dans le canyon qui fait 400m de long.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Carrière de sillar",
+    "lieu": "Arequipa",
+    "lieuId": "arequipa",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": "",
+    "description": "Les Canteras de Sillar Añashuayco sont des immenses carrières de pierre volcanique blanche (le sillar), proche d'Arequipa. Promenade libre au pied des falaises et on y observe les tailleurs de pierre. Prix : 5 soles par personne.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Lagune de Salinas",
+    "lieu": "Arequipa",
+    "lieuId": "arequipa",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": "",
+    "description": "Lac salé au pied du volcan Ubinas. Observation de flamands roses et de lamas/alpagas/vigognes. La lagune est à 4300m d'altitude. 2h de route pour y accéder. Excursion en van d'une journée depuis Arequipa. En période sèche, possibilité de se balader dans la lagune.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Forêt de pierre d'Imata et Cascade de Pillones",
+    "lieu": "Arequipa",
+    "lieuId": "arequipa",
+    "pays": "Pérou",
+    "sousZone": "Route vers Puno",
+    "importance": null,
+    "duree": "",
+    "description": "Deux lieux très proches l'un de l'autre, sur la route vers la frontière bolivienne.\n\nForêt de pierre : balade au milieu des formations rocheuses. Gratuit.\n\nPillones : petite marche depuis le parking pour descendre au pied de la cascade. 5 soles par personne.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Toro Muerto",
+    "lieu": "Arequipa",
+    "lieuId": "arequipa",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Un des plus grands ensembles d'art rupestre au monde. Entre 3000 et 5000 blocs gravés sur 5 km². Ouvert tous les jours de 8h à 17h. 10 soles par personne.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Arequipa",
+    "lieu": "Arequipa",
+    "lieuId": "arequipa",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Un des plus beaux centre-ville coloniaux, classé au patrimoine mondial de l'UNESCO. A voir : Plaza de Armas et cathédrale, couvent Santa Catalina.\n\nGoûter la Queso Helado, typique d'Arequipa.",
     "visiteGuidee": false
   },
   {
@@ -250,7 +317,7 @@
     "importance": 5,
     "duree": "3 jours",
     "description": "Huayna Potosi : montagne s'élevant à plus de 6000m à côté de La Paz. Se fait en 3J/2N ou en 2J/1N. Privilégier 3J/2N afin d'avoir plus de temps pour s'acclimater et apprendre les techniques d'alpinisme. Ne pas réserver en ligne (plus cher), aller voir directement sur place les agence. Sur le groupe 'Les Français en Bolivie', beaucoup de recommandations pour des guides locaux à contacter par téléphone. Prix : environ 150 euros pour les 3 jours par personnes.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -261,7 +328,7 @@
     "importance": 5,
     "duree": null,
     "description": "Combats de catch. Le meilleur jour est le dimanche (jour historique). Les autres jours, le public est composé principalement de touristes. Privilégier le dimanche, sinon jeudi ou mardi. Début à 16h et dure environ 2h.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -272,7 +339,7 @@
     "importance": 5,
     "duree": null,
     "description": "Situé au centre-ville de La Paz (rues Melchor Jimenez et Linares), c'est le coeur des traditions aymaras de la ville. Ouvert tous les jours de 9h30 à 19h.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Excursion",
@@ -283,7 +350,7 @@
     "importance": 5,
     "duree": "3 jours",
     "description": "Excursions permettant de visiter le Salar d'Uyuni et Sud Lipez. Non accessible sans guide et sans 4x4. Faire une excursion de 4J/3N ou 3J/2N, départ et retour à Uyuni. Essayer de trouver un groupe sur 'Les Français en Bolivie' pour avoir des prix dégressifs (trop cher à 2). Si pas de groupe, réserver en ligne ou sur place. Prix : environ 300 euros par personne pour l'excursion.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",
@@ -295,7 +362,7 @@
     "importance": null,
     "duree": null,
     "description": "Située à une heure de route de La Paz, à 4000m d'altitude, la Valle de las Animas est une forêt dense de formation rocheuse. Accessibles en voiture directement ou en bus depuis La Paz. Gratuit. \n\nRandonnée d'environ 10km via la  Río Ovejuyo Route et retour via la Quebrada Negra Route. Télécharger la route depuis AllTrails en amont.\n\nDans la même journée, possibilité de faire une balade aux Canones de Palca (se garer à l'entrée de la ville de Palca).",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -307,11 +374,11 @@
     "importance": null,
     "duree": null,
     "description": "Parc au Sud de La Paz dans le quartier de Mallasa. Prix : 15 BOB. Petite balade d'une heure au milieu des formations d'argile et de grès.\n\nJournée à combiner avec Valle de las Animas et Canones de Palca.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
-    "nom": "Tiwanuku",
+    "nom": "Tiwanaku",
     "lieu": "La Paz",
     "lieuId": "la-paz",
     "pays": "Bolivie",
@@ -319,7 +386,7 @@
     "importance": null,
     "duree": null,
     "description": "Tiwanuku est l'un des sites archéologiques les plus importants d'Amérique du Sud, à 70km à l'Ouest de La Paz. Prix : 15 euros environ. Prévoir 3-4 heures sur place pour la visite.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -331,7 +398,7 @@
     "importance": 5,
     "duree": "2-3 jours",
     "description": "Sur la route pour aller de la Bolivie au Pérou, s'arrêter à Copacabana pour visiter la Isla del Sol. En van, passer par Tiquina et prendre le bac. Possitilité de bivouaquer à la Péninsule de Yampupata. Puis laisser le van à Copacabana pour prendre le bateau direction Isla del Sol.\n\nPour prendre le bateau, se rendre sur le port de Copacabana et prendre un bateau public (*lanchas*). Deux horaires pour l'aller : 8h30 le matin et 13h30 l'après-midi. Préciser si on veut débarquer au Nord ou au Sud. Pour le retour, il se fait depuis le Sud (Yumani) à 10h30 et 15h30. Prix : environ 5 euros l'aller-retour. Compter 2h30 de trajet.\n\nSur l'île, il est possible de faire une grande randonnée depuis le Sud permettant d'aller voir les vestiges incas du Nord et de revenir par le littoral (19km sans trop de dénivelé mais à 4000m d'altitude). Faire également une petite randonnée pour visiter la partie sud de l'île.\n\nItinéraire possible : prendre le bateau le matin pour faire le sud, et le lendemain la grande boucle. Puis revenir avec le dernier bateau ou rester une nuit de plus sur l'île.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Excursion",
@@ -407,18 +474,101 @@
     "pays": "Bolivie",
     "importance": null,
     "duree": "1 jour",
-    "description": "Randonnée à côté de La Paz. 10km qui part de La Rinconada (sentier de randonnée, 4500m d'altitude) jsuqu'au sommet du Pico Austria (5300m). Route en terre mais accessible jusqu'au parking. Télécharger la carte sur AllTrails. Si départ de Tuni, cela rajoute 10km aller-retour.",
-    "visiteGuidee": false
+    "description": "Randonnée à la journée côté de La Paz. 10km qui part de La Rinconada (sentier de randonnée, 4500m d'altitude) jusqu'au sommet du Pico Austria (5300m). Route en terre mais accessible jusqu'au parking. Télécharger la carte sur AllTrails. Si départ de Tuni, cela rajoute 10km aller-retour.",
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
     "nom": "Chan Chan",
-    "lieu": "Chiclayo-Trujillo",
-    "lieuId": "chiclayo-trujillo",
+    "lieu": "Côte Pacifique Nord",
+    "lieuId": "cote-pacifique-nord",
     "pays": "Pérou",
     "importance": null,
     "duree": null,
     "description": "Site archéologique, capitale de la civilisation chimù, dans la ville de Trujillo. Prix : 11 soles. Donne accès au musée, au palais Tschudi (ou Nik An) et aux sites Huaca La Esmeralda et Huaca El Dragon (temples de la culture Moche).",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Ciudad Sagrada de Caral",
+    "lieu": "Côte Pacifique Nord",
+    "lieuId": "cote-pacifique-nord",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "A un peu plus de 3h de route au nord de Lima, c'est la plus ancienne ville connue des Amériques. Inscrite au patrimoine mondial de l'UNESCO. Rejoindre le Parador Turistico de Caral et laisser le van. Ne pas y dormir la nuit. Prix de l'entrée : 11 soles. Une fois sur place, un guide est obligatoire. Prévoir 20 soles en plus pour le groupe.\n\nPossibilité de dormir au bord de la plage à Playa Tuquillo après.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Cerro Cechin",
+    "lieu": "Côte Pacifique Nord",
+    "lieuId": "cote-pacifique-nord",
+    "pays": "Pérou",
+    "sousZone": "Casma",
+    "importance": null,
+    "duree": null,
+    "description": "Site archéologique ancien, à côté de la ville de Casma. 6 soles par personne. Ouvert du mardi au dimanche de 9h à 17h. Le billet inclut l'accès au site ainsi que l'accès au petit musée.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Chankillo",
+    "lieu": "Côte Pacifique Nord",
+    "lieuId": "cote-pacifique-nord",
+    "sousZone": "Casma",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Situé juste au Sud de Casma, Chankillo est le plus ancien observatoire solaire des Amériques. Gratuit ou via participation communautaire.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Huaca del Sol et de la Luna",
+    "lieu": "Côte Pacifique Nord",
+    "lieuId": "cote-pacifique-nord",
+    "sousZone": "Trujillo",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Immenses pyramides de la culture Moche ornées de fresque d'origine, à côté de Trujillo. Ouvert tous les jours de 9h à 16h. Prix 10 soles + coût du guide obligatoire 20 soles par groupe. Possibilité de visiter le musée du site pour 5 soles supplémentaires.\n\nPour dormir aux alentours, se diriger vers Huanchaco (petite station balnéaire en bord de mer, on peut y voir des Caballito de Totora, embarcations en roseau des pêcheurs).",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Musée des Tombes Royales de Sipán",
+    "lieu": "Côte Pacifique Nord",
+    "lieuId": "cote-pacifique-nord",
+    "sousZone": "Chiclayo",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Un des meilleurs musées archéologiques d'Amérique du Sud, situé tout près de Chiclayo. Ouvert du mardi au dimanche de 9h à 17h. Prix 10 soles.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Zaña",
+    "lieu": "Côte Pacifique Nord",
+    "lieuId": "cote-pacifique-nord",
+    "sousZone": "Chiclayo",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Situé un peu au Sud de Chiclayo, Zaña est une ville coloniale fantôme. On peut se balader dans les ruines de la ville.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Pyramides de Tucume",
+    "lieu": "Côte Pacifique Nord",
+    "lieuId": "cote-pacifique-nord",
+    "sousZone": "Chiclayo",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "26 pyramides en adobe au Nord de Chiclayo. Ouvert du mardi au dimanche de 9h à 16h. 12 soles par personne. Commencer par visiter le musée du site avant d'aller se balader, et monter jusqu'au belvédère Cerro Purgatorio.",
     "visiteGuidee": false
   },
   {
@@ -473,7 +623,7 @@
     "pays": "Pérou",
     "importance": null,
     "duree": null,
-    "description": "A Nazca, grandes figures tracées au sol par le peuple nazca dans le désert. Se voient mieux en avion. Prix : 100 euros par personne. Certaines d'entre elles peuvent se voir depuis le Mirador de las Lineas de Nazca, pour la modique somme de quelques soles.\n\nPossibilité de visiter les aqueducs de Cantalloc et le cimetière de Chauchilla.",
+    "description": "A Nazca, grandes figures tracées au sol par le peuple nazca dans le désert. Se voient mieux en avion. Prix : 100 euros par personne. Certaines d'entre elles peuvent se voir depuis le Mirador de las Lineas de Nazca, pour la modique somme de quelques soles.\n\nPossibilité de visiter les aqueducs de Cantalloc et le cimetière de Chauchilla, ainsi que de grimper le Cerro Blanco, une des plus hautes dunes de sable au monde.\n\nPour visiter tous les sites archéologiques autour de Nazca, possibilité d'acheter le Boleto Turistico. Pour 20 soles, accès à tous les sites archéologiques alentours sur deux jours. Le billet s'achète directement à l'entrée du premier site visité. Paiement en espèce. Accès au mirador inclus dedans.",
     "visiteGuidee": false
   },
   {
@@ -507,7 +657,7 @@
     "importance": 5,
     "duree": "2 jours",
     "description": "Petite ville située à 2h de route de Quito, connue comme la ville aux oiseaux et des papillons. Très humide. Dormir en lodge pour 30 dollars la nuit, ou dormir dans des zones de camping aménagée avec le van. Les  activités à faire à Mindo :\n\n - Observation des oiseaux : ils s'observent mieux entre 6h et 9h du matin. Certains lodges ont des mangeoires pour attirer les oiseaux. La Casa Amarillo Mindo a des sentiers de randonnée privés (6 dollars) sur lesquels l'observation des oiseaux est possible. La référence est sinon le Refugio Paz de las Avec, mais uniquement en tour guidé.\n\n - Randonnée des 5 cascades. Prendre un téléphérique (Tarabita) pour 5 dollars aller-retour. Arrivée à un réseau de sentiers qui permettent de se balader : sentier de la Cascada Reina et sentier des 5 cascades. Sentiers boueux.\n\n - Ateliers de chocolat : Yumbos Chocolate ou El Quetzal de Mindo. Proposent des tours et des dégustations.\n\n - Mindo Frog Concert : visite qui commence à la nuit tombée (vers 18h30) à Mindo Lago, qui permet d'observer et entendre les espèces nocturnes, notamment les grenouilles.\n\n - Mariposario de Mindo : une serre aux papillons.\n\n - Des expériences de tubing, tyroliennes, canyoning sont organisées.\n\nLes applications eBird ou Merlin Bird ID permettent d'identifier les oiseaux par le son ou la photo. Une carte des sentiers peut être récupérée à l'office du tourisme.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -518,7 +668,7 @@
     "importance": null,
     "duree": null,
     "description": "Sur le route entre Quito et Mindo. Village dans lequel on peut apercevoir un bâtiment représentant la ligne de latitude 0°. Prix : 5 dollars. Possibilité également de visiter le musée Inti Nan",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Trek",
@@ -529,7 +679,7 @@
     "importance": 4,
     "duree": "3 jours",
     "description": "Malgré son nom, ce trek est en fait un trek de Sigchos à Quilotoa. Trek de 35km. Possibilité de dormir en tente ou en hostel (20 dollars par personne par nuit avec diner et petit déjeuner compris). Pour réserver les hostels, soit par Booking, WhatsApp, soit via l'hébegement de la nuit d'avant. Laisser le van à Latacunga, et prendre le bus jusqu'à Sigchos, depuis le terminal terrestre  de Latacunga (aller voir la veille les horaires). Au retour, bus direct de Quilotoa vers Latacunga à l'entrée du village.\n\nJour 1 : Sigchos - Isinlivi : 10km, 600m D+.\n\nJour 2 : Isinlivi - Chugchilan : 12.4km - 781m D+.\n\nJour 3 : Chugchilan - Quilotoa : 13km, 1050m D+.\n\nCircuti classique en 3 jours. Si on veut raccourcir, prendre le premier bus du matin et doubler les deux premières étapes. Ou doubler étape 2 et 3, mais attention à l'altitude (3000m) et beaucoup de dénivelé.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",
@@ -540,7 +690,7 @@
     "importance": 3,
     "duree": "2 jours",
     "description": "Parc national qui se situe au sud de Quito. Le point central du parc est le volcan Cotopaxi, qui culmine à 5897m. Pour rentrer dans le parc, il faut s'enregistrer à une des entrées. Deux entrée, via Machachi ou Caspi. L'entrée via Caspi est goudronnée, donc plus pratique. Les activités dans ce parc :\n\n - Laguna de Limpiopung : très belle vue sur le volcan.\n\n - Montée au Refuge José Rivas : en van jusqu'à 4600m, puis jusqu'au refuge, puis jusqu'au bas du glacier.\n\n - Ascension du Rumiñahui : le départ se fait à la laguna de Limpiopung et permet de grimper au sommet du volcan de Rumiñahui (11km, 870m D+, trace sur AllTrails). Partir tôt.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -620,8 +770,8 @@
     "pays": "Bolivie",
     "importance": 5,
     "duree": "5 jours",
-    "description": "Visite de l'Amazonie via Rurennabaque. Prendre l'avion depuis La Paz (moins d'une heure de vol). Possibilité de faire 5 jours : quelques jours dans la selva (jungle amazonienne dense) et quelques jours dans la pampa (zones humides ouvertes). La pampa permet d'effectuer un vrai safari amazonien. Compter 400 euros pour 5 jours via des agences du type Jaja Tours. Voir agences recommandées (et autres partenaires) dans le groupe Facebook 'Les Français en Bolivie'.",
-    "visiteGuidee": false
+    "description": "Visite de l'Amazonie via Rurrennabaque. Prendre l'avion depuis La Paz (moins d'une heure de vol). Possibilité de faire 5 jours : quelques jours dans la selva (jungle amazonienne dense) et quelques jours dans la pampa (zones humides ouvertes). La pampa permet d'effectuer un vrai safari amazonien. Compter 400 euros pour 5 jours via des agences du type Jaja Tours. Voir agences recommandées (et autres partenaires) dans le groupe Facebook 'Les Français en Bolivie'.",
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -766,7 +916,7 @@
     "importance": 3,
     "duree": "3 jours",
     "description": "Un des plus beaux treks de Bolivie. 52km principalement en descente : l'arrivée se situe 3600m plus bas que le départ (4700m d'altitude). Laisser le van garé à La Paz. Puis prendre le bus depuis le terminal Minasa en direction de Yungas/Coroico. Demander à descendre à La Cumbre (45min de trajet) ('Nos bajamos en La Cumbre, al inicio de El Choro'). 3 jours de trek en autonomie complète. Prévoir 30 BOB de frais au départ du trek.\n\nJour 1 : Cumbre - Challapampa (20km).\n\nJour 2 : Challapampa - Sandillani (23km).\n\nJour 3 : Sandillani - Chairo (8km).\n\nDepuis Chairo, prendre un taxi jusqu'à Coroico, puis minivan pour La Paz.\n\nPrévoir un répulsif local contre les Mariachis (mouches de sable) qui piquent.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Excursion",
@@ -832,6 +982,17 @@
     "importance": 5,
     "duree": null,
     "description": "Une des plus hautes chutes du monde (771m). La randonnée part de Cocachimba et fait environ 10km aller-retour. Prix : 30 soles à payer à l'Oficina de Turismo sur la place centrale du village.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Trek",
+    "nom": "Laguna de los Condores",
+    "lieu": "Chachapoyas",
+    "lieuId": "chachapoyas",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": "3 jours",
+    "description": "Trek sauvage menant à une falaise surplombant une lagune, dans laquelle de nombreux mausolées on été découverts. Environ 45km aller-retour. Guide obligatoire. Le départ se fait à Leymebamba. En arrivant en ville, aller directement voir des guides locaux pour négocier le prix du trek. Il se fait avec guide et chevaux. Compter 200-250 euros pour les 3 jours tout compris.",
     "visiteGuidee": false
   },
   {
@@ -1169,6 +1330,40 @@
     "importance": 5,
     "duree": null,
     "description": "Une des 4 iles habitées des iles Galapagos. Ile la plus grande et la plus sauvage. Paysages volcaniques. A l'arrivée sur l'ile, il faut payer une taxe municipale d'entrée de 10$.\n\nLes activités à faire sont les suivantes :\n\n - Concha de Perla : spot de snorkeling gratuit proche de la ville.\n\n - Muro de las Lagrimas : randonnée (ou vélo) de 6km depuis la ville (12km aller-retour). Plusieurs arrêts à faire sur le chemin : El Estero (mangroves), Playa del Amor (iguanes), La Playita, El Pozon de los Flamencos (flamands roses), et el Cerro Orchilla.\n\nLes meilleures excursions de l'ile sont les suivantes : \n\n - Los Tuneles : excursion incontournable des Galapagos. Des vagues et des coulées de lave ont formé des arches, des ponts et des tunnels naturels transparents au-dessus et en dessous de l'eau. Sortie d'environ 5 heures avec snorkeling sur place. Prix : environ 140$.\n\n - Randonnée du volcan Sierra Negra & Chico : randonnée d'environ 16km pour accéder au volcan. Prix : environ 70$.\n\nSur l'ile Isabela, deux jours suffisent si on ne fait pas d'excursion.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Parc National Los Alerces",
+    "lieu": "De Bariloche à El Chalten",
+    "lieuId": "bariloche-chalten",
+    "pays": "Argentine",
+    "importance": 5,
+    "duree": null,
+    "description": "Grand parc proposant de nombreux sentiers balisés. Parc national donc compris dans le pass annuel.Rainforest donc zone très pluvieuse.\n\nDe nombreuses courtes randonnées sont disponibles : \n\n - Mirador Lago Verde et Rio Arrayanes : sentier qui grimpe à travers la forêt pour offrir une vue panoramique sur Lago Verde.\n\n - Cinco Saltos : 5 cascades successives le long du chemin.\n\n - Cascada Irigoyen : 15min de marche pour voir une cascade. \n\nUne randonnée plus longue à la journée existe également : Cerro Alto El Petiso : montée à travers la forêt pour avoir une vue sur la Cordillière des Andes. Meilleure randonnée sur la journée. Partir tôt le matin (départ interdit après 10h) et s'enregistrer auprès des gardes-parcs.\n\nPour dormir dans le parc, de nombreuses zones de camping libre sont présentes.\n\nPossibilité de faire du packraft sur le lac, en déclarant le packraft à l'entrée du parc, sur le Lago Verde ou le Lago Futalaufquén.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Trevelin",
+    "lieu": "De Bariloche à El Chalten",
+    "lieuId": "bariloche-chalten",
+    "pays": "Argentine",
+    "importance": null,
+    "duree": null,
+    "description": "Petit village gallois juste à côté du parc national Los Alerces. On peut y déguster du thé gallois dans un des nombreux salons historiques (Casa de Té), aller voir une cascade (Nant y Fall), et un moulin à farine traditionnel gallois reconstitué.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Cueva de las manos",
+    "lieu": "De Bariloche à El Chalten",
+    "lieuId": "bariloche-chalten",
+    "pays": "Argentine",
+    "images": ["cueva-manos.png"],
+    "importance": null,
+    "duree": null,
+    "description": "Site archéologique avec des peintures rupestres, situé dans le canyon du Rio Pinturas. Prix : 10$, incluant guide et matériel.\n\nPour y accéder, plutôt que se garer au visitor center, passer par le Parque Patagonia Argentina (entrée à côté de Refugio La Posta de los Toldos). En profiter pour faire une randonnée dans le canyon qui permet d'accéder à la Cueva de las Manos. Sur le chemin, faire le Sendero Tierra de Colores.\n\nDes campings ou zones de bivouac libre sont disponibles dans le parc.",
     "visiteGuidee": false
   }
 ]

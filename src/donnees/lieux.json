@@ -7,11 +7,25 @@
     "description": ""
   },
   {
+    "id": "sucre",
+    "nom": "Autour de Sucre",
+    "pays": "Bolivie",
+    "type": "ville",
+    "description": ""
+  },
+  {
+    "id": "tupiza",
+    "nom": "Tupiza",
+    "pays": "Bolivie",
+    "type": "ville",
+    "description": ""
+  },
+  {
     "id": "arequipa",
     "nom": "Arequipa",
     "pays": "Pérou",
     "type": "ville",
-    "description": ""
+    "description": "Passer par Arequipa avant de faire le canyon de Colca. Rajoute une heure de route mais permet de s'acllimater à l'altitude. Sur la route entre Arequipa et le canyon de Colca, on passe par un col à 4900m d'altitude. Route asphaltée et de bonne qualité.\n\nPas énormément d'arrêts sur le chemin pour Arequipa, à part [[Toro Muerto]].\n\nUne fois la ville d'Arequipa visitée, plusieurs options : faire une journée vers la [[Lagune de Salinas]], ou remonter vers le [[Canyon de Colca]], en s'arrêtant sur le chemin à [[Quebrada de Culebrillas]] et à [[Carrière de sillar]]. Puis continuer la route vers Puno et la frontière bolivienne en s'arrêtant à [[Forêt de pierre d'Imata et Cascade de Pillones]]."
   },
   {
     "id": "ayacucho",
@@ -21,15 +35,15 @@
     "description": ""
   },
   {
-    "id": "carreterra-austral",
-    "nom": "Carreterra Austral",
+    "id": "carretera-austral",
+    "nom": "Carretera Austral",
     "pays": "Chili",
     "type": "route",
     "description": ""
   },
   {
-    "id": "cochabamba",
-    "nom": "Cochabamba",
+    "id": "rurrenabaque",
+    "nom": "Rurrenabaque",
     "pays": "Bolivie",
     "type": "ville",
     "description": ""
@@ -46,6 +60,18 @@
     "nom": "De Puno à Cuzco",
     "pays": "Pérou",
     "description": "Très belle route appelée la route du Soleil. Compter 9 heures de route. Point le plus haut : Col de la Raya à 4438m. Juliaca, sur le chemin, est une des villes les plus embouteillées du Pérou, éviter le centre-ville.\n\nDans l'ordre des arrêts : [[Aramu Muru]] (avant Puno), [[Lac Titicaca]], [[Sillustani]], [[Canyon de Tinajani]], [[Pallay Punchu]] et [[Checacupe]]."
+  },
+  {
+    "id": "cuzco-nazca",
+    "nom": "De Cuzco à Nazca",
+    "pays": "Pérou",
+    "description": ""
+  },
+  {
+    "id": "bariloche-chalten",
+    "nom": "De Bariloche à El Chalten",
+    "pays": "Argentine",
+    "description": "Longue route, environ 15 heures de route. Très peu d'arrêts importants. Passer quelques jours au [[Parc National Los Alerces]] sur le chemin, puis 8 heures de route plus tard à la [[Cueva de las manos]]. \n\nFaire le plein dès que possible et toujours avoir un jerricane d'essence supplémentaire. Certaines stations peuvent être à sec dans les petits villages.\n\nEnormément de vent sur cette route. Toujours se garer face au vent, notamment pour dormir la nuit."
   },
   {
     "id": "cuzco",
@@ -90,11 +116,11 @@
     "description": "Pour accéder à Chachapoyas, et revenir ensuite sur le littoral, ne pas prendre la route qui mène à Cajamarca (très dangereuse). Contourner par le Nord Ouest.\n\nAller à Chachapoyas implique un détour de 15 heures. Ne le faire que si on a le temps et l'envie de faire autant de km."
   },
   {
-    "id": "nord-du-perou",
-    "nom": "Nord du Pérou",
+    "nom": "Côte Pacifique Nord",
+    "id": "cote-pacifique-nord",
     "pays": "Pérou",
     "type": "cotier",
-    "description": ""
+    "description": "Le trajet de Lima vers la frontière équatorienne prend environ 18 heures de trajet. A faire à l'aller et au retour un mois plus tard. Faire la moitié des sites à l'aller et l'autre moitié au retour.\n\nSites touristiques du Sud au Nord : [[Ciudad Sagrada de Caral]], [[Cerro Cechin]] et [[Chankillo]] à Casma, [[Huaca del Sol et de la Luna]] et [[Chan Chan]] à Trujillo, [[Zaña]], [[Musée des Tombes Royales de Sipán]] et [[Pyramides de Tucume]] à Chiclayo.\n\nEn profiter pour visiter la ville de Trujillo et son centre historique.\n\nGoûter le King Kong, dessert traditionnel du Pérou dans la ville de Lambayeque, à côté de Chiclayo."
   },
   {
     "id": "paracas",
@@ -129,6 +155,20 @@
     "pays": "Argentine",
     "type": "archipel",
     "description": "Pour y accéder, prendre le ferry au détroit de Magellan. Entre 20 et 30 minutes la traversée, bateaux en continu toute la journée, pas besoin de réserver, environ 50 euros pour le van.\n\nDétaxe carburant. Beaucoup moins cher que dans le reste de l'Argentine.\n\nLe parc nationnal Terra des Fuego est compris dans le pass annuel des parcs argentins.\n\nLes activités à faire dans l'archipel : visite de [[Ushuaia]] et ses [[Randonnées autour d'Ushuaia]], [[Parc national Tierra del Fuego]], [[Parc Pingüino Rey]], [[Plongée en eau froide]]. En option, le trek Navarino. Compter entre 1 semaine et 10 jours sur l'île principale."
+  },
+  {
+    "id": "salta",
+    "nom": "Salta",
+    "pays": "Argentine",
+    "type": null,
+    "description": ""
+  },
+  {
+    "id": "san-carlos-de-bariloche",
+    "nom": "San Carlos de Bariloche",
+    "pays": "Argentine",
+    "type": null,
+    "description": ""
   },
   {
     "id": "uyuni",

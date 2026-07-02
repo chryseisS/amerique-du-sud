@@ -727,6 +727,38 @@
     ]
   },
   {
+    "numero": 35,
+    "nom": "Otaries des Galápagos",
+    "emoji": "🦭",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": ["Toutes les plages des Galápagos"],
+    "reconnaitre": "Deux espèces à distinguer.\n\nOtarie des Galápagos — la plus commune et la plus visible, sur toutes les plages de sable. Corps massif et musclé, museau pointu, mâles dotés d'un front bombé caractéristique. Pelage brun doré court. Mâles jusqu'à 250 kg, femelles 50 à 100 kg. Aucune peur de l'homme — s'installe littéralement sur les bancs publics, les quais, parfois sous les tables de restaurant à Puerto Ayora.\n\nOtarie à fourrure des Galápagos — plus petite, plus trapue, avec un pelage dense et épais (d'où son nom) et de grands yeux globuleux adaptés à la vision nocturne. Vit en zones rocheuses, falaises et grottes de lave plutôt que sur les plages de sable — plus discrète, plus solitaire, beaucoup moins facile à observer.",
+    "anecdoteCourte": "À Puerto Ayora, les otaries des Galápagos ont pris possession des bancs publics, des marches du marché aux poissons et même des bateaux amarrés — au point que les habitants ont fini par leur laisser la place. C'est probablement le seul endroit au monde où un mammifère marin sauvage squatte le mobilier urbain en toute impunité.",
+    "sections": [
+      {
+        "titre": "L'animal le plus accessible et le plus joueur de l'archipel",
+        "contenu": "L'otarie des Galápagos est de loin le pinnipède le plus facile à observer de l'archipel — environ 50 000 individus répartis sur la quasi-totalité des rivages. Sédentaire et grégaire, elle vit en colonies d'une trentaine d'individus, sur des plages de sable en pente douce où elle peut facilement entrer et sortir de l'eau.\n\nSa curiosité et son absence totale de crainte envers l'homme en font l'une des stars du snorkeling aux Galápagos : les jeunes individus s'approchent volontairement des nageurs, jouent avec les bulles, font des loopings autour des plongeurs et mordillent parfois gentiment les palmes par pur jeu. Sur terre, elle se prélasse sans complexe à quelques centimètres des visiteurs, sur les bancs, les quais, parfois en travers des sentiers — ce qui impose aux humains de la contourner plutôt que l'inverse."
+      },
+      {
+        "titre": "Le système du harem",
+        "contenu": "Les otaries des Galápagos sont polygames. Les mâles, appelés 'taureaux', établissent et défendent des territoires de reproduction — des harems pouvant compter de 5 à 25 femelles, sur terre comme dans les eaux peu profondes adjacentes. S'approprier et défendre un tel territoire demande entre 10 jours et 3 mois d'occupation continue, pendant lesquels le mâle patrouille sans relâche, repousse les rivaux à coups de morsures et de vocalisations agressives, et ne s'alimente quasiment pas — un investissement énergétique colossal.\n\nCette compétition crée mécaniquement un surplus de mâles célibataires, qui se regroupent pacifiquement dans des zones côtières moins favorables, en attendant une opportunité de conquérir leur propre territoire. Un mâle qui perd son harem reste parfois sur l'île mais devient nettement moins bruyant — une sorte de retrait social après la défaite."
+      },
+      {
+        "titre": "Une enfance prolongée et très protégée",
+        "contenu": "La saison de reproduction s'étend de mai à janvier selon les îles, avec un pic des naissances entre juillet et novembre, après une gestation d'environ 11 mois. La femelle donne naissance à un seul petit, qu'elle allaite pendant 11 à 12 mois — une durée exceptionnellement longue pour un mammifère marin. Le lien mère-petit est intense : chaque femelle reconnaît son petit à l'odorat et au cri parmi des dizaines d'individus dans la colonie, et refuse catégoriquement d'allaiter un chiot qui n'est pas le sien.\n\nLes petits non sevrés se regroupent dans des zones dites 'rotondes' — l'équivalent d'une crèche collective — où ils font la sieste, jouent et se nourrissent ensemble pendant que les mères partent chasser en mer. Un chiot peut continuer d'être nourri occasionnellement par sa mère jusqu'à trois ans après sa naissance, bien après le sevrage théorique — un attachement prolongé assez rare chez les pinnipèdes."
+      },
+      {
+        "titre": "L'autre otarie — plus discrète, plus menacée",
+        "contenu": "L'otarie à fourrure des Galápagos est une espèce distincte, beaucoup moins visible. Elle préfère les zones rocheuses escarpées et les grottes de lave aux plages de sable, se nourrit principalement la nuit — contrairement à l'otarie commune, active aussi bien le jour que la nuit — et vit en groupes plus restreints et plus dispersés.\n\nElle détient le taux de reproduction le plus bas de tous les phoques et otaries au monde : un seul petit, des intervalles longs entre naissances, et une mère qui reste auprès du nouveau-né toute la première semaine avant de repartir chasser. Sa population est plus difficile à estimer précisément en raison de son habitat reculé, mais elle est considérée comme plus vulnérable que l'otarie commune."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Les deux espèces d'otaries des Galápagos sont endémiques de l'archipel — elles n'existent nulle part ailleurs au monde, bien que l'otarie commune ressemble beaucoup à l'otarie de Californie, avec laquelle elle a longtemps été classée comme une simple sous-espèce.\n• Pendant les épisodes El Niño, quand les eaux se réchauffent et que les bancs de poissons disparaissent, la population d'otaries des Galápagos peut s'effondrer de plus de 50 % en quelques années — un effet documenté depuis les années 1980.\n• Une otarie qui allaite alterne ses séances de plongée pendant la journée et ses pauses en surface — un rythme calculé pour maximiser l'apport calorique au petit tout en évitant la surchauffe corporelle pendant les heures les plus chaudes.\n• Sur l'île de San Cristóbal, une colonie d'otaries s'est littéralement installée sur le quai principal du port et sur les bancs de la place centrale — un spectacle quotidien que les habitants ont fini par intégrer à leur routine."
+      }
+    ]
+  },
+  {
     "numero": 21,
     "nom": "Tortue géante des Galápagos",
     "emoji": "🐢",
@@ -1220,7 +1252,7 @@
     ]
   },
   {
-    "numero": 35,
+    "numero": 44,
     "nom": "Colibri géant",
     "emoji": "🐦",
     "photo": null,
@@ -1402,6 +1434,295 @@
       {
         "titre": "Le saviez-vous ?",
         "contenu": "• Le caïman à lunettes est le seul crocodilien capable de tolérer des eaux légèrement salées — certains individus fréquentent les zones d'estuaires proches des côtes.\n• Plusieurs femelles peuvent partager le même nid et le défendre ensemble — un comportement de garde coopérative rare chez les reptiles.\n• Le caïman noir a été chassé si intensivement au XXe siècle que sa population a chuté de 99 %. Sa récupération en Bolivie et au Pérou est l'un des succès de conservation les moins connus d'Amazonie."
+      }
+    ]
+  },
+  {
+    "numero": 40,
+    "nom": "Singe hurleur",
+    "emoji": "🐒",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Forêt amazonienne autour de Rurrenabaque",
+      "Pampa et selva boliviennes"
+    ],
+    "reconnaitre": "Le plus grand singe d'Amérique du Sud — jusqu'à 90 cm de long, queue préhensile non comprise, pour 6 à 10 kg chez les mâles. Corps trapu et musclé, pelage variant du roux flamboyant au noir selon l'espèce. Face noire entourée d'une barbe touffue. Gorge gonflée en permanence — une protubérance visible même au repos. Queue longue et préhensile, utilisée comme un cinquième membre pour se suspendre. Se déplace lentement dans la canopée, contrairement aux singes araignées beaucoup plus acrobatiques. Bien plus facile à entendre qu'à voir.",
+    "anecdoteCourte": "Son cri atteint 90 décibels — l'équivalent d'une tronçonneuse — et porte jusqu'à 5 km dans la forêt dense. C'est l'un des cris d'animaux terrestres les plus puissants au monde, produit par un singe qui dort en moyenne 15 heures par jour.",
+    "sections": [
+      {
+        "titre": "Une caisse de résonance dans la gorge",
+        "contenu": "Le secret du hurlement tient dans un seul os : l'hyoïde, situé à la base de la langue. Chez le singe hurleur, et particulièrement chez les mâles, cet os est creux et démesurément agrandi — jusqu'à 25 fois plus volumineux que chez les autres primates. Il fonctionne comme une caisse de résonance, transformant un simple grognement en un rugissement qui semble totalement disproportionné par rapport à la taille de l'animal.\n\nLe résultat est saisissant : un cri qui atteint 90 décibels, audible jusqu'à 5 km en forêt dense — la distance la plus longue jamais enregistrée pour la voix d'un primate terrestre. Les premiers voyageurs qui l'entendent sans le voir imaginent souvent un jaguar, voire quelque chose de plus menaçant encore. C'est en réalité l'un des animaux les plus pacifiques de la forêt."
+      },
+      {
+        "titre": "Hurler pour économiser de l'énergie",
+        "contenu": "Le hurlement n'est pas un acte de violence — c'est tout l'inverse. Le singe hurleur a un régime alimentaire pauvre en énergie, dominé par les feuilles, qui sont abondantes mais peu nutritives et difficiles à digérer. Conséquence directe : c'est l'un des primates les plus économes en mouvement du règne animal. Il dort jusqu'à 15 heures par jour et limite ses déplacements au strict minimum.\n\nDans ce contexte, se battre physiquement pour défendre un territoire serait un gaspillage d'énergie catastrophique. Le cri résout le problème : il permet de signaler la présence et l'étendue d'un groupe à distance, sans dépense physique, sans contact, sans risque de blessure. Chaque matin, dès les premières lueurs, les mâles dominants de plusieurs groupes voisins se répondent en choeur — une sorte de relevé de présence collectif qui évite les chevauchements de territoire. Le concert recommence souvent au crépuscule, et parfois en pleine nuit quand il pleut ou qu'un orage éclate."
+      },
+      {
+        "titre": "Vie de groupe & hiérarchie",
+        "contenu": "Le singe hurleur vit en groupes de taille variable selon les espèces et les régions — de 3 à 20 individus, généralement organisés autour d'un mâle dominant, plusieurs femelles et leur progéniture. Dans certains groupes, plusieurs mâles cohabitent sous l'autorité du dominant. Les mâles solitaires forment des bandes de célibataires qui rôdent en périphérie des territoires établis, à l'affût d'une opportunité de prendre le contrôle d'un groupe.\n\nLa prise de contrôle, quand elle a lieu, est brutale. Un groupe de mâles célibataires peut déloger collectivement le ou les mâles en place — et des cas documentés montrent qu'ils tuent alors les plus jeunes petits du groupe conquis. Ce comportement, appelé infanticide, n'est pas gratuit : une femelle qui allaite n'ovule pas, donc supprimer sa progéniture précédente accélère son retour en chaleur et permet au nouveau mâle de la féconder plus rapidement. C'est une stratégie reproductive cynique mais documentée chez plusieurs espèces de primates, dont le singe hurleur.\n\nLes jeunes ne restent pas indéfiniment dans leur groupe natal. Les mâles sub-adultes le quittent presque systématiquement avant d'atteindre la maturité — rester reviendrait à entrer en compétition directe avec leur propre père pour l'accès aux femelles. Ils rejoignent alors une bande de célibataires en attendant leur propre opportunité de conquête. Les jeunes femelles, elles, peuvent soit rester dans leur groupe natal soit le quitter pour un groupe voisin, selon la pression de compétition pour la nourriture — un groupe ne peut accueillir qu'un nombre limité de femelles avant que les ressources ne deviennent insuffisantes pour toutes.\n\nMalgré cette violence ponctuelle lors des changements de pouvoir, le quotidien du groupe reste globalement paisible : toilettage mutuel, jeux, contacts apaisants rythment les heures d'éveil entre deux siestes."
+      },
+      {
+        "titre": "Le jardinier silencieux de la canopée",
+        "contenu": "Bien que son régime soit majoritairement composé de feuilles, le singe hurleur consomme aussi des fruits, des fleurs, des bourgeons, et occasionnellement des œufs ou de petits invertébrés. Cette consommation de fruits en fait un disperseur de graines important : il avale les fruits entiers, digère la pulpe, et rejette les graines intactes loin de l'arbre parent, contribuant à la régénération de la forêt sur de longues distances.\n\nSa présence dans une zone est d'ailleurs un bon indicateur de la santé de l'écosystème — les singes hurleurs sont sensibles à la fragmentation forestière et disparaissent rapidement des zones trop perturbées par la déforestation. Là où on les entend hurler à l'aube, la forêt est généralement en bon état."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Seuls les mâles produisent le hurlement caractéristique — les femelles restent comparativement discrètes, bien qu'elles puissent émettre des vocalisations de moindre intensité.\n• Le singe hurleur déteste la pluie et le signale bruyamment : un orage soudain déclenche souvent une session de hurlements collectifs, le groupe entier se recroquevillant ensuite dans les branches pour attendre que ça passe.\n• Dans certaines cultures locales, l'os hyoïde hypertrophié du singe hurleur était récupéré après sa mort et utilisé comme récipient traditionnel — une pratique aujourd'hui marginale.\n• À Rurrenabaque, on entend généralement les singes hurleurs bien avant de les apercevoir — leur concert matinal, vers 6h, est l'un des sons les plus mémorables et les plus reconnaissables de toute l'Amazonie."
+      }
+    ]
+  },
+  {
+    "numero": 41,
+    "nom": "Anaconda",
+    "emoji": "🐍",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Pampa du Yacuma (Rurrenabaque, Bolivie)",
+      "Marécages et rivières lentes de l'Amazonie bolivienne"
+    ],
+    "reconnaitre": "Le serpent le plus lourd du monde — pas le plus long, mais le plus massif. Femelles 6 à 8 m pour 70 à 220 kg, mâles plus petits (3 à 5 m). Corps épais et puissant pouvant atteindre 40 cm de diamètre. Peau vert olive foncé virant au jaune sur le ventre, couverte de grandes taches noires arrondies — un camouflage redoutable dans la végétation aquatique. Yeux et narines positionnés tout en haut de la tête, bande noire reliant l'œil à la mâchoire. Dans l'eau, seuls ces points dépassent à la surface — le reste du corps est invisible.",
+    "anecdoteCourte": "Dans la région du Béni, où se trouve Rurrenabaque, vit une espèce d'anaconda à part entière, découverte et décrite seulement en 2002 — l'anaconda du Béni. Plus petite que l'anaconda vert classique, elle n'existe officiellement nulle part ailleurs au monde que dans cette région précise de Bolivie.",
+    "sections": [
+      {
+        "titre": "Le plus lourd, pas le plus long",
+        "contenu": "L'anaconda vert dispute au python réticulé d'Asie le titre de plus grand serpent du monde — mais sur des critères différents. Le python réticulé peut être plus long (jusqu'à 10 m), mais l'anaconda vert est nettement plus massif et plus lourd : jusqu'à 250 kg pour les plus grandes femelles, avec un diamètre corporel pouvant dépasser 30 cm. C'est, sans contestation, le serpent le plus lourd de la planète.\n\nLe dimorphisme sexuel est extrême — l'un des plus marqués de tous les vertébrés terrestres. Les femelles reproductrices sont au moins cinq fois plus grandes que les mâles. Cette différence s'explique par les besoins de la reproduction : une grande femelle peut porter et nourrir une portée beaucoup plus nombreuse, et sa taille la rend moins vulnérable pendant les longues semaines d'accouplement où elle est immobilisée par plusieurs mâles."
+      },
+      {
+        "titre": "Un chasseur à l'affût, invisible dans l'eau",
+        "contenu": "L'anaconda passe l'essentiel de sa vie dans l'eau — rivières lentes, marécages, savanes inondées. C'est un nageur rapide (jusqu'à 10 km/h) mais lent et vulnérable sur terre, ce qui explique pourquoi il évite de s'en éloigner. Il chasse en embuscade : immobile, presque entièrement immergé, seuls les yeux et les narines hors de l'eau, il attend qu'une proie s'approche pour boire ou traverser.\n\nLa capture est foudroyante. L'anaconda mord pour s'agripper avec ses dents recourbées, puis enroule son corps autour de la proie en quelques secondes. Il ne l'écrase pas à proprement parler — il resserre son étreinte à chaque expiration de la victime, l'empêchant progressivement de réinspirer, jusqu'à l'asphyxie. S'il chasse dans l'eau, il peut aussi simplement maintenir la proie immergée jusqu'à la noyade. Sa mâchoire inférieure se désarticule pour avaler des proies bien plus larges que sa propre tête — capybaras, caïmans de taille moyenne, cervidés. Une fois le repas englouti, il peut rester immobile plusieurs jours, parfois plusieurs semaines, le temps de digérer — une phase pendant laquelle il est lui-même vulnérable, alourdi et lent."
+      },
+      {
+        "titre": "La reproduction la plus étrange du monde des reptiles",
+        "contenu": "La reproduction de l'anaconda est l'une des plus singulières du règne animal. Les femelles sont polyandres : plusieurs mâles — parfois jusqu'à 13 — convergent vers une même femelle réceptive et forment ce qu'on appelle une 'boule d'accouplement'. Les mâles s'enroulent autour de la femelle en une masse de corps entremêlés, cherchant à atteindre son cloaque avec leur propre queue, rivalisant physiquement pour l'accès. L'épisode peut durer plusieurs semaines, pendant lesquelles la femelle s'accouple avec plusieurs mâles successifs.\n\nL'anaconda est ovovivipare — contrairement à la plupart des serpents, les œufs se développent et éclosent à l'intérieur du corps de la mère, qui donne ensuite naissance à des petits déjà formés, vivants et autonomes. Une portée peut compter jusqu'à 50 petits, mesurant 60 à 96 cm à la naissance. Dès leur premier souffle, ils sont livrés à eux-mêmes — aucun soin parental. Le taux de survie est faible : ils sont la proie de caïmans, de rapaces et même d'anacondas adultes, parfois cannibales envers leurs congénères."
+      },
+      {
+        "titre": "Une réputation de mangeur d'hommes largement exagérée",
+        "contenu": "L'anaconda traîne depuis des siècles une réputation de tueur d'humains, alimentée par le folklore amazonien et le cinéma hollywoodien. La réalité scientifique est bien plus nuancée : aucune attaque mortelle sur un être humain adulte n'a jamais été formellement documentée par la communauté scientifique. Les rares cas répertoriés d'attaques sérieuses sont des incidents isolés, souvent liés à une confusion de l'animal ou à une provocation directe.\n\nLes communautés indigènes d'Amazonie ont longtemps attribué à l'anaconda des pouvoirs magiques et spirituels — il est parfois appelé 'yacumama', la mère des eaux, un esprit gardien des rivières dans certaines traditions. Cette dimension mythologique a largement contribué à sa réputation surdimensionnée, bien plus que la réalité de son comportement envers l'homme, qui l'évite généralement plutôt que de l'attaquer."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le département du Béni, où se trouve Rurrenabaque, abrite une espèce d'anaconda à part entière — Eunectes beniensis, l'anaconda du Béni — décrite scientifiquement seulement en 2002. Plus petite que l'anaconda vert classique, elle est endémique de cette région précise et de nulle part ailleurs au monde.\n• Son nom viendrait du tamoul 'anaikondran' (tueur d'éléphant) ou du cinghalais 'henakanday' (serpent tonnerre) — des origines étonnamment éloignées de son aire de répartition réelle, probablement liées à une vague ressemblance avec les pythons asiatiques relevée par les premiers naturalistes européens.\n• Il peut rester en apnée complète entre 10 et 20 minutes sous l'eau — suffisant pour échapper à un danger ou pour attendre patiemment qu'une proie s'approche sans être détecté.\n• Lors des tours en pampa à Rurrenabaque, les guides locaux savent localiser les anacondas en sondant la végétation des berges à mains nues — une pratique impressionnante mais qui nécessite une vraie expertise, à ne jamais tenter seul."
+      }
+    ]
+  },
+  {
+    "numero": 42,
+    "nom": "Dauphin rose",
+    "emoji": "🐬",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Pampa du Yacuma (Rurrenabaque, Bolivie)",
+      "Rivières de l'Amazonie bolivienne"
+    ],
+    "reconnaitre": "Le plus grand dauphin d'eau douce au monde — jusqu'à 2,8 m et 180 kg. Corps massif et flexible, sans nageoire dorsale proéminente (juste une petite crête), long rostre fin garni de dents pointues, melon bombé sur le front. Couleur très variable : gris ardoisé à la naissance, devenant progressivement rose saumon à rose vif avec l'âge — les mâles âgés sont souvent les plus roses, parfois presque fuchsia. La couleur s'intensifie aussi avec l'excitation. Nage lentement en surface, remonte respirer toutes les 2 à 4 minutes, peu farouche envers les bateaux.",
+    "anecdoteCourte": "Dans le folklore amazonien, le boto se transforme la nuit en bel homme élégant, vêtu de blanc, pour séduire les femmes des villages lors des fêtes — puis disparaît avant l'aube en replongeant dans la rivière. Aujourd'hui encore, une grossesse inexpliquée est parfois attribuée au boto.",
+    "sections": [
+      {
+        "titre": "Un dauphin façonné par des millions d'années d'eau douce",
+        "contenu": "Le boto appartient à une lignée de dauphins de rivière extrêmement ancienne — apparue il y a environ 25 millions d'années, à une époque où une partie de l'Amazonie était encore recouverte par une mer intérieure. Quand cette mer s'est retirée, les ancêtres marins du boto se sont retrouvés piégés dans le réseau fluvial naissant et s'y sont adaptés définitivement, perdant tout contact avec l'océan.\n\nCette adaptation explique son anatomie si différente des dauphins marins. Contrairement à ses cousins océaniques aux vertèbres cervicales fusionnées, le boto a des vertèbres du cou non soudées, ce qui lui donne une flexibilité remarquable : il peut tourner la tête à presque 90 degrés, une capacité quasi unique chez les cétacés. Son corps est plus massif et moins hydrodynamique que celui d'un dauphin marin — un compromis qui privilégie la maniabilité dans un environnement encombré de racines, de troncs immergés et de forêts inondées, plutôt que la vitesse en eau libre."
+      },
+      {
+        "titre": "Naviguer à l'aveugle dans une eau opaque",
+        "contenu": "Les eaux amazoniennes sont souvent si chargées de sédiments ou de tanins que la visibilité y est quasi nulle, parfois inférieure à un mètre. Le boto compense cette cécité fonctionnelle par un sonar redoutablement précis : l'écholocation. Son melon proéminent sur le front concentre et dirige des clics sonores ultra-rapides, dont l'écho lui permet de cartographier son environnement en temps réel — la position des proies, des obstacles, des berges — sans avoir besoin d'y voir clair.\n\nCette technique, combinée à son rostre long et fin et à sa flexibilité cervicale exceptionnelle, lui permet de chasser efficacement dans les forêts inondées (várzeas) pendant la saison des pluies, slalomant entre les troncs et les racines à la recherche de poissons réfugiés dans la végétation immergée. Son régime est très varié — plus de 50 espèces de poissons, dont des piranhas et des poissons-chats, complétées de crustacés et occasionnellement de jeunes tortues d'eau douce."
+      },
+      {
+        "titre": "Solitaire, curieux, et étonnamment joueur",
+        "contenu": "Contrairement aux dauphins marins qui vivent souvent en grands groupes très sociaux, le boto est généralement solitaire ou se déplace en couple. Des regroupements temporaires de plusieurs individus — parfois jusqu'à six — sont observés occasionnellement, et les chercheurs pensent qu'ils fonctionnent comme des nurseries collectives où plusieurs femelles surveillent et protègent leurs petits ensemble.\n\nMalgré cette vie plutôt solitaire, le boto manifeste une curiosité et une ludicité surprenantes : des individus ont été observés en train de jouer avec des herbes flottantes, des poissons morts ou divers objets dérivants, simplement pour le plaisir apparent du jeu. Il est aussi peu farouche envers l'homme — il s'approche volontiers des pirogues et des nageurs, ce qui rend l'observation à Rurrenabaque relativement accessible comparée à d'autres dauphins plus craintifs."
+      },
+      {
+        "titre": "Une reproduction lente, un talon d'Achille",
+        "contenu": "La reproduction du boto suit le rythme des crues amazoniennes. Les accouplements ont lieu pendant la saison sèche (mai à juillet), quand le niveau des eaux baisse et que les dauphins se concentrent dans des chenaux plus étroits, plus faciles à parcourir pour les mâles en quête de partenaires. Après une gestation d'environ 11 mois, la femelle donne naissance à un seul petit, mesurant 70 à 80 cm, qu'elle allaite pendant environ un an. Le jeune ne devient pleinement autonome qu'entre 2 et 3 ans — ce qui explique l'intervalle exceptionnellement long entre deux naissances : 4 à 5 ans chez une même femelle.\n\nCette lenteur reproductive, normale pour un grand mammifère longévif, devient un problème majeur face aux menaces actuelles : chaque individu perdu représente un coup dur disproportionné pour le renouvellement de la population, qui ne peut tout simplement pas se régénérer aussi vite qu'elle décline."
+      },
+      {
+        "titre": "Une espèce qui s'effondre silencieusement",
+        "contenu": "Le boto traverse une crise démographique sérieuse. Depuis les années 1980, les populations de dauphins de rivière d'Amazonie ont chuté d'environ 73 %. Les causes sont multiples et se cumulent : les barrages hydroélectriques fragmentent l'habitat et perturbent les routes migratoires des poissons dont il dépend ; la déforestation dégrade la qualité de l'eau ; les filets de pêche causent des noyades accidentelles ; et, plus grave encore, certains pêcheurs chassent délibérément le boto pour utiliser sa chair comme appât pour la pêche au piracatinga, un poisson-chat très consommé au Brésil — une pratique illégale mais persistante.\n\nUne étude de 2019 a révélé des taux alarmants de mercure dans les tissus des botos, contamination issue de l'orpaillage illégal qui empoisonne les rivières amazoniennes. Étant au sommet de la chaîne alimentaire, le boto concentre ces polluants à des niveaux dangereux. En novembre 2023, onze pays d'Asie et d'Amérique du Sud ont signé un accord historique pour protéger les dernières populations de dauphins de rivière au monde — un geste encourageant, mais dont les effets concrets restent à mesurer."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Sa couleur rose n'est pas un pigment fixe : elle résulte d'une vascularisation cutanée accrue et de l'usure progressive des tissus avec l'âge. Un boto peut donc rosir visiblement au fil des décennies — les individus les plus âgés et les mâles dominants sont souvent les plus spectaculairement roses.\n• La légende du boto séducteur est si ancrée dans la culture amazonienne qu'elle a généré une expression encore utilisée aujourd'hui au Brésil : attribuer une grossesse inexpliquée 'au boto' était une façon socialement acceptable d'éviter d'en désigner le vrai père.\n• Paradoxalement, ces légendes ont longtemps protégé l'espèce — de nombreuses communautés évitaient de chasser ou de blesser le boto par crainte de représailles surnaturelles. Cette protection culturelle s'érode aujourd'hui face à la pression économique du braconnage pour appât.\n• À Rurrenabaque, les tours en pampa permettent souvent de nager à proximité immédiate de botos curieux — une expérience rare, car peu d'endroits au monde permettent une telle proximité avec un dauphin sauvage."
+      }
+    ]
+  },
+  {
+    "numero": 43,
+    "nom": "Tapir",
+    "emoji": "🐾",
+    "photo": null,
+    "rarete": 3,
+    "ouLeTrouver": [
+      "Selva de Madidi (près de Rurrenabaque, Bolivie)",
+      "Forêt amazonienne profonde",
+      "Près des cours d'eau et marécages"
+    ],
+    "reconnaitre": "Le plus gros mammifère terrestre d'Amérique du Sud — jusqu'à 2 m de long et 300 kg. Corps massif, trapu, peau épaisse brun-gris à noir, museau allongé en petite trompe préhensile et mobile. Crinière courte et raide sur la nuque. Pattes courtes terminées par plusieurs doigts écartés, adaptées aux sols meubles. Silhouette souvent décrite comme un croisement entre un cochon et un éléphant miniature — alors qu'il n'a aucun lien de parenté avec ce dernier. Quasi exclusivement nocturne et solitaire : la meilleure chance de le voir est en bord de rivière, à l'aube ou au crépuscule, parfois en train de nager avec seule la trompe émergeant comme un tuba.",
+    "anecdoteCourte": "Pour échapper à un jaguar, le tapir ne court pas — il plonge. Sa stratégie de survie tient en un seul réflexe : foncer vers le point d'eau le plus proche, où son excellente capacité de nage lui permet de distancer ou de noyer la menace. Sa trompe sert alors littéralement de tuba pour respirer en restant immergé.",
+    "sections": [
+      {
+        "titre": "Ni cochon, ni éléphant — un cousin du cheval",
+        "contenu": "Sa silhouette trompeuse — corps massif, museau en trompe — fait souvent croire à une parenté avec l'éléphant. C'est une fausse piste totale : le tapir appartient à l'ordre des périssodactyles, le même groupe que le cheval et le rhinocéros. Sa lignée est ancienne, apparue il y a environ 20 millions d'années, et a remarquablement peu changé depuis — le tapir est souvent qualifié de 'fossile vivant', une forme corporelle qui a fait ses preuves sur des millions d'années sans nécessiter de modification majeure.\n\nSa petite trompe, contrairement à celle de l'éléphant, n'a pas de squelette osseux interne — c'est un prolongement musculaire et charnu du nez et de la lèvre supérieure, extrêmement mobile et sensible. Il l'utilise pour attraper des feuilles et des fruits hors de portée directe de la bouche, palper son environnement (sa vue est médiocre), et — fait remarquable — comme tuba quand il marche immergé au fond d'une rivière ou d'un marécage."
+      },
+      {
+        "titre": "Une vie organisée autour de l'eau et de l'obscurité",
+        "contenu": "Le tapir est solitaire, discret et presque exclusivement nocturne. Le jour, il se cache dans la végétation dense, immobile et silencieux, comptant sur son odorat exceptionnel et son ouïe fine pour détecter tout danger malgré sa vision médiocre. La nuit tombée, il sort se nourrir, parcourant des sentiers fixes qu'il emprunte invariablement et qu'il marque par des jets d'urine et des frottements de glandes faciales — un territoire qu'il connaît par cœur plutôt qu'il ne défend activement.\n\nL'eau structure entièrement son mode de vie. Il ne s'en éloigne jamais longtemps : elle lui sert à se rafraîchir, à se débarrasser des parasites cutanés en s'immergeant longuement dans la boue ou les rivières, et surtout de dernier refuge face au danger. Excellent nageur malgré sa silhouette lourde, il peut traverser des cours d'eau, plonger et se déplacer au fond pendant plusieurs minutes, sa trompe affleurant la surface comme un tuba. Face à un jaguar — son seul vrai prédateur naturel avec l'homme — sa réaction est systématique : foncer vers le point d'eau le plus proche plutôt que de fuir en terrain découvert."
+      },
+      {
+        "titre": "Le jardinier de la forêt amazonienne",
+        "contenu": "Le tapir consomme une variété impressionnante de végétaux — plus de 300 espèces différentes selon les études menées au Brésil — feuilles, jeunes pousses, écorces tendres, plantes aquatiques et surtout fruits, qu'il peut engloutir en grande quantité (30 à 40 kg de nourriture par jour). Son rôle écologique dépasse largement la simple alimentation : en avalant des fruits entiers, il ingère leurs graines, qu'il transporte ensuite sur de longues distances avant de les expulser intactes dans ses excréments.\n\nCe service de dispersion est crucial pour la régénération forestière, notamment celle des grands arbres à graines volumineuses que peu d'autres animaux peuvent disperser efficacement. Des chercheurs étudient aujourd'hui le rôle potentiel du tapir dans la reforestation naturelle des zones brûlées par les incendies amazoniens — ses déjections riches en nutriments et en graines pourraient accélérer la régénération de zones dévastées, en synergie avec les bousiers qui enterrent une partie de ces excréments et, avec eux, les graines qu'ils contiennent."
+      },
+      {
+        "titre": "Une reproduction trop lente pour suivre les menaces",
+        "contenu": "Mâles et femelles ne se croisent que pour s'accoupler, sans saison fixe — les rencontres peuvent avoir lieu toute l'année. Après une gestation exceptionnellement longue de 13 mois, la femelle donne naissance à un seul petit, pesant environ 7 kg. Le nouveau-né arbore une livrée brun foncé striée de bandes et taches blanches horizontales, un camouflage disruptif qui imite les jeux d'ombre et de lumière du sous-bois — une protection efficace contre les prédateurs pendant ses premiers mois de vulnérabilité. Ce pelage de jeune disparaît progressivement vers 6 mois, remplacé par le pelage uni de l'adulte.\n\nCette reproduction lente — un seul petit tous les deux ans en moyenne — rend l'espèce structurellement vulnérable : chaque tapir perdu à la chasse ou à la déforestation représente une perte que la population met des années à compenser. C'est l'une des raisons principales pour lesquelles le tapir terrestre est aujourd'hui classé vulnérable par l'UICN."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le tapir terrestre est le plus gros mammifère terrestre natif d'Amérique du Sud — plus gros qu'un jaguar, plus gros qu'un puma. Sa taille ne le protège pourtant pas d'une discrétion presque totale : peu de visiteurs en Amazonie ont la chance d'en apercevoir un, malgré sa présence réelle.\n• Sa peau épaisse, notamment sur la nuque et le dos, le protège efficacement des morsures de prédateurs — elle peut faire plus de 2 cm d'épaisseur à certains endroits, presque comme une armure naturelle.\n• Il existe quatre espèces de tapirs dans le monde — trois en Amérique du Sud et centrale, une seule en Asie du Sud-Est (le tapir de Malaisie, reconnaissable à son pelage noir et blanc tranché). Une distribution géographique étonnamment fragmentée pour un genre aussi ancien.\n• Une espèce de tapir supplémentaire, le tapir des montagnes amazoniennes, n'a été formellement décrite par la science qu'en 2013 — preuve que l'Amazonie continue de révéler des grandes espèces de mammifères encore mal connues."
+      }
+    ]
+  },
+  {
+    "numero": 45,
+    "nom": "Paresseux",
+    "emoji": "🦥",
+    "photo": null,
+    "rarete": 2,
+    "ouLeTrouver": [
+      "Selva de Madidi (près de Rurrenabaque, Bolivie)",
+      "Canopée de la forêt amazonienne",
+      "Arbres Cecropia en bordure de clairière"
+    ],
+    "reconnaitre": "Petit mammifère arboricole de 50 à 75 cm, 4 à 9 kg, suspendu en permanence sous les branches, dos vers le bas. Pelage long et grossier, gris-brun à reflets verdâtres selon la saison des pluies. Tête ronde et petite, museau court, visage figé dans une expression qui ressemble à un sourire permanent. Membres antérieurs nettement plus longs que les postérieurs, terminés par de longues griffes recourbées (2 ou 3 selon l'espèce) servant de crochets. Quasiment immobile la plupart du temps — repérable surtout par sa silhouette suspendue, parfois confondue avec un nid de termites ou une masse de feuilles mortes.",
+    "anecdoteCourte": "Une fois par semaine seulement, le paresseux descend de son arbre pour déféquer au sol — l'un des moments les plus dangereux et les plus mystérieux de sa vie. Au Costa Rica, des chercheurs ont estimé que plus de la moitié des morts de paresseux survient précisément lors de cette descente hebdomadaire. Pourquoi prendre un tel risque plutôt que de simplement lâcher prise depuis sa branche ? Personne n'a encore de réponse définitive.",
+    "sections": [
+      {
+        "titre": "Le mammifère le plus économe en énergie du monde",
+        "contenu": "Le paresseux a poussé l'économie d'énergie à un niveau inégalé chez les mammifères. Son métabolisme est environ deux fois plus lent que celui d'un mammifère de taille comparable, et sa température corporelle fluctue entre 23 et 32°C au cours de la journée — une forme de régulation thermique partielle, presque reptilienne, rare chez les mammifères. Il dort entre 12 et 18 heures par jour, et le reste du temps, il bouge à peine : sa vitesse de déplacement dans les arbres dépasse rarement 10 mètres par minute, soit environ 0,6 km/h.\n\nCette lenteur extrême n'est pas un handicap — c'est une stratégie de survie à part entière. Son régime alimentaire, presque exclusivement composé de feuilles coriaces et pauvres en calories, ne fournit tout simplement pas assez d'énergie pour un mode de vie actif. Plutôt que de chercher plus de nourriture, le paresseux a évolué pour en avoir besoin de moins. Sa lenteur le rend aussi quasiment invisible aux yeux des prédateurs aériens comme l'aigle harpie, qui chassent en repérant le mouvement plutôt que la forme."
+      },
+      {
+        "titre": "Un mois pour digérer une feuille",
+        "contenu": "Le système digestif du paresseux est à la mesure du reste : d'une lenteur extrême. Son estomac, divisé en plusieurs compartiments comme celui d'une vache, peut représenter jusqu'à un tiers du volume total de son corps. La digestion d'un seul repas de feuilles peut prendre jusqu'à un mois, le temps que des bactéries spécialisées décomposent la cellulose coriace pour en extraire le moindre nutriment disponible.\n\nCette digestion ultra-lente a une conséquence directe et visible : le paresseux ne défèque qu'une fois par semaine environ, et lorsqu'il le fait, il peut évacuer jusqu'à 30 % de son propre poids corporel en une seule fois — une opération longue, qui ressemble davantage à un accouchement qu'à un simple passage aux toilettes."
+      },
+      {
+        "titre": "Le mystère de la descente hebdomadaire",
+        "contenu": "Voici l'énigme la plus étudiée et la moins résolue du comportement du paresseux : pourquoi descend-il au sol pour déféquer, au lieu de simplement laisser tomber ses excréments depuis sa branche comme le font la plupart des mammifères arboricoles ? Cette descente coûte cher — environ 8 % de l'énergie quotidienne tirée de son alimentation — et l'expose directement aux prédateurs terrestres, hors de la protection de la canopée.\n\nPlusieurs hypothèses s'affrontent sans consensus scientifique tranché. La plus étudiée concerne la relation mutualiste entre le paresseux, les algues de son pelage et les papillons de nuit spécialisés qui y vivent : en déposant ses excréments au sol près de la base de son arbre, le paresseux offrirait un site de ponte aux papillons, dont les larves se développent dans les déjections. Les adultes remontent ensuite coloniser le pelage du paresseux, où leurs propres déjections fertiliseraient les algues qui y poussent — des algues que le paresseux consomme occasionnellement en se léchant, un complément nutritif appréciable dans un régime par ailleurs très pauvre. D'autres chercheurs évoquent un comportement ancestral simplement jamais éliminé par la sélection naturelle, faute d'un coût suffisant pour qu'il disparaisse. Le débat reste ouvert."
+      },
+      {
+        "titre": "Un jardin vivant sur le dos",
+        "contenu": "Le pelage du paresseux n'est pas un simple manteau de poils — c'est un écosystème miniature à part entière. Des rainures spécifiques dans la structure de chaque poil retiennent l'humidité et permettent la croissance d'algues vertes symbiotiques, qui donnent au pelage sa teinte verdâtre caractéristique pendant la saison des pluies. Cette coloration constitue un camouflage redoutablement efficace contre les prédateurs aériens.\n\nCe pelage abrite également une faune impressionnante d'arthropodes spécialisés — certaines études en ont recensé plusieurs centaines d'espèces différentes sur un seul individu, dont de nombreux coléoptères et papillons de nuit qui ne vivent nulle part ailleurs que dans la fourrure d'un paresseux. C'est l'un des exemples de symbiose les plus complexes et les plus étudiés chez un mammifère sauvage."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• L'expression faciale figée du paresseux, souvent interprétée comme un sourire permanent, est en réalité une simple conséquence de sa morphologie fixe — elle ne reflète aucun état émotionnel particulier, qu'il soit détendu ou stressé.\n• Le paresseux à trois doigts possède 9 vertèbres cervicales, contre 7 chez la quasi-totalité des autres mammifères (humains compris) — une anomalie qui lui permet de tourner la tête à près de 270 degrés sans bouger le reste du corps.\n• Sa vitesse maximale au sol, en cas de fuite, ne dépasse pas 0,24 km/h — le record de lenteur absolu du règne animal, ce qui rend chaque descente au sol particulièrement risquée.\n• Le paresseux peut vivre 30 à 50 ans dans la nature, une longévité remarquable pour un mammifère de cette taille — une autre conséquence de son métabolisme extraordinairement économe, qui use son organisme bien plus lentement que chez la plupart des espèces comparables."
+      }
+    ]
+  },
+  {
+    "numero": 46,
+    "nom": "Aras",
+    "emoji": "🦜",
+    "photo": null,
+    "rarete": 1,
+    "ouLeTrouver": [
+      "Selva de Madidi (près de Rurrenabaque, Bolivie)",
+      "Canopée et forêts-galeries amazoniennes",
+      "Berges argileuses"
+    ],
+    "reconnaitre": "Deux espèces à connaître en Amazonie bolivienne.\n\nAra rouge — plumage rouge écarlate dominant, larges plumes alaires jaunes et bleues, longue queue effilée. Environ 85 cm dont plus de la moitié en queue. Vol direct et puissant, cri perçant et rauque.\n\nAra bleu — dessus bleu turquoise éclatant, dessous jaune-or vif, face blanche striée de fines plumes noires, collier noir. Légèrement plus petit que l'ara rouge. Niche préférentiellement dans les zones inondables, contrairement à l'ara rouge qui préfère la forêt non inondée. Toujours vus en couple ou en petit groupe, les deux espèces sont parmi les oiseaux les plus bruyants et les plus visibles de la canopée amazonienne.",
+    "anecdoteCourte": "Le couple d'aras vole toujours côte à côte, si proche que les ailes du mâle et de la femelle se touchent parfois en plein vol. Cette fidélité n'est pas un hasard : une fois formé, le couple reste uni jusqu'à la mort de l'un des deux, parfois pendant plus de 50 ans.",
+    "sections": [
+      {
+        "titre": "Un bec capable de casser des noix de palmier",
+        "contenu": "Le bec de l'ara est l'un des outils les plus puissants du monde aviaire. Massif, courbé, capable d'exercer une pression considérable, il lui permet de casser des noix et des graines que pratiquement aucun autre animal de la forêt ne peut ouvrir — y compris les noix de palmier les plus dures. Cette capacité unique lui donne accès à une source de nourriture que la plupart des autres frugivores ne peuvent pas exploiter, réduisant la compétition alimentaire directe avec les singes et autres oiseaux.\n\nLeur langue, épaisse et musclée, leur sert d'outil de précision pour manipuler les graines une fois la coque brisée — un geste que l'on peut observer facilement quand un ara mange tranquillement perché, tenant souvent sa nourriture dans une patte comme le ferait une main."
+      },
+      {
+        "titre": "Manger de la terre pour digérer des fruits toxiques",
+        "contenu": "L'un des spectacles les plus impressionnants à observer en Amazonie est le rassemblement des aras — parfois mêlés à d'autres espèces de perroquets — sur les berges d'argile exposée le long des rivières, appelées 'collpas' ou 'clay licks'. Plusieurs dizaines, parfois plusieurs centaines d'oiseaux s'y regroupent à heures fixes, généralement tôt le matin, pour ingérer de grandes quantités d'argile.\n\nCe comportement, longtemps mystérieux, a une explication précise : une bonne partie des fruits que les aras consomment ne sont pas encore mûrs et contiennent des toxines végétales destinées à dissuader les herbivores avant la pleine maturation. L'argile, riche en minéraux, neutralise une partie de ces toxines dans le système digestif des oiseaux, leur permettant de manger des fruits qu'un autre animal éviterait. C'est un comportement risqué — ces rassemblements en terrain découvert exposent les oiseaux aux prédateurs — mais suffisamment avantageux pour s'être maintenu et même structuré socialement, certains individus surveillant les environs pendant que d'autres se nourrissent."
+      },
+      {
+        "titre": "Une vie sociale en deux temps",
+        "contenu": "Les aras vivent en couples très fusionnels, visibles de loin par leur synchronisation de vol — les deux partenaires volent côte à côte, parfois ailes se touchant, et se déplacent rarement l'un sans l'autre. Ces couples se regroupent en dehors de la saison de reproduction en groupes familiaux plus larges, parfois jusqu'à vingt individus ou plus, qui partagent les mêmes dortoirs nocturnes — souvent de très grands arbres ou des forêts de palétuviers utilisés nuit après nuit, parfois pendant des générations.\n\nCe regroupement collectif a une fonction de protection évidente face aux prédateurs comme l'aigle harpie : plus le groupe est nombreux, plus la vigilance collective est efficace. Au lever et au coucher du soleil, on observe souvent des déplacements de groupe spectaculaires entre les dortoirs et les sites d'alimentation — des vols groupés et bruyants qui traversent le ciel amazonien à heures quasi fixes."
+      },
+      {
+        "titre": "Reproduction : un investissement long et fidèle",
+        "contenu": "La saison de reproduction commence généralement en saison sèche ou juste avant le retour des pluies. Le couple choisit une cavité d'arbre, souvent en hauteur, qu'il réutilise parfois sur plusieurs années si elle reste disponible et sûre. La femelle pond 2 à 4 œufs et assure seule l'incubation pendant environ 25 jours, pendant que le mâle assure son ravitaillement en nourriture.\n\nLes poussins développent leurs premières plumes après environ 3 semaines mais ne quittent le nid que vers 12 à 14 semaines — un développement long comparé à la majorité des oiseaux, qui reflète la taille et l'intelligence relativement élevée de ces perroquets. La fidélité du couple, une fois établie, dure généralement toute la vie de l'oiseau — et les aras peuvent vivre jusqu'à 50 ans, parfois davantage en captivité."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Les aras figurent parmi les oiseaux les plus intelligents du monde — leur capacité d'apprentissage vocal et de résolution de problèmes rivalise avec celle de certains primates, ce qui explique en partie leur popularité (et malheureusement leur exploitation) comme animaux de compagnie.\n• L'ara hyacinthe, le plus grand ara du monde (jusqu'à 1 m), a vu sa population chuter de 100 000 à environ 2 000 individus en quelques décennies à cause du commerce illégal et de la chasse pour ses plumes.\n• Le bec et les pattes des aras sont aussi habiles l'un que l'autre — ils utilisent fréquemment une patte comme une main pour porter la nourriture à leur bec, une dextérité rare chez les oiseaux.\n• Sur les berges argileuses, l'heure de la collpa est souvent prévisible et certains lodges en Amazonie bolivienne organisent des sorties matinales spécifiquement pour assister à ce rassemblement — l'un des spectacles ornithologiques les plus spectaculaires du continent."
+      }
+    ]
+  },
+  {
+    "numero": 47,
+    "nom": "Tamanoir",
+    "emoji": "🐾",
+    "photo": null,
+    "rarete": 3,
+    "ouLeTrouver": [
+      "Selva de Madidi (près de Rurrenabaque, Bolivie)",
+      "Prairies ouvertes et lisières forestières",
+      "Pampa du Yacuma (occasionnellement)"
+    ],
+    "reconnaitre": "Mammifère terrestre massif et reconnaissable entre tous — 1,8 à 2,2 m de long, queue touffue comprise, 27 à 41 kg. Long museau tubulaire qui ressemble à une trompe sans en être une, petites oreilles, minuscule bouche sans dents. Pelage gris-brun avec une large bande noire bordée de blanc qui traverse les flancs en diagonale, des épaules vers le ventre — un motif qui le rend identifiable même de loin. Pattes avant blanchâtres terminées par d'énormes griffes recourbées, marchant curieusement sur les phalanges, griffes repliées vers l'arrière pour ne pas les émousser. Queue immense et hirsute, presque aussi longue que le corps. Démarche lente et balancée, mauvaise vue, toujours en train de renifler le sol.",
+    "anecdoteCourte": "Le tamanoir ne reste jamais plus de quelques minutes sur une même fourmilière, même s'il y a encore des milliers d'insectes à manger. La raison : passé ce délai, les soldats fourmis ou termites organisent une contre-attaque chimique et physique suffisamment efficace pour le faire fuir. Il préfère visiter plusieurs centaines de nids par jour plutôt que de s'attarder sur un seul.",
+    "sections": [
+      {
+        "titre": "Un aspirateur à insectes sans une seule dent",
+        "contenu": "Le tamanoir est totalement dépourvu de dents — une caractéristique qu'il partage avec l'ensemble des fourmiliers. Sa stratégie de chasse repose entièrement sur deux outils complémentaires : des griffes redoutables et une langue extraordinaire. Les griffes de ses pattes avant, longues de 10 cm, lui permettent d'éventrer en quelques secondes une termitière ou une fourmilière, même les structures les plus dures construites en terre durcie.\n\nUne fois la brèche ouverte, il introduit son museau tubulaire et déploie sa langue — fine, collante, pouvant atteindre 60 cm de long — qu'il agite à une vitesse vertigineuse de 150 allers-retours par minute. Cette technique lui permet d'engloutir jusqu'à 30 000 fourmis ou termites en une seule journée, sans jamais mâcher une seule bouchée : tout est avalé directement, la digestion se faisant entièrement dans l'estomac."
+      },
+      {
+        "titre": "Une visite éclair, par centaines",
+        "contenu": "Contre-intuitivement, le tamanoir ne vide jamais complètement un nid d'insectes qu'il visite — il prélève une fraction de la population, puis s'en va. Cette stratégie n'est pas un choix esthétique : les fourmis et termites organisent une riposte chimique et physique en quelques dizaines de secondes à quelques minutes, mordant et libérant des substances comme l'acide formique pour repousser l'agresseur. Le tamanoir doit donc partir avant que la défense ne devienne trop coûteuse.\n\nLe résultat est une stratégie de pâturage extensif : plutôt que d'épuiser une seule source, il visite plusieurs centaines de nids différents chaque jour, prélevant une petite quantité sur chacun. Ce comportement a un effet bénéfique indirect pour l'écosystème — en évitant de détruire entièrement les colonies, il leur permet de se reconstituer et garantit ainsi sa propre source de nourriture à long terme."
+      },
+      {
+        "titre": "Solitaire, lent, et étonnamment redoutable au combat",
+        "contenu": "Le tamanoir est un animal fondamentalement solitaire, ne se rencontrant avec ses congénères que pour la reproduction. Il dort énormément — jusqu'à 15 à 16 heures par jour — généralement caché dans la végétation dense, et possède la température corporelle la plus basse de tous les mammifères (32 à 33°C), un trait métabolique partagé avec son cousin le paresseux, dans le même ordre des Pilosa.\n\nMalgré son allure paisible et sa démarche lente, c'est un combattant redoutable quand il est acculé. Face à un prédateur — jaguar ou puma, les deux seuls à oser l'attaquer — il se dresse sur ses pattes arrière, s'appuyant sur sa queue comme un trépied, et frappe avec ses griffes avant aussi tranchantes qu'un couteau. Même un jaguar hésite à s'y frotter frontalement : ces griffes peuvent infliger des blessures sérieuses, et plusieurs cas d'affrontements mortels entre tamanoirs et grands félins ont été documentés."
+      },
+      {
+        "titre": "Une mère qui porte son petit comme un cavalier",
+        "contenu": "La reproduction peut survenir toute l'année, sans saison fixe précise. Après une gestation de 5 à 7 mois selon les sources, la femelle met bas debout, donnant naissance à un unique petit pesant environ 1,5 kg. Le nouveau-né garde les yeux fermés pendant près d'une semaine, puis grimpe rapidement sur le dos de sa mère, où il reste accroché — agrippé à son pelage et soutenu par sa propre queue déjà touffue — pendant six mois à un an.\n\nLe motif noir et blanc du pelage du petit, identique à celui de l'adulte dès la naissance, le camoufle efficacement contre le pelage de sa mère, rendant le duo presque indissociable à distance — une silhouette unique qui semble n'avoir qu'une seule grande queue."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Le tamanoir n'a aucun lien de parenté proche avec l'éléphant malgré son long museau — il appartient à l'ordre des Pilosa, qui regroupe aussi les paresseux et les autres fourmiliers, un groupe de mammifères parmi les plus anciens d'Amérique du Sud.\n• Son odorat est environ 40 fois plus développé que celui de l'humain — un sens essentiel compte tenu de sa vue très faible, qui lui permet à peine de distinguer les formes à quelques mètres.\n• Bien que terrestre, le tamanoir est un excellent nageur, capable de traverser des rivières sans difficulté — un fait surprenant compte tenu de son apparence peu aquatique.\n• Le tamanoir vit en équilibre permanent entre ressources et défense : visiter trop de nids épuise les colonies locales sur le long terme, mais ne pas en visiter assez le prive de nourriture — un dosage que l'espèce a affiné sur des millions d'années d'évolution dans les écosystèmes sud-américains."
+      }
+    ]
+  },
+  {
+    "numero": 48,
+    "nom": "Ours à lunettes",
+    "emoji": "🐻",
+    "photo": null,
+    "rarete": 3,
+    "ouLeTrouver": [
+      "Forêts de nuages des Andes péruviennes et boliviennes",
+      "Réserve écologique de Chaparrí (Pérou)",
+      "Parc national Carrasco (Bolivie)"
+    ],
+    "reconnaitre": "Le seul ours d'Amérique du Sud — impossible à confondre avec un autre mammifère du continent. Corps massif, 1,2 à 2 m de long, pelage noir à brun foncé, parfois roussâtre. La signature de l'espèce : des marques claires crème à blanchâtres entourant les yeux comme des lunettes, descendant parfois jusqu'au poitrail — un motif unique à chaque individu, comme une empreinte digitale. Museau court et large, oreilles petites et rondes, griffes longues et non rétractiles parfaites pour grimper. Mâles nettement plus grands que les femelles. Quasi exclusivement arboricole et discret — la plupart des visiteurs ne le verront jamais à l'état sauvage, mais sa présence (griffures sur les troncs, plates-formes dans la canopée) est plus repérable que l'animal lui-même.",
+    "anecdoteCourte": "L'ours Paddington, le plus célèbre ours de la littérature anglaise, est un ours à lunettes venu du 'Pérou le plus sombre' — l'auteur Michael Bond s'est directement inspiré d'un spécimen qu'il observait au zoo de Londres. L'animal le plus discret des Andes est ainsi devenu, sans le savoir, l'un des personnages les plus connus au monde.",
+    "sections": [
+      {
+        "titre": "Un fossile vivant unique en Amérique du Sud",
+        "contenu": "L'ours à lunettes est le dernier représentant vivant des Tremarctinae, une sous-famille d'ours à face courte qui dominait autrefois les Amériques durant le Pléistocène, aux côtés de géants aujourd'hui éteints comme l'ours à face courte géant, l'un des plus grands carnivores terrestres ayant jamais existé. Sur le plan évolutif, c'est donc une survivance rare — un genre entier réduit à une seule espèce, isolée dans la cordillère des Andes.\n\nSon aire de répartition forme une bande étroite le long des Andes, du Venezuela à la Bolivie, avec de très rares observations dans le nord de l'Argentine. Il occupe une large amplitude altitudinale — du niveau de la mer jusqu'à 4 750 m — mais sa préférence va à la forêt de nuages, cet écosystème humide et brumeux d'altitude moyenne, ainsi qu'au páramo et à la puna en altitude. Les Incas le considéraient comme un médiateur entre les hommes et les dieux, en raison précisément de cette capacité à évoluer aussi bien dans les forêts basses que sur les sommets andins."
+      },
+      {
+        "titre": "Un ours presque entièrement végétarien",
+        "contenu": "Classé taxonomiquement parmi les carnivores, l'ours à lunettes est pourtant l'un des ursidés les plus végétariens au monde, juste derrière le panda géant — environ 95 % de son régime est constitué de plantes. Sa nourriture de prédilection est le cœur fibreux des broméliacées, ces plantes épiphytes qui poussent accrochées aux branches des arbres en forêt nuageuse, complété par des fruits, des cactus, des bulbes d'orchidées, des palmiers et de la canne à sucre.\n\nPour broyer ces végétaux particulièrement coriaces, il dispose d'une musculature mandibulaire surpuissante et d'un museau court qui augmente sa force de morsure — une adaptation directement liée à son régime, plus que toute autre caractéristique morphologique. Les rares 5 % de protéines animales dans son alimentation proviennent de petits mammifères, d'insectes, de miel et occasionnellement de charognes."
+      },
+      {
+        "titre": "Un grimpeur qui construit des plateformes en canopée",
+        "contenu": "L'ours à lunettes est remarquablement arboricole pour un ursidé — il grimpe aux arbres jusqu'à 15 m de hauteur avec une aisance surprenante pour sa masse, aidé par des griffes longues et non rétractiles parfaitement adaptées à l'escalade. Son comportement le plus distinctif est la construction de plates-formes dans la canopée : en pliant et en cassant des branches autour d'un point d'appui, il aménage une sorte de nid suspendu, qui lui sert à la fois de poste d'observation, de lieu de repos, et de garde-manger surélevé pour atteindre des fruits ou des broméliacées hors de portée depuis le tronc.\n\nIl peut rester plusieurs jours d'affilée perché sur le même arbre, exploitant méthodiquement toutes les ressources accessibles avant de se déplacer. Cette stratégie de séjour prolongé en hauteur est aussi une façon d'éviter la concurrence et le contact avec les prédateurs terrestres ou les humains — l'ours à lunettes se retire systématiquement en grimpant dès qu'il détecte une présence humaine."
+      },
+      {
+        "titre": "Solitaire, non territorial, et plus pacifique qu'on ne le craint",
+        "contenu": "Contrairement à beaucoup d'ursidés, l'ours à lunettes n'est pas territorial — les domaines vitaux des individus se chevauchent largement sans déclencher de conflits systématiques, et plusieurs ours peuvent se nourrir à proximité les uns des autres dans une zone riche en ressources, sans agressivité particulière. Il reste néanmoins fondamentalement solitaire en dehors des périodes de reproduction et des liens mère-petits.\n\nLes mâles parcourent jusqu'à 20 km par jour en quête de nourriture, sur un domaine vital pouvant atteindre 150 km². L'accouplement a lieu entre avril et juin ; après une gestation de 5 à 8 mois, la femelle donne naissance à 1 à 4 petits, généralement entre novembre et février. La maturité sexuelle est atteinte vers 4 à 7 ans, et l'espèce n'hiberne jamais — dans les Andes tropicales, sans véritable saison froide ni pénurie alimentaire hivernale, la léthargie hivernale n'a aucune utilité."
+      },
+      {
+        "titre": "Le saviez-vous ?",
+        "contenu": "• Chaque ours à lunettes porte un motif facial unique, comme une empreinte digitale — les chercheurs utilisent ces marques pour identifier et suivre individuellement les animaux sur le terrain sans avoir besoin de les capturer.\n• Malgré son régime presque exclusivement végétarien, l'ours à lunettes est régulièrement accusé d'attaquer le bétail dans les zones rurales andines — un soupçon rarement confirmé par des preuves, mais qui alimente un conflit homme-animal responsable d'une grande partie du braconnage actuel.\n• Sa population mondiale est estimée entre 10 000 et 20 000 individus, mais avec une fragmentation extrême de l'habitat — il ne resterait aujourd'hui qu'environ 5 % de la forêt nuageuse andine d'origine encore intacte.\n• Il joue un rôle écologique de premier plan comme disperseur de graines, en transportant et en excrétant les graines des fruits qu'il consomme sur de longues distances à travers son vaste domaine vital — contribuant directement à la régénération de la forêt de nuages andine."
       }
     ]
   }
