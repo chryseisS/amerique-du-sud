@@ -730,7 +730,7 @@
     "numero": 35,
     "nom": "Otaries des Galápagos",
     "emoji": "🦭",
-    "photo": null,
+    "photo": "otarie.png",
     "rarete": 1,
     "ouLeTrouver": ["Toutes les plages des Galápagos"],
     "reconnaitre": "Deux espèces à distinguer.\n\nOtarie des Galápagos — la plus commune et la plus visible, sur toutes les plages de sable. Corps massif et musclé, museau pointu, mâles dotés d'un front bombé caractéristique. Pelage brun doré court. Mâles jusqu'à 250 kg, femelles 50 à 100 kg. Aucune peur de l'homme — s'installe littéralement sur les bancs publics, les quais, parfois sous les tables de restaurant à Puerto Ayora.\n\nOtarie à fourrure des Galápagos — plus petite, plus trapue, avec un pelage dense et épais (d'où son nom) et de grands yeux globuleux adaptés à la vision nocturne. Vit en zones rocheuses, falaises et grottes de lave plutôt que sur les plages de sable — plus discrète, plus solitaire, beaucoup moins facile à observer.",
@@ -909,7 +909,7 @@
     "numero": 25,
     "nom": "Manchot des Galápagos",
     "emoji": "🐧",
-    "photo": null,
+    "photo": "manchot_galapagos.png",
     "rarete": 2,
     "ouLeTrouver": [
       "Île Fernandina",
@@ -981,7 +981,7 @@
     "numero": 27,
     "nom": "Moqueur des Galápagos",
     "emoji": "🐦",
-    "photo": null,
+    "photo": "moqueur.png",
     "rarete": 1,
     "ouLeTrouver": ["Santa Cruz", "San Cristóbal", "Isabela", "Española"],
     "reconnaitre": "Oiseau de 25 à 26 cm, allure de merle costaud. Dessus brun-gris strié de brun foncé, dessous blanchâtre, tête brun noirâtre, bec court et légèrement courbé vers le bas. Deux fines lignes blanches visibles sur les ailes. Yeux expressifs dont la couleur varie du brun au jaune selon les individus. Passe beaucoup de temps au sol, court plutôt qu'il ne vole. Se distingue immédiatement par son comportement : il s'approche des humains sans hésiter, souvent jusqu'à quelques centimètres.",
@@ -1013,7 +1013,7 @@
     "numero": 28,
     "nom": "Héron des laves",
     "emoji": "🦢",
-    "photo": null,
+    "photo": "heron.png",
     "rarete": 1,
     "ouLeTrouver": [
       "Rochers volcaniques côtiers de toutes les îles",
@@ -1045,7 +1045,7 @@
     "numero": 29,
     "nom": "Cormoran aptère",
     "emoji": "🐦",
-    "photo": null,
+    "photo": "cormoran.png",
     "rarete": 2,
     "ouLeTrouver": ["Punta Espinosa (Fernandina)", "Côte ouest d'Isabela"],
     "reconnaitre": "Grand oiseau trapu de 90 à 100 cm, le plus grand cormoran du monde. Plumage noir-brun dessus, brun plus clair dessous. Le détail qui arrête : les ailes sont ridiculement petites — deux moignons hérissés de plumes éparses, à peine le tiers de la taille nécessaire pour voler. Iris turquoise. Bec long et crochu. Souvent vu debout au bord de l'eau, ailes grandes ouvertes en train de sécher — la posture caractéristique de tous les cormorans, rendue absurde par la taille des ailes.",
@@ -1077,7 +1077,7 @@
     "numero": 30,
     "nom": "Lézard de lave",
     "emoji": "🦎",
-    "photo": null,
+    "photo": "lezard_lave.png",
     "rarete": 1,
     "ouLeTrouver": [
       "Partout dans l'archipel",
@@ -1149,7 +1149,7 @@
     "numero": 32,
     "nom": "Pic de Magellan",
     "emoji": "🐦",
-    "photo": null,
+    "photo": "pic_magellan.png",
     "rarete": 2,
     "ouLeTrouver": [
       "Parc National Tierra del Fuego (Argentine)",
@@ -1223,7 +1223,7 @@
     "numero": 34,
     "nom": "Crabe de lave",
     "emoji": "🦀",
-    "photo": null,
+    "photo": "crabe_lave.png",
     "rarete": 1,
     "ouLeTrouver": ["Galápagos"],
     "reconnaitre": "Crabe trapu à carapace ronde et plate de 8 à 10 cm. Les adultes sont rouge et orange vif, parfois tachés de bleu et jaune — un des animaux les plus colorés des Galápagos. Les jeunes sont entièrement noirs, quasi invisibles sur la lave noire. Cinq paires de pattes dont deux pinces symétriques petites et acérées. Se déplace latéralement à une vitesse surprenante et peut courir dans les quatre directions — avant, arrière, gauche, droite — ce qui le rend très difficile à attraper. Souvent vu en groupes denses sur les rochers en bord de mer.",
@@ -1255,7 +1255,7 @@
     "numero": 44,
     "nom": "Colibri géant",
     "emoji": "🐦",
-    "photo": null,
+    "photo": "colibri.png",
     "rarete": 2,
     "ouLeTrouver": [
       "Vallée du Colca (Pérou)",
@@ -1293,7 +1293,7 @@
     "numero": 36,
     "nom": "Coq de roche andin",
     "emoji": "🐦",
-    "photo": null,
+    "photo": "coq_roche.png",
     "rarete": 2,
     "ouLeTrouver": [
       "Mindo (Équateur)",
@@ -1330,7 +1330,7 @@
     "numero": 37,
     "nom": "Toucan montagnard",
     "emoji": "🦜",
-    "photo": null,
+    "photo": "toucan.png",
     "rarete": 2,
     "ouLeTrouver": [
       "Mindo (Équateur)",
@@ -1367,7 +1367,7 @@
     "numero": 38,
     "nom": "Capybara",
     "emoji": "🦫",
-    "photo": null,
+    "photo": "capybara.png",
     "rarete": 1,
     "ouLeTrouver": [
       "Pampa du Yacuma (Rurrenabaque, Bolivie)",
@@ -1402,7 +1402,7 @@
     "numero": 39,
     "nom": "Caïmans de l'Amazonie",
     "emoji": "🐊",
-    "photo": null,
+    "photo": "caiman.png",
     "rarete": 1,
     "ouLeTrouver": [
       "Pampa du Yacuma (Rurrenabaque, Bolivie)",
@@ -1441,7 +1441,7 @@
     "numero": 40,
     "nom": "Singe hurleur",
     "emoji": "🐒",
-    "photo": null,
+    "photo": "singe_hurleur.png",
     "rarete": 1,
     "ouLeTrouver": [
       "Forêt amazonienne autour de Rurrenabaque",
@@ -1476,7 +1476,7 @@
     "numero": 41,
     "nom": "Anaconda",
     "emoji": "🐍",
-    "photo": null,
+    "photo": "anaconda.png",
     "rarete": 2,
     "ouLeTrouver": [
       "Pampa du Yacuma (Rurrenabaque, Bolivie)",
@@ -1511,7 +1511,7 @@
     "numero": 42,
     "nom": "Dauphin rose",
     "emoji": "🐬",
-    "photo": null,
+    "photo": "dauphin_rose.png",
     "rarete": 2,
     "ouLeTrouver": [
       "Pampa du Yacuma (Rurrenabaque, Bolivie)",
@@ -1550,7 +1550,7 @@
     "numero": 43,
     "nom": "Tapir",
     "emoji": "🐾",
-    "photo": null,
+    "photo": "tapir.png",
     "rarete": 3,
     "ouLeTrouver": [
       "Selva de Madidi (près de Rurrenabaque, Bolivie)",
@@ -1586,7 +1586,7 @@
     "numero": 45,
     "nom": "Paresseux",
     "emoji": "🦥",
-    "photo": null,
+    "photo": "sloth.png",
     "rarete": 2,
     "ouLeTrouver": [
       "Selva de Madidi (près de Rurrenabaque, Bolivie)",
@@ -1622,7 +1622,7 @@
     "numero": 46,
     "nom": "Aras",
     "emoji": "🦜",
-    "photo": null,
+    "photo": "ara.png",
     "rarete": 1,
     "ouLeTrouver": [
       "Selva de Madidi (près de Rurrenabaque, Bolivie)",
@@ -1658,7 +1658,7 @@
     "numero": 47,
     "nom": "Tamanoir",
     "emoji": "🐾",
-    "photo": null,
+    "photo": "tamanoir.png",
     "rarete": 3,
     "ouLeTrouver": [
       "Selva de Madidi (près de Rurrenabaque, Bolivie)",
@@ -1694,7 +1694,7 @@
     "numero": 48,
     "nom": "Ours à lunettes",
     "emoji": "🐻",
-    "photo": null,
+    "photo": "ours_lunettes.png",
     "rarete": 3,
     "ouLeTrouver": [
       "Forêts de nuages des Andes péruviennes et boliviennes",

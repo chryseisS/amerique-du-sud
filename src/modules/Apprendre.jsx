@@ -1,6 +1,6 @@
 // src/modules/Apprendre.jsx
 import { Link } from 'react-router-dom';
-import { MapPin } from 'lucide-react';
+import { MapPin, ChevronRight } from 'lucide-react';
 import culture from '../donnees/culture.json';
 
 function Apprendre() {
@@ -33,25 +33,6 @@ function Apprendre() {
           </p>
         </div>
       </div>
-
-      {/* ─── Visites guidées ─── */}
-      <Link
-        to="/apprendre/visites-guidees"
-        className="flex items-center justify-between bg-terra-500 rounded-2xl p-4 mb-6 shadow-[0_4px_16px_rgba(201,98,63,0.22)]"
-      >
-        <div>
-          <div className="text-[10px] uppercase tracking-wider text-white/60 mb-1">
-            Sur place
-          </div>
-          <div className="font-serif italic text-lg text-white leading-tight">
-            Visites guidées
-          </div>
-          <div className="text-[11px] text-white/70 mt-1">
-            Fiches terrain · lieux à connaître
-          </div>
-        </div>
-        <MapPin className="w-8 h-8 text-white/30" strokeWidth={1.5} />
-      </Link>
 
       {/* ─── Se cultiver ─── */}
       <div className="text-[10px] uppercase tracking-wider text-terra-muted mb-4">
@@ -105,6 +86,30 @@ function Apprendre() {
           </div>
         ))}
       </div>
+
+      {/* ─── Sur place ─── */}
+      <div className="text-[10px] uppercase tracking-wider text-terra-muted mt-8 mb-4">
+        Sur place
+      </div>
+
+      {/* ─── Visites guidées ─── */}
+      <Link
+        to="/apprendre/visites-guidees"
+        className="flex items-center gap-3 bg-white border-2 border-terra-500 rounded-xl px-3.5 py-3 mb-6"
+      >
+        <div className="w-8 h-8 rounded-full bg-terra-500/15 flex items-center justify-center flex-shrink-0">
+          <MapPin className="w-5 h-5 text-terra-500" strokeWidth={2} />
+        </div>
+        <div className="flex-1">
+          <div className="text-sm text-terra-900 font-medium">
+            Visites guidées
+          </div>
+          <div className="text-[11px] text-terra-muted mt-0.5">
+            Fiches terrain · lieux à connaître
+          </div>
+        </div>
+        <ChevronRight className="w-5 h-5 text-terra-500" strokeWidth={2} />
+      </Link>
 
     </div>
   );

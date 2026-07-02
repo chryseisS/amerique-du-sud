@@ -160,7 +160,7 @@ function Journal() {
           <JournalBlock to={JOURNAL_BLOCKS[1].to} icon={JOURNAL_BLOCKS[1].icon} bgClassName="bg-transparent">
             <StatBloc
               titre="Gastronomie"
-              sousTitre="des plats goûtés"
+              sousTitre="Carte des saveurs"
               fait={gastro.fait}
               total={gastro.total}
             />
@@ -172,7 +172,7 @@ function Journal() {
           <JournalBlock to={JOURNAL_BLOCKS[2].to} icon={JOURNAL_BLOCKS[2].icon} bgClassName="bg-transparent">
             <StatBloc
               titre="1ères Fois"
-              sousTitre="de nos défis accomplis"
+              sousTitre="Les expériences à vivre"
               fait={premieresFois.fait}
               total={premieresFois.total}
             />
@@ -184,7 +184,7 @@ function Journal() {
           <JournalBlock to={JOURNAL_BLOCKS[3].to} icon={JOURNAL_BLOCKS[3].icon} bgClassName="bg-transparent">
             <StatBloc
               titre="Pokédex"
-              sousTitre="de la faune observée"
+              sousTitre="de la faune"
               fait={fauneFait}
               total={fauneTotal}
             />

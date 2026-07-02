@@ -165,8 +165,17 @@ export function zonesDuPays(activites, pays) {
     if (estIncontournable(a)) z.nbIncontournables += 1;
   }
   // tri : zones sûres d'abord, optionnelles (sablier) en bas
+  // au sein de chaque groupe, on respecte le champ "ordre" du lieu (ex: nord -> sud)
+  // quand il est défini ; sinon on retombe sur l'ancien tri (incontournables puis alpha)
   return [...parZone.values()].sort((x, y) => {
     if (x.optionnel !== y.optionnel) return x.optionnel ? 1 : -1;
+
+    const ordreX = lieuParSlug.get(x.slug)?.ordre;
+    const ordreY = lieuParSlug.get(y.slug)?.ordre;
+    if (ordreX != null && ordreY != null) return ordreX - ordreY;
+    if (ordreX != null) return -1;
+    if (ordreY != null) return 1;
+
     return y.nbIncontournables - x.nbIncontournables || x.nom.localeCompare(y.nom, 'fr');
   });
 }

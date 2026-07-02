@@ -18,7 +18,7 @@
     "pays": "Pérou",
     "importance": 5,
     "duree": "4 jours",
-    "description": "Trek permettant de rejoindre le Machu Picchu à pied (70km). Prix d'entrée pour le Salkantay trek + lagune Humantay (environ 10-15 euros au total). Le départ se fait de Soraypampa. Soit en tente avec possibilité de poser la tente dans les jardins des auberges, soit en auberge (20 euros la nuit pour 2, moins cher en dortoir et repas à moins de 5 euros). Nombreux points d'eau, partir avec une gourde filtrante.\n\nJour 1 : trajet Cuzco vers Soraypampa et lagune Humantay. 2 possibilités : bus jusqu'à Mollepata puis taxi pour monter à Soraypampa. Ou excursion organisée vers lagune Humantay depuis Cuzco (20 euros par personne) pour avoir transport et repas compris.Van à laisser à Cuzco.\n\nJour 2 : Soraypampa - Salkantay pass - Colpapampa : 22km avec montée à 4600m d'altitude. 900m D+ - 1700m D-. \n\nJour 3 : Colpapampa - La Playa : 16km, principalement descente.\n\nJour 4 : Colpapampa - Hidroelectrica - Agua Calientes : 19km, principalement plat.",
+    "description": "Trek permettant de rejoindre le Machu Picchu à pied (70km). Prix d'entrée pour le Salkantay trek + lagune Humantay (environ 10-15 euros au total). Le départ se fait de Soraypampa. Soit en tente avec possibilité de poser la tente dans les jardins des auberges, soit en auberge (20 euros la nuit pour 2, moins cher en dortoir et repas à moins de 5 euros). Nombreux points d'eau, partir avec une gourde filtrante.\n\nJour 1 : trajet Cuzco vers Soraypampa et lagune Humantay. 2 possibilités : bus jusqu'à Mollepata puis taxi pour monter à Soraypampa. Ou excursion organisée vers lagune Humantay depuis Cuzco (20 euros par personne) pour avoir transport et repas compris.Van à laisser à Cuzco.\n\nJour 2 : Soraypampa - Salkantay pass - Colpapampa : 22km avec montée à 4600m d'altitude. 900m D+ - 1700m D-. \n\nJour 3 : Colpapampa - La Playa : 16km, principalement descente.\n\nJour 4 : La Playa - Hidroelectrica - Agua Calientes : 19km, principalement plat.",
     "visiteGuidee": false
   },
   {
@@ -701,7 +701,7 @@
     "importance": 5,
     "duree": "3 jours",
     "description": "Petite ville à côté de Ambato. Ville reconnue pour ses activités de sport extrême.\n\n - Casa del Arbol : petit parc avec quelques activités, dont une balançoire pour se balancer au-dessus du vide. Prix : 1 dollar.\n\n - Bains thermaux pour se reposer.\n\n - Route des cascades : à faire en van et s'arrêter à chaque cascade. Ou en vélo mais route partagée et pas forcément agréable. Cascade El Manto de la Novia : soit à pied pour descendre (gratuit), soit par tarabita (2 dollars aller-retour) pour survoler la cascade. Cascade El Pailón del Diablo : la plus connue. Deux entrée (5 dollars) : l'entrée 1 qui mène aux escaliers et au balcon sous la chute (on se fait mouiller), ou l'entrée 2 qui offre une vue d'ensemble avec des ponts suspendus.\n\n - Parque Aventura San Martin : parc aventure où il est possible de faire zipline allongé, pont suspendu et via ferrata.\n\n - Randonnées : sentier de la Vierge (30min) qui permet de monter en hauteur et avoir une vue sur Banos et sur le volcan Tungurahua. Sentier des belvédères : permet d'avoir une vue plongeante sur la ville. Si on continue ensuite, permet d'accéder à Casa del Arbol.\n\n - Thermes de la Virgen. Deux zones différentes. D'un côté les thermes traditionnelles au pied de la cascade. Plusieurs bassins avec des températures différentes. Eau très minéralisée. Ouvert de 5h à 16h puis de 18h à 21h30. Privilégier le créneau du soir hors weekend. 3$ l'entrée, bonnet de bain obligatoire et claquettes. Prendre un cadenas. De l'autre côte, il y a les termas de la Virgen de Agua Santa, un complexe aquatique moderne, avec toboggans, piscine d'eau thermale, etc. \n\n - Rafting, canyoning.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",
@@ -713,7 +713,7 @@
     "importance": null,
     "duree": null,
     "description": "Le sommet du volcan Chimborazo, culminant à 6263m d'altitude, est le point de la Terre le plus proche du soleil. L'accès au parc est gratuit. Il faut s'enregistrer au poste de garde à l'entrée principale. \n\nLa randonnée classique est celle qui va du premier refuge (Carrel à 4800m d'altitude) vers le Refuge Whymper, puis la Laguna Condor Cocha à 5100m. L'accès aux aiguilles de Whymper ou à El Castillo n'est pas autorisé en autonomie. \n\nEnormément de vigognes dans cette réserve. La météo est très changeante et souvent brumeuse. Il est possible de descendre en VTT depuis le refuge Whymper jusqu'au village presque 2000m plus bas.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -725,7 +725,7 @@
     "sousZone": "Nord de Cuenca",
     "duree": null,
     "description": "Complexe archéologique situé à 2 heures de route au Nord de Cuenca. Ouvert du mercredi au dimanche. Prix : 2$ par personne avec guide.\n\nJuste à côté, petite balade pour aller voir La Cara del Inca.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -749,7 +749,7 @@
     "sousZone": "Nord de Cuenca",
     "duree": null,
     "description": "Immense paroi rocheuse en forme de nez. Un chemin de fer est construit sur les parois. Dénivelé de 500m en 12km à faire. Système ingénieux de fonctionnement du train : es ingénieurs ont conçu un système de zigzag unique au monde : le train avance, dépasse un aiguillage, s'arrête, change de voie et recule pour continuer à descendre (ou monter) le long de la falaise.\n\nFaire la randonnée du Cerro Pistishi pour atteindre le mirador Condor Pununa. Départ d'Alausi, et aller-retour de 12km. Une taxe communautaire de 2$ peut être demandée pour l'accès au mirador. Depuis le mirador, vue sur Nariz del Diablo et le train. Le train part de la gare d'Alausi toutes les semaines du mercredi au dimanche à 3 horaires : 8h, 11h et 14h (horaires à vérifier la veille). Pour le voir en action, privilégier le créneau du matin (brume) et arriver au mirador au plus tard à 8h45 (45min de trajet entre la gare et l'arrivée à Nariz del Diablo).",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",
@@ -760,7 +760,7 @@
     "importance": null,
     "duree": null,
     "description": "Le parc National Las Cajas est un parc national à 40min en voiture de Cuenca. Il est gratuit, il faut s'enregistrer au centre des visiteurs au bord de la laguna Toreadora. Les gardiens nous fourniront une carte du parc. De nombreuses randonnées sont disponibles. Possibilité de monter au cerro San Luis (plus haut sommet) et faire une boucle passant par les lagunas Totoras et Patoquinas (environ 10km), partie nord du parc. Possibilité de faire une deuxième journée côté sud. Une application 'Parque Nacional Cajas' permet de visualiser les différents chemins de randonnées. Le temps est très changeant, humide et brumeux.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Faune",
@@ -850,7 +850,7 @@
     "importance": 4,
     "duree": null,
     "description": "La randonnée incontournable est Cerro Guanaco. 8km 1000m D+. Beaucoup de boue. Il faut s'enregistrer au centre des visiteurs à l'entrée du parc. Senda HitoXXIV (7km aller-retour, plat), qui mène à la frontière chilienne. Plusieurs autres balades dans le parc : mirador Lapataia (500m), senda castorera (permet de découvrir les barrages des castors), senda Laguna Negra (1km) qui mène à une lagune aux eaux très sombres.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Faune",
@@ -861,7 +861,7 @@
     "importance": 3,
     "duree": null,
     "description": "Seule colonie de manchot royaux hors antarctique. Ouvert du mercredi au dimanche de 11h à 17h. Réserver sur le site web avec un créneau horaire précis (20 dollars) quelques jours en avance. Observation des manchots royaux depuis un belvédère avec des jumelles.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -872,7 +872,7 @@
     "importance": 4,
     "duree": null,
     "description": "Ville du bout du monde. A visiter :\n\n - **Musée maritime et de la prison.** 25 dollars. 2 jours. Possibilité de revenir le lendemain. Explique l'histoire de la ville. Port et front de mer, d'où partent les bateaux pour les excursions en Antartique.\n\n - **Panneau « fin del mundo ».**\n\nPour dormir : camping municipal (gratuit), Costanera (arrêté qui interdit d'y passer plus de 6h mais peu appliqué). \n\n**Spécialités locales** : centolla (crabe royal) et Asado de Cordero Fueguino (agneau de terre de feu).",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",
@@ -1219,7 +1219,7 @@
     "importance": null,
     "duree": null,
     "description": "Atelier tissage traditionnel avec Brigita (contact sur le groupe Facebook 'Les Français en Bolivie') ou sur GetYourGuide. Plusieurs formules selon ce que nous voulons créer : 4h pour initiation, 2x4h ou 3 jours pour bracelet.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Gastronomie",
@@ -1228,7 +1228,7 @@
     "lieuId": "sucre",
     "sousZone": "Sucre",
     "pays": "Bolivie",
-    "importance": null,
+    "importance": 5,
     "duree": null,
     "description": "Deux restaurants gastronomiques pas chers à Sucre : Nativa et El Solar.",
     "visiteGuidee": false
@@ -1242,7 +1242,7 @@
     "importance": 5,
     "duree": "2 jours",
     "description": "Trek de 2 jours à 40km de Sucre. Trek d'un point A à un point B. Laisser le van à Sucre et prendre un collectivo (ou trufi) en direction de Ravelo, avec arrêt à la chapelle de Chataquila.\n\nJour 1 : Chataquila - Maragua : 15km.\n\nJour 2 : Maragua - Potolo ou Quila Quila : 14km.\n\nLe trek se fait en autonomie, avec tente et nourriture sur 2 jours. Télécharger la carte offline. Quelques magasins à Maragua mais pas grand chose. Partir avec 3L d'eau pour la première journée et une gourde filtrante. Il faut payer à deux moments les communautés locales 20 bs par personne : à la fin du chemin inca et pour l'accès au cratère de Maragua.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -1253,7 +1253,7 @@
     "importance": null,
     "duree": null,
     "description": "Visite de la ville de Sucre. Ville coloniale avec beaucoup d'histoire. 2 musées : la casa de la Libertad (5 euros), où a été signée la déclaration d'indépendance du pays, et le Museo de Arte Indígena ASUR(4 euros), qui expose l'art textile. \n\nSucre est également la capitale du chocolat (Para ti ou Taboadas).\n\nPour dormir, chez Javier est souvent conseillé sur le groupe Facebook 'Les Français en Bolivie' (à vérifier selon disponibilité d'un parking).\n\nAu Sud de Sucre, à environ 20 min, un joli chateau : Castillo de la Glorieta.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Excursion",
@@ -1264,7 +1264,7 @@
     "importance": null,
     "duree": null,
     "description": "Visite des mines du Cerro Rico. Mines exploitées en continu depuis 1545. Conditions de travail très difficiles. Pour le visite, soit passer par une agence, soit avec David, dont le contact est sur le groupe 'Les Français en Bolivie'. Compter environ 150 bs/personne.\n\nPossibilité de visiter la Casa de la Monedad à Potosi également dans lequel l'argent du Cerro Rico était fondu pour frapper les pièces de monnaie espagnoles.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",
@@ -1286,7 +1286,7 @@
     "importance": null,
     "duree": null,
     "description": "Petite balade très courte (1.5km) qui permet de monter à un point de vue donnant sur la ville.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -1308,7 +1308,7 @@
     "importance": null,
     "duree": null,
     "description": "Une des 4 iles habitées des iles Galapagos. Ile la plus peuplée. Si arrivée en avion sur cette ile, pour aller au centre-ville, il faut : acheter un ticket de bus (nom : Lobito, $5) pour aller jusqu’au canal. De là il y a un bateau ($1 à payer sur le bateau) pour traverser. Une fois de l’autre côté, prendre les bagages et choisir le bus Citteg ($5 pour aller en ville, il s’arrête au coin de l’Avenida Baltra et Isla Duncan). Prendre un logement à Puerto Ayora.\n\nLes activités à faire sont les suivantes :\n\n - Tortuga Bay : Marcher 2.5km du centre-ville pour y accéder. Enormément d'iguanes. Pour faire du snorkeling, continuer jusqu'à Playa Mansa et explorer la mangrove pour essayer de voir des requins. Possibilité de louer des canoës.\n\n - Station Charles Darwin : en centre-ville, musée d'histoire naturelle.\n\n - Las Grietas : grande faille naturelle. Payant (10 dollars). Pour y accéder, prendre un bateau-taxi depuis le quai de Puerto Ayora jusqu'au quai d'Angermeyer (1$). Puis suivre le sentier balisé pendant 20min. Sur le chemin, plage de los Alemanes qui permet de faire un peu de snorkeling.\n\n - Ranch des tortues géantes (El Chato) et cratères Los Gemelos : au centre de l'ile. Pour y accéder, soit taxi à négocier pour qu'il nous y amène et nous attende (50 dollars environ), soit location de vélo (20km de montée pour y aller), soit taxi à l'aller et retour en courant. Possibilité également de prendre le bus de Puerto Ayola jusqu'à Santa Rosa, puis de marcher. Se renseigner sur les horaires à l'hôtel. Los Gemelos est une petite promenade de 1.5km autour de cratères jumeaux. El Chato est une réserve qui accueille des tortues terrestres, et qui permet de visiter des tunnels de lave. Prix 10$.\n\n - Randonnée Cerro Crocker : plus haut sommet de l'ile, début de la randonnée à Bellavista. 15km aller-retour. Taxi ou bus pour aller au départ de la randonnée.\n\n2 à 3 jours suffisent sur cette ile, pour visiter a minima Tortuga Bay.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -1319,7 +1319,7 @@
     "importance": 5,
     "duree": null,
     "description": "Une des 4 iles habitées des iles Galapagos. Ile aux otaries. Si arrivée en avion sur cette ile, l'aéroport est à 10min à pied de la ville.\n\nLes activités à faire sont les suivantes :\n\n - Cerro Tijeretas (gratuit) : sentier qui part du Centre d'interprétation (accès à pied depuis la ville) jusqu'à une petite crique protégée dans laquelle on peut faire du snorkeling. Plus beau spot de snorkeling, à faire absolument. Possibilité de continuer la randonnée jusqu'à la Playa Baquerizo.\n\n - Playa Mann et playa Carola (gratuit) : accès direct depuis le centre-ville. Enormément d'otaries à Playa Mann. A faire en fin de journée quand elles sont plus actives.\n\n - Playa La Loberia : lions de mer et snorkeling. Accès à pied depuis la ville.\n\n - Parte Alta de San Cristobal : excursion sur la demi-journée pour visiter la partie intérieure de l'ile. Plusieurs arrêts sur le chemin : la Galapaguera de Cerro Colorado (grande réserve permettant de voir des tortues géantes), El Junco (lac d'eau douce, niché dans un ancien cratère volcanique) et Puerto Chino Beach (plage pour surfeurs mais fous à pieds bleus à observer dans les rochers). Pour y accéder, soit prendre un taxi pour une demi-journée (prix à négocier avec eux directement pour l'aller-retour avec attente à chaque site, compter environ 70$), soit prendre un vélo (20km mais énormément de dénivelé à faire à l'aller et au retour).\n\nLa meilleure excursion sur l'ile de San Cristobal est Kicker Rock, formation rocheuse avec énormément de vie aquatique. Excursion plongée ou snorkeling (compter 240$ pour la plongée et 190$ pour le snorkeling). Passer par un club de plongée sur l'ile de San Cristobal. Réserver de préférence en avance pour être sûr d'avoir de la place.\n\nA faire a minima : Cerro Tijeretas et les plages autour de la ville. 2 à 3 jours sur place suffisent selon si on fait l'excursion ou la visite du centre de l'ile.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -1330,7 +1330,7 @@
     "importance": 5,
     "duree": null,
     "description": "Une des 4 iles habitées des iles Galapagos. Ile la plus grande et la plus sauvage. Paysages volcaniques. A l'arrivée sur l'ile, il faut payer une taxe municipale d'entrée de 10$.\n\nLes activités à faire sont les suivantes :\n\n - Concha de Perla : spot de snorkeling gratuit proche de la ville.\n\n - Muro de las Lagrimas : randonnée (ou vélo) de 6km depuis la ville (12km aller-retour). Plusieurs arrêts à faire sur le chemin : El Estero (mangroves), Playa del Amor (iguanes), La Playita, El Pozon de los Flamencos (flamands roses), et el Cerro Orchilla.\n\nLes meilleures excursions de l'ile sont les suivantes : \n\n - Los Tuneles : excursion incontournable des Galapagos. Des vagues et des coulées de lave ont formé des arches, des ponts et des tunnels naturels transparents au-dessus et en dessous de l'eau. Sortie d'environ 5 heures avec snorkeling sur place. Prix : environ 140$.\n\n - Randonnée du volcan Sierra Negra & Chico : randonnée d'environ 16km pour accéder au volcan. Prix : environ 70$.\n\nSur l'ile Isabela, deux jours suffisent si on ne fait pas d'excursion.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",

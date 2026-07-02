@@ -3,6 +3,7 @@
     "id": "ambato",
     "nom": "Ambato",
     "pays": "Equateur",
+    "ordre": 20,
     "type": "ville",
     "description": ""
   },
@@ -10,6 +11,7 @@
     "id": "sucre",
     "nom": "Autour de Sucre",
     "pays": "Bolivie",
+    "ordre": 30,
     "type": "ville",
     "description": ""
   },
@@ -17,6 +19,7 @@
     "id": "tupiza",
     "nom": "Tupiza",
     "pays": "Bolivie",
+    "ordre": 50,
     "type": "ville",
     "description": ""
   },
@@ -24,6 +27,7 @@
     "id": "arequipa",
     "nom": "Arequipa",
     "pays": "Pérou",
+    "ordre": 0,
     "type": "ville",
     "description": "Passer par Arequipa avant de faire le canyon de Colca. Rajoute une heure de route mais permet de s'acllimater à l'altitude. Sur la route entre Arequipa et le canyon de Colca, on passe par un col à 4900m d'altitude. Route asphaltée et de bonne qualité.\n\nPas énormément d'arrêts sur le chemin pour Arequipa, à part [[Toro Muerto]].\n\nUne fois la ville d'Arequipa visitée, plusieurs options : faire une journée vers la [[Lagune de Salinas]], ou remonter vers le [[Canyon de Colca]], en s'arrêtant sur le chemin à [[Quebrada de Culebrillas]] et à [[Carrière de sillar]]. Puis continuer la route vers Puno et la frontière bolivienne en s'arrêtant à [[Forêt de pierre d'Imata et Cascade de Pillones]]."
   },
@@ -31,6 +35,7 @@
     "id": "ayacucho",
     "nom": "Ayacucho",
     "pays": "Pérou",
+    "ordre": 50,
     "type": "ville",
     "description": ""
   },
@@ -38,6 +43,7 @@
     "id": "carretera-austral",
     "nom": "Carretera Austral",
     "pays": "Chili",
+    "ordre": 20,
     "type": "route",
     "description": ""
   },
@@ -45,6 +51,7 @@
     "id": "rurrenabaque",
     "nom": "Rurrenabaque",
     "pays": "Bolivie",
+    "ordre": 10,
     "type": "ville",
     "description": ""
   },
@@ -52,6 +59,7 @@
     "id": "cuenca",
     "nom": "Cuenca",
     "pays": "Equateur",
+    "ordre": 10,
     "type": "ville",
     "description": "Ville sur le chemin au Sud de l'Equateur. Dernière grosse ville. Sur la route depuis Ambato, faire un arrêt à [[Nariz del Diablo]], puis à [[Ingapirca]]. Puis passer 2 nuits à Cuenca, pour faire le [[Parc national Las Cajas]] sur une journée. Enfin, reprendre la route, et s'arrêter à [[El Chorro de Giron]] sur le chemin.\n\nEn profiter pour visiter la ville. Pour prendre les transports en commun (pas besoin normalement), il faut acheter une carte magnétique, il n'est pas possible de payer en liquide dans le bus. Dans la ville, visiter la Catedral de la Inmaculada Concepcion, le Museo Pumapungo (gratuit), et le marché aux fleurs. Celui-ci se situe à côté de la cathédrale, et a été classé parmi les plus beaux marchés aux fleurs du monde. Ouvert tous les jours de 7h à 18h. Y aller le matin et tester l'Agua de Pitimas (boisson médicinale préparée par les religieuses).\n\nUn lieu recommandé pour dormir avec parking sécurisé est 'Tu parada en Cuenca', proche du centre-ville."
   },
@@ -59,24 +67,28 @@
     "id": "puno-cuzco",
     "nom": "De Puno à Cuzco",
     "pays": "Pérou",
+    "ordre": 1,
     "description": "Très belle route appelée la route du Soleil. Compter 9 heures de route. Point le plus haut : Col de la Raya à 4438m. Juliaca, sur le chemin, est une des villes les plus embouteillées du Pérou, éviter le centre-ville.\n\nDans l'ordre des arrêts : [[Aramu Muru]] (avant Puno), [[Lac Titicaca]], [[Sillustani]], [[Canyon de Tinajani]], [[Pallay Punchu]] et [[Checacupe]]."
   },
   {
     "id": "cuzco-nazca",
     "nom": "De Cuzco à Nazca",
     "pays": "Pérou",
+    "ordre": 5,
     "description": ""
   },
   {
     "id": "bariloche-chalten",
     "nom": "De Bariloche à El Chalten",
     "pays": "Argentine",
+    "ordre": 40,
     "description": "Longue route, environ 15 heures de route. Très peu d'arrêts importants. Passer quelques jours au [[Parc National Los Alerces]] sur le chemin, puis 8 heures de route plus tard à la [[Cueva de las manos]]. \n\nFaire le plein dès que possible et toujours avoir un jerricane d'essence supplémentaire. Certaines stations peuvent être à sec dans les petits villages.\n\nEnormément de vent sur cette route. Toujours se garer face au vent, notamment pour dormir la nuit."
   },
   {
     "id": "cuzco",
     "nom": "Cuzco",
     "pays": "Pérou",
+    "ordre": 3,
     "type": "ville",
     "description": "L'arrivée à Cuzco peut se faire progressivement afin de favoriser l'acclimatation à l'altitude tout en découvrant quelques sites remarquables en chemin. Avant d'atteindre la ville, il est intéressant de faire un détour par le [[Pallay Punchu]], célèbre pour ses montagnes aux couleurs spectaculaires, ainsi que par le [[Mirador Cielo Punku]], qui offre de magnifiques panoramas sur les Andes.\n\nUne fois installé à Cuzco, prévoir quelques jours pour explorer la région tout en s'acclimatant. Consacrer notamment deux jours à la [[Vallée sacrée]] des Incas, avec ses villages traditionnels, ses terrasses agricoles et ses nombreux sites archéologiques.\n\nAprès cette phase d'adaptation à l'altitude, il est temps d'entreprendre les incontournables de la région : le [[Salkantay Trek]] et le [[Machu Picchu]].\n\nUne fois bien acclimaté, passer au trek de [[Ausangate - Montagne des 7 couleurs]], réputé pour ses paysages sauvages, ses sommets enneigés et ses lagunes colorées.\n\nAutour du 20 juin, le festival de l'[[Inti Raymi]] est l'un des festival les plus importants du Pérou. L'[[Ollantay Raymi]] permet également de profiter d'un festival dans une atmosphère plus intimiste.\n\nEnfin, sur la route du départ vers l'ouest, possibilité d'ajouter le [[Trek du Choquequirao]], souvent considéré comme le petit frère du Machu Picchu mais beaucoup moins fréquenté. Il est également possible de faire étape à [[Pampachiri]], connu pour ses formations rocheuses étonnantes et ses paysages uniques.\n\nInformations pratiques :\n\n - Le Boleto Turístico del Cusco (BTC) est indispensable pour visiter la majorité des sites archéologiques de la région. Il s'achète obligatoirement sur place (au premier site archéologique ou au centre-ville de Cuzco) et en espèce. Prévoir le passeport. Deux options : le Boleto Integral 130 soles pour 10 jours et accès à 16 sites, ou le Boleto Parcial pour 70 soles et 2 jours, inclus les sites de Pisac, Ollantaytambo, Chinchero et Moray.\n\n - La conduite à Cuzco est compliquée en van. Pour dormir, un camping : Quinta Lala sur les hauteurs de Cuzco à 20-30min à pied du centre-ville."
   },
@@ -84,6 +96,7 @@
     "id": "huaraz",
     "nom": "Huaraz",
     "pays": "Pérou",
+    "ordre": 11,
     "type": "trek",
     "description": "Capitale de l'andinisme péruvien, base pour les treks de la Cordillère Blanche. La ville est à 3052 m, prévoir 2-3 jours d'acclimatation.\n\nLa quasi-totalité des randonnées autour de la ville sont dans le parc National Huascaran. Il faut prendre un billet (boleto turistico) qui dépend de la durée du séjour dans le parc. A partir de 4 jours, le prix est de 37 euros.\n\nL'objectif est de faire le [[Trek Santa Cruz]] et le [[Paso del Zorro]]. \n\nPour ce faire, faire quelques journées de randonnée pour acclimatation. Sur le chemin depuis Lima, s'arrêter à [[Glacier Pastoruri]]. Puis faire la [[Laguna Churup]] à côté de Huaraz. Partir ensuite sur le [[Trek Santa Cruz]]. Au retour, faire le [[Paso del Zorro]]. Puis départ vers l'Equateur et sur le chemin faire la ville de Yungay ([[Campo Santo de Yungay]]) et les [[Laguna 69]] et [[Laguna Paron]]. D'autres randonnées sont disponibles à Huaraz pour faire quelques jours d'acclimatation en plus si besoin (Laguna Wilcochoa ou possibilité de faire les lagunes un peu plus lointaines en passant par une agence sur la journée)."
   },
@@ -91,6 +104,7 @@
     "id": "la-paz",
     "nom": "La Paz",
     "pays": "Bolivie",
+    "ordre": 3,
     "type": "ville",
     "description": "Capitale administrative bolivienne, étalée dans une cuvette spectaculaire entre 3200 et 4100 m.\n\nRestaurant Manq'a."
   },
@@ -98,6 +112,7 @@
     "id": "galapagos",
     "nom": "Galapagos",
     "pays": "Equateur",
+    "ordre": 1,
     "type": "ile",
     "description": "L'arrivée aux iles Galapagos peut se faire via 2 aéroports : San Cristobal ou Santa Cruz. Pour passer d'une ile à une autre, il faut ensuite prendre des ferrys (lanchas). Les ferrys partent ou arrivent toujours à Santa Cruz. Pour optimiser les trajets, l'idéal est donc d'arriver à San Cristobal, puis visiter Santa Cruz, l'ile Isabela, et prendre l'avion retour depuis Santa Cruz. Le prix d'un ferry inter-ile est d'environ 40$ (+1$ de taxi-bateau qui amène au ferry) et doivent être réservés soit à l'avance sur internet, soit 2 jours avant. Horaires fixes deux fois par jour : un tôt le matin et un en début d'après-midi. Arriver au quai 1h avant le départ du bateau.\n\nPrévoir énormément de liquide pour les iles Galapagos, tout se paie principalement en liquide.\n\nAmener combinaison (shorty), ainsi que masque, tuba et chaussures d'eau.\n\nLes meilleures excursions à faire sont dans l'ordre Los Tuneles à Isabela, puis Plongée à Kicker Rock à San Cristobal, et la randonnée dans le centre de l'ile Isabela. D'autres excursions sont possibles pour plonger, ou visiter tous les coins sympas (Tour 360 qui fait le tour d'une ile en s'arrêtant à tous les points d'intérêt sur le chemin).\n\nPour manger, beaucoup de restaurants proposent des almuerzos pas cher pour le midi. Peu de supermarchés, principalement des petites épiceries qui sont chères. Il n'est pas possible de ramener de la nourriture fraiche du continent mais pâtes et riz sont autorisés.\n\nBudget estimatif : avion (400 euros), logement (20 euros par nuit par personne = 200 euros), accès Galapagos (200 euros), bateaux (35 euros pour chacun = 105 euros), nourriture et entrées diverses (100 euros) = environ 1000 euros sans excursion ou 1400 euros avec les excursions principales."
   },
@@ -105,6 +120,7 @@
     "id": "nord-du-chili",
     "nom": "Nord du Chili",
     "pays": "Chili",
+    "ordre": 10,
     "type": "desert",
     "description": ""
   },
@@ -112,6 +128,7 @@
     "id": "chachapoyas",
     "nom": "Chachapoyas",
     "pays": "Pérou",
+    "ordre": 10,
     "type": "Forêt",
     "description": "Pour accéder à Chachapoyas, et revenir ensuite sur le littoral, ne pas prendre la route qui mène à Cajamarca (très dangereuse). Contourner par le Nord Ouest.\n\nAller à Chachapoyas implique un détour de 15 heures. Ne le faire que si on a le temps et l'envie de faire autant de km."
   },
@@ -119,6 +136,7 @@
     "nom": "Côte Pacifique Nord",
     "id": "cote-pacifique-nord",
     "pays": "Pérou",
+    "ordre": 20,
     "type": "cotier",
     "description": "Le trajet de Lima vers la frontière équatorienne prend environ 18 heures de trajet. A faire à l'aller et au retour un mois plus tard. Faire la moitié des sites à l'aller et l'autre moitié au retour.\n\nSites touristiques du Sud au Nord : [[Ciudad Sagrada de Caral]], [[Cerro Cechin]] et [[Chankillo]] à Casma, [[Huaca del Sol et de la Luna]] et [[Chan Chan]] à Trujillo, [[Zaña]], [[Musée des Tombes Royales de Sipán]] et [[Pyramides de Tucume]] à Chiclayo.\n\nEn profiter pour visiter la ville de Trujillo et son centre historique.\n\nGoûter le King Kong, dessert traditionnel du Pérou dans la ville de Lambayeque, à côté de Chiclayo."
   },
@@ -126,6 +144,7 @@
     "id": "paracas",
     "nom": "Paracas",
     "pays": "Pérou",
+    "ordre": 7,
     "type": "cotier",
     "description": ""
   },
@@ -133,6 +152,7 @@
     "id": "patagonie",
     "nom": "Patagonie",
     "pays": "Argentine",
+    "ordre": 50,
     "type": "trek",
     "description": ""
   },
@@ -140,6 +160,7 @@
     "id": "quito",
     "nom": "Quito",
     "pays": "Equateur",
+    "ordre": 30,
     "type": "ville",
     "description": ""
   },
@@ -147,12 +168,14 @@
     "id": "lima",
     "nom": "Autour de Lima",
     "pays": "Pérou",
+    "ordre": 9,
     "description": "La ville de Lima est une ville très embouteillée, ne pas aller dans le centre historique en van. La zone la plus sûre de la ville pour laisser le van est le quartier de Miraflores (parkings sécurisés)."
   },
   {
     "id": "terre-de-feu",
     "nom": "Terre de Feu",
     "pays": "Argentine",
+    "ordre": 60,
     "type": "archipel",
     "description": "Pour y accéder, prendre le ferry au détroit de Magellan. Entre 20 et 30 minutes la traversée, bateaux en continu toute la journée, pas besoin de réserver, environ 50 euros pour le van.\n\nDétaxe carburant. Beaucoup moins cher que dans le reste de l'Argentine.\n\nLe parc nationnal Terra des Fuego est compris dans le pass annuel des parcs argentins.\n\nLes activités à faire dans l'archipel : visite de [[Ushuaia]] et ses [[Randonnées autour d'Ushuaia]], [[Parc national Tierra del Fuego]], [[Parc Pingüino Rey]], [[Plongée en eau froide]]. En option, le trek Navarino. Compter entre 1 semaine et 10 jours sur l'île principale."
   },
@@ -160,6 +183,7 @@
     "id": "salta",
     "nom": "Salta",
     "pays": "Argentine",
+    "ordre": 10,
     "type": null,
     "description": ""
   },
@@ -167,6 +191,7 @@
     "id": "san-carlos-de-bariloche",
     "nom": "San Carlos de Bariloche",
     "pays": "Argentine",
+    "ordre": 30,
     "type": null,
     "description": ""
   },
@@ -174,6 +199,7 @@
     "id": "uyuni",
     "nom": "Uyuni",
     "pays": "Bolivie",
+    "ordre": 1,
     "type": "salar",
     "description": ""
   },
@@ -181,6 +207,7 @@
     "id": "mendoza",
     "nom": "Mendoza",
     "pays": "Argentine",
+    "ordre": 20,
     "type": "Trajet",
     "description": "Une fois passé la zone au sud de Salta, beaucoup de parcs et de lieux naturels sont très chers, et difficile, voire impossible à visiter en autonomie (excursion de 70 euros minimum pour certains parcs nationaux par exemple). Compter 15 heures de route le long de la route 40 pour atteindre Mendoza. La route [[Cuesta de Miranda]] est très belle. Faire un détour par le [[Parc national de las Quijadas]] avant d'atteindre Mendoza, puis profiter des [[Bodegas de Mendoza]] et visiter le [[Parc de l'Aconcagua]]. En descendant vers la Patagonie, un arrêt au [[Canyon del Atuel]] s'impose."
   }
