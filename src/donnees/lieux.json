@@ -48,6 +48,14 @@
     "description": "Pour récupérer la Carretera Austral depuis le Sud de l'Argentine, 2 options : le paso Roballos qui permet de la récupérer le plus au Sud possible, et le paso Río Jeinemeni un peu plus au Nord. Le paso Roballos permet de profiter d'un parc supplémentaire sur la route, mais est une route en gravier avec un poste-frontière très isolé. Si passage par cette route-là prévoir de remplir le salvoconducto sur internet avant.\n\nUne fois la frontière passée, soit on descend faire un petit aller-retour vers le Sud pour aller voir [[Caleta Tortel]] si le temps le permet, soit on commence directement par remonter. Plusieurs points d'intérêt sur le chemin : [[Parc national Patagonia]] (si passage par le bon poste-frontière), [[Cathédrales de marbre]], [[Trek Cerro Castillo]], [[Parc national Queulat]] et [[Parc Pumalin]].\n\nPour aller jusqu'à Puerto Montt en van, il faut prévoir de prendre des ferrys. Le ferry le plus contraignant est celui (en 2 parties) qui va de Caleta Gonzalo à Hornopiren. S'il n'y a plus de place quand on essaie de réserver, il faudra contourner cette partie en passant par l'Argentine. Au niveau de Villa Santa Lucia, prendre à l'Est et remonter jusqu'à San Carlos de Bariloche avant de rejoindre à nouveau le Chili. La deuxième ferry qui rejoins La Arena est beaucoup moins contraignant (navettes en continu toutes les heures).\n\nSur la route, visiter la ville de Coyhaique, en testant notamment ses micro-brasseries et tester les termas de El Amarillo au sud de Pumalin."
   },
   {
+    "id": "santiago-puerto-montt",
+    "nom": "De Santiago à Puerto Montt",
+    "pays": "Chili",
+    "ordre": 25,
+    "type": "route",
+    "description": "Route passant par énormément de parc nationaux. Beaucoup de péages autour de la route principale, ne pas hésiter à prendre les routes secondaires.\n\nEn plus des parcs, s'arrêter dans certaines villes : Santa Cruz juste au sud de Santiago (région viticole), Valdivia (capitale de la bière), Conception.\n\nCompter entre 15 et 20 jours pour la remontée de Puerto Montt à Santiago pour tout faire en prenant le temps."
+  },
+  {
     "id": "rurrenabaque",
     "nom": "Rurrenabaque",
     "pays": "Bolivie",

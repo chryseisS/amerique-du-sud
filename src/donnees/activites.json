@@ -409,7 +409,7 @@
     "importance": null,
     "duree": null,
     "description": "Structure rocheuse rouge sur la route pour aller vers Puno depuis la Bolivie. Prix : 2 euros par personne entre 8h et 17h, gratuit sinon. Possibilité de faire une petite balade derrière et autour de la porte.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -431,7 +431,7 @@
     "importance": null,
     "duree": null,
     "description": "Site archéologique directement sur la route. Prix : 5 euros. Compter entre 1 et 2 heures sur place.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -453,7 +453,7 @@
     "importance": null,
     "duree": null,
     "description": "Plusieurs canyons avec des formations rocheuses ocre. Gratuit et possibilité de bivouaquer. Petite balade au milieu des canyons. Goûter le Kankacho (plat typique originaire d'Ayaviri) sur le chemin.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",
@@ -896,6 +896,113 @@
     "duree": null,
     "description": "Le parc Patagonia est un parc situé à côté de la ville de Cochrane. Le parc est payant et à réserver en ligne (comme la majorité des parcs chiliens). Prix : 10 euros par personne.\n\nLa randonnée à faire est le circuit Lagunas Altas, boucle de 21km et 1000m D+. Récupérer la trace GPX sur AllTrails.\n\nLe bivouac est interdit dans le parc, mais il existe plusieurs campings pas loin.\n\nPasser par le Museo de la Patagonia qui retrace l'histoire de la Patagonie et les conflits entre les pionniers et la faune sauvage.",
     "visiteGuidee": true
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Réserve nationale Altos de Lircay",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "sousZone": "Talca",
+    "importance": null,
+    "duree": null,
+    "description": "Parc situé à côté de la ville de Talca, à 3h30 au sud de Santiago. Parc ouvert du mardi au dimanche de 9h à 17h de mars à décembre, ou de 8h30 à 18h30 toute la semaine en janvier-février. Prix de l'entrée : 5 euros à réserver sur le site officiel chilien.\n\nLa randonnée principale à faire est El Enladrillado (17km, 1000m D+) qui peut se cumuler avec Laguna del Alto pour faire une boucle de 28km. D'autres petites randonnées plus courtes vers des points de vue sont possibles également.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Réserve Huilo Huilo",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "sousZone": "Pucon",
+    "importance": null,
+    "duree": null,
+    "description": "Réserve privée regroupant plusieurs secteurs. Le billet donnant l'accès à tous les secteurs coûte 14 euros par personne. Si nous logeons dans un hôtel de la réserve ou au camping, les sentiers sont inclus dedans.\n\nEn plus de plusieurs sentiers, la réserve permet d'observer des hôtels architecturalement intégrés dans la forêt.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Ile de Chiloé",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "sousZone": "Sud Puerto Montt",
+    "importance": null,
+    "duree": "3 jours",
+    "description": "Ile accessible uniquement à ferry. Compter 60 euros aller-retour. Pas besoin de réserver le ferry. Le bivouac est facile et gratuit.\n\nA faire et a voir :\n\n - Eglises en bois (Castro, Achao, Tenaun).\n\n - Explorer la capitale avec notamment les Palafitos (maisons colorées sur pilotis).\n\n - Parc national Chiloé pour faire de la randonnée.\n\n - Muelle de las Almas : passerelle en bois au-dessus des falaises de Cucao.\n\n - Goûter le Curanto en hoyo (plat traditionnel de l'ile).",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Parc national Conguillio",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "importance": 5,
+    "duree": null,
+    "description": "Un des parcs les plus spectaculaires du Chili. Paysages lunaires de lave noire et forêts préhistoriques. Ouvert du mardi au dimanche de 8h30 à 17h30. Billet à acheter en avance sur le site internet, prix 14 euros par personne.\n\nLa randonnée incontournable du parc est le sendero Sierra Nevada. De nombreuses autres randonnées plus courtes sont également proposées.\n\nPackraft interdit dans le parc.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Parc National Huerquehue",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "sousZone": "Pucon",
+    "importance": 5,
+    "duree": null,
+    "description": "Parc proche de Pucon. Réserver le billet en avance sur le site internet. 11 euros par personne. Ouvert du mardi au dimanche de 8h30 à 17h30.\n\nRandonnées incontournables : Sendero San Sebastian, et sendero Los Lagos.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Parc Villarica",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "sousZone": "Pucon",
+    "importance": null,
+    "duree": null,
+    "description": "Parc proche de Pucon. Réserver le billet en avance sur le site internet. 11 euros par personne. Ouvert du mardi au dimanche de 8h30 à 17h30.\n\nRandonnée facile : Sendero Mirador Los Cráteres.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Parc Puyehue",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "sousZone": "Osorno",
+    "importance": 5,
+    "duree": null,
+    "description": "Parc gratuit, facile d'accès (route goudronnée). Ouvert tous les jours de 9h à 18h.\n\nRandonnée incontournable : ascension du volcan Puyehue (16km 1000m D+).",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Parc National Alerce Andino",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "sousZone": "Puerto Montt - si bateau",
+    "importance": null,
+    "duree": null,
+    "description": "Parc proche de Puerto Montt. Réserver le billet en avance sur le site internet. 11 euros par personne. Ouvert tous les jours de 9h à 17h.\n\nRandonnée incontournable : Sendero Laguna Sargazo et Laguna Triangulo.\n\nPas de camping dans le parc.",
+    "visiteGuidee": false
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Parc National Hornopiren",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "sousZone": "Puerto Montt - si bateau",
+    "importance": null,
+    "duree": null,
+    "description": "Parc proche situé entre les deux portions de ferry au sud de Puerto Montt. Ouvert tous les jours de 9h à 17h. Parc gratuit mais la route passe par des portions privées, les propriétaires demandent parfois un petit droit de passage.\n\nRandonnée incontournable : Sendero Lago General Pinto Concha (départ avant 10h du matin, sentier technique, de la boue), qui peut se prolonger avec le Sendero Volcán Yates.\n\nPas de camping dans le parc.",
+    "visiteGuidee": false
   },
   {
     "type": "Randonnée",
