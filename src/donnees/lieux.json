@@ -45,7 +45,7 @@
     "pays": "Chili",
     "ordre": 20,
     "type": "route",
-    "description": ""
+    "description": "Pour récupérer la Carretera Austral depuis le Sud de l'Argentine, 2 options : le paso Roballos qui permet de la récupérer le plus au Sud possible, et le paso Río Jeinemeni un peu plus au Nord. Le paso Roballos permet de profiter d'un parc supplémentaire sur la route, mais est une route en gravier avec un poste-frontière très isolé. Si passage par cette route-là prévoir de remplir le salvoconducto sur internet avant.\n\nUne fois la frontière passée, soit on descend faire un petit aller-retour vers le Sud pour aller voir [[Caleta Tortel]] si le temps le permet, soit on commence directement par remonter. Plusieurs points d'intérêt sur le chemin : [[Parc national Patagonia]] (si passage par le bon poste-frontière), [[Cathédrales de marbre]], [[Trek Cerro Castillo]], [[Parc national Queulat]] et [[Parc Pumalin]].\n\nPour aller jusqu'à Puerto Montt en van, il faut prévoir de prendre des ferrys. Le ferry le plus contraignant est celui (en 2 parties) qui va de Caleta Gonzalo à Hornopiren. S'il n'y a plus de place quand on essaie de réserver, il faudra contourner cette partie en passant par l'Argentine. Au niveau de Villa Santa Lucia, prendre à l'Est et remonter jusqu'à San Carlos de Bariloche avant de rejoindre à nouveau le Chili. La deuxième ferry qui rejoins La Arena est beaucoup moins contraignant (navettes en continu toutes les heures).\n\nSur la route, visiter la ville de Coyhaique, en testant notamment ses micro-brasseries et tester les termas de El Amarillo au sud de Pumalin."
   },
   {
     "id": "rurrenabaque",
@@ -123,6 +123,14 @@
     "ordre": 10,
     "type": "desert",
     "description": ""
+  },
+  {
+    "id": "ile-de-paques",
+    "nom": "Ile de Paques",
+    "pays": "Chili",
+    "ordre": 0,
+    "type": null,
+    "description": "Accès à l'ile uniquement par avion, via l'aéroport international Mataveri (IPC), situé à quelques minutes à pied ou en taxi du centre de Hanga Roa. Avant l'embarquement à Santiago, la PDI contrôle le formulaire FUI (Formulario Único de Ingreso, à remplir en ligne avant le départ), la preuve d'un hébergement enregistré auprès du Sernatur, ainsi que le billet retour. Sans ces documents, l'embarquement est refusé.\n\nDepuis la réouverture de l'ile au tourisme en août 2022, un guide accrédité (ou un hôte Rapa Nui majeur) est obligatoire pour accéder à la quasi-totalité des sites du Parc National Rapa Nui. Les seules exceptions sont Tahai et la plage de Hanga Roa/Anakena (hors secteur Ahu), accessibles librement sans guide.\n\nLe billet d'entrée au parc s'achète en ligne, et coûte environ 80$ pour un étranger. Il est valable 10 jours à partir du premier contrôle, et permet un nombre illimité d'entrées sur la plupart des sites, à l'exception de Rano Raraku et Orongo qui ne peuvent être visités qu'une seule fois avec ce billet.\n\nPlanning prévu sur l'ile : 2 demi-journées guidées pour couvrir les principaux [[Sites archéologiques]] du parc (nécessitant un guide), puis une journée en location de scooter ou voiture pour plus de liberté, avec au programme la randonnée du [[Terevaka]] et une promenade sur la côte nord depuis Anakena.\n\nCompter au total entre 4 et 5 jours sur place pour prendre le temps de bien profiter de l'ile."
   },
   {
     "id": "chachapoyas",

@@ -48,9 +48,6 @@ export default function Jeux() {
                 <p className="text-[12.5px] leading-snug text-creme/70 mt-1.5">{desc}</p>
               </div>
             </div>
-            <span className="absolute right-3.5 bottom-3 bg-black/25 text-creme text-[11px] font-semibold px-2.5 py-[3px] rounded-lg border border-creme/15">
-              {badge}
-            </span>
           </Link>
         ))}
       </div>
