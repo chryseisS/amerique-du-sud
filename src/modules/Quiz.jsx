@@ -9,8 +9,11 @@ import QUESTIONS from '../donnees/quiz.json';
    ÉCRAN « QUIZ »
    ──────────────────────────────────────────────────────────────────
    • Contenu des questions dans ../donnees/quiz.json (schéma :
-     id, pays, theme, difficulte, type ('vf'|'qcm'), question,
-     choix? (array, uniquement pour qcm), reponse, explication)
+     id, pays, theme, difficulte, type ('vf'|'qcm'|'2v1f'), question,
+     choix? (array, uniquement pour qcm),
+     affirmations? (array de 3 strings, uniquement pour 2v1f),
+     reponse (texte attendu : 'Vrai'/'Faux', le bon choix qcm, ou
+     l'affirmation fausse pour 2v1f), explication)
    • Statut "lu" stocké dans Dexie (table `quizLu`, clé = id de question).
      À ajouter au schéma db.js si absent :  quizLu: 'id, date'
    • Adapte l'import `from '../db'` si ton fichier Dexie a un autre nom.
@@ -31,6 +34,9 @@ const COULEURS_DIFFICULTE = {
 const NEUTRE = { bg: 'bg-sepia/12', text: 'text-sepia' };
 const themeBadge = (t) => COULEURS_THEME[t] ?? NEUTRE;
 const diffBadge  = (d) => COULEURS_DIFFICULTE[d] ?? NEUTRE;
+
+// Libellé affiché devant courante.reponse au verso, selon le type de question
+const LIBELLE_REPONSE = { vf: 'Réponse', qcm: 'Réponse', '2v1f': "L'affirmation fausse était" };
 
 const normaliser = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
@@ -84,7 +90,7 @@ function CarteReponse({ q, reponseChoisie }) {
         <p className="text-[12.5px] text-encre-douce">Ta réponse : {reponseChoisie}</p>
       )}
       <p className="text-[15px] font-semibold text-encre">Réponse : {q.reponse}</p>
-      <p className="text-[13px] text-encre-douce leading-relaxed">{q.explication}</p>
+      <p className="text-[13px] text-encre-douce leading-relaxed whitespace-pre-line">{q.explication}</p>
     </div>
   );
 }
@@ -208,6 +214,7 @@ export default function Quiz() {
           <option value="tous">Type : tous</option>
           <option value="vf">Vrai / Faux</option>
           <option value="qcm">QCM</option>
+          <option value="2v1f">2 Vraies 1 Fausse</option>
         </Select>
         <Select value={filtres.statut} onChange={(e) => majFiltre('statut', e.target.value)}>
           <option value="toutes">Statut : toutes</option>
@@ -319,6 +326,15 @@ export default function Quiz() {
                       </button>
                     ))}
                   </div>
+                ) : courante.type === '2v1f' ? (
+                  <div className="flex flex-col gap-2">
+                    {courante.affirmations.map((a) => (
+                      <button key={a} onClick={() => repondre(a)}
+                              className="text-left text-[13px] text-encre bg-creme/60 border border-parchemin-bordure rounded-xl px-3.5 py-2.5">
+                        {a}
+                      </button>
+                    ))}
+                  </div>
                 ) : (
                   <div className="flex gap-2.5">
                     <button onClick={() => repondre('Vrai')}
@@ -338,8 +354,8 @@ export default function Quiz() {
                   </Badge>
                 </div>
                 <p className="text-[14px] font-medium text-encre leading-relaxed">{courante.question}</p>
-                <p className="text-[15px] font-semibold text-encre">Réponse : {courante.reponse}</p>
-                <p className="text-[13px] text-encre-douce leading-relaxed">{courante.explication}</p>
+                <p className="text-[15px] font-semibold text-encre">{LIBELLE_REPONSE[courante.type] ?? 'Réponse'} : {courante.reponse}</p>
+                <p className="text-[13px] text-encre-douce leading-relaxed whitespace-pre-line">{courante.explication}</p>
                 {poolTirage.length > 0 ? (
                   <button onClick={suivante}
                           className="self-center mt-1 inline-flex items-center gap-1.5 bg-vert-cta text-creme font-semibold text-[13px] rounded-full px-5 py-2.5">

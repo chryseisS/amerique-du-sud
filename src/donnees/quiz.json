@@ -18,7 +18,7 @@
     "question": "Quelle ville est la capitale constitutionnelle de la Bolivie ?",
     "choix": ["La Paz", "Sucre", "Santa Cruz", "Cochabamba"],
     "reponse": "Sucre",
-    "explication": "Sucre est la capitale constitutionnelle où siège la Cour suprême, mais La Paz abrite le gouvernement et le parlement depuis 1899."
+    "explication": "Sucre est la capitale historique et constitutionnelle inscrite dans la Constitution bolivienne, abritant le pouvoir judiciaire (Cour suprême). Cependant, à la suite de la guerre civile de 1899 entre le Nord et le Sud, les pouvoirs exécutif (présidence) et législatif (parlement) ont été transférés à La Paz, faisant de cette dernière le siège effectif du gouvernement et la capitale de fait du pays."
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "type": "vf",
     "question": "Le lac Titicaca est souvent présenté comme le plus haut lac navigable du monde.",
     "reponse": "Vrai",
-    "explication": "C'est l'affirmation communément admise (environ 3812 m), même si d'autres lacs plus hauts existent sans navigation commerciale comparable."
+    "explication": "Situé à 3 812 mètres d'altitude à la frontière entre le Pérou et la Bolivie, le lac Titicaca détient ce titre car il est le plus élevé à accueillir une véritable navigation commerciale (cargos, ferrys, bateaux de pêche et de tourisme). S'il existe des lacs d'altitude plus élevés dans les Andes (comme le lac du volcan Ojos del Salado à plus de 6 300 m), ils ne sont praticables que par de petites embarcations de loisir ou d'expédition sans activité de transport structurée."
   },
   {
     "id": 5,
@@ -64,16 +64,6 @@
     "explication": "Il y séjourne en 1835 lors du voyage du HMS Beagle, observations clés pour sa théorie de l'évolution."
   },
   {
-    "id": 7,
-    "pays": "Argentine",
-    "theme": "Culture",
-    "difficulte": "difficile",
-    "type": "vf",
-    "question": "Le tango est né uniquement en Argentine.",
-    "reponse": "Faux",
-    "explication": "Il est né dans la région du Río de la Plata, à cheval sur l'Argentine et l'Uruguay, notamment entre Buenos Aires et Montevideo."
-  },
-  {
     "id": 8,
     "pays": "Chili",
     "theme": "Géographie",
@@ -82,7 +72,7 @@
     "question": "Le Chili s'étend sur environ quelle longueur nord-sud ?",
     "choix": ["2 000 km", "3 000 km", "4 300 km", "5 500 km"],
     "reponse": "4 300 km",
-    "explication": "Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde."
+    "explication": "Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde."
   },
   {
     "id": 9,
@@ -93,7 +83,7 @@
     "question": "Quel animal andin figure sur les armoiries du Pérou ?",
     "choix": ["Lama", "Vigogne", "Alpaga", "Guanaco"],
     "reponse": "Vigogne",
-    "explication": "La vigogne, camélidé sauvage protégé, symbolise les ressources naturelles du pays sur les armoiries nationales."
+    "explication": "Adoptée en 1825 sous l'impulsion de Simón Bolívar, la vigogne figure dans le cadran supérieur gauche du blason national pour symboliser la richesse de la faune péruvienne. Camélidé sauvage des hautes Andes produisant une laine extrêmement fine, elle se trouve aux côtés de l'arbre à quinquina (qui symbolise la flore et le remède historique contre le paludisme) et d'une corne d'abondance déversant des pièces d'or (symbole de la richesse minérale)."
   },
   {
     "id": 10,
@@ -109,6 +99,183 @@
       "Bolivie seule"
     ],
     "reponse": "Pérou et Bolivie",
-    "explication": "Conflit pour des territoires côtiers riches en nitrates ; la Bolivie y perd son accès à la mer."
+    "explication": "Conflit pour des territoires côtiers riches en nitrates ; la Bolivie y perd son accès à la mer.\n\nVoir le chapitre associé dans Culture -> Histoire & Civilisations -> La Fragmentation"
+  },
+  {
+    "id": 11,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "2v1f",
+    "question": "Repère l'affirmation fausse.",
+    "affirmations": [
+      "Le désert d'Atacama, au Chili, est l'un des endroits les plus arides du monde.",
+      "Le Chili partage une frontière terrestre avec le Brésil.",
+      "L'île de Pâques (Rapa Nui) appartient au Chili."
+    ],
+    "reponse": "Le Chili partage une frontière terrestre avec le Brésil.",
+    "explication": "Le Chili ne partage de frontière terrestre qu'avec le Pérou, la Bolivie et l'Argentine ; il ne touche pas le Brésil."
+  },
+  {
+    "id": 12,
+    "pays": "Argentine",
+    "theme": "Histoire",
+    "difficulte": "difficile",
+    "type": "2v1f",
+    "question": "Repère l'affirmation fausse.",
+    "affirmations": [
+      "L'Argentine a déclaré son indépendance de l'Espagne en 1816.",
+      "Buenos Aires a toujours été la capitale de l'Argentine depuis l'indépendance.",
+      "Eva Perón est décédée en 1952."
+    ],
+    "reponse": "Buenos Aires a toujours été la capitale de l'Argentine depuis l'indépendance.",
+    "explication": "Déclarée en 1816 à Tucumán, l'indépendance argentine débouche sur de violentes guerres civiles. Deux camps s'opposent : les Unitaires, partisans d'un pouvoir centralisé fort à Buenos Aires, et les Fédéralistes, souhaitant l'autonomie des provinces. Ce conflit provoque la sécession de Buenos Aires entre 1852 et 1861, période durant laquelle la ville de Paraná sert de capitale au reste du pays. Buenos Aires ne devient définitivement la capitale fédérale qu'en 1880."
+  },
+  {
+    "id": 13,
+    "pays": "Bolivie",
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle chaussons empanadas légèrement sucrés et juteux sont la spécialité du matin en Bolivie ?",
+    "choix": ["Salteñas", "Arepas", "Tacos", "Guao"],
+    "reponse": "Salteñas",
+    "explication": "Les salteñas sont des chaussons garnis de viande ou poulet, légumes et bouillon gélifié qui devient liquide à la cuisson. Elles se consomment généralement au petit-déjeuner ou en milieu de matinée."
+  },
+  {
+    "id": 14,
+    "pays": "Argentine",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel artiste de street art ou personnalité politique ne figure PAS parmi les icones de la pop culture argentine ?",
+    "choix": [
+      "Quino (créateur de Mafalda)",
+      "Diego Maradona",
+      "Frida Kahlo",
+      "Carlos Gardel"
+    ],
+    "reponse": "Frida Kahlo",
+    "explication": "Frida Kahlo est une célèbre peintre mexicaine. Quino (dessinateur de Mafalda), Diego Maradona (football) et Carlos Gardel (légende du Tango) sont tous trois argentins."
+  },
+  {
+    "id": 15,
+    "pays": "Equateur",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "D'où vient le célèbre chapeau 'Panama', dont l'Équateur est le véritable berceau ?",
+    "choix": [
+      "De la ville de Cuenca en Équateur",
+      "De la ville de Panama City",
+      "Des îles Galápagos",
+      "De Bogota en Colombie"
+    ],
+    "reponse": "De la ville de Cuenca en Équateur",
+    "explication": "Originaire de la côte équatorienne (notamment autour de Montecristi) puis produit à grande échelle à Cuenca, ce chapeau est tissé à la main à partir des fibres de 'paja toquilla'. Il doit son nom trompeur au fait qu'il était exporté via l'isthme de Panama, où il protégeait les ouvriers du canal. Sa popularité internationale a explosé en 1906 lorsque le président américain Theodore Roosevelt s'est fait photographier en visite sur le chantier du canal avec ce chapeau équatorien sur la tête. L'art du tissage du Panama équatorien est d'ailleurs inscrit au patrimoine culturel immatériel de l'UNESCO depuis 2012."
+  },
+  {
+    "id": 16,
+    "pays": "Chili",
+    "theme": "Langues",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Au Chili, que signifie le mot très populaire 'Cachai ?' dans le langage familier (Chilenismo) ?",
+    "choix": ["Tu viens ?", "Tu piges ?", "C'est bon ?", "Combien ça coûte ?"],
+    "reponse": "Tu piges ?",
+    "explication": "Issu du verbe anglais 'to catch', le verbe 'cachar' est omniprésent en argot chilien. '¿Cachai?' s'utilise à la fin des phrases comme 'Tu vois ?' ou 'Tu as compris ?'."
+  },
+  {
+    "id": 17,
+    "pays": "Argentine",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle est la boisson traditionnelle chaude et infusée incontournable en Argentine ?",
+    "choix": ["Pisco", "Mate", "Chicha", "Tereré"],
+    "reponse": "Mate",
+    "explication": "Infusion de feuilles de yerba mate bu dans une calebasse avec une paille en métal (bombilla), le mate est un véritable rituel social quotidien en Argentine et en Uruguay."
+  },
+  {
+    "id": 18,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "type": "2v1f",
+    "question": "Repère l'affirmation fausse.",
+    "affirmations": [
+      "Le Pisco Sour est un cocktail à base d'eau-de-vie de raisin, jus de citron, sirop et blanc d'œuf, revendiqué par le Chili et le Pérou.",
+      "Le 'Mote con Huesillo' est une boisson rafraîchissante chilienne sucrée à base de pêche séchée et de grain de blé.",
+      "Le Carmenère est le cépage blanc le plus emblématique des vignobles chiliens."
+    ],
+    "reponse": "Le Carmenère est le cépage blanc le plus emblématique des vignobles chiliens.",
+    "explication": "Le Carmenère est un cépage rougeb(et non blanc) originaire du Bordelais. Décimé en Europe au XIXe siècle par l'épidémie de phylloxéra, on le croyait définitivement éteint. Il a été redécouvert par hasard au Chili en 1994 par un ampélographe français, le docteur Jean-Michel Boursiquot. Les viticulteurs chiliens cultivaient ce cépage depuis des décennies en le confondant avec du Merlot ! Aujourd'hui, le Chili est pratiquement le seul pays au monde à produire ce vin rouge aux arômes caractéristiques de fruits noirs et de poivron doux."
+  },
+  {
+    "id": 19,
+    "pays": "Argentine",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "vf",
+    "question": "Le Tango est né au XIXe siècle dans les quartiers populaires et portuaires de Buenos Aires et Montevideo.",
+    "reponse": "Vrai",
+    "explication": "Né à la fin du XIXe siècle sur les rives du Río de la Plata, le tango est issu d'un métissage culturel entre les rythmes africains, la habanera (une danse cubaine chaloupée) et la milonga (une musique rapide des gauchos de la pampa). À l'origine dansé dans les 'conventillos' (logements communautaires populaires) et les bordels du port, il était méprisé par l'élite. Son instrument phare, le bandonéon — un petit accordéon à boutons d'origine allemande initialement conçu pour les églises — lui donne sa sonorité mélancolique. C'est après avoir conquis les cabarets de Paris dans les années 1910 qu'il a été accepté par la haute société argentine, avant d'être classé au patrimoine culturel immatériel de l'UNESCO en 2009."
+  },
+  {
+    "id": 20,
+    "pays": "Bolivie",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "vf",
+    "question": "Le quinoa est originaire de la région andine, notamment du Pérou et de la Bolivie.",
+    "reponse": "Vrai",
+    "explication": "Cultivé depuis des millénaires par les civilisations andines, le quinoa reste un aliment de base autour du lac Titicaca."
+  },
+  {
+    "id": 21,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Le « curanto », plat traditionnel du sud du Chili (Chiloé), est cuit selon quelle méthode traditionnelle ?",
+    "choix": [
+      "Sous terre, avec des pierres chauffées",
+      "À la vapeur dans des feuilles de bananier",
+      "Fumé pendant plusieurs jours",
+      "Frit dans l'huile d'olive"
+    ],
+    "reponse": "Sous terre, avec des pierres chauffées",
+    "explication": "Originaire de l'archipel de Chiloé dans le sud du Chili, le 'curanto en hoyo' (curanto dans un trou) est un festin communautaire ancestral dont la tradition remonte au peuple autochtone Chono. On creuse un trou d'un mètre de profondeur dans la terre où l'on fait chauffer des pierres au feu de bois. Une fois les pierres brûlantes, on y superpose des couches de fruits de mer (moules géantes, coques), de viandes (porc, poulet, saucisses) et de galettes de pommes de terre locales (chapaleles et milcaos). Le tout est recouvert de géantes feuilles de 'nalca' (la rhubarbe du Chili), de gazon et d'herbe pour emprisonner la chaleur et cuire à la vapeur étouffée pendant plusieurs heures."
+  },
+  {
+    "id": 22,
+    "pays": "Chili",
+    "theme": "Personnalités",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel poète chilien a reçu le prix Nobel de littérature en 1971 ?",
+    "choix": [
+      "Pablo Neruda",
+      "Gabriel García Márquez",
+      "Mario Vargas Llosa",
+      "Octavio Paz"
+    ],
+    "reponse": "Pablo Neruda",
+    "explication": "Né sous le nom de Ricardo Eliécer Neftalí Reyes Basoalto, Pablo Neruda adopte son pseudonyme dès son adolescence avant de publier à seulement 19 ans son chef-d'œuvre « Vingt poèmes d'amour et une chanson désespérée ». Également diplomate et sénateur communiste engagé, il est contraint à l'exil dans les années 1940 en raison de ses convictions politiques. Auteur prolifique, sa poésie navigue entre le romantisme passionné, le surréalisme et l'épopée politique de tout le continent (« Canto General »). Récompensé par le prix Nobel de littérature en 1971 pour son œuvre qui fait vibrer le destin d'un continent tout entier, il meurt dans des circonstances suspectes quelques jours seulement après le coup d'État de Pinochet en septembre 1973. Ses trois maisons originales au Chili (La Chascona à Santiago, La Sebastiana à Valparaíso et sa demeure de Isla Negra) sont aujourd'hui des musées incontournables."
+  },
+  {
+    "id": 24,
+    "pays": "Chili",
+    "theme": "Personnalités",
+    "difficulte": "difficile",
+    "type": "2v1f",
+    "question": "Repère l'affirmation fausse sur Gabriela Mistral.",
+    "affirmations": [
+      "Gabriela Mistral est la première personnalité d'Amérique latine à recevoir un prix Nobel, en 1945.",
+      "Gabriela Mistral était son vrai nom de naissance.",
+      "Son portrait figure sur le billet de 5 000 pesos chiliens."
+    ],
+    "reponse": "Gabriela Mistral était son vrai nom de naissance.",
+    "explication": "Née en 1889 dans un milieu très modeste des montagnes chiliennes, Lucila Godoy Alcayaga choisit le nom de plume 'Gabriela Mistral' en hommage aux poètes Gabriele D'Annunzio et Frédéric Mistral. Autodidacte, elle commence comme institutrice de campagne dès l'âge de 15 ans. Marquée par le suicide tragique de son premier amour, elle transforme sa douleur en une poésie poignante sur le deuil, la maternité et l'enfance. Son talent la propulse sur la scène internationale : elle conseille le gouvernement mexicain pour créer un système d'école publique, devient diplomate pour le Chili aux États-Unis et en Europe, et s'engage activement pour la défense des droits des femmes, des enfants et des peuples autochtones. En 1945, elle devient la toute première personnalité d'Amérique latine à recevoir le prix Nobel de littérature, consacrant son statut d'icône nationale au Chili (où son visage figure aujourd'hui sur les billets de 5 000 pesos)."
   }
 ]
