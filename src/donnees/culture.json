@@ -29,7 +29,14 @@
         "titre": "Les indépendances",
         "sousTitre": null,
         "fichier": "independances",
-        "image": null
+        "image": "/images/themes/independances.png"
+      },
+      {
+        "id": "fragmentation",
+        "titre": "La Fragmentation",
+        "sousTitre": null,
+        "fichier": "fragmentation",
+        "image": "/images/themes/fragmentation.png"
       }
     ]
   },

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "pays": "Pérou",
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "type": "vf",
+    "question": "Le Machu Picchu a été construit par les Incas.",
+    "reponse": "Vrai",
+    "explication": "Construit au 15e siècle sous le règne de Pachacutec, il servait probablement de résidence royale et de site cérémoniel."
+  },
+  {
+    "id": 2,
+    "pays": "Bolivie",
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle ville est la capitale constitutionnelle de la Bolivie ?",
+    "choix": ["La Paz", "Sucre", "Santa Cruz", "Cochabamba"],
+    "reponse": "Sucre",
+    "explication": "Sucre est la capitale constitutionnelle où siège la Cour suprême, mais La Paz abrite le gouvernement et le parlement depuis 1899."
+  },
+  {
+    "id": 3,
+    "pays": "Bolivie",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Dans quel pays se trouve le Salar d'Uyuni ?",
+    "choix": ["Chili", "Pérou", "Bolivie", "Argentine"],
+    "reponse": "Bolivie",
+    "explication": "Le plus grand désert de sel du monde, environ 10 000 km², vestige d'un lac préhistorique asséché."
+  },
+  {
+    "id": 4,
+    "pays": "Pérou",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Le lac Titicaca est souvent présenté comme le plus haut lac navigable du monde.",
+    "reponse": "Vrai",
+    "explication": "C'est l'affirmation communément admise (environ 3812 m), même si d'autres lacs plus hauts existent sans navigation commerciale comparable."
+  },
+  {
+    "id": 5,
+    "pays": "Equateur",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "À quel pays appartiennent les îles Galápagos ?",
+    "choix": ["Chili", "Equateur", "Pérou", "Colombie"],
+    "reponse": "Equateur",
+    "explication": "L'archipel est rattaché à la province des Galápagos, à environ 1000 km des côtes équatoriennes."
+  },
+  {
+    "id": 6,
+    "pays": "Equateur",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "En quelle décennie Charles Darwin a-t-il visité les Galápagos ?",
+    "choix": ["1810s", "1830s", "1850s", "1870s"],
+    "reponse": "1830s",
+    "explication": "Il y séjourne en 1835 lors du voyage du HMS Beagle, observations clés pour sa théorie de l'évolution."
+  },
+  {
+    "id": 7,
+    "pays": "Argentine",
+    "theme": "Culture",
+    "difficulte": "difficile",
+    "type": "vf",
+    "question": "Le tango est né uniquement en Argentine.",
+    "reponse": "Faux",
+    "explication": "Il est né dans la région du Río de la Plata, à cheval sur l'Argentine et l'Uruguay, notamment entre Buenos Aires et Montevideo."
+  },
+  {
+    "id": 8,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "difficile",
+    "type": "qcm",
+    "question": "Le Chili s'étend sur environ quelle longueur nord-sud ?",
+    "choix": ["2 000 km", "3 000 km", "4 300 km", "5 500 km"],
+    "reponse": "4 300 km",
+    "explication": "Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.Environ 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde.\n\nEnviron 4300 km de long pour seulement 175 km de large en moyenne, l'un des pays les plus allongés au monde."
+  },
+  {
+    "id": 9,
+    "pays": "Pérou",
+    "theme": "Faune",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel animal andin figure sur les armoiries du Pérou ?",
+    "choix": ["Lama", "Vigogne", "Alpaga", "Guanaco"],
+    "reponse": "Vigogne",
+    "explication": "La vigogne, camélidé sauvage protégé, symbolise les ressources naturelles du pays sur les armoiries nationales."
+  },
+  {
+    "id": 10,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "difficile",
+    "type": "qcm",
+    "question": "La guerre du Pacifique (1879-1883) a opposé le Chili à quels pays ?",
+    "choix": [
+      "Pérou et Bolivie",
+      "Argentine et Bolivie",
+      "Pérou et Equateur",
+      "Bolivie seule"
+    ],
+    "reponse": "Pérou et Bolivie",
+    "explication": "Conflit pour des territoires côtiers riches en nitrates ; la Bolivie y perd son accès à la mer."
+  }
+]

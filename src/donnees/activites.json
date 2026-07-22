@@ -141,7 +141,7 @@
     "importance": 4,
     "duree": "1 jour",
     "description": "A 2 heures au nord de Huaraz. Plus belle lagune. Randonnée pour y accéder de 14km - 800m D+, pour atteindre une altitude de 4600m. A faire sur le chemin pour aller en Equateur. Interdiction de faire du packraft.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",
@@ -174,7 +174,7 @@
     "importance": null,
     "duree": null,
     "description": "Au sud de Huaraz. A faire en venant de Lima. Petite randonnée très courte qui permet de monter de 4900m à 5200m pour atteindre le glacier.\n\nSur le chemin du glacier vers Huaraz, possibilité de faire de courts arrêts aux endroits suivants :\n\n - Gruta San Patricio : une jolie grotte.\n\n - Puya Raimondi : une zone dans laquelle pousse une espèce endémique d'arbre.\n\n - Etang de Pumashimi, aussi appelé étang aux 7 couleurs, et source d'eau gazeuse naturelle (non potable) à proximité.\n\n - Lagune Patococha : petit lac avec des canards andins.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -196,7 +196,7 @@
     "importance": 4,
     "duree": "1 jour",
     "description": "A proximité de Huaraz. Gratuite. Une des randonnées sur une journée les plus dures de Huaraz. Environ 23km avec 1500 de D+, pour une altitude maximale de 5000m. Cette boucle passe par 4 lagunes de la Cordillera Blanca. Attention à être bien acclimaté au moment d'effectuer cette randonnée (après le trek de Santa Cruz par exemple).",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Trek",
@@ -262,7 +262,7 @@
     "importance": 4,
     "duree": null,
     "description": "Domaines de pisco autour d'Ica. Possibilité de visiter de déguster des vins/piscos locaux. Le domaine le plus prestigieux est Tacama, qui propose un tour traditionnel d'une heure. Le samedi, propose également des spectacles de Marinera (danse traditionnelle). D'autres bodegas sont plus artisanales : El Catador, Lazo, Tres Generationes, Vista Alegre.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -487,11 +487,11 @@
     "importance": null,
     "duree": null,
     "description": "A un peu plus de 3h de route au nord de Lima, c'est la plus ancienne ville connue des Amériques. Inscrite au patrimoine mondial de l'UNESCO. Rejoindre le Parador Turistico de Caral et laisser le van. Ne pas y dormir la nuit. Prix de l'entrée : 11 soles. Une fois sur place, un guide est obligatoire. Prévoir 20 soles en plus pour le groupe.\n\nPossibilité de dormir au bord de la plage à Playa Tuquillo après.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
-    "nom": "Cerro Cechin",
+    "nom": "Cerro Sechin",
     "lieu": "Côte Pacifique Nord",
     "lieuId": "cote-pacifique-nord",
     "pays": "Pérou",
@@ -499,7 +499,7 @@
     "importance": null,
     "duree": null,
     "description": "Site archéologique ancien, à côté de la ville de Casma. 6 soles par personne. Ouvert du mardi au dimanche de 9h à 17h. Le billet inclut l'accès au site ainsi que l'accès au petit musée.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -511,7 +511,7 @@
     "importance": null,
     "duree": null,
     "description": "Situé juste au Sud de Casma, Chankillo est le plus ancien observatoire solaire des Amériques. Gratuit ou via participation communautaire.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -523,7 +523,7 @@
     "importance": null,
     "duree": null,
     "description": "Immenses pyramides de la culture Moche ornées de fresque d'origine, à côté de Trujillo. Ouvert tous les jours de 9h à 16h. Prix 10 soles + coût du guide obligatoire 20 soles par groupe. Possibilité de visiter le musée du site pour 5 soles supplémentaires.\n\nPour dormir aux alentours, se diriger vers Huanchaco (petite station balnéaire en bord de mer, on peut y voir des Caballito de Totora, embarcations en roseau des pêcheurs).",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -535,10 +535,10 @@
     "importance": null,
     "duree": null,
     "description": "Un des meilleurs musées archéologiques d'Amérique du Sud, situé tout près de Chiclayo. Ouvert du mardi au dimanche de 9h à 17h. Prix 10 soles.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
-    "type": "Culture",
+    "type": "Divers",
     "nom": "Zaña",
     "lieu": "Côte Pacifique Nord",
     "lieuId": "cote-pacifique-nord",
@@ -547,7 +547,7 @@
     "importance": null,
     "duree": null,
     "description": "Situé un peu au Sud de Chiclayo, Zaña est une ville coloniale fantôme. On peut se balader dans les ruines de la ville.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -559,7 +559,7 @@
     "importance": null,
     "duree": null,
     "description": "26 pyramides en adobe au Nord de Chiclayo. Ouvert du mardi au dimanche de 9h à 16h. 12 soles par personne. Commencer par visiter le musée du site avant d'aller se balader, et monter jusqu'au belvédère Cerro Purgatorio.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -570,7 +570,7 @@
     "importance": null,
     "duree": null,
     "description": "Sur le chemin entre Cuzco et Lima. Deux attractions principales : le bosquet de pierre (Bosque de Piedras), et le village des Schtroumpfs (la Casa de los Pitufos), dans lequel des gens vivent encore.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",
@@ -581,7 +581,7 @@
     "importance": null,
     "duree": null,
     "description": "A côté de la ville d'Abancay. Route carrossable qui monte jusqu'à 3200m d'altitude. Prix : 30 soles. Randonnée de 10km aller-retour qui permet d'aller à la lagune Uspaccocha en passant par la lagune Angasqocha et la forêt d'Intimpas.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -592,7 +592,7 @@
     "importance": null,
     "duree": null,
     "description": "Sanctuaire des vigognes. Prix : 30 soles. Visite du musée du site sur la faune locale et petite balade autour. Le 24 juin : Chacchu National, rite ancestral inca : des centaines de membres des communautés locales forment une immense chaîne humaine de plusieurs kilomètres à travers la plaine pour encercler les vigognes sauvages, les rassembler dans un enclos, les tondre pour leur laine ultra-précieuse, puis les relâcher saines et sauves.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -614,7 +614,7 @@
     "importance": null,
     "duree": null,
     "description": "A Nazca, grandes figures tracées au sol par le peuple nazca dans le désert. Se voient mieux en avion. Prix : 100 euros par personne. Certaines d'entre elles peuvent se voir depuis le Mirador de las Lineas de Nazca, pour la modique somme de quelques soles.\n\nPossibilité de visiter les aqueducs de Cantalloc et le cimetière de Chauchilla, ainsi que de grimper le Cerro Blanco, une des plus hautes dunes de sable au monde.\n\nPour visiter tous les sites archéologiques autour de Nazca, possibilité d'acheter le Boleto Turistico. Pour 20 soles, accès à tous les sites archéologiques alentours sur deux jours. Le billet s'achète directement à l'entrée du premier site visité. Paiement en espèce. Accès au mirador inclus dedans.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -625,7 +625,7 @@
     "importance": null,
     "duree": null,
     "description": "A 30min au Nord de Paracas, El Carmen est le berceau historique de la culture afro-péruvienne. A faire : visite de la Plaza de Armas, goûter la *Carapulcra con Sopa Seca*, visiter l'hacienda San José (20 soles). En ville, possibilité de prendre un cours de *cajon* (boite de percussion en bois).",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -1134,7 +1134,7 @@
     "importance": null,
     "duree": "3 jours",
     "description": "Trek sauvage menant à une falaise surplombant une lagune, dans laquelle de nombreux mausolées on été découverts. Environ 45km aller-retour. Guide obligatoire. Le départ se fait à Leymebamba. En arrivant en ville, aller directement voir des guides locaux pour négocier le prix du trek. Il se fait avec guide et chevaux. Compter 200-250 euros pour les 3 jours tout compris.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -1145,7 +1145,7 @@
     "importance": null,
     "duree": null,
     "description": "Revash est un complexe funéraire constitué de petites maisons situées dans une grotte à même la falaise.  Le départ se fait à San Bartolo. L'entrée coûte 20 soles, à payer au bureau touristique de San Bartolo. Une petite marche de 1.5km mène ensuite aux mausolées.\n\nDans la même journée, faire le musée Leymebamba (20 soles). Ouvert du mardi au dimanche, c'est l'un des musées archéologiques les plus mémorables, avec une salle abritant plus de 200 momies.",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Culture",

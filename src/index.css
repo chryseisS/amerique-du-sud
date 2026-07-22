@@ -39,6 +39,24 @@ body {
   display: none;               /* Chrome, Safari */
 }
 
+.scroll-discret {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(120, 90, 50, 0.35) transparent;
+}
+.scroll-discret::-webkit-scrollbar {
+  width: 5px;
+}
+.scroll-discret::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll-discret::-webkit-scrollbar-thumb {
+  background-color: rgba(120, 90, 50, 0.35);
+  border-radius: 10px;
+}
+.scroll-discret::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(120, 90, 50, 0.5);
+}
+
 .fond-carte {
   background: url('/images/jeux/background.png') center/cover no-repeat;
 }

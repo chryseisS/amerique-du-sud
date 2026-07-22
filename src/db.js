@@ -53,4 +53,6 @@ db.version(2).stores({
    *   plein      : Blob JPEG ~1600px
    */
   journalPhotosPleines: 'photoId',
+
+  quizLu: 'id, date'
 });
