@@ -37,6 +37,13 @@
         "sousTitre": null,
         "fichier": "fragmentation",
         "image": "/images/themes/fragmentation.png"
+      },
+      {
+        "id": "siecle-frontieres",
+        "titre": "Le siècle des frontières",
+        "sousTitre": null,
+        "fichier": "siecle-frontiere",
+        "image": "/images/themes/siecle-frontiere.png"
       }
     ]
   },

@@ -127,6 +127,8 @@ export const ICONES_ZONES = {
   'nord-du-chili':       '/images/zones/nord-du-chili.png',
   'carretera-austral':  '/images/zones/carretera-austral.png',
   'pucon':              '/images/zones/pucon.png',
+  'ile-de-paques':      '/images/zones/paques.png',
+  'santiago-puerto-montt':      '/images/zones/santiago-puerto-montt.png',
  
   // Argentine
   'patagonie':       '/images/zones/patagonie.png',
@@ -134,6 +136,7 @@ export const ICONES_ZONES = {
   'salta':           '/images/zones/salta.png',
   'mendoza':         '/images/zones/mendoza.png',
   'san-carlos-de-bariloche':         '/images/zones/bariloche.png',
+  'bariloche-chalten':         '/images/zones/bariloche-chalten.png',
 };
 
 export const ZONES_SI_TEMPS = ['Chachapoyas', 'Ayacucho'];
