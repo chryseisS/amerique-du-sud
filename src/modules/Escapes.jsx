@@ -1,24 +1,23 @@
-import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { ArrowLeft, Star, Download, ChevronRight, Plus, Backpack, FileText } from 'lucide-react';
+import { useMemo } from 'react';
+import { Link } from 'react-router-dom';
+import { useLiveQuery } from 'dexie-react-hooks';
+import { ArrowLeft, ChevronRight, FileText, Check } from 'lucide-react';
+import { db } from '../db';
 import escapes from '../donnees/escapes.json';
 
 /* ════════════════════════════════════════════════════════════════════
-   ÉCRAN « ESCAPES »  — module destiné à une route /jeux/escapes
+   ÉCRAN « ESCAPES »  — route /jeux/escapes
    ──────────────────────────────────────────────────────────────────
-   • Les données sont dans ../donnees/escapes.json
-   • Tu n'édites que les IMAGES (champ `image:` du JSON).
-     Dépose-les dans public/images/jeux/escapes/…
-   • La barre du bas N'EST PAS ici : dans ton app, App.jsx rend déjà
-     <BarreOnglets/> (Planif/Apprendre/Jeux/Journal) sous ce module.
+   • Regroupé sous Énigmes : accessible depuis une carte dans
+     Enquetes.jsx.
+   • Uniquement la liste des escapes téléchargés (escapes.communaute).
+   • Le statut "fait" est lu depuis Dexie (table `escapesFaits`, clé =
+     id de l'escape) — le bouton qui écrit dans cette table doit être
+     ajouté dans composants/SectionEscape.jsx (pas encore fait, je n'ai
+     pas ce fichier). En attendant, cet écran affichera 0 fait partout.
+     À ajouter au schéma db.js si absent : escapesFaits: 'id, date'
    ════════════════════════════════════════════════════════════════════ */
 
-const ONGLETS = [
-  { id: 'home', label: 'Home made', Icone: Star },
-  { id: 'dl',   label: 'Downloaded', Icone: Download },
-];
-
-// ─── Sous-éléments ────────────────────────────────────────────────────
 function Vignette({ image }) {
   return (
     <div
@@ -35,47 +34,42 @@ function Tag() {
       PDF
     </span>
   );
-}// Style partagé (classes)
+}
+
 const CARTE = 'flex gap-3.5 items-stretch bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-3 shadow-[0_4px_12px_rgba(60,40,20,0.12)] transition-transform duration-200 hover:-translate-y-0.5';
 
-function CarteEscape({ titre, sousTitre, image, isDownloaded, escapeId }) {
-  const content = (
-    <>
+function CarteEscape({ titre, sousTitre, image, escapeId, fait }) {
+  return (
+    <Link to={`/jeux/escapes/${escapeId}`} className={`${CARTE} ${fait ? 'opacity-70' : ''}`}>
       <Vignette image={image} />
       <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
         <div>
           <h3 className="font-serif text-[16px] leading-tight text-encre font-semibold m-0">{titre}</h3>
           <p className="text-[11.5px] text-encre-douce mt-1 leading-snug">{sousTitre}</p>
         </div>
-        {isDownloaded && (
-          <div className="mt-2">
-            <Tag />
-          </div>
-        )}
+        <div className="mt-2 flex items-center gap-2.5">
+          <Tag />
+          {fait && (
+            <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-vert-cta">
+              <Check className="w-3 h-3" strokeWidth={2.5} />Fait
+            </span>
+          )}
+        </div>
       </div>
       <ChevronRight className="self-center shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
-    </>
-  );
-
-  if (isDownloaded) {
-    return (
-      <Link to={`/jeux/escapes/${escapeId}`} className={CARTE}>
-        {content}
-      </Link>
-    );
-  }
-
-  return (
-    <div className={CARTE}>
-      {content}
-    </div>
+    </Link>
   );
 }
 
 // ─── ÉCRAN PRINCIPAL ──────────────────────────────────────────────────
 export default function Escapes() {
-  const location = useLocation();
-  const [onglet, setOnglet] = useState(location.state?.onglet || 'home');
+  const liste = escapes.communaute ?? [];
+
+  const faitesDB = useLiveQuery(() => db.escapesFaits.toArray(), []) ?? [];
+  const faitesIds = useMemo(() => new Set(faitesDB.map((f) => f.id)), [faitesDB]);
+
+  const total = liste.length;
+  const faits = liste.filter((e) => faitesIds.has(e.id)).length;
 
   return (
     <div className="fond-carte-escape relative min-h-full">
@@ -84,56 +78,37 @@ export default function Escapes() {
 
       {/* En-tête */}
       <div className="relative px-5 pt-5 pb-1">
-        <Link to="/jeux" aria-label="Retour"
+        <Link to="/jeux/enquetes" aria-label="Retour"
               className="inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-[rgba(255,250,235,0.45)] border border-parchemin-bordure">
           <ArrowLeft className="w-5 h-5 text-encre-douce" strokeWidth={1.9} />
         </Link>
         <h1 className="font-serif uppercase tracking-[2px] text-[25px] text-encre font-semibold text-center -mt-6">Escapes</h1>
-        <p className="text-center text-[12.5px] text-sepia mt-0.5">Choisis ton univers</p>
+        <p className="text-center text-[12.5px] text-sepia mt-0.5">Tes escapes téléchargés</p>
       </div>
 
-      {/* Onglets segmentés */}
-      <div className="relative px-5 pt-3.5 pb-1.5">
-        <div className="flex bg-[rgba(120,90,50,0.10)] rounded-xl p-1 border border-parchemin-bordure">
-          {ONGLETS.map(({ id, label, Icone }) => {
-            const actif = onglet === id;
-            return (
-              <button key={id} onClick={() => setOnglet(id)}
-                      className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-[9px] uppercase tracking-wider text-[12.5px] transition-all ${actif ? 'bg-parchemin-carte text-encre font-bold shadow-[0_1px_4px_rgba(60,40,20,0.18)]' : 'text-[#9c855f] font-medium'}`}>
-                <Icone className="w-[15px] h-[15px]" strokeWidth={2} fill={actif && id === 'home' ? 'currentColor' : 'transparent'} />
-                {label}
-              </button>
-            );
-          })}
+      {/* Progression */}
+      {total > 0 && (
+        <div className="relative px-5 pt-3.5">
+          <div className="text-[12px] text-encre-douce mb-1.5">{faits} / {total} faits</div>
+          <div className="h-1.5 rounded-full bg-parchemin-bordure overflow-hidden">
+            <div className="h-full bg-vert-cta rounded-full transition-all duration-300"
+                 style={{ width: `${(faits / total) * 100}%` }} />
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Liste */}
-      <div className="relative px-[18px] pb-6 pt-1 flex flex-col gap-3">
-        {onglet === 'home'
-          ? escapes.homeMade.map((e) => (
-              <CarteEscape
-                key={e.id}
-                titre={e.titre}
-                sousTitre={e.sousTitre}
-                image={e.image}
-                isDownloaded={false}
-              />
-            ))
-          : (
-            <>
-              {escapes.communaute.map((e) => (
-                <CarteEscape
-                  key={e.id}
-                  titre={e.titre}
-                  sousTitre={e.sousTitre}
-                  image={e.image}
-                  isDownloaded={true}
-                  escapeId={e.id}
-                />
-              ))}
-            </>
-          )}
+      <div className="relative px-[18px] pb-6 pt-3.5 flex flex-col gap-3">
+        {liste.length === 0 ? (
+          <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-6 text-center shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+            <p className="text-[13px] text-encre-douce leading-snug">Aucun escape téléchargé pour l'instant.</p>
+          </div>
+        ) : (
+          liste.map((e) => (
+            <CarteEscape key={e.id} titre={e.titre} sousTitre={e.sousTitre} image={e.image}
+                         escapeId={e.id} fait={faitesIds.has(e.id)} />
+          ))
+        )}
       </div>
     </div>
   );

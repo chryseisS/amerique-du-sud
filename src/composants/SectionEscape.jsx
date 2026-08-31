@@ -1,5 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, BookText } from 'lucide-react';
+import { useLiveQuery } from 'dexie-react-hooks';
+import { ArrowLeft, BookText, Check } from 'lucide-react';
+import { db } from '../db';
 import escapes from '../donnees/escapes.json';
 
 export default function SectionEscape() {
@@ -9,6 +11,16 @@ export default function SectionEscape() {
   const escape = 
     escapes.homeMade.find(e => e.id === escapeId) ||
     escapes.communaute.find(e => e.id === escapeId);
+
+  const estFait = useLiveQuery(() => (escape ? db.escapesFaits.get(escape.id) : undefined), [escape?.id]);
+
+  async function toggleFait() {
+    if (estFait) {
+      await db.escapesFaits.delete(escape.id);
+    } else {
+      await db.escapesFaits.put({ id: escape.id, date: new Date().toISOString() });
+    }
+  }
 
   // En-tête réutilisé
   const Entete = ({ titre, sousTitre }) => (
@@ -39,7 +51,7 @@ export default function SectionEscape() {
       <div className="vignette-carte" aria-hidden="true" />
       <Entete titre={escape.titre} sousTitre={escape.sousTitre} />
 
-      <div className="relative px-[18px] pt-4 pb-6">
+      <div className="relative px-[18px] pt-4 pb-6 flex flex-col gap-4">
 
 
         {/* Contenu */}
@@ -53,6 +65,18 @@ export default function SectionEscape() {
               <p className="text-[12px] italic text-sepia leading-snug">{escape.note}</p>
             </div>
           )}
+        </div>
+
+        {/* Bouton "fait" */}
+        <div className="flex justify-center">
+          <button onClick={toggleFait}
+                  className={estFait
+                    ? 'inline-flex items-center gap-2 bg-vert-cta text-creme font-semibold text-[13px] rounded-full px-5 py-2.5'
+                    : 'inline-flex items-center gap-2 bg-parchemin-carte border border-parchemin-bordure text-encre-douce font-semibold text-[13px] rounded-full px-5 py-2.5'}>
+            {estFait
+              ? <><Check className="w-4 h-4" strokeWidth={2.5} />Fait</>
+              : 'Marquer comme fait'}
+          </button>
         </div>
       </div>
     </div>

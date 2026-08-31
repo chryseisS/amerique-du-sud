@@ -1,5 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, HelpCircle } from 'lucide-react';
+import { useLiveQuery } from 'dexie-react-hooks';
+import { ArrowLeft, HelpCircle, Check } from 'lucide-react';
+import { db } from '../db';
 import { sectionParId, casParId } from '../donnees/enquetes';
 import TexteFormate from '../composants/TexteFormate';
 
@@ -7,6 +9,17 @@ export default function DetailCas() {
   const { sectionId, casId } = useParams();
   const section = sectionParId(sectionId);
   const cas = casParId(section, casId);
+
+  const cle = cas ? `${sectionId}:${casId}` : null;
+  const estFait = useLiveQuery(() => (cle ? db.casFaits.get(cle) : undefined), [cle]);
+
+  async function toggleFait() {
+    if (estFait) {
+      await db.casFaits.delete(cle);
+    } else {
+      await db.casFaits.put({ id: cle, date: new Date().toISOString() });
+    }
+  }
 
   if (!section || !cas) {
     return (
@@ -39,7 +52,7 @@ export default function DetailCas() {
       </div>
 
       {/* Histoire + question */}
-      <div className="relative px-[18px] pt-4 pb-8">
+      <div className="relative px-[18px] pt-4 pb-8 flex flex-col gap-6">
         <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
           {cas.histoire.map((p, i) => (
             <p key={i} className="text-[14px] text-justify leading-relaxed text-encre first:mt-0 mt-3.5">
@@ -49,12 +62,24 @@ export default function DetailCas() {
         </div>
 
         {/* La question — sans réponse */}
-        <div className="mt-7 text-center px-4">
+        <div className="text-center px-4">
           <div className="mx-auto w-14 h-px bg-parchemin-bordure" />
           <p className="font-serif italic text-[26px] text-encre font-semibold mt-5 leading-tight">
             {cas.question}
           </p>
           <div className="mx-auto w-14 h-px bg-parchemin-bordure mt-5" />
+        </div>
+
+        {/* Bouton "résolu" */}
+        <div className="flex justify-center">
+          <button onClick={toggleFait}
+                  className={estFait
+                    ? 'inline-flex items-center gap-2 bg-vert-cta text-creme font-semibold text-[13px] rounded-full px-5 py-2.5'
+                    : 'inline-flex items-center gap-2 bg-parchemin-carte border border-parchemin-bordure text-encre-douce font-semibold text-[13px] rounded-full px-5 py-2.5'}>
+            {estFait
+              ? <><Check className="w-4 h-4" strokeWidth={2.5} />Résolu</>
+              : 'Marquer comme résolu'}
+          </button>
         </div>
       </div>
     </div>

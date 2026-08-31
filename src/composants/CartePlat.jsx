@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Check, ChevronDown, Wine, Cookie, UtensilsCrossed, PenLine } from 'lucide-react';
+import { Check, ChevronDown, Wine, Cookie, UtensilsCrossed, PenLine, Trash2, Calendar } from 'lucide-react';
 import { COULEURS_PAYS, COULEURS_TYPE, couleursDuPlat } from '../donnees/constantes';
 
 const ICONE_TYPE = {
@@ -15,8 +15,9 @@ const ICONE_TYPE = {
  *   plat         — objet plat depuis gastronomie.json
  *   avis         — objet avis depuis la DB (undefined si pas encore goûté)
  *   onAjouter    — ({ platNom, avis }) => enregistre un avis
+ *   onSupprimer  — (id) => supprime l'avis (pour le remplacer)
  */
-function CartePlat({ plat, avis, onAjouter }) {
+function CartePlat({ plat, avis, onAjouter, onSupprimer }) {
   const [ouvert, setOuvert] = useState(false);
   const [formulaireOuvert, setFormulaireOuvert] = useState(false);
   const [texteAvis, setTexteAvis] = useState('');
@@ -49,6 +50,12 @@ function CartePlat({ plat, avis, onAjouter }) {
       <div
         className="absolute left-0 top-0 bottom-0 w-[3px]"
         style={{ backgroundColor: cPays.barre }}
+      />
+
+      {/* Liseré coloré par type (Boisson / Plat / Dessert) */}
+      <div
+        className="absolute right-0 top-0 bottom-0 w-[3px]"
+        style={{ backgroundColor: cType }}
       />
 
       {/* ─── Ligne principale ─── */}
@@ -136,9 +143,30 @@ function CartePlat({ plat, avis, onAjouter }) {
 
           {teste && (
             <div className="bg-emerald-500/8 border border-emerald-500/25 rounded-xl p-3 mb-3">
-              <div className="text-[10px] uppercase tracking-wider text-emerald-700 mb-1.5">
-                Mon avis
+              <div className="flex items-center justify-between mb-1.5">
+                <div className="text-[10px] uppercase tracking-wider text-emerald-700">
+                  Mon avis
+                </div>
+                <button
+                  onClick={() => onSupprimer(avis.id)}
+                  className="text-terra-muted hover:text-red-400 transition-colors"
+                  title="Supprimer (pour modifier)"
+                >
+                  <Trash2 className="w-3.5 h-3.5" strokeWidth={2} />
+                </button>
               </div>
+              {avis.date && (
+                <div className="flex items-center gap-1.5 text-xs text-terra-900/70 mb-1.5">
+                  <Calendar className="w-3 h-3" strokeWidth={2} />
+                  <span>
+                    {new Date(avis.date).toLocaleDateString('fr-FR', {
+                      day: 'numeric',
+                      month: 'long',
+                      year: 'numeric',
+                    })}
+                  </span>
+                </div>
+              )}
               <p className="font-serif text-sm italic text-terra-900/80 leading-relaxed">
                 « {avis.avis} »
               </p>

@@ -134,6 +134,7 @@ function Gastronomie() {
             plat={plat}
             avis={avisDe(plat.nom)}
             onAjouter={ajouterAvis}
+            onSupprimer={supprimerAvis}
           />
         ))
       )}

@@ -5,6 +5,7 @@ import faune from '../donnees/faune.json';
 import { RARETE_LIBELLES, versSlug } from '../donnees/constantes';
 import Accordeon from '../composants/Accordeon';
 import { useObservationsFaune } from '../hooks/useObservationsFaune';
+import { declencherEvenement } from '../declencheurs';
 
 function DetailFaune() {
   const { slug } = useParams();
@@ -42,6 +43,7 @@ function DetailFaune() {
     setEnCours(true);
     try {
       await marquerVu({ animalNom: animal.nom, lieu, note });
+      await declencherEvenement('animal', versSlug(animal.nom));
       setFormulaireOuvert(false);
       setLieu('');
       setNote('');

@@ -54,5 +54,24 @@ db.version(2).stores({
    */
   journalPhotosPleines: 'photoId',
 
-  quizLu: 'id, date'
+  quizLu: 'id, date',
+
+  taquinFait: 'id, date',
+  filmsRegardes: 'id, date',
+  escapesFaits: 'id, date',
+  evenements: 'cle, date',
+  surprisesDebloquees: 'id, date',
+  casFaits: 'id, date'
+});
+
+// ─── Version 3 : Défis / Premières fois (commentaire + date) ──────────────
+// Comme pour la v2, les tables précédentes sont conservées automatiquement.
+db.version(3).stores({
+  /**
+   * premieresFoisFaites
+   *   nom         : nom du défi (clé vers premieresFois.json)
+   *   commentaire : string libre, facultatif
+   *   date        : Date JS
+   */
+  premieresFoisFaites: '++id, nom, date',
 });

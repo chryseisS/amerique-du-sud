@@ -1,0 +1,114 @@
+[
+  {
+    "id": "flamant-rose",
+    "titre": "Flamant rose débloqué",
+    "raison": "Débloqué grâce au déblocage du Flamant rose",
+    "defiTitre": "FLAMANT ROSE DÉBLOQUÉ",
+    "texte": "Une jambe. Puis l'autre. Le flamant vous observe. Il ne pardonnera aucune chute.",
+    "declencheur": { "type": "animal", "valeur": "flamant-rose" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "retrospective-6-mois",
+    "titre": "6 mois de route",
+    "raison": "Débloqué après 6 mois d'aventure",
+    "format": "questions",
+    "texte": "Un petit bilan, tous les deux.",
+    "questions": [
+      "1er animal ?",
+      "1er trek ?",
+      "1ère galère ?",
+      "Meilleur moment ?",
+      "Meilleure nourriture ?",
+      "Endroit préféré ?"
+    ],
+    "declencheur": { "type": "date", "valeur": "2027-02-01" },
+    "titreVerrou": "6 mois de route",
+    "conditionVerrou": "Se débloque le 1 février 2027"
+  },
+  {
+    "id": "passage-equateur",
+    "titre": "Passage de l'équateur",
+    "raison": "Débloqué en passant la ligne de l'équateur",
+    "format": "qcm",
+    "texte": "Un petit quiz pour fêter le passage du 0°.",
+    "questions": [
+      {
+        "question": "Quel pays doit son nom à cette ligne ?",
+        "choix": ["Colombie", "Équateur", "Pérou", "Venezuela"],
+        "bonneReponse": 1
+      },
+      {
+        "question": "Que se passe-t-il réellement avec l'eau qui s'écoule pile sur la ligne (le mythe touristique classique) ?",
+        "choix": [
+          "Elle tourne dans un sens",
+          "Elle tourne dans l'autre sens",
+          "Elle ne tourne pas de façon fiable",
+          "Ça dépend de l'heure"
+        ],
+        "bonneReponse": 2
+      },
+      {
+        "question": "Environ combien pesez-vous de moins à l'équateur qu'aux pôles ?",
+        "choix": ["0.5%", "5%", "15%", "Aucune différence"],
+        "bonneReponse": 0
+      }
+    ],
+    "declencheur": { "type": "mot-de-passe", "valeur": "MITAD" },
+    "indice": "Contrôle de frontière — hémisphère nord.\n\nDouanier : « Mot de passe ? »",
+    "titreVerrou": "Surprise codée",
+    "conditionVerrou": "À un endroit particulier"
+  },
+  {
+    "id": "ausangate",
+    "titre": "Trek Ausangate",
+    "raison": "Débloqué au mot de passe, jour 1 du trek",
+    "declencheur": { "type": "mot-de-passe", "valeur": "APU" },
+    "titreVerrou": "Trek Ausangate",
+    "conditionVerrou": "À un endroit particulier",
+    "jours": [
+      {
+        "titre": "Jour 1",
+        "defiTitre": "CHOISIS TON TRÉSOR",
+        "texte": "Trouvez chacun un petit élément naturel sans rien arracher ni dégrader : un caillou déjà au sol, une feuille tombée, etc.\n\nGardez-le jusqu'à la fin du trek. À la fin : échangez-les.",
+        "heuresDepuisDebut": 0
+      },
+      {
+        "titre": "Jour 2",
+        "format": "mots-aleatoires",
+        "defiTitre": "HISTOIRE SOUS LES ÉTOILES",
+        "texte": "Inventez ensemble une histoire qui contient ces trois mots :",
+        "motsDisponibles": [
+          "condor",
+          "lampe",
+          "sommet",
+          "rire",
+          "orage",
+          "berger",
+          "étoile",
+          "silence",
+          "chaussure",
+          "nuage",
+          "feu",
+          "carte",
+          "rivière",
+          "masque",
+          "écho"
+        ],
+        "heuresDepuisDebut": 22
+      },
+      {
+        "titre": "Jour 3",
+        "format": "questions",
+        "texte": "Mémoire de trek.",
+        "questions": [
+          "Combien de pauses aujourd'hui ?",
+          "Premier animal vu ?",
+          "Première personne croisée ?"
+        ],
+        "heuresDepuisDebut": 44
+      }
+    ]
+  }
+]

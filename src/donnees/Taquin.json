@@ -1,0 +1,176 @@
+[
+  {
+    "id": "machu-picchu",
+    "titre": "Sur un puma devant le Machu Picchu",
+    "image": "/images/jeux/taquin/macchu-picchu.png",
+    "cases": 9
+  },
+  {
+    "id": "van-life",
+    "titre": "Soirée sur la route",
+    "image": "/images/jeux/taquin/van_life.png",
+    "cases": 9
+  },
+  {
+    "id": "moai",
+    "titre": "Transport d'un moai",
+    "image": "/images/jeux/taquin/moai.png",
+    "cases": 9
+  },
+  {
+    "id": "ayar",
+    "titre": "Légendes des frères Ayar et de la fondation de Cusco",
+    "image": "/images/jeux/taquin/ayar.png",
+    "cases": 9
+  },
+  {
+    "id": "rapa-nui",
+    "titre": "Tatouages Rapa Nui",
+    "image": "/images/jeux/taquin/rapa_nui.png",
+    "cases": 9
+  },
+  {
+    "id": "uros",
+    "titre": "Iles flottantes d'Uros et leurs barques en roseau",
+    "image": "/images/jeux/taquin/uros.png",
+    "cases": 9
+  },
+  {
+    "id": "selfie-galapagos",
+    "titre": "Selfie avec un iguane sur les iles Galapagos",
+    "image": "/images/jeux/taquin/selfie.png",
+    "cases": 9
+  },
+  {
+    "id": "lama-uyuni",
+    "titre": "Course de lamas sur le salar d'Uyuni",
+    "image": "/images/jeux/taquin/lama_uyuni.png",
+    "cases": 9
+  },
+  {
+    "id": "glacier",
+    "titre": "Glacier Perito Moreno au clair de lune",
+    "image": "/images/jeux/taquin/glacier.png",
+    "cases": 9
+  },
+  {
+    "id": "la-paz",
+    "titre": "Téléphérique de La Paz",
+    "image": "/images/jeux/taquin/la-paz.png",
+    "cases": 9
+  },
+  {
+    "id": "amazonie",
+    "titre": "Canoe en Amazonie",
+    "image": "/images/jeux/taquin/amazonie.png",
+    "cases": 9
+  },
+  {
+    "id": "banos",
+    "titre": "Balançoire à Casa del Arbol, Equateur",
+    "image": "/images/jeux/taquin/banos.png",
+    "cases": 9
+  },
+  {
+    "id": "fous",
+    "titre": "Concours de danse des fous à pieds bleus",
+    "image": "/images/jeux/taquin/fous.png",
+    "cases": 9
+  },
+  {
+    "id": "quipus",
+    "titre": "A quoi ça peut donc servir ?",
+    "image": "/images/jeux/taquin/quipus.png",
+    "cases": 9
+  },
+  {
+    "id": "cuys",
+    "titre": "Entourés de cochons d'inde curieux",
+    "image": "/images/jeux/taquin/cuy.png",
+    "cases": 9
+  },
+  {
+    "id": "lama-montagne",
+    "titre": "Un lama et son maitre traversant un col andin",
+    "image": "/images/jeux/taquin/lama-montagne.png",
+    "cases": 9
+  },
+  {
+    "id": "flamant",
+    "titre": "Deux flamands roses devant une lagune",
+    "image": "/images/jeux/taquin/flamant.png",
+    "cases": 9
+  },
+  {
+    "id": "puma",
+    "titre": "Un puma devant Torres des Paine",
+    "image": "/images/jeux/taquin/puma.png",
+    "cases": 9
+  },
+  {
+    "id": "ile_paques",
+    "titre": "L'ile de Pâques sous la voie lactée",
+    "image": "/images/jeux/taquin/ile_paques.png",
+    "cases": 9
+  },
+  {
+    "id": "seigneur_mines",
+    "titre": "El Tio",
+    "image": "/images/jeux/taquin/seigneur_mines.png",
+    "cases": 9
+  },
+  {
+    "id": "moai_fete",
+    "titre": "Des moais en soirée",
+    "image": "/images/jeux/taquin/moai_fete.png",
+    "cases": 9
+  },
+  {
+    "id": "otaries",
+    "titre": "Des otaries jouent aux dominos",
+    "image": "/images/jeux/taquin/otaries.png",
+    "cases": 9
+  },
+  {
+    "id": "renard",
+    "titre": "Un culpeo sur le Salar d'Uyuni",
+    "image": "/images/jeux/taquin/renard.png",
+    "cases": 9
+  },
+  {
+    "id": "pont",
+    "titre": "Sur un pont brumeux",
+    "image": "/images/jeux/taquin/pont.png",
+    "cases": 9
+  },
+  {
+    "id": "danse",
+    "titre": "Deux manchots dansent la salsa",
+    "image": "/images/jeux/taquin/danse.png",
+    "cases": 9
+  },
+  {
+    "id": "condor",
+    "titre": "Un condor devant le canyon de Colca",
+    "image": "/images/jeux/taquin/condor.png",
+    "cases": 9
+  },
+  {
+    "id": "caoutchouc",
+    "titre": "Récolte du caoutchouc en Amazonie",
+    "image": "/images/jeux/taquin/caoutchouc.png",
+    "cases": 9
+  },
+  {
+    "id": "messager",
+    "titre": "Un messager traverse les andes, quipus à la main",
+    "image": "/images/jeux/taquin/messager.png",
+    "cases": 9
+  },
+  {
+    "id": "constellation",
+    "titre": "Constellation du lama",
+    "image": "/images/jeux/taquin/constellation.png",
+    "cases": 9
+  }
+]

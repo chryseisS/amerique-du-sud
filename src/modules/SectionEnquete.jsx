@@ -1,10 +1,21 @@
+import { useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, ChevronRight, BookText } from 'lucide-react';
+import { useLiveQuery } from 'dexie-react-hooks';
+import { ArrowLeft, ChevronRight, BookText, Check } from 'lucide-react';
+import { db } from '../db';
 import { sectionParId } from '../donnees/enquetes';
 
 export default function SectionEnquete() {
   const { sectionId } = useParams();
   const section = sectionParId(sectionId);
+
+  const casFaitesDB = useLiveQuery(() => db.casFaits.toArray(), []) ?? [];
+  const casFaitesCles = useMemo(() => new Set(casFaitesDB.map((f) => f.id)), [casFaitesDB]);
+
+  const total = section?.type === 'liste' ? (section.cas?.length ?? 0) : 0;
+  const faites = section?.type === 'liste'
+    ? (section.cas ?? []).filter((c) => casFaitesCles.has(`${section.id}:${c.id}`)).length
+    : 0;
 
   // En-tête réutilisé
   const Entete = ({ titre, sousTitre }) => (
@@ -35,6 +46,17 @@ export default function SectionEnquete() {
       <div className="vignette-carte" aria-hidden="true" />
       <Entete titre={section.titre} sousTitre={section.sousTitre} />
 
+      {/* Progression (uniquement pour les sections à affaires) */}
+      {section.type === 'liste' && total > 0 && (
+        <div className="relative px-5 pt-3">
+          <div className="text-[12px] text-encre-douce mb-1.5">{faites} / {total} affaires résolues</div>
+          <div className="h-1.5 rounded-full bg-parchemin-bordure overflow-hidden">
+            <div className="h-full bg-vert-cta rounded-full transition-all duration-300"
+                 style={{ width: `${(faites / total) * 100}%` }} />
+          </div>
+        </div>
+      )}
+
       <div className="relative px-[18px] pt-4 pb-6">
         {section.type === 'explication' ? (
           // ─── Page descriptive ───
@@ -52,16 +74,20 @@ export default function SectionEnquete() {
         ) : (
           // ─── Liste d'affaires ───
           <div className="flex flex-col gap-2.5">
-            {section.cas.map((c, i) => (
-              <Link key={c.id} to={`/jeux/enquetes/${section.id}/${c.id}`}
-                    className="flex items-center gap-3 bg-parchemin-carte border border-parchemin-bordure rounded-xl p-3.5 shadow-[0_4px_12px_rgba(60,40,20,0.10)] transition-transform duration-200 hover:-translate-y-0.5">
-                <span className="font-serif text-[18px] text-encre/35 font-semibold w-7 text-center shrink-0">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <h3 className="flex-1 min-w-0 font-serif text-[16px] leading-tight text-encre font-semibold">{c.titre}</h3>
-                <ChevronRight className="shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
-              </Link>
-            ))}
+            {section.cas.map((c, i) => {
+              const fait = casFaitesCles.has(`${section.id}:${c.id}`);
+              return (
+                <Link key={c.id} to={`/jeux/enquetes/${section.id}/${c.id}`}
+                      className={`flex items-center gap-3 bg-parchemin-carte border border-parchemin-bordure rounded-xl p-3.5 shadow-[0_4px_12px_rgba(60,40,20,0.10)] transition-transform duration-200 hover:-translate-y-0.5 ${fait ? 'opacity-70' : ''}`}>
+                  <span className="font-serif text-[18px] text-encre/35 font-semibold w-7 text-center shrink-0">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <h3 className="flex-1 min-w-0 font-serif text-[16px] leading-tight text-encre font-semibold">{c.titre}</h3>
+                  {fait && <Check className="shrink-0 w-4 h-4 text-vert-cta" strokeWidth={2.5} />}
+                  <ChevronRight className="shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
+                </Link>
+              );
+            })}
           </div>
         )}
       </div>

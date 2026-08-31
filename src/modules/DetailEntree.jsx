@@ -125,6 +125,18 @@ function DetailEntree() {
         </p>
       )}
 
+      {/* Récapitulatif automatique — figé à la création, non modifiable */}
+      {entree.recapAuto && (
+        <div className="bg-terra-100 border border-terra-border rounded-xl p-3.5 mb-4">
+          <div className="text-[10px] uppercase tracking-wider text-terra-500 mb-2">
+            Ce jour-là
+          </div>
+          <p className="text-sm text-terra-900/80 leading-relaxed whitespace-pre-wrap">
+            {entree.recapAuto}
+          </p>
+        </div>
+      )}
+
       {/* Galerie */}
       {photos.length > 0 && (
         <div className="grid grid-cols-3 gap-2">

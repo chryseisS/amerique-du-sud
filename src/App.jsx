@@ -28,6 +28,16 @@ import SectionEnquete from './modules/SectionEnquete.jsx';
 import DetailCas from './modules/DetailCas.jsx';
 import Escapes from './modules/Escapes.jsx';
 import SectionEscape from './composants/SectionEscape';
+import Medias from './modules/Medias.jsx';
+import Films from './modules/Films.jsx';
+import DetailFilm from './modules/DetailFilm.jsx';
+import Lecture from './modules/Lecture.jsx';
+import MiniJeux from './modules/MiniJeux.jsx';
+import Taquin from './modules/Taquin.jsx';
+import Tabou from './modules/Tabou.jsx';
+import Surprises from './modules/Surprises.jsx';
+import DetailSurprise from './modules/DetailSurprise.jsx';
+import SurprisesWatcher from './composants/SurprisesWatcher.jsx';
 
 // Autres
 import Apprendre from './modules/Apprendre.jsx';
@@ -53,13 +63,12 @@ function App() {
             <Route path="/planification/pays/:id" element={<DetailPays />} />
             <Route path="/planification/lieux/:id" element={<DetailLieu />} />
 
-            {/* Apprendre / Jeux */}
+            {/* Apprendre / Jeux (= "Divertissement" à l'écran) */}
             <Route path="/apprendre"                          element={<Apprendre />} />
             <Route path="/apprendre/theme/:themeId"           element={<Theme />} />
             <Route path="/apprendre/theme/:themeId/:episodeId"  element={<Episode />} />
             <Route path="/apprendre/visites-guidees"          element={<VisitesGuidees />} />
             <Route path="/apprendre/visites-guidees/:id"      element={<DetailVisiteGuidee />} />
-            <Route path="/jeux"      element={<Jeux />} />
             <Route path="/jeux"          element={<Jeux />} />
             <Route path="/jeux/quiz"     element={<Quiz />} />
             <Route path="/jeux/enquetes"                    element={<Enquetes />} />
@@ -67,6 +76,15 @@ function App() {
             <Route path="/jeux/enquetes/:sectionId/:casId"  element={<DetailCas />} />
             <Route path="/jeux/escapes"  element={<Escapes />} />
             <Route path="/jeux/escapes/:escapeId" element={<SectionEscape />} />
+            <Route path="/jeux/medias" element={<Medias />} />
+            <Route path="/jeux/medias/films" element={<Films />} />
+            <Route path="/jeux/medias/films/:filmId" element={<DetailFilm />} />
+            <Route path="/jeux/medias/lecture" element={<Lecture />} />
+            <Route path="/jeux/mini-jeux" element={<MiniJeux />} />
+            <Route path="/jeux/mini-jeux/taquin" element={<Taquin />} />
+            <Route path="/jeux/mini-jeux/tabou" element={<Tabou />} />
+            <Route path="/jeux/surprises" element={<Surprises />} />
+            <Route path="/jeux/surprises/:surpriseId" element={<DetailSurprise />} />
 
 
             {/* Journal */}
@@ -83,6 +101,7 @@ function App() {
         </main>
         <BarreOnglets />
       </div>
+      <SurprisesWatcher />
     </div>
   );
 }

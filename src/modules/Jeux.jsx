@@ -1,19 +1,36 @@
 import { Link } from 'react-router-dom';
 
+/* ════════════════════════════════════════════════════════════════════
+   ÉCRAN PRINCIPAL « DIVERTISSEMENT »  (fichier conservé sous Jeux.jsx /
+   route /jeux pour ne pas casser BarreOnglets.jsx — seul le titre
+   affiché change)
+   ──────────────────────────────────────────────────────────────────
+   • Quiz / Énigmes / Jeux = univers interactifs (Escapes est maintenant
+     regroupé à l'intérieur d'Énigmes plutôt que d'être une carte à part).
+   • Médias = Films / Lecture (et plus tard Musique / Podcast) — a
+     remplacé l'ancien module générique Divertissement.
+   ════════════════════════════════════════════════════════════════════ */
 
-// ─── Données des 3 cartes (tout s'édite ici) ──────────────────────────
 const CARTES = [
   {
-    id: 'quiz', titre: 'Quiz', to: '/jeux/quiz', icone: '/images/jeux/icones/quiz.svg', badge: '3 modes', couleur: 'bg-jeu-quiz',
+    id: 'quiz', titre: 'Quiz', to: '/jeux/quiz', icone: '/images/jeux/icones/quiz.svg', couleur: 'bg-jeu-quiz',
     desc: 'Teste tes connaissances sur l’histoire, la culture et la géographie.',
   },
   {
-    id: 'enquetes', titre: 'Enquêtes', to: '/jeux/enquetes', icone: '/images/jeux/icones/enquetes.svg', badge: '2 séries', couleur: 'bg-jeu-enquete',
-    desc: 'Résous des affaires mystérieuses dans des séries captivantes.',
+    id: 'enigmes', titre: 'Énigmes', to: '/jeux/enquetes', icone: '/images/jeux/icones/enquetes.svg', couleur: 'bg-jeu-enquete',
+    desc: 'Enquêtes et escapes à résoudre.',
   },
   {
-    id: 'escapes', titre: 'Escapes', to: '/jeux/escapes', icone: '/images/jeux/icones/escapes.svg', badge: '2 onglets', couleur: 'bg-jeu-escape',
-    desc: 'Échappe-toi de lieux légendaires remplis d’énigmes.',
+    id: 'jeux', titre: 'Jeux', to: '/jeux/mini-jeux', icone: '/images/jeux/icones/jeux.svg', couleur: 'bg-jeu-minijeux',
+    desc: 'Des petits jeux courts pour patienter ou se détendre.',
+  },
+  {
+    id: 'medias', titre: 'Médias', to: '/jeux/medias', icone: '/images/jeux/icones/medias.svg', couleur: 'bg-jeu-diverti',
+    desc: 'Films et lectures pour prolonger le voyage.',
+  },
+  {
+    id: 'surprises', titre: 'Surprises', to: '/jeux/surprises', icone: '/images/jeux/icones/surprises.svg', couleur: 'bg-jeu-surprise',
+    desc: 'Des surprises à débloquer en cours de route.',
   },
 ];
 
@@ -28,15 +45,15 @@ export default function Jeux() {
       {/* En-tête */}
       <div className="relative px-6 pt-6 pb-4">
         <div className="text-[11px] tracking-[0.2em] font-semibold text-sepia mt-4">AIRE DE JEU</div>
-        <h1 className="font-serif text-[52px] leading-none text-encre font-semibold mt-0.5">Jeux</h1>
+        <h1 className="font-serif text-[46px] leading-none text-encre font-semibold mt-0.5">Divertissement</h1>
         <p className="text-encre-douce text-[13.5px] leading-relaxed max-w-[215px] mt-2.5">
-          Explore, résous, réponds et échappe-toi à travers l’Amérique du Sud.
+          Explore, résous et échappe-toi à travers l’Amérique du Sud.
         </p>
       </div>
 
       {/* Cartes */}
       <div className="relative px-5 pt-1 pb-6 flex flex-col gap-3.5">
-        {CARTES.map(({ id, titre, desc, badge, icone, couleur, to }) => (
+        {CARTES.map(({ id, titre, desc, icone, couleur, to }) => (
           <Link key={id} to={to}
                   className={`relative text-left rounded-[20px] p-[17px] border border-creme/15 ${couleur} texture-cuir shadow-[0_8px_22px_rgba(40,20,8,0.28)] transition-transform duration-200 hover:-translate-y-0.5`}>
             <div className="flex items-start gap-3.5">

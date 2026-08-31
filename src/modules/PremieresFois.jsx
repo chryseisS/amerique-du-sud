@@ -3,41 +3,38 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Search, X } from 'lucide-react';
 import premieresFois from '../donnees/premieresFois.json';
 import CartePremiereFois from '../composants/CartePremiereFois';
+import { usePremieresFois } from '../hooks/usePremieresFois';
+import { TYPES_DEFI } from '../donnees/constantes';
 
 function PremieresFois() {
   // ─── ÉTATS ──────────────────────────────────────────
   const [statutActif, setStatutActif] = useState('Tous');
+  const [typeActif, setTypeActif] = useState('Tous');
   const [recherche, setRecherche] = useState('');
 
-  // Premières fois faites (Set des noms) — sera remplacé par Dexie plus tard
-  const [faites, setFaites] = useState(new Set());
-
-  // ─── HANDLERS ───────────────────────────────────────
-  const toggleFait = (nom) => {
-    setFaites((ancien) => {
-      const nouveau = new Set(ancien);
-      if (nouveau.has(nom)) nouveau.delete(nom);
-      else nouveau.add(nom);
-      return nouveau;
-    });
-  };
+  // ─── DB (live) ──────────────────────────────────────
+  const { faitSet, commentaireDe, marquerFait, supprimerFait } = usePremieresFois();
 
   // ─── FILTRAGE ───────────────────────────────────────
   const rechercheNorm = recherche.trim().toLowerCase();
 
   const parStatut = premieresFois.filter((p) => {
     if (statutActif === 'Tous') return true;
-    if (statutActif === 'Faites') return faites.has(p.nom);
-    if (statutActif === 'PasFaites') return !faites.has(p.nom);
+    if (statutActif === 'Faites') return faitSet.has(p.nom);
+    if (statutActif === 'PasFaites') return !faitSet.has(p.nom);
     return true;
   });
 
+  const parType = typeActif === 'Tous'
+    ? parStatut
+    : parStatut.filter((p) => (p.type || 'À définir') === typeActif);
+
   const resultats = rechercheNorm
-    ? parStatut.filter((p) => p.nom.toLowerCase().includes(rechercheNorm))
-    : parStatut;
+    ? parType.filter((p) => p.nom.toLowerCase().includes(rechercheNorm))
+    : parType;
 
   // ─── COMPTEURS ──────────────────────────────────────
-  const totalFaites = faites.size;
+  const totalFaites = faitSet.size;
   const totalPremieres = premieresFois.length;
   const pctFaites = totalPremieres > 0 ? (totalFaites / totalPremieres) * 100 : 0;
 
@@ -101,7 +98,7 @@ function PremieresFois() {
       </div>
 
       {/* Filtres STATUT — toujours visibles */}
-      <div className="flex gap-1.5 mb-3 flex-wrap">
+      <div className="flex gap-1.5 mb-2 flex-wrap">
         {[
           { cle: 'Tous', libelle: 'Toutes' },
           { cle: 'Faites', libelle: '✓ Faites' },
@@ -124,6 +121,26 @@ function PremieresFois() {
         })}
       </div>
 
+      {/* Filtres TYPE */}
+      <div className="flex gap-1.5 mb-3 flex-wrap">
+        {['Tous', ...TYPES_DEFI].map((type) => {
+          const actif = type === typeActif;
+          return (
+            <button
+              key={type}
+              onClick={() => setTypeActif(type)}
+              className={
+                actif
+                  ? 'px-3 py-1 rounded-full text-xs bg-terra-700 text-white border border-terra-700'
+                  : 'px-3 py-1 rounded-full text-xs bg-terra-100 text-terra-muted border border-terra-border'
+              }
+            >
+              {type}
+            </button>
+          );
+        })}
+      </div>
+
       {/* Compteur de résultats */}
       <div className="text-xs text-terra-muted mb-3">
         {resultats.length} expérience{resultats.length !== 1 ? 's' : ''}
@@ -140,8 +157,9 @@ function PremieresFois() {
           <CartePremiereFois
             key={premiere.nom}
             premiere={premiere}
-            fait={faites.has(premiere.nom)}
-            onToggle={() => toggleFait(premiere.nom)}
+            commentaire={commentaireDe(premiere.nom)}
+            onMarquer={marquerFait}
+            onSupprimer={supprimerFait}
           />
         ))
       )}

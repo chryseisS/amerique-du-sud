@@ -36,6 +36,17 @@ export const RARETE_LIBELLES = {
   3: 'rare',
 };
 
+// module Défis / Premières fois
+
+export const TYPES_DEFI = ['Sport', 'Gastronomie', 'Absurde', 'À définir'];
+
+export const COULEURS_DEFI = {
+  'Sport':       { barre: '#3a7ca5', badgeBg: '#E6F1FB', badgeText: '#134564' }, // bleu eau, cohérent avec Excursion
+  'Gastronomie': { barre: '#d4872a', badgeBg: '#FBEEDC', badgeText: '#7a4f13' }, // ambre, cohérent avec le module Gastronomie
+  'Absurde':     { barre: '#9a5b8c', badgeBg: '#F5E9F2', badgeText: '#5c2f52' }, // mauve
+  'À définir':   { barre: '#9a7055', badgeBg: '#F1E9E1', badgeText: '#5c4632' }, // taupe / terra-muted
+};
+
 // module Gastronomie
 
 export const TYPES_GASTRONOMIE = ['Boisson', 'Plat', 'Dessert'];

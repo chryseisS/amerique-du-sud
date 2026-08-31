@@ -1,0 +1,42 @@
+[
+  {
+    "id": "playa",
+    "mot": "Playa",
+    "interdits": ["Mar", "Arena", "Sol", "Vacaciones"]
+  },
+  {
+    "id": "montana",
+    "mot": "Montaña",
+    "interdits": ["Alto", "Nieve", "Escalar", "Pico"]
+  },
+  {
+    "id": "mochila",
+    "mot": "Mochila",
+    "interdits": ["Viaje", "Equipaje", "Cargar", "Espalda"]
+  },
+  {
+    "id": "volcan",
+    "mot": "Volcán",
+    "interdits": ["Lava", "Erupción", "Montaña", "Fuego"]
+  },
+  {
+    "id": "selva",
+    "mot": "Selva",
+    "interdits": ["Árboles", "Amazonas", "Jungla", "Verde"]
+  },
+  {
+    "id": "desierto",
+    "mot": "Desierto",
+    "interdits": ["Arena", "Seco", "Calor", "Cactus"]
+  },
+  {
+    "id": "llama",
+    "mot": "Llama",
+    "interdits": ["Animal", "Andes", "Lana", "Perú"]
+  },
+  {
+    "id": "aeropuerto",
+    "mot": "Aeropuerto",
+    "interdits": ["Avión", "Vuelo", "Viaje", "Maleta"]
+  }
+]
