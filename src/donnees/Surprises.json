@@ -5,7 +5,7 @@
     "raison": "Débloqué grâce au déblocage du Flamant rose",
     "defiTitre": "FLAMANT ROSE DÉBLOQUÉ",
     "texte": "Une jambe. Puis l'autre. Le flamant vous observe. Il ne pardonnera aucune chute.",
-    "declencheur": { "type": "animal", "valeur": "flamant-rose" },
+    "declencheur": { "type": "animal", "valeur": "flamant-des-andes" },
     "titreVerrou": "Surprise mystère",
     "conditionVerrou": "Pas encore débloqué"
   },
@@ -23,7 +23,7 @@
       "Meilleure nourriture ?",
       "Endroit préféré ?"
     ],
-    "declencheur": { "type": "date", "valeur": "2027-02-01" },
+    "declencheur": { "type": "date", "valeur": "2026-09-01" },
     "titreVerrou": "6 mois de route",
     "conditionVerrou": "Se débloque le 1 février 2027"
   },

@@ -22,7 +22,7 @@ const CARTES = [
   },
   {
     id: 'jeux', titre: 'Jeux', to: '/jeux/mini-jeux', icone: '/images/jeux/icones/jeux.svg', couleur: 'bg-jeu-minijeux',
-    desc: 'Des petits jeux courts pour patienter ou se détendre.',
+    desc: 'Des petits jeux pour se détendre.',
   },
   {
     id: 'medias', titre: 'Médias', to: '/jeux/medias', icone: '/images/jeux/icones/medias.svg', couleur: 'bg-jeu-diverti',

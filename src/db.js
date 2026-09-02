@@ -75,3 +75,12 @@ db.version(3).stores({
    */
   premieresFoisFaites: '++id, nom, date',
 });
+
+db.version(4).stores({
+  /**
+   * tabouFait
+   *   id    : id du mot (clé vers tabou.json)
+   *   date  : date à laquelle le mot a été réussi
+   */
+  tabouFait: 'id, date',
+});

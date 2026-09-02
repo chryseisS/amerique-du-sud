@@ -1,0 +1,114 @@
+[
+  {
+    "id": "cuarenta",
+    "titre": "Cuarenta",
+    "origine": "Équateur / Bolivie",
+    "joueurs": "2 (chacun pour soi)",
+    "materiel": "Jeu espagnol de 40 cartes (ou un jeu de 52 sans les 8, 9 et 10)",
+    "objectif": "Être le premier à atteindre 40 points.",
+    "sections": [
+      {
+        "titre": "Valeur des cartes",
+        "contenu": "De l'As au 7 : leur valeur faciale. Valet = 11, Cavalier = 12, Roi = 13."
+      },
+      {
+        "titre": "Mise en place",
+        "contenu": "Chaque joueur reçoit 5 cartes."
+      },
+      {
+        "titre": "Déroulement",
+        "contenu": "À tour de rôle, chaque joueur joue une carte. Si elle correspond en valeur à une carte déjà posée sur la table, il capture les deux cartes : c'est une « caída » (2 points). Avant de jouer sa première carte, un joueur qui a trois cartes de même valeur en main peut annoncer une « ronda » pour 2 points supplémentaires. Ramasser toutes les cartes de la table d'un coup vaut une « limpia » (2 points)."
+      },
+      {
+        "titre": "Décompte des points",
+        "contenu": "À la fin de la donne, le joueur qui a capturé le plus de cartes marque des points bonus (généralement 6 points à partir de 20 cartes, puis 1 point par carte supplémentaire)."
+      }
+    ],
+    "note": "Les règles du Cuarenta varient beaucoup d'une région à l'autre — mettez-vous d'accord sur les détails avant de commencer, surtout si vous jouez avec des habitués du coin."
+  },
+  {
+    "id": "truco",
+    "titre": "Truco",
+    "origine": "Argentine / Uruguay (variantes dans toute l'Amérique du Sud)",
+    "joueurs": "2 (face à face, la version la plus classique)",
+    "materiel": "Jeu espagnol de 40 cartes",
+    "objectif": "Être le premier à atteindre 30 points (15 pour une partie courte).",
+    "sections": [
+      {
+        "titre": "Ordre des cartes (spécifique au Truco)",
+        "contenu": "Du plus fort au plus faible : As d'espadas, As de bastos, 7 d'espadas, 7 d'oros, les trois 3, les deux 2, les As d'oros et de copas, les Rois, les Cavaliers, les Valets, les 7 de copas et de bastos, puis 6, 5 et 4. Cet ordre ne suit pas la valeur numérique habituelle des cartes !"
+      },
+      {
+        "titre": "Mise en place",
+        "contenu": "Chaque joueur reçoit 3 cartes."
+      },
+      {
+        "titre": "L'Envido",
+        "contenu": "Avant de jouer une carte, on peut annoncer « Envido » : on compare la somme des deux cartes de même couleur les plus fortes en main (+ 20 points), ou la carte la plus haute si aucune paire de couleur. Le joueur qui a le meilleur total remporte les points de l'enchère (2 pour Envido, 3 pour Real Envido, davantage pour Falta Envido)."
+      },
+      {
+        "titre": "Le Truco",
+        "contenu": "Les trois cartes de chaque joueur s'affrontent en 3 manches (plis) successives. Le premier à remporter 2 manches sur 3 gagne l'enchère du Truco (au moins 2 points). N'importe qui peut faire monter l'enchère en criant « Retruco » (3 points) puis « Vale cuatro » (4 points) ; l'adversaire répond « Quiero » (j'accepte) ou « No quiero » (je refuse, et laisse les points déjà en jeu à l'autre)."
+      },
+      {
+        "titre": "L'ambiance",
+        "contenu": "Le bluff fait partie du jeu : gestes et mimiques pour déstabiliser l'adversaire sont autorisés et même encouragés."
+      }
+    ],
+    "note": "Version simplifiée sans la Flor (une troisième enchère optionnelle, basée sur trois cartes de la même couleur en main) — à ajouter plus tard si vous voulez pousser plus loin."
+  },
+  {
+    "id": "escoba-de-15",
+    "titre": "Escoba de 15",
+    "origine": "Espagne / très répandu en Amérique du Sud",
+    "joueurs": "2 (chacun pour soi)",
+    "materiel": "Jeu espagnol de 40 cartes (sans 8 ni 9)",
+    "objectif": "Être le premier à atteindre le score convenu à l'avance (15, 21 ou 31 points).",
+    "sections": [
+      {
+        "titre": "Valeur des cartes",
+        "contenu": "De l'As au 7 : leur valeur faciale. Valet = 8, Cavalier = 9, Roi = 10."
+      },
+      {
+        "titre": "Mise en place",
+        "contenu": "3 cartes à chaque joueur, et 4 cartes face visible au centre de la table."
+      },
+      {
+        "titre": "Déroulement",
+        "contenu": "À son tour, chaque joueur pose une carte de sa main en essayant de former un total de 15 avec une ou plusieurs cartes visibles sur la table : s'il y parvient, il ramasse toutes les cartes utilisées. S'il ramasse ainsi TOUTES les cartes de la table d'un coup, c'est une « escoba » (balai), qui vaut un point bonus. Sinon, la carte reste posée sur la table avec les autres."
+      },
+      {
+        "titre": "Décompte des points",
+        "contenu": "En fin de partie : 1 point par escoba réalisée, 1 point à qui a capturé le plus de cartes au total, 1 point à qui a capturé le plus de cartes de la couleur oros (deniers), 1 point à qui a le 7 de oros."
+      }
+    ],
+    "note": "Redistribuez 3 cartes chacun dès que les mains sont vides, jusqu'à épuisement du paquet — les 4 cartes du centre, elles, ne se renouvellent jamais en cours de partie."
+  },
+  {
+    "id": "chinchon",
+    "titre": "Chinchón",
+    "origine": "Espagne / très répandu en Amérique du Sud",
+    "joueurs": "2",
+    "materiel": "Jeu espagnol de 40 ou 48 cartes (l'As de oros sert de joker)",
+    "objectif": "Terminer avec le moins de points possible ; le jeu s'arrête quand un des deux joueurs atteint la limite convenue à l'avance (souvent 100 points).",
+    "sections": [
+      {
+        "titre": "Mise en place",
+        "contenu": "7 cartes distribuées à chaque joueur. Une carte est retournée à côté de la pioche pour démarrer la défausse."
+      },
+      {
+        "titre": "Combinaisons",
+        "contenu": "Brelan : 3 cartes de même valeur. Suite : 3 cartes ou plus qui se suivent, de la même couleur. Le joker (As de oros) peut remplacer n'importe quelle carte."
+      },
+      {
+        "titre": "Déroulement",
+        "contenu": "À son tour : piocher une carte (du talon ou de la défausse), puis en défausser une, en essayant petit à petit de lier toutes ses cartes en combinaisons valables."
+      },
+      {
+        "titre": "Fin de manche",
+        "contenu": "Dès qu'un joueur peut lier 6 de ses 7 cartes en combinaisons (en défaussant la 7e), il « ferme » la manche et marque -10 points. L'autre marque la somme des valeurs des cartes qu'il n'a pas réussi à lier. Réaliser un « chinchón » (les 7 cartes d'affilée, de la même couleur) fait gagner la manche instantanément."
+      }
+    ],
+    "note": "Face à face, c'est la configuration la plus simple pour apprendre le jeu avant de passer à plus de joueurs."
+  }
+]

@@ -1,33 +1,346 @@
 [
   {
-    "id": "nuit-4000",
-    "nom": "Dormir au-dessus de 4000 m",
-    "type": "À définir",
-    "description": "Une nuit en altitude, là où l'air se raréfie et où le sommeil devient un sport."
+    "id": "compet-chili",
+    "nom": "Participer à une compétition sportive au Chili",
+    "type": "Sport"
   },
   {
-    "id": "condor-vol",
-    "nom": "Voir un condor en vol",
-    "type": "À définir",
-    "description": "Trois mètres d'envergure, planant sans un battement d'aile."
+    "id": "compet-argentine",
+    "nom": "Participer à une compétition sportive en Argentine",
+    "type": "Sport"
   },
   {
-    "nom": "Boire un maté de coca",
-    "type": "Gastronomie",
-    "description": "L'infusion locale contre le mal d'altitude, amère et étrangement réconfortante."
+    "id": "compet-bolivie",
+    "nom": "Participer à une compétition sportive en Bolivie",
+    "type": "Sport"
   },
   {
-    "nom": "Mâcher des feuilles de coca",
+    "id": "compet-equateur",
+    "nom": "Participer à une compétition sportive en Équateur",
+    "type": "Sport"
+  },
+  {
+    "id": "compet-perou",
+    "nom": "Participer à une compétition sportive au Pérou",
+    "type": "Sport"
+  },
+  {
+    "id": "burpees-5000",
+    "nom": "Faire 50 burpees au-dessus de 5000 m",
+    "type": "Sport"
+  },
+  {
+    "id": "la-paz-el-alto",
+    "nom": "Monter à pied de La Paz à El Alto",
+    "type": "Sport",
+    "description": "Sans téléphérique, du centre-ville jusqu'en haut, sur ses deux jambes."
+  },
+  {
+    "id": "sommet-6000",
+    "nom": "Gravir un sommet de plus de 6000 m",
+    "type": "Sport"
+  },
+  {
+    "id": "journee-espagnol",
+    "nom": "Passer une journée entière en espagnol",
+    "type": "Culture"
+  },
+  {
+    "id": "aliment-inconnu-marche",
+    "nom": "Acheter un aliment inconnu au marché et le cuisiner",
     "type": "Gastronomie"
   },
   {
-    "id": "nuit-van",
-    "nom": "Passer une nuit dans un van",
-    "type": "À définir"
+    "id": "nage-titicaca",
+    "nom": "Nager dans le lac Titicaca",
+    "type": "Nature"
   },
   {
-    "id": "courir-Equateur",
-    "nom": "Courir en Equateur",
+    "id": "mots-quechua-aymara",
+    "nom": "Apprendre 10 mots en quechua ou en aymara",
+    "type": "Culture",
+    "description": "Et les utiliser, même maladroitement."
+  },
+  {
+    "id": "danse-traditionnelle",
+    "nom": "Apprendre une danse traditionnelle",
+    "type": "Culture",
+    "description": "Cueca chilienne, marinera péruvienne…"
+  },
+  {
+    "id": "source-chaude-altitude",
+    "nom": "Se baigner dans une source chaude en altitude",
+    "type": "Nature"
+  },
+  {
+    "id": "instrument-andin",
+    "nom": "Jouer d'un instrument traditionnel andin",
+    "type": "Culture",
+    "description": "Quena, charango, sicuri… le temps d'un morceau."
+  },
+  {
+    "id": "sieste-5000",
+    "nom": "Faire une sieste à plus de 5000 m",
+    "type": "Absurde"
+  },
+  {
+    "id": "repas-monochrome",
+    "nom": "Manger un repas entièrement d'une seule couleur",
+    "type": "Gastronomie",
+    "description": "Violet, jaune, vert ou rouge — maïs violet, pommes de terre violettes…"
+  },
+  {
+    "id": "sport-pluie-tropicale",
+    "nom": "Faire du sport sous une pluie tropicale",
     "type": "Sport"
+  },
+  {
+    "id": "van-isole",
+    "nom": "Dormir en van sans aucune construction ni personne en vue",
+    "type": "Aventure"
+  },
+  {
+    "id": "etoiles-3h",
+    "nom": "Se lever à 3h du matin pour observer les étoiles",
+    "type": "Nature"
+  },
+  {
+    "id": "denivele-petit-dej",
+    "nom": "Faire 1000 m de dénivelé positif avant le petit-déjeuner",
+    "type": "Sport"
+  },
+  {
+    "id": "pomme-de-terre-10",
+    "nom": "Goûter 10 variétés différentes de pomme de terre",
+    "type": "Gastronomie"
+  },
+  {
+    "id": "fruit-inconnu",
+    "nom": "Manger un fruit dont on ignorait l'existence",
+    "type": "Gastronomie"
+  },
+  {
+    "id": "dessiner-paysage",
+    "nom": "Dessiner un paysage à la main, même mal",
+    "type": "Culture"
+  },
+  {
+    "id": "lever-soleil-semaine",
+    "nom": "Se réveiller au lever du soleil pendant une semaine",
+    "type": "Nature"
+  },
+  {
+    "id": "trompo-30s",
+    "nom": "Faire tourner un trompo pendant 30 secondes",
+    "type": "Absurde"
+  },
+  {
+    "id": "emboque-10",
+    "nom": "Réussir 10 coups d'emboque d'affilée",
+    "type": "Absurde"
+  },
+  {
+    "id": "apero-4000",
+    "nom": "Faire un apéro à plus de 4000 m",
+    "type": "Absurde"
+  },
+  {
+    "id": "randonnee-2500-dplus",
+    "nom": "Faire une randonnée avec plus de 2500 m de dénivelé positif",
+    "type": "Sport"
+  },
+  {
+    "id": "avion-papier-col",
+    "nom": "Faire voler un avion en papier depuis un col",
+    "type": "Absurde"
+  },
+  {
+    "id": "yoga-sommet",
+    "nom": "Faire une séance d'étirements ou de yoga au sommet d'une montagne",
+    "type": "Sport"
+  },
+  {
+    "id": "mais-5-types",
+    "nom": "Goûter 5 types de maïs différents",
+    "type": "Gastronomie",
+    "description": "Blanc, violet, jaune, noir, rouge."
+  },
+  {
+    "id": "constellations-australes",
+    "nom": "Identifier 5 constellations australes",
+    "type": "Nature"
+  },
+  {
+    "id": "lever-soleil-van",
+    "nom": "Observer un lever de soleil depuis le van",
+    "type": "Nature"
+  },
+  {
+    "id": "cactus-geant",
+    "nom": "Trouver un cactus plus haut que soi",
+    "type": "Nature"
+  },
+  {
+    "id": "cartes-4000",
+    "nom": "Faire une partie de cartes à plus de 4000 m",
+    "type": "Absurde"
+  },
+  {
+    "id": "baignade-cascade",
+    "nom": "Se baigner dans une cascade",
+    "type": "Nature"
+  },
+  {
+    "id": "rodeo",
+    "nom": "Assister à un rodéo chilien ou argentin",
+    "type": "Culture"
+  },
+  {
+    "id": "journee-oui",
+    "nom": "Passer une journée à dire oui à toutes les propositions",
+    "type": "Absurde"
+  },
+  {
+    "id": "pile-ou-face-24h",
+    "nom": "Prendre toutes ses décisions à pile ou face pendant 24h",
+    "type": "Absurde"
+  },
+  {
+    "id": "baignade-chili",
+    "nom": "Se baigner au Chili",
+    "type": "Nature"
+  },
+  {
+    "id": "baignade-argentine",
+    "nom": "Se baigner en Argentine",
+    "type": "Nature"
+  },
+  {
+    "id": "baignade-bolivie",
+    "nom": "Se baigner en Bolivie",
+    "type": "Nature"
+  },
+  {
+    "id": "baignade-equateur",
+    "nom": "Se baigner en Équateur",
+    "type": "Nature"
+  },
+  {
+    "id": "baignade-perou",
+    "nom": "Se baigner au Pérou",
+    "type": "Nature"
+  },
+  {
+    "id": "histoire-espagnol",
+    "nom": "Écrire une histoire en espagnol et la raconter un soir",
+    "type": "Culture"
+  },
+  {
+    "id": "jus-fruit-inconnu",
+    "nom": "Boire un jus fait avec un fruit inconnu",
+    "type": "Gastronomie"
+  },
+  {
+    "id": "tubercules-oublies",
+    "nom": "Goûter les tubercules oubliés",
+    "type": "Gastronomie",
+    "description": "Oca, olluco, mashua, yacón."
+  },
+  {
+    "id": "marche-yeux-fermes",
+    "nom": "Marcher 2 km les yeux fermés, guidé",
+    "type": "Absurde"
+  },
+  {
+    "id": "glaces-inconnues",
+    "nom": "Goûter 5 parfums de glace jamais vus",
+    "type": "Gastronomie",
+    "description": "Lúcuma, chirimoya, maracuyá, aguaje, camu camu…"
+  },
+  {
+    "id": "parcours-obstacles-nature",
+    "nom": "Improviser un parcours d'obstacles avec des éléments naturels",
+    "type": "Sport"
+  },
+  {
+    "id": "crossfit-pierres",
+    "nom": "Faire une séance de CrossFit avec des pierres ramassées sur place",
+    "type": "Sport"
+  },
+  {
+    "id": "fete-locale",
+    "nom": "Participer à une fête ou un festival local",
+    "type": "Culture"
+  },
+  {
+    "id": "coiffeur-local",
+    "nom": "Se faire couper les cheveux par un coiffeur local",
+    "type": "Culture"
+  },
+  {
+    "id": "repas-commande-surprise",
+    "nom": "Faire un repas où chacun commande pour l'autre, sans rien dire",
+    "type": "Absurde"
+  },
+  {
+    "id": "randonnee-nuit",
+    "nom": "Faire une randonnée entièrement de nuit",
+    "type": "Aventure",
+    "description": "5 km minimum."
+  },
+  {
+    "id": "randonnee-carte-papier",
+    "nom": "Faire une randonnée avec une carte papier uniquement",
+    "type": "Aventure"
+  },
+  {
+    "id": "repas-feu-de-bois",
+    "nom": "Cuisiner un repas entièrement au feu de bois",
+    "type": "Gastronomie"
+  },
+  {
+    "id": "course-santiago",
+    "nom": "Faire une sortie course à pied à Santiago",
+    "type": "Sport"
+  },
+  {
+    "id": "course-buenos-aires",
+    "nom": "Faire une sortie course à pied à Buenos Aires",
+    "type": "Sport"
+  },
+  {
+    "id": "course-la-paz",
+    "nom": "Faire une sortie course à pied à La Paz",
+    "type": "Sport"
+  },
+  {
+    "id": "course-quito",
+    "nom": "Faire une sortie course à pied à Quito",
+    "type": "Sport"
+  },
+  {
+    "id": "course-lima",
+    "nom": "Faire une sortie course à pied à Lima",
+    "type": "Sport"
+  },
+  {
+    "id": "soleil-double",
+    "nom": "Voir un coucher et un lever de soleil le même jour",
+    "type": "Nature"
+  },
+  {
+    "id": "carte-postale-mensuelle",
+    "nom": "Envoyer une carte postale à une personne différente chaque mois",
+    "type": "Absurde"
+  },
+  {
+    "id": "pates-4000",
+    "nom": "Faire cuire des pâtes à plus de 4000 m",
+    "type": "Absurde"
+  },
+  {
+    "id": "ricochets-lac",
+    "nom": "Faire un concours de ricochets sur un lac",
+    "type": "Absurde"
   }
 ]

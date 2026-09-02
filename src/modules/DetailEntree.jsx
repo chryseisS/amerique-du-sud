@@ -129,7 +129,7 @@ function DetailEntree() {
       {entree.recapAuto && (
         <div className="bg-terra-100 border border-terra-border rounded-xl p-3.5 mb-4">
           <div className="text-[10px] uppercase tracking-wider text-terra-500 mb-2">
-            Ce jour-là
+            {jours > 1 ? 'Durant ce séjour' : 'Ce jour-là'}
           </div>
           <p className="text-sm text-terra-900/80 leading-relaxed whitespace-pre-wrap">
             {entree.recapAuto}

@@ -29,8 +29,9 @@ function ligneDefi(d) {
 
 /**
  * Génère le récapitulatif automatique (animaux vus / plats goûtés /
- * expériences vécues) pour la période [dateDebut, dateFin]. Appelé UNE SEULE
- * FOIS à la création de l'entrée — le résultat est figé, jamais recalculé.
+ * expériences vécues) pour la période [dateDebut, dateFin]. Appelé à la
+ * création ET à chaque modification de l'entrée (voir modifierEntree),
+ * jamais recalculé "en direct" ailleurs (pas de useLiveQuery dessus).
  * Renvoie null si rien à afficher (pas de section vide).
  */
 async function genererRecapAuto(dateDebut, dateFin) {
@@ -110,21 +111,26 @@ export function useJournal() {
       dateFin: champs.dateFin || null,
       lieu: champs.lieu?.trim() || '',
       texte: champs.texte || '',
-      recapAuto, // figé à la création, jamais recalculé (voir modifierEntree)
+      recapAuto,
       createdAt: new Date(),
     });
     if (fichiers.length) await ajouterPhotos(id, fichiers, onProgres);
     return id;
   };
 
-  const modifierEntree = (id, champs) =>
-    db.journalEntrees.update(id, {
+  // Recalcule le récapitulatif à chaque modification (dates changées, ou
+  // animal/plat/défi ajouté depuis pour la même période).
+  const modifierEntree = async (id, champs) => {
+    const recapAuto = await genererRecapAuto(champs.dateDebut, champs.dateFin);
+    return db.journalEntrees.update(id, {
       titre: champs.titre?.trim() || 'Sans titre',
       dateDebut: champs.dateDebut,
       dateFin: champs.dateFin || null,
       lieu: champs.lieu?.trim() || '',
       texte: champs.texte || '',
+      recapAuto,
     });
+  };
 
   const supprimerEntree = async (id) => {
     const photos = await db.journalPhotos.where('entreeId').equals(id).primaryKeys();

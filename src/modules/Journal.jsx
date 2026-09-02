@@ -1,7 +1,9 @@
 import faune from '../donnees/faune.json';
 import gastronomie from '../donnees/gastronomie.json';
+import premieresFoisJson from '../donnees/premieresFois.json';
 import { useObservationsFaune } from '../hooks/useObservationsFaune';
 import { useAvisGastronomie } from '../hooks/useAvisGastronomie';
+import { usePremieresFois } from '../hooks/usePremieresFois';
 import JournalBlock from '../composants/JournalBlock';
 
 // ═══════════════════════════════════════════════════════
@@ -117,12 +119,16 @@ const JOURNAL_BLOCKS = [
 function Journal() {
   const { vuSet } = useObservationsFaune();
   const { testeSet } = useAvisGastronomie();
+  const { faitSet } = usePremieresFois();
 
   const gastro = { fait: testeSet.size, total: gastronomie.length };
   const fauneFait = vuSet.size;
   const fauneTotal = faune.length;
   const last = null;
-  const premieresFois = { fait: 0, total: 10 };
+  const premieresFois = {
+    fait: premieresFoisJson.filter((p) => faitSet.has(p.nom)).length,
+    total: premieresFoisJson.length,
+  };
 
   return (
     <div className="fond-carte-journal relative min-h-full overflow-hidden">
@@ -171,8 +177,8 @@ function Journal() {
         <div style={JOURNAL_BLOCKS[2].bgStyle} className="rounded-2xl min-h-[120px] shadow-md hover:shadow-lg transition-shadow overflow-hidden">
           <JournalBlock to={JOURNAL_BLOCKS[2].to} icon={JOURNAL_BLOCKS[2].icon} bgClassName="bg-transparent">
             <StatBloc
-              titre="1ères Fois"
-              sousTitre="Les expériences à vivre"
+              titre="Les défis"
+              sousTitre="et expériences à vivre"
               fait={premieresFois.fait}
               total={premieresFois.total}
             />

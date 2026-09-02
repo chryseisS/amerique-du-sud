@@ -44,25 +44,53 @@
         "sousTitre": null,
         "fichier": "siecle-frontiere",
         "image": "/images/themes/siecle-frontiere.png"
+      },
+      {
+        "id": "siecle-foules",
+        "titre": "Le siècle des foules",
+        "sousTitre": null,
+        "fichier": "siecle-foules",
+        "image": "/images/themes/siecle-foules.png"
+      },
+      {
+        "id": "guerre-froide",
+        "titre": "La guerre froide sud-américaine",
+        "sousTitre": null,
+        "fichier": "guerre-froide",
+        "image": "/images/themes/guerre-froide.png"
+      },
+      {
+        "id": "apres-1990",
+        "titre": "L'après 1990",
+        "sousTitre": null,
+        "fichier": "apres-1990",
+        "image": "/images/themes/apres-1990.png"
       }
     ]
   },
   {
-    "id": "histoire-recente",
-    "titre": "Histoire récente",
+    "id": "gastronomie",
+    "titre": "Gastronomie",
     "themes": [
       {
-        "id": "dictatures",
-        "titre": "Les dictatures",
-        "sousTitre": "XXe siècle, mémoires vives",
-        "fichier": "dictatures",
+        "id": "produits",
+        "titre": "Ingrédients emblématiques",
+        "sousTitre": null,
+        "fichier": "ingredients",
         "image": null
       },
       {
-        "id": "guerre-pacifique",
-        "titre": "La guerre du Pacifique",
-        "sousTitre": "Pourquoi la Bolivie n'a plus la mer",
-        "fichier": "guerre-pacifique",
+        "id": "perou",
+        "titre": "Pérou, Bolivie et Equateur",
+        "sousTitre": null,
+        "fichier": "perou",
+        "image": null
+      },
+      {
+        "id": "chili",
+        "titre": "Chili et Argentine",
+        "sousTitre": null,
+        "fichier": "chili",
         "image": null
       }
     ]

@@ -9,14 +9,19 @@ import {
   UtensilsCrossed,
   PartyPopper,
   HelpCircle,
+  Landmark,
+  Mountain,
+  Compass,
 } from 'lucide-react';
 import { COULEURS_DEFI } from '../donnees/constantes';
 
 const ICONE_TYPE_DEFI = {
   Sport: Footprints,
   Gastronomie: UtensilsCrossed,
+  Culture: Landmark,
+  Nature: Mountain,
   Absurde: PartyPopper,
-  'À définir': HelpCircle,
+  Aventure: Compass,
 };
 
 /**

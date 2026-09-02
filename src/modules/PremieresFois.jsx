@@ -34,7 +34,10 @@ function PremieresFois() {
     : parType;
 
   // ─── COMPTEURS ──────────────────────────────────────
-  const totalFaites = faitSet.size;
+  // On ne compte que les défis présents dans le JSON actuel : un défi
+  // marqué "fait" puis retiré de premieresFois.json laisse un enregistrement
+  // orphelin en base qui ne doit pas gonfler le total.
+  const totalFaites = premieresFois.filter((p) => faitSet.has(p.nom)).length;
   const totalPremieres = premieresFois.length;
   const pctFaites = totalPremieres > 0 ? (totalFaites / totalPremieres) * 100 : 0;
 
@@ -54,10 +57,10 @@ function PremieresFois() {
       <div className="flex items-end justify-between mb-2">
         <div>
           <h1 className="text-3xl font-serif text-terra-900 leading-tight">
-            1ères Fois
+            Les défis
           </h1>
           <div className="text-[10px] uppercase tracking-wider text-terra-muted mt-0.5">
-            les expériences à vivre
+            et expériences à vivre
           </div>
         </div>
         <div className="text-right">

@@ -35,6 +35,8 @@ import Lecture from './modules/Lecture.jsx';
 import MiniJeux from './modules/MiniJeux.jsx';
 import Taquin from './modules/Taquin.jsx';
 import Tabou from './modules/Tabou.jsx';
+import JeuxCartes from './modules/JeuxCartes.jsx';
+import DetailJeuCarte from './modules/DetailJeuCarte.jsx';
 import Surprises from './modules/Surprises.jsx';
 import DetailSurprise from './modules/DetailSurprise.jsx';
 import SurprisesWatcher from './composants/SurprisesWatcher.jsx';
@@ -83,6 +85,8 @@ function App() {
             <Route path="/jeux/mini-jeux" element={<MiniJeux />} />
             <Route path="/jeux/mini-jeux/taquin" element={<Taquin />} />
             <Route path="/jeux/mini-jeux/tabou" element={<Tabou />} />
+            <Route path="/jeux/mini-jeux/cartes" element={<JeuxCartes />} />
+            <Route path="/jeux/mini-jeux/cartes/:jeuId" element={<DetailJeuCarte />} />
             <Route path="/jeux/surprises" element={<Surprises />} />
             <Route path="/jeux/surprises/:surpriseId" element={<DetailSurprise />} />
 

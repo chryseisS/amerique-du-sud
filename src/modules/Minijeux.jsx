@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, ChevronRight, Puzzle, Ban } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Puzzle, Ban, Spade } from 'lucide-react';
 
 /* ════════════════════════════════════════════════════════════════════
    ÉCRAN « JEUX »  — route /jeux/mini-jeux
@@ -7,11 +7,16 @@ import { ArrowLeft, ChevronRight, Puzzle, Ban } from 'lucide-react';
    • Fichier conservé sous MiniJeux.jsx (pour éviter la collision avec
      Jeux.jsx, le hub principal désormais titré "Divertissement") mais
      affiché comme "Jeux" dans l'app.
-   • Un seul jeu pour l'instant (Taquin). Ajoute une entrée ici quand
-     tu codes le prochain (mots croisés, memory, pendu…).
+   • Ajoute une entrée ici à chaque nouveau petit jeu (mots croisés,
+     memory, pendu…).
    ════════════════════════════════════════════════════════════════════ */
 
 const JEUX = [
+  {
+    id: 'cartes', titre: 'Jeux de cartes', to: '/jeux/mini-jeux/cartes', Icone: Spade,
+    desc: 'Cuarenta, Truco et plus — les règles à portée de main.',
+    categorie: true, nb: 4,
+  },
   {
     id: 'taquin', titre: 'Taquin', to: '/jeux/mini-jeux/taquin', Icone: Puzzle,
     desc: 'Reconstitue l’image en faisant glisser les pièces.',
@@ -39,17 +44,28 @@ export default function MiniJeux() {
 
       {/* Liste des jeux */}
       <div className="relative px-[18px] pt-4 pb-6 flex flex-col gap-3">
-        {JEUX.map(({ id, titre, desc, to, Icone }) => (
+        {JEUX.map(({ id, titre, desc, to, Icone, categorie, nb }) => (
           <Link key={id} to={to}
-                className="flex gap-3.5 items-center bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-4 shadow-[0_4px_12px_rgba(60,40,20,0.12)] transition-transform duration-200 hover:-translate-y-0.5">
-            <div className="shrink-0 w-11 h-11 rounded-full flex items-center justify-center bg-[#5a4a36]/10 border border-parchemin-bordure">
-              <Icone className="w-5 h-5 text-sepia" strokeWidth={1.8} />
+                className={categorie
+                  ? 'flex gap-3.5 items-center bg-jeu-minijeux/10 border-2 border-dashed border-jeu-minijeux/50 rounded-2xl p-4 transition-transform duration-200 hover:-translate-y-0.5'
+                  : 'flex gap-3.5 items-center bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-4 shadow-[0_4px_12px_rgba(60,40,20,0.12)] transition-transform duration-200 hover:-translate-y-0.5'}>
+            <div className={categorie
+                  ? 'shrink-0 w-11 h-11 rounded-full flex items-center justify-center bg-jeu-minijeux text-creme'
+                  : 'shrink-0 w-11 h-11 rounded-full flex items-center justify-center bg-[#5a4a36]/10 border border-parchemin-bordure'}>
+              <Icone className={categorie ? 'w-5 h-5' : 'w-5 h-5 text-sepia'} strokeWidth={1.8} />
             </div>
             <div className="flex-1 min-w-0">
-              <h3 className="font-serif text-[16px] leading-tight text-encre font-semibold m-0">{titre}</h3>
+              <div className="flex items-center gap-2">
+                <h3 className="font-serif text-[16px] leading-tight text-encre font-semibold m-0">{titre}</h3>
+                {categorie && (
+                  <span className="shrink-0 text-[9.5px] font-semibold uppercase tracking-wide text-jeu-minijeux bg-jeu-minijeux/15 rounded-full px-2 py-0.5">
+                    {nb} jeux
+                  </span>
+                )}
+              </div>
               <p className="text-[11.5px] text-encre-douce mt-1 leading-snug">{desc}</p>
             </div>
-            <ChevronRight className="self-center shrink-0 w-5 h-5 text-encre/40" strokeWidth={2} />
+            <ChevronRight className={categorie ? 'self-center shrink-0 w-5 h-5 text-jeu-minijeux/60' : 'self-center shrink-0 w-5 h-5 text-encre/40'} strokeWidth={2} />
           </Link>
         ))}
       </div>

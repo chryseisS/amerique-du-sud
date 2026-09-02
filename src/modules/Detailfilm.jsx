@@ -3,7 +3,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, Calendar, Clapperboard, Check, Eye } from 'lucide-react';
 import { db } from '../db';
 import films from '../donnees/films.json';
-import { COULEURS_PAYS } from '../donnees/constantes.js';
+import { COULEURS_PAYS } from '../donnees/constantes';
 
 export default function DetailFilm() {
   const { filmId } = useParams();
@@ -69,7 +69,9 @@ export default function DetailFilm() {
         </div>
 
         {/* Description */}
-        <p className="text-[13.5px] text-encre-douce leading-relaxed">{film.description}</p>
+        <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+          <p className="text-[13.5px] text-encre-douce leading-relaxed text-justify">{film.description}</p>
+        </div>
       </div>
     </div>
   );

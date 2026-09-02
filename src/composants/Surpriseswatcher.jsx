@@ -46,11 +46,11 @@ function estDeclenchee(declencheur, clesEvenements) {
 }
 
 export default function SurprisesWatcher() {
-  const evenementsDB = useLiveQuery(() => db.evenements.toArray(), []) ?? [];
-  const clesEvenements = useMemo(() => new Set(evenementsDB.map((e) => e.cle)), [evenementsDB]);
+  const evenementsDB = useLiveQuery(() => db.evenements.toArray(), []);
+  const clesEvenements = useMemo(() => new Set((evenementsDB ?? []).map((e) => e.cle)), [evenementsDB]);
 
-  const debloqueesDB = useLiveQuery(() => db.surprisesDebloquees.toArray(), []) ?? [];
-  const debloqueesIds = useMemo(() => new Set(debloqueesDB.map((d) => d.id)), [debloqueesDB]);
+  const debloqueesDB = useLiveQuery(() => db.surprisesDebloquees.toArray(), []);
+  const debloqueesIds = useMemo(() => new Set((debloqueesDB ?? []).map((d) => d.id)), [debloqueesDB]);
 
   const [file, setFile] = useState([]);
   const enCours = useRef(new Set()); // évite de re-traiter une surprise pendant l'écriture Dexie en cours
@@ -62,6 +62,11 @@ export default function SurprisesWatcher() {
   }, []);
 
   useEffect(() => {
+    // Tant que les deux requêtes n'ont pas résolu, on ne sait pas encore
+    // ce qui est déjà débloqué — ne rien vérifier pour éviter de
+    // ré-écrire/ré-notifier une surprise déjà acquise.
+    if (evenementsDB === undefined || debloqueesDB === undefined) return;
+
     async function verifier() {
       for (const s of SURPRISES) {
         if (debloqueesIds.has(s.id) || enCours.current.has(s.id)) continue;
@@ -73,7 +78,7 @@ export default function SurprisesWatcher() {
       }
     }
     verifier();
-  }, [clesEvenements, debloqueesIds, tic]);
+  }, [clesEvenements, debloqueesIds, tic, evenementsDB, debloqueesDB]);
 
   if (file.length === 0) return null;
 

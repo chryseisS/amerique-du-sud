@@ -95,7 +95,9 @@ function RenduSurprise({ contenu }) {
                   className="shrink-0 w-11 h-11 rounded-full flex items-center justify-center bg-parchemin-carte border border-parchemin-bordure disabled:opacity-30">
             <ChevronLeft className="w-5 h-5 text-encre-douce" strokeWidth={2} />
           </button>
-          <p className="flex-1 font-serif italic text-[23px] text-encre font-semibold leading-tight">{question}</p>
+          <div className="flex-1 bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+            <p className="font-serif text-[16px] text-encre leading-snug text-center">{question}</p>
+          </div>
           <button onClick={() => setIndexQuestion((i) => Math.min(total - 1, i + 1))}
                   disabled={indexQuestion === total - 1}
                   aria-label="Question suivante"
@@ -134,7 +136,9 @@ function RenduSurprise({ contenu }) {
         {contenu.texte && indexQuestion === 0 && (
           <p className="font-serif text-[15px] text-encre-douce leading-relaxed whitespace-pre-line">{contenu.texte}</p>
         )}
-        <p className="font-serif text-[18px] text-encre font-semibold leading-tight">{question.question}</p>
+        <div className="w-full bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+          <p className="font-serif text-[16px] text-encre leading-snug text-center">{question.question}</p>
+        </div>
         <div className="w-full flex flex-col gap-2.5">
           {question.choix.map((choix, i) => (
             <button key={i} onClick={() => choisir(i)} disabled={reponseDonnee !== undefined}
@@ -189,7 +193,9 @@ function RenduSurprise({ contenu }) {
       {contenu.defiTitre && (
         <p className="font-serif uppercase tracking-[2px] text-[16px] text-vert-cta font-bold">{contenu.defiTitre}</p>
       )}
-      <p className="font-serif text-[19px] text-encre leading-relaxed whitespace-pre-line">{contenu.texte}</p>
+      <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+        <p className="font-serif text-[15px] text-encre leading-relaxed whitespace-pre-line">{contenu.texte}</p>
+      </div>
     </>
   );
 }
@@ -198,10 +204,19 @@ export default function DetailSurprise() {
   const { surpriseId } = useParams();
   const surprise = SURPRISES.find((s) => s.id === surpriseId);
 
-  const debloqueesDB = useLiveQuery(() => db.surprisesDebloquees.toArray(), []) ?? [];
-  const debloqueesMap = useMemo(() => new Map(debloqueesDB.map((d) => [d.id, d.date])), [debloqueesDB]);
+  const debloqueesDB = useLiveQuery(() => db.surprisesDebloquees.toArray(), []);
+  const debloqueesMap = useMemo(
+    () => new Map((debloqueesDB ?? []).map((d) => [d.id, d.date])),
+    [debloqueesDB]
+  );
 
   const [indexJour, setIndexJour] = useState(0);
+
+  // Tant que la requête Dexie n'a pas encore résolu, on ne sait pas
+  // encore si la surprise est débloquée — ne pas rediriger trop tôt.
+  if (debloqueesDB === undefined) {
+    return null;
+  }
 
   const dateDebloquee = surprise ? debloqueesMap.get(surprise.id) : undefined;
 

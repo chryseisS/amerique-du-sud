@@ -38,12 +38,15 @@ export const RARETE_LIBELLES = {
 
 // module Défis / Premières fois
 
-export const TYPES_DEFI = ['Sport', 'Gastronomie', 'Absurde', 'À définir'];
+export const TYPES_DEFI = ['Sport', 'Gastronomie', 'Culture', 'Nature', 'Absurde', 'Aventure'];
 
 export const COULEURS_DEFI = {
   'Sport':       { barre: '#3a7ca5', badgeBg: '#E6F1FB', badgeText: '#134564' }, // bleu eau, cohérent avec Excursion
   'Gastronomie': { barre: '#d4872a', badgeBg: '#FBEEDC', badgeText: '#7a4f13' }, // ambre, cohérent avec le module Gastronomie
-  'Absurde':     { barre: '#9a5b8c', badgeBg: '#F5E9F2', badgeText: '#5c2f52' }, // mauve
+  'Culture':     { barre: '#9a5b8c', badgeBg: '#F5E9F2', badgeText: '#5c2f52' }, // mauve patrimoine, cohérent avec Activités
+  'Nature':      { barre: '#5e8c4a', badgeBg: '#EAF3E1', badgeText: '#33531f' }, // vert feuillage, cohérent avec Activités
+  'Absurde':     { barre: '#c2478a', badgeBg: '#FBE7F0', badgeText: '#7a1f52' }, // rose vif
+  'Aventure':    { barre: '#4a5a8c', badgeBg: '#E8EAF3', badgeText: '#2b3560' }, // bleu ardoise
   'À définir':   { barre: '#9a7055', badgeBg: '#F1E9E1', badgeText: '#5c4632' }, // taupe / terra-muted
 };
 

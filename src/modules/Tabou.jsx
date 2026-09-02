@@ -86,22 +86,30 @@ export default function Tabou() {
 
   function reussi() {
     if (!courante) return;
-    db.tabouFait.put({ id: courante.id, date: new Date().toISOString() })
-      .catch((err) => console.error('Erreur en enregistrant le mot tabou :', err));
+    const motTermine = courante;
 
-    const candidats = poolTirage.filter((m) => m.id !== courante.id);
-    if (candidats.length === 0) {
-      setCourante(null);
-      return;
+    const candidats = poolTirage.filter((m) => m.id !== motTermine.id);
+    const prochaine = candidats.length > 0
+      ? candidats[Math.floor(Math.random() * candidats.length)]
+      : null;
+    setCourante(prochaine);
+
+    try {
+      db.tabouFait.put({ id: motTermine.id, date: new Date().toISOString() })
+        .catch((err) => console.error('Erreur en enregistrant le mot tabou :', err));
+    } catch (err) {
+      console.error('Erreur en enregistrant le mot tabou :', err);
     }
-    const mot = candidats[Math.floor(Math.random() * candidats.length)];
-    setCourante(mot);
   }
 
   function reinitialiser() {
     setCourante(null);
-    db.tabouFait.bulkDelete(MOTS.map((m) => m.id))
-      .catch((err) => console.error('Erreur en réinitialisant tabou :', err));
+    try {
+      db.tabouFait.bulkDelete(MOTS.map((m) => m.id))
+        .catch((err) => console.error('Erreur en réinitialisant tabou :', err));
+    } catch (err) {
+      console.error('Erreur en réinitialisant tabou :', err);
+    }
   }
 
   const messageVide = () => {
