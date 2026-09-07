@@ -83,4 +83,15 @@ db.version(4).stores({
    *   date  : date à laquelle le mot a été réussi
    */
   tabouFait: 'id, date',
+
+});
+
+db.version(5).stores({
+  /**
+   * duel de vocabulaire
+   *   id    : id du mot (clé vers duel-vocabulaire.json)
+   *   duelScores  : scores des joueurs
+   */
+  duelCartesFaites: 'id, date',
+  duelScores: 'joueur'
 });

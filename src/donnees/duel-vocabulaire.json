@@ -1,0 +1,33 @@
+[
+  {
+    "id": "cocina",
+    "categorie": "Cosas de la cocina",
+    "traduction": "Choses de la cuisine"
+  },
+  { "id": "animales", "categorie": "Animales", "traduction": "Animaux" },
+  { "id": "colores", "categorie": "Colores", "traduction": "Couleurs" },
+  { "id": "frutas", "categorie": "Frutas", "traduction": "Fruits" },
+  { "id": "ropa", "categorie": "Ropa", "traduction": "Vêtements" },
+  {
+    "id": "transporte",
+    "categorie": "Medios de transporte",
+    "traduction": "Moyens de transport"
+  },
+  {
+    "id": "cuerpo",
+    "categorie": "Partes del cuerpo",
+    "traduction": "Parties du corps"
+  },
+  { "id": "deportes", "categorie": "Deportes", "traduction": "Sports" },
+  {
+    "id": "instrumentos",
+    "categorie": "Instrumentos musicales",
+    "traduction": "Instruments de musique"
+  },
+  { "id": "profesiones", "categorie": "Profesiones", "traduction": "Métiers" },
+  { "id": "emociones", "categorie": "Emociones", "traduction": "Émotions" },
+  { "id": "clima", "categorie": "El clima", "traduction": "La météo" },
+  { "id": "muebles", "categorie": "Muebles", "traduction": "Meubles" },
+  { "id": "herramientas", "categorie": "Herramientas", "traduction": "Outils" },
+  { "id": "bebidas", "categorie": "Bebidas", "traduction": "Boissons" }
+]

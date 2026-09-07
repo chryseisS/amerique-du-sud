@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 const CARTES = [
   {
     id: 'quiz', titre: 'Quiz', to: '/jeux/quiz', icone: '/images/jeux/icones/quiz.svg', couleur: 'bg-jeu-quiz',
-    desc: 'Teste tes connaissances sur l’histoire, la culture et la géographie.',
+    desc: 'Teste tes connaissances.',
   },
   {
     id: 'enigmes', titre: 'Énigmes', to: '/jeux/enquetes', icone: '/images/jeux/icones/enquetes.svg', couleur: 'bg-jeu-enquete',
@@ -22,7 +22,7 @@ const CARTES = [
   },
   {
     id: 'jeux', titre: 'Jeux', to: '/jeux/mini-jeux', icone: '/images/jeux/icones/jeux.svg', couleur: 'bg-jeu-minijeux',
-    desc: 'Des petits jeux pour se détendre.',
+    desc: 'Des petits jeux pour se détendre... ou pas.',
   },
   {
     id: 'medias', titre: 'Médias', to: '/jeux/medias', icone: '/images/jeux/icones/medias.svg', couleur: 'bg-jeu-diverti',

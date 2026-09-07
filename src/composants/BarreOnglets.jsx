@@ -4,7 +4,7 @@ function BarreOnglets() {
   const onglets = [
     { chemin: '/planification', label: 'Planif\'',  image: '/images/onglets/planif.png' },
     { chemin: '/apprendre',     label: 'Culture', image: '/images/onglets/apprendre.png' },
-    { chemin: '/jeux',          label: 'Jeux',    image: '/images/onglets/jeux.png' },
+    { chemin: '/jeux',          label: 'Détente',    image: '/images/onglets/jeux.png' },
     { chemin: '/journal',       label: 'Journal', image: '/images/onglets/journal.png' },
   ];
 
@@ -20,7 +20,7 @@ function BarreOnglets() {
             <>
               <img
                 src={image}
-                className={`w-10 h-10 p-1 transition-all ${
+                className={`w-10 h-10 p-0 transition-all ${
                   isActive ? 'opacity-100' : 'opacity-50'
                 }`}
               />

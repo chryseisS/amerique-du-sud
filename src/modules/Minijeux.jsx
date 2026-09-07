@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, ChevronRight, Puzzle, Ban, Spade } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Puzzle, Ban, Spade, Swords } from 'lucide-react';
 
 /* ════════════════════════════════════════════════════════════════════
    ÉCRAN « JEUX »  — route /jeux/mini-jeux
@@ -24,6 +24,10 @@ const JEUX = [
   {
     id: 'tabou', titre: 'Tabou', to: '/jeux/mini-jeux/tabou', Icone: Ban,
     desc: 'Fais deviner un mot sans utiliser les mots interdits.',
+  },
+  {
+    id: 'duel-vocabulaire', titre: 'Duelo de vocabulario', to: '/jeux/mini-jeux/duel-vocabulaire', Icone: Swords,
+    desc: 'Le premier à sécher a perdu.',
   },
 ];
 

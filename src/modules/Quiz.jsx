@@ -40,6 +40,16 @@ const LIBELLE_REPONSE = { vf: 'Réponse', qcm: 'Réponse', '2v1f': "L'affirmatio
 
 const normaliser = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
+// Mélange une copie du tableau (Fisher-Yates) — ne modifie jamais l'original
+function melanger(tableau) {
+  const copie = [...tableau];
+  for (let i = copie.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copie[i], copie[j]] = [copie[j], copie[i]];
+  }
+  return copie;
+}
+
 function Badge({ className, children }) {
   return (
     <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wide ${className}`}>
@@ -180,6 +190,15 @@ export default function Quiz() {
   const bt = themeBadge(courante?.theme);
   const bd = diffBadge(courante?.difficulte);
 
+  // Ordre aléatoire des options — recalculé uniquement quand la question change
+  // (pas à chaque render, pas quand on retourne juste la carte)
+  const optionsMelangees = useMemo(() => {
+    if (!courante) return [];
+    if (courante.type === 'qcm') return melanger(courante.choix);
+    if (courante.type === '2v1f') return melanger(courante.affirmations);
+    return [];
+  }, [courante]);
+
   // Liste de revue filtrée par recherche
   const listeRevue = poolContenu
     .filter((q) => luesIds.has(q.id))
@@ -209,12 +228,6 @@ export default function Quiz() {
           <option value="facile">Facile</option>
           <option value="moyen">Moyen</option>
           <option value="difficile">Difficile</option>
-        </Select>
-        <Select value={filtres.type} onChange={(e) => majFiltre('type', e.target.value)}>
-          <option value="tous">Type : tous</option>
-          <option value="vf">Vrai / Faux</option>
-          <option value="qcm">QCM</option>
-          <option value="2v1f">2 Vraies 1 Fausse</option>
         </Select>
         <Select value={filtres.statut} onChange={(e) => majFiltre('statut', e.target.value)}>
           <option value="toutes">Statut : toutes</option>
@@ -319,7 +332,7 @@ export default function Quiz() {
                 <p className="text-[15px] font-medium text-encre leading-relaxed">{courante.question}</p>
                 {courante.type === 'qcm' ? (
                   <div className="flex flex-col gap-2">
-                    {courante.choix.map((c) => (
+                    {optionsMelangees.map((c) => (
                       <button key={c} onClick={() => repondre(c)}
                               className="text-left text-[13px] text-encre bg-creme/60 border border-parchemin-bordure rounded-xl px-3.5 py-2.5">
                         {c}
@@ -328,7 +341,7 @@ export default function Quiz() {
                   </div>
                 ) : courante.type === '2v1f' ? (
                   <div className="flex flex-col gap-2">
-                    {courante.affirmations.map((a) => (
+                    {optionsMelangees.map((a) => (
                       <button key={a} onClick={() => repondre(a)}
                               className="text-left text-[13px] text-encre bg-creme/60 border border-parchemin-bordure rounded-xl px-3.5 py-2.5">
                         {a}

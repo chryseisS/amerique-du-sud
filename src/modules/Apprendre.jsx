@@ -75,7 +75,7 @@ function Apprendre() {
                   <div className="text-[10px] text-white/70 leading-tight">
                     {theme.sousTitre}
                   </div>
-                  <div className="font-serif text-sm text-white leading-tight">
+                  <div className="font-serif text-[13px] text-white leading-tight">
                     {theme.titre}
                   </div>
                 </div>

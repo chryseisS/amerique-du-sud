@@ -77,21 +77,21 @@
         "titre": "Ingrédients emblématiques",
         "sousTitre": null,
         "fichier": "ingredients",
-        "image": null
+        "image": "/images/themes/ingredients.jpg"
       },
       {
         "id": "perou",
         "titre": "Pérou, Bolivie et Equateur",
         "sousTitre": null,
         "fichier": "perou",
-        "image": null
+        "image": "/images/themes/perou.png"
       },
       {
         "id": "chili",
         "titre": "Chili et Argentine",
         "sousTitre": null,
         "fichier": "chili",
-        "image": null
+        "image": "/images/themes/chili.png"
       }
     ]
   },
@@ -127,31 +127,30 @@
     "titre": "Culture vivante",
     "themes": [
       {
-        "id": "coca",
-        "titre": "La feuille de coca",
-        "sousTitre": "Sacrée et controversée",
-        "fichier": "coca",
+        "id": "danse",
+        "titre": "Danse",
+        "sousTitre": null,
+        "fichier": "danse",
+        "image": "/images/themes/danse.png"
+      },
+      {
+        "id": "musique",
+        "titre": "Musique",
+        "fichier": "musique",
+        "image": "/images/themes/musique.png"
+      },
+      {
+        "id": "langues",
+        "titre": "Langues vivantes",
+        "sousTitre": null,
+        "fichier": "langues",
         "image": null
       },
       {
-        "id": "musique-andine",
-        "titre": "La musique andine",
-        "sousTitre": "Du charango à la cumbia",
-        "fichier": "musique-andine",
-        "image": null
-      },
-      {
-        "id": "quechua",
-        "titre": "Le quechua",
-        "sousTitre": "8 millions de locuteurs",
-        "fichier": "quechua",
-        "image": null
-      },
-      {
-        "id": "syncretisme",
-        "titre": "Catholicisme & syncrétisme",
-        "sousTitre": "La Pachamama dans une messe",
-        "fichier": "syncretisme",
+        "id": "art",
+        "titre": "Art et artisanat",
+        "sousTitre": null,
+        "fichier": "art",
         "image": null
       }
     ]
