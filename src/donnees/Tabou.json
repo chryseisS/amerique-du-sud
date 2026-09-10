@@ -1,42 +1,2247 @@
 [
   {
-    "id": "playa",
-    "mot": "Playa",
-    "interdits": ["Mar", "Arena", "Sol", "Vacaciones"]
+    "id": "cama",
+    "mot": "Cama",
+    "interdits": ["Habitacion", "Casa", "Dormir"]
+  },
+  {
+    "id": "lluvia",
+    "mot": "Lluvia",
+    "interdits": ["Agua", "Cielo", "Nube"]
+  },
+  {
+    "id": "salon",
+    "mot": "Salon",
+    "interdits": ["Television", "Sofa", "Casa"]
+  },
+  {
+    "id": "zapato",
+    "mot": "Zapato",
+    "interdits": ["Pie", "Caminar", "Calcetin"]
+  },
+  {
+    "id": "maleta",
+    "mot": "Maleta",
+    "interdits": ["Viaje", "Ropa", "Llevarà"]
+  },
+  {
+    "id": "comer",
+    "mot": "Comer",
+    "interdits": ["Boca", "Alimento", "Beber"]
+  },
+  {
+    "id": "calle",
+    "mot": "Calle",
+    "interdits": ["Ciudad", "Semaforo", "Acera"]
+  },
+  {
+    "id": "cine",
+    "mot": "Cine",
+    "interdits": ["Pantalla", "Pelicula", "Actor"]
+  },
+  {
+    "id": "telefono",
+    "mot": "Telefono",
+    "interdits": ["Numero", "Llamar", "Movil"]
+  },
+  {
+    "id": "taxi",
+    "mot": "Taxi",
+    "interdits": ["Coche", "Ciudad", "Conducir"]
+  },
+  {
+    "id": "futbal",
+    "mot": "Futbal",
+    "interdits": ["Balon", "Deporte", "Jugar"]
+  },
+  {
+    "id": "bicicleta",
+    "mot": "Bicicleta",
+    "interdits": ["Montar", "Rueda", "Ciclista"]
+  },
+  {
+    "id": "medico",
+    "mot": "Medico",
+    "interdits": ["Enfermo", "Curar", "Hospital"]
+  },
+  {
+    "id": "tienda",
+    "mot": "Tienda",
+    "interdits": ["Comprar", "Dinero", "Mercado"]
+  },
+  {
+    "id": "comprar",
+    "mot": "Comprar",
+    "interdits": ["Tienda", "Vender", "Dinero"]
+  },
+  {
+    "id": "colegio",
+    "mot": "Colegio",
+    "interdits": ["Estudiante", "Profesor", "Examen"]
+  },
+  {
+    "id": "gato",
+    "mot": "Gato",
+    "interdits": ["Animal", "Perro", "Mascota"]
+  },
+  {
+    "id": "vacaciones",
+    "mot": "Vacaciones",
+    "interdits": ["Trabajo", "Verano", "Playa"]
+  },
+  {
+    "id": "primo",
+    "mot": "Primo",
+    "interdits": ["Hermano", "Familia", "Hermano"]
+  },
+  {
+    "id": "casarse",
+    "mot": "Casarse",
+    "interdits": ["Boda", "Novio", "Marido"]
+  },
+  {
+    "id": "fiesta",
+    "mot": "Fiesta",
+    "interdits": ["Cumpleanos", "Baile", "Divertirse"]
+  },
+  {
+    "id": "ingrediente",
+    "mot": "Ingrediente",
+    "interdits": ["Plato", "Receta", "Cocinar"]
+  },
+  {
+    "id": "escribir",
+    "mot": "Escribir",
+    "interdits": ["Carta", "Boligrafo", "Papel"]
+  },
+  {
+    "id": "afeitarse",
+    "mot": "Afeitarse",
+    "interdits": ["Barba", "Hombre", "Cuchilla"]
+  },
+  {
+    "id": "descuento",
+    "mot": "Descuento",
+    "interdits": ["Dinero", "Tienda", "Oferta"]
+  },
+  {
+    "id": "ciego",
+    "mot": "Ciego",
+    "interdits": ["Ver", "Ojos", "Gafas"]
+  },
+  {
+    "id": "esqueleto",
+    "mot": "Esqueleto",
+    "interdits": ["Hueso", "Cuerpo", "Muerte"]
+  },
+  {
+    "id": "reloj",
+    "mot": "Reloj",
+    "interdits": ["Hora", "Pared", "Minuto"]
+  },
+  {
+    "id": "noche",
+    "mot": "Noche",
+    "interdits": ["Dia", "Oscuro", "Luna"]
+  },
+  {
+    "id": "naranja",
+    "mot": "Naranja",
+    "interdits": ["Color", "Fruta", "Limon"]
+  },
+  {
+    "id": "pared",
+    "mot": "Pared",
+    "interdits": ["Suelo", "Techo", "Cuadro"]
+  },
+  {
+    "id": "ambulancia",
+    "mot": "Ambulancia",
+    "interdits": ["Hospital", "Enfermo", "Urgencia"]
+  },
+  {
+    "id": "cafe",
+    "mot": "Cafe",
+    "interdits": ["Desayuno", "Leche", "Beber"]
+  },
+  {
+    "id": "beso",
+    "mot": "Beso",
+    "interdits": ["Labios", "Saludar", "Amor"]
+  },
+  {
+    "id": "calvo",
+    "mot": "Calvo",
+    "interdits": ["Cabeza", "Pelo", "Peinar"]
+  },
+  {
+    "id": "fotografia",
+    "mot": "Fotografia",
+    "interdits": ["Camara", "Imagen", "Vacaciones"]
+  },
+  {
+    "id": "camarero",
+    "mot": "Camarero",
+    "interdits": ["Bar", "Trabajar", "Restaurante"]
+  },
+  {
+    "id": "jefe",
+    "mot": "Jefe",
+    "interdits": ["Trabajo", "Mandar", "Oficina"]
+  },
+  {
+    "id": "libro",
+    "mot": "Libro",
+    "interdits": ["Leer", "Escribir", "Clase"]
+  },
+  {
+    "id": "cuchara",
+    "mot": "Cuchara",
+    "interdits": ["Tenedor", "Sopa", "Comer"]
+  },
+  {
+    "id": "ventana",
+    "mot": "Ventana",
+    "interdits": ["Puerta", "Habitacion", "Luz"]
+  },
+  {
+    "id": "cara",
+    "mot": "Cara",
+    "interdits": ["Ojos", "Nariz", "Boca"]
+  },
+  {
+    "id": "levantarse",
+    "mot": "Levantarse",
+    "interdits": ["Cama", "Acostarse", "Manana"]
+  },
+  {
+    "id": "periodico",
+    "mot": "Periodico",
+    "interdits": ["Revista", "Noticia", "Informar"]
+  },
+  {
+    "id": "pescado",
+    "mot": "Pescado",
+    "interdits": ["Carne", "Comer", "Mar"]
   },
   {
     "id": "montana",
-    "mot": "Montaña",
-    "interdits": ["Alto", "Nieve", "Escalar", "Pico"]
+    "mot": "Montana",
+    "interdits": ["Nieve", "Subir", "Campo"]
   },
   {
-    "id": "mochila",
-    "mot": "Mochila",
-    "interdits": ["Viaje", "Equipaje", "Cargar", "Espalda"]
+    "id": "arbol",
+    "mot": "Arbol",
+    "interdits": ["Hojas", "Tronco", "Bosque"]
   },
   {
-    "id": "volcan",
-    "mot": "Volcán",
-    "interdits": ["Lava", "Erupción", "Montaña", "Fuego"]
+    "id": "avion",
+    "mot": "Avion",
+    "interdits": ["Volar", "Aeropuerto", "Billete"]
   },
   {
-    "id": "selva",
-    "mot": "Selva",
-    "interdits": ["Árboles", "Amazonas", "Jungla", "Verde"]
+    "id": "peligro",
+    "mot": "Peligro",
+    "interdits": ["Miedo", "Vida", "Muerte"]
+  },
+  {
+    "id": "pulmon",
+    "mot": "Pulmon",
+    "interdits": ["Respirar", "Aire", "Fumar"]
+  },
+  {
+    "id": "factura",
+    "mot": "Factura",
+    "interdits": ["Telefono", "Comprar", "Pagar"]
+  },
+  {
+    "id": "freno",
+    "mot": "Freno",
+    "interdits": ["Coche", "Parar", "Mano"]
+  },
+  {
+    "id": "traductor",
+    "mot": "Traductor",
+    "interdits": ["Lenguas", "Escribir", "Idiomas"]
+  },
+  {
+    "id": "sombrero",
+    "mot": "Sombrero",
+    "interdits": ["Cabeza", "Gorro", "Llevar"]
+  },
+  {
+    "id": "llamar",
+    "mot": "Llamar",
+    "interdits": ["Nombre", "Telefono", "Movil"]
+  },
+  {
+    "id": "viaje",
+    "mot": "Viaje",
+    "interdits": ["Vacaciones", "Agencia", "Ir"]
+  },
+  {
+    "id": "pez",
+    "mot": "Pez",
+    "interdits": ["Animal", "Agua", "Pescar"]
+  },
+  {
+    "id": "piscina",
+    "mot": "Piscina",
+    "interdits": ["Nadar", "Agua", "Verano"]
+  },
+  {
+    "id": "centimo",
+    "mot": "Centimo",
+    "interdits": ["Moneda", "Euro", "Precio"]
+  },
+  {
+    "id": "piloto",
+    "mot": "Piloto",
+    "interdits": ["Avion", "Volar", "Aeropuerto"]
+  },
+  {
+    "id": "pelicula",
+    "mot": "Pelicula",
+    "interdits": ["Cine", "Dvd", "Television"]
+  },
+  {
+    "id": "estacion",
+    "mot": "Estacion",
+    "interdits": ["Metro", "Autobus", "Tren"]
+  },
+  {
+    "id": "cuenta",
+    "mot": "Cuenta",
+    "interdits": ["Pedir", "Banco", "Dinero"]
+  },
+  {
+    "id": "tomate",
+    "mot": "Tomate",
+    "interdits": ["Ensalada", "Rojo", "Comida"]
+  },
+  {
+    "id": "rueda",
+    "mot": "Rueda",
+    "interdits": ["Coche", "Bicicleta", "Circulo"]
+  },
+  {
+    "id": "guerra",
+    "mot": "Guerra",
+    "interdits": ["Paz", "Ejercito", "Mundo"]
+  },
+  {
+    "id": "mapa",
+    "mot": "Mapa",
+    "interdits": ["Pais", "Ciudad", "Mirar"]
+  },
+  {
+    "id": "timido",
+    "mot": "Timido",
+    "interdits": ["Hablar", "Gente", "Sociable"]
+  },
+  {
+    "id": "diccionario",
+    "mot": "Diccionario",
+    "interdits": ["Libro", "Palabra", "Significar"]
+  },
+  {
+    "id": "discoteca",
+    "mot": "Discoteca",
+    "interdits": ["Musica", "Bailar", "Fiesta"]
+  },
+  {
+    "id": "veterinario",
+    "mot": "Veterinario",
+    "interdits": ["Medico", "Animal", "Curar"]
+  },
+  {
+    "id": "disfraz",
+    "mot": "Disfraz",
+    "interdits": ["Fiesta", "Carnaval", "Vestido"]
+  },
+  {
+    "id": "autobus",
+    "mot": "Autobus",
+    "interdits": ["Viaje", "Billete", "Estacion"]
+  },
+  {
+    "id": "ordenador",
+    "mot": "Ordenador",
+    "interdits": ["Informatica", "Pantalla", "Raton"]
+  },
+  {
+    "id": "ejercito",
+    "mot": "Ejercito",
+    "interdits": ["Guerra", "Soldado", "Pais"]
+  },
+  {
+    "id": "cielo",
+    "mot": "Cielo",
+    "interdits": ["Estrella", "Sol", "Nube"]
+  },
+  {
+    "id": "estudiar",
+    "mot": "Estudiar",
+    "interdits": ["Libro", "Colegio", "Clase"]
+  },
+  {
+    "id": "banco",
+    "mot": "Banco",
+    "interdits": ["Parque", "Dinero", "Sentarse"]
+  },
+  {
+    "id": "limpiar",
+    "mot": "Limpiar",
+    "interdits": ["Polvo", "Casa", "Bano"]
+  },
+  {
+    "id": "barco",
+    "mot": "Barco",
+    "interdits": ["Mar", "Puero", "Viaje"]
+  },
+  {
+    "id": "regalo",
+    "mot": "Regalo",
+    "interdits": ["Cumpleanos", "Dar", "Flores"]
+  },
+  {
+    "id": "bailar",
+    "mot": "Bailar",
+    "interdits": ["Cantar", "Discoteca", "Musica"]
+  },
+  {
+    "id": "jardin",
+    "mot": "Jardin",
+    "interdits": ["Parque", "Hierba", "Arbol"]
+  },
+  {
+    "id": "carretera",
+    "mot": "Carretera",
+    "interdits": ["Viaje", "Coche", "Calle"]
+  },
+  {
+    "id": "desayunar",
+    "mot": "Desayunar",
+    "interdits": ["Manana", "Cafe", "Comer"]
+  },
+  {
+    "id": "soltero",
+    "mot": "Soltero",
+    "interdits": ["Casado", "Joven", "Boda"]
+  },
+  {
+    "id": "bebe",
+    "mot": "Bebe",
+    "interdits": ["Madre", "Pequeno", "Cuidar"]
+  },
+  {
+    "id": "corbata",
+    "mot": "Corbata",
+    "interdits": ["Cuello", "Hombre", "Traje"]
+  },
+  {
+    "id": "jabon",
+    "mot": "Jabon",
+    "interdits": ["Agua", "Lavarse", "Manos"]
+  },
+  {
+    "id": "cansado",
+    "mot": "Cansado",
+    "interdits": ["Trabajo", "Cama", "Deporte"]
+  },
+  {
+    "id": "litro",
+    "mot": "Litro",
+    "interdits": ["Medida", "Botella", "Kilo"]
+  },
+  {
+    "id": "queso",
+    "mot": "Queso",
+    "interdits": ["Comer", "Cortar", "Leche"]
+  },
+  {
+    "id": "doler",
+    "mot": "Doler",
+    "interdits": ["Medico", "Hospital", "Cabeza"]
+  },
+  {
+    "id": "espejo",
+    "mot": "Espejo",
+    "interdits": ["Mirarse", "Bano", "Peinarse"]
+  },
+  {
+    "id": "microscopio",
+    "mot": "Microscopio",
+    "interdits": ["Ciencia", "Investigacion", "Pequeno"]
+  },
+  {
+    "id": "quemarse",
+    "mot": "Quemarse",
+    "interdits": ["Incendio", "Fuego", "Cocinar"]
+  },
+  {
+    "id": "emigrante",
+    "mot": "Emigrante",
+    "interdits": ["Pais", "Viajar", "Trabajo"]
+  },
+  {
+    "id": "tunel",
+    "mot": "Tunel",
+    "interdits": ["Montana", "Oscuro", "Metro"]
+  },
+  {
+    "id": "navidad",
+    "mot": "Navidad",
+    "interdits": ["Diciembre", "Papa noel", "Christ"]
+  },
+  {
+    "id": "pizza",
+    "mot": "Pizza",
+    "interdits": ["Comida", "Queso", "Tomato"]
+  },
+  {
+    "id": "sueno",
+    "mot": "Sueno",
+    "interdits": ["Pesadilla", "Dormir", "Noche"]
+  },
+  {
+    "id": "pastel",
+    "mot": "Pastel",
+    "interdits": ["Chocolate", "Postre", "Comer"]
+  },
+  {
+    "id": "lapiz",
+    "mot": "Lapiz",
+    "interdits": ["Dibujar", "Escribir", "Papel"]
+  },
+  {
+    "id": "museo",
+    "mot": "Museo",
+    "interdits": ["Arte", "Cuadros", "Exhibiciones"]
+  },
+  {
+    "id": "masaje",
+    "mot": "Masaje",
+    "interdits": ["Spa", "Cuerto", "Relajar"]
+  },
+  {
+    "id": "ladron",
+    "mot": "Ladron",
+    "interdits": ["Robar", "Delito", "Criminal"]
+  },
+  {
+    "id": "wagon",
+    "mot": "Wagon",
+    "interdits": ["Tren", "Locomotora", "Estacion"]
+  },
+  {
+    "id": "pollo",
+    "mot": "Pollo",
+    "interdits": ["Gallina", "Huevo", "Alas"]
+  },
+  {
+    "id": "queso_2",
+    "mot": "Queso",
+    "interdits": ["Oveja", "Leche", "Cabra"]
+  },
+  {
+    "id": "berenjena",
+    "mot": "Berenjena",
+    "interdits": ["Morado", "Vegetal", "Rellena"]
+  },
+  {
+    "id": "helado",
+    "mot": "Helado",
+    "interdits": ["Postre", "Sabor", "Frio"]
+  },
+  {
+    "id": "mono",
+    "mot": "Mono",
+    "interdits": ["Banana", "Arbol", "Agil"]
+  },
+  {
+    "id": "abeja",
+    "mot": "Abeja",
+    "interdits": ["Insecto", "Flor", "Miel"]
+  },
+  {
+    "id": "rosa",
+    "mot": "Rosa",
+    "interdits": ["Flor", "Rojo", "Espinas"]
+  },
+  {
+    "id": "manzana",
+    "mot": "Manzana",
+    "interdits": ["Fruta", "Verde", "Rojo"]
+  },
+  {
+    "id": "dientes",
+    "mot": "Dientes",
+    "interdits": ["Blanco", "Comer", "Boca"]
+  },
+  {
+    "id": "zorro",
+    "mot": "Zorro",
+    "interdits": ["Animal", "Bosque", "Salvaje"]
+  },
+  {
+    "id": "flor",
+    "mot": "Flor",
+    "interdits": ["Primavera", "Colores", "Planta"]
+  },
+  {
+    "id": "electricidad",
+    "mot": "Electricidad",
+    "interdits": ["Luz", "Corriente", "Energia"]
+  },
+  {
+    "id": "colectivo",
+    "mot": "Colectivo",
+    "interdits": ["Bus", "Transporte", "Ciudad"]
+  },
+  {
+    "id": "cuy",
+    "mot": "Cuy",
+    "interdits": ["Animal", "Comer", "Peru"]
+  },
+  {
+    "id": "mate",
+    "mot": "Mate",
+    "interdits": ["Infusion", "Caliente", "Beber"]
+  },
+  {
+    "id": "pisco",
+    "mot": "Pisco",
+    "interdits": ["Alcohol", "Sour", "Beber"]
+  },
+  {
+    "id": "ceviche",
+    "mot": "Ceviche",
+    "interdits": ["Pescado", "Limon", "Comida"]
+  },
+  {
+    "id": "condor",
+    "mot": "Condor",
+    "interdits": ["Ave", "Volar", "Animal"]
+  },
+  {
+    "id": "machu_picchu",
+    "mot": "Machu Picchu",
+    "interdits": ["Ruinas", "Inca", "Cusco"]
+  },
+  {
+    "id": "lago_titicaca",
+    "mot": "Lago titicaca",
+    "interdits": ["Lago", "Bolivia", "Peru"]
+  },
+  {
+    "id": "lima",
+    "mot": "Lima",
+    "interdits": ["Ciudad", "Peru", "Capital"]
+  },
+  {
+    "id": "galapagos",
+    "mot": "Galapagos",
+    "interdits": ["Islas", "Ecuador", "Darwin"]
+  },
+  {
+    "id": "puma",
+    "mot": "Puma",
+    "interdits": ["Felino", "Animal", "Gato"]
   },
   {
     "id": "desierto",
     "mot": "Desierto",
-    "interdits": ["Arena", "Seco", "Calor", "Cactus"]
+    "interdits": ["Arena", "Calor", "Seco"]
   },
   {
-    "id": "llama",
-    "mot": "Llama",
-    "interdits": ["Animal", "Andes", "Lana", "Perú"]
+    "id": "moai",
+    "mot": "Moai",
+    "interdits": ["Piedra", "Estatua", "Pascua"]
   },
   {
-    "id": "aeropuerto",
-    "mot": "Aeropuerto",
-    "interdits": ["Avión", "Vuelo", "Viaje", "Maleta"]
+    "id": "chicha",
+    "mot": "Chicha",
+    "interdits": ["Mais", "Bebida", "Peru"]
+  },
+  {
+    "id": "flamenco",
+    "mot": "Flamenco",
+    "interdits": ["Rosado", "Ave", "Lago"]
+  },
+  {
+    "id": "uyuni",
+    "mot": "Uyuni",
+    "interdits": ["Salar", "Bolivia", "Blanco"]
+  },
+  {
+    "id": "ushuaia",
+    "mot": "Ushuaia",
+    "interdits": ["Fin del mundo", "Ciudad", "Argentina"]
+  },
+  {
+    "id": "amazonia",
+    "mot": "Amazonia",
+    "interdits": ["Arboles", "Bosque", "Verde"]
+  },
+  {
+    "id": "mapa_2",
+    "mot": "Mapa",
+    "interdits": ["Ciudad", "Orientar", "Ruta"]
+  },
+  {
+    "id": "escalera",
+    "mot": "Escalera",
+    "interdits": ["Subir", "Bajar", "Pie"]
+  },
+  {
+    "id": "frontera",
+    "mot": "Frontera",
+    "interdits": ["Pais", "Control", "Pasaporte"]
+  },
+  {
+    "id": "firma",
+    "mot": "Firma",
+    "interdits": ["Escribir", "Papel", "Documento"]
+  },
+  {
+    "id": "semaforo",
+    "mot": "Semaforo",
+    "interdits": ["Auto", "Verde", "Rojo"]
+  },
+  {
+    "id": "gazolina",
+    "mot": "Gazolina",
+    "interdits": ["Auto", "Combustible", "Deposito"]
+  },
+  {
+    "id": "alquiler",
+    "mot": "Alquiler",
+    "interdits": ["Pagar", "Tiempo", "Auto"]
+  },
+  {
+    "id": "tarjeta",
+    "mot": "Tarjeta",
+    "interdits": ["Credito", "Debito", "Pagar"]
+  },
+  {
+    "id": "precio",
+    "mot": "Precio",
+    "interdits": ["Pagar", "Dinero", "Cuanto"]
+  },
+  {
+    "id": "policia",
+    "mot": "Policia",
+    "interdits": ["Seguridad", "Ayuda", "Uniforme"]
+  },
+  {
+    "id": "ayuda",
+    "mot": "Ayuda",
+    "interdits": ["Pedir", "Favor", "Necesitar"]
+  },
+  {
+    "id": "buscar",
+    "mot": "Buscar",
+    "interdits": ["Donde", "Ver", "Encontrar"]
+  },
+  {
+    "id": "casa",
+    "mot": "Casa",
+    "interdits": ["Vivir", "Familia", "Domicilio"]
+  },
+  {
+    "id": "parque",
+    "mot": "Parque",
+    "interdits": ["Arbol", "Verde", "Caminar"]
+  },
+  {
+    "id": "farmacia",
+    "mot": "Farmacia",
+    "interdits": ["Comprar", "Enfermo", "Medicamento"]
+  },
+  {
+    "id": "sangre",
+    "mot": "Sangre",
+    "interdits": ["Rojo", "Herida", "Venas"]
+  },
+  {
+    "id": "cepillo_de_dientes",
+    "mot": "Cepillo de dientes",
+    "interdits": ["Dientes", "Boca", "Lavar"]
+  },
+  {
+    "id": "peine",
+    "mot": "Peine",
+    "interdits": ["Cabeza", "Pelo", "Arreglar"]
+  },
+  {
+    "id": "desodorante",
+    "mot": "Desodorante",
+    "interdits": ["Olor", "Ducha", "Usar"]
+  },
+  {
+    "id": "gafas",
+    "mot": "Gafas",
+    "interdits": ["Ojos", "Ver", "Mirar"]
+  },
+  {
+    "id": "ropa",
+    "mot": "Ropa",
+    "interdits": ["Pantalon", "Camiseta", "Vestir"]
+  },
+  {
+    "id": "restaurante",
+    "mot": "Restaurante",
+    "interdits": ["Comer", "Mesas", "Bar"]
+  },
+  {
+    "id": "silla",
+    "mot": "Silla",
+    "interdits": ["Sentarse", "Mesa", "Mueble"]
+  },
+  {
+    "id": "plato",
+    "mot": "Plato",
+    "interdits": ["Comida", "Servir", "Mesa"]
+  },
+  {
+    "id": "taza",
+    "mot": "Taza",
+    "interdits": ["Cafe", "Te", "Bebida"]
+  },
+  {
+    "id": "sal",
+    "mot": "Sal",
+    "interdits": ["Blanco", "Comida", "Poner"]
+  },
+  {
+    "id": "arroz",
+    "mot": "Arroz",
+    "interdits": ["Comida", "Blanco", "Pasta"]
+  },
+  {
+    "id": "banana",
+    "mot": "Banana",
+    "interdits": ["Fruta", "Amarillo", "Comida"]
+  },
+  {
+    "id": "mosquito",
+    "mot": "Mosquito",
+    "interdits": ["Insecto", "Picadura", "Noche"]
+  },
+  {
+    "id": "tenis",
+    "mot": "Tenis",
+    "interdits": ["Deporte", "Pelota", "Raqueta"]
+  },
+  {
+    "id": "angel",
+    "mot": "Angel",
+    "interdits": ["Diablo", "Paraíso", "Alas"]
+  },
+  {
+    "id": "pais",
+    "mot": "País",
+    "interdits": ["Estado", "Nación", "Frontera"]
+  },
+  {
+    "id": "dia",
+    "mot": "Dia",
+    "interdits": ["Noche", "Semana", "Horas"]
+  },
+  {
+    "id": "polvo",
+    "mot": "Polvo",
+    "interdits": ["Limpio", "Sucio", "Tierra"]
+  },
+  {
+    "id": "arena",
+    "mot": "Arena",
+    "interdits": ["Playa", "Mar", "Reloj"]
+  },
+  {
+    "id": "luna",
+    "mot": "Luna",
+    "interdits": ["Noche", "Sol", "Estrellas"]
+  },
+  {
+    "id": "cicatriz",
+    "mot": "Cicatriz",
+    "interdits": ["Marca", "Herida", "Piel"]
+  },
+  {
+    "id": "huella",
+    "mot": "Huella",
+    "interdits": ["Digital", "Mano", "Pie"]
+  },
+  {
+    "id": "animal",
+    "mot": "Animal",
+    "interdits": ["Vivo", "Salvaje", "Domestico"]
+  },
+  {
+    "id": "inocente",
+    "mot": "Inocente",
+    "interdits": ["Culpable", "Niño", "Ingenuo"]
+  },
+  {
+    "id": "alarma",
+    "mot": "Alarma",
+    "interdits": ["Robo", "Casa", "Banco"]
+  },
+  {
+    "id": "maraton",
+    "mot": "Maratón",
+    "interdits": ["Carrera", "Kilómetros", "Grecia"]
+  },
+  {
+    "id": "poker",
+    "mot": "Poker",
+    "interdits": ["Juego", "Cartas", "Dinero"]
+  },
+  {
+    "id": "mochila",
+    "mot": "Mochila",
+    "interdits": ["Bolso", "Hombro", "Llevar"]
+  },
+  {
+    "id": "whisky",
+    "mot": "Whisky",
+    "interdits": ["Alcohol", "Licor", "Bebida"]
+  },
+  {
+    "id": "mariposa",
+    "mot": "Mariposa",
+    "interdits": ["Volar", "Larva", "Insecto"]
+  },
+  {
+    "id": "bruja",
+    "mot": "Bruja",
+    "interdits": ["Escoba", "Mercado", "Magia"]
+  },
+  {
+    "id": "antena",
+    "mot": "Antena",
+    "interdits": ["Radio", "Captar", "Televisión"]
+  },
+  {
+    "id": "cliente",
+    "mot": "Cliente",
+    "interdits": ["Vendedor", "Comprar", "Pagar"]
+  },
+  {
+    "id": "samurai",
+    "mot": "Samurái",
+    "interdits": ["Soldado", "Espada", "Japon"]
+  },
+  {
+    "id": "dracula",
+    "mot": "Dracula",
+    "interdits": ["Sangre", "Vampiro", "Transilvania"]
+  },
+  {
+    "id": "pirata",
+    "mot": "Pirata",
+    "interdits": ["Mar", "Barcos", "Abordaje"]
+  },
+  {
+    "id": "ayer",
+    "mot": "Ayer",
+    "interdits": ["Mañana", "Dia", "Antes"]
+  },
+  {
+    "id": "nariz",
+    "mot": "Nariz",
+    "interdits": ["Sentir", "Ojos", "Cara"]
+  },
+  {
+    "id": "pata",
+    "mot": "Pata",
+    "interdits": ["Animal", "Pierna", "Cuatro"]
+  },
+  {
+    "id": "hombro",
+    "mot": "Hombro",
+    "interdits": ["Cuerpo", "Espalda", "Brazo"]
+  },
+  {
+    "id": "cocodrilo",
+    "mot": "Cocodrilo",
+    "interdits": ["Rio", "Dientes", "Animal"]
+  },
+  {
+    "id": "profesor",
+    "mot": "Profesor",
+    "interdits": ["Ensenar", "Universidad", "Estudiante"]
+  },
+  {
+    "id": "dinosaurio",
+    "mot": "Dinosaurio",
+    "interdits": ["Grande", "Prehistórico", "Huellas"]
+  },
+  {
+    "id": "puerta",
+    "mot": "Puerta",
+    "interdits": ["Entrada", "Casa", "Llave"]
+  },
+  {
+    "id": "chocolate",
+    "mot": "Chocolate",
+    "interdits": ["Cacao", "Dulce", "Comer"]
+  },
+  {
+    "id": "pirana",
+    "mot": "Piraña",
+    "interdits": ["Diente", "Pez", "Rio"]
+  },
+  {
+    "id": "tarde",
+    "mot": "Tarde",
+    "interdits": ["Mañana", "Horas", "Siesta"]
+  },
+  {
+    "id": "loteria",
+    "mot": "Lotería",
+    "interdits": ["Juego", "Billete", "Números"]
+  },
+  {
+    "id": "tatuaje",
+    "mot": "Tatuaje",
+    "interdits": ["Cuerpo", "Dibujo", "Piel"]
+  },
+  {
+    "id": "salmon",
+    "mot": "Salmon",
+    "interdits": ["Rio", "Rosado", "Pez"]
+  },
+  {
+    "id": "ensalada",
+    "mot": "Ensalada",
+    "interdits": ["Comida", "Fría", "Tomate"]
+  },
+  {
+    "id": "horno",
+    "mot": "Horno",
+    "interdits": ["Microondas", "Comida", "Cocina"]
+  },
+  {
+    "id": "fumar",
+    "mot": "Fumar",
+    "interdits": ["Tabaco", "Humo", "Cigarrillo"]
+  },
+  {
+    "id": "mentira",
+    "mot": "Mentira",
+    "interdits": ["Falso", "Verdad", "Engaño"]
+  },
+  {
+    "id": "pila",
+    "mot": "Pila",
+    "interdits": ["Energía", "Batería", "Luz"]
+  },
+  {
+    "id": "reina",
+    "mot": "Reina",
+    "interdits": ["Mujer", "Corona", "Monarquia"]
+  },
+  {
+    "id": "guillotina",
+    "mot": "Guillotina",
+    "interdits": ["Cortar", "Cabeza", "Francia"]
+  },
+  {
+    "id": "amanecer",
+    "mot": "Amanecer",
+    "interdits": ["Dia", "Noche", "Sol"]
+  },
+  {
+    "id": "hueso",
+    "mot": "Hueso",
+    "interdits": ["Esqueleto", "Romper", "Cuerpo"]
+  },
+  {
+    "id": "aceite",
+    "mot": "Aceite",
+    "interdits": ["Ensalada", "Oliva", "Vinagre"]
+  },
+  {
+    "id": "igloo",
+    "mot": "Igloo",
+    "interdits": ["Casa", "Hielo", "Nieve"]
+  },
+  {
+    "id": "pulpo",
+    "mot": "Pulpo",
+    "interdits": ["Tentáculos", "Tinta", "Océano"]
+  },
+  {
+    "id": "piano",
+    "mot": "Piano",
+    "interdits": ["Instrumento", "Música", "Manos"]
+  },
+  {
+    "id": "torre_eiffel",
+    "mot": "Torre Eiffel",
+    "interdits": ["París", "Francia", "Gustave"]
+  },
+  {
+    "id": "unicornio",
+    "mot": "Unicornio",
+    "interdits": ["Animal", "Caballo", "Cuerno"]
+  },
+  {
+    "id": "ventrilocuo",
+    "mot": "Ventrílocuo",
+    "interdits": ["Muñeco", "Boca", "Hablar"]
+  },
+  {
+    "id": "espada",
+    "mot": "Espada",
+    "interdits": ["Acero", "Arma", "Cuchillo"]
+  },
+  {
+    "id": "conejo",
+    "mot": "Conejo",
+    "interdits": ["Animal", "Orejas", "Bugs Bunny"]
+  },
+  {
+    "id": "arana",
+    "mot": "Araña",
+    "interdits": ["Insecto", "Tarántula", "Tela"]
+  },
+  {
+    "id": "einstein",
+    "mot": "Einstein",
+    "interdits": ["Relatividad", "Físico", "Científico"]
+  },
+  {
+    "id": "trofeo",
+    "mot": "Trofeo",
+    "interdits": ["Carrera", "Ganar", "Premio"]
+  },
+  {
+    "id": "sherlock_holmes",
+    "mot": "Sherlock Holmes",
+    "interdits": ["Watson", "Detective", "Ingles"]
+  },
+  {
+    "id": "lengua",
+    "mot": "Lengua",
+    "interdits": ["Boca", "Idioma", "Hablar"]
+  },
+  {
+    "id": "poema",
+    "mot": "Poema",
+    "interdits": ["Escribir", "Rima", "Verso"]
+  },
+  {
+    "id": "estadio",
+    "mot": "Estadio",
+    "interdits": ["Deporte", "Futbal", "Espectador"]
+  },
+  {
+    "id": "iceberg",
+    "mot": "Iceberg",
+    "interdits": ["Titanic", "Hielo", "Flotante"]
+  },
+  {
+    "id": "vela",
+    "mot": "Vela",
+    "interdits": ["Luz", "Cera", "Cumpleaños"]
+  },
+  {
+    "id": "oro",
+    "mot": "Oro",
+    "interdits": ["Dientes", "Metal", "Anillo"]
+  },
+  {
+    "id": "adolescente",
+    "mot": "Adolescente",
+    "interdits": ["Adulto", "Chico", "Pubertad"]
+  },
+  {
+    "id": "secreto",
+    "mot": "Secreto",
+    "interdits": ["Decir", "Saber", "Confidencial"]
+  },
+  {
+    "id": "llave",
+    "mot": "Llave",
+    "interdits": ["Puerta", "Cerrar", "Abrir"]
+  },
+  {
+    "id": "alpinista",
+    "mot": "Alpinista",
+    "interdits": ["Escalar", "Montanas", "Cuerda"]
+  },
+  {
+    "id": "fantasma",
+    "mot": "Fantasma",
+    "interdits": ["Asustar", "Blanco", "Halloween"]
+  },
+  {
+    "id": "tijeras",
+    "mot": "Tijeras",
+    "interdits": ["Papel", "Recortar", "Metal"]
+  },
+  {
+    "id": "mickey",
+    "mot": "Mickey",
+    "interdits": ["Walt Disney", "Minnie", "Pluto"]
+  },
+  {
+    "id": "aplauso",
+    "mot": "Aplauso",
+    "interdits": ["Manos", "Espectaculo", "Golpear"]
+  },
+  {
+    "id": "dibujar",
+    "mot": "Dibujar",
+    "interdits": ["Papel", "Arte", "Manos"]
+  },
+  {
+    "id": "pintar",
+    "mot": "Pintar",
+    "interdits": ["Color", "Arte", "Cuadro"]
+  },
+  {
+    "id": "llorar",
+    "mot": "Llorar",
+    "interdits": ["Lagrimas", "Triste", "Ojos"]
+  },
+  {
+    "id": "gritar",
+    "mot": "Gritar",
+    "interdits": ["Voz", "Fuerte", "Boca"]
+  },
+  {
+    "id": "destruir",
+    "mot": "Destruir",
+    "interdits": ["Casa", "Edificio", "Romper"]
+  },
+  {
+    "id": "tropico",
+    "mot": "Tropico",
+    "interdits": ["Calor", "Linea", "Ecuador"]
+  },
+  {
+    "id": "asado",
+    "mot": "Asado",
+    "interdits": ["Carne", "Fuego", "Argentina"]
+  },
+  {
+    "id": "valle",
+    "mot": "Valle",
+    "interdits": ["Montanas", "Tierra", "Bajo"]
+  },
+  {
+    "id": "glaciar",
+    "mot": "Glaciar",
+    "interdits": ["Hielo", "Montana", "Patagonia"]
+  },
+  {
+    "id": "volcan",
+    "mot": "Volcan",
+    "interdits": ["Montana", "Lava", "Erupcion"]
+  },
+  {
+    "id": "cactus",
+    "mot": "Cactus",
+    "interdits": ["Desierto", "Espinas", "Planta"]
+  },
+  {
+    "id": "tucan",
+    "mot": "Tucan",
+    "interdits": ["Ave", "Pico", "Colores"]
+  },
+  {
+    "id": "incas",
+    "mot": "Incas",
+    "interdits": ["Peru", "Imperio", "Andes"]
+  },
+  {
+    "id": "quechua",
+    "mot": "Quechua",
+    "interdits": ["Idioma", "Peru", "Andes"]
+  },
+  {
+    "id": "simon_bolivar",
+    "mot": "Simon Bolivar",
+    "interdits": ["Independencia", "Venezuela", "Líder"]
+  },
+  {
+    "id": "carnaval",
+    "mot": "Carnaval",
+    "interdits": ["Fiesta", "Brasil", "Rio"]
+  },
+  {
+    "id": "tango",
+    "mot": "Tango",
+    "interdits": ["Baile", "Música", "Argentina"]
+  },
+  {
+    "id": "charango",
+    "mot": "Charango",
+    "interdits": ["Instrumento", "Música", "Cuerdas"]
+  },
+  {
+    "id": "hostal",
+    "mot": "Hostal",
+    "interdits": ["Dormir", "Viaje", "Barato"]
+  },
+  {
+    "id": "camping",
+    "mot": "Camping",
+    "interdits": ["Dormir", "Tienda", "Naturaleza"]
+  },
+  {
+    "id": "sendero",
+    "mot": "Sendero",
+    "interdits": ["Caminar", "Montana", "Naturaleza"]
+  },
+  {
+    "id": "excursion",
+    "mot": "Excursión",
+    "interdits": ["Grupo", "Viaje", "Agencia"]
+  },
+  {
+    "id": "ferry",
+    "mot": "Ferry",
+    "interdits": ["Barco", "Transporte", "Cruzar"]
+  },
+  {
+    "id": "peaje",
+    "mot": "Peaje",
+    "interdits": ["Carreterra", "Pagar", "Dinero"]
+  },
+  {
+    "id": "kilometro",
+    "mot": "Kilometro",
+    "interdits": ["Distancia", "Medida", "Coche"]
+  },
+  {
+    "id": "aventura",
+    "mot": "Aventura",
+    "interdits": ["Viaje", "Explorar", "Riesgo"]
+  },
+  {
+    "id": "puzzle",
+    "mot": "Puzzle",
+    "interdits": ["Piezas", "Juego"]
+  },
+  {
+    "id": "instagram",
+    "mot": "Instagram",
+    "interdits": ["Fotos", "Stories", "Filtros"]
+  },
+  {
+    "id": "equitacion",
+    "mot": "Equitación",
+    "interdits": ["Deporte", "Caballo", "Montar"]
+  },
+  {
+    "id": "zumo",
+    "mot": "Zumo",
+    "interdits": ["Fruta", "Bebida", "Exprimir"]
+  },
+  {
+    "id": "moto",
+    "mot": "Moto",
+    "interdits": ["Vehiculo", "Ruedas", "Carreterra"]
+  },
+  {
+    "id": "basebol",
+    "mot": "Basebol",
+    "interdits": ["Deporte", "Bate", "Pelota"]
+  },
+  {
+    "id": "tren",
+    "mot": "Tren",
+    "interdits": ["Vagon", "Estación", "Viajar"]
+  },
+  {
+    "id": "refugio",
+    "mot": "Refugio",
+    "interdits": ["Montana", "Dormir", "Protección"]
+  },
+  {
+    "id": "trail",
+    "mot": "Trail",
+    "interdits": ["Camina", "Montana", "Correr"]
+  },
+  {
+    "id": "altitud",
+    "mot": "Altitud",
+    "interdits": ["Altura", "Metros", "Montana"]
+  },
+  {
+    "id": "cascada",
+    "mot": "Cascada",
+    "interdits": ["Agua", "Caer", "Rio"]
+  },
+  {
+    "id": "canon",
+    "mot": "Cañón",
+    "interdits": ["Roca", "Rio", "Profundo"]
+  },
+  {
+    "id": "avalancha",
+    "mot": "Avalancha",
+    "interdits": ["Nieva", "Montana", "Caer"]
+  },
+  {
+    "id": "faro",
+    "mot": "Faro",
+    "interdits": ["Mar", "Luz", "Costa"]
+  },
+  {
+    "id": "oasis",
+    "mot": "Oasis",
+    "interdits": ["Desierto", "Agua", "Palmeras"]
+  },
+  {
+    "id": "cueva",
+    "mot": "Cueva",
+    "interdits": ["Roca", "Oscuro", "Explorar"]
+  },
+  {
+    "id": "himalayas",
+    "mot": "Himalayas",
+    "interdits": ["Montanas", "Everest", "Asia"]
+  },
+  {
+    "id": "sahara",
+    "mot": "Sahara",
+    "interdits": ["Desierto", "Arena", "Africa"]
+  },
+  {
+    "id": "kilimandjaro",
+    "mot": "Kilimandjaro",
+    "interdits": ["Montana", "Africa", "Subir"]
+  },
+  {
+    "id": "yellowstone",
+    "mot": "Yellowstone",
+    "interdits": ["Parque", "Estados Unidos", "Geiser"]
+  },
+  {
+    "id": "islandia",
+    "mot": "Islandia",
+    "interdits": ["País", "Europa", "Norte"]
+  },
+  {
+    "id": "pasaporte",
+    "mot": "Pasaporte",
+    "interdits": ["Viajar", "Frontera", "Documento"]
+  },
+  {
+    "id": "retraso",
+    "mot": "Retraso",
+    "interdits": ["Tarde", "Vuelo", "Esperar"]
+  },
+  {
+    "id": "turista",
+    "mot": "Turista",
+    "interdits": ["Viajar", "Cámara", "Visitar"]
+  },
+  {
+    "id": "propina",
+    "mot": "Propina",
+    "interdits": ["Dinero", "Servicio", "Restaurante"]
+  },
+  {
+    "id": "postal",
+    "mot": "Postal",
+    "interdits": ["Enviar", "Viaje", "Correo"]
+  },
+  {
+    "id": "sello",
+    "mot": "Sello",
+    "interdits": ["Correo", "Carta", "Enviar"]
+  },
+  {
+    "id": "jet_lag",
+    "mot": "Jet lag",
+    "interdits": ["Avión", "Cansado", "Dormir"]
+  },
+  {
+    "id": "turbulencia",
+    "mot": "Turbulencia",
+    "interdits": ["Avión", "Aire", "Miedo"]
+  },
+  {
+    "id": "panel_solar",
+    "mot": "Panel solar",
+    "interdits": ["Energía", "Sol", "Electricidad"]
+  },
+  {
+    "id": "repelente",
+    "mot": "Repelente",
+    "interdits": ["Mosquitos", "Piel", "Spray"]
+  },
+  {
+    "id": "filtro_de_agua",
+    "mot": "Filtro de agua",
+    "interdits": ["Limpiar", "Beber", "Viaje"]
+  },
+  {
+    "id": "autopista",
+    "mot": "Autopista",
+    "interdits": ["Carreterra", "Coche", "Rápido"]
+  },
+  {
+    "id": "bateria_externa",
+    "mot": "Batería externa",
+    "interdits": ["Cargar", "Teléfono", "Emergia"]
+  },
+  {
+    "id": "viento",
+    "mot": "Viento",
+    "interdits": ["Aire", "Mover", "Fuerte"]
+  },
+  {
+    "id": "aurora_boreal",
+    "mot": "Aurora boreal",
+    "interdits": ["Cielo", "Noche", "Colores"]
+  },
+  {
+    "id": "estrellas_fugaces",
+    "mot": "Estrellas fugaces",
+    "interdits": ["Cielo", "Noche", "Deseo"]
+  },
+  {
+    "id": "isla",
+    "mot": "Isla",
+    "interdits": ["Mar", "Tierra", "Océano"]
+  },
+  {
+    "id": "sherpa",
+    "mot": "Sherpa",
+    "interdits": ["Montana", "Guía", "Himalaya"]
+  },
+  {
+    "id": "tarzan",
+    "mot": "Tarzan",
+    "interdits": ["Jane", "Lianas", "Arboles"]
+  },
+  {
+    "id": "napoleon",
+    "mot": "Napoleon",
+    "interdits": ["Emperador", "Francia", "Historia"]
+  },
+  {
+    "id": "cleopatra",
+    "mot": "Cleopatra",
+    "interdits": ["Egipto", "Reina", "Faraón"]
+  },
+  {
+    "id": "julio_cesar",
+    "mot": "Julio Cesar",
+    "interdits": ["Roma", "Imperio", "Emperador"]
+  },
+  {
+    "id": "cristobal_colon",
+    "mot": "Cristobal Colon",
+    "interdits": ["Barco", "Descubrir", "America"]
+  },
+  {
+    "id": "nelson_mandela",
+    "mot": "Nelson Mandela",
+    "interdits": ["Sudafrica", "Líder", "Paz"]
+  },
+  {
+    "id": "darwin",
+    "mot": "Darwin",
+    "interdits": ["Galapagos", "Evolución", "Ciencia"]
+  },
+  {
+    "id": "marie_curie",
+    "mot": "Marie Curie",
+    "interdits": ["Radioactividad", "Física", "Premio"]
+  },
+  {
+    "id": "zeus",
+    "mot": "Zeus",
+    "interdits": ["Dios", "Grecia", "Olimpio"]
+  },
+  {
+    "id": "hercules",
+    "mot": "Hercules",
+    "interdits": ["Fuerza", "Héroe", "Grecia"]
+  },
+  {
+    "id": "fenix",
+    "mot": "Fenix",
+    "interdits": ["Ave", "Fuego", "Renacer"]
+  },
+  {
+    "id": "superman",
+    "mot": "Superman",
+    "interdits": ["Superhéroe", "Volar", "Capa"]
+  },
+  {
+    "id": "spider_man",
+    "mot": "Spider-man",
+    "interdits": ["Superhéroe", "Arana", "Tom Holland"]
+  },
+  {
+    "id": "frankenstein",
+    "mot": "Frankenstein",
+    "interdits": ["Monstruo", "Cientifico", "Creacion"]
+  },
+  {
+    "id": "king_kong",
+    "mot": "King Kong",
+    "interdits": ["Mono", "Ciudad", "Película"]
+  },
+  {
+    "id": "papa_noel",
+    "mot": "Papa Noel",
+    "interdits": ["Regalo", "Navidad", "Barba"]
+  },
+  {
+    "id": "shrek",
+    "mot": "Shrek",
+    "interdits": ["Ogro", "Película", "Verde"]
+  },
+  {
+    "id": "big_ben",
+    "mot": "Big Ben",
+    "interdits": ["Londres", "Torre", "Reloj"]
+  },
+  {
+    "id": "torre_de_pisa",
+    "mot": "Torre de Pisa",
+    "interdits": ["Italia", "Inclinada", "Piedra"]
+  },
+  {
+    "id": "muralla_china",
+    "mot": "Muralla China",
+    "interdits": ["Larga", "Piedra", "Espacio"]
+  },
+  {
+    "id": "stonehenge",
+    "mot": "Stonehenge",
+    "interdits": ["Inglaterra", "Piedras", "Circulo"]
+  },
+  {
+    "id": "times_square",
+    "mot": "Times Square",
+    "interdits": ["Nueva York", "Pantallas", "Luz"]
+  },
+  {
+    "id": "notre_dame",
+    "mot": "Notre Dame",
+    "interdits": ["Paris", "Inglesia", "Cathedral"]
+  },
+  {
+    "id": "casa_blanca",
+    "mot": "Casa Blanca",
+    "interdits": ["Estados Unidos", "Presidente", "Edificio"]
+  },
+  {
+    "id": "coca_cola",
+    "mot": "Coca Cola",
+    "interdits": ["Marca", "Bebida", "Refresca"]
+  },
+  {
+    "id": "mcdonald_s",
+    "mot": "McDonald’s",
+    "interdits": ["Hamburguesa", "Comida", "Rápida"]
+  },
+  {
+    "id": "google",
+    "mot": "Google",
+    "interdits": ["Buscar", "Internet", "Empresa"]
+  },
+  {
+    "id": "apple",
+    "mot": "Apple",
+    "interdits": ["Teléfono", "Empresa", "Manzana"]
+  },
+  {
+    "id": "internet",
+    "mot": "Internet",
+    "interdits": ["Red", "Conectar", "Mundial"]
+  },
+  {
+    "id": "bitcoin",
+    "mot": "Bitcoin",
+    "interdits": ["Dinero", "Digital", "Moneda"]
+  },
+  {
+    "id": "netflix",
+    "mot": "Netflix",
+    "interdits": ["Series", "Internet", "Ver"]
+  },
+  {
+    "id": "amazon",
+    "mot": "Amazon",
+    "interdits": ["Comprar", "Internet", "Entrega"]
+  },
+  {
+    "id": "lego",
+    "mot": "Lego",
+    "interdits": ["Piezas", "Construir", "Juguete"]
+  },
+  {
+    "id": "apolo_11",
+    "mot": "Apolo 11",
+    "interdits": ["Luna", "Espacio", "Misión"]
+  },
+  {
+    "id": "concorde",
+    "mot": "Concorde",
+    "interdits": ["Avión", "Supersónico", "Rápido"]
+  },
+  {
+    "id": "wikipedia",
+    "mot": "Wikipedia",
+    "interdits": ["Internet", "Buscar", "Enciclopedia"]
+  },
+  {
+    "id": "whatsapp",
+    "mot": "WhatsApp",
+    "interdits": ["Mensaje", "Teléfono", "Aplicación"]
+  },
+  {
+    "id": "michael_jordan",
+    "mot": "Michael Jordan",
+    "interdits": ["Baloncesto", "Estados Unidos", "Deporte"]
+  },
+  {
+    "id": "serena_williams",
+    "mot": "Serena Williams",
+    "interdits": ["Tennis", "Deporte", "Estados Unidos"]
+  },
+  {
+    "id": "christiano_ronaldo",
+    "mot": "Christiano Ronaldo",
+    "interdits": ["Futbol", "Portugal", "Deporte"]
+  },
+  {
+    "id": "usain_bolt",
+    "mot": "Usain Bolt",
+    "interdits": ["Rápido", "Jamaica", "Correr"]
+  },
+  {
+    "id": "michael_phelps",
+    "mot": "Michael Phelps",
+    "interdits": ["Nadar", "Deporte", "Piscina"]
+  },
+  {
+    "id": "roger_federer",
+    "mot": "Roger Federer",
+    "interdits": ["Tenis", "Deporte", "Suiza"]
+  },
+  {
+    "id": "lionel_messi",
+    "mot": "Lionel Messi",
+    "interdits": ["Fultbol", "Argentina", "Balón"]
+  },
+  {
+    "id": "cerveza",
+    "mot": "Cerveza",
+    "interdits": ["Bebida", "Alcohol", "Vaso"]
+  },
+  {
+    "id": "prueba",
+    "mot": "Prueba",
+    "interdits": ["Examen", "Demostrar", "Resultado"]
+  },
+  {
+    "id": "vino",
+    "mot": "Vino",
+    "interdits": ["Bebida", "Alcohol", "Botella"]
+  },
+  {
+    "id": "madera",
+    "mot": "Madera",
+    "interdits": ["Árbol", "Construir", "Mueble"]
+  },
+  {
+    "id": "pikachu",
+    "mot": "Pikachu",
+    "interdits": ["Pokémon", "Amarillo", "Eléctrico"]
+  },
+  {
+    "id": "avocado",
+    "mot": "Avocado",
+    "interdits": ["Verde", "Fruta", "Guacamole"]
+  },
+  {
+    "id": "burritos",
+    "mot": "Burritos",
+    "interdits": ["Comida", "México", "Tortilla"]
+  },
+  {
+    "id": "ascensor",
+    "mot": "Ascensor",
+    "interdits": ["Subir", "Edificio", "Piso"]
+  },
+  {
+    "id": "gasolinera",
+    "mot": "Gasolinera",
+    "interdits": ["Coche", "Combustible", "Carretera"]
+  },
+  {
+    "id": "patagonia",
+    "mot": "Patagonia",
+    "interdits": ["Argentina", "Chile", "Sur"]
+  },
+  {
+    "id": "tierra_del_fuego",
+    "mot": "Tierra del Fuego",
+    "interdits": ["Argentina", "Chile", "Isla"]
+  },
+  {
+    "id": "mendoza",
+    "mot": "Mendoza",
+    "interdits": ["Argentina", "Vino", "Ciudad"]
+  },
+  {
+    "id": "yoda",
+    "mot": "Yoda",
+    "interdits": ["Star Wars", "Verde", "Pequeño"]
+  },
+  {
+    "id": "frodo",
+    "mot": "Frodo",
+    "interdits": ["Anillo", "Película", "Hobbit"]
+  },
+  {
+    "id": "bob_esponja",
+    "mot": "Bob Esponja",
+    "interdits": ["Dibujo", "Mar", "Amarillo"]
+  },
+  {
+    "id": "mafalda",
+    "mot": "Mafalda",
+    "interdits": ["Cómic", "Argentina", "Niña", "Quino"]
+  },
+  {
+    "id": "condorito",
+    "mot": "Condorito",
+    "interdits": ["Cómic", "Chile", "Cóndor"]
+  },
+  {
+    "id": "leonardo_da_vinci",
+    "mot": "Leonardo da Vinci",
+    "interdits": ["Pintor", "Italia", "Inventor"]
+  },
+  {
+    "id": "robot",
+    "mot": "Robot",
+    "interdits": ["Máquina", "Metal", "Programar"]
+  },
+  {
+    "id": "scooby_doo",
+    "mot": "Scooby-Doo",
+    "interdits": ["Perro", "Dibujo", "Miedo"]
+  },
+  {
+    "id": "termometro",
+    "mot": "Termómetro",
+    "interdits": ["Temperatura", "Fiebre", "Grados"]
+  },
+  {
+    "id": "oso",
+    "mot": "Oso",
+    "interdits": ["Animal", "Miel", "Grande"]
+  },
+  {
+    "id": "dragon",
+    "mot": "Dragón",
+    "interdits": ["Fuego", "Alas", "Mito"]
+  },
+  {
+    "id": "presidente",
+    "mot": "Presidente",
+    "interdits": ["País", "Elección", "Líder"]
+  },
+  {
+    "id": "compas",
+    "mot": "Compás",
+    "interdits": ["Círculo", "Geometría", "Dibujar"]
+  },
+  {
+    "id": "yo_yo",
+    "mot": "Yo-yo",
+    "interdits": ["Juguete", "Cuerda", "Subir"]
+  },
+  {
+    "id": "dados",
+    "mot": "Dados",
+    "interdits": ["Juego", "Números", "Lanzar"]
+  },
+  {
+    "id": "nutella",
+    "mot": "Nutella",
+    "interdits": ["Chocolate", "Pan", "Avellana"]
+  },
+  {
+    "id": "alibi",
+    "mot": "Alibi",
+    "interdits": ["Policía", "Prueba", "Inocente"]
+  },
+  {
+    "id": "chantaje",
+    "mot": "Chantaje",
+    "interdits": ["Dinero", "Secreto", "Amenaza"]
+  },
+  {
+    "id": "gemelos",
+    "mot": "Gemelos",
+    "interdits": ["Hermanos", "Iguales", "Dos"]
+  },
+  {
+    "id": "virus",
+    "mot": "Virus",
+    "interdits": ["Enfermedad", "Contagio", "Infectar"]
+  },
+  {
+    "id": "codigo_morse",
+    "mot": "Código morse",
+    "interdits": ["Puntos", "Rayas", "Comunicar"]
+  },
+  {
+    "id": "ninja",
+    "mot": "Ninja",
+    "interdits": ["Japón", "Guerrero", "Negro"]
+  },
+  {
+    "id": "wall_street",
+    "mot": "Wall Street",
+    "interdits": ["Dinero", "Nueva York", "Finanzas"]
+  },
+  {
+    "id": "eurovision",
+    "mot": "Eurovisión",
+    "interdits": ["Canción", "Concurso", "Música"]
+  },
+  {
+    "id": "terraforming_mars",
+    "mot": "Terraforming Mars",
+    "interdits": ["Juego", "Planeta", "Mesa"]
+  },
+  {
+    "id": "podcast",
+    "mot": "Podcast",
+    "interdits": ["Audio", "Escuchar", "Episodio"]
+  },
+  {
+    "id": "emoji",
+    "mot": "Emoji",
+    "interdits": ["Teléfono", "Cara", "Mensaje"]
+  },
+  {
+    "id": "pluton",
+    "mot": "Pluton",
+    "interdits": ["Planeta", "Enano", "Espacio"]
+  },
+  {
+    "id": "tintin",
+    "mot": "Tintin",
+    "interdits": ["Comic", "Milu", "Reportero"]
+  },
+  {
+    "id": "garfield",
+    "mot": "Garfield",
+    "interdits": ["Gato", "Lasaña", "Perezoso"]
+  },
+  {
+    "id": "nemo",
+    "mot": "Nemo",
+    "interdits": ["Pez", "Disney", "Dori"]
+  },
+  {
+    "id": "kiwi",
+    "mot": "Kiwi",
+    "interdits": ["Nueva Zelanda", "Ave", "Fruta"]
+  },
+  {
+    "id": "libelula",
+    "mot": "Libélula",
+    "interdits": ["Insecto", "Alas", "Agua"]
+  },
+  {
+    "id": "holograma",
+    "mot": "Holograma",
+    "interdits": ["Imagen", "Luz", "3D"]
+  },
+  {
+    "id": "isla_de_pascua",
+    "mot": "Isla de Pascua",
+    "interdits": ["Chile", "Océano", "Moai"]
+  },
+  {
+    "id": "eclipse",
+    "mot": "Eclipse",
+    "interdits": ["Sol", "Luna", "Oscuro"]
+  },
+  {
+    "id": "ornitorrinco",
+    "mot": "Ornitorrinco",
+    "interdits": ["Australia", "Animal", "Huevos"]
+  },
+  {
+    "id": "extintor",
+    "mot": "Extintor",
+    "interdits": ["Fuego", "Rojo", "Apagar"]
+  },
+  {
+    "id": "teorema_de_pitagoras",
+    "mot": "Teorema de Pitágoras",
+    "interdits": ["Triángulo", "Matemáticas", "Hipotenusa"]
+  },
+  {
+    "id": "teorema_de_tales",
+    "mot": "Teorema de Tales",
+    "interdits": ["Triangulo", "Matemáticas", "Grecia"]
+  },
+  {
+    "id": "numero_pi",
+    "mot": "Numero Pi",
+    "interdits": ["Circulo", "Matemáticas", "3.14"]
+  },
+  {
+    "id": "efecto_mariposa",
+    "mot": "Efecto mariposa",
+    "interdits": ["Caos", "Pequenio", "Cambio"]
+  },
+  {
+    "id": "gato_de_schrodinger",
+    "mot": "Gato de Schrödinger",
+    "interdits": ["Caja", "Gato", "Física cuántica"]
+  },
+  {
+    "id": "chiloe",
+    "mot": "Chiloé",
+    "interdits": ["Chile", "Isla", "Iglesias"]
+  },
+  {
+    "id": "perito_moreno",
+    "mot": "Perito Moreno",
+    "interdits": ["Argentina", "Glaciar", "Patagonia"]
+  },
+  {
+    "id": "mar_muerto",
+    "mot": "Mar muerto",
+    "interdits": ["Sal", "Flotar", "Agua"]
+  },
+  {
+    "id": "lago_ness",
+    "mot": "Lago Ness",
+    "interdits": ["Monstruo", "Escocia", "Agua"]
+  },
+  {
+    "id": "canada",
+    "mot": "Canada",
+    "interdits": ["Estados unidos", "Frio", "Nieve"]
+  },
+  {
+    "id": "usb",
+    "mot": "USB",
+    "interdits": ["Ordenador", "Conectar", "Memoria"]
+  },
+  {
+    "id": "shakira",
+    "mot": "Shakira",
+    "interdits": ["Cantante", "Columbia", "Música"]
+  },
+  {
+    "id": "stranger_things",
+    "mot": "Stranger Things",
+    "interdits": ["Serie", "Niños", "Netflix"]
+  },
+  {
+    "id": "lobo",
+    "mot": "Lobo",
+    "interdits": ["Animal", "Bosque", "Cabra"]
+  },
+  {
+    "id": "pasta",
+    "mot": "Pasta",
+    "interdits": ["Comida", "Italia", "Arroz"]
+  },
+  {
+    "id": "miel",
+    "mot": "Miel",
+    "interdits": ["Abeja", "Oso", "Dulce"]
+  },
+  {
+    "id": "fuego",
+    "mot": "Fuego",
+    "interdits": ["Calor", "Quemar", "Rojo"]
+  },
+  {
+    "id": "fortnite",
+    "mot": "Fortnite",
+    "interdits": ["Videojuego", "Disparar", "Construir"]
+  },
+  {
+    "id": "pentatlon",
+    "mot": "Pentatlón",
+    "interdits": ["Deporte", "Diez", "Competición"]
+  },
+  {
+    "id": "tom_y_jerry",
+    "mot": "Tom y Jerry",
+    "interdits": ["Dibujo", "Ratón", "Gato"]
+  },
+  {
+    "id": "mesa",
+    "mot": "Mesa",
+    "interdits": ["Mueble", "Comer", "Madera"]
+  },
+  {
+    "id": "campeon",
+    "mot": "Campeón",
+    "interdits": ["Ganar", "Deporte", "Primero"]
+  },
+  {
+    "id": "donut",
+    "mot": "Donut",
+    "interdits": ["Dulce", "Redondo", "Agujero"]
+  },
+  {
+    "id": "mecanico",
+    "mot": "Mecánico",
+    "interdits": ["Coche", "Reparar", "Auto"]
+  },
+  {
+    "id": "shampoo",
+    "mot": "Shampoo",
+    "interdits": ["Pelo", "Ducha", "Lavar"]
+  },
+  {
+    "id": "yoga",
+    "mot": "Yoga",
+    "interdits": ["Relajar", "Estirar", "Cuerpo"]
+  },
+  {
+    "id": "serpiente",
+    "mot": "Serpiente",
+    "interdits": ["Animal", "Reptil", "Veneno"]
+  },
+  {
+    "id": "cocinero",
+    "mot": "Cocinero",
+    "interdits": ["Comida", "Cocina", "Restaurante"]
+  },
+  {
+    "id": "huevos",
+    "mot": "Huevos",
+    "interdits": ["Gallina", "Blanco", "Desayuno"]
+  },
+  {
+    "id": "arbitro",
+    "mot": "Arbitro",
+    "interdits": ["Deporte", "Decidir", "Partido"]
+  },
+  {
+    "id": "kayak",
+    "mot": "Kayak",
+    "interdits": ["Agua", "Rio", "Deporte"]
+  },
+  {
+    "id": "hockey",
+    "mot": "Hockey",
+    "interdits": ["Deporte", "Hielo", "Equipo"]
+  },
+  {
+    "id": "peugeot",
+    "mot": "Peugeot",
+    "interdits": ["Coche", "Francia", "Marca"]
+  },
+  {
+    "id": "ducati",
+    "mot": "Ducati",
+    "interdits": ["Moto", "Italia", "Marca"]
+  },
+  {
+    "id": "boda",
+    "mot": "Boda",
+    "interdits": ["Novios", "Iglesia", "Fiesta"]
+  },
+  {
+    "id": "hacker",
+    "mot": "Hacker",
+    "interdits": ["Ordenador", "Robar", "Internet"]
+  },
+  {
+    "id": "hyrox",
+    "mot": "Hyrox",
+    "interdits": ["Competición", "Deporte", "CrossFit"]
+  },
+  {
+    "id": "acampar",
+    "mot": "Acampar",
+    "interdits": ["Tienda", "Naturaleza", "Dormir"]
+  },
+  {
+    "id": "paraguas",
+    "mot": "Paraguas",
+    "interdits": ["Lluvia", "Abrir", "Sobre"]
+  },
+  {
+    "id": "gorila",
+    "mot": "Gorila",
+    "interdits": ["Animal", "Selva", "Grande"]
+  },
+  {
+    "id": "triste",
+    "mot": "Triste",
+    "interdits": ["Llorar", "Sentir", "Emoción"]
+  },
+  {
+    "id": "feliz",
+    "mot": "Feliz",
+    "interdits": ["Sonreír", "Sentir", "Emoción"]
+  },
+  {
+    "id": "satelite",
+    "mot": "Satélite",
+    "interdits": ["Espacio", "Orbital", "Tierra"]
+  },
+  {
+    "id": "saturno",
+    "mot": "Saturno",
+    "interdits": ["Planeta", "Anillos", "Espacio"]
+  },
+  {
+    "id": "setas",
+    "mot": "Setas",
+    "interdits": ["Bosque", "Comida", "Buscar"]
+  },
+  {
+    "id": "roncar",
+    "mot": "Roncar",
+    "interdits": ["Dormir", "Ruido", "Nariz"]
+  },
+  {
+    "id": "pictionary",
+    "mot": "Pictionary",
+    "interdits": ["Juego", "Adivinar", "Dibujar"]
+  },
+  {
+    "id": "playa",
+    "mot": "Playa",
+    "interdits": ["Mar", "Arena", "Sol"]
+  },
+  {
+    "id": "minecraft",
+    "mot": "Minecraft",
+    "interdits": ["Construir", "Juego", "Ordenador"]
+  },
+  {
+    "id": "basura",
+    "mot": "Basura",
+    "interdits": ["Tirar", "Olor", "Bolsa"]
+  },
+  {
+    "id": "interstellar",
+    "mot": "Interstellar",
+    "interdits": ["Película", "Nolan", "Espacio"]
   }
 ]

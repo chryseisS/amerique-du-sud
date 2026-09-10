@@ -119,6 +119,13 @@
         "sousTitre": "Glaciers, vent, bout du monde",
         "fichier": "patagonie",
         "image": null
+      },
+      {
+        "id": "desert",
+        "titre": "Déserts et terres arides",
+        "sousTitre": null,
+        "fichier": "desert",
+        "image": null
       }
     ]
   },
@@ -144,14 +151,35 @@
         "titre": "Langues vivantes",
         "sousTitre": null,
         "fichier": "langues",
-        "image": null
+        "image": "/images/themes/langues.png"
+      },
+      {
+        "id": "peuples",
+        "titre": "Peuples indigènes",
+        "sousTitre": null,
+        "fichier": "peuples",
+        "image": "/images/themes/peuples.png"
       },
       {
         "id": "art",
         "titre": "Art et artisanat",
         "sousTitre": null,
         "fichier": "art",
-        "image": null
+        "image": "/images/themes/arts.png"
+      },
+      {
+        "id": "fetes",
+        "titre": "Fêtes et traditions",
+        "sousTitre": null,
+        "fichier": "fetes",
+        "image": "/images/themes/fetes.png"
+      },
+      {
+        "id": "litterature",
+        "titre": "Littérature",
+        "sousTitre": null,
+        "fichier": "litterature",
+        "image": "/images/themes/litterature.png"
       }
     ]
   }
