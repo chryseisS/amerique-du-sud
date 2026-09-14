@@ -2,10 +2,12 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { ArrowLeft, ChevronRight } from 'lucide-react';
+import { useEpisodesLus } from '../hooks/useEpisodesLus';
 
 function Theme() {
   const { themeId } = useParams();
   const navigate = useNavigate();
+  const { estLu } = useEpisodesLus();
 
   // ─── ÉTATS ───────────────────────────────────────
   const [theme, setTheme] = useState(null);
@@ -98,9 +100,7 @@ function Theme() {
       {/* Liste des épisodes */}
       <div className="flex flex-col gap-2.5">
         {theme.episodes.map((episode) => {
-          const estLu = localStorage.getItem(
-            `lu_${themeId}_${episode.id}`
-          ) === 'true';
+          const estLuValue = estLu(themeId, episode.id);
 
           return (
             <Link
@@ -113,7 +113,7 @@ function Theme() {
                 hover:shadow-[0_4px_12px_rgba(74,47,26,0.12),0_2px_4px_rgba(74,47,26,0.08)]
                 active:shadow-[0_1px_3px_rgba(74,47,26,0.1)]
                 transition-shadow
-                ${estLu
+                ${estLuValue
                   ? 'border-l-[3px] border-l-terra-500 border-y border-r border-terra-border'
                   : 'border border-terra-border'
                 }
@@ -123,7 +123,7 @@ function Theme() {
               <div
                 className={`
                   w-11 h-11 rounded-full flex items-center justify-center flex-shrink-0
-                  ${estLu
+                  ${estLuValue
                     ? 'bg-gradient-to-br from-terra-500 to-terra-700 shadow-[0_2px_6px_rgba(201,98,63,0.35)]'
                     : 'bg-white border-2 border-terra-border'
                   }
@@ -132,7 +132,7 @@ function Theme() {
                 <span
                   className={`
                     font-serif text-base
-                    ${estLu ? 'text-white' : 'text-terra-muted'}
+                    ${estLuValue ? 'text-white' : 'text-terra-muted'}
                   `}
                 >
                   {episode.numero}

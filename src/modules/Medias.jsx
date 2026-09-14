@@ -1,17 +1,18 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, ChevronRight, Clapperboard, BookOpen } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Clapperboard, BookOpen, Music } from 'lucide-react';
 
 /* ════════════════════════════════════════════════════════════════════
    ÉCRAN « MÉDIAS »  — route /jeux/medias
    ──────────────────────────────────────────────────────────────────
-   • Pour l'instant : Films, Lecture.
-   • Prévu pour s'étoffer plus tard (Musique, Podcast…) : ajoute une
-     entrée ici + son propre module quand tu es prête.
+   • Pour l'instant : Films, Lecture, Playlists.
+   • Prévu pour s'étoffer plus tard (Podcast…) : ajoute une entrée ici
+     + son propre module quand tu es prête.
    ════════════════════════════════════════════════════════════════════ */
 
 const SECTIONS = [
-  { id: 'films',   titre: 'Films',   sousTitre: 'À voir avant ou pendant le voyage', to: '/jeux/medias/films',   Icone: Clapperboard },
-  { id: 'lecture', titre: 'Lecture', sousTitre: 'Livres pour la route',              to: '/jeux/medias/lecture', Icone: BookOpen },
+  { id: 'films',     titre: 'Films',     sousTitre: 'À voir avant ou pendant le voyage', to: '/jeux/medias/films',     Icone: Clapperboard },
+  { id: 'lecture',   titre: 'Lecture',   sousTitre: 'Livres pour la route',              to: '/jeux/medias/lecture',   Icone: BookOpen },
+  { id: 'playlists', titre: 'Playlists', sousTitre: 'Les incontournables, pays par pays', to: '/jeux/medias/playlists', Icone: Music },
 ];
 
 export default function Medias() {

@@ -55,11 +55,11 @@ export const COULEURS_DEFI = {
 export const TYPES_GASTRONOMIE = ['Boisson', 'Plat', 'Dessert'];
 
 export const COULEURS_PAYS = {
-  'Pérou':    { barre: '#C8763D', iconBg: '#FAECE7', iconText: '#993C1D', accent: '#C8763D' }, // terracotta
-  'Bolivie':  { barre: '#639922', iconBg: '#EAF3DE', iconText: '#3B6D11', accent: '#639922' }, // vert
-  'Chili':    { barre: '#185FA5', iconBg: '#E6F1FB', iconText: '#042C53', accent: '#185FA5' }, // bleu profond
-  'Equateur': { barre: '#EF9F27', iconBg: '#FAEEDA', iconText: '#854F0B', accent: '#EF9F27' }, // jaune/or
-  'Argentine':{ barre: '#7BB7E0', iconBg: '#E6F1FB', iconText: '#185FA5', accent: '#7BB7E0' }, // bleu ciel
+  'Pérou':     { barre: '#B8452F', iconBg: '#FBEAE6', iconText: '#7A2C1C', accent: '#B8452F' }, // rouge terracotta
+  'Bolivie':   { barre: '#5B8C3A', iconBg: '#EAF3E1', iconText: '#3B5F26', accent: '#5B8C3A' }, // vert
+  'Chili':     { barre: '#1F6FB2', iconBg: '#E6F1FB', iconText: '#0B3A5E', accent: '#1F6FB2' }, // bleu
+  'Equateur':  { barre: '#C4941F', iconBg: '#FBF1DC', iconText: '#7A5A0F', accent: '#C4941F' }, // or / moutarde
+  'Argentine': { barre: '#6E4A96', iconBg: '#F0E9F7', iconText: '#452D63', accent: '#6E4A96' }, // violet
 };
 
 export const COULEURS_TYPE = {

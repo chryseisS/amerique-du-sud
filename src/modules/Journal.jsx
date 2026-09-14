@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import { Settings } from 'lucide-react';
 import faune from '../donnees/faune.json';
 import gastronomie from '../donnees/gastronomie.json';
 import premieresFoisJson from '../donnees/premieresFois.json';
@@ -136,7 +138,11 @@ function Journal() {
     <div className="p-4">
 
       {/* ═══ Titre de la page ═══ */}
-      <div className="text-center mb-5">
+      <div className="relative text-center mb-5">
+        <Link to="/journal/reglages" aria-label="Réglages"
+              className="absolute left-0 top-0 inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-terra-50/70 border border-terra-border">
+          <Settings className="w-[18px] h-[18px] text-terra-900/70" strokeWidth={1.9} />
+        </Link>
         <div className="inline-block border-t border-b border-terra-muted/60 py-3">
           <h1 className="font-serif text-4xl text-terra-900 font-semibold leading-none">
             Carnet

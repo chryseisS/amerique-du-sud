@@ -1,6 +1,6 @@
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { ArrowLeft, Calendar, Clapperboard, Check, Eye } from 'lucide-react';
+import { ArrowLeft, Calendar, Clapperboard, Check, Eye, Download } from 'lucide-react';
 import { db } from '../db';
 import films from '../donnees/films.json';
 import { COULEURS_PAYS } from '../donnees/constantes';
@@ -53,6 +53,15 @@ export default function DetailFilm() {
                 {film.pays}
               </span>
             )}
+            {film.downloaded ? (
+              <span className="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10.5px] font-semibold text-vert-cta bg-vert-cta/10">
+                <Download className="w-3 h-3" strokeWidth={2.5} />Téléchargé
+              </span>
+            ) : (
+              <span className="inline-flex items-center gap-1 text-[10.5px] font-medium text-encre-douce/45">
+                <Download className="w-3 h-3" strokeWidth={2} />Non téléchargé
+              </span>
+            )}
           </div>
         </div>
 
@@ -70,7 +79,7 @@ export default function DetailFilm() {
 
         {/* Description */}
         <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
-          <p className="text-[13.5px] text-encre-douce leading-relaxed text-justify">{film.description}</p>
+          <p className="text-[13.5px] text-justify text-encre-douce leading-relaxed">{film.description}</p>
         </div>
       </div>
     </div>

@@ -95,3 +95,17 @@ db.version(5).stores({
   duelCartesFaites: 'id, date',
   duelScores: 'joueur'
 });
+
+db.version(6).stores({
+  /**
+   * livres lus
+   */
+  livresLus: 'id, date'
+});
+
+db.version(7).stores({
+  /**
+   * épisodes lus, dans culture
+   */
+  episodesLus: 'id, date'
+});

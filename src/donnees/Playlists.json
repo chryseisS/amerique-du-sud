@@ -1,0 +1,21 @@
+{
+  "Pérou": { "lien": null, "artistes": [] },
+  "Equateur": { "lien": null, "artistes": [] },
+  "Bolivie": {
+    "lien": null,
+    "artistes": [
+      {
+        "nom": "Los Kjarkas",
+        "genre": "Folklore andin",
+        "description": "Groupe emblématique du folklore andin bolivien, fondé en 1965 à Capinota (Cochabamba) par les frères Hermosa. Pionniers du huayno moderne, ils sont notamment connus pour « Llorando se fue », dont la mélodie a servi de base à la Lambada, et pour « Bolivia », un titre si populaire qu'il est parfois surnommé le second hymne national tant il est chanté avec ferveur dans le pays."
+      },
+      {
+        "nom": "Savia Andina",
+        "genre": "Folklore andin",
+        "description": "Groupe fondateur du folklore andin bolivien moderne, né en 1975 à Potosí à partir d'un trio d'amis qui jouait auparavant du rock. Parmi les pionniers à exporter la musique traditionnelle andine (charango, zampoña, quena) à l'international, ils sont notamment connus pour « El Minero », hommage aux mineurs de Potosí, et « Kalanchito »."
+      }
+    ]
+  },
+  "Chili": { "lien": null, "artistes": [] },
+  "Argentine": { "lien": null, "artistes": [] }
+}

@@ -43,7 +43,7 @@
         "titre": "Le siècle des frontières",
         "sousTitre": null,
         "fichier": "siecle-frontiere",
-        "image": "/images/themes/siecle-frontiere.png"
+        "image": "/images/themes/siecle-frontieres.png"
       },
       {
         "id": "siecle-foules",
@@ -73,7 +73,7 @@
     "titre": "Gastronomie",
     "themes": [
       {
-        "id": "produits",
+        "id": "ingredients",
         "titre": "Ingrédients emblématiques",
         "sousTitre": null,
         "fichier": "ingredients",
@@ -96,36 +96,91 @@
     ]
   },
   {
+    "id": "mythes",
+    "titre": "Mythes et Légendes",
+    "themes": [
+      {
+        "id": "mythologie-inca",
+        "titre": "Mythologie inca et andine",
+        "sousTitre": null,
+        "fichier": "mythologie-inca",
+        "image": "/images/themes/mythologie-inca.png"
+      },
+      {
+        "id": "mythologie-amazonie",
+        "titre": "Légendes de l'Amazonie",
+        "sousTitre": null,
+        "fichier": "mythologie-amazonie",
+        "image": "/images/themes/mythologie-amazonie.png"
+      },
+      {
+        "id": "mythologie-chiloe",
+        "titre": "Bestiaire fantastique de Chiloé",
+        "sousTitre": null,
+        "fichier": "mythologie-chiloe",
+        "image": "/images/themes/mythologie-chiloe.png"
+      },
+      {
+        "id": "mythologie-mapuche",
+        "titre": "Mythes mapuches",
+        "sousTitre": null,
+        "fichier": "mythologie-mapuche",
+        "image": "/images/themes/mythologie-mapuche.png"
+      },
+      {
+        "id": "mythologie-bolivie",
+        "titre": "Mythes de l'Altiplano bolivien",
+        "sousTitre": null,
+        "fichier": "mythologie-bolivie",
+        "image": "/images/themes/mythologie-bolivie.png"
+      }
+    ]
+  },
+  {
     "id": "nature-geographie",
     "titre": "Nature & géographie",
     "themes": [
       {
         "id": "amazonie",
         "titre": "L'Amazonie",
-        "sousTitre": "Forêt, peuples, enjeux",
+        "sousTitre": null,
         "fichier": "amazonie",
-        "image": null
+        "image": "/images/themes/amazonie.png"
       },
       {
         "id": "andes",
         "titre": "Les Andes",
-        "sousTitre": "Géographie et civilisation",
+        "sousTitre": null,
         "fichier": "andes",
-        "image": null
+        "image": "/images/themes/andes.png"
       },
       {
         "id": "patagonie",
         "titre": "La Patagonie",
-        "sousTitre": "Glaciers, vent, bout du monde",
+        "sousTitre": null,
         "fichier": "patagonie",
-        "image": null
+        "image": "/images/themes/patagonie.png"
       },
       {
         "id": "desert",
         "titre": "Déserts et terres arides",
         "sousTitre": null,
         "fichier": "desert",
-        "image": null
+        "image": "/images/themes/atacama.png"
+      },
+      {
+        "id": "galapagos",
+        "titre": "Les Galapagos",
+        "sousTitre": null,
+        "fichier": "galapagos",
+        "image": "/images/themes/galapagos.png"
+      },
+      {
+        "id": "faune",
+        "titre": "Faune emblématique",
+        "sousTitre": null,
+        "fichier": "faune",
+        "image": "/images/themes/faune.png"
       }
     ]
   },

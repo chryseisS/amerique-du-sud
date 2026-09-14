@@ -3,28 +3,24 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Check } from 'lucide-react';
 import Accordeon from '../composants/Accordeon';
+import { useEpisodesLus } from '../hooks/useEpisodesLus';
 
 function Episode() {
   const { themeId, episodeId } = useParams();
   const navigate = useNavigate();
+  const { estLu, marquerLu: marquerLuDB } = useEpisodesLus();
 
   // ─── ÉTATS ───────────────────────────────────────
   const [episode, setEpisode] = useState(null);
   const [chargement, setChargement] = useState(true);
   const [erreur, setErreur] = useState(false);
-  const [lu, setLu] = useState(false);
 
-  // ─── CLÉ LOCALSTORAGE ────────────────────────────
-  // Chaque épisode a une clé unique : "lu_incas_avant-eux"
-  const cleStorage = `lu_${themeId}_${episodeId}`;
+  const lu = estLu(themeId, episodeId);
 
-  // ─── CHARGEMENT DU JSON + STATUT LU ──────────────
+  // ─── CHARGEMENT DU JSON ───────────────────────────
   useEffect(() => {
     setChargement(true);
     setErreur(false);
-
-    const dejaLu = localStorage.getItem(cleStorage) === 'true';
-    setLu(dejaLu);
 
     const modules = import.meta.glob('../donnees/themes/*.json');
     const chemin = `../donnees/themes/${themeId}.json`;
@@ -52,12 +48,11 @@ function Episode() {
       setChargement(false);
     }
 
-  }, [themeId, episodeId, cleStorage]);
+  }, [themeId, episodeId]);
 
   // ─── MARQUER COMME LU ────────────────────────────
   const marquerLu = () => {
-    localStorage.setItem(cleStorage, 'true');
-    setLu(true);
+    marquerLuDB(themeId, episodeId);
   };
 
   // ─── ÉTATS D'AFFICHAGE ───────────────────────────

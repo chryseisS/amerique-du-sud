@@ -4650,5 +4650,3916 @@
     ],
     "reponse": "Un mât enduit de graisse ou de savon que les participants doivent escalader pour attraper un prix",
     "explication": "Le Palo Ensebado est un grand mât en bois enduit de graisse ou de savon, au sommet duquel sont accrochés des prix ; les participants s'y agrippent tant bien que mal, glissant sans cesse, pour tenter de décrocher la récompense sous les rires de la foule."
-  }
+  },
+  {
+    "id": 11000,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle est, approximativement, la longueur du Chili continental du nord au sud ?",
+    "choix": ["4 300 km", "2 500 km", "6 000 km", "3 000 km"],
+    "reponse": "4 300 km",
+    "explication": "Le Chili continental s'étire sur environ 4 300 km du nord au sud, pour une largeur moyenne de seulement 180 km, ce qui en fait l'un des pays les plus longs et les plus étroits du monde."
+  },
+  {
+    "id": 11001,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel désert, au nord du Chili, est considéré comme l'un des endroits les plus arides du monde ?",
+    "choix": [
+      "Le désert d'Atacama",
+      "Le désert de Sechura",
+      "Le désert de Sonora",
+      "Le désert du Namib"
+    ],
+    "reponse": "Le désert d'Atacama",
+    "explication": "Certaines stations du désert d'Atacama n'ont jamais enregistré la moindre pluie depuis le début des mesures, ce qui en fait l'un des endroits les plus arides de la planète, voire le plus aride hors des pôles selon certains critères."
+  },
+  {
+    "id": 11002,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel est le plus haut volcan actif du Chili (et du monde) ?",
+    "choix": [
+      "L'Ojos del Salado",
+      "Le Llullaillaco",
+      "Le Villarrica",
+      "Le Lascar"
+    ],
+    "reponse": "L'Ojos del Salado",
+    "explication": "Culminant à 6 893 m à la frontière avec l'Argentine, l'Ojos del Salado est considéré comme le plus haut volcan actif du monde, bien que ses éruptions soient extrêmement rares."
+  },
+  {
+    "id": 11003,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel détroit, à l'extrême sud du Chili, relie l'océan Atlantique à l'océan Pacifique ?",
+    "choix": [
+      "Le détroit de Magellan",
+      "Le détroit de Béring",
+      "Le canal de Beagle uniquement",
+      "Le détroit de Drake"
+    ],
+    "reponse": "Le détroit de Magellan",
+    "explication": "Découvert par Fernand de Magellan en 1520, le détroit qui porte son nom relie l'Atlantique au Pacifique à travers l'extrême sud du Chili, offrant une route maritime plus abritée que le passage de Drake."
+  },
+  {
+    "id": 11004,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel cap marque traditionnellement la limite entre les océans Atlantique et Pacifique, à l'extrême sud du continent ?",
+    "choix": [
+      "Le cap Horn",
+      "Le cap Froward",
+      "Le cap de Bonne-Espérance",
+      "Le cap Corrientes"
+    ],
+    "reponse": "Le cap Horn",
+    "explication": "Situé sur une île chilienne à l'extrémité méridionale de l'archipel de la Terre de Feu, le cap Horn est traditionnellement considéré comme le point où se rejoignent les océans Atlantique et Pacifique, redouté des marins pour ses conditions extrêmes."
+  },
+  {
+    "id": 11005,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel champ géothermique de l'Atacama est réputé pour être l'un des plus hauts champs de geysers actifs du monde ?",
+    "choix": [
+      "El Tatio",
+      "La Laguna Cejar",
+      "Le Salar de Uyuni",
+      "Les Termas de Puritama"
+    ],
+    "reponse": "El Tatio",
+    "explication": "Situé à plus de 4 200 m d'altitude, El Tatio est l'un des plus hauts champs de geysers actifs au monde, spectaculaire au lever du soleil lorsque la vapeur se condense dans l'air glacial."
+  },
+  {
+    "id": 11006,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle vallée chilienne, réputée pour ses ciels dégagés, est un haut lieu mondial de l'astronomie et de la production de pisco ?",
+    "choix": [
+      "La vallée de l'Elqui",
+      "La vallée de Colchagua",
+      "La vallée du Maipo",
+      "La vallée du Casablanca"
+    ],
+    "reponse": "La vallée de l'Elqui",
+    "explication": "Grâce à la pureté exceptionnelle de son ciel nocturne, la vallée de l'Elqui accueille plusieurs observatoires astronomiques internationaux, tout en étant l'un des principaux terroirs de production du pisco, eau-de-vie de raisin emblématique du Chili."
+  },
+  {
+    "id": 11007,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel archipel, au sud de Puerto Montt, est connu pour ses maisons sur pilotis et ses églises en bois classées à l'UNESCO ?",
+    "choix": [
+      "L'archipel de Chiloé",
+      "L'archipel de Juan Fernández",
+      "L'archipel des Chonos",
+      "L'archipel de la Reina Adelaida"
+    ],
+    "reponse": "L'archipel de Chiloé",
+    "explication": "Chiloé est célèbre pour ses maisons traditionnelles sur pilotis (palafitos) construites au bord de l'eau et pour ses seize églises en bois d'inspiration jésuite, classées au patrimoine mondial de l'UNESCO."
+  },
+  {
+    "id": 11008,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "À quelle histoire littéraire l'archipel Juan Fernández doit-il en partie sa notoriété ?",
+    "choix": [
+      "Au naufrage du marin écossais Alexander Selkirk, qui inspira le roman Robinson Crusoé",
+      "À la découverte d'un trésor de pirates jamais retrouvé",
+      "Au voyage de Charles Darwin sur le Beagle",
+      "À un naufrage relaté par Jules Verne"
+    ],
+    "reponse": "Au naufrage du marin écossais Alexander Selkirk, qui inspira le roman Robinson Crusoé",
+    "explication": "Abandonné volontairement sur l'une des îles de l'archipel en 1704, le marin écossais Alexander Selkirk y survécut plus de quatre ans, une histoire qui inspira Daniel Defoe pour son roman « Robinson Crusoé »."
+  },
+  {
+    "id": 11009,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel fleuve marque traditionnellement, dans l'histoire coloniale, la frontière sud de la zone contrôlée par les Espagnols face aux Mapuches ?",
+    "choix": ["Le Biobío", "Le Maule", "Le Loa", "Le Valdivia"],
+    "reponse": "Le Biobío",
+    "explication": "Pendant l'essentiel de la période coloniale, le fleuve Biobío marquait la frontière sud au-delà de laquelle les Mapuches (Araucans) conservèrent leur indépendance face aux Espagnols, jusqu'à la « Pacification de l'Araucanie » au XIXe siècle."
+  },
+  {
+    "id": 11010,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel est, approximativement, le point le plus étroit du Chili continental (d'ouest en est) ?",
+    "choix": [
+      "Environ 90 km",
+      "Environ 30 km",
+      "Environ 200 km",
+      "Environ 400 km"
+    ],
+    "reponse": "Environ 90 km",
+    "explication": "Le point le plus étroit du Chili continental se situe vers 31°37' de latitude sud, où le pays ne mesure qu'environ 90 km de large entre l'océan Pacifique et la cordillère des Andes."
+  },
+  {
+    "id": 11011,
+    "pays": "Chili",
+    "theme": "Économie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Le salar d'Atacama, immense lac salé, est une source importante de quelle ressource stratégique ?",
+    "choix": ["Le lithium", "Le pétrole", "L'uranium", "Le charbon"],
+    "reponse": "Le lithium",
+    "explication": "Grâce à sa saumure exceptionnellement riche, le salar d'Atacama fait du Chili l'un des tout premiers producteurs mondiaux de lithium, un métal essentiel à la fabrication des batteries."
+  },
+  {
+    "id": 11012,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle ville portuaire, célèbre pour ses funiculaires et ses maisons colorées, est classée au patrimoine mondial de l'UNESCO ?",
+    "choix": ["Valparaíso", "Viña del Mar", "Antofagasta", "Iquique"],
+    "reponse": "Valparaíso",
+    "explication": "Avec ses maisons colorées accrochées aux collines (cerros) et son réseau historique de funiculaires (ascensores), le centre historique de Valparaíso est classé au patrimoine mondial de l'UNESCO depuis 2003."
+  },
+  {
+    "id": 11013,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle route mythique de plus de 1 200 km, souvent non goudronnée, traverse la Patagonie chilienne ?",
+    "choix": [
+      "La Carretera Austral",
+      "La Ruta 5 (Panaméricaine)",
+      "La Route des Sept Lacs",
+      "La Route de l'Atacama"
+    ],
+    "reponse": "La Carretera Austral",
+    "explication": "Voulue par le régime de Pinochet pour désenclaver le sud du pays, la Carretera Austral traverse plus de 1 200 km de forêts, fjords et glaciers de Patagonie chilienne, en grande partie sur une chaussée non goudronnée."
+  },
+  {
+    "id": 11014,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel peuple autochtone du sud du Chili a résisté pendant des siècles à la conquête, sans jamais être totalement soumis avant le XIXe siècle ?",
+    "choix": ["Les Mapuches", "Les Aymaras", "Les Rapa Nui", "Les Diaguitas"],
+    "reponse": "Les Mapuches",
+    "explication": "Les Mapuches (ou Araucans) ont résisté avec succès à la conquête inca puis espagnole pendant des siècles, conservant leur indépendance au sud du fleuve Biobío jusqu'à la campagne militaire chilienne dite de « Pacification de l'Araucanie » à la fin du XIXe siècle."
+  },
+  {
+    "id": 11015,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "En quelle année le Chili entame-t-il son processus d'indépendance avec la première Junte nationale de gouvernement ?",
+    "choix": ["1810", "1818", "1808", "1825"],
+    "reponse": "1810",
+    "explication": "Le 18 septembre 1810, à Santiago, est formée la première Junte nationale de gouvernement, marquant le début du processus d'indépendance chilienne ; cette date est encore célébrée chaque année lors des Fiestas Patrias."
+  },
+  {
+    "id": 11016,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel héros de l'indépendance chilienne, fils d'un vice-roi du Pérou, est considéré comme le « père de la patrie » ?",
+    "choix": [
+      "Bernardo O'Higgins",
+      "José de San Martín",
+      "Manuel Rodríguez",
+      "Diego Portales"
+    ],
+    "reponse": "Bernardo O'Higgins",
+    "explication": "Fils naturel d'Ambrosio O'Higgins, vice-roi du Pérou d'origine irlandaise, Bernardo O'Higgins dirigea les forces indépendantistes chiliennes et devint le premier chef suprême du pays, ce qui lui vaut le titre de « père de la patrie »."
+  },
+  {
+    "id": 11017,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel général argentin a traversé les Andes avec O'Higgins pour libérer le Chili ?",
+    "choix": [
+      "José de San Martín",
+      "Manuel Belgrano",
+      "Antonio José de Sucre",
+      "Simón Bolívar"
+    ],
+    "reponse": "José de San Martín",
+    "explication": "En 1817, le général argentin José de San Martín mena l'Armée des Andes à travers la cordillère aux côtés de Bernardo O'Higgins, une traversée héroïque qui aboutit à la victoire de Chacabuco et à la libération du Chili."
+  },
+  {
+    "id": 11018,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle ressource économique était principalement en jeu lors de la guerre du Pacifique ?",
+    "choix": [
+      "Le salpêtre (nitrate) et le guano",
+      "L'argent",
+      "Le cuivre",
+      "Le pétrole"
+    ],
+    "reponse": "Le salpêtre (nitrate) et le guano",
+    "explication": "La guerre du Pacifique (1879-1883), qui opposa le Chili au Pérou et à la Bolivie, portait principalement sur le contrôle des riches gisements de salpêtre (nitrate) et de guano du désert d'Atacama, alors très recherchés comme engrais et explosifs."
+  },
+  {
+    "id": 11019,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "En octobre 2019, un vaste mouvement de contestation sociale a éclaté au Chili, initialement déclenché par la hausse du prix de quoi ?",
+    "choix": [
+      "Le ticket de métro à Santiago",
+      "L'essence",
+      "Le pain",
+      "L'électricité"
+    ],
+    "reponse": "Le ticket de métro à Santiago",
+    "explication": "La hausse de 30 pesos du prix du ticket de métro à Santiago en octobre 2019 déclencha un vaste mouvement social (l'« estallido social »), révélant un profond mécontentement social qui déboucha sur un processus de réforme constitutionnelle."
+  },
+  {
+    "id": 11020,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel peuple préhispanique du nord du Chili est à l'origine de momies artificielles parmi les plus anciennes du monde, antérieures à celles de l'Égypte ?",
+    "choix": [
+      "Les Chinchorro",
+      "Les Diaguitas",
+      "Les Atacameños",
+      "Les Aymaras"
+    ],
+    "reponse": "Les Chinchorro",
+    "explication": "La culture Chinchorro, installée sur la côte nord du Chili actuel, pratiquait dès environ 5000 av. J.-C. une momification artificielle sophistiquée, antérieure de plusieurs millénaires à celle des pharaons égyptiens."
+  },
+  {
+    "id": 11021,
+    "pays": "Chili",
+    "theme": "Société",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel type de régime politique caractérise le Chili aujourd'hui ?",
+    "choix": [
+      "Une république présidentielle démocratique",
+      "Une monarchie constitutionnelle",
+      "Un régime militaire",
+      "Une fédération d'États"
+    ],
+    "reponse": "Une république présidentielle démocratique",
+    "explication": "Depuis le retour à la démocratie en 1990, le Chili est une république présidentielle démocratique, avec un président élu au suffrage universel direct et un pouvoir législatif bicaméral."
+  },
+  {
+    "id": 11022,
+    "pays": "Chili",
+    "theme": "Société",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Où siège le Congrès national du Chili, alors que le pouvoir exécutif est basé à Santiago ?",
+    "choix": ["Valparaíso", "Viña del Mar", "Concepción", "Rancagua"],
+    "reponse": "Valparaíso",
+    "explication": "Contrairement à la plupart des pays où les pouvoirs sont réunis dans la capitale, le Congrès national chilien siège à Valparaíso depuis 1990, tandis que le pouvoir exécutif reste basé au Palais de la Moneda à Santiago."
+  },
+  {
+    "id": 11023,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle est la devise inscrite sur les armoiries du Chili ?",
+    "choix": [
+      "« Por la razón o la fuerza » (Par la raison ou par la force)",
+      "« Libertad y orden »",
+      "« Unidos venceremos »",
+      "« Siempre adelante »"
+    ],
+    "reponse": "« Por la razón o la fuerza » (Par la raison ou par la force)",
+    "explication": "La devise nationale chilienne « Por la razón o la fuerza » figure sur les armoiries du pays, affirmant la détermination de la nation à défendre ses principes, par la voie du dialogue de préférence, mais par la force si nécessaire."
+  },
+  {
+    "id": 11024,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel oiseau et quel mammifère andin figurent sur les armoiries du Chili ?",
+    "choix": [
+      "Le condor et le huemul",
+      "L'aigle et le lama",
+      "Le condor et le puma",
+      "Le ñandú et le guanaco"
+    ],
+    "reponse": "Le condor et le huemul",
+    "explication": "Les armoiries du Chili sont soutenues par un condor des Andes, représentant les montagnes du nord, et un huemul (cerf andin), représentant les forêts du sud, deux figures emblématiques de la faune chilienne."
+  },
+  {
+    "id": 11025,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle date correspond aux Fiestas Patrias, célébration du début de l'indépendance chilienne ?",
+    "choix": ["Le 18 septembre", "Le 12 octobre", "Le 5 octobre", "Le 25 mai"],
+    "reponse": "Le 18 septembre",
+    "explication": "Le 18 septembre commémore la formation de la première Junte nationale de gouvernement en 1810 ; les Fiestas Patrias se prolongent traditionnellement le 19 septembre, jour des Glorias del Ejército."
+  },
+  {
+    "id": 11026,
+    "pays": "Chili",
+    "theme": "Société",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle est la durée d'un mandat présidentiel au Chili, sans possibilité de réélection immédiate ?",
+    "choix": ["4 ans", "5 ans", "6 ans", "8 ans"],
+    "reponse": "4 ans",
+    "explication": "Depuis la réforme constitutionnelle de 2005, le mandat présidentiel chilien dure quatre ans, et le président sortant ne peut pas se représenter immédiatement pour un second mandat consécutif."
+  },
+  {
+    "id": 11027,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle est la danse nationale du Chili, dansée traditionnellement lors des Fiestas Patrias ?",
+    "choix": ["La cueca", "La marinera", "Le tango", "La zamba"],
+    "reponse": "La cueca",
+    "explication": "Déclarée danse nationale en 1979, la cueca met en scène un jeu de séduction entre un homme et une femme, mouchoir à la main, évoquant la parade d'un coq autour d'une poule ; elle est dansée dans tout le pays lors des Fiestas Patrias."
+  },
+  {
+    "id": 11028,
+    "pays": "Chili",
+    "theme": "Sport",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel sport équestre traditionnel, pratiqué par les huasos, est reconnu comme sport national du Chili ?",
+    "choix": [
+      "Le rodéo chilien",
+      "Le polo",
+      "Le concours de dressage",
+      "Le tonneau"
+    ],
+    "reponse": "Le rodéo chilien",
+    "explication": "Le rodéo chilien, où deux cavaliers (huasos) travaillent en binôme pour immobiliser un jeune bovin contre un mur capitonné (la medialuna), est officiellement reconnu comme le sport national du Chili."
+  },
+  {
+    "id": 11029,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle fleur est la fleur nationale du Chili ?",
+    "choix": ["Le copihue", "La cantuta", "L'orchidée", "Le kantuta"],
+    "reponse": "Le copihue",
+    "explication": "Le copihue, liane grimpante aux fleurs rouges en forme de clochette poussant dans les forêts du sud du Chili, est la fleur nationale officielle du pays depuis 1977."
+  },
+  {
+    "id": 11030,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel arbre est l'arbre national du Chili, emblématique de la forêt andine et du sud du pays ?",
+    "choix": ["L'araucaria (pehuén)", "L'alerce", "Le copihue", "Le boldo"],
+    "reponse": "L'araucaria (pehuén)",
+    "explication": "L'araucaria, appelée pehuén par les Mapuches Pehuenches qui se nourrissent de ses pignons comestibles, est un conifère emblématique à la silhouette caractéristique, considéré comme un symbole végétal du Chili."
+  },
+  {
+    "id": 11031,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel jeu traditionnel chilien consiste à lancer des palets vers une cible remplie d'argile, souvent accompagné de vin ?",
+    "choix": ["La rayuela chilienne", "La pétanque", "Le sapo", "Le trompo"],
+    "reponse": "La rayuela chilienne",
+    "explication": "Dans la rayuela chilienne, les joueurs lancent des palets métalliques (tejos) vers une cible en bois remplie d'argile humide, parfois piégée de petits pétards ; le jeu se pratique traditionnellement en buvant du vin entre amis."
+  },
+  {
+    "id": 11032,
+    "pays": "Chili",
+    "theme": "Sport",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel sport traditionnel mapuche, ancêtre du hockey sur gazon, se joue avec un bâton recourbé et une balle ?",
+    "choix": [
+      "Le palín (chueca)",
+      "Le rodéo chilien",
+      "La rayuela",
+      "La chaya"
+    ],
+    "reponse": "Le palín (chueca)",
+    "explication": "Le palín, aussi appelé chueca, est un jeu de balle ancestral mapuche joué avec un bâton recourbé, considéré comme un lointain ancêtre du hockey sur gazon et toujours pratiqué aujourd'hui lors de rencontres communautaires."
+  },
+  {
+    "id": 11033,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel groupe musical chilien, formé dans les années 1960, est associé au mouvement de la Nueva Canción et aux instruments andins traditionnels ?",
+    "choix": [
+      "Inti-Illimani",
+      "Los Jaivas électriques uniquement",
+      "Los Prisioneros",
+      "La Ley"
+    ],
+    "reponse": "Inti-Illimani",
+    "explication": "Fondé en 1967, Inti-Illimani est l'un des groupes emblématiques de la Nueva Canción chilena, mouvement musical engagé mêlant instruments andins traditionnels (charango, quena, zampoña) et messages sociaux et politiques."
+  },
+  {
+    "id": 11034,
+    "pays": "Chili",
+    "theme": "Langues",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel mot argotique chilien, très fréquent dans le langage courant, sert d'interjection en fin de phrase ?",
+    "choix": ["Cachai", "Órale", "Chévere", "Guagua"],
+    "reponse": "Cachai",
+    "explication": "Dérivé du verbe « cachar » (comprendre), « cachai » (« tu piges ? ») est l'une des expressions les plus emblématiques et les plus utilisées de l'espagnol chilien, employée en fin de phrase presque comme une ponctuation orale."
+  },
+  {
+    "id": 11035,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel biscuit ou dessert traditionnel chilien, à base de dulce de leche entre deux couches de pâte, est très populaire ?",
+    "choix": ["L'alfajor", "Le picarón", "Le suspiro limeño", "Le kuchen"],
+    "reponse": "L'alfajor",
+    "explication": "L'alfajor, deux sablés fourrés de manjar (confiture de lait) et parfois enrobés de chocolat ou de sucre glace, est l'une des douceurs les plus populaires et consommées au Chili."
+  },
+  {
+    "id": 11036,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle communauté d'immigrants européens a fortement marqué la culture, l'architecture et la gastronomie de la région des lacs (Valdivia, Puerto Varas, Frutillar) au XIXe siècle ?",
+    "choix": [
+      "Les colons allemands",
+      "Les colons italiens",
+      "Les colons français",
+      "Les colons britanniques"
+    ],
+    "reponse": "Les colons allemands",
+    "explication": "À partir du milieu du XIXe siècle, une importante vague de colonisation allemande s'est installée dans la région des lacs autour de Valdivia, Puerto Varas et Frutillar, y laissant une empreinte architecturale, culinaire (kuchen, bière) et culturelle durable."
+  },
+  {
+    "id": 11037,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle soupe copieuse, à base de viande, pomme de terre, courge et légumes, est un classique de la cuisine familiale chilienne ?",
+    "choix": [
+      "La cazuela",
+      "Le caldillo de congrio",
+      "Le curanto",
+      "Le charquicán"
+    ],
+    "reponse": "La cazuela",
+    "explication": "La cazuela est une soupe généreuse et réconfortante associant viande (bœuf, poulet), pomme de terre, courge, maïs et autres légumes, un classique incontournable de la cuisine familiale chilienne du quotidien."
+  },
+  {
+    "id": 11038,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel plat, sorte de chausson farci de viande hachée, oignon, olive et œuf dur, est l'un des mets les plus emblématiques du Chili ?",
+    "choix": [
+      "L'empanada de pino",
+      "Le pastel de choclo",
+      "La humita",
+      "Le pebre"
+    ],
+    "reponse": "L'empanada de pino",
+    "explication": "L'empanada de pino, chausson farci d'un mélange de viande hachée, d'oignons revenus, d'une olive et d'un morceau d'œuf dur, est l'un des plats les plus emblématiques et les plus consommés du Chili, en particulier lors des Fiestas Patrias."
+  },
+  {
+    "id": 11039,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel cocktail festif chilien mélange du vin blanc pipeño avec de la glace à l'ananas, souvent servi lors des Fiestas Patrias ?",
+    "choix": ["Le terremoto", "Le borgoña", "Le piscola", "Le vaina"],
+    "reponse": "Le terremoto",
+    "explication": "Le terremoto (« tremblement de terre ») associe du vin pipeño blanc doux à une boule de glace à l'ananas flottante, une boisson festive incontournable des Fiestas Patrias, souvent suivie d'une seconde tournée surnommée « réplica »."
+  },
+  {
+    "id": 11040,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Comment appelle-t-on les beignets frits à base de pâte à la citrouille, servis avec une sauce sucrée ou salée ?",
+    "choix": [
+      "Les sopaipillas",
+      "Les picarones",
+      "Les churros",
+      "Les buñuelos"
+    ],
+    "reponse": "Les sopaipillas",
+    "explication": "Les sopaipillas sont des beignets plats frits à base de pâte de citrouille, dégustées aussi bien sucrées (nappées de chancaca, sirop de mélasse) que salées, accompagnées de pebre ou de moutarde selon les régions."
+  },
+  {
+    "id": 11041,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel plat consiste en une grande assiette de frites recouvertes de viande, œufs et oignons, très populaire dans les bars de Valparaíso ?",
+    "choix": [
+      "La chorrillana",
+      "Le lomo a lo pobre",
+      "Le completo",
+      "Le pastel de choclo"
+    ],
+    "reponse": "La chorrillana",
+    "explication": "Née dans les bars populaires de Valparaíso, la chorrillana empile généreusement des frites, des lamelles de viande, des oignons sautés et des œufs, un plat convivial à partager, souvent accompagné de bière."
+  },
+  {
+    "id": 11042,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel poisson des eaux froides chiliennes, célébré dans une ode de Pablo Neruda, est réputé pour sa chair fine ?",
+    "choix": ["Le congre (congrio)", "Le saumon", "La sole", "Le merlu"],
+    "reponse": "Le congre (congrio)",
+    "explication": "Pablo Neruda a consacré au congre son célèbre poème « Oda al caldillo de congrio », vantant le bouillon de congre comme un plat sacré de la cuisine côtière chilienne, préparé avec ce poisson à la chair fine et délicate."
+  },
+  {
+    "id": 11043,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle épice traditionnelle mapuche, à base de piment fumé et séché, connaît un fort regain de popularité dans la gastronomie chilienne contemporaine ?",
+    "choix": ["Le merkén", "Le pebre", "L'ají cacho de cabra", "Le color"],
+    "reponse": "Le merkén",
+    "explication": "Préparé à partir de piments fumés au bois puis séchés et broyés avec des graines de coriandre, le merkén est un condiment ancestral mapuche qui connaît aujourd'hui un fort regain de popularité dans la gastronomie chilienne, y compris dans les restaurants gastronomiques."
+  },
+  {
+    "id": 11044,
+    "pays": "Chili",
+    "theme": "Économie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel fruit, exporté en grande quantité vers la Chine notamment lors du Nouvel An chinois, est devenu l'un des piliers des exportations agricoles chiliennes ?",
+    "choix": ["La cerise", "La pomme", "Le raisin de table", "L'avocat"],
+    "reponse": "La cerise",
+    "explication": "Grâce au décalage des saisons entre les deux hémisphères, le Chili exporte d'énormes quantités de cerises fraîches vers la Chine juste à temps pour le Nouvel An chinois, où ce fruit est associé à la prospérité, faisant du Chili le premier fournisseur mondial de cerises pour ce marché."
+  },
+  {
+    "id": 11045,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel mollusque, souvent servi cru avec du citron et de l'oignon en entrée, est très populaire sur les côtes chiliennes ?",
+    "choix": [
+      "Les machas (couteaux de mer)",
+      "Les calamars",
+      "Les poulpes",
+      "Les crabes"
+    ],
+    "reponse": "Les machas (couteaux de mer)",
+    "explication": "Les machas, sortes de couteaux de mer typiques des côtes chiliennes, se dégustent aussi bien crues, arrosées de citron et parsemées d'oignon finement haché, que gratinées au four (machas a la parmesana)."
+  },
+  {
+    "id": 11046,
+    "pays": "Chili",
+    "theme": "Économie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle grande enseigne de distribution chilienne, présente dans plusieurs pays d'Amérique latine, illustre la puissance du secteur agroalimentaire au Chili ?",
+    "choix": ["Cencosud", "Falabella uniquement", "Ripley", "La Polar"],
+    "reponse": "Cencosud",
+    "explication": "Propriétaire notamment des enseignes Jumbo et Santa Isabel, le groupe chilien Cencosud est l'un des plus grands conglomérats de distribution d'Amérique latine, présent dans plusieurs pays de la région."
+  },
+  {
+    "id": 11047,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel dessert, à base de blanc d'œuf battu, lait et vanille, cuit doucement au four, est un classique simple de la pâtisserie chilienne ?",
+    "choix": [
+      "La leche asada",
+      "Le flan",
+      "Le arroz con leche",
+      "Le mote con huesillo"
+    ],
+    "reponse": "La leche asada",
+    "explication": "La leche asada est un dessert simple et léger, proche du flan, préparé avec des blancs d'œufs battus, du lait et de la vanille, cuit doucement au four au bain-marie jusqu'à obtenir une texture ferme et onctueuse."
+  },
+  {
+    "id": 11048,
+    "pays": "Chili",
+    "theme": "Sport",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel surnom porte l'équipe nationale masculine de football du Chili ?",
+    "choix": ["La Roja", "La Albiceleste", "La Verde", "La Tricolor"],
+    "reponse": "La Roja",
+    "explication": "En référence à la couleur de son maillot, l'équipe nationale masculine de football du Chili est surnommée « La Roja »."
+  },
+  {
+    "id": 11049,
+    "pays": "Chili",
+    "theme": "Faune",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel est le plus petit cerf du monde, présent dans les forêts tempérées du sud du Chili et d'Argentine ?",
+    "choix": [
+      "Le pudú",
+      "Le huemul",
+      "Le chevreuil andin",
+      "Le cerf des pampas"
+    ],
+    "reponse": "Le pudú",
+    "explication": "Ne dépassant guère 40 cm au garrot, le pudú est le plus petit cervidé du monde, un habitant discret des forêts denses et humides du sud du Chili et d'Argentine."
+  },
+  {
+    "id": 11050,
+    "pays": "Chili",
+    "theme": "Faune",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel renard, extrêmement rare et endémique, ne vit que sur l'île de Chiloé et dans une petite zone du parc national Nahuelbuta ?",
+    "choix": [
+      "Le renard de Darwin (zorro de Darwin)",
+      "Le renard gris andin",
+      "Le renard roux de Patagonie",
+      "Le renard des pampas"
+    ],
+    "reponse": "Le renard de Darwin (zorro de Darwin)",
+    "explication": "Décrit pour la première fois par Charles Darwin lors de son passage sur l'île de Chiloé, le renard de Darwin est l'un des canidés les plus menacés au monde, avec une population totale estimée à seulement quelques centaines d'individus."
+  },
+  {
+    "id": 11051,
+    "pays": "Chili",
+    "theme": "Faune",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel type d'algue géante, formant de véritables forêts sous-marines le long des côtes rocheuses chiliennes, abrite une riche biodiversité marine ?",
+    "choix": [
+      "Le huiro (varech géant)",
+      "La posidonie",
+      "Le corail mou",
+      "La sargasse"
+    ],
+    "reponse": "Le huiro (varech géant)",
+    "explication": "Le huiro, ou varech géant (Macrocystis pyrifera), forme de véritables forêts sous-marines pouvant atteindre plusieurs dizaines de mètres de haut le long des côtes rocheuses du Chili, un écosystème essentiel pour la biodiversité marine."
+  },
+  {
+    "id": 11052,
+    "pays": "Chili",
+    "theme": "Faune",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel grand oiseau coureur, cousin de l'autruche africaine, vit dans les steppes de Patagonie chilienne et argentine ?",
+    "choix": ["Le ñandú", "Le kiwi", "Le casoar", "L'émeu"],
+    "reponse": "Le ñandú",
+    "explication": "Le ñandú, grand oiseau incapable de voler mais excellent coureur, peuple les steppes de Patagonie chilienne et argentine ; c'est le plus grand oiseau des Amériques et un lointain cousin de l'autruche africaine."
+  },
+  {
+    "id": 11053,
+    "pays": "Chili",
+    "theme": "Faune",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel arbre géant et à croissance très lente peut vivre plus de 3 000 ans dans le sud du Chili ?",
+    "choix": ["L'alerce", "L'araucaria", "Le boldo", "Le coigüe"],
+    "reponse": "L'alerce",
+    "explication": "L'alerce (Fitzroya cupressoides), conifère à croissance extrêmement lente du sud du Chili, compte parmi les êtres vivants les plus vieux du monde ; certains spécimens, dont le célèbre « Gran Abuelo », dépasseraient 3 000, voire 5 000 ans."
+  },
+  {
+    "id": 11054,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle station balnéaire, jouxtant Valparaíso, est réputée pour sa longue plage, ses casinos et sa célèbre horloge florale ?",
+    "choix": ["Viña del Mar", "Reñaca", "Concón", "Algarrobo"],
+    "reponse": "Viña del Mar",
+    "explication": "Surnommée la « Ciudad Jardín » (ville jardin), Viña del Mar est réputée pour sa longue plage, son casino historique et sa célèbre horloge florale plantée de fleurs vivantes, l'une des images les plus photographiées du Chili."
+  },
+  {
+    "id": 11055,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle ville sert de porte d'entrée principale pour rejoindre le parc national Torres del Paine, en Patagonie chilienne ?",
+    "choix": ["Puerto Natales", "Punta Arenas", "Puerto Williams", "Coyhaique"],
+    "reponse": "Puerto Natales",
+    "explication": "Puerto Natales, petite ville portuaire de Patagonie chilienne, sert de porte d'entrée incontournable pour la majorité des visiteurs se rendant au parc national Torres del Paine, à environ une heure de route."
+  },
+  {
+    "id": 11056,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle ville portuaire du sud du Chili, entrée principale vers l'archipel de Chiloé et la Patagonie, possède un aéroport international important ?",
+    "choix": ["Puerto Montt", "Valdivia", "Osorno", "Puerto Varas"],
+    "reponse": "Puerto Montt",
+    "explication": "Puerto Montt est la principale porte d'entrée vers l'archipel de Chiloé et la Patagonie chilienne, dotée d'un aéroport international qui en fait un carrefour logistique et touristique essentiel du sud du pays."
+  },
+  {
+    "id": 11057,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle est la capitale de l'archipel de Chiloé, connue pour son église en bois multicolore classée à l'UNESCO ?",
+    "choix": ["Castro", "Ancud", "Quellón", "Dalcahue"],
+    "reponse": "Castro",
+    "explication": "Castro, capitale de la province de Chiloé, est célèbre pour son église en bois aux couleurs vives donnant sur la place centrale, l'une des seize églises chilotes classées au patrimoine mondial de l'UNESCO."
+  },
+  {
+    "id": 11058,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle ville universitaire et fluviale du sud du Chili, fondée par des colons allemands, est réputée pour ses brasseries et son marché aux lions de mer ?",
+    "choix": ["Valdivia", "Puerto Varas", "Frutillar", "Osorno"],
+    "reponse": "Valdivia",
+    "explication": "Fondée sur les rives de son fleuve, Valdivia est une ville universitaire à forte empreinte allemande, réputée pour ses brasseries artisanales et son marché fluvial (Mercado Fluvial) où lions de mer et pélicans se disputent les restes de poisson."
+  },
+  {
+    "id": 11059,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle ville, considérée comme la « capitale » culturelle et historique du peuple mapuche, est aussi la ville de l'enfance de Pablo Neruda ?",
+    "choix": ["Temuco", "Concepción", "Los Ángeles", "Villarrica"],
+    "reponse": "Temuco",
+    "explication": "Temuco, souvent considérée comme la capitale culturelle et historique du peuple mapuche de la région de l'Araucanie, est également la ville où Pablo Neruda a passé son enfance, une période qui a profondément marqué son œuvre poétique."
+  },
+  {
+    "id": 11060,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle ville du nord du Chili est associée à la mine San José, où 33 mineurs sont restés piégés pendant 69 jours en 2010 ?",
+    "choix": ["Copiapó", "Antofagasta", "Calama", "Iquique"],
+    "reponse": "Copiapó",
+    "explication": "La mine San José, théâtre en 2010 du sauvetage spectaculaire de 33 mineurs restés piégés 69 jours sous terre, se trouve à quelques kilomètres de Copiapó, capitale de la région d'Atacama."
+  },
+  {
+    "id": 11061,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Comment se nomme l'unique agglomération de l'île de Pâques, où réside la quasi-totalité de la population de l'île ?",
+    "choix": ["Hanga Roa", "Rano Raraku", "Orongo", "Anakena"],
+    "reponse": "Hanga Roa",
+    "explication": "Hanga Roa est l'unique véritable agglomération de l'île de Pâques, où réside la quasi-totalité de la population de l'île, ainsi que l'aéroport et le port principal."
+  },
+  {
+    "id": 11062,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle est la magnitude du séisme, survenu près de Valdivia le 22 mai 1960, qui reste à ce jour le plus puissant jamais enregistré au Chili ?",
+    "choix": ["9,5", "8,8", "9,0", "7,9"],
+    "reponse": "9,5",
+    "explication": "Le séisme de Valdivia du 22 mai 1960, d'une magnitude de 9,5, reste à ce jour le séisme le plus puissant jamais enregistré non seulement au Chili mais dans le monde entier depuis l'existence de mesures sismographiques modernes."
+  },
+  {
+    "id": 11063,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel gigantesque observatoire international, situé sur le plateau de Chajnantor à plus de 5 000 mètres d'altitude dans l'Atacama, est l'un des plus grands réseaux de radiotélescopes du monde ?",
+    "choix": [
+      "L'ALMA (Atacama Large Millimeter Array)",
+      "Le VLT (Very Large Telescope)",
+      "L'observatoire de La Silla",
+      "Le télescope Gemini Sud"
+    ],
+    "reponse": "L'ALMA (Atacama Large Millimeter Array)",
+    "explication": "Composé de 66 antennes radiotélescopiques réparties sur le plateau désertique de Chajnantor, à plus de 5 000 m d'altitude, l'ALMA est le fruit d'une collaboration internationale et l'un des plus puissants réseaux de radiotélescopes millimétriques au monde."
+  },
+  {
+    "id": 11064,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle sculpture monumentale en béton, représentant une main géante émergeant du sable, se dresse au milieu du désert d'Atacama, près d'Antofagasta ?",
+    "choix": [
+      "La Mano del Desierto",
+      "La Mano de Punta del Este",
+      "El Monumento a la Sed",
+      "La Mano de Fierro"
+    ],
+    "reponse": "La Mano del Desierto",
+    "explication": "Réalisée par le sculpteur chilien Mario Irarrázabal en 1992, la Mano del Desierto est une sculpture monumentale en béton représentant une main géante émergeant du sable du désert d'Atacama, devenue une icône visuelle du nord du Chili."
+  },
+  {
+    "id": 11065,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel complexe touristique chilien a détenu pendant plusieurs années, selon le livre Guinness des records, le titre de plus grande piscine artificielle du monde, avec plus d'un kilomètre de long ?",
+    "choix": [
+      "San Alfonso del Mar (Algarrobo)",
+      "Las Torres del Paine Resort",
+      "Rocas de Santo Domingo",
+      "Reserva Marina de Valparaíso"
+    ],
+    "reponse": "San Alfonso del Mar (Algarrobo)",
+    "explication": "Le complexe résidentiel San Alfonso del Mar, à Algarrobo, abrite une piscine artificielle à l'eau salée de plus d'un kilomètre de long, qui a détenu pendant plusieurs années le record Guinness de la plus grande piscine artificielle du monde."
+  },
+  {
+    "id": 11066,
+    "pays": "Chili",
+    "theme": "Société",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel indicatif téléphonique international est attribué au Chili ?",
+    "choix": ["+56", "+51", "+54", "+55"],
+    "reponse": "+56",
+    "explication": "L'indicatif téléphonique international du Chili est le +56, à composer avant le numéro local pour appeler depuis l'étranger."
+  },
+  {
+    "id": 11067,
+    "pays": "Chili",
+    "theme": "Société",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel est le domaine national de premier niveau (extension internet) attribué au Chili ?",
+    "choix": [".cl", ".ch", ".cr", ".co"],
+    "reponse": ".cl",
+    "explication": "Le domaine national de premier niveau du Chili est « .cl », à ne pas confondre avec le « .ch » de la Suisse."
+  },
+  {
+    "id": 11068,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle était la monnaie officielle du Chili avant l'introduction de l'actuel peso chilien en 1975 ?",
+    "choix": [
+      "L'escudo chilien",
+      "Le sol chilien",
+      "Le real chilien",
+      "Le sucre chilien"
+    ],
+    "reponse": "L'escudo chilien",
+    "explication": "Avant l'introduction de l'actuel peso chilien en 1975, la monnaie officielle du pays était l'escudo chilien, lui-même remplaçant l'ancien peso, dans un contexte de forte inflation qui a conduit à plusieurs changements monétaires successifs au XXe siècle."
+  },
+  {
+    "id": 11069,
+    "pays": "Chili",
+    "theme": "Nature",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel phénomène naturel, la prolifération d'algues toxiques, affecte périodiquement les côtes chiliennes du sud, menaçant la pêche et l'aquaculture ?",
+    "choix": [
+      "La marée rouge (marea roja)",
+      "El Niño",
+      "La marée noire",
+      "L'upwelling"
+    ],
+    "reponse": "La marée rouge (marea roja)",
+    "explication": "La marée rouge (marea roja) désigne la prolifération d'algues microscopiques toxiques qui colorent parfois les eaux côtières du sud du Chili, contaminant mollusques et poissons et menaçant périodiquement la pêche artisanale et l'aquaculture."
+  },
+  {
+    "id": 11070,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Selon le folklore de l'archipel de Chiloé, quel petit être difforme et velu, vivant dans la forêt, serait responsable des grossesses hors mariage ?",
+    "choix": ["El Trauco", "El Caleuche", "El Piuchén", "El Camahueto"],
+    "reponse": "El Trauco",
+    "explication": "El Trauco est un petit être difforme et velu du folklore chilote, réputé pour son pouvoir de séduction irrésistible sur les femmes ; traditionnellement, on lui attribuait la responsabilité des grossesses hors mariage dans les communautés insulaires."
+  },
+  {
+    "id": 11071,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle créature féminine du folklore chilote, à l'apparence sirénienne et bienveillante, serait chargée de veiller sur la richesse des mers et le sort des pêcheurs ?",
+    "choix": ["La Pincoya", "La Llorona", "La Tirana", "La Calchona"],
+    "reponse": "La Pincoya",
+    "explication": "La Pincoya, jeune femme d'une grande beauté associée à la mer dans le folklore de Chiloé, veillerait sur l'abondance des ressources marines et déterminerait, par la direction de sa danse sur le rivage, si la pêche sera bonne ou mauvaise."
+  },
+  {
+    "id": 11072,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Comment s'appelle, dans le folklore de Chiloé, le navire fantôme brillamment illuminé qui naviguerait la nuit, mené par un équipage de sorciers ?",
+    "choix": ["El Caleuche", "El Trauco", "La Pincoya", "El Millalobo"],
+    "reponse": "El Caleuche",
+    "explication": "Le Caleuche est un navire fantôme du folklore de Chiloé, réputé naviguer la nuit brillamment illuminé et animé par un équipage de sorciers, capable de disparaître instantanément à l'approche d'intrus."
+  },
+  {
+    "id": 11073,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Comment se nomme, dans le folklore de Chiloé, le « roi de la mer », figure paternelle associée à la Pincoya, mi-homme mi-loup marin ?",
+    "choix": ["El Millalobo", "El Trauco", "El Caleuche", "El Basilisco"],
+    "reponse": "El Millalobo",
+    "explication": "El Millalobo (« loup d'or »), mi-homme mi-loup marin, est considéré dans le folklore de Chiloé comme le roi des mers et le père de la Pincoya, régnant sur les créatures et les richesses marines de l'archipel."
+  },
+  {
+    "id": 11074,
+    "pays": "Chili",
+    "theme": "Mythologie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Dans la mythologie mapuche, comment se nomme le serpent-vampire volant, capable de pétrifier ses victimes ou de sucer leur sang, redouté dans le folklore rural du centre-sud du Chili ?",
+    "choix": ["Le Piuchén", "Le Pillán", "Le Trauco", "Le Camahueto"],
+    "reponse": "Le Piuchén",
+    "explication": "Le Piuchén est une créature redoutée de la mythologie mapuche, décrite comme un serpent volant ou un lézard ailé capable, selon les récits, de pétrifier ses victimes du regard ou de sucer leur sang."
+  },
+  {
+    "id": 11075,
+    "pays": "Chili",
+    "theme": "Mythologie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Selon la mythologie mapuche, quel être de feu vivrait à l'intérieur des volcans et serait à l'origine des éruptions volcaniques, réclamant parfois des sacrifices pour être apaisé ?",
+    "choix": ["Le Pillán", "Le Piuchén", "Ngenechen", "Wekufe"],
+    "reponse": "Le Pillán",
+    "explication": "Le Pillán est, dans la mythologie mapuche, un esprit de feu vivant à l'intérieur des volcans, considéré comme responsable des éruptions et parfois associé aux esprits des ancêtres, que l'on cherchait à apaiser par des rituels et offrandes."
+  },
+  {
+    "id": 11076,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "En août 2014, un vol commis en seulement quelques minutes sur le tarmac de l'aéroport de Santiago, visant un camion blindé, est resté dans les mémoires sous quel surnom ?",
+    "choix": [
+      "Le « Vol du siècle » (Robo del Siglo)",
+      "L'« Or de Santiago »",
+      "Le « Casse d'Atacama »",
+      "Le « Coup du tarmac »"
+    ],
+    "reponse": "Le « Vol du siècle » (Robo del Siglo)",
+    "explication": "En août 2014, un commando bien organisé a dérobé plusieurs millions de dollars sur le tarmac de l'aéroport de Santiago en quelques minutes à peine, un braquage resté célèbre sous le nom de « Robo del Siglo » (le vol du siècle)."
+  },
+  {
+    "id": 11077,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Le 30 décembre 1996, une évasion spectaculaire de la prison de haute sécurité de Santiago a marqué le pays. Par quel moyen les quatre détenus se sont-ils évadés ?",
+    "choix": [
+      "En hélicoptère",
+      "En creusant un tunnel",
+      "Déguisés en gardiens",
+      "Par les égouts"
+    ],
+    "reponse": "En hélicoptère",
+    "explication": "Le 30 décembre 1996, quatre détenus se sont évadés de la prison de haute sécurité de Santiago à bord d'un hélicoptère détourné qui s'est posé directement dans la cour de la prison, un événement resté célèbre dans les mémoires chiliennes."
+  },
+  {
+    "id": 11078,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "En 1998, l'arrestation à Londres d'un ancien chef d'État chilien, suite à un mandat international espagnol, a provoqué une bataille juridique retentissante. De qui s'agissait-il ?",
+    "choix": [
+      "Augusto Pinochet",
+      "Salvador Allende",
+      "Eduardo Frei Montalva",
+      "Carlos Ibáñez del Campo"
+    ],
+    "reponse": "Augusto Pinochet",
+    "explication": "En octobre 1998, l'ancien dictateur Augusto Pinochet fut arrêté à Londres à la demande du juge espagnol Baltasar Garzón pour des crimes commis pendant sa dictature, déclenchant une bataille juridique internationale retentissante sur l'immunité des anciens chefs d'État."
+  },
+  {
+    "id": 11079,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel dispositif ingénieux, déployé dans certaines zones du désert d'Atacama, permet de capter l'eau contenue dans le brouillard côtier grâce à de grands filets suspendus ?",
+    "choix": [
+      "Les atrapanieblas (capteurs de brouillard)",
+      "Les puits artésiens",
+      "Les réservoirs souterrains",
+      "Les canaux incas"
+    ],
+    "reponse": "Les atrapanieblas (capteurs de brouillard)",
+    "explication": "Face à l'aridité extrême du désert d'Atacama, de grands filets suspendus appelés « atrapanieblas » captent l'humidité du brouillard côtier (la camanchaca), permettant de récupérer une eau précieuse pour certaines communautés locales."
+  },
+  {
+    "id": 11080,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "En juillet 2019, un événement astronomique rare a attiré des centaines de milliers de visiteurs dans la région de La Serena et Coquimbo. De quel phénomène s'agissait-il ?",
+    "choix": [
+      "Une éclipse solaire totale",
+      "Un passage de comète",
+      "Une pluie de météores exceptionnelle",
+      "Une aurore australe"
+    ],
+    "reponse": "Une éclipse solaire totale",
+    "explication": "Le 2 juillet 2019, une éclipse solaire totale visible depuis la région de La Serena et Coquimbo a attiré des centaines de milliers de visiteurs venus du monde entier, profitant des ciels particulièrement dégagés du nord du Chili."
+  },
+  {
+    "id": 11081,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "difficile",
+    "type": "qcm",
+    "question": "En 1978, un conflit territorial autour de trois îles du canal de Beagle a mené le Chili et l'Argentine au bord de la guerre. Quelle autorité a finalement été sollicitée pour une médiation qui évita le conflit ?",
+    "choix": [
+      "Le Vatican (le pape Jean-Paul II)",
+      "L'ONU",
+      "L'Organisation des États américains",
+      "Les États-Unis"
+    ],
+    "reponse": "Le Vatican (le pape Jean-Paul II)",
+    "explication": "Alors que le Chili et l'Argentine étaient au bord de la guerre en 1978 pour le contrôle de trois îles du canal de Beagle, le pape Jean-Paul II intervint comme médiateur, une démarche qui aboutit en 1984 au traité de paix et d'amitié entre les deux pays."
+  },
+  {
+    "id": 11082,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "vf",
+    "question": "Vrai/faux : le pastel de choclo est assaisonné avec du chocolat noir râpé.",
+    "reponse": "Faux",
+    "explication": "Malgré son nom, le pastel de choclo n'a rien à voir avec le chocolat : c'est un gratin de maïs (choclo) doux mixé recouvrant une garniture de viande hachée, poulet, oignons, olives et œuf dur, parfois légèrement sucré en surface mais sans chocolat."
+  },
+  {
+    "id": 11083,
+    "pays": "Chili",
+    "theme": "Langues",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : L'expression « tirado de las mechas » signifie que quelque chose est tiré par les cheveux / absurde.",
+    "reponse": "Vrai",
+    "explication": "L'expression chilienne « tirado de las mechas » (littéralement « tiré par les mèches de cheveux ») signifie effectivement que quelque chose est exagéré, forcé ou peu crédible, l'équivalent de « tiré par les cheveux » en français."
+  },
+  {
+    "id": 11084,
+    "pays": "Chili",
+    "theme": "Société",
+    "difficulte": "facile",
+    "type": "vf",
+    "question": "Vrai/faux : Au Chili, le pain chaud s'achète souvent au kilo et non à la pièce dans les boulangeries.",
+    "reponse": "Vrai",
+    "explication": "Il est effectivement courant au Chili d'acheter le pain (notamment la hallulla ou la marraqueta) au kilo plutôt qu'à l'unité dans les boulangeries de quartier, une habitude bien ancrée compte tenu de la place centrale du pain dans l'alimentation chilienne."
+  },
+  {
+    "id": 11085,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : Le Manjarate est un dessert lacté industriel culte au Chili, mousse au manjar couverte d'une fine couche de chocolat craquant.",
+    "reponse": "Vrai",
+    "explication": "Le Manjarate est effectivement un dessert industriel emblématique du Chili : une mousse à la confiture de lait (manjar) recouverte d'une fine couche de chocolat craquant, vendue en petits pots depuis les années 1980 et devenue culte."
+  },
+  {
+    "id": 11086,
+    "pays": "Chili",
+    "theme": "Faune",
+    "difficulte": "facile",
+    "type": "vf",
+    "question": "Vrai/faux : Le Calatillo est un petit poisson volant des lacs de Patagonie.",
+    "reponse": "Faux",
+    "explication": "Le « Calatillo » n'est pas une espèce animale reconnue : ni poisson volant, ni habitant des lacs de Patagonie ; ce nom ne correspond à aucune espèce répertoriée de la faune chilienne."
+  },
+  {
+    "id": 11087,
+    "pays": "Chili",
+    "theme": "Langues",
+    "difficulte": "facile",
+    "type": "vf",
+    "question": "Vrai/faux : En argot chilien, « estar pato » signifie ne plus avoir un centime en poche.",
+    "reponse": "Vrai",
+    "explication": "L'expression chilienne « estar pato » (littéralement « être canard ») signifie effectivement être fauché, ne plus avoir d'argent, une expression très courante dans le langage familier."
+  },
+  {
+    "id": 11088,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : La boisson gazeuse Pap est aromatisée à la fraise.",
+    "reponse": "Faux",
+    "explication": "Contrairement à une idée reçue, le soda Pap n'est pas aromatisé à la fraise mais à la crème de papaye ; c'est sa boisson sœur Bilz qui présente une saveur plus proche des fruits rouges."
+  },
+  {
+    "id": 11089,
+    "pays": "Chili",
+    "theme": "Langues",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : Les Chiliens appellent communément leurs grands-parents « Tata » et « Yaya ».",
+    "reponse": "Faux",
+    "explication": "Au Chili, les grands-parents sont traditionnellement appelés « Tata » (grand-père) et « Nana » (grand-mère) ; le terme « Yaya », lui, est plutôt utilisé en Espagne ou dans d'autres pays hispanophones comme l'Argentine."
+  },
+  {
+    "id": 11090,
+    "pays": "Chili",
+    "theme": "Flore",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel arbre de la forêt tempérée chilienne possède une écorce orange vif/cannelle très lisse et froide au toucher ?",
+    "choix": ["L'arrayán", "Le coigüe", "Le canelo", "Le ulmo"],
+    "reponse": "L'arrayán",
+    "explication": "L'arrayán (myrte du Chili) se reconnaît entre tous à son écorce lisse, fine et froide au toucher, d'une couleur orange-cannelle caractéristique ; certaines forêts pures d'arrayanes, comme dans le parc national Villarrica, forment des paysages presque irréels."
+  },
+  {
+    "id": 11091,
+    "pays": "Chili",
+    "theme": "Faune",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle espèce de grenouille chilienne a la particularité unique de voir le mâle couver les œufs puis élever les têtards à l'intérieur de sa poche vocale jusqu'à leur métamorphose ?",
+    "choix": [
+      "La grenouille de Darwin (Rhinoderma darwinii)",
+      "La grenouille du Chili commune",
+      "Le crapaud de Loa",
+      "La rainette australe"
+    ],
+    "reponse": "La grenouille de Darwin (Rhinoderma darwinii)",
+    "explication": "Découverte par Charles Darwin lors de son expédition, la grenouille de Darwin présente un mode de reproduction unique dans le règne animal : le mâle avale les têtards et les héberge dans sa poche vocale jusqu'à leur métamorphose complète en petites grenouilles."
+  },
+  {
+    "id": 11092,
+    "pays": "Chili",
+    "theme": "Faune",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel petit rongeur chilien très social est réputé pour creuser d'immenses galeries et communiquer par des petits cris stridents ?",
+    "choix": [
+      "Le dégu (octodon degus)",
+      "Le coruro",
+      "Le chinchilla sauvage",
+      "Le viscacha"
+    ],
+    "reponse": "Le dégu (octodon degus)",
+    "explication": "Le dégu est un petit rongeur diurne extrêmement social, vivant en colonies dans d'immenses réseaux de galeries souterraines et communiquant par toute une gamme de cris et de sifflements, ce qui en fait un modèle d'étude prisé en neurosciences."
+  },
+  {
+    "id": 11093,
+    "pays": "Chili",
+    "theme": "Société",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle carte magnétique rechargeable est indispensable pour emprunter le métro et les bus (Red) à Santiago ?",
+    "choix": [
+      "La tarjeta bip!",
+      "La Multivía",
+      "La Tarjeta Movistar",
+      "La RedCard"
+    ],
+    "reponse": "La tarjeta bip!",
+    "explication": "La tarjeta bip! est la carte magnétique rechargeable indispensable pour emprunter le métro et le réseau de bus Red (Transantiago) à Santiago, un système intégré unique pour l'ensemble des transports publics de la capitale."
+  },
+  {
+    "id": 11094,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel petit jeu en bois consiste à rattraper une boule percée fixée à un bâton par une ficelle (équivalent du bilboquet) ?",
+    "choix": ["L'emboque", "Le trompo", "La payana", "El luche"],
+    "reponse": "L'emboque",
+    "explication": "L'emboque est l'équivalent chilien du bilboquet : un jeu en bois composé d'un bâton pointu et d'une boule percée reliée par une ficelle, que le joueur doit rattraper en un mouvement précis du poignet."
+  },
+  {
+    "id": 11095,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Lors des Fiestas Patrias (18 et 19 septembre), quelle est la danse nationale officielle du Chili, simulant la cour d'un coq autour d'une poule avec un mouchoir blanc ?",
+    "choix": [
+      "La cueca",
+      "La marinera",
+      "La zamacueca péruvienne uniquement",
+      "Le tango"
+    ],
+    "reponse": "La cueca",
+    "explication": "La cueca, déclarée danse nationale en 1979, met en scène un jeu de séduction où l'homme, mouchoir blanc à la main, tourne autour de sa partenaire comme un coq courtisant une poule, dans une chorégraphie codifiée dansée lors de toutes les Fiestas Patrias."
+  },
+  {
+    "id": 11096,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel cocktail rafraîchissant d'été est composé d'un melon creusé, rempli de vin blanc et de sucre ?",
+    "choix": ["Le melón con vino", "Le terremoto", "Le borgoña", "Le vaina"],
+    "reponse": "Le melón con vino",
+    "explication": "Le melón con vino se prépare en creusant un melon pour y verser du vin blanc et du sucre, laissant macérer l'ensemble avant de le déguster à la cuillère, une boisson-dessert rafraîchissante très populaire pendant l'été chilien."
+  },
+  {
+    "id": 11097,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Qu'est-ce que le « Mote con Huesillo », la boisson/dessert rafraîchissante vendue dans des chariots de rue tout l'été ?",
+    "choix": [
+      "Du blé mondé (mote) et une pêche séchée réhydratée (huesillo), servis dans un jus sucré parfumé à la cannelle",
+      "Une glace pilée aux fruits rouges",
+      "Un smoothie de mangue et de menthe",
+      "Une limonade au gingembre"
+    ],
+    "reponse": "Du blé mondé (mote) et une pêche séchée réhydratée (huesillo), servis dans un jus sucré parfumé à la cannelle",
+    "explication": "Vendu dans des chariots de rue tout l'été, le mote con huesillo associe des grains de blé mondé (mote) et une pêche séchée réhydratée (huesillo) baignant dans un jus sucré parfumé à la cannelle, une boisson-dessert rafraîchissante emblématique du Chili."
+  },
+  {
+    "id": 11098,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Le Chili est l'un des plus grands consommateurs de pain au monde. Quel est ce pain plat, rond et piqué à la fourchette, à la mie dense et cuit rapidement ?",
+    "choix": [
+      "La hallulla",
+      "La marraqueta",
+      "La baguette",
+      "Le pan amasado uniquement"
+    ],
+    "reponse": "La hallulla",
+    "explication": "La hallulla est un pain plat et rond, reconnaissable aux petits trous piqués à la fourchette sur le dessus, à la mie dense ; avec la marraqueta, elle compte parmi les pains les plus consommés au Chili, l'un des plus grands consommateurs de pain per capita au monde."
+  },
+  {
+    "id": 11099,
+    "pays": "Chili",
+    "theme": "Société",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Comment appelle-t-on le repas léger du début de soirée (entre 18h et 20h), très ancré dans la routine familiale chilienne, où l'on boit du thé en mangeant du pain garni ?",
+    "choix": [
+      "Le « once »",
+      "Le « merienda »",
+      "Le « desayuno »",
+      "Le « aperitivo »"
+    ],
+    "reponse": "Le « once »",
+    "explication": "Le « once » est un repas léger pris en fin d'après-midi ou début de soirée, composé de thé (ou de café) accompagné de pain garni, de gâteaux ou de confiture ; profondément ancré dans la routine familiale chilienne, il tiendrait son nom, selon une légende populaire, du nombre de lettres du mot « aguardiente »."
+  },
+  {
+    "id": 11100,
+    "pays": "Chili",
+    "theme": "Société",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Que désigne le terme « Luca » dans les transactions financières de tous les jours au Chili ?",
+    "choix": [
+      "Mille pesos chiliens",
+      "Cent pesos chiliens",
+      "Un dollar américain",
+      "Dix mille pesos chiliens"
+    ],
+    "reponse": "Mille pesos chiliens",
+    "explication": "« Luca » est le terme familier chilien désignant mille pesos ; on dira ainsi « dos lucas » pour deux mille pesos, une unité de compte omniprésente dans le langage courant."
+  },
+  {
+    "id": 11101,
+    "pays": "Chili",
+    "theme": "Langues",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Dans le langage courant au Chili, que signifie le mot ultra-utilisé « cachai » à la fin d'une phrase ?",
+    "choix": [
+      "« Tu comprends ? » / « Tu piges ? »",
+      "« Tu es sûr ? »",
+      "« Ça te dit ? »",
+      "« C'est vrai ? »"
+    ],
+    "reponse": "« Tu comprends ? » / « Tu piges ? »",
+    "explication": "Dérivé du verbe « cachar » (comprendre, saisir), « cachai » est utilisé en fin de phrase dans tout le Chili pour vérifier que l'interlocuteur suit bien la conversation, l'équivalent de « tu vois ? » ou « tu piges ? »."
+  },
+  {
+    "id": 11102,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "facile",
+    "type": "vf",
+    "question": "Vrai/faux : Le mot chilien « fonda » désigne les enceintes ou chapiteaux éphémères installés pendant les Fiestas Patrias pour manger, boire et danser la cueca.",
+    "reponse": "Vrai",
+    "explication": "Les fondas sont effectivement des enceintes ou chapiteaux temporaires, souvent en roseaux et toile, installés pendant les Fiestas Patrias où l'on mange des empanadas, boit du terremoto et danse la cueca."
+  },
+  {
+    "id": 11103,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : La boisson « Bilz y Pap » est un soda chilien mythique créé au début du XXe siècle, dont les mascottes extraterrestres Bip et Bup sont célèbres dans tout le pays.",
+    "reponse": "Vrai",
+    "explication": "Bilz (créé en 1905) et Pap (créé un peu plus tard) sont deux sodas chiliens emblématiques, commercialisés ensemble sous le nom « Bilz y Pap » avec pour mascottes deux extraterrestres nommés Bip et Bup, une image publicitaire restée culte dans le pays."
+  },
+  {
+    "id": 11104,
+    "pays": "Chili",
+    "theme": "Faune",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : L'archipel de Chiloé est réputé pour posséder une race de poule indigène (la poule Mapuche ou Araucana) qui pond des œufs aux coquilles bleues ou vert émeraude.",
+    "reponse": "Vrai",
+    "explication": "La poule Araucana (ou poule mapuche), race indigène du Chili, est réputée pour pondre des œufs aux coquilles naturellement bleutées ou vert émeraude, une particularité génétique rare qui en fait une race très recherchée dans le monde entier."
+  },
+  {
+    "id": 11105,
+    "pays": "Chili",
+    "theme": "Flore",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : La fleur Añañuca ne pousse que dans les arbres de la forêt valdivienne.",
+    "reponse": "Faux",
+    "explication": "L'añañuca est en réalité une fleur bulbeuse qui pousse au sol dans les régions désertiques et semi-arides du nord du Chili (notamment lors du phénomène du « désert fleuri »), et non une plante épiphyte poussant dans les arbres de la forêt valdivienne."
+  },
+  {
+    "id": 11106,
+    "pays": "Chili",
+    "theme": "Flore",
+    "difficulte": "difficile",
+    "type": "vf",
+    "question": "Vrai/faux : Le Mataojo est un arbre chilien dont la sève projetée dans les yeux cause une cécité temporaire d'où son nom (« tue-l'œil »).",
+    "reponse": "Faux",
+    "explication": "Le mataojo (Pouteria salicifolia) est en réalité un arbre originaire d'Argentine, d'Uruguay, du Paraguay et du sud du Brésil, et non du Chili ; son nom viendrait de la fumée irritante dégagée par son bois lorsqu'il brûle, et non d'une sève provoquant la cécité."
+  },
+  {
+    "id": 11107,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : La boisson « Clery » est un punch chilien traditionnel préparé avec du vin blanc, du sucre et des fraises fraîches (idéalement des fraises blanches de Purén).",
+    "reponse": "Vrai",
+    "explication": "Le clery est effectivement un punch traditionnel chilien, proche de la sangria blanche, préparé avec du vin blanc, du sucre et des fraises fraîches, les fraises blanches de la région de Purén étant particulièrement recherchées pour sa préparation."
+  },
+  {
+    "id": 11108,
+    "pays": "Chili",
+    "theme": "Langues",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : Au Chili, le mot « chancho » (cochon) sert aussi à désigner un tampon en caoutchouc pour sceller les documents officiels.",
+    "reponse": "Vrai",
+    "explication": "Dans le langage familier chilien, « chancho » désigne bien, en plus du cochon, un tampon en caoutchouc utilisé pour sceller ou valider des documents officiels."
+  },
+  {
+    "id": 11109,
+    "pays": "Chili",
+    "theme": "Société",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : Il est légalement obligatoire au Chili d'accrocher le drapeau national à sa fenêtre ou sur sa maison les 18 et 19 septembre sous peine d'amende.",
+    "reponse": "Vrai",
+    "explication": "Un décret chilien impose effectivement d'arborer le drapeau national sur les façades des maisons et bâtiments les 18 et 19 septembre lors des Fiestas Patrias, sous peine d'une amende pour les contrevenants, bien que son application reste variable."
+  },
+  {
+    "id": 11110,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "vf",
+    "question": "Vrai/faux : À Valparaíso, la maison de Pablo Neruda s'appelle « La Chascona ».",
+    "reponse": "Faux",
+    "explication": "La Chascona est en réalité la maison de Pablo Neruda à Santiago ; sa maison de Valparaíso, perchée sur les hauteurs de la ville, s'appelle « La Sebastiana »."
+  },
+  {
+    "id": 11111,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "vf",
+    "question": "Vrai/faux : Il existe au Chili un village appelé « Entrelagos » situé exactement entre deux grands lacs.",
+    "reponse": "Vrai",
+    "explication": "Entrelagos est effectivement une petite localité du sud du Chili, dans la région des Ríos, située entre le lac Ranco et le lac Puyehue, d'où son nom qui signifie littéralement « entre lacs »."
+  },
+  {
+    "id": 11112,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel est le nom de cette tradition chilienne du mois de décembre où les enfants fabriquent un bonhomme géant en chiffons et papier pour le brûler à minuit le soir du Nouvel An (particulièrement dans le nord à Tocopilla et Antofagasta) ?",
+    "choix": [
+      "La quema del Año Viejo",
+      "Les Guaguas de Pan",
+      "La fonda de diciembre",
+      "El monigote de Reyes"
+    ],
+    "reponse": "La quema del Año Viejo",
+    "explication": "Dans certaines villes du nord du Chili comme Tocopilla ou Antofagasta, les habitants confectionnent tout au long de décembre un grand mannequin en chiffons et papier, le « año viejo », brûlé à minuit le 31 décembre pour symboliser la fin de l'année écoulée."
+  },
+  {
+    "id": 11113,
+    "pays": "Chili",
+    "theme": "Langues",
+    "difficulte": "difficile",
+    "type": "qcm",
+    "question": "Que signifie l'expression extrêmement populaire et insolite en espagnol chilien « peinar la muñeca » ?",
+    "choix": [
+      "Se comporter de façon complètement irrationnelle ou déraisonnable, comme si on perdait la raison",
+      "Prendre son temps pour bien se préparer avant de sortir",
+      "Mentir de façon éhontée à quelqu'un",
+      "Flâner sans but précis dans la rue"
+    ],
+    "reponse": "Se comporter de façon complètement irrationnelle ou déraisonnable, comme si on perdait la raison",
+    "explication": "Popularisée par une scène culte de la telenovela chilienne « Los Títeres » (1984), l'expression « peinar la muñeca » (littéralement « peigner la poupée ») s'emploie pour décrire quelqu'un qui dit ou fait des choses insensées, comme s'il perdait momentanément la raison."
+  },
+  {
+    "id": 11114,
+    "pays": "Chili",
+    "theme": "Économie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel géant américain a racheté la majorité de Cornershop, application chilienne de livraison de courses fondée à Santiago ?",
+    "choix": ["Uber", "Amazon", "Walmart", "Google"],
+    "reponse": "Uber",
+    "explication": "Cornershop, application de livraison de courses fondée à Santiago du Chili, a été rachetée majoritairement par le géant américain Uber, qui en a pris le contrôle total en 2021, un succès notable pour une start-up latino-américaine."
+  },
+  {
+    "id": 11115,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "À quelle profondeur environ la sonde de sauvetage « Fénix » a-t-elle dû forer pour extraire les 33 mineurs chiliens en 2010 ?",
+    "choix": [
+      "Environ 622 mètres",
+      "Environ 200 mètres",
+      "Environ 1 000 mètres",
+      "Environ 350 mètres"
+    ],
+    "reponse": "Environ 622 mètres",
+    "explication": "La cápsula Fénix a dû parcourir environ 622 mètres à travers un puits de sauvetage foré spécialement pour extraire un à un les 33 mineurs piégés dans le refuge de la mine San José, en octobre 2010."
+  },
+  {
+    "id": 11116,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "En quelle année la première ligne du métro de Santiago, la Ligne 1, a-t-elle été inaugurée, faisant de ce réseau l'un des premiers d'Amérique du Sud ?",
+    "choix": ["1975", "1985", "1965", "1995"],
+    "reponse": "1975",
+    "explication": "Inaugurée en 1975, la Ligne 1 du métro de Santiago fut l'un des tout premiers réseaux de métro d'Amérique du Sud, aux côtés de celui de Buenos Aires, et reste aujourd'hui l'épine dorsale des transports publics de la capitale chilienne."
+  },
+  {
+    "id": 11117,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel est le nom du célèbre chien errant de Santiago devenu une icône mondiale des manifestations sociales de 2019, honoré par des statues et des fresques murales ?",
+    "choix": [
+      "El Negro Matapacos",
+      "El Perro Cachupín",
+      "El Quiltro Rebelde",
+      "El Vagabundo"
+    ],
+    "reponse": "El Negro Matapacos",
+    "explication": "El Negro Matapacos, chien errant noir bien connu du quartier de Plaza Italia à Santiago, est devenu une icône mondiale des manifestations sociales de 2019 en accompagnant systématiquement les manifestants face aux forces de l'ordre, honoré aujourd'hui par des statues et de nombreuses fresques murales."
+  },
+  {
+    "id": 11118,
+    "pays": "Chili",
+    "theme": "Sport",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel est ce sport décalé pratiqué dans les zones rurales du centre du Chili, consistant à lancer des disques de métal sur une cible en bois recouverte de terre glaise pour faire exploser de petits pétards (mechas) ?",
+    "choix": [
+      "La rayuela chilienne",
+      "La pétanque chilienne",
+      "Le sapo",
+      "Le tejo colombien"
+    ],
+    "reponse": "La rayuela chilienne",
+    "explication": "Dans la rayuela chilienne, les joueurs lancent des palets métalliques vers une cible en bois recouverte d'argile humide, où de petits pétards (mechas) sont parfois dissimulés pour exploser lorsqu'un lancer touche juste au centre, un jeu traditionnel souvent pratiqué en buvant du vin."
+  },
+  {
+    "id": 11119,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Dans le désert d'Atacama, que sont les « Ojos del Salar » situés près de la Laguna Cejar ?",
+    "choix": [
+      "De profonds puits naturels remplis d'une eau extrêmement salée, semblables à des cénotes",
+      "Des mines de sel abandonnées",
+      "Des cratères météoritiques remplis d'eau douce",
+      "Des sources thermales bouillonnantes"
+    ],
+    "reponse": "De profonds puits naturels remplis d'une eau extrêmement salée, semblables à des cénotes",
+    "explication": "Les « Ojos del Salar », près de la Laguna Cejar, sont de profonds puits naturels de forme circulaire remplis d'une eau extrêmement salée et dense, permettant une flottaison naturelle spectaculaire, un peu à la manière des cénotes mexicains."
+  },
+  {
+    "id": 11120,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel record du monde insolite a été établi (puis contesté) dans la ville chilienne de Talca, souvent l'objet de plaisanteries et de mèmes sur Internet au Chili ?",
+    "choix": [
+      "Le « completo » (hot dog) le plus long du monde, en réalité une rangée de centaines de hot dogs séparés",
+      "Le plus grand plat de pastel de choclo jamais préparé",
+      "La plus haute pyramide de empanadas jamais construite",
+      "Le plus long trompo (toupie) jamais fabriqué"
+    ],
+    "reponse": "Le « completo » (hot dog) le plus long du monde, en réalité une rangée de centaines de hot dogs séparés",
+    "explication": "En novembre 2023, la ville de Talca a tenté d'établir le record du « completo » (hot dog local) le plus long du monde en alignant plus de 2 000 hot dogs sur 450 mètres ; l'initiative est devenue virale et objet de nombreux mèmes lorsque les internautes ont fait remarquer qu'il s'agissait en réalité d'une rangée de hot dogs séparés et non d'un seul hot dog géant."
+  },
+  {
+    "id": 11121,
+    "pays": "Chili",
+    "theme": "Faune",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel animal sauvage chilien bénéficie d'une protection si stricte que sa silhouette apparaît obligatoirement gravée sur toutes les plaques d'immatriculation des véhicules d'urgence et militaires de la région d'Aysén ?",
+    "choix": ["Le huemul", "Le puma", "Le condor des Andes", "Le pudú"],
+    "reponse": "Le huemul",
+    "explication": "Le huemul, cerf andin en danger critique d'extinction et figurant sur les armoiries nationales, bénéficie d'une protection si symboliquement forte dans la région d'Aysén, où survit l'une de ses dernières populations, que sa silhouette est gravée sur les plaques d'immatriculation des véhicules d'urgence et militaires de la région."
+  },
+  {
+    "id": 11122,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Si vous commandez une bière servie avec du sel, du jus de citron vert et de la sauce pimentée au Chili, comment s'appelle ce mélange rafraîchissant très populaire en été ?",
+    "choix": ["La michelada", "Le chilcano", "La clara", "Le terremoto"],
+    "reponse": "La michelada",
+    "explication": "La michelada, bière additionnée de sel, de jus de citron vert et de sauce pimentée (parfois de sauce Worcestershire ou de tomate), est une boisson rafraîchissante très populaire en été au Chili comme dans plusieurs autres pays d'Amérique latine."
+  },
+  {
+    "id": 11123,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "difficile",
+    "type": "vf",
+    "question": "Vrai/faux : Le Chili détient le record mondial de la plus longue distance de côte rectiligne sans aucune île ni baie naturelle.",
+    "reponse": "Faux",
+    "explication": "Aucun record mondial de ce type n'est officiellement reconnu pour le Chili ; au contraire, la côte chilienne est mondialement connue pour son extrême fragmentation au sud de Puerto Montt, où fjords, canaux et milliers d'îles composent l'un des littoraux les plus découpés de la planète, à l'opposé d'une côte rectiligne."
+  },
+  {
+    "id": 11124,
+    "pays": "Chili",
+    "theme": "Gastronomie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle spécialité de la street food chilienne consiste en une grande escalope de porc ou de bœuf dans un pain rond avec tomate, haricots verts filandreux (porotos verdes) et piment frais ?",
+    "choix": ["Le chacarero", "Le completo", "Le barros luco", "Le lomito"],
+    "reponse": "Le chacarero",
+    "explication": "Le chacarero associe dans un pain rond une généreuse escalope de porc ou de bœuf grillée, des tranches de tomate, des haricots verts filandreux (porotos verdes) et du piment vert frais, un sandwich emblématique et copieux de la street food chilienne."
+  },
+  {
+    "id": 11125,
+    "pays": "Chili",
+    "theme": "Langues",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Que signifie l'expression familière chilienne « estar pato » ?",
+    "choix": [
+      "Être fauché, ne plus avoir d'argent",
+      "Être en retard",
+      "Être malade",
+      "Être de mauvaise humeur"
+    ],
+    "reponse": "Être fauché, ne plus avoir d'argent",
+    "explication": "« Estar pato » (littéralement « être canard ») est une expression familière chilienne très courante pour dire que l'on n'a plus d'argent, que l'on est fauché."
+  },
+  {
+    "id": 11126,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Comment se nomme la toupie en bois traditionnelle, lancée à l'aide d'une ficelle, avec laquelle les enfants chiliens jouent notamment pendant les Fiestas Patrias ?",
+    "choix": ["Le trompo", "L'emboque", "La payana", "El luche"],
+    "reponse": "Le trompo",
+    "explication": "Le trompo est une toupie en bois traditionnelle que l'on enroule d'une ficelle avant de la lancer d'un geste sec pour la faire tourner au sol, un jouet et un jeu de compétition populaire lors des fêtes populaires chiliennes, dont les Fiestas Patrias."
+  },
+  {
+    "id": 11127,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "À environ quelle distance des côtes du Chili continental l'Île de Pâques se situe-t-elle ?",
+    "choix": [
+      "Environ 3 700 km",
+      "Environ 1 500 km",
+      "Environ 6 000 km",
+      "Environ 500 km"
+    ],
+    "reponse": "Environ 3 700 km",
+    "explication": "L'île de Pâques (Rapa Nui) se situe à environ 3 700 km des côtes du Chili continental, ce qui en fait l'un des lieux habités les plus isolés de la planète, à mi-chemin entre l'Amérique du Sud et la Polynésie."
+  },
+  {
+    "id": 11128,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Comment s'appelle l'unique ville et chef-lieu administratif de l'Île de Pâques ?",
+    "choix": ["Hanga Roa", "Orongo", "Anakena", "Rano Raraku"],
+    "reponse": "Hanga Roa",
+    "explication": "Hanga Roa est l'unique véritable ville de l'île de Pâques, où se concentre la quasi-totalité de la population, ainsi que le port, l'aéroport et les principales infrastructures administratives."
+  },
+  {
+    "id": 11129,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Comment s'appelle la carrière de roche volcanique (tuf) d'où proviennent presque tous les Moaï de l'île ?",
+    "choix": ["Rano Raraku", "Rano Kau", "Orongo", "Puna Pau"],
+    "reponse": "Rano Raraku",
+    "explication": "Le cratère volcanique de Rano Raraku, dont le tuf volcanique tendre se prêtait particulièrement bien à la sculpture, a fourni la roche de près de 95 % des Moaï de l'île, dont des centaines restent encore visibles, inachevés, sur ses pentes."
+  },
+  {
+    "id": 11130,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Comment se nomme le plus grand site cérémoniel (Ahu) de l'île, réputé pour ses 15 Moaï alignés dos à l'océan ?",
+    "choix": ["Ahu Tongariki", "Ahu Akivi", "Ahu Vinapu", "Ahu Nau Nau"],
+    "reponse": "Ahu Tongariki",
+    "explication": "Ahu Tongariki est le plus grand site cérémoniel de l'île de Pâques, où quinze Moaï restaurés sont alignés côte à côte, tournant le dos à l'océan pour veiller symboliquement sur le village."
+  },
+  {
+    "id": 11131,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle est la particularité unique du site d'Ahu Akivi par rapport à la grande majorité des autres Ahu de l'île ?",
+    "choix": [
+      "Ses sept Moaï sont les seuls à regarder vers l'océan plutôt que vers l'intérieur des terres",
+      "Il est le seul site à ne comporter aucun Moaï",
+      "Il abrite le plus petit Moaï jamais découvert",
+      "Il est entièrement souterrain"
+    ],
+    "reponse": "Ses sept Moaï sont les seuls à regarder vers l'océan plutôt que vers l'intérieur des terres",
+    "explication": "Contrairement à la grande majorité des Ahu de l'île, dont les Moaï tournent le dos à l'océan pour veiller sur les villages, les sept statues d'Ahu Akivi font face à la mer ; le site serait également aligné avec le coucher du soleil à l'équinoxe."
+  },
+  {
+    "id": 11132,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Comment appelle-t-on le cylindre de scorie rouge placé sur la tête de certaines statues Moaï ?",
+    "choix": ["Le pukao", "Le tiki", "Le rongorongo", "Le mana"],
+    "reponse": "Le pukao",
+    "explication": "Le pukao est un cylindre de scorie volcanique rouge, taillé dans une carrière distincte (Puna Pau), que l'on plaçait au sommet de certains Moaï, probablement pour représenter une coiffe ou une chevelure remontée en chignon."
+  },
+  {
+    "id": 11133,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "En quelle année l'Île de Pâques a-t-elle été officiellement annexée par le Chili ?",
+    "choix": ["1888", "1810", "1900", "1950"],
+    "reponse": "1888",
+    "explication": "L'île de Pâques fut officiellement annexée par le Chili le 9 septembre 1888, à l'initiative du capitaine de marine Policarpo Toro, devenant depuis lors un territoire chilien."
+  },
+  {
+    "id": 11134,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "difficile",
+    "type": "qcm",
+    "question": "Quel site d'Ahu montre un mur d'appareil cyclopéen ajusté sans mortier, souvent comparé aux constructions incas de Cusco ?",
+    "choix": ["Ahu Vinapu", "Ahu Tongariki", "Ahu Akivi", "Ahu Nau Nau"],
+    "reponse": "Ahu Vinapu",
+    "explication": "Le site d'Ahu Vinapu présente un mur de pierres taillées et ajustées avec une précision remarquable, sans mortier, une technique qui a frappé de nombreux visiteurs par sa ressemblance frappante avec les constructions incas de la région de Cusco."
+  },
+  {
+    "id": 11135,
+    "pays": "Chili",
+    "theme": "Mythologie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle était la fonction principale des statues Moaï d'après les croyances traditionnelles Rapa Nui ?",
+    "choix": [
+      "Représenter des ancêtres divinisés veillant sur et protégeant leur communauté",
+      "Effrayer les envahisseurs étrangers",
+      "Servir de bornes frontalières entre clans",
+      "Marquer des sépultures individuelles anonymes"
+    ],
+    "reponse": "Représenter des ancêtres divinisés veillant sur et protégeant leur communauté",
+    "explication": "Les Moaï représentaient des ancêtres divinisés (souvent des chefs de clan défunts), censés incarner leur « mana » (force spirituelle) et veiller sur la prospérité et la protection de leur communauté depuis les plateformes cérémonielles (Ahu)."
+  },
+  {
+    "id": 11136,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Environ combien de statues Moaï ont été répertoriées au total sur l'ensemble de l'île (érigées, inachevées ou brisées) ?",
+    "choix": ["Environ 900", "Environ 100", "Environ 3 000", "Environ 300"],
+    "reponse": "Environ 900",
+    "explication": "Les archéologues ont répertorié environ 900 statues Moaï sur l'ensemble de l'île de Pâques, qu'elles soient dressées sur leur Ahu, encore inachevées dans la carrière de Rano Raraku, ou renversées et brisées au fil des siècles."
+  },
+  {
+    "id": 11137,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel rituel religieux et politique a progressivement remplacé le culte des ancêtres (et l'érection des Moaï) à partir du XVIIIe siècle ?",
+    "choix": [
+      "Le culte de l'Homme-Oiseau (Tangata manu)",
+      "Le culte du Soleil",
+      "Le culte du Serpent marin",
+      "Le culte des jumeaux"
+    ],
+    "reponse": "Le culte de l'Homme-Oiseau (Tangata manu)",
+    "explication": "À partir du XVIIIe siècle, le culte de l'Homme-Oiseau (Tangata manu), centré sur le village cérémoniel d'Orongo, remplace progressivement le culte des ancêtres et l'érection des Moaï : chaque année, des concurrents s'affrontaient dans une périlleuse compétition pour rapporter le premier œuf de sterne de l'îlot voisin de Motu Nui."
+  },
+  {
+    "id": 11138,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Comment s'appelle le système d'écriture ou de signes pictographiques unique gravé sur des tablettes en bois découvertes sur l'île ?",
+    "choix": ["Le rongorongo", "Le tokapu", "Le quipu", "Le tiki"],
+    "reponse": "Le rongorongo",
+    "explication": "Le rongorongo est un système de signes pictographiques unique gravé sur des tablettes de bois découvertes sur l'île de Pâques ; son déchiffrement reste à ce jour incertain et fait l'objet de débats scientifiques."
+  },
+  {
+    "id": 11139,
+    "pays": "Chili",
+    "theme": "Culture",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle est la particularité de lecture des tablettes de Rongorongo ?",
+    "choix": [
+      "Elles se lisent en boustrophédon inversé, obligeant à tourner la tablette de 180° à la fin de chaque ligne",
+      "Elles se lisent uniquement de droite à gauche",
+      "Elles se lisent en spirale à partir du centre",
+      "Elles ne comportent aucune ligne, seulement des symboles isolés"
+    ],
+    "reponse": "Elles se lisent en boustrophédon inversé, obligeant à tourner la tablette de 180° à la fin de chaque ligne",
+    "explication": "Les tablettes de rongorongo se lisent selon un système de boustrophédon inversé unique au monde : le lecteur doit tourner la tablette de 180 degrés à la fin de chaque ligne pour poursuivre la lecture de la ligne suivante, dans le sens opposé."
+  },
+  {
+    "id": 11140,
+    "pays": "Chili",
+    "theme": "Nature",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle petite plante aquatique du lac du Rano Kau était historiquement utilisée pour fabriquer des embarcations et des nattes ?",
+    "choix": ["Le totora", "Le papyrus", "Le lotus", "La jacinthe d'eau"],
+    "reponse": "Le totora",
+    "explication": "Le totora, roseau aquatique poussant dans le lac de cratère du Rano Kau, servait historiquement aux habitants de l'île de Pâques à fabriquer de petites embarcations et des nattes, dans une tradition proche de celle des Uros du lac Titicaca."
+  },
+  {
+    "id": 11141,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel phénomène environnemental a gravement affecté la civilisation Rapa Nui avant l'arrivée des Européens ?",
+    "choix": [
+      "Une déforestation massive de l'île",
+      "Une invasion de criquets",
+      "Une sécheresse volcanique",
+      "La montée des eaux"
+    ],
+    "reponse": "Une déforestation massive de l'île",
+    "explication": "L'île de Pâques, autrefois couverte de forêts de palmiers, a connu une déforestation massive avant l'arrivée des Européens, probablement due à une combinaison de l'exploitation du bois par les habitants et de la prolifération de rats polynésiens dévorant les graines, entraînant un grave déclin écologique et social."
+  },
+  {
+    "id": 11142,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel animal domestique importé par les colonisateurs polynésiens jouait un rôle économique et symbolique majeur à Rapa Nui ?",
+    "choix": [
+      "Le poulet (la poule polynésienne)",
+      "Le porc",
+      "Le chien",
+      "Le cochon d'Inde"
+    ],
+    "reponse": "Le poulet (la poule polynésienne)",
+    "explication": "Contrairement à d'autres îles polynésiennes, l'île de Pâques ne disposait ni de porcs ni de chiens ; le poulet, importé par les premiers colonisateurs polynésiens, y jouait un rôle économique et symbolique de premier plan, gardé précieusement dans des poulaillers en pierre fortifiés."
+  },
+  {
+    "id": 11143,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quelle épidémie mortelle importée au XIXe siècle par les raids négriers péruviens et les navires marchands a décimé plus de 80 % de la population indigène ?",
+    "choix": ["La variole", "Le choléra", "La grippe", "La tuberculose seule"],
+    "reponse": "La variole",
+    "explication": "Les raids négriers péruviens des années 1860, qui déportèrent une grande partie de la population de l'île, combinés à l'introduction de maladies comme la variole par les navires marchands, décimèrent plus de 80 % de la population indigène de l'île de Pâques en quelques décennies."
+  },
+  {
+    "id": 11144,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "En 1877, combien de personnes d'origine autochtone Rapa Nui subsistaient environ sur l'île suite aux raids et maladies ?",
+    "choix": ["Environ 110", "Environ 1 000", "Environ 5 000", "Environ 500"],
+    "reponse": "Environ 110",
+    "explication": "En 1877, la population autochtone de l'île de Pâques, ravagée par les raids négriers et les épidémies importées, était tombée à seulement une centaine de personnes environ, un effondrement démographique catastrophique dont la culture Rapa Nui a dû se reconstruire."
+  },
+  {
+    "id": 11145,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel est le plus haut sommet de l'Île de Pâques, s'élevant à 507 mètres d'altitude ?",
+    "choix": [
+      "Le Maunga Terevaka",
+      "Le Rano Kau",
+      "Le Rano Raraku",
+      "Le Poike"
+    ],
+    "reponse": "Le Maunga Terevaka",
+    "explication": "Le Maunga Terevaka, volcan éteint culminant à 507 m, est le point le plus élevé de l'île de Pâques, offrant depuis son sommet une vue panoramique sur l'ensemble de l'île."
+  },
+  {
+    "id": 11146,
+    "pays": "Chili",
+    "theme": "Langues",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Que signifie l'expression chilienne locale « Iorana » que l'on entend quotidiennement sur l'île ?",
+    "choix": [
+      "Bonjour / Bonsoir / Salut",
+      "Merci beaucoup",
+      "Au revoir uniquement",
+      "Bon appétit"
+    ],
+    "reponse": "Bonjour / Bonsoir / Salut",
+    "explication": "« Iorana » est la formule de salutation rapa nui utilisée quotidiennement sur l'île de Pâques, équivalent local de « bonjour » ou « bonsoir », employée aussi bien pour saluer que pour prendre congé."
+  },
+  {
+    "id": 11147,
+    "pays": "Chili",
+    "theme": "Histoire",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Quel animal terrestre, introduit au XIXe siècle pour l'élevage intensif, a occupé jusqu'à 90 % du territoire de l'île de Pâques sous la gestion de la société Williamson-Balfour ?",
+    "choix": ["Le mouton", "La chèvre", "Le bœuf", "Le cheval"],
+    "reponse": "Le mouton",
+    "explication": "À partir de la fin du XIXe siècle, la compagnie britannique Williamson-Balfour transforma une grande partie de l'île de Pâques en un immense ranch d'élevage ovin, confinant la population Rapa Nui sur une petite portion du territoire pendant plusieurs décennies."
+  },
+  {
+    "id": 11148,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quel aliment est-il traditionnel d'offrir ou de consommer le soir du Nouvel An dans plusieurs pays d'Amérique du Sud, dont le Chili, pour porter chance et prospérité financière ?",
+    "choix": ["Des lentilles", "Du riz blanc", "Des amandes", "Du miel"],
+    "reponse": "Des lentilles",
+    "explication": "Manger une cuillerée de lentilles le soir du réveillon est une coutume répandue dans plusieurs pays d'Amérique du Sud, dont le Chili, symbole de prospérité financière pour l'année à venir, les lentilles évoquant par leur forme de petites pièces de monnaie."
+  },
+  {
+    "id": 11149,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "À quelle couleur de fleurs ou de vêtements certaines traditions populaires latino-américaines associent-elles la chance et la prospérité pour le Nouvel An ?",
+    "choix": ["Le jaune", "Le vert", "Le bleu", "Le noir"],
+    "reponse": "Le jaune",
+    "explication": "Le jaune est traditionnellement associé à la chance et à la prospérité financière pour la nouvelle année dans de nombreux pays d'Amérique latine, que ce soit à travers des fleurs, des vêtements ou des sous-vêtements portés le soir du réveillon."
+  },
+  {
+    "id": 11150,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Selon une croyance populaire répandue dans plusieurs pays hispanophones, dont le Chili, quel jour de la semaine, combiné au chiffre 13, est considéré comme malchanceux ?",
+    "choix": [
+      "Le mardi (martes 13)",
+      "Le vendredi (viernes 13)",
+      "Le lundi (lunes 13)",
+      "Le dimanche (domingo 13)"
+    ],
+    "reponse": "Le mardi (martes 13)",
+    "explication": "Contrairement au monde anglo-saxon où le « vendredi 13 » porte malheur, la tradition hispanophone associe plutôt le « martes 13 » (mardi 13) à la malchance, un dicton populaire répandu au Chili comme dans le reste de l'Amérique latine hispanophone."
+  },
+  {
+    "id": 11151,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "Comment se nomme officiellement le grand feu d'artifice du Nouvel An tiré au-dessus de la baie de Valparaíso, l'un des plus importants d'Amérique du Sud ?",
+    "choix": [
+      "Año Nuevo en el Mar",
+      "Fiesta de las Luces",
+      "Noche de Fuego",
+      "Valparaíso en Llamas"
+    ],
+    "reponse": "Año Nuevo en el Mar",
+    "explication": "« Año Nuevo en el Mar » (Nouvel An en mer) est le nom officiel du grand feu d'artifice tiré chaque 31 décembre au-dessus de la baie de Valparaíso, l'un des spectacles pyrotechniques les plus importants et les plus suivis d'Amérique du Sud."
+  },
+  {
+    "id": 11152,
+    "pays": "Chili",
+    "theme": "Traditions",
+    "difficulte": "facile",
+    "type": "qcm",
+    "question": "Quelle couleur de sous-vêtement est-il de coutume de porter le soir du réveillon du Nouvel An, dans plusieurs pays d'Amérique latine dont le Chili, pour porter chance en amour ?",
+    "choix": ["Le rouge", "Le rose", "Le violet", "Le orange"],
+    "reponse": "Le rouge",
+    "explication": "Porter des sous-vêtements rouges le soir du réveillon du Nouvel An est une coutume répandue dans plusieurs pays d'Amérique latine, dont le Chili, censée porter chance en amour pour l'année à venir (le jaune étant réservé à la prospérité financière)."
+  },
+  {
+    "id": 11153,
+    "pays": "Chili",
+    "theme": "Géographie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "En 1966, le Chili a officiellement rebaptisé l'île « Más a Tierra » de l'archipel Juan Fernández pour capitaliser sur sa notoriété littéraire. Quel nouveau nom lui a-t-il donné ?",
+    "choix": [
+      "Isla Robinson Crusoe",
+      "Isla Selkirk",
+      "Isla Defoe",
+      "Isla del Tesoro"
+    ],
+    "reponse": "Isla Robinson Crusoe",
+    "explication": "En 1966, dans une démarche touristique assumée, le Chili a rebaptisé l'île « Más a Tierra » en « Isla Robinson Crusoe », capitalisant sur son lien avec le roman de Daniel Defoe inspiré du naufrage réel du marin Alexander Selkirk sur ses côtes."
+  },
+  {
+    "id": 11154,
+    "pays": "Chili",
+    "theme": "Économie",
+    "difficulte": "moyen",
+    "type": "qcm",
+    "question": "En 2005, le Chili est devenu le premier pays d'Amérique du Sud à signer un accord de libre-échange avec quel pays asiatique ?",
+    "choix": ["La Chine", "Le Japon", "L'Inde", "La Corée du Sud"],
+    "reponse": "La Chine",
+    "explication": "En novembre 2005, le Chili est devenu le premier pays d'Amérique du Sud (et d'Amérique latine) à signer un accord de libre-échange avec la Chine, renforçant considérablement ses liens commerciaux avec l'Asie et consolidant sa position de partenaire privilégié de Pékin sur le continent."
+  },
+  [
+    {
+      "id": 14000,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Dans quelle province argentine se trouve la vallée de la Lune (Ischigualasto), célèbre pour ses fossiles du Trias ?",
+      "choix": ["San Juan", "La Rioja", "Mendoza", "Catamarca"],
+      "reponse": "San Juan",
+      "explication": "Le parc naturel d'Ischigualasto, surnommé Valle de la Luna pour son paysage désertique lunaire, se situe dans la province de San Juan et recèle l'une des séquences fossilifères du Trias les plus complètes au monde."
+    },
+    {
+      "id": 14001,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel groupe indigène habitait l'archipel de la Terre de Feu et s'enduisait la peau de graisse de phoque pour résister au froid ?",
+      "choix": [
+        "Les Yaghans (Yámanas)",
+        "Les Mapuches",
+        "Les Tehuelches",
+        "Les Selk'nam uniquement"
+      ],
+      "reponse": "Les Yaghans (Yámanas)",
+      "explication": "Les Yaghans (ou Yámanas), peuple nomade de canoéiers de l'extrême sud de la Terre de Feu, s'enduisaient le corps de graisse animale pour se protéger du froid extrême, préférant souvent cette protection à des vêtements épais qui auraient gêné leurs déplacements en canot."
+    },
+    {
+      "id": 14002,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quelle est la boisson alcoolisée à base de plantes aromatiques, très populaire en Argentine et souvent mélangée avec du cola ?",
+      "choix": ["Le fernet", "Le pisco", "L'aguardiente", "Le vermouth"],
+      "reponse": "Le fernet",
+      "explication": "Le fernet, liqueur amère italienne macérée à partir de plantes aromatiques, est devenu une véritable institution en Argentine, où il se consomme presque exclusivement mélangé au Coca-Cola sous le nom de « fernet con coca »."
+    },
+    {
+      "id": 14003,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quelle ville argentine est considérée comme la « Capitale nationale du Chocolat » ?",
+      "choix": ["Bariloche", "Mendoza", "Ushuaia", "Córdoba"],
+      "reponse": "Bariloche",
+      "explication": "Grâce à l'héritage de ses colons suisses et allemands, San Carlos de Bariloche, en Patagonie andine, est reconnue comme la capitale nationale du chocolat, réputée pour ses chocolateries artisanales."
+    },
+    {
+      "id": 14004,
+      "pays": "Argentine",
+      "theme": "Sport",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle course automobile historique argentine à travers tout le pays est l'une des plus anciennes au monde encore organisées ?",
+      "choix": [
+        "Le Turismo Carretera (TC)",
+        "Le Rallye Dakar Argentine",
+        "Le Grand Prix de Buenos Aires",
+        "La Mille Miglia argentine"
+      ],
+      "reponse": "Le Turismo Carretera (TC)",
+      "explication": "Fondé en 1937, le Turismo Carretera (TC) est l'une des plus anciennes catégories de sport automobile encore en activité dans le monde, né de courses historiques traversant le pays sur des routes ordinaires."
+    },
+    {
+      "id": 14005,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel animal figure sur la pièce de 1 peso argentin mise en circulation à partir de 2017 ?",
+      "choix": [
+        "Le hornero (fournier roux, oiseau national)",
+        "Le condor des Andes",
+        "Le puma",
+        "Le guanaco"
+      ],
+      "reponse": "Le hornero (fournier roux, oiseau national)",
+      "explication": "La pièce de 1 peso mise en circulation en 2017 représente le hornero (fournier roux), l'oiseau national argentin, connu pour ses nids en forme de four en terre séchée."
+    },
+    {
+      "id": 14006,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle est la particularité géologique de la lagune del Carbón, située dans la province de Santa Cruz ?",
+      "choix": [
+        "C'est le point le plus bas d'Amérique du Sud, sous le niveau de la mer",
+        "C'est le seul lac d'eau bouillante du pays",
+        "C'est un cratère météoritique unique",
+        "C'est le lac le plus salé du monde"
+      ],
+      "reponse": "C'est le point le plus bas d'Amérique du Sud, sous le niveau de la mer",
+      "explication": "La Laguna del Carbón, dans la dépression du Gran Bajo de San Julián, se situe à environ 105 m sous le niveau de la mer, ce qui en fait le point le plus bas d'Amérique du Sud et l'un des plus bas de l'hémisphère occidental."
+    },
+    {
+      "id": 14007,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "En quelle année la ville de Buenos Aires a-t-elle été fondée pour la toute première fois (par Pedro de Mendoza) ?",
+      "choix": ["1536", "1580", "1516", "1610"],
+      "reponse": "1536",
+      "explication": "Pedro de Mendoza fonde une première fois Buenos Aires en 1536, mais cette implantation est abandonnée quelques années plus tard face aux attaques indigènes ; ce n'est qu'en 1580 que Juan de Garay la refonde définitivement."
+    },
+    {
+      "id": 14008,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel sommet des Andes argentines est le plus haut point du continent américain et de l'hémisphère sud (6 961 mètres) ?",
+      "choix": [
+        "L'Aconcagua",
+        "L'Ojos del Salado",
+        "Le Chimborazo",
+        "Le Huascarán"
+      ],
+      "reponse": "L'Aconcagua",
+      "explication": "Culminant à 6 961 m dans la province de Mendoza, l'Aconcagua est le plus haut sommet du continent américain et de l'ensemble de l'hémisphère sud, ce qui en fait une destination prisée des alpinistes du monde entier."
+    },
+    {
+      "id": 14009,
+      "pays": "Argentine",
+      "theme": "Flore",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel arbre emblématique d'Argentine (connu sous le nom d'Ombú) se distingue par une particularité botanique surprenante : de quoi s'agit-il techniquement ?",
+      "choix": [
+        "Il s'agit techniquement d'une plante herbacée géante et non d'un véritable arbre",
+        "Il s'agit d'une variété de bambou géant",
+        "Il s'agit d'un champignon géant fossilisé",
+        "Il s'agit techniquement d'une fougère arborescente"
+      ],
+      "reponse": "Il s'agit techniquement d'une plante herbacée géante et non d'un véritable arbre",
+      "explication": "Malgré son allure massive et son tronc impressionnant, l'ombú n'est botaniquement pas un arbre : c'est une plante herbacée géante dépourvue de véritable bois, ce qui explique pourquoi son tronc reste tendre et ne produit jamais de cernes de croissance."
+    },
+    {
+      "id": 14010,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "En quelle année les Îles Malouines (Falkland) ont-elles été le théâtre du conflit armé entre l'Argentine et le Royaume-Uni ?",
+      "choix": ["1982", "1978", "1990", "1976"],
+      "reponse": "1982",
+      "explication": "La guerre des Malouines opposa l'Argentine et le Royaume-Uni entre avril et juin 1982, se soldant par la défaite argentine et le maintien de la souveraineté britannique sur l'archipel, toujours revendiqué par l'Argentine aujourd'hui."
+    },
+    {
+      "id": 14011,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel style musical traditionnel du nord-ouest de l'Argentine se joue principalement avec un tambour (bombo legüero) et une guitare sur un rythme à trois temps ?",
+      "choix": [
+        "La chacarera",
+        "Le tango",
+        "La zamba uniquement",
+        "La milonga"
+      ],
+      "reponse": "La chacarera",
+      "explication": "La chacarera, genre folklorique emblématique du nord-ouest argentin (notamment de Santiago del Estero), se joue traditionnellement au bombo legüero et à la guitare, sur un rythme entraînant mêlant subtilement le 6/8 et le 3/4."
+    },
+    {
+      "id": 14012,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel célèbre dessin animé/bande dessinée créé par Quino en 1964 met en scène une petite fille contestant le monde des adultes et détestant la soupe ?",
+      "choix": ["Mafalda", "Condorito", "Isidoro", "Patoruzú"],
+      "reponse": "Mafalda",
+      "explication": "Créée par le dessinateur argentin Quino en 1964, Mafalda est une petite fille à l'esprit vif et contestataire, détestant la soupe et interrogeant avec ironie le monde des adultes, devenue une icône de la bande dessinée sud-américaine."
+    },
+    {
+      "id": 14013,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Comment s'appelle la paille en métal munie d'un filtre à son extrémité servant à boire le mate ?",
+      "choix": ["La bombilla", "Le mate", "Le porongo", "La yerbera"],
+      "reponse": "La bombilla",
+      "explication": "La bombilla est la paille métallique munie d'un filtre à son extrémité inférieure, indispensable pour boire le mate sans avaler les feuilles de yerba en suspension dans l'eau chaude."
+    },
+    {
+      "id": 14014,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel volcan actif situé à la frontière chileno-argentine dans la province de Jujuy abrite les trois sanctuaires incas les plus hauts du monde ?",
+      "choix": [
+        "Le Llullaillaco",
+        "Le Lascar",
+        "L'Ojos del Salado",
+        "Le Tromen"
+      ],
+      "reponse": "Le Llullaillaco",
+      "explication": "À plus de 6 700 m d'altitude sur les flancs du volcan Llullaillaco furent découverts en 1999 trois enfants incas momifiés par le gel, dans ce qui reste le site archéologique en haute altitude le plus élevé du monde."
+    },
+    {
+      "id": 14015,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel nom porte le vent chaud, sec et violent qui souffle depuis les Andes vers les plaines de l'ouest argentin (notamment à Cuyo) ?",
+      "choix": ["Le zonda", "Le pampero", "Le puelche", "Le sudestada"],
+      "reponse": "Le zonda",
+      "explication": "Le zonda est un vent chaud, sec et parfois violent qui dévale le versant oriental des Andes vers les plaines de Cuyo, provoquant une chute brutale de l'humidité et une hausse rapide des températures, parfois responsable d'incendies."
+    },
+    {
+      "id": 14016,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle ville argentine abrite l'observatoire astronomique de Félix Aguilar et est un haut lieu de recherche astronomique grâce à la clarté exceptionnelle de son ciel ?",
+      "choix": ["San Juan", "Mendoza", "La Rioja", "Salta"],
+      "reponse": "San Juan",
+      "explication": "L'observatoire astronomique Félix Aguilar, situé près de San Juan, bénéficie de la clarté exceptionnelle du ciel de cette région désertique andine, qui en fait l'un des principaux centres de recherche astronomique d'Amérique du Sud."
+    },
+    {
+      "id": 14017,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle race chevaline, originaire des pampas argentines, est célèbre pour sa rusticité, son endurance extrême et sa résistance aux conditions climatiques très dures ?",
+      "choix": [
+        "Le cheval Criollo",
+        "Le Paso Péruvien",
+        "Le Mustang",
+        "Le Percheron"
+      ],
+      "reponse": "Le cheval Criollo",
+      "explication": "Descendant des chevaux amenés par les colons espagnols, le cheval Criollo argentin s'est adapté aux conditions extrêmes des pampas et de la Patagonie, réputé pour sa rusticité et son endurance exceptionnelle sur de longues distances."
+    },
+    {
+      "id": 14018,
+      "pays": "Argentine",
+      "theme": "Économie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle province argentine est le principal producteur mondial d'huile essentielle de citron et de citrons frais ?",
+      "choix": ["Tucumán", "Mendoza", "Entre Ríos", "Corrientes"],
+      "reponse": "Tucumán",
+      "explication": "La province de Tucumán, dans le nord-ouest argentin, est le premier producteur mondial d'huile essentielle de citron et l'un des tout premiers exportateurs de citrons frais, une filière économique majeure pour la région."
+    },
+    {
+      "id": 14019,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel est le nom de la formation rocheuse spectaculaire située dans la quebrada de Humahuaca (Jujuy) présentant une palette incroyable de nuances minérales ?",
+      "choix": [
+        "Le Cerro de los Siete Colores",
+        "Le Cañón del Colca",
+        "La Montaña Mágica",
+        "El Anfiteatro"
+      ],
+      "reponse": "Le Cerro de los Siete Colores",
+      "explication": "Dominant le village de Purmamarca, le Cerro de los Siete Colores (« montagne aux sept couleurs ») doit ses strates rouges, ocres, vertes et violettes à la superposition de sédiments d'origines minérales variées accumulés sur des millions d'années."
+    },
+    {
+      "id": 14020,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quelle confiserie traditionnelle argentine se compose de deux biscuits collés ensemble par du dulce de leche et souvent recouverts de chocolat ou de sucre glace ?",
+      "choix": ["L'alfajor", "Le facturas", "Le vigilante", "Le pastelito"],
+      "reponse": "L'alfajor",
+      "explication": "L'alfajor, deux sablés fourrés de dulce de leche et recouverts de chocolat ou de sucre glace, est l'une des confiseries les plus emblématiques et les plus consommées d'Argentine, déclinée dans d'innombrables variantes régionales."
+    },
+    {
+      "id": 14021,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Dans quel parc national argentin peut-on observer la plus grande colonie continentale de manchots de Magellan ?",
+      "choix": [
+        "La réserve de Punta Tombo (Chubut)",
+        "Le parc national Los Glaciares",
+        "Le parc national Tierra del Fuego",
+        "Le parc national Nahuel Huapi"
+      ],
+      "reponse": "La réserve de Punta Tombo (Chubut)",
+      "explication": "La réserve naturelle de Punta Tombo, dans la province du Chubut, abrite la plus grande colonie continentale de manchots de Magellan au monde, avec plusieurs centaines de milliers d'individus venant s'y reproduire chaque année."
+    },
+    {
+      "id": 14022,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel animal marin vient chaque année s'accoupler et mettre bas dans les eaux abritées de la péninsule Valdés entre juin et décembre ?",
+      "choix": [
+        "La baleine franche australe",
+        "Le phoque commun",
+        "Le dauphin rose",
+        "Le morse"
+      ],
+      "reponse": "La baleine franche australe",
+      "explication": "Chaque année entre juin et décembre, les baleines franches australes viennent se reproduire et mettre bas dans les eaux calmes et abritées des golfes de la péninsule Valdés, l'un des meilleurs sites d'observation de cette espèce au monde."
+    },
+    {
+      "id": 14023,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "difficile",
+      "type": "qcm",
+      "question": "Quel lac glaciaire partagé entre l'Argentine et le Chili est le plus profond d'Amérique du Sud (836 mètres) ?",
+      "choix": [
+        "Le lac San Martín (O'Higgins)",
+        "Le lac Argentino",
+        "Le lac Nahuel Huapi",
+        "Le lac Viedma"
+      ],
+      "reponse": "Le lac San Martín (O'Higgins)",
+      "explication": "Connu sous le nom de lac San Martín côté argentin et lac O'Higgins côté chilien, ce lac glaciaire de Patagonie atteint une profondeur maximale de 836 m, ce qui en fait le lac le plus profond d'Amérique du Sud."
+    },
+    {
+      "id": 14024,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel nom porte la sculpture métallique géante en forme de fleur située sur la Plaza de las Naciones Unidas à Buenos Aires, dont les pétales s'ouvrent et se ferment avec le soleil ?",
+      "choix": [
+        "La Floralis Genérica",
+        "La Flor de Acero",
+        "El Girasol Metálico",
+        "La Rosa de Buenos Aires"
+      ],
+      "reponse": "La Floralis Genérica",
+      "explication": "Inaugurée en 2002, la Floralis Genérica est une sculpture métallique monumentale en forme de fleur, dont les six pétales mobiles étaient à l'origine conçus pour s'ouvrir le matin et se refermer le soir, symbolisant toutes les fleurs du monde."
+    },
+    {
+      "id": 14025,
+      "pays": "Argentine",
+      "theme": "Sport",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Dans quel sport l'Argentine a-t-elle remporté sa première médaille d'or olympique de son histoire lors des Jeux Olympiques de Paris en 1924 ?",
+      "choix": ["Le polo", "Le football", "L'aviron", "L'escrime"],
+      "reponse": "Le polo",
+      "explication": "C'est en polo, discipline alors olympique, que l'équipe argentine remporta la toute première médaille d'or de l'histoire du pays aux Jeux de Paris en 1924, un sport dans lequel l'Argentine reste aujourd'hui l'une des nations dominantes."
+    },
+    {
+      "id": 14026,
+      "pays": "Argentine",
+      "theme": "Économie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Dans la tradition argentine, quelle céréale/plante est principalement cultivée dans la province de La Pampa et constitue la base historique des exportations agricoles du pays ?",
+      "choix": ["Le blé", "Le riz", "L'orge", "L'avoine"],
+      "reponse": "Le blé",
+      "explication": "La culture du blé dans les riches terres de la région de la Pampa a constitué, dès la fin du XIXe siècle, l'un des piliers historiques des exportations agricoles argentines, valant au pays le surnom de « grenier du monde »."
+    },
+    {
+      "id": 14027,
+      "pays": "Argentine",
+      "theme": "Mythologie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel animal fantastique de la mythologie guaranie et argentine est représenté comme un chien monstrueux ou un loup qui se transforme les soirs de pleine lune (la version locale du loup-garou) ?",
+      "choix": ["Le lobizón", "El Familiar", "El Yastay", "El Pombero"],
+      "reponse": "Le lobizón",
+      "explication": "Le lobizón est la version sud-américaine du loup-garou, une créature qui, selon la légende, transformerait le septième fils consécutif d'une famille en une bête monstrueuse les nuits de pleine lune."
+    },
+    {
+      "id": 14028,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel instrument à vent à soufflet, inventé en Allemagne, est devenu le symbole indissociable du tango argentin ?",
+      "choix": [
+        "Le bandonéon",
+        "L'accordéon diatonique",
+        "L'harmonium",
+        "La concertina anglaise"
+      ],
+      "reponse": "Le bandonéon",
+      "explication": "Inventé en Allemagne au XIXe siècle à l'origine pour la musique religieuse, le bandonéon a été adopté par les musiciens de tango de Buenos Aires, dont il est devenu l'instrument emblématique et indissociable."
+    },
+    {
+      "id": 14029,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel nom porte le désert de sel monumental situé dans la province de Jujuy et Salta à plus de 4 000 m d'altitude ?",
+      "choix": [
+        "Les Salinas Grandes",
+        "Le Salar de Uyuni",
+        "Le Salar del Hombre Muerto",
+        "Le Salar de Pocitos"
+      ],
+      "reponse": "Les Salinas Grandes",
+      "explication": "Les Salinas Grandes, immense désert de sel blanc s'étendant à plus de 4 000 m d'altitude entre les provinces de Jujuy et de Salta, se sont formées par l'évaporation progressive d'un ancien lac au fil de millions d'années."
+    },
+    {
+      "id": 14030,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel est le nom de la boisson populaire argentine préparée à partir de lait et de sucre cuits longuement jusqu'à caramélisation ?",
+      "choix": [
+        "Le dulce de leche",
+        "Le manjar blanco",
+        "La cajeta",
+        "Le arequipe"
+      ],
+      "reponse": "Le dulce de leche",
+      "explication": "Bien que des variantes existent dans plusieurs pays d'Amérique latine sous d'autres noms, le dulce de leche, confiture de lait obtenue par cuisson longue et caramélisation, est considéré en Argentine comme un emblème culinaire national, omniprésent dans les desserts."
+    },
+    {
+      "id": 14031,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel vent très froid et sec venant du sud-ouest souffle violemment à travers les pampas argentines après le passage d'un front froid ?",
+      "choix": ["Le pampero", "Le zonda", "Le puelche", "Le sudestada"],
+      "reponse": "Le pampero",
+      "explication": "Le pampero est un vent froid et sec soufflant du sud-ouest après le passage d'un front froid, faisant chuter brutalement les températures sur les pampas et le Río de la Plata, parfois accompagné d'orages violents à son arrivée."
+    },
+    {
+      "id": 14032,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel mammifère marin prédateur, réputé pour sa technique d'échouage volontaire sur les plages de Patagonie pour chasser les otaries, est visible à la Péninsule Valdés ?",
+      "choix": [
+        "L'orque (épaulard)",
+        "Le phoque léopard",
+        "Le lion de mer",
+        "Le grand requin blanc"
+      ],
+      "reponse": "L'orque (épaulard)",
+      "explication": "Les orques de la péninsule Valdés ont développé une technique de chasse unique et spectaculaire consistant à s'échouer volontairement sur les plages pour capturer de jeunes otaries, avant de se laisser glisser à nouveau vers l'eau grâce au ressac."
+    },
+    {
+      "id": 14033,
+      "pays": "Argentine",
+      "theme": "Langues",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Que désigne le mot porteño en Argentine ?",
+      "choix": [
+        "Un habitant de la ville de Buenos Aires",
+        "Un habitant de la Patagonie",
+        "Un marin de la marine argentine",
+        "Un immigrant récent"
+      ],
+      "reponse": "Un habitant de la ville de Buenos Aires",
+      "explication": "Le terme « porteño », littéralement « du port », désigne spécifiquement un habitant de la ville de Buenos Aires, en référence au rôle historique de son port dans le développement de la capitale."
+    },
+    {
+      "id": 14034,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel est le nom de la sauce traditionnelle argentine piquante à base d'ail, persil, piment, huile et vinaigre servant à accompagner l'asado ?",
+      "choix": ["Le chimichurri", "Le pebre", "La salsa criolla", "Le mojo"],
+      "reponse": "Le chimichurri",
+      "explication": "Le chimichurri, sauce à base d'ail, de persil, de piment, d'huile et de vinaigre, est la condiment incontournable qui accompagne traditionnellement les viandes grillées de l'asado argentin."
+    },
+    {
+      "id": 14035,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel groupe d'humoristes et musiciens argentins jouant sur des instruments de musique informels bricolés a été récompensé dans toute la francophonie et le monde hispanique ?",
+      "choix": [
+        "Les Luthiers",
+        "Les Rolling Stones argentins",
+        "Bajofondo",
+        "Les Fabulosos Cadillacs"
+      ],
+      "reponse": "Les Luthiers",
+      "explication": "Fondé dans les années 1960, le groupe argentin Les Luthiers mêle humour verbal sophistiqué et musique jouée sur des instruments insolites fabriqués à partir d'objets détournés, un succès qui a traversé tout le monde hispanophone et une partie de la francophonie."
+    },
+    {
+      "id": 14036,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel oiseau marin emblématique nichant dans les îles du Sud et les côtes patagoniques possède la plus grande envergure au monde ?",
+      "choix": [
+        "L'albatros hurleur (albatros errant)",
+        "Le fou de Bassan",
+        "Le pélican austral",
+        "Le cormoran impérial"
+      ],
+      "reponse": "L'albatros hurleur (albatros errant)",
+      "explication": "L'albatros hurleur, ou albatros errant, présent dans les îles du sud de l'Atlantique et les côtes patagoniques, détient le record de la plus grande envergure de tous les oiseaux vivants, pouvant dépasser 3,5 mètres d'une aile à l'autre."
+    },
+    {
+      "id": 14037,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Dans quel parc national argentin se situe le Monte Fitz Roy (ou Chaltén), mecque mondiale de l'escalade ?",
+      "choix": [
+        "Le parc national Los Glaciares",
+        "Le parc national Nahuel Huapi",
+        "Le parc national Tierra del Fuego",
+        "Le parc national Lanín"
+      ],
+      "reponse": "Le parc national Los Glaciares",
+      "explication": "Le Monte Fitz Roy, sommet granitique escarpé considéré comme l'une des ascensions les plus difficiles du monde, se situe dans le parc national Los Glaciares, en Patagonie argentine, près du village d'El Chaltén."
+    },
+    {
+      "id": 14038,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel alcool traditionnel est préparé dans le nord-ouest argentin par fermentation du maïs ?",
+      "choix": [
+        "La chicha",
+        "Le fernet",
+        "L'aguardiente de caña",
+        "Le singani"
+      ],
+      "reponse": "La chicha",
+      "explication": "La chicha, boisson fermentée à base de maïs, est préparée traditionnellement dans le nord-ouest argentin selon des méthodes héritées des cultures précolombiennes andines, consommée notamment lors de fêtes rituelles."
+    },
+    {
+      "id": 14039,
+      "pays": "Argentine",
+      "theme": "Nature",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle province argentine est réputée pour ses mines de rhodochrosite (pierre nationale argentine de couleur rose) ?",
+      "choix": ["Catamarca", "Jujuy", "La Rioja", "Salta"],
+      "reponse": "Catamarca",
+      "explication": "La mine de Capillitas, dans la province de Catamarca, est la principale source mondiale de rhodochrosite de qualité gemme, un minéral rose aux motifs concentriques désigné comme la pierre nationale argentine."
+    },
+    {
+      "id": 14040,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel est le nom du traité signé en 1881 fixant la frontière le long des plus hautes cimes des Andes entre l'Argentine et le Chili ?",
+      "choix": [
+        "Le Traité de limites de 1881",
+        "Le Traité d'Ancón",
+        "Le Protocole de Petrópolis",
+        "L'Acte de Brasilia"
+      ],
+      "reponse": "Le Traité de limites de 1881",
+      "explication": "Signé en 1881, le Traité de limites entre l'Argentine et le Chili fixe le principe général selon lequel la frontière suit la ligne des plus hautes cimes qui divisent les eaux le long de la cordillère des Andes, un cadre qui a néanmoins nécessité de nombreux arbitrages ultérieurs sur des tronçons contestés."
+    },
+    {
+      "id": 14041,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel plat argentin à base de maïs, potiron, haricots et viande est traditionnellement consommé lors des fêtes nationales (25 mai et 9 juillet) ?",
+      "choix": ["Le locro", "La carbonada", "Le puchero", "Le guiso"],
+      "reponse": "Le locro",
+      "explication": "Le locro, ragoût épais à base de maïs, de potiron, de haricots et de différentes viandes, est traditionnellement préparé et partagé en famille lors des grandes fêtes patriotiques argentines du 25 mai et du 9 juillet."
+    },
+    {
+      "id": 14042,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel est le nom de la vallée glaciaire et du village patagonique surnommé la « Capitale nationale du Trekking » ?",
+      "choix": ["El Chaltén", "El Calafate", "Ushuaia", "Bariloche"],
+      "reponse": "El Chaltén",
+      "explication": "Fondé en 1985 au pied du Fitz Roy, le petit village d'El Chaltén a été officiellement désigné « Capitale nationale du Trekking » d'Argentine, point de départ de nombreux sentiers de randonnée réputés parmi les plus beaux du monde."
+    },
+    {
+      "id": 14043,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel plat sucré argentin consiste en un disque de pâte couverte de confiture de coing (dulce de membrillo) ou de patate douce (dulce de batata) avec un croisillon de pâte ?",
+      "choix": ["La pastafrola", "L'alfajor", "Le vigilante", "Les facturas"],
+      "reponse": "La pastafrola",
+      "explication": "La pastafrola est une tarte traditionnelle composée d'une pâte sablée garnie de confiture de coing ou de patate douce, recouverte d'un croisillon de pâte décoratif, un dessert hérité des traditions italiennes très populaire en Argentine."
+    },
+    {
+      "id": 14044,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel est le plus grand mammifère terrestre originaire d'Amérique du Sud présent en Argentine, parent du chameau ?",
+      "choix": ["Le guanaco", "Le lama", "La vigogne", "L'alpaga"],
+      "reponse": "Le guanaco",
+      "explication": "Le guanaco, ancêtre sauvage du lama, est le plus grand camélidé sud-américain et l'un des plus grands mammifères terrestres indigènes du continent, présent en grand nombre dans les steppes de Patagonie argentine."
+    },
+    {
+      "id": 14045,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel est le nom du célèbre gâteau traditionnel composé de plusieurs fines couches de pâte croustillante intercalées de dulce de leche et recouvert d'une meringue italienne ?",
+      "choix": [
+        "Le rogel (torta rogel)",
+        "Le chajá",
+        "La torta Balcarce",
+        "Le vigilante"
+      ],
+      "reponse": "Le rogel (torta rogel)",
+      "explication": "Le rogel superpose de nombreuses fines couches de pâte croustillante liées par du dulce de leche, le tout recouvert d'une meringue italienne dorée au chalumeau, un dessert riche et populaire des pâtisseries argentines."
+    },
+    {
+      "id": 14046,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel groupe de rock argentin emmené par Gustavo Cerati a été l'un des groupes les plus influents du rock en espagnol dans toute l'Amérique latine ?",
+      "choix": [
+        "Soda Stereo",
+        "Los Fabulosos Cadillacs",
+        "Sui Generis",
+        "Divididos"
+      ],
+      "reponse": "Soda Stereo",
+      "explication": "Formé en 1982 à Buenos Aires autour de Gustavo Cerati, Soda Stereo est considéré comme l'un des groupes de rock en espagnol les plus influents de toute l'histoire de l'Amérique latine, avec une influence durable bien après sa séparation en 1997."
+    },
+    {
+      "id": 14047,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel est le symbole végétal/fleur sacrée présent au centre du drapeau officiel de l'Argentine, représentant la révolution de mai 1810 ?",
+      "choix": [
+        "Le Soleil de Mai (non végétal, mais symbole central)",
+        "La cantuta",
+        "Le copihue",
+        "Le ceibo"
+      ],
+      "reponse": "Le Soleil de Mai (non végétal, mais symbole central)",
+      "explication": "Le symbole central du drapeau argentin n'est pas une fleur mais le Soleil de Mai, un soleil doré à visage humain ajouté en 1818 en référence à la révolution de mai 1810 qui déclencha le processus d'indépendance du pays."
+    },
+    {
+      "id": 14048,
+      "pays": "Argentine",
+      "theme": "Sport",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Combien de fois l'Argentine a-t-elle remporté la Coupe du Monde de football ?",
+      "choix": [
+        "3 fois (1978, 1986, 2022)",
+        "2 fois (1978, 1986)",
+        "4 fois",
+        "1 fois (2022)"
+      ],
+      "reponse": "3 fois (1978, 1986, 2022)",
+      "explication": "L'Argentine a remporté la Coupe du monde de football à trois reprises : en 1978 à domicile, en 1986 au Mexique sous la houlette de Diego Maradona, et en 2022 au Qatar avec Lionel Messi."
+    },
+    {
+      "id": 14049,
+      "pays": "Argentine",
+      "theme": "Sport",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Comment surnomme-t-on l'équipe nationale de rugby argentine ?",
+      "choix": ["Los Pumas", "Los Cóndores", "Los Gauchos", "Los Jaguares"],
+      "reponse": "Los Pumas",
+      "explication": "L'équipe nationale de rugby à XV argentine est surnommée « Los Pumas », en référence au félin sud-américain, et s'est imposée au fil des décennies comme l'une des nations majeures du rugby mondial."
+    },
+    {
+      "id": 14050,
+      "pays": "Argentine",
+      "theme": "Sport",
+      "difficulte": "facile",
+      "type": "vf",
+      "question": "Vrai/faux : Le sport national officiel de l'Argentine est le \"Pato\".",
+      "reponse": "Vrai",
+      "explication": "Le pato, sport équestre traditionnel dérivé d'un ancien jeu gaucho consistant à disputer un ballon muni de poignées à cheval, a été officiellement déclaré sport national argentin en 1953."
+    },
+    {
+      "id": 14051,
+      "pays": "Argentine",
+      "theme": "Sport",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Dans quel sport équestre l'Argentine est-elle considérée comme une nation dominante, produisant la majorité des meilleurs joueurs mondiaux ?",
+      "choix": [
+        "Le polo",
+        "Le dressage",
+        "Le saut d'obstacles",
+        "Le concours complet"
+      ],
+      "reponse": "Le polo",
+      "explication": "L'Argentine domine le polo mondial depuis plus d'un siècle, produisant une écrasante majorité des meilleurs joueurs de la planète, avec des dynasties de familles polistes et un handicap maximal (10 goles) presque exclusivement détenu par des Argentins."
+    },
+    {
+      "id": 14052,
+      "pays": "Argentine",
+      "theme": "Sport",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Comment surnomme-t-on l'équipe nationale féminine de hockey sur gazon, plusieurs fois médaillée olympique ?",
+      "choix": ["Las Leonas", "Las Pumas", "Las Águilas", "Las Gauchas"],
+      "reponse": "Las Leonas",
+      "explication": "Surnommée « Las Leonas » (les Lionnes), l'équipe nationale féminine de hockey sur gazon argentine compte parmi les meilleures nations mondiales de la discipline, avec plusieurs médailles olympiques et titres mondiaux à son palmarès."
+    },
+    {
+      "id": 14053,
+      "pays": "Argentine",
+      "theme": "Sport",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel sport, popularisé en Patagonie et dans les zones rurales, se pratique traditionnellement lors des fêtes de gauchos et consiste à faire des acrobaties à cheval ?",
+      "choix": [
+        "La jineteada",
+        "Le pato",
+        "La doma vaquera",
+        "Le rodeo chilien"
+      ],
+      "reponse": "La jineteada",
+      "explication": "La jineteada est une discipline traditionnelle gaucho consistant à rester le plus longtemps possible sur un cheval ou un taureau non dressé cherchant à désarçonner son cavalier, très populaire lors des fêtes rurales et patronales dans tout le pays."
+    },
+    {
+      "id": 14054,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel peuple précolombien vivait dans les plaines autour de l'actuelle Buenos Aires avant la colonisation espagnole ?",
+      "choix": [
+        "Les Querandíes",
+        "Les Guaraníes",
+        "Les Diaguitas",
+        "Les Comechingones"
+      ],
+      "reponse": "Les Querandíes",
+      "explication": "Les Querandíes, peuple chasseur-cueilleur nomade, occupaient les plaines pampéennes autour de l'actuelle Buenos Aires avant l'arrivée des colons espagnols, entretenant des relations tantôt commerciales, tantôt conflictuelles avec les premiers fondateurs de la ville."
+    },
+    {
+      "id": 14055,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel peuple autochtone, aujourd'hui encore présent en Patagonie, a longtemps parcouru les plaines australes du continent ?",
+      "choix": [
+        "Les Tehuelches",
+        "Les Guaraníes",
+        "Les Diaguitas",
+        "Les Querandíes"
+      ],
+      "reponse": "Les Tehuelches",
+      "explication": "Les Tehuelches, grands chasseurs nomades des steppes australes, ont longtemps parcouru les vastes plaines de Patagonie avant l'arrivée des colons européens, et leurs descendants restent aujourd'hui présents dans la région."
+    },
+    {
+      "id": 14056,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel peuple autochtone du nord-est argentin, présent aussi au Paraguay et au Brésil, a donné son nom à plusieurs sites naturels comme les chutes d'Iguazú ?",
+      "choix": [
+        "Les Guaraníes",
+        "Les Tehuelches",
+        "Les Mapuches",
+        "Les Wichís"
+      ],
+      "reponse": "Les Guaraníes",
+      "explication": "Les Guaraníes, peuple présent dans le nord-est de l'Argentine, au Paraguay et au sud du Brésil, ont laissé une empreinte linguistique durable dans la région, y compris dans le nom même des chutes d'Iguazú, qui signifie « grande eau » en guarani."
+    },
+    {
+      "id": 14057,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Comment l'Empire inca appelait-il la région correspondant au nord-ouest de l'actuelle Argentine, qu'il avait intégrée à son territoire ?",
+      "choix": [
+        "Le Collasuyo",
+        "L'Antisuyo",
+        "Le Chinchaysuyo",
+        "Le Contisuyo"
+      ],
+      "reponse": "Le Collasuyo",
+      "explication": "Le nord-ouest de l'actuelle Argentine faisait partie du Collasuyo, l'une des quatre grandes régions (suyos) de l'Empire inca, qui étendait son influence sur cette zone andine avant l'arrivée des Espagnols."
+    },
+    {
+      "id": 14058,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "En 1806 et 1807, les habitants de Buenos Aires ont repoussé sans l'aide de l'Espagne les invasions d'une puissance européenne. Laquelle ?",
+      "choix": ["Le Royaume-Uni", "La France", "Le Portugal", "Les Pays-Bas"],
+      "reponse": "Le Royaume-Uni",
+      "explication": "Lors des deux invasions britanniques de 1806 et 1807, les habitants de Buenos Aires s'organisèrent en milices populaires pour repousser les troupes britanniques sans le soutien de la couronne espagnole, un épisode qui renforça le sentiment d'autonomie locale prélude à l'indépendance."
+    },
+    {
+      "id": 14059,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quelle date marque la déclaration formelle de l'indépendance de l'Argentine ?",
+      "choix": [
+        "Le 9 juillet 1816",
+        "Le 25 mai 1810",
+        "Le 20 juin 1820",
+        "Le 17 août 1850"
+      ],
+      "reponse": "Le 9 juillet 1816",
+      "explication": "L'indépendance de l'Argentine (alors Provinces-Unies du Río de la Plata) fut déclarée formellement le 9 juillet 1816 lors du Congrès de Tucumán, une date célébrée chaque année comme fête nationale."
+    },
+    {
+      "id": 14060,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quelles sont les couleurs du drapeau argentin créé par Manuel Belgrano ?",
+      "choix": [
+        "Bleu ciel et blanc",
+        "Bleu et blanc",
+        "Rouge, blanc et bleu",
+        "Vert, blanc et rouge"
+      ],
+      "reponse": "Bleu ciel et blanc",
+      "explication": "Le drapeau argentin, créé par Manuel Belgrano en 1812, se compose de trois bandes horizontales bleu ciel, blanche et bleu ciel, des couleurs qui seraient inspirées du ciel dégagé du matin lors de sa conception."
+    },
+    {
+      "id": 14061,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Comment appelle-t-on la campagne militaire menée dans les années 1870-1880 pour soumettre les peuples autochtones de Patagonie et des Pampas ?",
+      "choix": [
+        "La Conquête du désert (Conquista del Desierto)",
+        "La Pacification de l'Araucanie",
+        "La Campagne du Sud",
+        "La Guerre des Pampas"
+      ],
+      "reponse": "La Conquête du désert (Conquista del Desierto)",
+      "explication": "Menée principalement sous la direction du général Julio Argentino Roca entre 1878 et 1885, la Conquête du désert visait à soumettre militairement les peuples autochtones des Pampas et de la Patagonie, ouvrant ces territoires à la colonisation et à l'élevage extensif."
+    },
+    {
+      "id": 14062,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel peuple autochtone est aujourd'hui le plus nombreux en Patagonie argentine et chilienne, avec une langue encore parlée, le mapudungun ?",
+      "choix": [
+        "Les Mapuches",
+        "Les Tehuelches",
+        "Les Selk'nam",
+        "Les Yaghans"
+      ],
+      "reponse": "Les Mapuches",
+      "explication": "Les Mapuches constituent aujourd'hui le peuple autochtone le plus nombreux de part et d'autre de la frontière argentino-chilienne en Patagonie, avec leur langue propre, le mapudungun, toujours parlée par de nombreuses communautés."
+    },
+    {
+      "id": 14063,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel terme désigne la période de forte croissance économique et d'immigration massive que l'Argentine a connue entre 1880 et 1914 environ ?",
+      "choix": [
+        "L'Argentine agro-exportatrice (« le grenier du monde »)",
+        "La Décennie infâme",
+        "Le Processus de réorganisation nationale",
+        "L'Âge d'or péroniste"
+      ],
+      "reponse": "L'Argentine agro-exportatrice (« le grenier du monde »)",
+      "explication": "Entre 1880 et 1914, l'Argentine connaît une période de forte croissance économique portée par les exportations agricoles (blé, viande) et une immigration massive, principalement italienne et espagnole, qui vaut alors au pays le surnom de « grenier du monde »."
+    },
+    {
+      "id": 14064,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "En quelle année les femmes ont-elles obtenu le droit de vote en Argentine ?",
+      "choix": ["1947", "1930", "1912", "1983"],
+      "reponse": "1947",
+      "explication": "Le droit de vote des femmes fut instauré en Argentine en 1947 sous la présidence de Juan Domingo Perón, une réforme fortement soutenue par son épouse Eva Perón (« Evita »)."
+    },
+    {
+      "id": 14065,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel navire de guerre argentin a été coulé par un sous-marin britannique en mai 1982, causant la mort de plus de 300 marins et marquant durablement la guerre des Malouines ?",
+      "choix": [
+        "L'ARA General Belgrano",
+        "L'ARA Veinticinco de Mayo",
+        "L'ARA Libertad",
+        "L'ARA Santísima Trinidad"
+      ],
+      "reponse": "L'ARA General Belgrano",
+      "explication": "Le croiseur ARA General Belgrano fut coulé le 2 mai 1982 par le sous-marin britannique HMS Conqueror, causant la mort de 323 marins argentins, l'épisode le plus meurtrier de la guerre des Malouines."
+    },
+    {
+      "id": 14066,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : L'Argentine est le premier pays au monde à avoir utilisé les empreintes digitales pour résoudre un crime.",
+      "reponse": "Vrai",
+      "explication": "En 1892, le policier argentin Juan Vucetich a utilisé pour la première fois au monde l'identification par empreintes digitales pour résoudre un crime, l'affaire du meurtre de Necochea, marquant une avancée majeure de la criminologie moderne."
+    },
+    {
+      "id": 14067,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "facile",
+      "type": "vf",
+      "question": "Vrai/faux : Le plus grand dinosaure jamais découvert, l'Argentinosaurus, a été trouvé dans la province de Neuquén, en Argentine.",
+      "reponse": "Vrai",
+      "explication": "Les restes fossiles de l'Argentinosaurus, l'un des plus grands dinosaures jamais découverts pouvant dépasser 30 mètres de long, ont été mis au jour dans la province de Neuquén, en Patagonie argentine, une région particulièrement riche en fossiles de dinosaures géants."
+    },
+    {
+      "id": 14068,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : Le vin Malbec est originaire de la région de Mendoza.",
+      "reponse": "Faux",
+      "explication": "Le cépage Malbec est en réalité originaire du Sud-Ouest de la France, notamment de la région de Cahors ; c'est à Mendoza, où il fut importé au XIXe siècle, qu'il a trouvé des conditions idéales et est devenu le cépage emblématique de l'Argentine."
+    },
+    {
+      "id": 14069,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "vf",
+      "question": "Vrai/faux : L'Aconcagua est situé sur la ligne de frontière entre l'Argentine et le Chili.",
+      "reponse": "Faux",
+      "explication": "Contrairement à une idée répandue, l'Aconcagua se situe entièrement en territoire argentin, dans la province de Mendoza, à quelques kilomètres seulement de la frontière chilienne mais pas exactement sur celle-ci."
+    },
+    {
+      "id": 14070,
+      "pays": "Argentine",
+      "theme": "Langues",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : Le mot \"Tango\" est issu de la langue indigène Mapuche et signifie \"danse en cercle\".",
+      "reponse": "Faux",
+      "explication": "L'étymologie exacte du mot « tango » reste débattue par les linguistes, mais elle n'est pas mapuche ; les hypothèses les plus courantes évoquent une origine africaine ou un terme onomatopéique lié au tambour, sans lien avec le mapudungun."
+    },
+    {
+      "id": 14071,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : Le désert de sel des \"Salinas Grandes\" s'est formé suite à l'assèchement d'un bras de l'océan Atlantique il y a 500 ans.",
+      "reponse": "Faux",
+      "explication": "Les Salinas Grandes se sont en réalité formées par l'évaporation progressive d'un ancien lac continental sur des dizaines de milliers d'années, un processus géologique bien plus ancien et sans lien avec un ancien bras de l'océan Atlantique."
+    },
+    {
+      "id": 14072,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "En décembre 2001, l'Argentine a connu une crise politique si intense qu'elle a eu combien de présidents en l'espace de moins de deux semaines ?",
+      "choix": ["5 présidents", "3 présidents", "7 présidents", "2 présidents"],
+      "reponse": "5 présidents",
+      "explication": "Lors de la grave crise économique et politique de décembre 2001, l'Argentine connut une succession vertigineuse de cinq présidents en l'espace de dix jours à peine, un épisode resté dans les mémoires comme le symbole du chaos institutionnel de la crise."
+    },
+    {
+      "id": 14073,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Avec combien de pays l'Argentine partage-t-elle une frontière terrestre ?",
+      "choix": ["5", "4", "6", "3"],
+      "reponse": "5",
+      "explication": "L'Argentine partage ses frontières terrestres avec cinq pays : le Chili, la Bolivie, le Paraguay, le Brésil et l'Uruguay, ce qui en fait l'un des pays aux frontières les plus étendues d'Amérique du Sud."
+    },
+    {
+      "id": 14074,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel grand fleuve, le plus long d'Argentine, traverse le pays du nord au sud avant de rejoindre le Río de la Plata ?",
+      "choix": ["Le Paraná", "L'Uruguay", "Le Colorado", "Le Salado"],
+      "reponse": "Le Paraná",
+      "explication": "Le Paraná, deuxième plus long fleuve d'Amérique du Sud après l'Amazone, traverse l'Argentine du nord au sud avant de rejoindre le Río de la Plata, constituant l'une des voies navigables et agricoles les plus importantes du pays."
+    },
+    {
+      "id": 14075,
+      "pays": "Argentine",
+      "theme": "Nature",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle particularité rend le glacier Perito Moreno célèbre parmi les glaciologues du monde entier ?",
+      "choix": [
+        "C'est l'un des rares grands glaciers au monde en état d'équilibre, ni en net recul ni en avancée marquée",
+        "C'est le seul glacier bleu du monde",
+        "Il avance de 10 mètres par jour en permanence",
+        "Il est situé au niveau de la mer"
+      ],
+      "reponse": "C'est l'un des rares grands glaciers au monde en état d'équilibre, ni en net recul ni en avancée marquée",
+      "explication": "Contrairement à la grande majorité des glaciers du monde qui reculent sous l'effet du réchauffement climatique, le glacier Perito Moreno reste l'un des rares à présenter un état globalement stable depuis des décennies, alternant phases d'avancée et de rupture spectaculaire de son front de glace."
+    },
+    {
+      "id": 14076,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Comment se nomme la grande plaine fertile du centre de l'Argentine, cœur historique de l'agriculture et de l'élevage du pays ?",
+      "choix": ["La Pampa", "La Puna", "Le Chaco", "La Mesopotamia"],
+      "reponse": "La Pampa",
+      "explication": "La Pampa est la vaste plaine fertile du centre de l'Argentine, cœur historique de l'agriculture (céréales, oléagineux) et de l'élevage bovin du pays, à l'origine de sa réputation de grand exportateur agricole mondial."
+    },
+    {
+      "id": 14077,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Comment appelle-t-on traditionnellement les cavaliers-éleveurs associés à la culture de la Pampa argentine ?",
+      "choix": ["Les gauchos", "Les huasos", "Les llaneros", "Les charros"],
+      "reponse": "Les gauchos",
+      "explication": "Les gauchos sont les cavaliers-éleveurs traditionnels des plaines de la Pampa argentine, figures emblématiques de l'identité rurale du pays, connus pour leur habileté équestre et leur mode de vie itinérant historique."
+    },
+    {
+      "id": 14078,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Comment se nomme le haut plateau désertique du nord-ouest argentin, prolongement de l'Altiplano andin ?",
+      "choix": ["La Puna", "La Pampa", "Le Chaco", "La Patagonia"],
+      "reponse": "La Puna",
+      "explication": "La Puna argentine est un haut plateau désertique d'altitude situé dans le nord-ouest du pays, prolongement direct de l'Altiplano andin partagé avec le Chili et la Bolivie, caractérisé par un climat extrême et des paysages volcaniques spectaculaires."
+    },
+    {
+      "id": 14079,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quelle est la deuxième ville la plus peuplée d'Argentine, capitale d'une province du même nom dans le centre du pays ?",
+      "choix": ["Córdoba", "Rosario", "Mendoza", "La Plata"],
+      "reponse": "Córdoba",
+      "explication": "Córdoba, capitale de la province du même nom dans le centre du pays, est la deuxième ville la plus peuplée d'Argentine, réputée pour son importante population étudiante et son riche patrimoine colonial jésuite."
+    },
+    {
+      "id": 14080,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel canal, au sud de l'île de Terre de Feu, sépare notamment l'Argentine de certaines îles chiliennes et doit son nom au navire de Charles Darwin ?",
+      "choix": [
+        "Le canal de Beagle",
+        "Le détroit de Magellan",
+        "Le canal de Fitz Roy",
+        "Le canal Murray"
+      ],
+      "reponse": "Le canal de Beagle",
+      "explication": "Le canal de Beagle, à l'extrême sud de la Terre de Feu, tire son nom du HMS Beagle, le navire à bord duquel Charles Darwin explora la région dans les années 1830 ; il sépare notamment des territoires argentins et chiliens et fut l'objet d'un différend frontalier en 1978."
+    },
+    {
+      "id": 14081,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel est le fuseau horaire standard de l'Argentine par rapport au Temps universel coordonné (UTC) ?",
+      "choix": ["UTC-3", "UTC-4", "UTC-5", "UTC-2"],
+      "reponse": "UTC-3",
+      "explication": "L'Argentine applique un fuseau horaire unique sur l'ensemble de son territoire, UTC-3, sans changement d'heure saisonnier depuis 2009."
+    },
+    {
+      "id": 14082,
+      "pays": "Argentine",
+      "theme": "Économie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quelle grande région viticole de l'ouest de l'Argentine, au pied des Andes, est réputée pour son climat désertique irrigué et son cépage phare, le Malbec ?",
+      "choix": ["Mendoza", "La Rioja", "Salta", "San Juan"],
+      "reponse": "Mendoza",
+      "explication": "Mendoza, au pied de la cordillère des Andes, est la principale région viticole d'Argentine, réputée pour son climat désertique irrigué par la fonte des neiges andines et son cépage emblématique, le Malbec."
+    },
+    {
+      "id": 14083,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quelle grande route mythique traverse l'Argentine du nord au sud le long des Andes et de la Patagonie, très empruntée par les voyageurs en camping-car ou en van ?",
+      "choix": [
+        "La Route nationale 40 (Ruta 40)",
+        "La Route nationale 3",
+        "La Panaméricaine",
+        "La Route des Sept Lacs uniquement"
+      ],
+      "reponse": "La Route nationale 40 (Ruta 40)",
+      "explication": "La Ruta 40, l'une des plus longues routes du monde, longe la cordillère des Andes sur plus de 5 000 km du nord au sud de l'Argentine, traversant des paysages d'une extraordinaire diversité, très prisée des voyageurs en van ou en camping-car."
+    },
+    {
+      "id": 14084,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Dans quelle ville argentine le tango est-il né, à la fin du XIXe siècle, dans les quartiers populaires portuaires ?",
+      "choix": ["Buenos Aires", "Rosario", "Córdoba", "Mendoza"],
+      "reponse": "Buenos Aires",
+      "explication": "Le tango est né à la fin du XIXe siècle dans les quartiers populaires et portuaires de Buenos Aires (et de Montevideo de l'autre côté du Río de la Plata), issu du métissage de rythmes africains, européens et locaux."
+    },
+    {
+      "id": 14085,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel film argentin, réalisé par Juan José Campanella, a remporté l'Oscar du meilleur film en langue étrangère en 2010 ?",
+      "choix": [
+        "El secreto de sus ojos (Dans ses yeux)",
+        "La historia oficial",
+        "Relatos salvajes",
+        "Nueve reinas"
+      ],
+      "reponse": "El secreto de sus ojos (Dans ses yeux)",
+      "explication": "Réalisé par Juan José Campanella, « El secreto de sus ojos » (Dans ses yeux), thriller mêlant enquête criminelle et histoire d'amour sur fond de dictature argentine, remporta l'Oscar du meilleur film en langue étrangère en 2010."
+    },
+    {
+      "id": 14086,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel film argentin, traitant des enfants volés sous la dictature, a remporté l'Oscar du meilleur film en langue étrangère en 1986 ?",
+      "choix": [
+        "La historia oficial",
+        "El secreto de sus ojos",
+        "Camila",
+        "La noche de los lápices"
+      ],
+      "reponse": "La historia oficial",
+      "explication": "« La historia oficial » (L'Histoire officielle), de Luis Puenzo, aborde le drame des enfants de disparus adoptés illégalement sous la dictature argentine ; il fut le premier film argentin et sud-américain à remporter l'Oscar du meilleur film en langue étrangère, en 1986."
+    },
+    {
+      "id": 14087,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Comment se nomme la danse folklorique traditionnelle très populaire dans le nord-ouest argentin, dansée en couple avec des mouchoirs ?",
+      "choix": ["La zamba", "La chacarera", "Le tango", "La milonga"],
+      "reponse": "La zamba",
+      "explication": "La zamba est une danse de couple traditionnelle du nord-ouest argentin, exécutée au rythme lent et gracieux, où les danseurs agitent un mouchoir dans une chorégraphie évoquant un jeu de séduction."
+    },
+    {
+      "id": 14088,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel opéra de Buenos Aires, réputé pour son acoustique exceptionnelle, est l'un des plus prestigieux du monde ?",
+      "choix": [
+        "Le Teatro Colón",
+        "Le Teatro San Martín",
+        "Le Teatro Opera",
+        "Le Teatro Cervantes"
+      ],
+      "reponse": "Le Teatro Colón",
+      "explication": "Inauguré en 1908, le Teatro Colón de Buenos Aires est mondialement reconnu pour son acoustique exceptionnelle, considérée comme l'une des meilleures au monde pour l'opéra et la musique classique."
+    },
+    {
+      "id": 14089,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Comment surnomme-t-on parfois Buenos Aires en raison de son architecture inspirée de l'urbanisme européen du XIXe siècle ?",
+      "choix": [
+        "Le Paris de l'Amérique du Sud",
+        "La Rome de l'Amérique",
+        "Le Londres austral",
+        "La Venise du Sud"
+      ],
+      "reponse": "Le Paris de l'Amérique du Sud",
+      "explication": "Grâce à ses larges avenues, ses bâtiments Belle Époque et son urbanisme largement inspiré du Paris haussmannien à la fin du XIXe et au début du XXe siècle, Buenos Aires est souvent surnommée le « Paris de l'Amérique du Sud »."
+    },
+    {
+      "id": 14090,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel plat, à base de viande grillée sur des braises, est considéré comme le symbole culinaire national de l'Argentine ?",
+      "choix": ["L'asado", "Le choripán", "La milanesa", "Le puchero"],
+      "reponse": "L'asado",
+      "explication": "L'asado, rassemblement convivial autour de viandes grillées lentement sur des braises, est bien plus qu'un plat en Argentine : c'est une véritable institution sociale et le symbole culinaire national par excellence."
+    },
+    {
+      "id": 14091,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Comment se nomme le fromage à pâte semi-dure, souvent grillé entier lors de l'asado, saupoudré d'origan ?",
+      "choix": [
+        "La provoleta",
+        "Le queso de asado",
+        "La mozzarella criolla",
+        "Le queso cremoso"
+      ],
+      "reponse": "La provoleta",
+      "explication": "La provoleta, tranche épaisse de fromage provolone grillée directement sur les braises jusqu'à former une croûte dorée, est traditionnellement saupoudrée d'origan et de piment, un classique en entrée de l'asado argentin."
+    },
+    {
+      "id": 14092,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Comment se nomme le sandwich populaire à base de chorizo grillé, très prisé lors des matchs ou dans la rue ?",
+      "choix": ["Le choripán", "Le lomito", "La milanesa", "Le pancho"],
+      "reponse": "Le choripán",
+      "explication": "Le choripán, contraction de « chorizo » et « pan » (pain), est un sandwich composé d'une saucisse de chorizo grillée servie dans du pain, souvent garnie de chimichurri, très populaire dans la rue et lors des événements sportifs."
+    },
+    {
+      "id": 14093,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle pizza, épaisse et généreusement garnie, popularisée par les immigrants italiens à Buenos Aires, est une institution locale ?",
+      "choix": [
+        "La fugazzeta",
+        "La pizza margherita classique",
+        "La pizza napolitaine fine",
+        "La calzone"
+      ],
+      "reponse": "La fugazzeta",
+      "explication": "Héritée des immigrants italiens installés à Buenos Aires, la fugazzeta se distingue par sa pâte épaisse et moelleuse, généreusement garnie d'oignons et souvent fourrée d'une couche de fromage fondant, devenue une véritable institution des pizzerias portègnes."
+    },
+    {
+      "id": 14094,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle boisson gazeuse d'origine argentine, à base d'infusion d'herbes, est aussi populaire localement que le cola dans d'autres pays",
+      "choix": ["La Bidú Cola", "L'Inca Kola", "La Fioravanti", "La Manaos"],
+      "reponse": "La Bidú Cola",
+      "explication": "Lancée en 1940 par des immigrants italiens à partir d'une recette à base d'herbes, d'agrumes et d'eau gazeuse, la Bidú Cola fut, durant des décennies, la principale rivale locale du Coca-Cola en Argentine, avant de connaître un retour nostalgique sur le marché."
+    },
+    {
+      "id": 14095,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel grand oiseau coureur incapable de voler, proche parent de l'autruche, peuple les plaines de la Pampa argentine ?",
+      "choix": ["Le ñandú", "Le casoar", "Le kiwi", "L'émeu"],
+      "reponse": "Le ñandú",
+      "explication": "Le ñandú, grand oiseau coureur incapable de voler et lointain cousin de l'autruche africaine, peuple les plaines ouvertes de la Pampa et de la Patagonie argentines, où il peut atteindre des vitesses de pointe impressionnantes."
+    },
+    {
+      "id": 14096,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quelle espèce de baleine vient se reproduire chaque année dans les eaux abritées de la Péninsule Valdés ?",
+      "choix": [
+        "La baleine franche australe",
+        "La baleine bleue",
+        "Le cachalot",
+        "Le rorqual commun"
+      ],
+      "reponse": "La baleine franche australe",
+      "explication": "La baleine franche australe fréquente chaque année les eaux calmes et abritées des golfes de la péninsule Valdés pour s'y reproduire et mettre bas, faisant de ce site l'un des meilleurs lieux d'observation de cette espèce au monde."
+    },
+    {
+      "id": 14097,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel oiseau, connu pour construire des nids en forme de four en boue séchée, est l'oiseau national de l'Argentine ?",
+      "choix": [
+        "Le hornero (fournier roux)",
+        "Le condor des Andes",
+        "Le tinamou",
+        "Le cardinal à huppe rouge"
+      ],
+      "reponse": "Le hornero (fournier roux)",
+      "explication": "Le hornero, ou fournier roux, doit son nom à ses nids caractéristiques en forme de four en terre séchée, construits sur des poteaux ou des branches ; il est l'oiseau national officiel de l'Argentine, symbole de travail assidu et de constance."
+    },
+    {
+      "id": 14098,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel petit félin sauvage tacheté, présent notamment dans le nord de l'Argentine, ressemble à un chat domestique en plus grand ?",
+      "choix": [
+        "Le chat de Geoffroy (gato montés)",
+        "Le puma",
+        "Le jaguarondi",
+        "L'ocelot uniquement"
+      ],
+      "reponse": "Le chat de Geoffroy (gato montés)",
+      "explication": "Le chat de Geoffroy, petit félin sauvage au pelage tacheté présent dans une grande partie de l'Argentine, ressemble beaucoup à un chat domestique mais en légèrement plus grand et plus trapu, avec des motifs bien plus marqués."
+    },
+    {
+      "id": 14099,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Sur les armoiries nationales argentines, deux avant-bras se serrant la main soutiennent un objet surmonté d'un bonnet phrygien rouge. Que symbolise ce bonnet ?",
+      "choix": [
+        "La liberté conquise par la révolution",
+        "La royauté",
+        "La religion catholique",
+        "L'unité des provinces"
+      ],
+      "reponse": "La liberté conquise par la révolution",
+      "explication": "Le bonnet phrygien rouge, hissé au sommet d'une pique sur les armoiries argentines, est un symbole classique de la liberté hérité de la Révolution française, représentant ici la liberté conquise par la révolution d'indépendance argentine."
+    },
+    {
+      "id": 14100,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "D'où vient le nom 'Argentine', qui n'a en réalité jamais été un grand producteur de ce métal précieux ?",
+      "choix": [
+        "De « argentum », l'argent en latin, en référence à des légendes de montagnes d'argent recherchées par les premiers explorateurs",
+        "Du nom d'un explorateur nommé Argento",
+        "D'un mot guarani signifiant « terre brillante »",
+        "Du nom de la rivière Argenta"
+      ],
+      "reponse": "De « argentum », l'argent en latin, en référence à des légendes de montagnes d'argent recherchées par les premiers explorateurs",
+      "explication": "Le nom « Argentine » dérive du latin « argentum » (argent), en référence aux légendes d'une « Sierra de la Plata » regorgeant d'argent que recherchaient les premiers explorateurs espagnols du Río de la Plata, bien que le pays n'ait en réalité jamais été un grand producteur de ce métal."
+    },
+    {
+      "id": 14101,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "La ville d'Ushuaia, aujourd'hui destination touristique, a été fondée en partie autour de quelle institution au début du XXe siècle ?",
+      "choix": [
+        "Un bagne (prison de haute sécurité, « la prison du bout du monde »)",
+        "Une base militaire navale uniquement",
+        "Une mission religieuse",
+        "Une usine de conserverie de poisson"
+      ],
+      "reponse": "Un bagne (prison de haute sécurité, « la prison du bout du monde »)",
+      "explication": "Au début du XXe siècle, l'État argentin fit construire à Ushuaia un bagne de haute sécurité, surnommé « la prison du bout du monde », dont les détenus contribuèrent à bâtir une grande partie des premières infrastructures de la ville."
+    },
+    {
+      "id": 14102,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quelle fleur, aux couleurs rouge vif, a été déclarée fleur nationale de l'Argentine en 1942 ?",
+      "choix": [
+        "La fleur de ceibo",
+        "La cantuta",
+        "Le copihue",
+        "L'orchidée cattleya"
+      ],
+      "reponse": "La fleur de ceibo",
+      "explication": "La fleur de l'arbre ceibo, aux pétales rouge vif, a été officiellement déclarée fleur nationale argentine en 1942, un choix célébrant un arbre emblématique des berges des cours d'eau du pays."
+    },
+    {
+      "id": 14103,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Le tango, aujourd'hui symbole national, a d'abord été mal vu par la haute société argentine du début du XXe siècle avant d'être largement adopté. Qu'est-ce qui a notamment contribué à sa légitimation ?",
+      "choix": [
+        "Son succès retentissant auprès de la haute société parisienne, qui l'a ensuite fait accepter en Argentine",
+        "Une loi votée par le Congrès argentin en sa faveur",
+        "Son adoption officielle par l'Église catholique",
+        "Sa diffusion à la radio nationale"
+      ],
+      "reponse": "Son succès retentissant auprès de la haute société parisienne, qui l'a ensuite fait accepter en Argentine",
+      "explication": "Initialement associé aux quartiers populaires et mal vu par l'élite argentine, le tango connut un succès retentissant à Paris dans les années 1910, où il fut adopté avec enthousiasme par la haute société ; ce prestige parisien contribua en retour à sa légitimation et à son acceptation par les classes aisées argentines."
+    },
+    {
+      "id": 14104,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "De quelle origine est le bandonéon, instrument roi du tango ?",
+      "choix": ["Allemande", "Française", "Italienne", "Espagnole"],
+      "reponse": "Allemande",
+      "explication": "Le bandonéon fut inventé en Allemagne au milieu du XIXe siècle, initialement destiné à la musique religieuse populaire, avant d'être importé à Buenos Aires par des immigrants où il devint l'instrument emblématique du tango."
+    },
+    {
+      "id": 14105,
+      "pays": "Argentine",
+      "theme": "Société",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle est approximativement la population totale de l'Argentine aujourd'hui ?",
+      "choix": [
+        "Environ 46 millions d'habitants",
+        "Environ 25 millions d'habitants",
+        "Environ 65 millions d'habitants",
+        "Environ 100 millions d'habitants"
+      ],
+      "reponse": "Environ 46 millions d'habitants",
+      "explication": "L'Argentine compte aujourd'hui une population d'environ 46 millions d'habitants, ce qui en fait le troisième pays le plus peuplé d'Amérique du Sud après le Brésil et la Colombie."
+    },
+    {
+      "id": 14106,
+      "pays": "Argentine",
+      "theme": "Société",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "L'Argentine abrite l'une des plus importantes communautés juives d'Amérique latine, concentrée notamment dans quelle ville ?",
+      "choix": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza"],
+      "reponse": "Buenos Aires",
+      "explication": "Buenos Aires abrite l'une des plus importantes communautés juives d'Amérique latine, héritée de vagues successives d'immigration depuis la fin du XIXe siècle, avec des quartiers historiques comme celui d'Once fortement marqués par cette présence."
+    },
+    {
+      "id": 14107,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Sur le plan économique, l'Argentine a connu au fil de son histoire plusieurs changements de monnaie en raison de fortes crises inflationnistes. Quel nom portait la monnaie utilisée dans les années 1980, avant l'introduction du peso actuel ?",
+      "choix": ["L'austral", "Le sucre", "L'escudo", "Le sol"],
+      "reponse": "L'austral",
+      "explication": "Face à une hyperinflation galopante, l'Argentine introduisit l'austral en 1985 pour remplacer le peso argentino, avant que celui-ci ne soit à son tour abandonné en 1992 au profit de l'actuel peso convertible, dans une longue histoire de crises monétaires successives."
+    },
+    {
+      "id": 14108,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel vaste fleuve ou estuaire sépare l'Argentine de l'Uruguay ?",
+      "choix": [
+        "Le Río de la Plata",
+        "Le Río Paraná",
+        "Le Río Uruguay seul",
+        "Le Río Colorado"
+      ],
+      "reponse": "Le Río de la Plata",
+      "explication": "Le Río de la Plata, vaste estuaire formé par la confluence des fleuves Paraná et Uruguay, sépare l'Argentine de l'Uruguay et borde les capitales Buenos Aires et Montevideo, de part et d'autre de ses eaux boueuses."
+    },
+    {
+      "id": 14109,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel parc national de la province de San Juan est connu pour ses formations rocheuses spectaculaires et ses fossiles de dinosaures ?",
+      "choix": [
+        "Le parc national Ischigualasto (Valle de la Luna)",
+        "Le parc national Talampaya",
+        "Le parc national El Leoncito",
+        "Le parc national San Guillermo"
+      ],
+      "reponse": "Le parc national Ischigualasto (Valle de la Luna)",
+      "explication": "Le parc provincial Ischigualasto, surnommé Valle de la Luna pour son paysage désertique sculpté par l'érosion, est mondialement connu pour ses formations rocheuses spectaculaires et l'une des séquences de fossiles de dinosaures et d'autres reptiles du Trias les plus complètes au monde."
+    },
+    {
+      "id": 14110,
+      "pays": "Argentine",
+      "theme": "Traditions",
+      "difficulte": "facile",
+      "type": "vf",
+      "question": "Vrai/faux : La coutume de boire du maté provient du peuple indigène Guarani.",
+      "reponse": "Vrai",
+      "explication": "La consommation de la yerba mate remonte aux peuples guaranis, qui utilisaient cette plante bien avant l'arrivée des colons espagnols, pour des usages rituels, sociaux et comme monnaie d'échange."
+    },
+    {
+      "id": 14111,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Comment s'appelle le grand couteau traditionnel à lame longue porté par le gaucho à sa ceinture ?",
+      "choix": ["Le facón", "Le tumi", "Le machete criollo", "Le puñal andino"],
+      "reponse": "Le facón",
+      "explication": "Le facón est le grand couteau traditionnel à lame longue que le gaucho porte glissé dans sa ceinture (faja), à la fois outil du quotidien et symbole identitaire de la culture gaucho."
+    },
+    {
+      "id": 14112,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Comment appelle-t-on le récipient traditionnel (souvent une courge séchée) dans lequel on prépare le maté ?",
+      "choix": [
+        "Le mate (ou porongo)",
+        "La bombilla",
+        "La yerbera",
+        "Le termo"
+      ],
+      "reponse": "Le mate (ou porongo)",
+      "explication": "Le récipient traditionnel dans lequel on prépare et boit le maté, souvent une calebasse séchée et évidée, porte le même nom que la boisson elle-même : le mate (parfois appelé « porongo » selon la région)."
+    },
+    {
+      "id": 14113,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel rythme folklorique à 3/4 ou 6/8 est indissociable de la culture gaucho et du nord-ouest argentin ?",
+      "choix": ["La chacarera", "Le tango", "La cumbia", "Le reggaetón"],
+      "reponse": "La chacarera",
+      "explication": "La chacarera, rythme folklorique alternant subtilement les mesures à 3/4 et 6/8, est indissociable de la culture gaucho et des traditions du nord-ouest argentin, dansée lors de nombreuses fêtes populaires."
+    },
+    {
+      "id": 14114,
+      "pays": "Argentine",
+      "theme": "Nature",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle est la particularité écologique de la ville d'Ushuaia concernant la gestion des déchets organiques en hiver ?",
+      "choix": [
+        "Elle utilise le lombricompostage (compostage par des vers) pour traiter ses déchets organiques",
+        "Elle incinère tous ses déchets organiques sur place",
+        "Elle les exporte par bateau vers le continent",
+        "Elle les enterre dans le permafrost"
+      ],
+      "reponse": "Elle utilise le lombricompostage (compostage par des vers) pour traiter ses déchets organiques",
+      "explication": "Ushuaia a développé un programme de lombricompostage, utilisant des vers pour transformer une partie de ses déchets organiques en compost, une solution écologique originale adaptée aux contraintes climatiques de la ville la plus australe du monde."
+    },
+    {
+      "id": 14115,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quel est le surnom du tueur en série le plus célèbre de l'histoire argentine, sujet du film \"El Ángel\" (2018) ?",
+      "choix": [
+        "El Ángel de la Muerte",
+        "El Diablo de los Andes",
+        "El Carnicero de Buenos Aires",
+        "El Lobo de la Pampa"
+      ],
+      "reponse": "El Ángel de la Muerte",
+      "explication": "Carlos Robledo Puch, condamné pour une série de meurtres commis alors qu'il était adolescent dans les années 1970, fut surnommé « l'Ange de la mort » (El Ángel de la Muerte) en raison de son visage juvénile et angélique contrastant avec la brutalité de ses crimes, l'histoire ayant inspiré le film « El Ángel » en 2018."
+    },
+    {
+      "id": 14116,
+      "pays": "Argentine",
+      "theme": "Langues",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "En espagnol rioplatense (Argentine), quelle est la particularité de la prononciation des lettres \"LL\" et \"Y\" ?",
+      "choix": [
+        "Elles se prononcent comme un « ch » ou un « j » chuinté (sheísmo / zheísmo)",
+        "Elles sont totalement muettes",
+        "Elles se prononcent comme un « l » classique",
+        "Elles se prononcent comme un « gn » français"
+      ],
+      "reponse": "Elles se prononcent comme un « ch » ou un « j » chuinté (sheísmo / zheísmo)",
+      "explication": "Dans l'espagnol rioplatense parlé en Argentine et en Uruguay, les lettres « ll » et « y » se prononcent avec un son chuinté proche du « ch » ou du « j » français, un phénomène appelé sheísmo ou zheísmo selon les variantes, très caractéristique de l'accent portègne."
+    },
+    {
+      "id": 14117,
+      "pays": "Argentine",
+      "theme": "Langues",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Quel pronom personnel sujet est utilisé en Argentine à la place de \"tú\" pour tutoyer quelqu'un ?",
+      "choix": ["Vos", "Usted", "Tú quand même", "Vosotros"],
+      "reponse": "Vos",
+      "explication": "L'Argentine pratique le « voseo » : le pronom « vos » remplace « tú » pour tutoyer quelqu'un, avec une conjugaison verbale propre (« vos tenés », « vos sos »), une particularité partagée avec plusieurs autres pays d'Amérique centrale et du Sud."
+    },
+    {
+      "id": 14118,
+      "pays": "Argentine",
+      "theme": "Langues",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Que signifie l'expression typiquement argentine \"¡Che!\" ?",
+      "choix": [
+        "Une interjection pour interpeller quelqu'un, l'équivalent de « hé ! » ou « eh, toi ! »",
+        "Un juron grossier",
+        "Une formule de politesse pour dire au revoir",
+        "Un synonyme de « merci »"
+      ],
+      "reponse": "Une interjection pour interpeller quelqu'un, l'équivalent de « hé ! » ou « eh, toi ! »",
+      "explication": "« Che » est une interjection typiquement argentine et uruguayenne utilisée pour interpeller quelqu'un ou attirer son attention, un peu comme « hé ! » ou « dis donc ! » en français ; elle est si caractéristique qu'elle a donné son surnom à Ernesto « Che » Guevara."
+    },
+    {
+      "id": 14119,
+      "pays": "Argentine",
+      "theme": "Langues",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Que désigne le mot \"Guita\" en argot argentin ?",
+      "choix": ["L'argent", "La nourriture", "Le travail", "La maison"],
+      "reponse": "L'argent",
+      "explication": "« Guita » est un terme d'argot très courant en Argentine pour désigner l'argent, utilisé dans le langage familier de tous les jours."
+    },
+    {
+      "id": 14120,
+      "pays": "Argentine",
+      "theme": "Mythologie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle créature mythologique de la Pampa est décrite comme un être poilu protégeant les animaux sauvages ?",
+      "choix": ["Le Yastay", "El Pombero", "El Caleuche", "El Familiar"],
+      "reponse": "Le Yastay",
+      "explication": "Le Yastay est un être mythologique andin et pampéen, souvent décrit comme un guanaco géant ou un être poilu protecteur, gardien des troupeaux d'animaux sauvages qu'il défend contre les chasseurs abusifs."
+    },
+    {
+      "id": 14121,
+      "pays": "Argentine",
+      "theme": "Mythologie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Selon la légende guarani, la plante du Maté a été offerte aux hommes par :",
+      "choix": [
+        "La déesse Lune (Yací), en remerciement à un vieil homme qui l'avait sauvée",
+        "Le dieu du Soleil (Inti)",
+        "Un condor messager des dieux",
+        "Un chaman ayant volé le secret aux esprits"
+      ],
+      "reponse": "La déesse Lune (Yací), en remerciement à un vieil homme qui l'avait sauvée",
+      "explication": "Selon la légende guarani, la déesse de la Lune (Yací), descendue sur terre sous forme humaine et sauvée d'un jaguar par un vieil homme, offrit en remerciement la plante de la yerba mate à sa famille, leur enseignant l'art de la préparer et de la partager."
+    },
+    {
+      "id": 14122,
+      "pays": "Argentine",
+      "theme": "Faune",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "À quel moment de l'année les baleines franches australes viennent-elles dans les golfes de la Péninsule Valdés ?",
+      "choix": [
+        "De juin à décembre",
+        "De janvier à mars",
+        "Toute l'année sans interruption",
+        "Uniquement en août"
+      ],
+      "reponse": "De juin à décembre",
+      "explication": "Les baleines franches australes fréquentent les golfes abrités de la péninsule Valdés de juin à décembre environ, une période durant laquelle elles s'y accouplent et mettent bas avant de repartir vers leurs zones d'alimentation australes."
+    },
+    {
+      "id": 14123,
+      "pays": "Argentine",
+      "theme": "Gastronomie",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Qu'est-ce qu'un \"Lágrima\" dans un café argentin ?",
+      "choix": [
+        "Un café avec juste une petite quantité de café dans beaucoup de lait chaud",
+        "Un café glacé servi avec de la glace pilée",
+        "Un café noir très fort sans lait",
+        "Un café accompagné d'une larme de liqueur"
+      ],
+      "reponse": "Un café avec juste une petite quantité de café dans beaucoup de lait chaud",
+      "explication": "Le « lágrima » (larme) est, à l'inverse du cortado, une boisson composée essentiellement de lait chaud avec juste une petite « larme » de café, idéale pour ceux qui préfèrent une saveur très légère."
+    },
+    {
+      "id": 14124,
+      "pays": "Argentine",
+      "theme": "Traditions",
+      "difficulte": "facile",
+      "type": "qcm",
+      "question": "Que désigne un \"Truco\" en Argentine ?",
+      "choix": [
+        "Un jeu de cartes populaire fondé sur le bluff",
+        "Une danse traditionnelle",
+        "Un tour de magie de rue",
+        "Un plat régional"
+      ],
+      "reponse": "Un jeu de cartes populaire fondé sur le bluff",
+      "explication": "Le truco est un jeu de cartes extrêmement populaire en Argentine, se jouant avec un jeu de cartes espagnol, où le bluff, les codes gestuels secrets et les envolées verbales entre joueurs tiennent une place aussi importante que les cartes elles-mêmes."
+    },
+    {
+      "id": 14125,
+      "pays": "Argentine",
+      "theme": "Traditions",
+      "difficulte": "moyen",
+      "type": "qcm",
+      "question": "Quelle carte du jeu de cartes espagnol (Baraja española) est la plus forte au jeu du Truco ?",
+      "choix": [
+        "L'as d'épées (Ancho de espada)",
+        "Le roi de coupes",
+        "Le trois de deniers",
+        "Le sept de bâtons"
+      ],
+      "reponse": "L'as d'épées (Ancho de espada)",
+      "explication": "Dans la hiérarchie particulière des cartes au jeu du truco, l'as d'épées (appelé « Ancho de espada » ou « Macho ») est traditionnellement la carte la plus forte du jeu, suivie de l'as de bâtons et des deux sept (d'épées et d'oros)."
+    },
+    {
+      "id": 14126,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : La première émission de radio publique au monde a eu lieu à Buenos Aires en 1920.",
+      "reponse": "Vrai",
+      "explication": "Le 27 août 1920, un groupe de passionnés surnommé « Los Locos de la Azotea » retransmit en direct depuis un toit de Buenos Aires l'opéra Parsifal de Wagner, un événement considéré comme l'une des toutes premières émissions de radio publique régulière au monde."
+    },
+    {
+      "id": 14127,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : Le Pape François travaillait comme videur de boîte de nuit à Buenos Aires dans sa jeunesse.",
+      "reponse": "Vrai",
+      "explication": "Avant d'entrer dans les ordres, le jeune Jorge Bergoglio (futur pape François) aurait effectivement exercé, parmi divers petits emplois à Buenos Aires, celui de videur dans une boîte de nuit, une anecdote qu'il a lui-même évoquée par la suite."
+    },
+    {
+      "id": 14128,
+      "pays": "Argentine",
+      "theme": "Économie",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : La viande d'exportation argentine est principalement nourrie au grain pour garantir sa tendreté.",
+      "reponse": "Faux",
+      "explication": "Contrairement à une idée reçue, l'essentiel du bœuf argentin, y compris celui destiné à l'exportation, est traditionnellement élevé en pâturage sur l'herbe des pampas plutôt qu'engraissé au grain, ce qui est justement considéré comme l'un des secrets de sa réputation mondiale."
+    },
+    {
+      "id": 14129,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : Le dessin animé (film d'animation) a été inventé en Argentine avant Disney.",
+      "reponse": "Vrai",
+      "explication": "Le dessinateur argentin Quirino Cristiani a réalisé dès 1917 le premier long métrage d'animation de l'histoire du cinéma, « El Apóstol », bien avant les premiers longs métrages animés de Walt Disney."
+    },
+    {
+      "id": 14130,
+      "pays": "Argentine",
+      "theme": "Traditions",
+      "difficulte": "facile",
+      "type": "vf",
+      "question": "Vrai/faux : Les gnocchis (ñoquis) se mangent traditionnellement le 29 de chaque mois en Argentine.",
+      "reponse": "Vrai",
+      "explication": "La tradition des « ñoquis del 29 » veut que l'on mange des gnocchis le 29 de chaque mois en Argentine, une coutume héritée des immigrants italiens, à l'origine liée à la fin du mois où l'argent se faisait rare avant la paie."
+    },
+    {
+      "id": 14131,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : L'Argentine possède un village appelé \"La Cumbrecita\" où toute circulation automobile est strictement interdite.",
+      "reponse": "Vrai",
+      "explication": "Le village de La Cumbrecita, dans les montagnes de la province de Córdoba, interdit effectivement la circulation de véhicules à moteur dans son centre, les visiteurs devant se déplacer exclusivement à pied dans ses ruelles piétonnes."
+    },
+    {
+      "id": 14132,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "vf",
+      "question": "Vrai/faux : Le lion est l'animal symbole figurant sur l'armoirie officielle de la République Argentine.",
+      "reponse": "Faux",
+      "explication": "Les armoiries argentines ne comportent aucun lion : elles représentent deux mains serrées tenant une pique surmontée d'un bonnet phrygien, entourées de lauriers et surmontées d'un soleil levant, sans figure animale."
+    },
+    {
+      "id": 14133,
+      "pays": "Argentine",
+      "theme": "Histoire",
+      "difficulte": "facile",
+      "type": "vf",
+      "question": "Vrai/faux : Ernesto \"Che\" Guevara est né à Buenos Aires.",
+      "reponse": "Faux",
+      "explication": "Ernesto « Che » Guevara est né à Rosario, dans la province de Santa Fe, et non à Buenos Aires, bien que sa famille s'y soit installée alors qu'il était encore très jeune."
+    },
+    {
+      "id": 14134,
+      "pays": "Argentine",
+      "theme": "Société",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : La Casa Rosada est le siège officiel du Parlement argentin.",
+      "reponse": "Faux",
+      "explication": "La Casa Rosada est le siège du pouvoir exécutif, c'est-à-dire de la présidence de la République argentine, et non du Parlement, qui siège dans un bâtiment distinct, le Palais du Congrès."
+    },
+    {
+      "id": 14135,
+      "pays": "Argentine",
+      "theme": "Nature",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : Le glacier Perito Moreno a été nommé ainsi en hommage à un célèbre président argentin.",
+      "reponse": "Faux",
+      "explication": "Le glacier Perito Moreno doit son nom non pas à un président mais à Francisco Moreno, explorateur, naturaliste et « perito » (expert) argentin qui joua un rôle clé dans la délimitation des frontières australes du pays et la protection de ses espaces naturels."
+    },
+    {
+      "id": 14136,
+      "pays": "Argentine",
+      "theme": "Langues",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : L'expression argentine \"Che\" signifie littéralement \"Mon capitaine\" en espagnol colonial.",
+      "reponse": "Faux",
+      "explication": "« Che » ne signifie pas « mon capitaine » : c'est une simple interjection d'interpellation dont l'origine exacte reste débattue (possiblement liée à des langues indigènes régionales), sans rapport avec un quelconque grade militaire colonial."
+    },
+    {
+      "id": 14137,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : La statue du Christ Rédempteur des Andes (Cristo Redentor de los Andes) se trouve sur le sommet du mont Fitz Roy.",
+      "reponse": "Faux",
+      "explication": "La statue du Christ Rédempteur des Andes se trouve en réalité au col frontalier de La Cumbre (Paso de la Cumbre), entre Mendoza en Argentine et la région de Valparaíso au Chili, et non sur le Mont Fitz Roy, situé bien plus au sud en Patagonie."
+    },
+    {
+      "id": 14138,
+      "pays": "Argentine",
+      "theme": "Géographie",
+      "difficulte": "moyen",
+      "type": "vf",
+      "question": "Vrai/faux : La ville de La Plata a la particularité de ne posséder aucune rue droite ni aucun angle droit.",
+      "reponse": "Faux",
+      "explication": "C'est en réalité tout le contraire : La Plata est mondialement connue comme un modèle d'urbanisme planifié, construite selon un plan en damier parfaitement régulier agrémenté de larges avenues diagonales, un exemple emblématique de géométrie urbaine rigoureuse."
+    },
+    {
+      "id": 14139,
+      "pays": "Argentine",
+      "theme": "Culture",
+      "difficulte": "facile",
+      "type": "vf",
+      "question": "Vrai/faux : Le film argentin \"Dans ses yeux\" (El secreto de sus ojos) a remporté l'Oscar du meilleur film d'animation.",
+      "reponse": "Faux",
+      "explication": "« El secreto de sus ojos » a remporté l'Oscar du meilleur film en langue étrangère en 2010, et non celui du meilleur film d'animation, catégorie à laquelle ce thriller dramatique ne pouvait d'ailleurs pas prétendre."
+    }
+  ]
 ]

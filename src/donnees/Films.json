@@ -1,10 +1,353 @@
 [
   {
+    "id": "butch-cassidy-et-le-kid",
+    "titre": "Butch Cassidy et le Kid",
+    "annee": 1969,
+    "type": "Western",
+    "pays": "Bolivie",
+    "downloaded": true,
+    "description": "Deux hors-la-loi américains, Butch Cassidy et Sundance Kid, fuient une bande de chasseurs de primes et se réfugient en Amérique du Sud, jusqu'en Bolivie, où ils espèrent continuer leurs braquages loin de la justice américaine."
+  },
+  {
+    "id": "blackthorn",
+    "titre": "Blackthorn",
+    "annee": 2011,
+    "type": "Western",
+    "pays": "Bolivie",
+    "downloaded": false,
+    "description": "Et si Butch Cassidy n'était pas mort en 1908 ? Ce western imagine que le hors-la-loi, vieilli et vivant incognito dans l'Altiplano bolivien sous le nom de James Blackthorn, est rattrapé par son passé lorsqu'il croise la route d'un jeune ingénieur espagnol en fuite. Tourné dans les paysages spectaculaires du Salar d'Uyuni, le film fait suite, à \"Butch Cassidy et le Kid\"."
+  },
+  {
     "id": "carnets-de-voyage",
     "titre": "Carnets de voyage",
     "annee": 2004,
     "type": "Road movie",
     "pays": "Argentine",
+    "downloaded": true,
     "description": "Adaptation du journal de jeunesse d'Ernesto Guevara, qui traverse l'Amérique du Sud à moto avec son ami Alberto Granado en 1952. De l'Argentine au Venezuela, en passant par le Chili, le Pérou et la Colombie, ce périple à travers les Andes, le désert d'Atacama et l'Amazonie marque l'éveil de la conscience politique du futur « Che »."
+  },
+  {
+    "id": "no",
+    "titre": "No",
+    "annee": 2012,
+    "type": "Drame politique",
+    "pays": "Chili",
+    "downloaded": true,
+    "description": "En 1988, sommé par la pression internationale d'organiser un référendum sur son maintien au pouvoir, le général Pinochet doit accorder aux opposants 15 minutes d'antenne télévisée par jour pendant la campagne. Un jeune publicitaire, incarné par Gael García Bernal, est chargé de concevoir la campagne du « Non », misant sur l'humour et l'optimisme plutôt que sur le récit des atrocités de la dictature. Le film retrace ainsi, par la lucarne de la publicité, la chute pacifique d'un régime autoritaire."
+  },
+  {
+    "id": "machuca",
+    "titre": "Machuca",
+    "annee": 2004,
+    "type": "Drame historique",
+    "pays": "Chili",
+    "downloaded": true,
+    "description": "À Santiago, en 1973, un prêtre progressiste mélange dans sa classe des enfants de milieux aisés et des enfants pauvres du bidonville voisin. L'amitié naissante entre Gonzalo, issu de la bourgeoisie, et Pedro Machuca, du bidonville, est brutalement rattrapée par la polarisation politique du pays puis par le coup d'État du 11 septembre 1973 qui renverse Salvador Allende. Un regard sensible sur la fin de l'Unité populaire vue à hauteur d'enfant."
+  },
+  {
+    "id": "neruda",
+    "titre": "Neruda",
+    "annee": 2016,
+    "type": "Drame biographique",
+    "pays": "Chili",
+    "downloaded": true,
+    "description": "En 1948, le poète et sénateur communiste Pablo Neruda est déclaré hors-la-loi par le gouvernement chilien et doit fuir, traqué par un policier obstiné qui devient presque un double fictionnel de l'écrivain. Plutôt qu'un biopic classique, Pablo Larraín construit un jeu de miroirs entre réalité et fiction, où la traque elle-même devient une forme de légende que Neruda semble écrire en la vivant."
+  },
+  {
+    "id": "la-teta-asustada",
+    "titre": "La Teta asustada",
+    "annee": 2009,
+    "type": "Drame",
+    "pays": "Pérou",
+    "downloaded": true,
+    "description": "Fausta souffre du « syndrome du sein effrayé », un mal transmis, selon la croyance populaire, par le lait maternel aux enfants nés de mères violées pendant les années de terreur du conflit contre le Sentier lumineux. Vivant recluse dans la peur, elle doit sortir de son isolement à la mort de sa mère pour ramener son corps au village natal. Ours d'or à Berlin, le film aborde les traumatismes intergénérationnels laissés par la guerre civile péruvienne à travers un conte troublant et poétique."
+  },
+  {
+    "id": "tambien-la-lluvia",
+    "titre": "También la lluvia",
+    "annee": 2010,
+    "type": "Drame",
+    "pays": "Bolivie",
+    "downloaded": true,
+    "description": "Une équipe de cinéma espagnole débarque à Cochabamba pour tourner, à moindre coût, un film sur la colonisation espagnole et les révoltes menées par Bartolomé de Las Casas contre les exactions de Christophe Colomb. Le tournage se heurte bientôt à la réalité : la ville est en pleine « guerre de l'eau » de 2000, quand la privatisation du réseau d'eau potable provoque un soulèvement populaire. Le film tisse un parallèle frappant entre colonisation historique et exploitation contemporaine."
+  },
+  {
+    "id": "nueve-reinas",
+    "titre": "Les Neuf Reines",
+    "annee": 2000,
+    "type": "Thriller",
+    "pays": "Argentine",
+    "downloaded": true,
+    "description": "À Buenos Aires, deux escrocs de rue se rencontrent par hasard et s'associent pour monter une arnaque de plus en plus ambitieuse, jusqu'à cibler un riche collectionneur de timbres à travers la vente frauduleuse d'une rarissime planche de timbres, les « neuf reines ». Thriller argentin culte porté par des rebondissements en cascade, où chaque personnage semble dissimuler un jeu dans le jeu."
+  },
+  {
+    "id": "relatos-salvajes",
+    "titre": "Relatos sauvages",
+    "annee": 2014,
+    "type": "Comédie noire (film à sketches)",
+    "pays": "Argentine",
+    "downloaded": true,
+    "description": "Six récits indépendants, tous portés par la même logique implacable : un instant de frustration, d'humiliation ou d'injustice sociale fait basculer des personnages ordinaires dans la violence et la vengeance. Entre un mariage qui tourne au carnage et un ingénieur excédé par les mauvaises pratiques administratives, le film dresse un portrait féroce et hilarant de la société argentine contemporaine, où la colère individuelle devient exutoire collectif."
+  },
+  {
+    "id": "el-secreto-de-sus-ojos",
+    "titre": "Dans ses yeux",
+    "annee": 2009,
+    "type": "Thriller",
+    "pays": "Argentine",
+    "downloaded": true,
+    "description": "Un ancien enquêteur judiciaire à la retraite se replonge, vingt-cinq ans plus tard, dans une affaire de viol et de meurtre jamais résolue qui l'a hanté toute sa vie, tout en tentant de renouer avec l'amour qu'il n'a jamais osé déclarer à sa collègue de l'époque. Oscar du meilleur film étranger, le film navigue entre thriller et mélodrame sur fond de dictature argentine et d'impunité judiciaire."
+  },
+  {
+    "id": "la-historia-oficial",
+    "titre": "L'Histoire officielle",
+    "annee": 1985,
+    "type": "Drame",
+    "pays": "Argentine",
+    "downloaded": true,
+    "description": "À la toute fin de la dictature militaire argentine, une professeure d'histoire au foyer aisé et confortable commence à douter des origines de sa fille adoptive, alors que les Mères de la Place de Mai réclament la vérité sur les enfants volés aux opposants « disparus ». Premier film latino-américain à recevoir l'Oscar du meilleur film étranger, il reste la référence sur le sujet des enfants enlevés pendant les années de plomb."
+  },
+  {
+    "id": "argentina-1985",
+    "titre": "Argentina, 1985",
+    "annee": 2022,
+    "type": "Drame judiciaire",
+    "pays": "Argentine",
+    "downloaded": true,
+    "description": "En 1985, alors que la démocratie argentine est encore fragile, le procureur Julio Strassera et son jeune adjoint acceptent la mission périlleuse de faire juger les chefs des juntes militaires responsables de la dictature, malgré les menaces et le peu de temps dont ils disposent pour construire leur dossier. Porté par Ricardo Darín, le film retrace le « procès des juntes », moment fondateur de la justice transitionnelle argentine."
+  },
+  {
+    "id": "que-tan-lejos",
+    "titre": "Si loin",
+    "annee": 2006,
+    "type": "Road movie",
+    "pays": "Équateur",
+    "downloaded": true,
+    "description": "Une touriste espagnole et une étudiante équatorienne au cœur brisé se rencontrent dans un bus en direction de Cuenca, puis se retrouvent bloquées par une grève générale qui paralyse les routes du pays. Contraintes de continuer en stop, les deux femmes traversent l'Équateur au gré des rencontres, entre paysages andins et désillusions politiques. Premier long métrage de Tania Hermida, immense succès populaire dans son pays, qui évite autant la carte postale touristique que le misérabilisme."
+  },
+  {
+    "id": "ratas-ratones-rateros",
+    "titre": "Rats, souris, voleurs",
+    "annee": 1999,
+    "type": "Drame policier",
+    "pays": "Équateur",
+    "downloaded": true,
+    "description": "À Quito, un lycéen livré à lui-même voit sa vie basculer avec l'arrivée d'Angel, son cousin tout juste sorti de prison, charmeur mais dangereux, qui l'entraîne dans une spirale de petits larcins puis de délits plus graves jusqu'à Guayaquil. Premier long métrage à gros budget de l'histoire du cinéma équatorien, le film dresse le portrait sans concession d'une jeunesse urbaine marquée par la crise économique et la corruption de la fin des années 1990."
+  },
+  {
+    "id": "con-mi-corazon-en-yambo",
+    "titre": "Avec mon cœur dans le Yambo",
+    "annee": 2011,
+    "type": "Documentaire",
+    "pays": "Équateur",
+    "downloaded": true,
+    "description": "En 1988, deux adolescents équatoriens disparaissent sans laisser de traces ; leur sœur, alors âgée de dix ans, grandit dans l'attente de leur retour. Devenue réalisatrice, elle enquête vingt ans plus tard sur cette disparition jamais élucidée, révélant les mensonges d'État et les tortures policières dissimulées derrière une affaire classée trop vite. Documentaire intime et politique sur l'un des épisodes les plus sombres de l'histoire récente équatorienne."
+  },
+  {
+    "id": "180-degres-south",
+    "titre": "180° South",
+    "annee": 2010,
+    "type": "Documentaire d'aventure",
+    "pays": "Chili",
+    "downloaded": true,
+    "description": "Sur les traces du voyage mythique effectué en 1968 par les fondateurs de Patagonia et de The North Face, Yvon Chouinard et Doug Tompkins, un jeune aventurier redescend la côte pacifique jusqu'en Patagonie chilienne pour gravir le Corcovado. Le documentaire mêle images d'archives et expédition contemporaine pour interroger le rapport entre exploration, préservation de la nature sauvage et industrie du plein air."
+  },
+  {
+    "id": "los-colonos",
+    "titre": "Les Colons",
+    "annee": 2023,
+    "type": "Western révisionniste",
+    "pays": "Chili",
+    "downloaded": true,
+    "description": "En 1901, en Terre de Feu, un riche propriétaire terrien engage trois cavaliers, dont un jeune métis chilien, officiellement pour tracer une route vers l'Atlantique mais en réalité pour exterminer les populations indigènes Selk'nam qui occupent ces terres. Présenté à Cannes, le film emprunte les codes du western pour révéler un génocide méconnu, absent des manuels scolaires chiliens, aux fondations mêmes de la nation."
+  },
+  {
+    "id": "violeta-se-fue-a-los-cielos",
+    "titre": "Violeta partit aux cieux",
+    "annee": 2011,
+    "type": "Drame biographique",
+    "pays": "Chili",
+    "downloaded": true,
+    "description": "Portrait non chronologique de Violeta Parra, immense chanteuse, peintre et brodeuse chilienne, figure fondatrice de la Nueva Canción Chilena, reconstitué à travers les hommes qui ont marqué sa vie et les souvenirs qui la hantent depuis la tente où elle s'est installée à Santiago. Grand succès public au Chili, le film capte la personnalité fantasque et douloureuse d'une artiste autodidacte devenue légende populaire."
+  },
+  {
+    "id": "yawar-mallku",
+    "titre": "Le Sang du condor",
+    "annee": 1969,
+    "type": "Thriller politique",
+    "pays": "Bolivie",
+    "downloaded": true,
+    "description": "Dans une communauté quechua isolée de l'Altiplano, les femmes deviennent mystérieusement stériles ; le chef du village découvre que la cause en est un dispensaire tenu par des Américains, qui stérilisait les Indiennes à leur insu sous couvert d'aide humanitaire. Basé sur des faits réels liés aux Corps de la paix, ce film fondateur du cinéma bolivien engagé provoqua un tel scandale qu'il contribua à l'expulsion du Peace Corps du pays."
+  },
+  {
+    "id": "la-mine-du-diable",
+    "titre": "La Mine du diable",
+    "annee": 2005,
+    "type": "Documentaire",
+    "pays": "Bolivie",
+    "downloaded": true,
+    "description": "À 14 ans, Basilio Vargas travaille avec son petit frère dans les mines d'argent du Cerro Rico, au-dessus de Potosí, exploitées depuis l'époque coloniale espagnole. Le documentaire suit son quotidien entre l'école et les tunnels, où les mineurs catholiques vénèrent malgré tout « El Tío », statue démoniaque à qui ils offrent feuilles de coca, cigarettes et alcool pour s'assurer sa protection contre les accidents."
+  },
+  {
+    "id": "che-2-guerilla",
+    "titre": "Che, 2e partie : Guerilla",
+    "annee": 2008,
+    "type": "Drame biographique / Guerre",
+    "pays": "Bolivie",
+    "downloaded": true,
+    "description": "Après la révolution cubaine et son passage remarqué aux Nations unies, Ernesto « Che » Guevara disparaît de la scène publique pour réapparaître incognito en Bolivie, où il tente de constituer une guérilla de révolutionnaires cubains et de recrues locales. Deuxième volet du diptyque de Steven Soderbergh avec Benicio del Toro, le film retrace, sur un mode quasi documentaire, l'échec de la campagne de Ñancahuazú et la mort du Che dans les montagnes boliviennes."
+  },
+  {
+    "id": "winaypacha",
+    "titre": "Wiñaypacha",
+    "annee": 2017,
+    "type": "Drame",
+    "pays": "Pérou",
+    "downloaded": true,
+    "description": "Isolés à plus de 5000 mètres d'altitude dans l'Altiplano péruvien, un vieux couple aymara, Willka et Phaxsi, lutte au quotidien contre le froid, la faim et l'âge, dans l'attente du retour de leur fils unique parti tenter sa chance en ville. Premier film jamais tourné entièrement en langue aymara, porté par les propres grands-parents du réalisateur, une œuvre d'une beauté âpre sur la disparition d'un monde."
+  },
+  {
+    "id": "el-viaje-macho",
+    "titre": "El viaje macho",
+    "annee": 2016,
+    "type": "Road movie",
+    "pays": "Pérou",
+    "downloaded": true,
+    "description": "Après une longue et injuste incarcération, le docteur Carlos Espejo redécouvre une société qui lui est devenue étrangère et se lance, guidé par un compagnon de prison aveugle, dans un voyage à travers les ravins andins à bord du mythique « train macho » reliant Huancayo à Huancavelica. Road movie contemplatif tourné dans les Andes centrales du Pérou, sur le chemin vers une liberté retrouvée."
+  },
+  {
+    "id": "pescador",
+    "titre": "Pescador",
+    "annee": 2011,
+    "type": "Drame",
+    "pays": "Équateur",
+    "downloaded": true,
+    "description": "Blanquito, trentenaire naïf et sympathique, vit avec sa mère dans un modeste village de pêcheurs de la côte équatorienne, quand des caisses de cocaïne s'échouent sur la plage. Entre l'appât d'une vie meilleure et l'arrivée d'une mystérieuse Colombienne, sa tentative de revendre la drogue à Guayaquil vire au cauchemar. Inspiré de faits réels, le film de Sebastián Cordero mêle polar social et road movie sur fond de trafic de drogue."
+  },
+  {
+    "id": "el-abrazo-de-la-serpiente",
+    "titre": "L'Étreinte du serpent",
+    "annee": 2015,
+    "type": "Drame d'aventure",
+    "pays": "Colombie",
+    "downloaded": true,
+    "description": "À quarante ans d'intervalle, deux scientifiques occidentaux, l'un allemand au début du XXe siècle, l'autre américain dans les années 1940, demandent à Karamakate, le dernier survivant de son peuple amazonien, de les guider jusqu'à une plante sacrée aux vertus hallucinogènes. Tourné en noir et blanc dans l'Amazonie colombienne, le film interroge la rencontre entre savoirs indigènes et appétit colonial pour les ressources naturelles."
+  },
+  {
+    "id": "retablo",
+    "titre": "Retablo",
+    "annee": 2017,
+    "type": "Drame",
+    "pays": "Pérou",
+    "downloaded": true,
+    "description": "Dans les Andes péruviennes, Segundo, quatorze ans, apprend de son père l'art traditionnel des retables, ces scènes religieuses sculptées et peintes, jusqu'au jour où il découvre par accident un secret qui va bouleverser sa vision de sa famille et de la masculinité dans son village conservateur. Premier film tourné en quechua ayacuchano, une œuvre délicate sur l'homophobie et la transmission dans le monde andin traditionnel."
+  },
+  {
+    "id": "when-two-worlds-collide",
+    "titre": "When Two Worlds Collide",
+    "annee": 2016,
+    "type": "Documentaire",
+    "pays": "Pérou",
+    "downloaded": true,
+    "description": "En 2009, la décision du gouvernement péruvien d'ouvrir l'Amazonie à l'exploitation pétrolière et minière déclenche un an de manifestations menées par le leader indigène Alberto Pizango, jusqu'à l'affrontement sanglant de Bagua entre policiers et manifestants. Le documentaire suit au plus près cette lutte pour la souveraineté sur les terres ancestrales face aux intérêts économiques nationaux et internationaux."
+  },
+  {
+    "id": "utama",
+    "titre": "Utama",
+    "annee": 2022,
+    "type": "Drame",
+    "pays": "Bolivie",
+    "downloaded": true,
+    "description": "Sur l'Altiplano bolivien, un vieux couple quechua, Virginio et Sisa, voit sa vie pastorale bouleversée par une sécheresse qui dure depuis des mois, tandis que leur petit-fils venu de la ville tente de les convaincre de partir vivre à Cochabamba. Premier film d'Alejandro Loayza Grisi, tourné avec des acteurs non professionnels, « Utama » (« notre maison » en aymara) évoque le changement climatique et l'exode rural à hauteur d'un couple attaché à sa terre."
+  },
+  {
+    "id": "la-nacion-clandestina",
+    "titre": "La Nation clandestine",
+    "annee": 1989,
+    "type": "Drame",
+    "pays": "Bolivie",
+    "downloaded": true,
+    "description": "Chassé des années plus tôt de sa communauté aymara pour trahison, Sebastián Mamani y revient porter le grand masque du « Danzanti » et danser jusqu'à la mort, en une forme d'expiation et de réappropriation de son identité perdue. Tourné en cent séquences sans coupures pour traduire le temps circulaire de la pensée aymara, ce film de Jorge Sanjinés, Coquille d'or à San Sebastián, est un sommet du cinéma bolivien engagé."
+  },
+  {
+    "id": "cuestion-de-fe",
+    "titre": "Cuestión de fe",
+    "annee": 1995,
+    "type": "Comédie dramatique",
+    "pays": "Bolivie",
+    "downloaded": true,
+    "description": "Un gangster commande à deux fabricants de statues de saints une Vierge grandeur nature à livrer dans un village reculé au cœur de la jungle des Yungas, une mission qui tourne à l'épreuve initiatique pour le duo et leur ami joueur invétéré. Comédie bolivienne pleine de fantaisie sur la foi, le hasard et le destin, multi-primée dans les festivals latino-américains lors de sa sortie."
+  },
+  {
+    "id": "la-patagonia-rebelde",
+    "titre": "La Patagonie rebelle",
+    "annee": 1974,
+    "type": "Drame historique",
+    "pays": "Argentine",
+    "downloaded": true,
+    "description": "En 1920 et 1921, dans l'extrême sud argentin, les ouvriers agricoles des grandes estancias lainières se soulèvent, menés par les anarcho-syndicalistes de la Société ouvrière, pour réclamer de meilleures conditions de travail, jusqu'à ce que l'armée soit envoyée pour « rétablir l'ordre » dans un bain de sang. Censuré pendant dix ans sous la dictature, le film d'après l'enquête d'Osvaldo Bayer reste une référence du cinéma politique argentin."
+  },
+  {
+    "id": "el-agente-topo",
+    "titre": "L'Agent topo",
+    "annee": 2020,
+    "type": "Documentaire",
+    "pays": "Chili",
+    "downloaded": true,
+    "description": "Un détective privé recrute Sergio, veuf de 83 ans sans aucune expérience du métier, pour infiltrer incognito une maison de retraite chilienne où la fille d'une pensionnaire soupçonne des maltraitances. Entre polar d'espionnage et documentaire social, le film de Maite Alberdi, nommé aux Oscars, devient peu à peu le portrait tendre et bouleversant de la solitude des personnes âgées."
+  },
+  {
+    "id": "nostalgia-de-la-luz",
+    "titre": "Nostalgie de la lumière",
+    "annee": 2010,
+    "type": "Documentaire",
+    "pays": "Chili",
+    "downloaded": true,
+    "description": "Dans le désert d'Atacama, l'un des lieux les plus secs et les plus purs au monde pour observer les étoiles, des astronomes scrutent les origines de l'univers tandis que, non loin de là, des femmes fouillent inlassablement le sable à la recherche des restes de leurs proches exécutés sous la dictature de Pinochet. Patricio Guzmán tisse un parallèle vertigineux entre mémoire cosmique et mémoire des disparus."
+  },
+  {
+    "id": "la-odisea-de-los-giles",
+    "titre": "L'Odyssée des ploucs",
+    "annee": 2019,
+    "type": "Comédie dramatique",
+    "pays": "Argentine",
+    "downloaded": true,
+    "description": "En pleine crise économique du « corralito » de 2001, un groupe d'habitants d'une petite ville argentine voit ses économies disparaître dans la faillite frauduleuse d'une banque et décide de monter, en représailles, sa propre arnaque contre les responsables. Comédie populaire portée par Ricardo Darín, qui transforme la colère d'une génération sacrifiée en revanche jubilatoire."
+  },
+  {
+    "id": "el-robo-del-siglo",
+    "titre": "Le Casse du siècle",
+    "annee": 2020,
+    "type": "Comédie / Thriller",
+    "pays": "Argentine",
+    "downloaded": true,
+    "description": "En 2006, une bande de braqueurs prend en otages les employés et clients d'une agence du Banco Río, dans la banlieue chic de Buenos Aires, avant de s'évader par les égouts sans que la police ne s'aperçoive de rien pendant des heures. Inspiré du casse le plus spectaculaire de l'histoire argentine, le film restitue avec humour l'ingéniosité rocambolesque de ses auteurs, dont l'identité ne fut jamais vraiment élucidée."
+  },
+  {
+    "id": "asu-mare",
+    "titre": "Asu mare",
+    "annee": 2013,
+    "type": "Comédie biographique",
+    "pays": "Pérou",
+    "downloaded": true,
+    "description": "Récit semi-autobiographique de l'ascension de l'humoriste péruvien Carlos Alcántara, de son enfance modeste dans un quartier populaire de Lima jusqu'à sa carrière d'acteur et de comique, en passant par les frasques et les galères de jeunesse. Immense succès populaire au Pérou, devenu un phénomène de société, le film a durablement marqué le box-office national."
+  },
+  {
+    "id": "31-minutos-la-pelicula",
+    "titre": "31 minutos, la película",
+    "annee": 2008,
+    "type": "Comédie d'aventure (marionnettes)",
+    "pays": "Chili",
+    "downloaded": true,
+    "description": "Adaptation cinématographique de la série culte chilienne de marionnettes « 31 minutos », parodie d'un journal télévisé animé par des personnages plus loufoques les uns que les autres. Lorsque le producteur de l'émission, persuadé que ses collègues ne l'aiment plus, se laisse enlever par une riche excentrique collectionneuse d'animaux rares, toute l'équipe part à sa recherche dans une aventure pleine de références et d'humour, autant destinée aux enfants qu'aux adultes."
+  },
+  {
+    "id": "abuela-grillo",
+    "titre": "Abuela Grillo",
+    "annee": 2009,
+    "type": "Court métrage d'animation",
+    "pays": "Bolivie",
+    "downloaded": true,
+    "description": "Adapté d'un mythe du peuple Ayoreo, ce court métrage raconte l'histoire d'Abuela Grillo, immense grillon capable de faire tomber la pluie par son chant, dont la présence finit par être perçue comme une nuisance et qui se retrouve chassée puis exploitée par des marchands avides de contrôler l'eau. Réalisé par une équipe d'animateurs boliviens, le film est une allégorie limpide de la « guerre de l'eau » de Cochabamba en 2000 et de la privatisation des ressources naturelles."
   }
 ]

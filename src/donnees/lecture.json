@@ -1,0 +1,58 @@
+[
+  {
+    "id": "mafalda",
+    "titre": "Mafalda",
+    "auteur": "Quino (Joaquín Salvador Lavado)",
+    "pays": "Argentine",
+    "description": "Bande dessinée argentine créée par Quino, publiée de 1964 à 1973. Elle met en scène une fillette de 6 ans qui s'inquiète du sort du monde, de la paix et des injustices sociales, tout en vivant une enfance ordinaire avec ses parents et ses amis (Felipe, Manolito, Susanita, Miguelito, puis son petit frère Guille). À travers un humour tendre et mordant, Quino critique la société de consommation, la guerre froide et l'absurdité du monde adulte vue par les yeux d'une enfant. Mafalda est devenue une icône culturelle argentine et sud-américaine, encore omniprésente aujourd'hui sur affiches et statues à Buenos Aires."
+  },
+  {
+    "id": "tintin-temple-du-soleil",
+    "titre": "Tintin et le Temple du Soleil",
+    "auteur": "Hergé",
+    "pays": "Pérou",
+    "description": "Septième album des aventures de Tintin, publié en 1949, suite directe des « Sept Boules de cristal ». Tintin, le capitaine Haddock et Milou partent au Pérou pour sauver le professeur Tournesol, enlevé par les descendants des Incas après qu'une momie a été profanée. Leur périple les mène à travers les Andes jusqu'au temple caché du Soleil, où Tintin doit affronter le grand prêtre lors d'une scène célèbre liée à une éclipse solaire. Un classique franco-belge qui se déroule en bonne partie sur votre propre itinéraire péruvien."
+  },
+  {
+    "id": "condorito",
+    "titre": "Condorito",
+    "auteur": "Pepo (René Ríos Boettiger)",
+    "pays": "Chili",
+    "description": "Bande dessinée chilienne créée par René Ríos Boettiger, dit « Pepo », en 1949. Elle met en scène Condorito, un condor humanisé vivant dans le village fictif de Pelotillehue. À travers des gags en une planche, la BD tourne en dérision la vie quotidienne, les rapports de voisinage et la culture populaire chilienne, avec des personnages récurrents comme Yayita (son amour platonique) ou son neveu Coné. Condorito reste l'une des bandes dessinées les plus lues d'Amérique latine, bien au-delà du Chili."
+  },
+  {
+    "id": "tradiciones-peruanas",
+    "titre": "Tradiciones peruanas",
+    "auteur": "Ricardo Palma",
+    "pays": "Pérou",
+    "description": "Recueil de récits courts publiés entre 1872 et 1910 par l'écrivain péruvien Ricardo Palma, mêlant histoire, légende et folklore pour dépeindre les mœurs du Pérou depuis l'époque coloniale jusqu'au XIXe siècle. Palma y invente le genre littéraire de la « tradición », combinant rigueur historique et grâce narrative, souvent avec humour et une pointe de critique sociale. L'œuvre couvre huit volumes et une multitude d'anecdotes, de la fondation de Lima aux histoires de vice-rois, en passant par les excès de l'Inquisition."
+  },
+  {
+    "id": "papelucho",
+    "titre": "Papelucho",
+    "auteur": "Marcela Paz",
+    "pays": "Chili",
+    "description": "Premier tome d'une série de romans jeunesse chiliens écrits par Marcela Paz (pseudonyme d'Ester Huneeus), publié en 1947. Le livre prend la forme du journal intime de Papelucho, un garçon de 8 ans de la classe moyenne chilienne, qui raconte le monde avec son regard naïf, son imagination débordante et ses bêtises. Considéré comme l'œuvre la plus emblématique de la littérature jeunesse chilienne, il fait partie des lectures scolaires quasi obligatoires au Chili, où la série a été suivie de onze autres tomes."
+  },
+  {
+    "id": "el-eternauta",
+    "titre": "El Eternauta",
+    "auteur": "Héctor Germán Oesterheld (scénario) et Francisco Solano López (dessin)",
+    "pays": "Argentine",
+    "description": "Bande dessinée argentine de science-fiction publiée entre 1957 et 1959. Une mystérieuse neige toxique s'abat sur Buenos Aires, tuant tout ce qu'elle touche, prélude à une invasion extraterrestre. Juan Salvo et un petit groupe de survivants tentent de résister collectivement plutôt qu'en héros solitaires — un choix narratif cher à Oesterheld, pour qui le vrai héros est toujours collectif. L'œuvre est aussi lue comme une métaphore politique ; son auteur a été enlevé et exécuté par la dictature militaire argentine en 1977, ce qui a renforcé la portée symbolique du récit."
+  },
+  {
+    "id": "cuentos-fabulas-leyendas-bolivia",
+    "titre": "Cuentos cortos, fábulas y leyendas",
+    "auteur": "Centro de Multiservicios Educativos",
+    "pays": "Bolivie",
+    "description": "Recueil de contes courts, fables et légendes destiné aux enfants, produit par le Centro de Multiservicios Educativos, une organisation bolivienne engagée dans la production de matériel pédagogique (notamment via des initiatives comme « Educa La Paz », menées avec l'UNICEF et Save the Children entre autres). L'ouvrage rassemble des récits traditionnels à visée éducative, pensés pour transmettre des valeurs et faire découvrir le folklore local aux plus jeunes."
+  },
+  {
+    "id": "cuentos-de-la-selva",
+    "titre": "Cuentos de la selva",
+    "auteur": "Horacio Quiroga",
+    "pays": "Argentine",
+    "description": "Recueil de contes publié en 1918 par l'écrivain uruguayen Horacio Quiroga, qui vécut de nombreuses années dans la province argentine de Misiones, en pleine jungle. Les histoires mettent en scène des animaux de la forêt (tortue géante, flamants roses, alligator, perroquet...) dans des récits mêlant observation naturaliste, fantaisie et leçons de vie, écrits à l'origine pour les propres enfants de l'auteur. Un classique de la littérature jeunesse latino-américaine, imprégné de l'expérience vécue par Quiroga dans la forêt subtropicale."
+  }
+]

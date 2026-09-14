@@ -1,10 +1,10 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { ArrowLeft, ChevronRight, Calendar, Clapperboard, Check } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Calendar, Clapperboard, Check, Download } from 'lucide-react';
 import { db } from '../db';
 import films from '../donnees/films.json';
-import { COULEURS_PAYS } from '../donnees/constantes.js';
+import { COULEURS_PAYS } from '../donnees/constantes';
 
 function BadgePays({ pays }) {
   const c = pays ? COULEURS_PAYS[pays] : null;
@@ -14,6 +14,18 @@ function BadgePays({ pays }) {
           style={{ backgroundColor: c.iconBg, color: c.iconText }}>
       <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: c.accent }} />
       {pays}
+    </span>
+  );
+}
+
+function BadgeTelecharge({ downloaded }) {
+  return downloaded ? (
+    <span className="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10.5px] font-semibold text-vert-cta bg-vert-cta/10">
+      <Download className="w-3 h-3" strokeWidth={2.5} />Téléchargé
+    </span>
+  ) : (
+    <span className="inline-flex items-center gap-1 text-[10.5px] font-medium text-encre-douce/45">
+      <Download className="w-3 h-3" strokeWidth={2} />Non téléchargé
     </span>
   );
 }
@@ -77,6 +89,7 @@ export default function Films() {
                     <Clapperboard className="w-3 h-3" strokeWidth={2} />{f.type}
                   </span>
                   <BadgePays pays={f.pays} />
+                  <BadgeTelecharge downloaded={f.downloaded} />
                 </div>
               </Link>
             );

@@ -14,6 +14,7 @@ import PlanificationAccueil from './modules/PlanificationAccueil.jsx';
 
 // Journal
 import Journal from './modules/Journal.jsx';
+import Reglages from './modules/Reglages.jsx';
 import JournalBord from './modules/JournalBord.jsx';
 import EditeurEntree from './modules/EditeurEntree.jsx';
 import DetailEntree from './modules/DetailEntree.jsx';
@@ -32,6 +33,9 @@ import Medias from './modules/Medias.jsx';
 import Films from './modules/Films.jsx';
 import DetailFilm from './modules/DetailFilm.jsx';
 import Lecture from './modules/Lecture.jsx';
+import DetailLecture from './modules/DetailLecture.jsx';
+import Playlists from './modules/Playlists.jsx';
+import DetailPlaylist from './modules/DetailPlaylist.jsx';
 import MiniJeux from './modules/MiniJeux.jsx';
 import Taquin from './modules/Taquin.jsx';
 import Tabou from './modules/Tabou.jsx';
@@ -41,6 +45,7 @@ import DetailJeuCarte from './modules/DetailJeuCarte.jsx';
 import Surprises from './modules/Surprises.jsx';
 import DetailSurprise from './modules/DetailSurprise.jsx';
 import SurprisesWatcher from './composants/SurprisesWatcher.jsx';
+import StockagePersistantSilencieux from './composants/StockagePersistantSilencieux.jsx';
 
 // Autres
 import Apprendre from './modules/Apprendre.jsx';
@@ -83,6 +88,9 @@ function App() {
             <Route path="/jeux/medias/films" element={<Films />} />
             <Route path="/jeux/medias/films/:filmId" element={<DetailFilm />} />
             <Route path="/jeux/medias/lecture" element={<Lecture />} />
+            <Route path="/jeux/medias/lecture/:livreId" element={<DetailLecture />} />
+            <Route path="/jeux/medias/playlists" element={<Playlists />} />
+            <Route path="/jeux/medias/playlists/:paysSlug" element={<DetailPlaylist />} />
             <Route path="/jeux/mini-jeux" element={<MiniJeux />} />
             <Route path="/jeux/mini-jeux/taquin" element={<Taquin />} />
             <Route path="/jeux/mini-jeux/tabou" element={<Tabou />} />
@@ -95,6 +103,7 @@ function App() {
 
             {/* Journal */}
             <Route path="/journal"                  element={<Journal />} />
+            <Route path="/journal/reglages"         element={<Reglages />} />
             <Route path="/journal/bord"             element={<JournalBord />} />
             <Route path="/journal/bord/nouveau"     element={<EditeurEntree />} />
             <Route path="/journal/bord/:id"         element={<DetailEntree />} />
@@ -108,6 +117,7 @@ function App() {
         <BarreOnglets />
       </div>
       <SurprisesWatcher />
+      <StockagePersistantSilencieux />
     </div>
   );
 }
