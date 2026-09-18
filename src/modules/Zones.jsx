@@ -2,6 +2,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import { ChevronRight, ChevronLeft, BookOpen } from 'lucide-react';
 import activites from '../donnees/activites.json';
 import pays from '../donnees/pays.json';
+import { cheminImage } from '../utils/cheminImage';
 import {
   zonesDuPays,
   paysDuSlug,
@@ -36,7 +37,7 @@ function Zones() {
       >
         {imageFond && (
           <img
-            src={imageFond}
+            src={cheminImage(imageFond)}
             alt=""
             className="absolute inset-0 w-full h-full object-cover"
             onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -71,7 +72,7 @@ function Zones() {
           {drapeau && (
             estUneImage(drapeau) ? (
               <img
-                src={drapeau}
+                src={cheminImage(drapeau)}
                 alt={`Drapeau ${paysAffiche}`}
                 className="w-8 h-5 object-cover rounded-sm shadow-md flex-shrink-0"
               />

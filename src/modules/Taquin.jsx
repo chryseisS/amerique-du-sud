@@ -4,6 +4,8 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, Images, RefreshCw, Play, Eye, EyeOff } from 'lucide-react';
 import { db } from '../db';
 import IMAGES from '../donnees/taquin.json';
+import { cheminImage } from '../utils/cheminImage';
+
 
 /* ════════════════════════════════════════════════════════════════════
    ÉCRAN « TAQUIN »
@@ -203,7 +205,8 @@ export default function Taquin() {
                 <ArrowLeft className="w-3.5 h-3.5" strokeWidth={2} />Retour à la galerie
               </button>
               <div className="rounded-2xl overflow-hidden border border-parchemin-bordure shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
-                <img src={revueDetail.image} alt={revueDetail.titre ?? ''} className="w-full h-auto block" />
+                <img src={cheminImage(revueDetail.image)} alt={revueDetail.titre ?? ''} className="w-full h-auto block" />
+
               </div>
               {revueDetail.titre && (
                 <p className="text-center font-serif text-[15px] text-encre">{revueDetail.titre}</p>
@@ -215,7 +218,8 @@ export default function Taquin() {
               {imagesFaites.map((im) => (
                 <button key={im.id} onClick={() => setRevueDetail(im)}
                         className="relative aspect-square rounded-xl overflow-hidden border border-parchemin-bordure"
-                        style={{ backgroundImage: `url('${im.image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                        style={{ backgroundImage: `url('${cheminImage(im.image)}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+ />
               ))}
               {imagesFaites.length === 0 && (
                 <p className="col-span-2 text-center text-[12.5px] text-encre-douce/70 pt-6">
@@ -241,7 +245,7 @@ export default function Taquin() {
           // Puzzle résolu — image complète, sans démarcation, avec le titre
           <div className="flex flex-col gap-3">
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden border border-parchemin-bordure shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
-              <img src={courante.image} alt={courante.titre ?? ''} className="w-full h-full object-cover block" />
+              <img src={cheminImage(courante.image)} alt={courante.titre ?? ''} className="w-full h-full object-cover block" />
             </div>
             <div className="text-center">
               {courante.titre && <p className="font-serif text-[19px] text-encre font-semibold">{courante.titre}</p>}
@@ -284,7 +288,7 @@ export default function Taquin() {
                       aria-label={`Pièce ${piece + 1}`}
                       className="active:brightness-90"
                       style={{
-                        backgroundImage: `url('${courante.image}')`,
+                        backgroundImage: `url('${cheminImage(courante.image)}')`,
                         backgroundSize: `${n * 100}% ${n * 100}%`,
                         backgroundPosition: `${posX}% ${posY}%`,
                       }}
@@ -295,7 +299,7 @@ export default function Taquin() {
 
               {apercu && (
                 <div className="absolute inset-0"
-                     style={{ backgroundImage: `url('${courante.image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                     style={{ backgroundImage: `url('${cheminImage(courante.image)}')`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
               )}
             </div>
 

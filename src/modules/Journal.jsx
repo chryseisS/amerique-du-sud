@@ -7,6 +7,8 @@ import { useObservationsFaune } from '../hooks/useObservationsFaune';
 import { useAvisGastronomie } from '../hooks/useAvisGastronomie';
 import { usePremieresFois } from '../hooks/usePremieresFois';
 import JournalBlock from '../composants/JournalBlock';
+import { cheminImage } from '../utils/cheminImage';
+
 
 // ═══════════════════════════════════════════════════════
 // Composant stat : titre + sous-titre à gauche, cercle à droite
@@ -79,9 +81,9 @@ const JOURNAL_BLOCKS = [
   {
     id: 'journal',
     to: '/journal/bord',
-    icon: '/images/journal/journal_icone.png',
+    icon: cheminImage('/images/journal/journal_icone.png'),
     bgStyle: {
-      backgroundImage: 'url(/images/journal/journal_de_bord.png)',
+      backgroundImage: `url(${cheminImage('/images/journal/journal_de_bord.png')})`,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
     },
@@ -89,9 +91,9 @@ const JOURNAL_BLOCKS = [
   {
     id: 'gastro',
     to: '/journal/gastronomie',
-    icon: '/images/journal/gastronomie_icone.png',
+    icon: cheminImage('/images/journal/gastronomie_icone.png'),
     bgStyle: {
-      backgroundImage: 'url(/images/journal/gastronomie.png)',
+      backgroundImage: `url(${cheminImage('/images/journal/gastronomie.png')})`,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
     },
@@ -99,9 +101,9 @@ const JOURNAL_BLOCKS = [
   {
     id: 'premieres-fois',
     to: '/journal/premieres-fois',
-    icon: '/images/journal/defis_icone.png',
+    icon: cheminImage('/images/journal/defis_icone.png'),
     bgStyle: {
-      backgroundImage: 'url(/images/journal/defis.png)',
+      backgroundImage: `url(${cheminImage('/images/journal/defis.png')})`,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
     },
@@ -109,9 +111,9 @@ const JOURNAL_BLOCKS = [
   {
     id: 'pokedex',
     to: '/journal/faune',
-    icon: '/images/journal/pokedex_icone.png',
+    icon: cheminImage('/images/journal/pokedex_icone.png'),
     bgStyle: {
-      backgroundImage: 'url(/images/journal/pokedex.png)',
+      backgroundImage: `url(${cheminImage('/images/journal/pokedex.png')})`,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
     },

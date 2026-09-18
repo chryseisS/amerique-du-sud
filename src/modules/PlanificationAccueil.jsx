@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ChevronRight, Compass } from 'lucide-react';
 import activites from '../donnees/activites.json';
+import { cheminImage } from '../utils/cheminImage';
 import {
   PAYS,
   zonesDuPays,
@@ -23,7 +24,7 @@ function PlanificationAccueil() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('/images/planification/planif.png')",
+            backgroundImage: `url('${cheminImage('/images/planification/planif.png')}')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -71,12 +72,10 @@ function PlanificationAccueil() {
               {/* IMAGE DE FOND (optionnelle - se superpose si elle charge) */}
               {image && (
                 <img
-                  src={image}
+                  src={cheminImage(image)}
                   alt=""
                   className="absolute inset-0 w-full h-full object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none';
-                  }}
+                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
                 />
               )}
 
@@ -97,7 +96,7 @@ function PlanificationAccueil() {
                     {/* DRAPEAU : image PNG ou emoji selon la valeur */}
                     {estUneImage(drapeau) ? (
                       <img
-                        src={drapeau}
+                        src={cheminImage(drapeau)}
                         alt={`Drapeau ${pays}`}
                         className="w-7 h-5 object-cover rounded-sm shadow-sm flex-shrink-0"
                       />

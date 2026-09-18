@@ -2,6 +2,8 @@ import { Link, useParams, Navigate } from 'react-router-dom';
 import { ArrowLeft, ExternalLink, Music } from 'lucide-react';
 import { DRAPEAUX, paysDuSlug } from '../donnees/constantes';
 import PLAYLISTS from '../donnees/playlists.json';
+import { cheminImage } from '../utils/cheminImage';
+
 
 export default function DetailPlaylist() {
   const { paysSlug } = useParams();
@@ -26,7 +28,7 @@ export default function DetailPlaylist() {
         {/* Titre + drapeau */}
         <div className="flex flex-col items-center gap-2 text-center mb-1">
           {DRAPEAUX[pays] && (
-            <img src={DRAPEAUX[pays]} alt="" className="w-11 h-11 rounded-full object-cover border border-parchemin-bordure" />
+            <img src={cheminImage(DRAPEAUX[pays])} alt="" className="w-11 h-11 rounded-full object-cover border border-parchemin-bordure" />
           )}
           <h1 className="font-serif text-[24px] text-encre font-semibold leading-tight">{pays}</h1>
         </div>

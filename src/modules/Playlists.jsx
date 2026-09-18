@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, ChevronRight, Music } from 'lucide-react';
 import { PAYS, DRAPEAUX, COULEURS_PAYS, versSlug } from '../donnees/constantes';
 import PLAYLISTS from '../donnees/playlists.json';
+import { cheminImage } from '../utils/cheminImage';
+
 
 /* ════════════════════════════════════════════════════════════════════
    ÉCRAN « PLAYLISTS »  — route /jeux/medias/playlists
@@ -39,7 +41,7 @@ export default function Playlists() {
                   className="flex items-center gap-3.5 bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-4 shadow-[0_4px_12px_rgba(60,40,20,0.12)] transition-transform duration-200 hover:-translate-y-0.5">
               <div className="shrink-0 w-11 h-11 rounded-full overflow-hidden border border-parchemin-bordure bg-white flex items-center justify-center">
                 {DRAPEAUX[pays]
-                  ? <img src={DRAPEAUX[pays]} alt="" className="w-full h-full object-cover" />
+                  ? <img src={cheminImage(DRAPEAUX[pays])} alt="" className="w-full h-full object-cover" />
                   : <Music className="w-5 h-5 text-sepia" strokeWidth={1.8} />}
               </div>
               <div className="flex-1 min-w-0">

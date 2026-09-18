@@ -1,6 +1,8 @@
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { ArrowLeft, Film, Music, Mic, ExternalLink } from 'lucide-react';
 import divertissement from '../donnees/divertissement.json';
+import { cheminImage } from '../utils/cheminImage';
+
 
 /* ════════════════════════════════════════════════════════════════════
    ÉCRAN « SECTION DIVERTISSEMENT »  — route /jeux/divertissement/:categorieId
@@ -24,7 +26,7 @@ function Vignette({ image }) {
   return (
     <div
       className="relative w-16 shrink-0 rounded-xl overflow-hidden border border-[rgba(60,40,20,0.35)] bg-[#5a4a36]"
-      style={{ backgroundImage: `url('${image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+      style={{ backgroundImage: `url('${cheminImage(image)}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     />
   );
 }

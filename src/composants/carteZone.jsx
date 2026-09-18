@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Flame, Hourglass, ChevronRight, MapPin } from 'lucide-react';
 import { COULEURS_PAYS, versSlug, ICONES_ZONES } from '../donnees/constantes';
+import { cheminImage } from '../utils/cheminImage';
+
 
 function CarteZone({ zone }) {
   const couleurs = COULEURS_PAYS[zone.pays] || COULEURS_PAYS['Pérou'];
@@ -18,7 +20,7 @@ function CarteZone({ zone }) {
       >
         {iconeUrl ? (
           <img
-            src={iconeUrl}
+            src={cheminImage(iconeUrl)}
             alt=""
             className="w-16 h-16"
             onError={(e) => { e.currentTarget.style.display = 'none'; }}

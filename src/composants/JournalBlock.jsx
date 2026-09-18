@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import { cheminImage } from '../utils/cheminImage';
+
 
 /**
  * Bloc réutilisable pour le Journal
@@ -21,7 +23,7 @@ function JournalBlock({ to, icon, bgClassName, children, minHeight = 'min-h-[140
       <div className="flex items-center justify-center flex-shrink-0">
         {isImageIcon ? (
           <img
-            src={icon}
+            src={cheminImage(icon)}
             alt="icon"
             className="w-24 h-24 object-contain drop-shadow-md group-hover:scale-110 transition-transform"
           />

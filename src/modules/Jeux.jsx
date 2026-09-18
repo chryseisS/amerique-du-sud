@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import { cheminImage } from '../utils/cheminImage';
+
 
 /* ════════════════════════════════════════════════════════════════════
    ÉCRAN PRINCIPAL « DIVERTISSEMENT »  (fichier conservé sous Jeux.jsx /
@@ -58,7 +60,7 @@ export default function Jeux() {
                   className={`relative text-left rounded-[20px] p-[17px] border border-creme/15 ${couleur} texture-cuir shadow-[0_8px_22px_rgba(40,20,8,0.28)] transition-transform duration-200 hover:-translate-y-0.5`}>
             <div className="flex items-start gap-3.5">
               <div className="shrink-0 w-[52px] h-[52px] rounded-full flex items-center justify-center bg-creme/10 border border-creme/30">
-                <img src={icone} alt="" className="w-6 h-6" />
+                <img src={cheminImage(icone)} alt="" className="w-6 h-6" />
               </div>
               <div className="pr-14">
                 <div className="font-serif text-2xl text-creme leading-none font-semibold">{titre}</div>

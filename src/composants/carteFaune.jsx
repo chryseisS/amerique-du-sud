@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { versSlug } from '../donnees/constantes';
+import { cheminImage } from '../utils/cheminImage';
+
 
 function CarteFaune({ animal, vu }) {
   const numero = String(animal.numero).padStart(3, '0');
@@ -23,7 +25,7 @@ function CarteFaune({ animal, vu }) {
       <div className="w-14 h-14 mx-auto mb-1.5 flex items-center justify-center">
         {animal.photo ? (
           <img
-            src={`/images/faune/${animal.photo}`}
+            src={cheminImage(`/images/faune/${animal.photo}`)}
             alt={animal.nom}
             className={`w-full h-full object-contain transition-all duration-500 ${
               vu ? '' : 'grayscale brightness-0'

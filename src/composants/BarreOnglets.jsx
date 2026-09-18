@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { cheminImage } from '../utils/cheminImage';
 
 function BarreOnglets() {
   const onglets = [
@@ -19,7 +20,7 @@ function BarreOnglets() {
           {({ isActive }) => (
             <>
               <img
-                src={image}
+                src={cheminImage(image)}
                 className={`w-10 h-10 p-0 transition-all ${
                   isActive ? 'opacity-100' : 'opacity-50'
                 }`}

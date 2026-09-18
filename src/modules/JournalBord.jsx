@@ -4,6 +4,8 @@ import { ArrowLeft, Plus, BookOpen, Search, X } from 'lucide-react';
 import { useJournal } from '../hooks/useJournal';
 import CarteEntreeJournal from '../composants/CarteEntreeJournal';
 import { moisAnnee } from '../utils/dates';
+import { cheminImage } from '../utils/cheminImage';
+
 
 const normaliser = (s) =>
   (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -53,7 +55,7 @@ function JournalBord() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('/images/journal/header_journal.png')",
+            backgroundImage: `url('${cheminImage('/images/journal/header_journal.png')}')`,
             backgroundSize: '100% 100%',
             backgroundPosition: 'center',
             WebkitMaskImage: 'linear-gradient(to bottom, black 0%, black 95%, transparent 100%)',

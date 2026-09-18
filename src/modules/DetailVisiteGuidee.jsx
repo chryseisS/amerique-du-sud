@@ -4,6 +4,7 @@ import visites from '../donnees/visitesGuidees.json';
 import Accordeon from '../composants/Accordeon';
 import TexteAvecLiens from '../composants/TexteAvecLiens';
 
+
 function DetailVisiteGuidee() {
   const { id } = useParams();
   const navigate = useNavigate();

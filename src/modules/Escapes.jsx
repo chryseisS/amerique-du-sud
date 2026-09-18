@@ -4,6 +4,8 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, ChevronRight, FileText, Check } from 'lucide-react';
 import { db } from '../db';
 import escapes from '../donnees/escapes.json';
+import { cheminImage } from '../utils/cheminImage';
+
 
 /* ════════════════════════════════════════════════════════════════════
    ÉCRAN « ESCAPES »  — route /jeux/escapes
@@ -22,7 +24,7 @@ function Vignette({ image }) {
   return (
     <div
       className="relative w-[84px] shrink-0 rounded-xl overflow-hidden border border-[rgba(60,40,20,0.35)] bg-[#5a4a36] shadow-[inset_0_0_18px_rgba(30,15,5,0.4)]"
-      style={{ backgroundImage: `linear-gradient(135deg,rgba(0,0,0,0.15),rgba(0,0,0,0.45)),url('${image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+      style={{ backgroundImage: `linear-gradient(135deg,rgba(0,0,0,0.15),rgba(0,0,0,0.45)),url('${cheminImage(image)}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     />
   );
 }

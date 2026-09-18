@@ -2,6 +2,8 @@
 import { Link } from 'react-router-dom';
 import { MapPin, ChevronRight } from 'lucide-react';
 import culture from '../donnees/culture.json';
+import { cheminImage } from '../utils/cheminImage';
+
 
 function Apprendre() {
   return (
@@ -12,7 +14,7 @@ function Apprendre() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('/images/themes/header_apprendre.png')",
+            backgroundImage: `url('${cheminImage('/images/themes/header_apprendre.png')}')`,
             backgroundSize: '100% 100%',
             backgroundPosition: 'center',
             WebkitMaskImage: 'linear-gradient(to bottom, black 0%, black 95%, transparent 100%)',
@@ -63,7 +65,7 @@ function Apprendre() {
                 className="flex-shrink-0 w-36 rounded-xl overflow-hidden min-h-[100px] relative"
                 style={
                   theme.image
-                    ? { backgroundImage: `url(${theme.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }
+                    ? { backgroundImage: `url(${cheminImage(theme.image)})`, backgroundSize: 'cover', backgroundPosition: 'center' }
                     : {}
                 }
               >

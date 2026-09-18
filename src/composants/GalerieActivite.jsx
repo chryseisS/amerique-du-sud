@@ -3,12 +3,14 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Lightbox from 'yet-another-react-lightbox';
 import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import 'yet-another-react-lightbox/styles.css';
+import { cheminImage } from '../utils/cheminImage';
+
 
 
 function GalerieActivite({ images }) {
   if (!images || images.length === 0) return null;
 
-  const url = (fichier) => `/images/activites/${fichier}`;
+  const url = (fichier) => cheminImage(`/images/activites/${fichier}`);
 
   // ─── Carrousel inline (embla) ───
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });

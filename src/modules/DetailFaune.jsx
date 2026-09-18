@@ -5,7 +5,9 @@ import faune from '../donnees/faune.json';
 import { RARETE_LIBELLES, versSlug } from '../donnees/constantes';
 import Accordeon from '../composants/Accordeon';
 import { useObservationsFaune } from '../hooks/useObservationsFaune';
-import { declencherEvenement } from '../declencheurs';
+import { declencherEvenement } from '../Declencheurs';
+import { cheminImage } from '../utils/cheminImage';
+
 
 function DetailFaune() {
   const { slug } = useParams();
@@ -95,7 +97,7 @@ function DetailFaune() {
 
         {animal.photo ? (
           <img
-            src={`/images/faune/${animal.photo}`}
+            src={cheminImage(`/images/faune/${animal.photo}`)}
             alt={animal.nom}
             className={`h-44 w-auto object-contain transition-all duration-700 drop-shadow-md ${
               vu ? '' : 'grayscale brightness-0'

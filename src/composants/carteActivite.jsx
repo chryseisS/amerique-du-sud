@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Sparkles } from 'lucide-react'; // Ou 'Flame' selon tes préférences
 import { COULEURS_TYPES_ACTIVITES, ICONES_TYPES_ACTIVITES, versSlug, estIncontournable } from '../donnees/constantes';
+import { cheminImage } from '../utils/cheminImage';
+
 
 function CarteActivite({ activite }) {
   const couleur = COULEURS_TYPES_ACTIVITES[activite.type] || '#8a7560';
@@ -29,7 +31,7 @@ function CarteActivite({ activite }) {
       {icone && (
         <div className="flex-shrink-0 flex items-center pl-3">
           <img
-            src={icone}
+            src={cheminImage(icone)}
             alt=""
             aria-hidden="true"
             className="h-12 w-12 object-contain"
