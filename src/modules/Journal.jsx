@@ -140,7 +140,7 @@ function Journal() {
       {/* ═══ Titre de la page ═══ */}
       <div className="relative text-center mb-5">
         <Link to="/journal/reglages" aria-label="Réglages"
-              className="absolute left-0 top-0 inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-terra-50/70 border border-terra-border">
+              className="absolute right-2 top-6 inline-flex w-[38px] h-[38px] rounded-full items-center justify-center bg-terra-50/70 border border-terra-border">
           <Settings className="w-[18px] h-[18px] text-terra-900/70" strokeWidth={1.9} />
         </Link>
         <div className="inline-block border-t border-b border-terra-muted/60 py-3">

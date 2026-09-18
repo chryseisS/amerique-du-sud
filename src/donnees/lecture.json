@@ -54,5 +54,19 @@
     "auteur": "Horacio Quiroga",
     "pays": "Argentine",
     "description": "Recueil de contes publié en 1918 par l'écrivain uruguayen Horacio Quiroga, qui vécut de nombreuses années dans la province argentine de Misiones, en pleine jungle. Les histoires mettent en scène des animaux de la forêt (tortue géante, flamants roses, alligator, perroquet...) dans des récits mêlant observation naturaliste, fantaisie et leçons de vie, écrits à l'origine pour les propres enfants de l'auteur. Un classique de la littérature jeunesse latino-américaine, imprégné de l'expérience vécue par Quiroga dans la forêt subtropicale."
+  },
+  {
+    "id": "maria-elena-walsh",
+    "titre": "Tutú Marambá / El Reino del Revés",
+    "auteur": "María Elena Walsh",
+    "pays": "Argentine",
+    "description": "Recueils de poésie pour enfants publiés au début des années 1960 par l'écrivaine, poétesse et chanteuse argentine María Elena Walsh, l'une des figures les plus marquantes de la littérature et de la chanson jeunesse en Argentine. Tutú Marambá (1960) est son premier recueil et contient des textes devenus des classiques, comme « Manuelita la tortuga ». El Reino del Revés (1962) imagine un royaume absurde où tout fonctionne à l'envers — les poissons volent, deux et deux ne font pas quatre, le roi ne sait pas lire — et a donné naissance à une chanson tout aussi célèbre que le poème original. Walsh a marqué durablement l'imaginaire enfantin argentin par son goût du non-sens, ses jeux de mots et le mariage constant entre poésie et musique dans son œuvre."
+  },
+  {
+    "id": "mampato",
+    "titre": "Mampato",
+    "auteur": "Eduardo Armstrong (créateur) et Óscar Vega, puis Themo Lobos (dessin)",
+    "pays": "Chili",
+    "description": "Bande dessinée chilienne de science-fiction et d'aventure, créée par l'architecte et dessinateur Eduardo Armstrong (avec Óscar Vega au dessin), publiée pour la première fois le 30 octobre 1968. À partir du quatrième numéro, le dessin est repris par Themo Lobos, qui développera l'univers du personnage pendant près de dix ans. Mampato est un garçon de neuf ans qui reçoit d'un extraterrestre un « cinto espacio-temporal » lui permettant de voyager dans le temps et l'espace, vivant des aventures mêlant préhistoire, civilisations disparues et science-fiction, aux côtés de son ami cavernicole Ogú. Considérée comme l'un des sommets de la bande dessinée chilienne, la série a notamment consacré un épisode à l'Île de Pâques (« Mata-Ki-Te-Rangui », 1978), adapté au cinéma en 2002 sous le titre Ogú y Mampato en Rapa Nui."
   }
 ]
