@@ -27,6 +27,15 @@ import SURPRISES from '../donnees/surprises.json';
                                 // c'est verrouillé — à toi aussi de le
                                 // renseigner, toujours. Sans lui,
                                 // n'affiche rien.
+                                //
+                                // Tant que c'est verrouillé, la pastille
+                                // et le liseré de la carte sont teintés
+                                // selon declencheur.type (voir
+                                // couleurType ci-dessous) : bleu pour
+                                // 'date', ambre pour 'mot-de-passe',
+                                // vert pour 'animal'. Une fois débloquée,
+                                // toutes les surprises reprennent le même
+                                // style (vert + icône Gift).
          jours?                // pour une surprise à plusieurs jours
                                 // (ex. un trek) — voir DetailSurprise.jsx.
                                 // Remplace texte/format/questions/... au
@@ -54,6 +63,21 @@ import SURPRISES from '../donnees/surprises.json';
      passe validé (pas de notification "OK" dans ce cas, le
      déverrouillage est déjà un geste volontaire).
    ════════════════════════════════════════════════════════════════════ */
+
+// Teinte par type de déclencheur — uniquement tant que la surprise est
+// verrouillée (une fois débloquée, toutes ont le même style vert/Gift).
+function couleurType(type) {
+  if (type === 'date') {
+    return { fond: 'bg-surprise-date/15', bordure: 'border-surprise-date/40', icone: 'text-surprise-date', accent: 'border-l-surprise-date' };
+  }
+  if (type === 'mot-de-passe') {
+    return { fond: 'bg-surprise-mdp/15', bordure: 'border-surprise-mdp/40', icone: 'text-surprise-mdp', accent: 'border-l-surprise-mdp' };
+  }
+  if (type === 'animal' || type === 'defi' || type === 'defis') {
+    return { fond: 'bg-surprise-animal/15', bordure: 'border-surprise-animal/40', icone: 'text-surprise-animal', accent: 'border-l-surprise-animal' };
+  }
+  return { fond: 'bg-[#5a4a36]/10', bordure: 'border-parchemin-bordure', icone: 'text-sepia', accent: 'border-l-parchemin-bordure' };
+}
 
 export default function Surprises() {
   const debloqueesDB = useLiveQuery(() => db.surprisesDebloquees.toArray(), []) ?? [];
@@ -127,17 +151,18 @@ export default function Surprises() {
               const estMotDePasse = s.declencheur?.type === 'mot-de-passe';
               const titreAffiche = s.titreVerrou ?? s.id;
               const conditionAffichee = s.conditionVerrou ?? '';
+              const c = couleurType(s.declencheur?.type);
 
               if (estMotDePasse && ouvert === s.id) {
                 return (
                   <div key={s.id}
-                       className="flex flex-col gap-3 bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-4 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
-                    <div className="flex items-center gap-3.5">
-                      <div className="shrink-0 w-11 h-11 rounded-full flex items-center justify-center bg-[#5a4a36]/10 border border-parchemin-bordure">
-                        <Lock className="w-5 h-5 text-sepia" strokeWidth={1.8} />
+                       className={`flex flex-col gap-3 bg-parchemin-carte border border-parchemin-bordure border-l-[3px] ${c.accent} rounded-2xl p-4 shadow-[0_4px_12px_rgba(60,40,20,0.12)]`}>
+                    <button type="button" onClick={annuler} className="flex items-center gap-3.5 text-left">
+                      <div className={`shrink-0 w-11 h-11 rounded-full flex items-center justify-center ${c.fond} border ${c.bordure}`}>
+                        <Lock className={`w-5 h-5 ${c.icone}`} strokeWidth={1.8} />
                       </div>
                       <h3 className="flex-1 min-w-0 font-serif text-[16px] leading-tight text-encre font-semibold m-0">{titreAffiche}</h3>
-                    </div>
+                    </button>
 
                     <p className="font-serif italic text-[13.5px] text-encre-douce leading-relaxed whitespace-pre-line">
                       {s.indice ?? 'Entre le mot de passe'}
@@ -155,7 +180,6 @@ export default function Surprises() {
                       </button>
                     </div>
                     {erreur && <p className="text-[11px] text-terra-500">Mot de passe incorrect</p>}
-                    <button onClick={annuler} className="self-start text-[11px] text-sepia">Annuler</button>
                   </div>
                 );
               }
@@ -163,10 +187,10 @@ export default function Surprises() {
               return (
                 <button key={s.id} type="button"
                         disabled={!estMotDePasse}
-                        onClick={() => estMotDePasse && ouvrirChamp(s.id)}
-                        className={`flex items-center gap-3.5 bg-parchemin-carte/50 border border-parchemin-bordure rounded-2xl p-4 opacity-60 text-left w-full ${estMotDePasse ? 'cursor-pointer' : ''}`}>
-                  <div className="shrink-0 w-11 h-11 rounded-full flex items-center justify-center bg-[#5a4a36]/10 border border-parchemin-bordure">
-                    <Lock className="w-5 h-5 text-sepia" strokeWidth={1.8} />
+                        onClick={() => estMotDePasse && (ouvert === s.id ? annuler() : ouvrirChamp(s.id))}
+                        className={`flex items-center gap-3.5 bg-parchemin-carte/50 border border-parchemin-bordure border-l-[3px] ${c.accent} rounded-2xl p-4 opacity-60 text-left w-full ${estMotDePasse ? 'cursor-pointer' : ''}`}>
+                  <div className={`shrink-0 w-11 h-11 rounded-full flex items-center justify-center ${c.fond} border ${c.bordure}`}>
+                    <Lock className={`w-5 h-5 ${c.icone}`} strokeWidth={1.8} />
                   </div>
                   <div className="flex-1 min-w-0">
                     <h3 className="font-serif text-[16px] leading-tight text-encre-douce font-semibold m-0">{titreAffiche}</h3>

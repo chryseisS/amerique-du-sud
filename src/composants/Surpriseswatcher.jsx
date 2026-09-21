@@ -13,7 +13,12 @@ import SURPRISES from '../donnees/surprises.json';
    • Compare chaque surprise pas encore débloquée à :
        - la date du jour (type 'date')
        - le journal d'événements `evenements` (type 'animal' — voir
-         declencheurs.js, déclenché depuis DetailFaune.jsx)
+         declencheurs.js, déclenché depuis DetailFaune.jsx ; type
+         'defi' — un seul événement requis, ex. déclenché depuis
+         PremieresFois.jsx quand un défi est marqué fait ; type
+         'defis' — PLUSIEURS événements 'defi' requis en même temps,
+         valeur = tableau d'ids premieresFois, ex. { type: 'defis',
+         valeur: ['course-santiago', 'course-la-paz', ...] })
    • Les surprises de type 'mot-de-passe' ne sont JAMAIS débloquées ici
      — c'est volontaire, elles ne se déverrouillent que depuis
      Surprises.jsx quand le mot de passe est saisi et validé à la main.
@@ -42,6 +47,10 @@ function estDeclenchee(declencheur, clesEvenements) {
     return new Date() >= new Date(declencheur.valeur);
   }
   if (declencheur.type === 'mot-de-passe') return false;
+  if (declencheur.type === 'defis' && Array.isArray(declencheur.valeur)) {
+    // Toutes les valeurs doivent être présentes (ex. un défi par pays/capitale).
+    return declencheur.valeur.every((v) => clesEvenements.has(`defi:${v}`));
+  }
   return clesEvenements.has(`${declencheur.type}:${declencheur.valeur}`);
 }
 

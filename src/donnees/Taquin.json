@@ -3,13 +3,13 @@
     "id": "machu-picchu",
     "titre": "Chevauchée d'un puma devant le Machu Picchu",
     "image": "/images/jeux/taquin/macchu-picchu.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "van-life",
     "titre": "Soirée sur la route",
     "image": "/images/jeux/taquin/van_life.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "moai",
@@ -27,7 +27,7 @@
     "id": "rapa-nui",
     "titre": "Tatouages Rapa Nui",
     "image": "/images/jeux/taquin/rapa_nui.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "uros",
@@ -39,7 +39,7 @@
     "id": "selfie-galapagos",
     "titre": "Selfie avec un iguane sur les iles Galapagos",
     "image": "/images/jeux/taquin/selfie.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "lama-uyuni",
@@ -63,7 +63,7 @@
     "id": "amazonie",
     "titre": "Canoe en Amazonie",
     "image": "/images/jeux/taquin/amazonie.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "banos",
@@ -75,7 +75,7 @@
     "id": "fous",
     "titre": "Concours de danse des fous à pieds bleus",
     "image": "/images/jeux/taquin/fous.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "quipus",
@@ -87,7 +87,7 @@
     "id": "cuys",
     "titre": "Entourés de cochons d'inde curieux",
     "image": "/images/jeux/taquin/cuy.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "lama-montagne",
@@ -99,7 +99,7 @@
     "id": "flamant",
     "titre": "Deux flamands roses devant une lagune",
     "image": "/images/jeux/taquin/flamant.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "puma",
@@ -111,7 +111,7 @@
     "id": "ile_paques",
     "titre": "L'ile de Pâques sous la voie lactée",
     "image": "/images/jeux/taquin/ile_paques.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "seigneur_mines",
@@ -123,13 +123,13 @@
     "id": "moai_fete",
     "titre": "Des moais en soirée",
     "image": "/images/jeux/taquin/moai_fete.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "otaries",
     "titre": "Des otaries jouent aux dominos",
     "image": "/images/jeux/taquin/otaries.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "renard",
@@ -141,13 +141,13 @@
     "id": "pont",
     "titre": "Sur un pont brumeux",
     "image": "/images/jeux/taquin/pont.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "danse",
     "titre": "Deux manchots dansent la salsa",
     "image": "/images/jeux/taquin/danse.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "condor",
@@ -165,12 +165,12 @@
     "id": "messager",
     "titre": "Un messager traverse les andes, quipus à la main",
     "image": "/images/jeux/taquin/messager.png",
-    "cases": 9
+    "cases": 16
   },
   {
     "id": "constellation",
     "titre": "Constellation du lama",
     "image": "/images/jeux/taquin/constellation.png",
-    "cases": 9
+    "cases": 16
   }
 ]

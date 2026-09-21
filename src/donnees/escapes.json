@@ -85,6 +85,105 @@
         "Le professeur Moriarty, le Napoléon du crime, a enfin réussi à capturer son plus grand rival : Sherlock Holmes. Mais au lieu de l'éliminer froidement, son esprit machiavélique a conçu un défi ultime. Enfermé dans un manoir truffé de mécanismes mortels, d'automates et d'énigmes psychologiques, vous incarnez Holmes et devez déjouer ce piège sadique. Vous n'avez que 60 minutes pour prouver que votre esprit est supérieur à celui du criminel le plus brillant de l'Histoire."
       ],
       "note": "Le matériel se trouve dans un PDF, en dehors de l'application. Aucune connexion internet n'est nécessaire."
+    },
+    {
+      "id": "club-wanstein",
+      "titre": "El secreto del Club Wanstein",
+      "sousTitre": "Lunwerg",
+      "image": "/images/jeux/escapes/club_wanstein.png",
+      "type": "explication",
+      "explication": [
+        "Eres Candela Fuertes, periodista de investigación de 28 años especializada en delitos económicos. Tras meses investigando al empresario Anastás Vecla y los oscuros manejos del Club Wanstein, despiertas encerrada en un laberinto de pesadilla. Tienes 60 minutos para resolver los acertijos que se interponen en tu camino, descubrir el secreto que esconde el club y escapar antes de que sea demasiado tarde."
+      ],
+      "note": "Le matériel se trouve dans le livre papier, en dehors de l'application. Aucune connexion internet n'est nécessaire."
+    },
+    {
+      "id": "pyramide-amonet",
+      "titre": "La pyramide d'Amonet",
+      "sousTitre": "Glénat jeunesse",
+      "image": "/images/jeux/escapes/pyramide_amonet.png",
+      "type": "explication",
+      "explication": [
+        "Vous incarnez Nyssa Uhmi, apprentie guérisseuse et dame de compagnie de la reine Cléopâtre, accompagnée de votre fidèle sapajou Bébti. Alors que vous vous apprêtez à assister à la cérémonie de paix entre la reine et le grand prêtre Tefnut, vous vous retrouvez seule à devoir traverser la pyramide du dieu-crocodile Amonet. Grâce à une carte, vous explorez les salles, combinez les objets trouvés en chemin et sollicitez l'aide de Bébti ou les conseils du dieu Râ pour progresser. Parviendrez-vous à rejoindre la salle de la cérémonie avant qu'il ne soit trop tard ?"
+      ],
+      "note": "Le matériel se trouve dans le livre papier, en dehors de l'application. Aucune connexion internet n'est nécessaire."
+    },
+    {
+      "id": "isla-misterios",
+      "titre": "La isla de los misterios",
+      "sousTitre": "Destino",
+      "image": "/images/jeux/escapes/isla_misterios.png",
+      "type": "explication",
+      "explication": [
+        "Eres un joven grumete que viajaba en un barco pirata, ¡pero te has perdido en una isla de lo más misteriosa! El volcán que hay en su interior está a punto de entrar en erupción y arrasará con todo. Con la ayuda de Harry, tu loro tan fiel como caprichoso, explora la isla con ayuda de un mapa, recoge objetos, forma alianzas y resuelve los enigmas escondidos en las ilustraciones. ¿Serás capaz de escapar a tiempo... y quizá encontrar un tesoro por el camino?"
+      ],
+      "note": "Le matériel se trouve dans le livre papier, en dehors de l'application. Aucune connexion internet n'est nécessaire."
+    },
+    {
+      "id": "megatemplo-maldito",
+      "titre": "El megatemplo maldito",
+      "sousTitre": "Destino",
+      "image": "/images/jeux/escapes/megatemplo_maldito.png",
+      "type": "explication",
+      "explication": [
+        "Eres Pánfilo, antiguo pringao convertido en uno de los guerreros más poderosos de Villaldea. Cuando un templo misterioso emerge de las aguas, tu amiga Alicia va a investigarlo y no vuelve... así que corres en su búsqueda y acabas atrapado tú también. Con la ayuda de Billy, un gato que habla, tendrás que resolver un sinfín de acertijos para encontrar a Alicia y salir vivo del megatemplo maldito antes de que Herobrine consiga lo que quiere."
+      ],
+      "note": "Le matériel se trouve dans le livre papier, en dehors de l'application. Aucune connexion internet n'est nécessaire."
+    },
+    {
+      "id": "ruinas-perdidas",
+      "titre": "Las ruinas perdidas",
+      "sousTitre": "Blok",
+      "image": "/images/jeux/escapes/ruinas_perdidas.png",
+      "type": "explication",
+      "explication": [
+        "Eres Amanda Black, heredera de un culto milenario dedicado a la diosa egipcia Mut, encargada de sacar de la circulación los objetos peligrosos para la humanidad — lo que, en tu jerga, significa sobre todo robarlos. Tu tatarabuela Cassandra descubrió Thalassa, una civilización engullida que sobrevive en la Tierra Hueca, y el Anillo de las Mareas que evita que los océanos inunden el planeta. Con los ríos desbordándose por todo el mundo, debes adentrarte en las ruinas perdidas para recuperar el artefacto antes de que la civilización entera se extinga."
+      ],
+      "note": "Le matériel se trouve dans le livre papier, en dehors de l'application. Aucune connexion internet n'est nécessaire."
+    },
+    {
+      "id": "quien-es-culpable",
+      "titre": "¿Quién es el culpable?",
+      "sousTitre": "Editorial Alma",
+      "image": "/images/jeux/escapes/quien_es_culpable.png",
+      "type": "explication",
+      "explication": [
+        "El famoso profesor de criminología Dr. Jeffrey Lenn Quicksolve y su hijo Junior te invitan a acompañarlos a la escena del crimen. Mientras padre e hijo resuelven el caso, deberás observar con cuidado los detalles del hecho, escuchar atentamente las declaraciones de testigos y sospechosos, evaluar las pistas y, finalmente, responder a la pregunta: ¿quién es el culpable, y por qué? Incluye 42 enigmas y sus soluciones."
+      ],
+      "note": "Le matériel se trouve dans le livre papier, en dehors de l'application. Aucune connexion internet n'est nécessaire."
+    },
+    {
+      "id": "escape-book-anaya",
+      "titre": "Escape Book",
+      "sousTitre": "Anaya",
+      "image": "/images/jeux/escapes/escape_book_anaya.png",
+      "type": "explication",
+      "explication": [
+        "Elisabet acaba cediendo a los ruegos de su amiga Alicia y se reúne con ella, Iván y Bruno, para pasar la tarde en la feria. Entre los autochoques y las nubes de algodón de azúcar, descubren una construcción extraña, apartada entre los árboles, con las paredes cubiertas de portadas de libros: Drácula, 1984, Moby Dick, Agatha Christie... Dos adolescentes aterrorizados salen corriendo de allí. Intrigados, os acercáis a la puerta de esta misteriosa atracción: «Escape Book, ¡la experiencia inmersiva más alucinante!». Una vez dentro, los universos literarios se mezclan con la realidad, y solo hay una forma de salir: resolver los enigmas que esconden."
+      ],
+      "note": "Le matériel se trouve dans le livre papier, en dehors de l'application. Aucune connexion internet n'est nécessaire."
+    },
+    {
+      "id": "atrapado-en-casa",
+      "titre": "Atrapado... ¡Dentro de mi casa!",
+      "sousTitre": "Destino",
+      "image": "/images/jeux/escapes/atrapado_en_casa.png",
+      "type": "explication",
+      "explication": [
+        "Geronimo Stilton se despierta una mañana tranquila... ¡y descubre que todas las salidas de su casa están bloqueadas por rejas metálicas! Su primo Trampita ha activado por error el S.S.S., el SuperSistema de Seguridad creado por el profesor Voltio, y la inteligencia artificial que lo controla se niega a dejarlo salir sin tarjeta magnética. Habitación por habitación, planta por planta, explora la casa, combina los objetos que vayas encontrando y llama por teléfono a los amigos de Geronimo para ayudarle a escapar antes de su reunión en la redacción de El Eco del Roedor."
+      ],
+      "note": "Le matériel se trouve dans le livre papier, en dehors de l'application. Aucune connexion internet n'est nécessaire."
+    },
+    {
+      "id": "mission-paleontologie",
+      "titre": "Mission Paléontologie : enquête à la galerie",
+      "sousTitre": "Glénat jeunesse",
+      "image": "/images/jeux/escapes/mission_paleontologie.png",
+      "type": "explication",
+      "explication": [
+        "De retour d'un voyage au Myanmar avec une mystérieuse pierre en poche, vous décidez de la montrer aux scientifiques du Muséum national d'Histoire naturelle de Paris. Mais la galerie de Paléontologie est fermée ce jour-là... et en vous aventurant à l'intérieur par une porte entrouverte, vous vous retrouvez enfermé ! Pour rejoindre le laboratoire et trouver de l'aide, explorez le bâtiment à l'aide du plan fourni, combinez les objets dénichés en chemin, et croisez au passage les squelettes de dinosaures qui peuplent les collections. Une aventure conçue en partenariat avec le véritable Muséum national d'Histoire naturelle."
+      ],
+      "note": "Le matériel se trouve dans le livre papier, en dehors de l'application. Aucune connexion internet n'est nécessaire."
     }
   ]
 }

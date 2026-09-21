@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Search, X } from 'lucide-react';
 import premieresFois from '../donnees/premieresFois.json';
 import CartePremiereFois from '../composants/CartePremiereFois';
 import { usePremieresFois } from '../hooks/usePremieresFois';
 import { TYPES_DEFI } from '../donnees/constantes';
+import { declencherEvenement } from '../declencheurs';
 
 function PremieresFois() {
   // ─── ÉTATS ──────────────────────────────────────────
@@ -14,6 +15,21 @@ function PremieresFois() {
 
   // ─── DB (live) ──────────────────────────────────────
   const { faitSet, commentaireDe, marquerFait, supprimerFait } = usePremieresFois();
+
+  // ─── SURPRISES — journal d'événements ────────────────
+  // Chaque fois qu'un défi passe (ou est déjà) "fait", on l'annonce dans
+  // le journal générique des Surprises (voir declencheurs.js) sous
+  // l'identifiant stable `id` du JSON — pas `nom`, qui sert uniquement
+  // à la table Dexie interne de ce module. Rejouer cet effet plusieurs
+  // fois pour un même défi (remontage de l'écran, etc.) est sans risque :
+  // declencherEvenement fait juste un `put` idempotent.
+  useEffect(() => {
+    premieresFois.forEach((p) => {
+      if (p.id && faitSet.has(p.nom)) {
+        declencherEvenement('defi', p.id);
+      }
+    });
+  }, [faitSet]);
 
   // ─── FILTRAGE ───────────────────────────────────────
   const rechercheNorm = recherche.trim().toLowerCase();

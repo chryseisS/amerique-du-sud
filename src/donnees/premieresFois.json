@@ -304,11 +304,6 @@
     "type": "Sport"
   },
   {
-    "id": "course-buenos-aires",
-    "nom": "Faire une sortie course à pied à Buenos Aires",
-    "type": "Sport"
-  },
-  {
     "id": "course-la-paz",
     "nom": "Faire une sortie course à pied à La Paz",
     "type": "Sport"

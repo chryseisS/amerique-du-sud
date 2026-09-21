@@ -57,8 +57,8 @@ import Jeux from './modules/Jeux.jsx';
 
 function App() {
   return (
-    <div className="min-h-screen flex justify-center bg-terra-muted/10">
-      <div className="w-full max-w-[450px] min-h-screen flex flex-col bg-terra-50 shadow-xl">
+    <div className="h-dvh flex justify-center overflow-hidden bg-terra-muted/10">
+      <div className="w-full max-w-[450px] h-dvh flex flex-col bg-terra-50 shadow-xl">
         <main className="flex-1 overflow-y-auto">
           <Routes>
             <Route path="/" element={<Navigate to="/planification" replace />} />

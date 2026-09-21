@@ -21,6 +21,14 @@ import { db } from './db';
    Types actuellement utilisés par les Surprises : 'animal', 'frontiere',
    'defi'. Le type 'date' ne passe pas par ce journal : il est comparé
    directement à la date du jour (voir SurprisesWatcher.jsx).
+
+   Un défi qui a besoin de PLUSIEURS événements 'defi' à la fois (ex. un
+   défi par capitale) n'a rien de spécial côté déclenchement : on
+   appelle `declencherEvenement('defi', id)` séparément pour chaque
+   défi accompli, au fur et à mesure. C'est le déclencheur de la
+   surprise elle-même, dans surprises.json, qui exige la combinaison
+   (declencheur.type: 'defis', valeur: [id1, id2, ...] — voir
+   SurprisesWatcher.jsx).
    ════════════════════════════════════════════════════════════════════ */
 
 export async function declencherEvenement(type, valeur) {

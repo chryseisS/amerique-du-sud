@@ -305,7 +305,7 @@
     "pays": "Bolivie",
     "importance": 5,
     "duree": "3 jours",
-    "description": "Huayna Potosi : montagne s'élevant à plus de 6000m à côté de La Paz. Se fait en 3J/2N ou en 2J/1N. Privilégier 3J/2N afin d'avoir plus de temps pour s'acclimater et apprendre les techniques d'alpinisme. Ne pas réserver en ligne (plus cher), aller voir directement sur place les agence. Sur le groupe 'Les Français en Bolivie', beaucoup de recommandations pour des guides locaux à contacter par téléphone. Prix : environ 150 euros pour les 3 jours par personnes.",
+    "description": "Huayna Potosi : montagne s'élevant à plus de 6000m à côté de La Paz. Se fait en 3J/2N ou en 2J/1N. Privilégier 3J/2N afin d'avoir plus de temps pour s'acclimater et apprendre les techniques d'alpinisme. Ne pas réserver en ligne (plus cher), aller voir directement sur place les agence. Sur le groupe 'Les Français en Bolivie', beaucoup de recommandations pour des guides locaux à contacter par téléphone. Prix : environ 150 euros pour les 3 jours par personne.",
     "visiteGuidee": true
   },
   {
@@ -338,7 +338,7 @@
     "pays": "Bolivie",
     "importance": 5,
     "duree": "3 jours",
-    "description": "Excursions permettant de visiter le Salar d'Uyuni et Sud Lipez. Non accessible sans guide et sans 4x4. Faire une excursion de 4J/3N ou 3J/2N, départ et retour à Uyuni. Essayer de trouver un groupe sur 'Les Français en Bolivie' pour avoir des prix dégressifs (trop cher à 2). Si pas de groupe, réserver en ligne ou sur place. Prix : environ 300 euros par personne pour l'excursion.",
+    "description": "Excursions permettant de visiter le Salar d'Uyuni et Sud Lipez. Non accessible sans guide et sans 4x4. Faire une excursion de 4J/3N ou 3J/2N, départ et retour à Uyuni. Essayer de trouver un groupe sur 'Les Français en Bolivie' pour avoir des prix dégressifs (trop cher à 2). Prix : environ 300 euros par personne pour l'excursion.",
     "visiteGuidee": true
   },
   {
@@ -657,7 +657,7 @@
     "pays": "Equateur",
     "importance": null,
     "duree": null,
-    "description": "Sur le route entre Quito et Mindo. Village dans lequel on peut apercevoir un bâtiment représentant la ligne de latitude 0°. Prix : 5 dollars. Possibilité également de visiter le musée Inti Nan",
+    "description": "Sur le route entre Quito et Mindo. Village dans lequel on peut apercevoir un bâtiment représentant la ligne de latitude 0°. Prix : 5 dollars. Possibilité également de visiter le musée Inti Nan.",
     "visiteGuidee": true
   },
   {
@@ -1336,7 +1336,7 @@
     "importance": 5,
     "duree": null,
     "description": "Plusieurs food tours sont conseillés sur le groupe Facebook 'Les Français en Bolivie'. Les deux sont en français. \n\nPremier : food tour with Fabio toute la journée (petit déjeuner boliviano, puis mercado, puis repas et visite de la ville l'après-midi. \n\nDeuxième : food tour avec Christian de 10h à 15h.\n\nCompter entre 30 et 40 euros selon nombre de personnes. Les numéros de téléphone sont sur le groupe Facebook (et voir pour se rajouter à un groupe déjà formé également).",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Divers",
@@ -1363,18 +1363,6 @@
     "visiteGuidee": true
   },
   {
-    "type": "Gastronomie",
-    "nom": "Restaurant",
-    "lieu": "Autour de Sucre",
-    "lieuId": "sucre",
-    "sousZone": "Sucre",
-    "pays": "Bolivie",
-    "importance": 5,
-    "duree": null,
-    "description": "Deux restaurants gastronomiques pas chers à Sucre : Nativa et El Solar.",
-    "visiteGuidee": false
-  },
-  {
     "type": "Trek",
     "nom": "Cratère de Maragua",
     "lieu": "Autour de Sucre",
@@ -1386,20 +1374,10 @@
     "visiteGuidee": true
   },
   {
-    "type": "Culture",
-    "nom": "Ville de Sucre",
-    "lieu": "Autour de Sucre",
-    "lieuId": "sucre",
-    "pays": "Bolivie",
-    "importance": null,
-    "duree": null,
-    "description": "Visite de la ville de Sucre. Ville coloniale avec beaucoup d'histoire. 2 musées : la casa de la Libertad (5 euros), où a été signée la déclaration d'indépendance du pays, et le Museo de Arte Indígena ASUR(4 euros), qui expose l'art textile. \n\nSucre est également la capitale du chocolat (Para ti ou Taboadas).\n\nPour dormir, chez Javier est souvent conseillé sur le groupe Facebook 'Les Français en Bolivie' (à vérifier selon disponibilité d'un parking).\n\nAu Sud de Sucre, à environ 20 min, un joli chateau : Castillo de la Glorieta.",
-    "visiteGuidee": true
-  },
-  {
     "type": "Excursion",
     "nom": "Mines du Cerro Rico",
     "lieu": "Autour de Sucre",
+    "sousZone": "Potosi",
     "lieuId": "sucre",
     "pays": "Bolivie",
     "importance": null,

@@ -23,8 +23,8 @@
       "Meilleure nourriture ?",
       "Endroit préféré ?"
     ],
-    "declencheur": { "type": "date", "valeur": "2026-09-01" },
-    "titreVerrou": "6 mois de route",
+    "declencheur": { "type": "date", "valeur": "2026-09-28" },
+    "titreVerrou": "A un moment particulier",
     "conditionVerrou": "Se débloque le 1 février 2027"
   },
   {
@@ -56,8 +56,8 @@
       }
     ],
     "declencheur": { "type": "mot-de-passe", "valeur": "MITAD" },
-    "indice": "Contrôle de frontière — hémisphère nord.\n\nDouanier : « Mot de passe ? »",
-    "titreVerrou": "Surprise codée",
+    "indice": "Douanier : « Mot de passe ? »",
+    "titreVerrou": "Contrôle de frontière - hémispère nord",
     "conditionVerrou": "À un endroit particulier"
   },
   {
@@ -65,8 +65,9 @@
     "titre": "Trek Ausangate",
     "raison": "Débloqué au mot de passe, jour 1 du trek",
     "declencheur": { "type": "mot-de-passe", "valeur": "APU" },
-    "titreVerrou": "Trek Ausangate",
+    "titreVerrou": "Le territoire des géants",
     "conditionVerrou": "À un endroit particulier",
+    "indice": "Mot de passe ?",
     "jours": [
       {
         "titre": "Jour 1",
@@ -110,5 +111,268 @@
         "heuresDepuisDebut": 44
       }
     ]
+  },
+  {
+    "id": "lama-echappe",
+    "titre": "Lamalito a disparu",
+    "raison": "Débloqué en voyant un lama",
+    "defiTitre": "LAMALITO A DISPARU",
+    "texte": "Plusieurs lamas se sont échappés… Mais Lamalito a peur et s'est caché. Aide-le à retrouver son chemin.",
+    "declencheur": { "type": "animal", "valeur": "lama" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "toucan-7-differences",
+    "titre": "7 différences",
+    "raison": "Débloqué en voyant un toucan",
+    "defiTitre": "7 DIFFÉRENCES",
+    "texte": "Deux images. Un animal. Sept différences se cachent entre les deux. Saurez-vous toutes les retrouver ?",
+    "declencheur": { "type": "animal", "valeur": "toucan-montagnard" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "condor-vous-defie",
+    "titre": "Le condor vous défie",
+    "raison": "Débloqué en voyant un condor",
+    "defiTitre": "LE CONDOR VOUS DÉFIE",
+    "texte": "Déployez vos ailes. Gardez-les bien écartées. Le dernier à les baisser gagne. Le perdant reçoit un gage.",
+    "declencheur": { "type": "animal", "valeur": "condor-des-andes" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "danse-nuptiale-fou",
+    "titre": "Danse nuptiale débloquée",
+    "raison": "Débloqué en voyant un fou à pieds bleus",
+    "defiTitre": "DANSE NUPTIALE DÉBLOQUÉE",
+    "texte": "Le fou à pieds bleus a décidé de vous montrer ses talents. À vous de faire mieux. Imitez sa danse. Le plus convaincant gagne.",
+    "declencheur": { "type": "animal", "valeur": "fou-a-pieds-bleus" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "copie-moi-singe",
+    "titre": "Copie-moi si tu peux",
+    "raison": "Débloqué en voyant un singe",
+    "defiTitre": "COPIE-MOI SI TU PEUX",
+    "texte": "Un joueur commence. L'autre doit reproduire ses mouvements. Mais attention… ça devient de plus en plus compliqué. Puis on inverse les rôles.",
+    "declencheur": { "type": "animal", "valeur": "singe-hurleur" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "nez-de-travail-otarie",
+    "titre": "Nez de travail",
+    "raison": "Débloqué en voyant une otarie",
+    "defiTitre": "NEZ DE TRAVAIL",
+    "texte": "Choisissez chacun un objet. Placez-le sur votre nez. Qui le gardera le plus longtemps ? L'otarie vous regarde. Faites honneur à la profession.",
+    "declencheur": { "type": "animal", "valeur": "otaries-des-galapagos" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "cracheur-des-andes",
+    "titre": "Cracheur des Andes",
+    "raison": "Débloqué en voyant un alpaga",
+    "defiTitre": "CRACHEUR DES ANDES",
+    "texte": "L'alpaga vous observe. Il est temps de lui faire honneur.\n\nL'épreuve est simple : qui est capable de cracher le plus loin ?\n\nMais pour éviter de finir à l'hôpital vétérinaire, aujourd'hui on remplace la salive par… de l'eau.\n\nChacun prend une gorgée et tente de propulser son jet le plus loin possible.\n\n3… 2… 1… CRACHEZ !",
+    "declencheur": { "type": "animal", "valeur": "alpaga" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "mode-nandou-active",
+    "titre": "Mode nandou activé",
+    "raison": "Débloqué en voyant un nandou de Darwin",
+    "defiTitre": "MODE NANDOU ACTIVÉ",
+    "texte": "Le nandou de Darwin court vite. Très vite. Sans ses bras.\n\nMalheureusement, vous n'avez ni ses jambes, ni son talent.\n\nVous allez donc devoir courir bras complètement collés au corps.\n\nUne course. Une ligne d'arrivée.\n\nLe premier arrivé gagne.",
+    "declencheur": { "type": "animal", "valeur": "nandou-de-darwin" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "pingouin-en-vue",
+    "titre": "Pingouin en vue",
+    "raison": "Débloqué en voyant un manchot",
+    "defiTitre": "PINGOUIN EN VUE",
+    "texte": "Pour célébrer votre rencontre avec ce magnifique oiseau, vous allez devoir reproduire sa technique de déplacement.\n\nPieds joints. Bras collés au corps.\n\nInterdiction de séparer les pieds.\n\nInterdiction d'utiliser les bras.\n\nInterdiction de se demander pourquoi vous faites ça.",
+    "declencheur": { "type": "animal", "valeur": "manchot-de-magellan" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "architecte-castor",
+    "titre": "Architecte",
+    "raison": "Débloqué en voyant un castor",
+    "defiTitre": "ARCHITECTE",
+    "texte": "Le castor est un bâtisseur.\n\nIl construit des barrages avec ce qu'il trouve.\n\nVous allez donc devoir prouver que vous êtes capables d'en faire autant.\n\nMission : construire la tour la plus haute possible.\n\nUne seule règle :\n\nVous ne pouvez utiliser que des éléments trouvés au sol.\n\nPas de matériel apporté.\n\nPas de triche.\n\nPas de colle.\n\nPas de castor pour vous aider.",
+    "declencheur": { "type": "animal", "valeur": "castor" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "mode-crabe-active",
+    "titre": "Mode crabe activé",
+    "raison": "Débloqué en voyant un crabe de lave",
+    "defiTitre": "MODE CRABE ACTIVÉ",
+    "texte": "Le crabe de lave ne marche pas comme vous.\n\nIl avance… de côté.\n\nÀ votre tour.\n\nPlacez-vous sur la ligne de départ et préparez-vous pour la course la moins naturelle de votre vie.\n\nVous devez rejoindre l'arrivée uniquement en déplacement latéral.",
+    "declencheur": { "type": "animal", "valeur": "crabe-de-lave" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "nez-du-tapir",
+    "titre": "Nez du tapir",
+    "raison": "Débloqué en voyant un tapir",
+    "defiTitre": "NEZ DU TAPIR",
+    "texte": "Le tapir vous prête son incroyable flair.\n\nFermez les yeux.\n\nCinq objets sont placés devant vous. Votre mission : les reconnaître uniquement avec votre nez.",
+    "declencheur": { "type": "animal", "valeur": "tapir" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "bras-surcotes-cormoran",
+    "titre": "Les bras sont surcotés",
+    "raison": "Débloqué en voyant un cormoran aptère",
+    "defiTitre": "LES BRAS SONT SURCOTÉS",
+    "texte": "Pendant les 24 prochaines heures, chacun gagne un pouvoir spécial :\n\nÀ n'importe quel moment, tu peux déclarer à l'autre :\n« Là, tu dois faire ça sans les bras ! »\n\nManger, boire, mettre ses chaussures, prendre une photo… n'importe quelle action peut devenir un défi.\n\nL'autre devra alors s'exécuter.",
+    "declencheur": { "type": "animal", "valeur": "cormoran-aptere" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "grand-verdict-capitales",
+    "titre": "Le grand verdict des capitales",
+    "raison": "Débloqué après une sortie course à pied dans les 4 capitales",
+    "defiTitre": "LE GRAND VERDICT DES CAPITALES",
+    "texte": "Vous avez maintenant couru dans toutes les capitales du voyage.\n\nMais laquelle mérite vraiment une place dans votre cœur ?\n\nChacun choisit secrètement sa capitale préférée.\n\nPuis vous avez 1 minute chacun pour expliquer votre choix, sans révéler votre réponse à l'autre.\n\nÀ la fin… révélation !",
+    "declencheur": {
+      "type": "defis",
+      "valeur": [
+        "course-santiago",
+        "course-la-paz",
+        "course-quito",
+        "course-lima"
+      ]
+    },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "hall-of-fame-sport",
+    "titre": "Hall of fame",
+    "raison": "Débloqué après une compétition sportive dans les 5 pays",
+    "defiTitre": "HALL OF FAME",
+    "texte": "Vous avez maintenant fait du sport dans tous les pays du voyage.\n\nVous avez couru.\n\nVous avez sauté.\n\nVous avez probablement fait des choses que votre corps ne réclamait absolument pas.\n\nPuis questions :\n- Quelle a été la meilleure compétition sportive effectuée ?\n- Moment le plus difficile ?",
+    "declencheur": {
+      "type": "defis",
+      "valeur": [
+        "compet-chili",
+        "compet-argentine",
+        "compet-equateur",
+        "compet-perou",
+        "compet-bolivie"
+      ]
+    },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "poumon-des-andes",
+    "titre": "Le poumon des Andes",
+    "raison": "Débloqué après 50 burpees à plus de 5000 m",
+    "defiTitre": "LE POUMON DES ANDES",
+    "texte": "Vous avez survécu aux 50 burpees à plus de 5000 mètres.\n\nFélicitations.\n\nMais malheureusement…\n\nCe n'est pas terminé.\n\nMaintenant, place à l'épreuve ultime : JUMPING JACKS JUSQU'À L'ÉLIMINATION.\n\nLes deux commencent en même temps.\n\nLe premier qui s'arrête a perdu.",
+    "declencheur": { "type": "defi", "valeur": "burpees-5000" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "quiz-montee-el-alto",
+    "titre": "Le quiz de la montée",
+    "raison": "Débloqué après avoir monté à pied de La Paz à El Alto",
+    "defiTitre": "LE QUIZ DE LA MONTÉE",
+    "texte": "Vous venez de traverser La Paz jusqu'à El Alto à pied.\n\nVous avez vu des rues, des bâtiments, des montagnes, des gens, des chiens… et probablement beaucoup de choses que vous avez déjà oubliées.\n\nÀ tour de rôle, essayez de citer le plus de choses possibles que vous avez vues pendant la montée.\n\nLe premier qui sèche perd.",
+    "declencheur": { "type": "defi", "valeur": "la-paz-el-alto" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "quiz-altitude-apero",
+    "titre": "Le quiz de l'altitude",
+    "raison": "Débloqué après un apéro à plus de 4000 m",
+    "defiTitre": "LE QUIZ DE L'ALTITUDE",
+    "texte": "À plus de 4000 mètres, l'alcool n'est pas la seule chose qui peut vous faire tourner la tête.\n\nChacun prépare 10 questions sur vos souvenirs de voyage pour l'autre.\n\nUne question peut porter sur un lieu, un animal, une anecdote, une rencontre, un repas ou un moment complètement absurde.\n\n10 questions chacun.\n\nLe perdant devra reconnaître qu'il connaît moins bien votre voyage que l'autre.",
+    "declencheur": { "type": "defi", "valeur": "apero-4000" },
+    "titreVerrou": "Surprise mystère",
+    "conditionVerrou": "Pas encore débloqué"
+  },
+  {
+    "id": "arrivee-ile-de-paques",
+    "titre": "Premier Moaï",
+    "raison": "Débloqué à l'arrivée sur l'île de Pâques",
+    "defiTitre": "PREMIER MOAÏ DÉBLOQUÉ",
+    "texte": "Votre première rencontre avec les Moaïs mérite une trace. Regardez bien. Puis dessinez-en un, chacun. Le meilleur dessin gagne.",
+    "declencheur": { "type": "mot-de-passe", "valeur": "MOAI" },
+    "indice": "L'île se dessine à l'horizon.\n\nUn habitant vous arrête : « Mot de passe ? »",
+    "titreVerrou": "Au bout de l'océan",
+    "conditionVerrou": "À un endroit particulier"
+  },
+  {
+    "id": "frontiere-equateur",
+    "titre": "Nouveau pays, nouveaux nuages",
+    "raison": "Débloqué au passage de la frontière équatorienne",
+    "defiTitre": "NOUVEAU PAYS, NOUVEAUX NUAGES",
+    "texte": "Chacun doit trouver 3 animaux dans les nuages.\n\nSi l'autre ne voit pas votre animal… convainquez-le.",
+    "declencheur": { "type": "mot-de-passe", "valeur": "NUBES" },
+    "indice": "Poste-frontière.\n\nLe douanier lève les yeux : « Mot de passe ? »",
+    "titreVerrou": "Frontière équatorienne",
+    "conditionVerrou": "À un endroit particulier"
+  },
+  {
+    "id": "frontiere-perou",
+    "titre": "Safari photo",
+    "raison": "Débloqué au passage de la frontière péruvienne",
+    "defiTitre": "SAFARI PHOTO DÉBLOQUÉ",
+    "texte": "Votre mission : trouver et photographier le plus bel animal du pays.\n\nÀ la fin du séjour : une photo gagnera la couronne.",
+    "declencheur": { "type": "mot-de-passe", "valeur": "SAFARI" },
+    "indice": "Poste-frontière.\n\nLe douanier lève les yeux : « Mot de passe ? »",
+    "titreVerrou": "Frontière péruvienne",
+    "conditionVerrou": "À un endroit particulier"
+  },
+  {
+    "id": "frontiere-bolivie",
+    "titre": "Marché débloqué",
+    "raison": "Débloqué au passage de la frontière bolivienne",
+    "defiTitre": "MARCHÉ DÉBLOQUÉ",
+    "texte": "Vous avez chacun 5 €.\n\nVotre mission : acheter à l'autre la nourriture la plus originale possible.\n\nEt oui… il faudra la manger.",
+    "declencheur": { "type": "mot-de-passe", "valeur": "MERCADO" },
+    "indice": "Poste-frontière.\n\nLe douanier lève les yeux : « Mot de passe ? »",
+    "titreVerrou": "Frontière bolivienne",
+    "conditionVerrou": "À un endroit particulier"
+  },
+  {
+    "id": "frontiere-argentine",
+    "titre": "Le juste prix",
+    "raison": "Débloqué au passage de la frontière argentine",
+    "defiTitre": "LE JUSTE PRIX",
+    "texte": "Au prochain magasin, chacun choisit un produit.\n\nDevinez son prix.\n\nLe plus proche remporte la manche.",
+    "declencheur": { "type": "mot-de-passe", "valeur": "PRECIO" },
+    "indice": "Poste-frontière.\n\nLe douanier lève les yeux : « Mot de passe ? »",
+    "titreVerrou": "Frontière argentine",
+    "conditionVerrou": "À un endroit particulier"
+  },
+  {
+    "id": "frontiere-chili",
+    "titre": "Bataille de rimes",
+    "raison": "Débloqué au passage de la frontière chilienne",
+    "defiTitre": "BATAILLE DE RIMES",
+    "texte": "Le nom du pays est votre seule arme.\n\nTrouvez des mots qui riment avec lui. À tour de rôle.\n\nLe premier qui sèche… a perdu.",
+    "declencheur": { "type": "mot-de-passe", "valeur": "RIMA" },
+    "indice": "Poste-frontière.\n\nLe douanier lève les yeux : « Mot de passe ? »",
+    "titreVerrou": "Frontière chilienne",
+    "conditionVerrou": "À un endroit particulier"
   }
 ]

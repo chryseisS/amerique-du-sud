@@ -81,7 +81,7 @@ const JOURNAL_BLOCKS = [
   {
     id: 'journal',
     to: '/journal/bord',
-    icon: cheminImage('/images/journal/journal_icone.png'),
+    icon: '/images/journal/journal_icone.png',
     bgStyle: {
       backgroundImage: `url(${cheminImage('/images/journal/journal_de_bord.png')})`,
       backgroundPosition: 'center',
@@ -91,7 +91,7 @@ const JOURNAL_BLOCKS = [
   {
     id: 'gastro',
     to: '/journal/gastronomie',
-    icon: cheminImage('/images/journal/gastronomie_icone.png'),
+    icon: '/images/journal/gastronomie_icone.png',
     bgStyle: {
       backgroundImage: `url(${cheminImage('/images/journal/gastronomie.png')})`,
       backgroundPosition: 'center',
@@ -101,7 +101,7 @@ const JOURNAL_BLOCKS = [
   {
     id: 'premieres-fois',
     to: '/journal/premieres-fois',
-    icon: cheminImage('/images/journal/defis_icone.png'),
+    icon: '/images/journal/defis_icone.png',
     bgStyle: {
       backgroundImage: `url(${cheminImage('/images/journal/defis.png')})`,
       backgroundPosition: 'center',
@@ -111,7 +111,7 @@ const JOURNAL_BLOCKS = [
   {
     id: 'pokedex',
     to: '/journal/faune',
-    icon: cheminImage('/images/journal/pokedex_icone.png'),
+    icon: '/images/journal/pokedex_icone.png',
     bgStyle: {
       backgroundImage: `url(${cheminImage('/images/journal/pokedex.png')})`,
       backgroundPosition: 'center',

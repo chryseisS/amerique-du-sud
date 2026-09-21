@@ -14,6 +14,20 @@
     "anecdote": "Le Pérou et le Chili se disputent farouchement la paternité du Pisco Sour. Au Pérou, on le célèbre le premier samedi de février ; au Chili, le 8 février. Les deux pays ont chacun leur journée nationale pour la même boisson."
   },
   {
+    "nom": "Sopa de maní",
+    "type": "Plat",
+    "pays": ["Bolivie"],
+    "description": "Soupe de cacahuètes onctueuse : bouillon de bœuf ou de poulet épaissi avec des cacahuètes moulues, pommes de terre, petites pâtes ou riz et légumes. Servie avec des frites en bâtonnets par-dessus. Souvent l'entrée des almuerzos.",
+    "anecdote": "L'arachide est originaire d'Amérique du Sud, et les botanistes situent son berceau dans le sud de la Bolivie et le nord de l'Argentine. Elle y était cultivée bien avant l'arrivée des Espagnols, qui l'ont ensuite diffusée dans le monde entier. Quand un Bolivien mange une sopa de maní, il mange donc un ingrédient qui est revenu chez lui après avoir fait le tour de la planète."
+  },
+  {
+    "nom": "Plato paceño",
+    "type": "Plat",
+    "pays": ["Bolivie"],
+    "description": "Plat typique de La Paz : gros épis de maïs (choclo), fèves (habas), pommes de terre et fromage frit ou grillé, avec une sauce piquante (llajwa) à côté. Simple et végétarien, il se mange souvent au déjeuner.",
+    "anecdote": "Ce plat associe deux mondes dans la même assiette. Le maïs et la pomme de terre sont des cultures andines millénaires, alors que les fèves et le fromage sont arrivés avec les Espagnols au XVIᵉ siècle. Seule la llajwa, sauce de piment locoto et de tomate dont le nom vient du quechua et de l'aymara, est restée entièrement andine."
+  },
+  {
     "nom": "Pique Macho",
     "type": "Plat",
     "pays": ["Bolivie"],

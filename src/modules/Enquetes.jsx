@@ -84,8 +84,7 @@ export default function Enquetes() {
           <Vignette image="/images/jeux/escapes/vignette.jpg" />
           <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
             <div>
-              <h3 className="font-serif text-[16px] leading-tight text-encre font-semibold m-0">Escapes</h3>
-              <p className="text-[11.5px] text-encre-douce mt-1 leading-snug">Échappe-toi de lieux légendaires remplis d'énigmes.</p>
+              <h3 className="font-serif text-[16px] leading-tight text-encre font-semibold m-0">Escape books</h3>
             </div>
             <div className="mt-2">
               <span className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wide text-sepia">
