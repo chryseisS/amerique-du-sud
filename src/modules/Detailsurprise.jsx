@@ -15,7 +15,8 @@ import SURPRISES from '../donnees/surprises.json';
 
    • 'texte' (par défaut, pas de `format`) :
        { texte, defiTitre? }
-     `texte` = whitespace-pre-line, respecte les \n\n du JSON.
+     `texte` = whitespace-pre-line, respecte les \n\n du JSON. Texte
+     justifié ; titres et questions restent centrés.
      `defiTitre` (optionnel) = un titre de défi mis en avant, affiché
      au-dessus du texte dans un style distinct (vert, majuscules).
      Ex. flamant rose : defiTitre = "FLAMANT ROSE DÉBLOQUÉ",
@@ -86,7 +87,7 @@ function RenduSurprise({ contenu }) {
     return (
       <>
         {contenu.texte && (
-          <p className="font-serif text-[15px] text-encre-douce leading-relaxed whitespace-pre-line">{contenu.texte}</p>
+          <p className="font-serif text-[15px] text-encre-douce leading-relaxed whitespace-pre-line text-justify self-stretch">{contenu.texte}</p>
         )}
         <div className="w-full flex items-center justify-between gap-3 mt-2">
           <button onClick={() => setIndexQuestion((i) => Math.max(0, i - 1))}
@@ -134,7 +135,7 @@ function RenduSurprise({ contenu }) {
     return (
       <>
         {contenu.texte && indexQuestion === 0 && (
-          <p className="font-serif text-[15px] text-encre-douce leading-relaxed whitespace-pre-line">{contenu.texte}</p>
+          <p className="font-serif text-[15px] text-encre-douce leading-relaxed whitespace-pre-line text-justify self-stretch">{contenu.texte}</p>
         )}
         <div className="w-full bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
           <p className="font-serif text-[16px] text-encre leading-snug text-center">{question.question}</p>
@@ -173,7 +174,7 @@ function RenduSurprise({ contenu }) {
           <p className="font-serif uppercase tracking-[2px] text-[16px] text-vert-cta font-bold">{contenu.defiTitre}</p>
         )}
         {contenu.texte && (
-          <p className="font-serif text-[15px] text-encre-douce leading-relaxed whitespace-pre-line">{contenu.texte}</p>
+          <p className="font-serif text-[15px] text-encre-douce leading-relaxed whitespace-pre-line text-justify self-stretch">{contenu.texte}</p>
         )}
         <div className="flex flex-wrap justify-center gap-2.5">
           {mots.map((mot) => (
@@ -193,8 +194,8 @@ function RenduSurprise({ contenu }) {
       {contenu.defiTitre && (
         <p className="font-serif uppercase tracking-[2px] text-[16px] text-vert-cta font-bold">{contenu.defiTitre}</p>
       )}
-      <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
-        <p className="font-serif text-[15px] text-encre leading-relaxed whitespace-pre-line">{contenu.texte}</p>
+      <div className="self-stretch bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
+        <p className="font-serif text-[15px] text-encre leading-relaxed whitespace-pre-line text-justify">{contenu.texte}</p>
       </div>
     </>
   );

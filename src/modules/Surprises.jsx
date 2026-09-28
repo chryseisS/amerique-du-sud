@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, ChevronRight, Lock, Gift } from 'lucide-react';
 import { db } from '../db';
@@ -79,7 +79,18 @@ function couleurType(type) {
   return { fond: 'bg-[#5a4a36]/10', bordure: 'border-parchemin-bordure', icone: 'text-sepia', accent: 'border-l-parchemin-bordure' };
 }
 
+// Ordre d'affichage : verrouillées par mot de passe en haut, puis par
+// date, puis animal / défi ; les surprises débloquées tout en bas.
+// L'ordre du JSON est conservé à l'intérieur de chaque groupe.
+const ORDRE_TYPE = { 'mot-de-passe': 0, date: 1, animal: 2, defi: 2, defis: 2 };
+
+function rangAffichage(surprise, debloquee) {
+  if (debloquee) return 10;
+  return ORDRE_TYPE[surprise.declencheur?.type] ?? 3;
+}
+
 export default function Surprises() {
+  const navigate = useNavigate();
   const debloqueesDB = useLiveQuery(() => db.surprisesDebloquees.toArray(), []) ?? [];
   const debloqueesIds = useMemo(() => new Set(debloqueesDB.map((d) => d.id)), [debloqueesDB]);
 
@@ -88,6 +99,13 @@ export default function Surprises() {
   const [erreur, setErreur] = useState(false);
 
   const total = SURPRISES.length;
+  const triees = useMemo(
+    () => SURPRISES
+      .map((s, i) => ({ s, i, rang: rangAffichage(s, debloqueesIds.has(s.id)) }))
+      .sort((a, b) => a.rang - b.rang || a.i - b.i)
+      .map(({ s }) => s),
+    [debloqueesIds]
+  );
   const debloquees = SURPRISES.filter((s) => debloqueesIds.has(s.id)).length;
 
   function ouvrirChamp(id) {
@@ -107,6 +125,7 @@ export default function Surprises() {
     if (saisie.trim().toLowerCase() === attendu) {
       await db.surprisesDebloquees.put({ id: surprise.id, date: new Date().toISOString() });
       annuler();
+      navigate(`/jeux/surprises/${surprise.id}`);
     } else {
       setErreur(true);
     }
@@ -144,7 +163,7 @@ export default function Surprises() {
             <p className="text-[13px] text-encre-douce leading-snug">Aucune surprise pour l'instant.</p>
           </div>
         ) : (
-          SURPRISES.map((s) => {
+          triees.map((s) => {
             const debloquee = debloqueesIds.has(s.id);
 
             if (!debloquee) {

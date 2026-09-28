@@ -44,26 +44,8 @@
       },
       {
         "titre": "Jour 2",
-        "format": "mots-aleatoires",
-        "defiTitre": "HISTOIRE SOUS LES ÉTOILES",
-        "texte": "Inventez ensemble une histoire qui contient ces trois mots :",
-        "motsDisponibles": [
-          "condor",
-          "lampe",
-          "sommet",
-          "rire",
-          "orage",
-          "berger",
-          "étoile",
-          "silence",
-          "chaussure",
-          "nuage",
-          "feu",
-          "carte",
-          "rivière",
-          "masque",
-          "écho"
-        ],
+        "defiTitre": "CONCOURS DE CAILLOUX",
+        "texte": "La montagne vous a donné des cailloux.\n\nIl est temps d'en faire bon usage.\n\n5 mètres, 3 lancers. Chacun dispose de 3 lancers. Précision, puissance, mauvaise foi : tout compte.\n\nLe perdant reçoit un gage.",
         "heuresDepuisDebut": 22
       },
       {
@@ -73,9 +55,18 @@
         "questions": [
           "Combien de pauses aujourd'hui ?",
           "Premier animal vu ?",
-          "Première personne croisée ?"
+          "Première personne doublée ?",
+          "Première personne croisée ?",
+          "Premier panneau vu ?"
         ],
-        "heuresDepuisDebut": 44
+        "heuresDepuisDebut": 45
+      },
+      ,
+      {
+        "titre": "Jour 4",
+        "defiTitre": "MEMOIRE DE TREK",
+        "texte": "Vous avez survécu (ou presque) à un trek. Mais une question demeure... Seriez-vous capables de retrouver votre chemin ?\n\nDessinez la carte du trek de mémoire et placez-y tout ce qui mérite d'entrer dans l'histoire : la montée qui vous a fait regretter votre choix, votre plus beau souvenir, l'endroit où vous avez cru mourir, etc.\n\nParce qu'un trek sans 'Vallée où il fallait faire pipi' ou 'Montagne qui avait l'air beaucoup plus proche', ce n'est pas vraiment un trek.\n\nA vos stylos !",
+        "heuresDepuisDebut": 69
       }
     ]
   },
@@ -340,6 +331,28 @@
     "declencheur": { "type": "mot-de-passe", "valeur": "RIMA" },
     "indice": "Poste-frontière.\n\nLe douanier lève les yeux : « Mot de passe ? »",
     "titreVerrou": "Frontière chilienne",
+    "conditionVerrou": "À un endroit particulier"
+  },
+  {
+    "id": "tresor-salkantay",
+    "titre": "Le trésor du Salkantay",
+    "raison": "Débloqué au départ du trek du Salkantay",
+    "defiTitre": "LE TRÉSOR DU SALKANTAY",
+    "texte": "Après analyse de tes compétences d'aventurier, l'organisation a conclu que tu n'étais absolument pas prêt.\n\nNous avons donc pris une décision importante.\n\nTu as besoin d'un équipement officiel.",
+    "declencheur": { "type": "mot-de-passe", "valeur": "SALLQA" },
+    "indice": "Le sentier grimpe vers la montagne sauvage.\n\nLe guide te barre la route : « Mot de passe ? »",
+    "titreVerrou": "Le colis mystère",
+    "conditionVerrou": "À un endroit particulier"
+  },
+  {
+    "id": "legende-rapa-nui",
+    "titre": "Légende de Rapa Nui",
+    "raison": "Débloqué sur l'île de Pâques",
+    "defiTitre": "LÉGENDE DE RAPA NUI DÉBLOQUÉE",
+    "texte": "Une jeune fille.\nUne grand-mère disparue.\nUne île qui cache encore les secrets de ses ancêtres.\n\nPour retrouver sa grand-mère et protéger les terres de sa famille, elle devra suivre les indices laissés derrière elle et résoudre les mystères de Rapa Nui.\n\nSon histoire est maintenant entre vos mains.",
+    "declencheur": { "type": "mot-de-passe", "valeur": "TUPUNA" },
+    "indice": "Les Moaïs tournent le dos à l'océan. Ils veillent sur les vivants.\n\nUne vieille femme vous interpelle : « Mot de passe ? »",
+    "titreVerrou": "Le secret des ancêtres",
     "conditionVerrou": "À un endroit particulier"
   }
 ]
