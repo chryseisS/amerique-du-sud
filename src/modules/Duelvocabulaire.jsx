@@ -154,7 +154,7 @@ export default function DuelVocabulaire() {
       {/* Compteur + réinitialiser (cartes uniquement, pas les scores) */}
       <div className="relative px-5 pt-4">
         <div className="flex items-center justify-between text-[12px] text-encre-douce">
-          <span>{restantes} / {total} mots restants</span>
+          <span>{restantes} / {total} restants</span>
           <button onClick={reinitialiserCartes}
                   className="inline-flex items-center gap-1 text-[11.5px] font-semibold text-sepia">
             <RefreshCw className="w-3.5 h-3.5" strokeWidth={2} />Réinitialiser les cartes

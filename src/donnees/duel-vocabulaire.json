@@ -29,5 +29,311 @@
   { "id": "clima", "categorie": "El clima", "traduction": "La météo" },
   { "id": "muebles", "categorie": "Muebles", "traduction": "Meubles" },
   { "id": "herramientas", "categorie": "Herramientas", "traduction": "Outils" },
-  { "id": "bebidas", "categorie": "Bebidas", "traduction": "Boissons" }
+  { "id": "bebidas", "categorie": "Bebidas", "traduction": "Boissons" },
+  {
+    "id": "isla",
+    "categorie": "Cosas para llevar a una isla desierta",
+    "traduction": "Choses à amener sur une île déserte"
+  },
+  {
+    "id": "deportes-dos",
+    "categorie": "Deportes que se juegan entre dos",
+    "traduction": "Sports qui se jouent à deux"
+  },
+  {
+    "id": "jardin",
+    "categorie": "Cosas que hay en un jardín",
+    "traduction": "Choses qu'on trouve dans un jardin"
+  },
+  {
+    "id": "refrigerador",
+    "categorie": "Cosas que hay en el refrigerador",
+    "traduction": "Choses qu'on trouve dans un frigo"
+  },
+  {
+    "id": "camping",
+    "categorie": "Cosas para llevar de campamento",
+    "traduction": "Choses à amener en camping"
+  },
+  {
+    "id": "avion",
+    "categorie": "Cosas que hay en un avión",
+    "traduction": "Choses qu'on trouve dans un avion"
+  },
+  {
+    "id": "playa",
+    "categorie": "Cosas para hacer en la playa",
+    "traduction": "Choses à faire à la plage"
+  },
+  {
+    "id": "aeropuerto",
+    "categorie": "Cosas para hacer en el aeropuerto",
+    "traduction": "Choses à faire à l'aéroport"
+  },
+  {
+    "id": "cielo",
+    "categorie": "Cosas que se ven en el cielo",
+    "traduction": "Choses qu'on peut voir dans le ciel"
+  },
+  {
+    "id": "escuela",
+    "categorie": "Cosas que hay en una escuela",
+    "traduction": "Choses qu'on trouve dans une école"
+  },
+  {
+    "id": "crudo",
+    "categorie": "Alimentos que se pueden comer crudos",
+    "traduction": "Aliments qu'on peut manger crus"
+  },
+  {
+    "id": "inutiles-viaje",
+    "categorie": "Objetos inútiles en un viaje",
+    "traduction": "Objets inutiles en voyage"
+  },
+  {
+    "id": "una-vez",
+    "categorie": "Cosas que se usan una sola vez",
+    "traduction": "Choses qu'on n'utilise qu'une fois"
+  },
+  {
+    "id": "musica",
+    "categorie": "Lugares donde siempre hay música",
+    "traduction": "Lieux où il y a toujours de la musique"
+  },
+  {
+    "id": "invierno",
+    "categorie": "Cosas que solo se hacen en invierno",
+    "traduction": "Choses qu'on ne fait qu'en hiver"
+  },
+  {
+    "id": "verde",
+    "categorie": "Cosas de color verde",
+    "traduction": "Choses de couleur verte"
+  },
+  {
+    "id": "detective",
+    "categorie": "Objetos de un detective privado",
+    "traduction": "Objets d'un détective privé"
+  },
+  {
+    "id": "verano",
+    "categorie": "Cosas que solo se hacen en verano",
+    "traduction": "Choses qu'on ne fait qu'en été"
+  },
+  {
+    "id": "excusas",
+    "categorie": "Excusas clásicas para rechazar una invitación",
+    "traduction": "Excuses classiques pour refuser une invitation"
+  },
+  {
+    "id": "deportes-equipo",
+    "categorie": "Deportes de equipo que se juegan al aire libre",
+    "traduction": "Sports d'équipe qui se jouent en extérieur"
+  },
+  {
+    "id": "bano",
+    "categorie": "Cosas que hay en un baño",
+    "traduction": "Choses qu'on trouve dans une salle de bain"
+  },
+  {
+    "id": "cuatro-patas",
+    "categorie": "Animales de cuatro patas",
+    "traduction": "Animaux à quatre pattes"
+  },
+  {
+    "id": "lluvia",
+    "categorie": "Actividades para cuando llueve",
+    "traduction": "Activités à faire quand il pleut"
+  },
+  {
+    "id": "dormitorio",
+    "categorie": "Cosas que hay en un dormitorio",
+    "traduction": "Choses qu'on trouve dans une chambre"
+  },
+  {
+    "id": "van",
+    "categorie": "Cosas que hay en una van camper",
+    "traduction": "Choses qu'on trouve dans un van aménagé"
+  },
+  {
+    "id": "pizza",
+    "categorie": "Ingredientes de una pizza",
+    "traduction": "Ingrédients d'une pizza"
+  },
+  {
+    "id": "ruido",
+    "categorie": "Objetos que hacen ruido",
+    "traduction": "Objets qui font du bruit"
+  },
+  { "id": "frias", "categorie": "Cosas frías", "traduction": "Choses froides" },
+  {
+    "id": "bolsillos",
+    "categorie": "Cosas que se guardan en los bolsillos",
+    "traduction": "Choses qu'on met dans les poches"
+  },
+  {
+    "id": "huelen-bien",
+    "categorie": "Cosas que huelen bien",
+    "traduction": "Choses qui sentent bon"
+  },
+  {
+    "id": "huelen-mal",
+    "categorie": "Cosas que huelen mal",
+    "traduction": "Choses qui puent"
+  },
+  {
+    "id": "oceano",
+    "categorie": "Cosas que hay en el océano",
+    "traduction": "Choses qu'on trouve dans l'océan"
+  },
+  {
+    "id": "bolso",
+    "categorie": "Cosas que hay en un bolso",
+    "traduction": "Choses qu'on trouve dans un sac à main"
+  },
+  {
+    "id": "maleta",
+    "categorie": "Cosas que hay en una maleta",
+    "traduction": "Choses qu'on trouve dans une valise"
+  },
+  {
+    "id": "superpoderes",
+    "categorie": "Superpoderes que nos gustaría tener",
+    "traduction": "Superpouvoirs qu'on aimerait avoir"
+  },
+  {
+    "id": "olvidar",
+    "categorie": "Cosas que se nos olvida hacer",
+    "traduction": "Choses qu'on oublie de faire"
+  },
+  {
+    "id": "montana",
+    "categorie": "Cosas para hacer en la montaña",
+    "traduction": "Choses qu'on peut faire à la montagne"
+  },
+  {
+    "id": "bosque",
+    "categorie": "Cosas que hay en un bosque",
+    "traduction": "Choses qu'on trouve dans une forêt"
+  },
+  {
+    "id": "cueva",
+    "categorie": "Cosas que hay en una cueva",
+    "traduction": "Choses qu'on trouve dans une grotte"
+  },
+  {
+    "id": "desayuno",
+    "categorie": "Cosas que se comen en el desayuno",
+    "traduction": "Choses qu'on mange au petit-déjeuner"
+  },
+  {
+    "id": "bar",
+    "categorie": "Cosas que hay en un bar",
+    "traduction": "Choses qu'on trouve dans un bar"
+  },
+  {
+    "id": "dormir",
+    "categorie": "Lugares donde se puede dormir",
+    "traduction": "Lieux où on peut dormir"
+  },
+  {
+    "id": "silencio",
+    "categorie": "Lugares donde hay que estar en silencio",
+    "traduction": "Lieux où il faut être silencieux"
+  },
+  {
+    "id": "mesa",
+    "categorie": "Cosas que hay sobre una mesa",
+    "traduction": "Choses qu'on trouve sur une table"
+  },
+  {
+    "id": "diario",
+    "categorie": "Cosas que usamos todos los días",
+    "traduction": "Choses qu'on utilise tous les jours"
+  },
+  {
+    "id": "repetidas",
+    "categorie": "Cosas que tenemos repetidas",
+    "traduction": "Choses qu'on a en double"
+  },
+  {
+    "id": "granja",
+    "categorie": "Animales de la granja",
+    "traduction": "Animaux de la ferme"
+  },
+  {
+    "id": "road-trip",
+    "categorie": "Cosas para llevar en un viaje por carretera",
+    "traduction": "Choses à prendre pour un road trip"
+  },
+  {
+    "id": "perderse",
+    "categorie": "Lugares donde uno se puede perder",
+    "traduction": "Lieux où on peut se perdre"
+  },
+  {
+    "id": "aburrimiento",
+    "categorie": "Cosas para hacer cuando uno se aburre",
+    "traduction": "Choses à faire quand on s'ennuie"
+  },
+  {
+    "id": "caras",
+    "categorie": "Actividades que cuestan caro",
+    "traduction": "Activités qui coûtent cher"
+  },
+  {
+    "id": "navidad",
+    "categorie": "Cosas relacionadas con la Navidad",
+    "traduction": "Choses associées à Noël"
+  },
+  {
+    "id": "madrugar",
+    "categorie": "Razones para levantarse temprano",
+    "traduction": "Raisons de se lever tôt"
+  },
+  {
+    "id": "un-minuto",
+    "categorie": "Cosas que se pueden hacer en menos de un minuto",
+    "traduction": "Choses qu'on peut faire en moins d'une minute"
+  },
+  {
+    "id": "una-mano",
+    "categorie": "Cosas que se pueden hacer con una sola mano",
+    "traduction": "Choses qu'on peut faire avec une seule main"
+  },
+  {
+    "id": "bolsillos-nino",
+    "categorie": "Cosas que hay en los bolsillos de un niño",
+    "traduction": "Choses qu'on trouve dans les poches d'un enfant"
+  },
+  {
+    "id": "boda",
+    "categorie": "Cosas que se dicen en una boda",
+    "traduction": "Choses qu'on dit à un mariage"
+  },
+  {
+    "id": "pican-queman",
+    "categorie": "Cosas que pican o queman al tocarlas",
+    "traduction": "Choses qui piquent ou brûlent au toucher"
+  },
+  {
+    "id": "cuadradas",
+    "categorie": "Cosas de forma cuadrada o cúbica",
+    "traduction": "Choses de forme carrée ou cubique"
+  },
+  {
+    "id": "amarillo",
+    "categorie": "Cosas de color amarillo",
+    "traduction": "Choses de couleur jaune"
+  },
+  {
+    "id": "siempre-perdemos",
+    "categorie": "Cosas que siempre perdemos",
+    "traduction": "Choses qu'on perd tout le temps"
+  },
+  {
+    "id": "cine",
+    "categorie": "Cosas que hay en un cine",
+    "traduction": "Choses qu'on trouve dans un cinéma"
+  }
 ]

@@ -1,4 +1,5 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { useEffect, useRef } from 'react';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import BarreOnglets from './composants/BarreOnglets.jsx';
 
 // Planification
@@ -40,6 +41,9 @@ import MiniJeux from './modules/MiniJeux.jsx';
 import Taquin from './modules/Taquin.jsx';
 import Tabou from './modules/Tabou.jsx';
 import DuelVocabulaire from './modules/DuelVocabulaire.jsx';
+import Timeline from './modules/Timeline.jsx';
+import Wordle from './modules/Wordle.jsx';
+import WordleRattrapage from './modules/WordleRattrapage.jsx';
 import JeuxCartes from './modules/JeuxCartes.jsx';
 import DetailJeuCarte from './modules/DetailJeuCarte.jsx';
 import Surprises from './modules/Surprises.jsx';
@@ -56,10 +60,24 @@ import DetailVisiteGuidee from './modules/DetailVisiteGuidee.jsx';
 import Jeux from './modules/Jeux.jsx';
 
 function App() {
+  // <main> est le seul conteneur qui scrolle (voir plus bas). Comme il
+  // ne se démonte jamais entre deux routes, son scrollTop n'est jamais
+  // remis à 0 tout seul — d'où le bug : après avoir scrollé sur une
+  // page puis navigué (y compris en revenant en arrière, ex. le geste
+  // "retour" au doigt sur iOS), la page suivante apparaît au même
+  // niveau de scroll que celui où on était, au lieu de son début.
+  // On force donc un retour en haut à chaque changement de route.
+  const mainRef = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    mainRef.current?.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <div className="h-dvh flex justify-center overflow-hidden bg-terra-muted/10">
       <div className="w-full max-w-[450px] h-dvh flex flex-col bg-terra-50 shadow-xl">
-        <main className="flex-1 overflow-y-auto">
+        <main ref={mainRef} className="flex-1 overflow-y-auto">
           <Routes>
             <Route path="/" element={<Navigate to="/planification" replace />} />
 
@@ -95,6 +113,10 @@ function App() {
             <Route path="/jeux/mini-jeux/taquin" element={<Taquin />} />
             <Route path="/jeux/mini-jeux/tabou" element={<Tabou />} />
             <Route path="/jeux/mini-jeux/duel-vocabulaire" element={<DuelVocabulaire />} />
+            <Route path="/jeux/mini-jeux/timeline" element={<Timeline />} />
+            <Route path="/jeux/mini-jeux/wordle" element={<Wordle />} />
+            <Route path="/jeux/mini-jeux/wordle/rattrapage" element={<WordleRattrapage />} />
+            <Route path="/jeux/mini-jeux/wordle/jour/:index" element={<Wordle />} />
             <Route path="/jeux/mini-jeux/cartes" element={<JeuxCartes />} />
             <Route path="/jeux/mini-jeux/cartes/:jeuId" element={<DetailJeuCarte />} />
             <Route path="/jeux/surprises" element={<Surprises />} />

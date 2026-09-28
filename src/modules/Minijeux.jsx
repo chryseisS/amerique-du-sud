@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, ChevronRight, Puzzle, Ban, Spade, Swords } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Puzzle, Ban, Spade, Swords, History, Grid3x3 } from 'lucide-react';
 
 /* ════════════════════════════════════════════════════════════════════
    ÉCRAN « JEUX »  — route /jeux/mini-jeux
@@ -26,8 +26,16 @@ const JEUX = [
     desc: 'Fais deviner un mot sans utiliser les mots interdits.',
   },
   {
-    id: 'duel-vocabulaire', titre: 'Duelo de vocabulario', to: '/jeux/mini-jeux/duel-vocabulaire', Icone: Swords,
-    desc: 'Le premier à sécher a perdu.',
+    id: 'duel-vocabulaire', titre: 'Duel de vocabulaire', to: '/jeux/mini-jeux/duel-vocabulaire', Icone: Swords,
+    desc: 'Duelo de vocabulario — le premier à sécher a perdu.',
+  },
+  {
+    id: 'timeline', titre: 'Timeline', to: '/jeux/mini-jeux/timeline', Icone: History,
+    desc: 'Replace les événements au bon endroit de la frise.',
+  },
+  {
+    id: 'wordle', titre: 'Wordle', to: '/jeux/mini-jeux/wordle', Icone: Grid3x3,
+    desc: 'Un mot espagnol par jour, à trouver en 6 essais.',
   },
 ];
 

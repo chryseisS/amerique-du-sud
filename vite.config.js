@@ -14,10 +14,12 @@ export default defineConfig(({ command }) => ({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Amérique du Sud',
-        short_name: 'AmSud',
+        name: 'Vanicuña',
+        short_name: 'Vanicuña',
         display: 'standalone',
         start_url: '/amerique-du-sud/',
+        background_color: '#fdf8f0',
+        theme_color: '#fdf8f0',
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },

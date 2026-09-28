@@ -109,3 +109,7 @@ db.version(7).stores({
    */
   episodesLus: 'id, date'
 });
+
+db.version(8).stores({ 
+wordleParties: 'index',
+timelineRecords: 'mode'});
