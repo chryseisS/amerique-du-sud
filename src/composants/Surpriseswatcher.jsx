@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { Gift } from 'lucide-react';
 import { db } from '../db';
@@ -29,7 +30,8 @@ import SURPRISES from '../donnees/surprises.json';
      déblocage (voir `jours` / `heuresDepuisDebut` dans ce fichier).
    • Dès qu'une condition est remplie : marque la surprise comme
      débloquée dans Dexie (table `surprisesDebloquees`) et affiche une
-     notification plein écran qui ne se ferme qu'au bouton "OK".
+     notification plein écran avec deux boutons : "Voir la surprise"
+     (ouvre directement sa page) ou "Plus tard" (ferme simplement).
    • S'il y a plusieurs déblocages d'un coup, les notifications
      s'enchaînent une par une.
    • Un tic toutes les 5 minutes force une re-vérification, pour que
@@ -55,6 +57,7 @@ function estDeclenchee(declencheur, clesEvenements) {
 }
 
 export default function SurprisesWatcher() {
+  const navigate = useNavigate();
   const evenementsDB = useLiveQuery(() => db.evenements.toArray(), []);
   const clesEvenements = useMemo(() => new Set((evenementsDB ?? []).map((e) => e.cle)), [evenementsDB]);
 
@@ -99,10 +102,16 @@ export default function SurprisesWatcher() {
         <Gift className="w-8 h-8 text-vert-cta mx-auto mb-3" strokeWidth={1.6} />
         <p className="text-[11px] uppercase tracking-[2px] text-sepia font-semibold mb-1">Surprise débloquée</p>
         <p className="font-serif text-[19px] text-encre font-semibold leading-tight mb-5">{courante.titre}</p>
-        <button onClick={() => setFile((f) => f.slice(1))}
-                className="inline-flex items-center justify-center bg-vert-cta text-creme font-semibold text-[13.5px] rounded-full px-8 py-2.5">
-          OK
-        </button>
+        <div className="flex flex-col gap-2">
+          <button onClick={() => { setFile((f) => f.slice(1)); navigate(`/jeux/surprises/${courante.id}`); }}
+                  className="inline-flex items-center justify-center gap-2 bg-vert-cta text-creme font-semibold text-[13.5px] rounded-full px-6 py-2.5">
+            <Gift className="w-4 h-4" strokeWidth={2} />Voir la surprise
+          </button>
+          <button onClick={() => setFile((f) => f.slice(1))}
+                  className="text-[12.5px] font-semibold text-sepia py-1.5">
+            Plus tard
+          </button>
+        </div>
       </div>
     </div>
   );

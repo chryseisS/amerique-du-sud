@@ -1,21 +1,257 @@
 {
-  "Pérou": { "lien": null, "artistes": [] },
-  "Equateur": { "lien": null, "artistes": [] },
+  "Pérou": {
+    "lien": "https://music.apple.com/fr/playlist/per%C3%BA/pl.u-aZb0NJDCyqk3jg",
+    "artistes": [
+      {
+        "nom": "Daniel Alomía Robles",
+        "genre": "Musique andine, compositeur",
+        "description": "Compositeur et folkloriste né à Huánuco en 1871 et mort à Lima en 1942, il a consacré sa vie à collecter et à transcrire les mélodies andines pour leur donner une place dans la musique savante péruvienne. Il écrit « El cóndor pasa » en 1913 pour une zarzuela du même nom, dont le livret est de Julio de la Paz. La mélodie s'est ensuite détachée de la pièce pour devenir l'hymne officieux des Andes, et sa version mondiale doit beaucoup à Paul Simon, qui l'a adaptée en 1970 à partir d'un enregistrement du groupe Los Incas. Beaucoup de gens la chantent sans savoir qu'elle a un auteur."
+      },
+      {
+        "nom": "Yma Sumac",
+        "genre": "Musique andine, exotica",
+        "description": "Née en 1922 dans la région de Cajamarca, elle se fait connaître aux États-Unis à partir de la fin des années 1940 grâce à une voix à l'étendue hors norme, que la légende situe sur cinq octaves. Dans les années 1950, ses albums chez Capitol, nourris de mélodies andines, de chants d'oiseaux et d'arrangements d'orchestre hollywoodiens, lancent la mode de l'exotica et lui valent un succès mondial. Une légende urbaine voulait qu'elle soit une ménagère de Brooklyn nommée Amy Camus : un mythe qu'elle a toujours démenti. Elle est notamment connue pour « Taita Inty », invocation au dieu Soleil, et pour « Gopher Mambo »."
+      },
+      {
+        "nom": "Chabuca Granda",
+        "genre": "Musique criolla, vals péruvien",
+        "description": "Née en 1920 dans les Andes, à Apurímac, mais figure absolue de la Lima élégante, Chabuca Granda renouvelle le vals criollo en lui donnant une écriture poétique et une mélodie plus raffinée. Elle écrit « La flor de la canela » dans les années 1950, en hommage à Victoria Angulo, une femme noire du quartier du Rímac, devenue le symbole de la Lima métissée. Son répertoire, qui compte « Fina estampa » et « José Antonio », a été repris dans toute l'Amérique latine. Elle meurt en 1983 aux États-Unis, après avoir été consacrée comme la grande dame de la chanson péruvienne."
+      },
+      {
+        "nom": "Nicomedes Santa Cruz",
+        "genre": "Musique afro-péruvienne",
+        "description": "Poète, décimiste et musicien né à Lima en 1925, il est l'un des artisans de la redécouverte de la culture afro-péruvienne, longtemps reléguée à l'arrière-plan. Avec sa sœur Victoria, il fait revivre des rythmes comme le festejo, le landó et la zamacueca, et son album « Ritmos negros del Perú » (1964) a valu à cette musique une reconnaissance nationale. Ses décimas, qui racontent l'histoire des Noirs du Pérou avec humour et fierté, ont fait de lui une référence intellectuelle autant que musicale. Il meurt à Madrid en 1992."
+      },
+      {
+        "nom": "Susana Baca",
+        "genre": "Musique afro-péruvienne",
+        "description": "Née à Lima en 1944, dans le quartier de Chorrillos, Susana Baca a porté la musique afro-péruvienne sur les scènes du monde entier avec une voix grave et une grande sobriété. Découverte à l'étranger par le label de David Byrne dans les années 1990, elle a obtenu plusieurs Latin Grammy et a fondé avec son mari l'Instituto Negrocontinuo pour préserver le patrimoine afro-péruvien. Elle a été ministre de la Culture du Pérou en 2011-2012. Elle est notamment connue pour « María Landó », un titre de Chabuca Granda, et pour « Fuego y agua »."
+      },
+      {
+        "nom": "Los Destellos",
+        "genre": "Cumbia péruvienne",
+        "description": "Fondé à Lima en 1966 autour du guitariste Enrique Delgado, ce groupe est considéré comme le pionnier de la cumbia péruvienne. Il y mêle la guitare électrique, les sonorités du surf et du rock psychédélique, et un goût pour l'instrumental qui a donné naissance à un style propre, que l'on appellera plus tard la chicha. Son répertoire a ouvert la voie à des dizaines de groupes, et il reste une référence pour toute la scène psychédélique andine. Il est notamment connu pour l'instrumental « Elsa » et pour « Caminito serrano »."
+      },
+      {
+        "nom": "Los Mirlos",
+        "genre": "Cumbia amazonienne",
+        "description": "Fondé à Moyobamba, dans la région amazonienne de San Martín, dans les années 1960, ce groupe a défini avec Juaneco y su Combo la cumbia amazonienne, aussi appelée « psychédélique ». Ses guitares électriques saturées, ses rythmes de cumbia et ses thèmes tirés de la jungle ont créé un son unique, qui doit son nom à la mode de la chicha. Redécouvert à l'étranger grâce à des compilations comme « The Roots of Chicha » (Barbès Records, 2007), il a trouvé un nouveau public dans les années 2000. Il est notamment connu pour « Sonido amazónico » et « La danza del petrolero »."
+      },
+      {
+        "nom": "Chacalón y La Nueva Crema",
+        "genre": "Chicha, cumbia populaire",
+        "description": "Lorenzo Palacios Quispe, dit Chacalón (1950-1994), né à Lima de parents venus des Andes, est la voix des migrants andins qui ont peuplé les quartiers populaires de la capitale à partir des années 1970. Avec son groupe La Nueva Crema, il chante en langue simple la pauvreté, l'exclusion et l'espoir de ceux qu'on appelait « provincianos ». Longtemps méprisé par les médias et les élites, il a rempli des stades et il est devenu une icône populaire à sa mort prématurée. Il est notamment connu pour « Soy provinciano » et « Por ella la botella »."
+      },
+      {
+        "nom": "Los Saicos",
+        "genre": "Rock garage, proto-punk",
+        "description": "Formé à Lima en 1964, ce quatuor a enregistré en 1965 « Demolición », un morceau court, saturé et criard qui, plusieurs années avant le punk, annonce déjà son esprit. Le groupe a duré à peine deux ans, et il est tombé dans l'oubli avant d'être redécouvert dans les années 1990 et 2000, notamment en Europe, où des musiciens l'ont salué comme un précurseur du punk. Aujourd'hui, il est considéré comme l'acte de naissance du rock péruvien. Il est notamment connu pour « Demolición »."
+      },
+      {
+        "nom": "Grupo 5",
+        "genre": "Cumbia norteña",
+        "description": "Originaire de Monsefú, dans la région de Lambayeque, sur la côte nord du Pérou, Grupo 5 est l'un des grands noms de la cumbia norteña, un style festif qui mêle cumbia, guitares et cuivres. Depuis les années 1970, il remplit les salles du pays et il est resté d'une longévité rare dans un genre où les modes passent vite. « Motor y motivo » est la chanson péruvienne la plus écoutée de tous les temps sur Spotify, avec plus de 60 millions d'écoutes. Il est aussi connu pour « Cambio mi corazón »."
+      }
+    ]
+  },
+  "Equateur": {
+    "lien": "https://music.apple.com/fr/playlist/ecuador/pl.u-11zBJWYi25zlrG",
+    "artistes": [
+      {
+        "nom": "Julio Jaramillo",
+        "genre": "Pasillo",
+        "description": "Surnommé « el Ruiseñor de América », Julio Jaramillo (1935-1978) est né à Guayaquil et reste la plus grande voix du pasillo, genre mélancolique devenu symbole national de l'Équateur. Sa voix chaude et ses chansons d'amour malheureux ont fait de lui une idole dans toute l'Amérique latine, notamment au Pérou, en Colombie et au Mexique. Il meurt à 42 ans à Guayaquil, et ses funérailles attirent des foules immenses. Il est notamment connu pour « Nuestro juramento », « Fatalidad » et « Rondando tu esquina »."
+      },
+      {
+        "nom": "Benítez y Valencia",
+        "genre": "Pasillo",
+        "description": "Duo emblématique du pasillo de la Sierra, il est apprécié pour l'harmonie de ses deux voix et pour son répertoire de pasillos sentimentaux et patriotiques. Son titre « Vasija de barro » est devenu l'un des chants les plus émouvants du pays : on l'entend souvent lors des veillées funèbres, et il fait partie de la mémoire collective équatorienne. Le duo incarne la tradition de la chanson romantique des Andes équatoriennes, qui a nourri des générations de chanteurs. Il est aussi connu pour « Ángel de luz » et « Sombras »."
+      },
+      {
+        "nom": "Ñanda Mañachi",
+        "genre": "Musique andine, sanjuanito",
+        "description": "Groupe d'Otavalo, au cœur du monde kichwa du nord de l'Équateur, dont le nom signifie « prête-moi le chemin ». Il joue le sanjuanito, rythme festif des peuples andins, avec des instruments traditionnels comme la flûte, le charango et la guitare, et il a contribué à faire connaître la musique d'Otavalo hors de la région. Ses chansons évoquent la vie des communautés, la nature et les fêtes comme l'Inti Raymi, la fête du soleil. Il est notamment connu pour « Peguche », du nom de la cascade sacrée près d'Otavalo, et pour « Inti Raymi »."
+      },
+      {
+        "nom": "Papá Roncón",
+        "genre": "Marimba d'Esmeraldas",
+        "description": "Guillermo Ayoví Erazo, dit Papá Roncón, est né dans la province d'Esmeraldas, sur la côte nord, et il est le maître de la marimba afro-équatorienne. Cet instrument fait de lames de bois de chonta, accompagné de tambours cununos, de bombo et de guasá, structure les chants et les danses des communautés afro-esmeraldeñas, et la tradition est inscrite au patrimoine immatériel de l'UNESCO. À la tête du Grupo Bambuco, il joue et transmet depuis des décennies un répertoire de chants de fête, de travail et de deuil. Il est notamment connu pour « Andarele » et « La caderona »."
+      },
+      {
+        "nom": "Banda Mocha de Chalguayacu",
+        "genre": "Bomba del Chota",
+        "description": "La vallée du Chota, dans les Andes du nord, est le cœur de la culture afro-équatorienne de la Sierra, issue des descendants d'esclaves amenés dans les plantations de canne à sucre. La bomba est le rythme de cette vallée, joué par la « banda mocha », ensemble paysan qui associe bomba, guitares et, signe distinctif, des feuilles d'oranger soufflées comme un instrument. Le groupe de Chalguayacu en est un des représentants les plus authentiques. Il est notamment connu pour « La carpuela » et « El Chota », deux noms de lieux de la vallée."
+      },
+      {
+        "nom": "Don Medardo y sus Players",
+        "genre": "Cumbia équatorienne",
+        "description": "Groupe incontournable de la musique de fête équatorienne, il a popularisé la cumbia dans les bals, les mariages et les bars du pays. Son nom est lié à la « cumbia chonera », du nom de Chone, ville de la province de Manabí, qui rappelle l'identité de la côte. Sa musique, joyeuse et dansante, accompagne les fêtes depuis des décennies et elle est restée une référence pour des générations de groupes de tecnocumbia. Il est notamment connu pour « Cumbia chonera » et « El aguajal »."
+      },
+      {
+        "nom": "Nicola Cruz",
+        "genre": "Électro andine",
+        "description": "Producteur équatorien, installé entre Quito et le reste du monde, il fait partie de ceux qui ont donné à l'électro andine une reconnaissance internationale. Son album « Prender el alma » (2015), sorti sur le label ZZK Records, associe des rythmes de cumbia, de musique électronique et des instruments andins, dans un son à la fois dansant et méditatif. Il a joué dans de nombreux festivals en Europe et aux États-Unis, ce qui a fait de lui un ambassadeur de la scène équatorienne contemporaine. Il est notamment connu pour « Cumbia del olvido » et « Colibria »."
+      },
+      {
+        "nom": "Jombriel",
+        "genre": "Reggaeton, musique urbaine",
+        "description": "Jeune artiste de la scène urbaine équatorienne, il a connu un succès fulgurant à partir de 2024 avec « Parte y Choke », porté par TikTok, puis avec « Vitamina » en 2025. Ce morceau a détrôné Bad Bunny du top 50 Spotify Équateur, est devenu le titre le plus écouté de l'histoire de Spotify dans le pays, et il est entré dans le top 50 mondial de la plateforme comme dans le Billboard Global 200. C'est l'un des phénomènes musicaux équatoriens les plus marquants de ces dernières années."
+      }
+    ]
+  },
   "Bolivie": {
-    "lien": null,
+    "lien": "https://music.apple.com/fr/playlist/bolivia/pl.u-JPAZbdZFE1aVyv",
     "artistes": [
       {
         "nom": "Los Kjarkas",
         "genre": "Folklore andin",
-        "description": "Groupe emblématique du folklore andin bolivien, fondé en 1965 à Capinota (Cochabamba) par les frères Hermosa. Pionniers du huayno moderne, ils sont notamment connus pour « Llorando se fue », dont la mélodie a servi de base à la Lambada, et pour « Bolivia », un titre si populaire qu'il est parfois surnommé le second hymne national tant il est chanté avec ferveur dans le pays."
+        "description": "Groupe emblématique du folklore andin bolivien, fondé en 1965 à Capinota (Cochabamba) par les frères Hermosa. Pionniers du huayno moderne, ils ont transformé, à partir des années 1970 et 1980, un folklore longtemps cantonné aux fêtes rurales en genre populaire national, puis international, avec de belles harmonies vocales, des instruments traditionnels (charango, quena, zampoña) et un répertoire signé en grande partie par les frères Hermosa. Ils sont notamment connus pour « Llorando se fue » (1981), dont la mélodie a servi de base à la Lambada, tube mondial de Kaoma en 1989, et pour « Bolivia », un titre si populaire qu'il est parfois surnommé le second hymne national tant il est chanté avec ferveur dans le pays."
       },
       {
         "nom": "Savia Andina",
         "genre": "Folklore andin",
-        "description": "Groupe fondateur du folklore andin bolivien moderne, né en 1975 à Potosí à partir d'un trio d'amis qui jouait auparavant du rock. Parmi les pionniers à exporter la musique traditionnelle andine (charango, zampoña, quena) à l'international, ils sont notamment connus pour « El Minero », hommage aux mineurs de Potosí, et « Kalanchito »."
+        "description": "Groupe fondateur du folklore andin bolivien moderne, né en 1975 à Potosí à partir d'un trio d'amis qui jouait auparavant du rock. Contemporain des Kjarkas, il compte plus de quarante ans de carrière et une discographie très fournie, et il fait partie des pionniers à avoir exporté la musique traditionnelle andine (charango, zampoña, quena) à l'international. Il est notamment connu pour « El Minero », hommage aux mineurs de Potosí, pour « Kalanchito », et pour « A los bosques », aujourd'hui son titre le plus écouté en streaming."
+      },
+      {
+        "nom": "Los Jairas",
+        "genre": "Folklore andin, pionniers",
+        "description": "Formé au milieu des années 1960 à La Paz, autour du flûtiste suisse Gilbert Favre et du charangiste Ernesto Cavour, Los Jairas est le groupe qui a fait passer les instruments andins du monde rural à la scène urbaine. Il se produisait à la peña Naira, lieu de rencontre des artistes de La Paz, où il a défini un son d'ensemble (quena, charango, guitare, percussions) qui a ensuite servi de modèle à tout le folklore bolivien. Ernesto Cavour, virtuose du charango, a poursuivi une grande carrière de soliste et de pédagogue. Sans Los Jairas, il n'y aurait pas eu de Kjarkas."
+      },
+      {
+        "nom": "Luzmila Carpio",
+        "genre": "Musique quechua",
+        "description": "Née à Qala Qala, dans le nord de Potosí, elle chante en quechua, la langue de son enfance, avec une voix très aiguë qui rappelle les chants d'oiseaux de l'altiplano. Charanguiste et compositrice, elle a porté la musique traditionnelle quechua en Europe, a longtemps vécu en France et a représenté la Bolivie comme ambassadrice dans ce pays. Redécouverte ces dernières années par des producteurs électroniques qui samplent ses chants ancestraux, elle a aussi collaboré avec le groupe de metal Alcoholika La Christo. Elle est notamment connue pour « Jatun Mama » et « Warmikuna »."
+      },
+      {
+        "nom": "Octavia",
+        "genre": "Rock bolivien",
+        "description": "Né en 1988 à La Paz sous le nom de Coda 3, influencé par U2 et Soda Stereo, le groupe devient Octavia et s'impose comme le plus important du rock bolivien moderne. Son originalité est de fondre guitares électriques et instruments andins, ce qui lui donne une identité reconnaissable dans le rock latino-américain. Ses albums « Aura » (1996) et « Ciclos » (1999) restent des références de la scène du pays. Il est notamment connu pour « Después de ti » et « Rho+ »."
+      },
+      {
+        "nom": "Azul Azul",
+        "genre": "Pop, cumbia",
+        "description": "Groupe pop-rock de Santa Cruz de la Sierra, révélé en 1995 avec le tube volontairement absurde « Mamá no quiero comer más huevo », puis devenu mondialement célèbre à la fin des années 1990 avec « La Bomba ». Ce titre a atteint le sommet des classements latinos de Billboard et s'est vendu à des millions d'exemplaires, avant d'être repris dans toute l'Europe par King África. Peu de gens savent que « La Bomba » est bolivienne, ce qui en fait sans doute la chanson bolivienne la plus entendue au monde."
+      },
+      {
+        "nom": "Bonny Lovy",
+        "genre": "Cumbia, pop urbaine",
+        "description": "Figure de la cumbia bolivienne actuelle, elle s'est imposée grâce aux plateformes de streaming. Son titre « Muchachita » (2016) a lancé sa carrière, « La Cumbia Boliviana » (2021), avec le jeune charanguiste Luciel Izumi, a atteint la première place des tendances de Spotify, d'Apple Music et de Deezer en Bolivie, et « Loco de Jhoel » a été élue meilleure chanson bolivienne de l'année aux Bolivia Music Awards en 2022. Elle représente la nouvelle génération qui mêle racines folkloriques et sons populaires d'aujourd'hui."
+      },
+      {
+        "nom": "Alwa Bolivia",
+        "genre": "Rap, hip-hop",
+        "description": "Originaire d'El Alto, la ville aymara perchée au-dessus de La Paz, elle est la première rappeuse du pays à se produire en pollera, le costume traditionnel des cholitas. Elle rappe en aymara et en espagnol sur l'identité culturelle, la justice sociale et les crises politiques du pays, dont celle de 2019, sans se rattacher à un camp politique précis. Elle s'inscrit dans la lignée du hip-hop d'El Alto, né de la jeunesse aymara urbaine, et elle montre que le rap bolivien est aussi un moyen d'affirmer l'identité indigène. Elle est notamment connue pour « Warmisita »."
       }
     ]
   },
-  "Chili": { "lien": null, "artistes": [] },
-  "Argentine": { "lien": null, "artistes": [] }
+  "Chili": {
+    "lien": "https://music.apple.com/fr/playlist/chile/pl.u-JPAZb2NuE1aVyv",
+    "artistes": [
+      {
+        "nom": "Violeta Parra",
+        "genre": "Folklore, Nueva Canción",
+        "description": "Née en 1917 dans la région de Ñuble, Violeta Parra a parcouru les campagnes chiliennes pour collecter chants, danses et récits populaires, et en a fait la matière d'une œuvre personnelle et poétique. Chanteuse, compositrice, peintre et arpillera, elle expose au Louvre en 1964 et fonde en 1965 à Santiago la Peña de los Parra, lieu de rencontre de la Nueva Canción. Elle a inspiré toute une génération, dont ses enfants Isabel et Ángel. Elle meurt en 1967, laissant des chansons comme « Gracias a la vida », « Volver a los 17 » et « Run Run se fue pa'l norte »."
+      },
+      {
+        "nom": "Víctor Jara",
+        "genre": "Nueva Canción chilena",
+        "description": "Metteur en scène de théâtre, chanteur et guitariste né en 1932, Víctor Jara est devenu la voix de la Nueva Canción chilena et du gouvernement de l'Unité populaire, avec des chansons qui racontent la vie des paysans, des ouvriers et des pauvres. Arrêté au lendemain du coup d'État de septembre 1973, il est torturé puis assassiné dans le stade de Santiago qui porte aujourd'hui son nom. En 2018, un tribunal chilien a condamné plusieurs anciens militaires pour ce crime. Ses titres les plus connus sont « Te recuerdo Amanda », « El derecho de vivir en paz » et « Plegaria a un labrador »."
+      },
+      {
+        "nom": "Inti-Illimani",
+        "genre": "Nueva Canción, musique andine",
+        "description": "Fondé en 1967 par des étudiants de l'Université technique d'État de Santiago, le groupe mêle instruments andins (charango, quena, zampoña) et chants engagés. Il est lié à la campagne de Salvador Allende, dont « Venceremos » est devenu l'hymne. Le coup d'État de 1973 le surprend en tournée en Europe : il ne rentrera au Chili qu'en 1988, après quinze ans d'exil en Italie, où il a forgé une identité sonore plus large. Il est notamment connu pour « Venceremos », « Samba Lando », « Alturas » et « La fiesta de San Benito »."
+      },
+      {
+        "nom": "Quilapayún",
+        "genre": "Nueva Canción chilena",
+        "description": "Fondé en 1965 à Santiago, le groupe porte un nom mapuche qui signifie « trois barbes » et s'est fait reconnaître par ses ponchos noirs et ses harmonies vocales. Víctor Jara en a été le directeur artistique à la fin des années 1960, et le groupe est devenu l'un des symboles de la gauche chilienne. Exilé en France après 1973, il a continué à chanter pour la mémoire des victimes de la dictature. Il est notamment connu pour « El pueblo unido jamás será vencido », « La muralla » et « Canción final »."
+      },
+      {
+        "nom": "Illapu",
+        "genre": "Nueva Canción, musique andine",
+        "description": "Fondé en 1971 à Antofagasta, dans le nord du Chili, par des musiciens liés aux communautés andines, le groupe a porté la musique de l'altiplano dans la Nueva Canción. Surpris par le coup d'État de 1973 pendant une tournée en Europe, il vit quinze ans d'exil, principalement en France, avant de revenir chanter au Chili en 1988. Ses chansons parlent d'exil, de retour et de la mémoire des peuples du nord. Il est notamment connu pour « Vuelvo para vivir », « Candombe para José » et « Lejos del amor »."
+      },
+      {
+        "nom": "Los Jaivas",
+        "genre": "Rock progressif, fusion andine",
+        "description": "Formé en 1963 à Viña del Mar, Los Jaivas est le groupe qui a inventé un rock progressif latino-américain nourri de rythmes andins, de percussions et d'un fort sens de la fête. Exilé en Argentine puis en France, il a continué à créer à l'étranger, et son album « Alturas de Machu Picchu » (1981), mis en musique à partir du poème de Pablo Neruda, reste l'un de ses sommets. Ses concerts et ses chansons ont accompagné toutes les générations de Chiliens. Il est notamment connu pour « Todos juntos », « Mira niñita » et « Sube a nacer conmigo hermano »."
+      },
+      {
+        "nom": "Los Prisioneros",
+        "genre": "Rock, pop-rock",
+        "description": "Formé en 1983 dans le quartier populaire de San Miguel, à Santiago, par Jorge González, Claudio Narea et Miguel Tapia, le groupe a porté la voix de la jeunesse des classes populaires sous la dictature de Pinochet, avec des chansons à la fois dansantes et mordantes. Ses textes sur le chômage, l'inégalité et l'exclusion ont fait de lui le grand groupe du rock chilien. Dissous en 1992, il s'est reformé en 2001. Il est notamment connu pour « El baile de los que sobran », « Tren al sur » et « Muevan las industrias »."
+      },
+      {
+        "nom": "Chico Trujillo",
+        "genre": "Nueva cumbia chilena",
+        "description": "Originaire de Villa Alemana, près de Valparaíso, le groupe s'est formé à la fin des années 1990 et a renouvelé la cumbia chilienne en la mêlant à des rythmes de fête, de rock et de ska. Ses concerts, très physiques, l'ont rendu populaire au Chili et en Europe, où il tourne régulièrement. Il est devenu la référence de la « nueva cumbia chilena », ce courant festif qui a remis la cumbia au centre de la scène du pays. Il est notamment connu pour « Loca » et « La cosecha »."
+      },
+      {
+        "nom": "Mon Laferte",
+        "genre": "Pop, rock, bolero",
+        "description": "Née à Viña del Mar en 1983, installée depuis des années à Mexico, Mon Laferte est l'une des artistes chiliennes les plus connues de la scène latine actuelle. Elle passe du rock au bolero et à la ranchera avec une voix expressive et un style très personnel, et elle a été récompensée à plusieurs reprises aux Latin Grammy. Sa collaboration avec Juanes sur « Amárrame » l'a fait connaître à un large public. Elle est notamment connue pour « Tu falta de querer », « Amárrame » et « Plata ta tá »."
+      },
+      {
+        "nom": "Kidd Voodoo",
+        "genre": "Reggaeton, trap",
+        "description": "Originaire de Maipú, à Santiago, il a commencé dans un groupe de rock indépendant, Resonancia Etérea, avant de se tourner vers le reggaeton et le trap en 2019, et il mélange volontairement ces deux univers dans un style qu'il appelle « Sad Sátur ». C'est l'artiste chilien le plus écouté sur Spotify au Chili en 2025, derrière Bad Bunny seulement, et le premier Chilien à avoir clôturé une journée du festival Lollapalooza. Il a aussi fermé le Festival de Viña del Mar en 2025 aux côtés de Duki. Il est notamment connu pour « Ese Guille » et « Whisky a la roca »."
+      }
+    ]
+  },
+  "Argentine": {
+    "lien": "https://music.apple.com/fr/playlist/argentina/pl.u-d2b05gWCDY38qW",
+    "artistes": [
+      {
+        "nom": "Carlos Gardel",
+        "genre": "Tango",
+        "description": "Figure fondatrice du tango chanté et visage de Buenos Aires dans le monde entier, Carlos Gardel (1890-1935), surnommé « el Zorzal Criollo », est né à Toulouse selon la version la plus admise, même si l'Uruguay le revendique aussi. Élevé dans le quartier populaire de l'Abasto, il transforme le tango, longtemps dansé et instrumental, en chanson à part entière, le tango-canción, avec « Mi noche triste » (1917) comme point de départ. Sa voix de baryton et son charisme à l'écran, dans ses films des années 1930, en font la première grande star du monde hispanique. Il meurt en 1935 dans un accident d'avion à Medellín, ce qui achève d'en faire un mythe : à Buenos Aires, on dit qu'il chante mieux chaque jour. Il est notamment connu pour « Volver », « Por una cabeza » et « El día que me quieras »."
+      },
+      {
+        "nom": "Astor Piazzolla",
+        "genre": "Nuevo tango",
+        "description": "Bandonéoniste et compositeur né à Mar del Plata en 1921, Astor Piazzolla passe son enfance à New York, où il découvre le jazz et Bach avant de revenir au tango. À Paris, dans les années 1950, la compositrice Nadia Boulanger l'encourage à cesser de masquer le tango derrière la musique savante et à en faire son langage propre. Il en naît le « nuevo tango », qui mêle rythmes de tango, harmonies jazz et écriture classique, et qui lui vaut autant d'admirateurs que de détracteurs : pour les puristes, il a « tué » le tango. Il est notamment connu pour « Libertango » (1974), « Adiós Nonino », composé en hommage à son père, et « Oblivion »."
+      },
+      {
+        "nom": "Atahualpa Yupanqui",
+        "genre": "Folklore argentin",
+        "description": "Né Héctor Roberto Chavero en 1908 à Pergamino, il choisit le nom d'Atahualpa Yupanqui, hommage aux souverains incas, et parcourt à pied et à cheval le Nord argentin pour collecter chants et récits paysans. Guitariste au jeu dépouillé et poète du silence, il chante la terre, la solitude et le travail des peones. Inquiété sous le péronisme, il trouve en France un public fervent, notamment grâce à Édith Piaf, qui le fait venir à Paris en 1950, et il meurt à Nîmes en 1992. Il est notamment connu pour « Los ejes de mi carreta », « El arriero » et « Luna tucumana »."
+      },
+      {
+        "nom": "Mercedes Sosa",
+        "genre": "Folklore argentin, Nueva Canción",
+        "description": "Née à Tucumán en 1935, « La Negra » devient dans les années 1960 la grande voix du Nuevo Cancionero, mouvement qui renouvelle le folklore argentin en y mêlant poésie et engagement. Sous la dictature, elle est arrêtée en 1979 lors d'un concert à La Plata, puis contrainte à l'exil en Europe, avant de revenir en 1982 pour des concerts triomphaux à Buenos Aires. Elle chante les poètes d'Amérique latine et reste un symbole de dignité et de résistance, jusqu'à sa mort en 2009. Elle est notamment connue pour « Gracias a la vida », de la Chilienne Violeta Parra, pour « Alfonsina y el mar » et pour « Canción con todos »."
+      },
+      {
+        "nom": "Luis Alberto Spinetta",
+        "genre": "Rock nacional",
+        "description": "Né à Buenos Aires en 1950 et surnommé « El Flaco », Luis Alberto Spinetta est considéré comme le grand poète du rock argentin. Adolescent, il fonde Almendra (1967), dont « Muchacha (ojos de papel) » devient un classique du rock en espagnol. Il enchaîne avec Pescado Rabioso, plus brut et psychédélique (l'album « Artaud », 1973, est souvent cité parmi les plus grands disques du rock argentin), puis avec Invisible, tourné vers le jazz-rock, dont « El anillo del Capitán Beto » est l'un des titres les plus aimés. Jusqu'à sa mort en 2012, il poursuit une carrière d'une exigence rare."
+      },
+      {
+        "nom": "Charly García",
+        "genre": "Rock nacional",
+        "description": "Né à Buenos Aires en 1951, Charly García est l'artiste le plus influent du rock argentin, à la fois pianiste, compositeur et provocateur. Avec Sui Generis, duo folk de la jeunesse du début des années 1970, il écrit des chansons à double lecture sous la censure ; avec Serú Girán (1978-1982), il invente un rock plus sophistiqué ; en solo, avec « Clics modernos » (1983), il adopte des sons synthétiques. Sous la dictature puis après, ses textes glissent des critiques voilées : « Los dinosaurios » est souvent lue comme un hommage aux disparus. Il est notamment connu pour « Inconsciente colectivo », « Demoliendo hoteles » et « Nos siguen pegando abajo »."
+      },
+      {
+        "nom": "Soda Stereo",
+        "genre": "Rock nacional, pop-rock",
+        "description": "Trio formé en 1982 à Buenos Aires autour du chanteur et guitariste Gustavo Cerati, avec Zeta Bosio à la basse et Charly Alberti à la batterie, Soda Stereo a conquis toute l'Amérique latine avec un rock pop teinté de new wave, avant de devenir l'un des groupes les plus influents du rock en espagnol. Après une séparation en 1997 et un concert d'adieux au stade de River Plate, il se réunit pour la tournée « Me verás volver » en 2007. En 2010, Cerati est victime d'un accident vasculaire cérébral, et il meurt en 2014 après quatre ans de coma. Il est notamment connu pour « De música ligera », « Persiana americana » et « En la ciudad de la furia »."
+      },
+      {
+        "nom": "Patricio Rey y sus Redonditos de Ricota",
+        "genre": "Rock alternatif",
+        "description": "Formé en 1976 à La Plata autour du chanteur Indio Solari et du guitariste Skay Beilinson, ce groupe est à part : le « Patricio Rey » du nom est un personnage imaginaire, jamais présent sur scène, et le groupe a toujours préféré les circuits indépendants et les concerts à la télévision. Ses concerts rassemblent des foules de « ricoteros », fidèles presque rituels, dans les stades, et ses textes énigmatiques et narquois ont forgé un univers à part dans le rock argentin. Dissous en 2001, il a laissé un héritage presque religieux. Il est notamment connu pour « Jijiji », « Un poco de amor francés » et « Todo un palo »."
+      },
+      {
+        "nom": "La Mona Jiménez",
+        "genre": "Cuarteto",
+        "description": "Né en 1951 à Córdoba, Carlos « La Mona » Jiménez est le roi du cuarteto, genre festif et dansant né à Córdoba dans les années 1940 et devenu la musique populaire de l'intérieur du pays. Son énergie scénique, ses bals de fin de semaine et son lien charnel avec le public cordobés lui valent d'être vénéré comme une institution locale. Il a ouvert la voie à des figures comme Rodrigo « El Potro » (1973-2000), mort à 27 ans dans un accident de la route, qui a fait entrer le cuarteto sur la scène nationale. Il est notamment connu pour « Quién se ha tomado todo el vino », « Beso a beso » et « Ramito de violetas »."
+      },
+      {
+        "nom": "Duki",
+        "genre": "Trap",
+        "description": "Mauro Ezequiel Lombardo, né en 1996 à Buenos Aires, se fait connaître par le freestyle en remportant la Red Bull Batalla de los Gallos Argentine en 2016. Il se tourne ensuite vers le trap et devient le visage de cette scène argentine, avec une voix mélodique et une écriture introspective. Ses succès, comme « Goteo », « She Don't Give a FO » (avec Khea) et « Givenchy », ont fait de lui l'un des artistes argentins les plus écoutés d'Amérique latine, et ses sessions avec le producteur Bizarrap ont consolidé sa place à l'échelle du continent."
+      }
+    ]
+  }
 }

@@ -72,6 +72,22 @@ function App() {
 
   useEffect(() => {
     mainRef.current?.scrollTo(0, 0);
+
+    // Ferme le clavier / retire le focus d'un champ resté actif.
+    document.activeElement?.blur?.();
+
+    // Remet le zoom à 1 si l'utilisateur a zoomé au pincement. iOS n'a pas
+    // d'API pour ça : on verrouille brièvement l'échelle via la balise
+    // viewport, puis on la restaure aussitôt (le pincement reste possible).
+    const vv = window.visualViewport;
+    if (vv && vv.scale > 1.01) {
+      const meta = document.querySelector('meta[name="viewport"]');
+      if (meta) {
+        const original = meta.getAttribute('content');
+        meta.setAttribute('content', 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover');
+        setTimeout(() => meta.setAttribute('content', original), 150);
+      }
+    }
   }, [location.pathname]);
 
   return (

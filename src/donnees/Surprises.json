@@ -30,7 +30,7 @@
   {
     "id": "ausangate",
     "titre": "Trek Ausangate",
-    "raison": "Débloqué au mot de passe, jour 1 du trek",
+    "raison": "Débloqué au départ du trek",
     "declencheur": { "type": "mot-de-passe", "valeur": "APU" },
     "titreVerrou": "Le territoire des géants",
     "conditionVerrou": "À un endroit particulier",
@@ -61,7 +61,6 @@
         ],
         "heuresDepuisDebut": 45
       },
-      ,
       {
         "titre": "Jour 4",
         "defiTitre": "MEMOIRE DE TREK",
@@ -85,7 +84,7 @@
     "titre": "7 différences",
     "raison": "Débloqué en voyant un toucan",
     "defiTitre": "7 DIFFÉRENCES",
-    "texte": "Deux images. Un animal. Sept différences se cachent entre les deux. Saurez-vous toutes les retrouver ?",
+    "texte": "Deux images. Un animal. Sept différences se cachent entre les deux. \n\nSaurez-vous toutes les retrouver ?",
     "declencheur": { "type": "animal", "valeur": "toucan-montagnard" },
     "titreVerrou": "Surprise mystère",
     "conditionVerrou": "Pas encore débloqué"
@@ -95,7 +94,7 @@
     "titre": "Le condor vous défie",
     "raison": "Débloqué en voyant un condor",
     "defiTitre": "LE CONDOR VOUS DÉFIE",
-    "texte": "Déployez vos ailes. Gardez-les bien écartées. Le dernier à les baisser gagne. Le perdant reçoit un gage.",
+    "texte": "Déployez vos ailes. Gardez-les bien écartées. \n\nLe dernier à les baisser gagne. \n\nLe perdant reçoit un gage.",
     "declencheur": { "type": "animal", "valeur": "condor-des-andes" },
     "titreVerrou": "Surprise mystère",
     "conditionVerrou": "Pas encore débloqué"
@@ -105,7 +104,7 @@
     "titre": "Danse nuptiale débloquée",
     "raison": "Débloqué en voyant un fou à pieds bleus",
     "defiTitre": "DANSE NUPTIALE DÉBLOQUÉE",
-    "texte": "Le fou à pieds bleus a décidé de vous montrer ses talents. À vous de faire mieux. Imitez sa danse. Le plus convaincant gagne.",
+    "texte": "Le fou à pieds bleus a décidé de vous montrer ses talents. \n\nÀ vous de faire mieux. \n\nImitez sa danse. \n\nLe plus convaincant gagne.",
     "declencheur": { "type": "animal", "valeur": "fou-a-pieds-bleus" },
     "titreVerrou": "Surprise mystère",
     "conditionVerrou": "Pas encore débloqué"
@@ -115,7 +114,7 @@
     "titre": "Copie-moi si tu peux",
     "raison": "Débloqué en voyant un singe",
     "defiTitre": "COPIE-MOI SI TU PEUX",
-    "texte": "Un joueur commence. L'autre doit reproduire ses mouvements. Mais attention… ça devient de plus en plus compliqué. Puis on inverse les rôles.",
+    "texte": "Un joueur commence. L'autre doit reproduire ses mouvements. \n\nMais attention… ça devient de plus en plus compliqué. \n\nPuis on inverse les rôles.",
     "declencheur": { "type": "animal", "valeur": "singe-hurleur" },
     "titreVerrou": "Surprise mystère",
     "conditionVerrou": "Pas encore débloqué"
@@ -125,7 +124,7 @@
     "titre": "Nez de travail",
     "raison": "Débloqué en voyant une otarie",
     "defiTitre": "NEZ DE TRAVAIL",
-    "texte": "Choisissez chacun un objet. Placez-le sur votre nez. Qui le gardera le plus longtemps ? L'otarie vous regarde. Faites honneur à la profession.",
+    "texte": "Choisissez chacun un objet. Placez-le sur votre nez. \n\nQui le gardera le plus longtemps ? \n\nL'otarie vous regarde. \n\nFaites honneur à la profession.",
     "declencheur": { "type": "animal", "valeur": "otaries-des-galapagos" },
     "titreVerrou": "Surprise mystère",
     "conditionVerrou": "Pas encore débloqué"
@@ -222,8 +221,6 @@
     "id": "hall-of-fame-sport",
     "titre": "Hall of fame",
     "raison": "Débloqué après une compétition sportive dans les 5 pays",
-    "defiTitre": "HALL OF FAME",
-    "texte": "Vous avez maintenant fait du sport dans tous les pays du voyage.\n\nVous avez couru.\n\nVous avez sauté.\n\nVous avez probablement fait des choses que votre corps ne réclamait absolument pas.\n\nPuis questions :\n- Quelle a été la meilleure compétition sportive effectuée ?\n- Moment le plus difficile ?",
     "declencheur": {
       "type": "defis",
       "valeur": [
@@ -235,7 +232,25 @@
       ]
     },
     "titreVerrou": "Surprise mystère",
-    "conditionVerrou": "Pas encore débloqué"
+    "conditionVerrou": "Pas encore débloqué",
+    "jours": [
+      {
+        "titre": "Le verdict",
+        "defiTitre": "HALL OF FAME",
+        "texte": "Vous avez maintenant fait du sport dans tous les pays du voyage.\n\nVous avez couru.\n\nVous avez sauté.\n\nVous avez probablement fait des choses que votre corps ne réclamait absolument pas.",
+        "heuresDepuisDebut": 0
+      },
+      {
+        "titre": "Le bilan",
+        "format": "questions",
+        "texte": null,
+        "questions": [
+          "Quelle a été la meilleure compétition sportive effectuée ?",
+          "Moment le plus difficile ?"
+        ],
+        "heuresDepuisDebut": 0
+      }
+    ]
   },
   {
     "id": "poumon-des-andes",

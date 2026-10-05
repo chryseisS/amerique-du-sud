@@ -278,7 +278,6 @@ export default function DetailSurprise() {
             </p>
           )}
 
-          <p className="text-[11px] text-sepia">{indexJour + 1} / {totalJours}</p>
         </div>
       </div>
     );

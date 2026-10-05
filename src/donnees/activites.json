@@ -283,7 +283,7 @@
     "pays": "Pérou",
     "importance": null,
     "duree": null,
-    "description": "Vallée sculptée par la rivière Urubamba (rivière sacrée). Regorge de centres religieux et de domaines royaux. Prendre le boleto turistico integral pour pouvoir visiter l'ensemble des sites (valable 10 jours). \n\nSites à visiter :\n\n - Ollantaytambo : village inca traditionnel, avec forteresse en amont de la ville.\n\n - Maras : Bassins de sel à flanc de montagne. Non inclus dans le boleto turistico\n\n - Moray : laboratoire agricole inca composé de terrasses circulaires concentriques.\n\n - Chinchero : Village dans lequel une église coloniale est construite sur un palais inca.\n\n - Pisac : capitale textile du Pérou et site archéologique (ruines d'une ancienne cité inca).\n\n Andahuaylillas : église San Pedro Apostol à visiter.\n\nIl est possible d'emprunter un bout du chemin inca (gratuitement) de Chinchero à Urquillos (9km de sentier)",
+    "description": "Vallée sculptée par la rivière Urubamba (rivière sacrée). Regorge de centres religieux et de domaines royaux. Prendre le boleto turistico integral pour pouvoir visiter l'ensemble des sites (valable 10 jours). \n\nSites à visiter :\n\n - Ollantaytambo : village inca traditionnel, avec forteresse en amont de la ville.\n\n - Maras : Bassins de sel à flanc de montagne. Non inclus dans le boleto turistico\n\n - Moray : laboratoire agricole inca composé de terrasses circulaires concentriques.\n\n - Chinchero : Village dans lequel une église coloniale est construite sur un palais inca.\n\n - Pisac : capitale textile du Pérou et site archéologique (ruines d'une ancienne cité inca).\n\n Andahuaylillas : église San Pedro Apostol à visiter.\n\nIl est possible d'emprunter un bout du chemin inca (gratuitement) de Chinchero à Urquillos (9km de sentier)\n\nSi la visite se fait le dimanche, passer par le marché de Chinchero dans la Vallée Sacrée.",
     "visiteGuidee": true
   },
   {
@@ -307,6 +307,18 @@
     "duree": "3 jours",
     "description": "Huayna Potosi : montagne s'élevant à plus de 6000m à côté de La Paz. Se fait en 3J/2N ou en 2J/1N. Privilégier 3J/2N afin d'avoir plus de temps pour s'acclimater et apprendre les techniques d'alpinisme. Ne pas réserver en ligne (plus cher), aller voir directement sur place les agence. Sur le groupe 'Les Français en Bolivie', beaucoup de recommandations pour des guides locaux à contacter par téléphone. Prix : environ 150 euros pour les 3 jours par personne.",
     "visiteGuidee": true
+  },
+  {
+    "type": "Culture",
+    "nom": "Gran Poder",
+    "lieu": "La Paz",
+    "lieuId": "la-paz",
+    "souszone": "La Paz",
+    "pays": "Bolivie",
+    "importance": 5,
+    "duree": null,
+    "description": "Fête religieuse et culturelle majeure (UNESCO). Défilé de plus de 100 000 danseurs et musiciens à travers les rues de La Paz (Morenada, Caporales, Diablada). Lieu principal : centre-ville (Calle Sagárnaga, Avenidas Montes et Camacho). Gratuit sur le parcours, mais places assises sur chaises/gradins payantes sur place (~50-150 BOB). Utiliser le téléphérique pour circuler ce jour-là.",
+    "visiteGuidee": false
   },
   {
     "type": "Culture",
@@ -363,6 +375,18 @@
     "importance": null,
     "duree": null,
     "description": "Parc au Sud de La Paz dans le quartier de Mallasa. Prix : 15 BOB. Petite balade d'une heure au milieu des formations d'argile et de grès.\n\nJournée à combiner avec Valle de las Animas et Canones de Palca.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Canyon de Palca",
+    "lieu": "La Paz",
+    "lieuId": "la-paz",
+    "pays": "Bolivie",
+    "sousZone": "Sud La Paz",
+    "importance": null,
+    "duree": null,
+    "description": "Formation géologique au sud-est de La Paz, à environ 30 minutes de route. Canyon avec des falaises s'élevant à 200m de hauteur. Randonnée au fond du canyon. Gratuit. \n\nSe garer au village de Palca et remonter le canyon, puis faire demi-tour.",
     "visiteGuidee": true
   },
   {
@@ -1323,7 +1347,7 @@
     "pays": "Pérou",
     "importance": null,
     "duree": null,
-    "description": "Les différents points d'intérêt dans la ville de Lima sont les suivants :\n\n - Plaza de Armas : Palais du Gouvernement (relève de la garde à midi), cathédrale de Lima, mercado central.\n\n - Couvent San Francisco : monastère baroque et catacombes souterraines où reposent plus de 25000 ossements.\n\n - Casa de Aliaga : plus ancienne demeure coloniale des Amériques, habitée par la même famille depuis 1535.\n\n - Huaca Pullana (Miraflores) : vestiges d'une pyramide construite par la civilisation Wari.\n\n - Parque de Amor (Miraflores) : parc au bord du Pacifique.\n\n - ChocoMuseo (Miraflores) pour créer ses propres tablettes de chocolat.\n\n - Circuito Mágico del Agua au Parque de la Reserva, plus grand complexe de fontaines publiques au monde, spectacles tous les soirs à 19h15, 20h15 et 21h. 5 soles l'entrée.\n\nLes meilleurs quartiers le soir sont Miraflores et Barranco.\n\nPour boire un coup à Lima, *Lady Bee* fait partie des meilleurs bars au monde (13ème) dans le quartier de Barranco, *Sastreria Martinez* (33ème) juste au Nord de Miraflores.\n\nPour manger à Lima :\n\n - tester la cuisine sino-péruvienne ou Chifa (plats principaux : Arroz Chaufa (plat emblématique), Lomo Saltado, Tallarin Saltado ou Kam Lu Wantán)\n\n - Plusieurs restaurants sont classés parmi les meilleurs du monde : Maido (1er) cuisine Japon/Pérou - à réserver 1 mois à l'avance 300 euros, Kjolle (9ème) - plus de dispo 250 euros, Merito (26ème) lieu chaleureux cuisine Vénézuela/Pérou - plus de dispo 180 euros, Mayta (39ème) - plus de dispo 250 euros. Maido ou Merito à choisir.\n\nPrévoir entre 2 et 3 jours à Lima pour faire le tour.",
+    "description": "Les différents points d'intérêt dans la ville de Lima sont les suivants :\n\n - Plaza de Armas : Palais du Gouvernement (relève de la garde à midi), cathédrale de Lima, mercado central.\n\n - Couvent San Francisco : monastère baroque et catacombes souterraines où reposent plus de 25000 ossements.\n\n - Casa de Aliaga : plus ancienne demeure coloniale des Amériques, habitée par la même famille depuis 1535.\n\n - Huaca Pullana (Miraflores) : vestiges d'une pyramide construite par la civilisation Wari.\n\n - Parque de Amor (Miraflores) : parc au bord du Pacifique.\n\n - ChocoMuseo (Miraflores) pour créer ses propres tablettes de chocolat.\n\n - Circuito Mágico del Agua au Parque de la Reserva, plus grand complexe de fontaines publiques au monde, spectacles tous les soirs à 19h15, 20h15 et 21h. 5 soles l'entrée.\n\n - Mercado central. Ouvert du lundi au samedi de 8h à 18h. Enormément de jus frais et de fruits venant de l'Amazonie.\n\nLes meilleurs quartiers le soir sont Miraflores et Barranco.\n\nPour boire un coup à Lima, *Lady Bee* fait partie des meilleurs bars au monde (13ème) dans le quartier de Barranco, *Sastreria Martinez* (33ème) juste au Nord de Miraflores.\n\nPour manger à Lima :\n\n - tester la cuisine sino-péruvienne ou Chifa (plats principaux : Arroz Chaufa (plat emblématique), Lomo Saltado, Tallarin Saltado ou Kam Lu Wantán)\n\n - Plusieurs restaurants sont classés parmi les meilleurs du monde : Maido (1er) cuisine Japon/Pérou - à réserver 1 mois à l'avance 300 euros, Kjolle (9ème) - plus de dispo 250 euros, Merito (26ème) lieu chaleureux cuisine Vénézuela/Pérou - plus de dispo 180 euros, Mayta (39ème) - plus de dispo 250 euros. Maido ou Merito à choisir.\n\nPrévoir entre 2 et 3 jours à Lima pour faire le tour.",
     "visiteGuidee": true
   },
   {
@@ -1337,6 +1361,29 @@
     "duree": null,
     "description": "Plusieurs food tours sont conseillés sur le groupe Facebook 'Les Français en Bolivie'. Les deux sont en français. \n\nPremier : food tour with Fabio toute la journée (petit déjeuner boliviano, puis mercado, puis repas et visite de la ville l'après-midi. \n\nDeuxième : food tour avec Christian de 10h à 15h.\n\nCompter entre 30 et 40 euros selon nombre de personnes. Les numéros de téléphone sont sur le groupe Facebook (et voir pour se rajouter à un groupe déjà formé également).",
     "visiteGuidee": true
+  },
+  {
+    "type": "Culture",
+    "nom": "Cal Orck'o",
+    "lieu": "Autour de Sucre",
+    "lieuId": "sucre",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": null,
+    "description": "Falaise contenant plus de 5000 empreintes de dinosaures, à 5km de Sucre. Ouvert du mardi au dimanche, de 9h30 à 16h30.\n\nPour voir les empreintes au pied de la falaise, l'accès se fait uniquement à 12h ou à 15h. Prix : environ 5 euros.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Culture",
+    "nom": "Espacio Cultural Orígenes",
+    "lieu": "Autour de Sucre",
+    "lieuId": "sucre",
+    "sousZone": "Sucre",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": null,
+    "description": "Diner-spectacle centré sur la préservation et la mise en valeur du folklore et des traditions dansées du pays. Ouvert du mercredi au samedi de 19h30 à 22h30 environ.Situé en plein centre historique de Sucre.\n\nCompter environ 20 euros pour diner + spectacle. Réservation recommandée.",
+    "visiteGuidee": false
   },
   {
     "type": "Divers",
@@ -1384,6 +1431,18 @@
     "duree": null,
     "description": "Visite des mines du Cerro Rico. Mines exploitées en continu depuis 1545. Conditions de travail très difficiles. Pour le visite, soit passer par une agence, soit avec David, dont le contact est sur le groupe 'Les Français en Bolivie'. Compter environ 150 bs/personne.\n\nPossibilité de visiter la Casa de la Monedad à Potosi également dans lequel l'argent du Cerro Rico était fondu pour frapper les pièces de monnaie espagnoles.",
     "visiteGuidee": true
+  },
+  {
+    "type": "Culture",
+    "nom": "Casa de la Moneda",
+    "lieu": "Autour de Sucre",
+    "sousZone": "Potosi",
+    "lieuId": "sucre",
+    "pays": "Bolivie",
+    "importance": null,
+    "duree": null,
+    "description": "Musée qui retrace l'histoire de l'extraction de l'argent du Cerro Rico et de la frappe des monnaies sous l'Empire espagnol puis sous la République. Situé en plein centre de Potosi. Guide obligatoire compris dans le prix du billet. Ouvert tous les jours, de 8h30 à 16h30 du lundi au vendredi, et de 8h30 à 12h30 les samedi et dimanche.Les visites démarrent à des horaires fixes tout au long de la journée.\n\nCompter environ 6 euros la visite.",
+    "visiteGuidee": false
   },
   {
     "type": "Randonnée",

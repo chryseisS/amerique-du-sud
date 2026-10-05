@@ -4,18 +4,6 @@
     "traduction": "ciel"
   },
   {
-    "mot": "BURRO",
-    "traduction": "âne"
-  },
-  {
-    "mot": "SAMBA",
-    "traduction": "samba"
-  },
-  {
-    "mot": "MONTE",
-    "traduction": "mont ; broussaille"
-  },
-  {
     "mot": "ARENA",
     "traduction": "sable"
   },
@@ -26,10 +14,6 @@
   {
     "mot": "PLAYA",
     "traduction": "plage"
-  },
-  {
-    "mot": "BALSA",
-    "traduction": "radeau (ex. barques de roseaux du Titicaca)"
   },
   {
     "mot": "COSTA",
@@ -88,24 +72,12 @@
     "traduction": "pisco, eau-de-vie de raisin"
   },
   {
-    "mot": "BOMBO",
-    "traduction": "grosse caisse (bombo legüero)"
-  },
-  {
-    "mot": "CARRO",
-    "traduction": "voiture (Amérique latine)"
-  },
-  {
     "mot": "QUENA",
     "traduction": "quena, flûte andine"
   },
   {
     "mot": "SALAR",
     "traduction": "désert de sel (ex. salar d'Uyuni)"
-  },
-  {
-    "mot": "YERBA",
-    "traduction": "herbe (la yerba du maté)"
   },
   {
     "mot": "ASADO",
@@ -128,10 +100,6 @@
     "traduction": "neige"
   },
   {
-    "mot": "COBRE",
-    "traduction": "cuivre"
-  },
-  {
     "mot": "SALSA",
     "traduction": "sauce ; salsa (danse)"
   },
@@ -148,10 +116,6 @@
     "traduction": "brebis, mouton"
   },
   {
-    "mot": "GARZA",
-    "traduction": "héron"
-  },
-  {
     "mot": "DANZA",
     "traduction": "danse"
   },
@@ -160,7 +124,627 @@
     "traduction": "pampa, grande plaine"
   },
   {
-    "mot": "FERIA",
-    "traduction": "foire, marché"
+    "mot": "PERRO",
+    "traduction": "chien"
+  },
+  {
+    "mot": "ARBOL",
+    "traduction": "arbre"
+  },
+  {
+    "mot": "TARDE",
+    "traduction": "après-midi / tard"
+  },
+  {
+    "mot": "RATON",
+    "traduction": "souris"
+  },
+  {
+    "mot": "BRUJA",
+    "traduction": "sorcière"
+  },
+  {
+    "mot": "NOCHE",
+    "traduction": "nuit"
+  },
+  {
+    "mot": "ABEJA",
+    "traduction": "abeille"
+  },
+  {
+    "mot": "REINA",
+    "traduction": "reine"
+  },
+  {
+    "mot": "PAUSA",
+    "traduction": "pause"
+  },
+  {
+    "mot": "CHUPE",
+    "traduction": "chupe (ragoût)"
+  },
+  {
+    "mot": "CABRA",
+    "traduction": "chèvre"
+  },
+  {
+    "mot": "CARTA",
+    "traduction": "carte / menu"
+  },
+  {
+    "mot": "MANTA",
+    "traduction": "couverture"
+  },
+  {
+    "mot": "PUMAS",
+    "traduction": "pumas"
+  },
+  {
+    "mot": "TACOS",
+    "traduction": "tacos"
+  },
+  {
+    "mot": "BAILE",
+    "traduction": "bal / danse"
+  },
+  {
+    "mot": "NORTE",
+    "traduction": "nord"
+  },
+  {
+    "mot": "RITMO",
+    "traduction": "rythme"
+  },
+  {
+    "mot": "GOLFO",
+    "traduction": "golfe"
+  },
+  {
+    "mot": "PESOS",
+    "traduction": "pesos"
+  },
+  {
+    "mot": "SUELO",
+    "traduction": "sol"
+  },
+  {
+    "mot": "FAUNA",
+    "traduction": "faune"
+  },
+  {
+    "mot": "ADOBE",
+    "traduction": "adobe (brique crue)"
+  },
+  {
+    "mot": "AMIGA",
+    "traduction": "amie"
+  },
+  {
+    "mot": "GUIAS",
+    "traduction": "guides"
+  },
+  {
+    "mot": "PASEO",
+    "traduction": "balade"
+  },
+  {
+    "mot": "FLORA",
+    "traduction": "flore"
+  },
+  {
+    "mot": "CUEVA",
+    "traduction": "grotte"
+  },
+  {
+    "mot": "MUSEO",
+    "traduction": "musée"
+  },
+  {
+    "mot": "QUIPU",
+    "traduction": "quipu (cordelettes incas)"
+  },
+  {
+    "mot": "OESTE",
+    "traduction": "ouest"
+  },
+  {
+    "mot": "COCOS",
+    "traduction": "noix de coco"
+  },
+  {
+    "mot": "GALLO",
+    "traduction": "coq"
+  },
+  {
+    "mot": "PALMA",
+    "traduction": "palmier"
+  },
+  {
+    "mot": "HORNO",
+    "traduction": "four"
+  },
+  {
+    "mot": "FRUTA",
+    "traduction": "fruit"
+  },
+  {
+    "mot": "CACTO",
+    "traduction": "cactus"
+  },
+  {
+    "mot": "DUCHA",
+    "traduction": "douche"
+  },
+  {
+    "mot": "PEAJE",
+    "traduction": "péage"
+  },
+  {
+    "mot": "GRUTA",
+    "traduction": "grotte"
+  },
+  {
+    "mot": "BAHIA",
+    "traduction": "baie"
+  },
+  {
+    "mot": "FRENO",
+    "traduction": "frein"
+  },
+  {
+    "mot": "OASIS",
+    "traduction": "oasis"
+  },
+  {
+    "mot": "PLATO",
+    "traduction": "assiette / plat"
+  },
+  {
+    "mot": "PASTA",
+    "traduction": "pâtes"
+  },
+  {
+    "mot": "CANTO",
+    "traduction": "chant"
+  },
+  {
+    "mot": "CARNE",
+    "traduction": "viande"
+  },
+  {
+    "mot": "BOLSO",
+    "traduction": "sac"
+  },
+  {
+    "mot": "TRAJE",
+    "traduction": "costume"
+  },
+  {
+    "mot": "BURRO",
+    "traduction": "âne"
+  },
+  {
+    "mot": "MONTE",
+    "traduction": "mont"
+  },
+  {
+    "mot": "FRESA",
+    "traduction": "fraise"
+  },
+  {
+    "mot": "CUSCO",
+    "traduction": "Cusco"
+  },
+  {
+    "mot": "LIMON",
+    "traduction": "citron"
+  },
+  {
+    "mot": "CHUÑO",
+    "traduction": "chuño (pomme de terre déshydratée)"
+  },
+  {
+    "mot": "CUYES",
+    "traduction": "cochons d'Inde"
+  },
+  {
+    "mot": "CISNE",
+    "traduction": "cygne"
+  },
+  {
+    "mot": "MOTOR",
+    "traduction": "moteur"
+  },
+  {
+    "mot": "MOAIS",
+    "traduction": "moaï"
+  },
+  {
+    "mot": "BAÑOS",
+    "traduction": "Baños"
+  },
+  {
+    "mot": "POLLO",
+    "traduction": "poulet"
+  },
+  {
+    "mot": "CAMPO",
+    "traduction": "campagne"
+  },
+  {
+    "mot": "FUEGO",
+    "traduction": "feu"
+  },
+  {
+    "mot": "POLVO",
+    "traduction": "poussière"
+  },
+  {
+    "mot": "SUCRE",
+    "traduction": "Sucre"
+  },
+  {
+    "mot": "NAZCA",
+    "traduction": "Nazca"
+  },
+  {
+    "mot": "DULCE",
+    "traduction": "sucré / confiture"
+  },
+  {
+    "mot": "CRUCE",
+    "traduction": "croisement / traversée"
+  },
+  {
+    "mot": "MOSCA",
+    "traduction": "mouche"
+  },
+  {
+    "mot": "QUITO",
+    "traduction": "Quito"
+  },
+  {
+    "mot": "MAYAS",
+    "traduction": "les Mayas"
+  },
+  {
+    "mot": "ÑANDU",
+    "traduction": "nandou (autruche d'Amérique)"
+  },
+  {
+    "mot": "SANTO",
+    "traduction": "saint"
+  },
+  {
+    "mot": "MELON",
+    "traduction": "melon"
+  },
+  {
+    "mot": "PANES",
+    "traduction": "pains"
+  },
+  {
+    "mot": "TAXIS",
+    "traduction": "taxis"
+  },
+  {
+    "mot": "ARAÑA",
+    "traduction": "araignée"
+  },
+  {
+    "mot": "RUEDA",
+    "traduction": "roue"
+  },
+  {
+    "mot": "SOLES",
+    "traduction": "soles (monnaie du Pérou)"
+  },
+  {
+    "mot": "SABOR",
+    "traduction": "saveur"
+  },
+  {
+    "mot": "YUCAS",
+    "traduction": "manioc"
+  },
+  {
+    "mot": "CHILE",
+    "traduction": "Chili"
+  },
+  {
+    "mot": "CHIFA",
+    "traduction": "cuisine sino-péruvienne"
+  },
+  {
+    "mot": "PUNAS",
+    "traduction": "hauts plateaux andins"
+  },
+  {
+    "mot": "PAPAS",
+    "traduction": "pommes de terre"
+  },
+  {
+    "mot": "AVION",
+    "traduction": "avion"
+  },
+  {
+    "mot": "ZORRO",
+    "traduction": "renard"
+  },
+  {
+    "mot": "TORTA",
+    "traduction": "gâteau"
+  },
+  {
+    "mot": "SALTA",
+    "traduction": "Salta"
+  },
+  {
+    "mot": "ZAMBA",
+    "traduction": "zamba (danse argentine)"
+  },
+  {
+    "mot": "HOTEL",
+    "traduction": "hôtel"
+  },
+  {
+    "mot": "LLAVE",
+    "traduction": "clé"
+  },
+  {
+    "mot": "INCAS",
+    "traduction": "les Incas"
+  },
+  {
+    "mot": "COCHE",
+    "traduction": "voiture"
+  },
+  {
+    "mot": "AMIGO",
+    "traduction": "ami"
+  },
+  {
+    "mot": "MAGMA",
+    "traduction": "magma"
+  },
+  {
+    "mot": "VALLE",
+    "traduction": "vallée"
+  },
+  {
+    "mot": "HEROE",
+    "traduction": "héros"
+  },
+  {
+    "mot": "HUEVO",
+    "traduction": "œuf"
+  },
+  {
+    "mot": "CLIMA",
+    "traduction": "climat"
+  },
+  {
+    "mot": "RUTAS",
+    "traduction": "routes"
+  },
+  {
+    "mot": "MUNDO",
+    "traduction": "monde"
+  },
+  {
+    "mot": "LIBRE",
+    "traduction": "libre"
+  },
+  {
+    "mot": "HOGAR",
+    "traduction": "foyer"
+  },
+  {
+    "mot": "CALLE",
+    "traduction": "rue"
+  },
+  {
+    "mot": "CAÑON",
+    "traduction": "canyon"
+  },
+  {
+    "mot": "RADIO",
+    "traduction": "radio"
+  },
+  {
+    "mot": "BRUMA",
+    "traduction": "brume"
+  },
+  {
+    "mot": "MARES",
+    "traduction": "mers"
+  },
+  {
+    "mot": "CESTA",
+    "traduction": "panier"
+  },
+  {
+    "mot": "PESCA",
+    "traduction": "pêche"
+  },
+  {
+    "mot": "TORRE",
+    "traduction": "tour"
+  },
+  {
+    "mot": "LAGOS",
+    "traduction": "lacs"
+  },
+  {
+    "mot": "ADIOS",
+    "traduction": "adieu"
+  },
+  {
+    "mot": "ISLAS",
+    "traduction": "îles"
+  },
+  {
+    "mot": "MAPAS",
+    "traduction": "cartes"
+  },
+  {
+    "mot": "LOBOS",
+    "traduction": "loups (lobos marinos : otaries)"
+  },
+  {
+    "mot": "GORRO",
+    "traduction": "bonnet (gorro andino)"
+  },
+  {
+    "mot": "ABAJO",
+    "traduction": "en bas"
+  },
+  {
+    "mot": "TOTEM",
+    "traduction": "totem"
+  },
+  {
+    "mot": "NUNCA",
+    "traduction": "jamais"
+  },
+  {
+    "mot": "MESES",
+    "traduction": "mois"
+  },
+  {
+    "mot": "POETA",
+    "traduction": "poète"
+  },
+  {
+    "mot": "JAMON",
+    "traduction": "jambon"
+  },
+  {
+    "mot": "CIMAS",
+    "traduction": "sommets"
+  },
+  {
+    "mot": "LUNES",
+    "traduction": "lundi"
+  },
+  {
+    "mot": "CALOR",
+    "traduction": "chaleur"
+  },
+  {
+    "mot": "RODEO",
+    "traduction": "rodéo"
+  },
+  {
+    "mot": "FELIZ",
+    "traduction": "heureux"
+  },
+  {
+    "mot": "SELLO",
+    "traduction": "tampon (passeport), timbre"
+  },
+  {
+    "mot": "POEMA",
+    "traduction": "poème"
+  },
+  {
+    "mot": "SOLAR",
+    "traduction": "solaire"
+  },
+  {
+    "mot": "CERCA",
+    "traduction": "près"
+  },
+  {
+    "mot": "VIDEO",
+    "traduction": "vidéo"
+  },
+  {
+    "mot": "ANDEN",
+    "traduction": "quai (gare), terrasse andine"
+  },
+  {
+    "mot": "ALTAR",
+    "traduction": "autel"
+  },
+  {
+    "mot": "SOÑAR",
+    "traduction": "rêver"
+  },
+  {
+    "mot": "PECES",
+    "traduction": "poissons"
+  },
+  {
+    "mot": "BOTAS",
+    "traduction": "bottes"
+  },
+  {
+    "mot": "COPAS",
+    "traduction": "verres à pied, coupes"
+  },
+  {
+    "mot": "SILLA",
+    "traduction": "selle, chaise"
+  },
+  {
+    "mot": "SUEÑO",
+    "traduction": "rêve, sommeil"
+  },
+  {
+    "mot": "DUNAS",
+    "traduction": "dunes"
+  },
+  {
+    "mot": "PILAS",
+    "traduction": "piles (Amérique latine)"
+  },
+  {
+    "mot": "MUCHO",
+    "traduction": "beaucoup"
+  },
+  {
+    "mot": "LEJOS",
+    "traduction": "loin"
+  },
+  {
+    "mot": "NUBES",
+    "traduction": "nuages"
+  },
+  {
+    "mot": "LINDO",
+    "traduction": "joli, beau"
+  },
+  {
+    "mot": "MINAS",
+    "traduction": "mines"
+  },
+  {
+    "mot": "RAYOS",
+    "traduction": "éclairs, rayons"
+  },
+  {
+    "mot": "ONDAS",
+    "traduction": "ondes, vagues"
+  },
+  {
+    "mot": "BUENO",
+    "traduction": "bon"
+  },
+  {
+    "mot": "CAPAS",
+    "traduction": "capes, couches"
+  },
+  {
+    "mot": "LECHE",
+    "traduction": "lait"
+  },
+  {
+    "mot": "MOMIA",
+    "traduction": "momie"
+  },
+  {
+    "mot": "CASAS",
+    "traduction": "maisons"
   }
 ]

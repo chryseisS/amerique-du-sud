@@ -42,6 +42,23 @@ body {
   color: var(--color-terra-900);
 }
 
+/* ── iOS : pas d'aperçu au appui long sur les images / liens ── */
+img, a {
+  -webkit-touch-callout: none;
+}
+img {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* ── iOS : pas de zoom automatique quand on touche un champ ──
+   Safari zoome tout champ dont la police est < 16px. Règle hors
+   @layer : elle l'emporte sur les classes Tailwind (text-sm, text-[13px]…). */
+input, textarea, select {
+  font-size: 16px;
+}
+
 .scrollbar-hide {
   -ms-overflow-style: none;   /* Internet Explorer */
   scrollbar-width: none;       /* Firefox */
