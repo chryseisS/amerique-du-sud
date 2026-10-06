@@ -60,7 +60,7 @@
     "approx": true,
     "titre": "La céramique de Valdivia",
     "description": "Sur la côte équatorienne, la culture Valdivia façonne certaines des plus anciennes poteries des Amériques, dont de célèbres statuettes féminines.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "précolombien",
     "difficulte": 3,
     "image": "/images/timeline/tl006.png"
@@ -71,7 +71,7 @@
     "approx": true,
     "titre": "Premier cacao consommé par l'homme",
     "description": "En Amazonie équatorienne, la culture Mayo-Chinchipe utilise déjà le cacao, bien avant les Mayas.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "gastronomie",
     "difficulte": 3,
     "image": "/images/timeline/tl007.png"
@@ -100,10 +100,10 @@
   },
   {
     "id": "tl010",
-    "annee": 250,
+    "annee": -250,
     "approx": true,
-    "titre": "Mort du Seigneur de Sipán",
-    "description": "Un souverain moche est enterré avec un trésor d'or et d'argent qui restera caché pendant plus de 1700 ans.",
+    "titre": "Chankillo, l'observatoire solaire aux treize tours",
+    "description": "Dans le désert côtier du Pérou, treize tours de pierre alignées sur une crête marquent la position du Soleil levant au fil de l'année : un calendrier géant.",
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 3,
@@ -111,6 +111,39 @@
   },
   {
     "id": "tl011",
+    "annee": -100,
+    "approx": true,
+    "titre": "Les orfèvres de La Tolita travaillent le platine",
+    "description": "Sur la côte équatorienne, des artisans mélangent de la poudre de platine à de l'or pour façonner des bijoux bicolores, plus d'un millénaire avant les Européens.",
+    "pays": ["Equateur"],
+    "theme": "précolombien",
+    "difficulte": 3,
+    "image": "/images/timeline/tl011.png"
+  },
+  {
+    "id": "tl012",
+    "annee": 100,
+    "approx": true,
+    "titre": "Les géoglyphes de Nazca",
+    "description": "Dans un désert du sud du Pérou, des peuples andins tracent dans le sol des figures géantes, colibri, singe, araignée, qu'on ne voit bien que depuis le ciel.",
+    "pays": ["Pérou"],
+    "theme": "précolombien",
+    "difficulte": 2,
+    "image": "/images/timeline/tl012.png"
+  },
+  {
+    "id": "tl013",
+    "annee": 250,
+    "approx": true,
+    "titre": "Mort du Seigneur de Sipán",
+    "description": "Un souverain moche est enterré avec un trésor d'or et d'argent qui restera caché pendant plus de 1700 ans.",
+    "pays": ["Pérou"],
+    "theme": "précolombien",
+    "difficulte": 3,
+    "image": "/images/timeline/tl013.png"
+  },
+  {
+    "id": "tl014",
     "annee": 500,
     "approx": true,
     "titre": "Apogée de Tiwanaku",
@@ -118,10 +151,10 @@
     "pays": ["Bolivie"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl011.png"
+    "image": "/images/timeline/tl014.png"
   },
   {
-    "id": "tl012",
+    "id": "tl015",
     "annee": 600,
     "approx": true,
     "titre": "Essor de l'empire Wari",
@@ -129,10 +162,21 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl012.png"
+    "image": "/images/timeline/tl015.png"
   },
   {
-    "id": "tl013",
+    "id": "tl016",
+    "annee": 800,
+    "approx": true,
+    "titre": "Les premiers quipus incontestés",
+    "description": "Les Wari comptent récoltes, troupeaux et impôts avec des cordelettes à nœuds de couleurs : une mémoire sans écriture.",
+    "pays": ["Pérou"],
+    "theme": "précolombien",
+    "difficulte": 2,
+    "image": "/images/timeline/tl016.png"
+  },
+  {
+    "id": "tl017",
     "annee": 900,
     "approx": true,
     "titre": "Chan Chan, capitale du royaume Chimú",
@@ -140,10 +184,10 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl013.png"
+    "image": "/images/timeline/tl017.png"
   },
   {
-    "id": "tl014",
+    "id": "tl018",
     "annee": 1200,
     "approx": true,
     "titre": "Les Polynésiens débarquent sur Rapa Nui",
@@ -151,10 +195,21 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl014.png"
+    "image": "/images/timeline/tl018.png"
   },
   {
-    "id": "tl015",
+    "id": "tl019",
+    "annee": 1250,
+    "approx": true,
+    "titre": "Début de la sculpture des moaïs",
+    "description": "Dans la carrière du volcan Rano Raraku, les Rapanui commencent à tailler dans la roche les géants de pierre qui feront leur renommée.",
+    "pays": ["Chili"],
+    "theme": "précolombien",
+    "difficulte": 2,
+    "image": "/images/timeline/tl019.png"
+  },
+  {
+    "id": "tl020",
     "annee": 1438,
     "approx": false,
     "titre": "Pachacútec devient Inca",
@@ -162,10 +217,10 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl015.png"
+    "image": "/images/timeline/tl020.png"
   },
   {
-    "id": "tl016",
+    "id": "tl021",
     "annee": 1450,
     "approx": true,
     "titre": "Construction du Machu Picchu",
@@ -173,10 +228,10 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 1,
-    "image": "/images/timeline/tl016.png"
+    "image": "/images/timeline/tl021.png"
   },
   {
-    "id": "tl017",
+    "id": "tl022",
     "annee": 1494,
     "approx": false,
     "titre": "Traité de Tordesillas",
@@ -184,10 +239,10 @@
     "pays": ["Amérique du Sud"],
     "theme": "conquête",
     "difficulte": 2,
-    "image": "/images/timeline/tl017.png"
+    "image": "/images/timeline/tl022.png"
   },
   {
-    "id": "tl018",
+    "id": "tl023",
     "annee": 1498,
     "approx": false,
     "titre": "Christophe Colomb atteint le continent sud-américain",
@@ -195,10 +250,10 @@
     "pays": ["Amérique du Sud"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl018.png"
+    "image": "/images/timeline/tl023.png"
   },
   {
-    "id": "tl019",
+    "id": "tl024",
     "annee": 1516,
     "approx": false,
     "titre": "Juan Díaz de Solís découvre le Río de la Plata",
@@ -206,10 +261,10 @@
     "pays": ["Argentine"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl019.png"
+    "image": "/images/timeline/tl024.png"
   },
   {
-    "id": "tl020",
+    "id": "tl025",
     "annee": 1520,
     "approx": false,
     "titre": "Magellan franchit le détroit qui portera son nom",
@@ -217,32 +272,32 @@
     "pays": ["Chili", "Argentine"],
     "theme": "exploration",
     "difficulte": 1,
-    "image": "/images/timeline/tl020.png"
+    "image": "/images/timeline/tl025.png"
   },
   {
-    "id": "tl021",
+    "id": "tl026",
     "annee": 1524,
     "approx": false,
     "titre": "Première expédition de Pizarro vers le sud",
     "description": "Depuis Panama, Francisco Pizarro part à la recherche d'un riche royaume dont on lui a parlé.",
-    "pays": ["Pérou", "Équateur"],
+    "pays": ["Pérou", "Equateur"],
     "theme": "conquête",
     "difficulte": 3,
-    "image": "/images/timeline/tl021.png"
+    "image": "/images/timeline/tl026.png"
   },
   {
-    "id": "tl022",
+    "id": "tl027",
     "annee": 1527,
     "approx": true,
     "titre": "Mort de l'Inca Huayna Cápac",
     "description": "Emporté par une épidémie venue d'Europe, l'empereur laisse l'empire se déchirer entre ses fils Huáscar et Atahualpa.",
-    "pays": ["Pérou", "Équateur"],
+    "pays": ["Pérou", "Equateur"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl022.png"
+    "image": "/images/timeline/tl027.png"
   },
   {
-    "id": "tl023",
+    "id": "tl028",
     "annee": 1532,
     "approx": false,
     "titre": "Capture d'Atahualpa à Cajamarca",
@@ -250,10 +305,10 @@
     "pays": ["Pérou"],
     "theme": "conquête",
     "difficulte": 1,
-    "image": "/images/timeline/tl023.png"
+    "image": "/images/timeline/tl028.png"
   },
   {
-    "id": "tl024",
+    "id": "tl029",
     "annee": 1533,
     "approx": false,
     "titre": "Exécution d'Atahualpa",
@@ -261,43 +316,21 @@
     "pays": ["Pérou"],
     "theme": "conquête",
     "difficulte": 2,
-    "image": "/images/timeline/tl024.png"
+    "image": "/images/timeline/tl029.png"
   },
   {
-    "id": "tl025",
-    "annee": 1534,
-    "approx": false,
-    "titre": "Fondation espagnole de Quito",
-    "description": "Sur les ruines de la cité inca incendiée, les conquistadors fondent San Francisco de Quito.",
-    "pays": ["Équateur"],
-    "theme": "conquête",
-    "difficulte": 2,
-    "image": "/images/timeline/tl025.png"
-  },
-  {
-    "id": "tl026",
-    "annee": 1535,
-    "approx": false,
-    "titre": "Fondation de Lima",
-    "description": "Pizarro fonde la « Ville des Rois » près de la côte, future capitale de toute l'Amérique du Sud espagnole.",
-    "pays": ["Pérou"],
-    "theme": "conquête",
-    "difficulte": 1,
-    "image": "/images/timeline/tl026.png"
-  },
-  {
-    "id": "tl027",
+    "id": "tl030",
     "annee": 1535,
     "approx": false,
     "titre": "Découverte fortuite des Galápagos",
     "description": "Encalminé en route vers le Pérou, le navire de l'évêque de Panama, Tomás de Berlanga, dérive jusqu'à des îles peuplées de tortues géantes.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl027.png"
+    "image": "/images/timeline/tl030.png"
   },
   {
-    "id": "tl028",
+    "id": "tl031",
     "annee": 1536,
     "approx": false,
     "titre": "Manco Inca assiège Cuzco",
@@ -305,39 +338,6 @@
     "pays": ["Pérou"],
     "theme": "conquête",
     "difficulte": 3,
-    "image": "/images/timeline/tl028.png"
-  },
-  {
-    "id": "tl029",
-    "annee": 1536,
-    "approx": false,
-    "titre": "Première fondation de Buenos Aires",
-    "description": "Pedro de Mendoza fonde un premier fort sur le Río de la Plata, abandonné quelques années plus tard.",
-    "pays": ["Argentine"],
-    "theme": "conquête",
-    "difficulte": 3,
-    "image": "/images/timeline/tl029.png"
-  },
-  {
-    "id": "tl030",
-    "annee": 1538,
-    "approx": false,
-    "titre": "Fondation de Sucre",
-    "description": "La ville de La Plata, future capitale constitutionnelle de la Bolivie, est fondée par les Espagnols.",
-    "pays": ["Bolivie"],
-    "theme": "conquête",
-    "difficulte": 3,
-    "image": "/images/timeline/tl030.png"
-  },
-  {
-    "id": "tl031",
-    "annee": 1541,
-    "approx": false,
-    "titre": "Pedro de Valdivia fonde Santiago",
-    "description": "Au pied des Andes, le conquistador fonde Santiago del Nuevo Extremo, future capitale du Chili.",
-    "pays": ["Chili"],
-    "theme": "conquête",
-    "difficulte": 1,
     "image": "/images/timeline/tl031.png"
   },
   {
@@ -346,7 +346,7 @@
     "approx": false,
     "titre": "Orellana descend l'Amazone",
     "description": "Parti de Quito, Francisco de Orellana devient le premier Européen à parcourir l'Amazone jusqu'à l'Atlantique.",
-    "pays": ["Équateur", "Amérique du Sud"],
+    "pays": ["Equateur", "Amérique du Sud"],
     "theme": "exploration",
     "difficulte": 2,
     "image": "/images/timeline/tl032.png"
@@ -364,39 +364,6 @@
   },
   {
     "id": "tl034",
-    "annee": 1548,
-    "approx": false,
-    "titre": "Fondation de La Paz",
-    "description": "Nuestra Señora de La Paz est fondée pour célébrer la fin d'une guerre civile entre conquistadors.",
-    "pays": ["Bolivie"],
-    "theme": "conquête",
-    "difficulte": 2,
-    "image": "/images/timeline/tl034.png"
-  },
-  {
-    "id": "tl035",
-    "annee": 1551,
-    "approx": false,
-    "titre": "Fondation de l'université San Marcos à Lima",
-    "description": "La plus ancienne université officiellement fondée des Amériques ouvre ses portes.",
-    "pays": ["Pérou"],
-    "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl035.png"
-  },
-  {
-    "id": "tl036",
-    "annee": 1553,
-    "approx": false,
-    "titre": "Fondation de Santiago del Estero",
-    "description": "La plus ancienne ville d'Argentine encore existante, surnommée « mère des villes ».",
-    "pays": ["Argentine"],
-    "theme": "conquête",
-    "difficulte": 3,
-    "image": "/images/timeline/tl036.png"
-  },
-  {
-    "id": "tl037",
     "annee": 1553,
     "approx": false,
     "titre": "Mort de Pedro de Valdivia face aux Mapuches",
@@ -404,21 +371,10 @@
     "pays": ["Chili"],
     "theme": "conquête",
     "difficulte": 3,
-    "image": "/images/timeline/tl037.png"
+    "image": "/images/timeline/tl034.png"
   },
   {
-    "id": "tl038",
-    "annee": 1561,
-    "approx": false,
-    "titre": "Fondation de Santa Cruz de la Sierra",
-    "description": "Ñuflo de Chávez fonde la ville des basses terres, devenue la plus peuplée du pays.",
-    "pays": ["Bolivie"],
-    "theme": "conquête",
-    "difficulte": 3,
-    "image": "/images/timeline/tl038.png"
-  },
-  {
-    "id": "tl039",
+    "id": "tl035",
     "annee": 1570,
     "approx": true,
     "titre": "La pomme de terre arrive en Europe",
@@ -426,21 +382,21 @@
     "pays": ["Pérou", "Bolivie"],
     "theme": "gastronomie",
     "difficulte": 2,
-    "image": "/images/timeline/tl039.png"
+    "image": "/images/timeline/tl035.png"
   },
   {
-    "id": "tl040",
+    "id": "tl036",
     "annee": 1571,
     "approx": false,
-    "titre": "Fondation de Cochabamba",
-    "description": "La Villa de Oropesa naît dans une vallée fertile, future « grenier » de la Bolivie.",
-    "pays": ["Bolivie"],
-    "theme": "conquête",
+    "titre": "Le mercure arrive dans les mines d'argent andines",
+    "description": "Un procédé venu du Mexique, qui utilise du mercure pour séparer l'argent de la roche, atteint les Andes ; la production d'argent du Pérou est multipliée par cinq en quatre ans.",
+    "pays": ["Pérou", "Bolivie"],
+    "theme": "colonie",
     "difficulte": 3,
-    "image": "/images/timeline/tl040.png"
+    "image": "/images/timeline/tl036.png"
   },
   {
-    "id": "tl041",
+    "id": "tl037",
     "annee": 1572,
     "approx": false,
     "titre": "Exécution de Túpac Amaru Ier",
@@ -448,21 +404,10 @@
     "pays": ["Pérou"],
     "theme": "conquête",
     "difficulte": 3,
-    "image": "/images/timeline/tl041.png"
+    "image": "/images/timeline/tl037.png"
   },
   {
-    "id": "tl042",
-    "annee": 1573,
-    "approx": false,
-    "titre": "Fondation de Córdoba",
-    "description": "Future ville universitaire et jésuite, Córdoba est fondée au cœur de l'actuelle Argentine.",
-    "pays": ["Argentine"],
-    "theme": "conquête",
-    "difficulte": 3,
-    "image": "/images/timeline/tl042.png"
-  },
-  {
-    "id": "tl043",
+    "id": "tl038",
     "annee": 1578,
     "approx": false,
     "titre": "Francis Drake traverse le détroit de Magellan",
@@ -470,21 +415,10 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl043.png"
+    "image": "/images/timeline/tl038.png"
   },
   {
-    "id": "tl044",
-    "annee": 1580,
-    "approx": false,
-    "titre": "Fondation définitive de Buenos Aires",
-    "description": "Juan de Garay refonde la ville sur le Río de la Plata, cette fois pour de bon.",
-    "pays": ["Argentine"],
-    "theme": "conquête",
-    "difficulte": 2,
-    "image": "/images/timeline/tl044.png"
-  },
-  {
-    "id": "tl045",
+    "id": "tl039",
     "annee": 1583,
     "approx": false,
     "titre": "La Vierge de Copacabana",
@@ -492,10 +426,21 @@
     "pays": ["Bolivie"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl045.png"
+    "image": "/images/timeline/tl039.png"
   },
   {
-    "id": "tl046",
+    "id": "tl040",
+    "annee": 1584,
+    "approx": false,
+    "titre": "La première imprimerie d'Amérique du Sud",
+    "description": "À Lima, un imprimeur installe la première presse du continent ; l'un de ses premiers ouvrages est imprimé en quechua et en aymara.",
+    "pays": ["Pérou"],
+    "theme": "culture",
+    "difficulte": 3,
+    "image": "/images/timeline/tl040.png"
+  },
+  {
+    "id": "tl041",
     "annee": 1600,
     "approx": false,
     "titre": "Éruption du Huaynaputina",
@@ -503,21 +448,10 @@
     "pays": ["Pérou"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl046.png"
+    "image": "/images/timeline/tl041.png"
   },
   {
-    "id": "tl047",
-    "annee": 1606,
-    "approx": false,
-    "titre": "Fondation d'Oruro",
-    "description": "Une ville minière naît sur l'Altiplano ; elle deviendra la capitale du carnaval.",
-    "pays": ["Bolivie"],
-    "theme": "conquête",
-    "difficulte": 3,
-    "image": "/images/timeline/tl047.png"
-  },
-  {
-    "id": "tl048",
+    "id": "tl042",
     "annee": 1609,
     "approx": false,
     "titre": "Parution des « Commentaires royaux des Incas »",
@@ -525,10 +459,10 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl048.png"
+    "image": "/images/timeline/tl042.png"
   },
   {
-    "id": "tl049",
+    "id": "tl043",
     "annee": 1616,
     "approx": false,
     "titre": "Premier passage du cap Horn",
@@ -536,10 +470,10 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl049.png"
+    "image": "/images/timeline/tl043.png"
   },
   {
-    "id": "tl050",
+    "id": "tl044",
     "annee": 1650,
     "approx": false,
     "titre": "Grand séisme de Cuzco",
@@ -547,21 +481,10 @@
     "pays": ["Pérou"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl050.png"
+    "image": "/images/timeline/tl044.png"
   },
   {
-    "id": "tl051",
-    "annee": 1671,
-    "approx": false,
-    "titre": "Rose de Lima, première sainte des Amériques",
-    "description": "La mystique liménienne est canonisée et devient patronne du continent.",
-    "pays": ["Pérou"],
-    "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl051.png"
-  },
-  {
-    "id": "tl052",
+    "id": "tl045",
     "annee": 1691,
     "approx": false,
     "titre": "Fondation de la mission de San Javier",
@@ -569,10 +492,21 @@
     "pays": ["Bolivie"],
     "theme": "colonie",
     "difficulte": 3,
-    "image": "/images/timeline/tl052.png"
+    "image": "/images/timeline/tl045.png"
   },
   {
-    "id": "tl053",
+    "id": "tl046",
+    "annee": 1709,
+    "approx": false,
+    "titre": "Alexander Selkirk est secouru sur son île déserte",
+    "description": "Un marin écossais abandonné sur une île au large du Chili est secouru après plus de quatre ans de solitude ; son histoire aurait inspiré « Robinson Crusoé ».",
+    "pays": ["Chili"],
+    "theme": "exploration",
+    "difficulte": 2,
+    "image": "/images/timeline/tl046.png"
+  },
+  {
+    "id": "tl047",
     "annee": 1722,
     "approx": false,
     "titre": "Roggeveen découvre l'île de Pâques",
@@ -580,21 +514,21 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl053.png"
+    "image": "/images/timeline/tl047.png"
   },
   {
-    "id": "tl054",
+    "id": "tl048",
     "annee": 1736,
     "approx": false,
     "titre": "Arrivée de la mission géodésique française",
-    "description": "La Condamine et ses collègues viennent mesurer un arc de méridien près de l'équateur pour connaître la forme de la Terre.",
-    "pays": ["Équateur"],
+    "description": "La Condamine et ses collègues viennent mesurer un arc de méridien près de l'Equateur pour connaître la forme de la Terre.",
+    "pays": ["Equateur"],
     "theme": "science",
     "difficulte": 2,
-    "image": "/images/timeline/tl054.png"
+    "image": "/images/timeline/tl048.png"
   },
   {
-    "id": "tl055",
+    "id": "tl049",
     "annee": 1746,
     "approx": false,
     "titre": "Séisme et tsunami de Lima-Callao",
@@ -602,10 +536,10 @@
     "pays": ["Pérou"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl055.png"
+    "image": "/images/timeline/tl049.png"
   },
   {
-    "id": "tl056",
+    "id": "tl050",
     "annee": 1767,
     "approx": false,
     "titre": "Expulsion des jésuites",
@@ -613,10 +547,10 @@
     "pays": ["Amérique du Sud"],
     "theme": "colonie",
     "difficulte": 3,
-    "image": "/images/timeline/tl056.png"
+    "image": "/images/timeline/tl050.png"
   },
   {
-    "id": "tl057",
+    "id": "tl051",
     "annee": 1773,
     "approx": false,
     "titre": "Achèvement de la Casa de la Moneda de Potosí",
@@ -624,10 +558,10 @@
     "pays": ["Bolivie"],
     "theme": "colonie",
     "difficulte": 3,
-    "image": "/images/timeline/tl057.png"
+    "image": "/images/timeline/tl051.png"
   },
   {
-    "id": "tl058",
+    "id": "tl052",
     "annee": 1774,
     "approx": false,
     "titre": "Escale du capitaine Cook à l'île de Pâques",
@@ -635,21 +569,10 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl058.png"
+    "image": "/images/timeline/tl052.png"
   },
   {
-    "id": "tl059",
-    "annee": 1776,
-    "approx": false,
-    "titre": "Création de la vice-royauté du Río de la Plata",
-    "description": "Buenos Aires devient capitale d'une nouvelle vice-royauté qui inclut Potosí.",
-    "pays": ["Argentine", "Bolivie"],
-    "theme": "colonie",
-    "difficulte": 3,
-    "image": "/images/timeline/tl059.png"
-  },
-  {
-    "id": "tl060",
+    "id": "tl053",
     "annee": 1780,
     "approx": false,
     "titre": "Révolte de Túpac Amaru II",
@@ -657,10 +580,10 @@
     "pays": ["Pérou"],
     "theme": "colonie",
     "difficulte": 2,
-    "image": "/images/timeline/tl060.png"
+    "image": "/images/timeline/tl053.png"
   },
   {
-    "id": "tl061",
+    "id": "tl054",
     "annee": 1781,
     "approx": false,
     "titre": "Túpac Katari assiège La Paz",
@@ -668,10 +591,10 @@
     "pays": ["Bolivie"],
     "theme": "colonie",
     "difficulte": 3,
-    "image": "/images/timeline/tl061.png"
+    "image": "/images/timeline/tl054.png"
   },
   {
-    "id": "tl062",
+    "id": "tl055",
     "annee": 1786,
     "approx": false,
     "titre": "Escale de La Pérouse à l'île de Pâques",
@@ -679,21 +602,21 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl062.png"
+    "image": "/images/timeline/tl055.png"
   },
   {
-    "id": "tl063",
+    "id": "tl056",
     "annee": 1802,
     "approx": false,
     "titre": "Humboldt tente l'ascension du Chimborazo",
     "description": "Le naturaliste allemand monte plus haut qu'aucun Européen avant lui, en étudiant la végétation étage par étage.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "science",
     "difficulte": 2,
-    "image": "/images/timeline/tl063.png"
+    "image": "/images/timeline/tl056.png"
   },
   {
-    "id": "tl064",
+    "id": "tl057",
     "annee": 1806,
     "approx": false,
     "titre": "Invasion britannique de Buenos Aires",
@@ -701,10 +624,10 @@
     "pays": ["Argentine"],
     "theme": "indépendance",
     "difficulte": 3,
-    "image": "/images/timeline/tl064.png"
+    "image": "/images/timeline/tl057.png"
   },
   {
-    "id": "tl065",
+    "id": "tl058",
     "annee": 1809,
     "approx": false,
     "titre": "Soulèvement de La Paz",
@@ -712,32 +635,21 @@
     "pays": ["Bolivie"],
     "theme": "indépendance",
     "difficulte": 3,
-    "image": "/images/timeline/tl065.png"
+    "image": "/images/timeline/tl058.png"
   },
   {
-    "id": "tl066",
+    "id": "tl059",
     "annee": 1809,
     "approx": false,
     "titre": "Premier cri d'indépendance de Quito",
     "description": "Le 10 août, des notables de Quito destituent le président espagnol et forment un gouvernement autonome.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "indépendance",
     "difficulte": 3,
-    "image": "/images/timeline/tl066.png"
+    "image": "/images/timeline/tl059.png"
   },
   {
-    "id": "tl067",
-    "annee": 1810,
-    "approx": false,
-    "titre": "Révolution de Mai à Buenos Aires",
-    "description": "Le vice-roi est renversé et une Première Junte prend le pouvoir.",
-    "pays": ["Argentine"],
-    "theme": "indépendance",
-    "difficulte": 2,
-    "image": "/images/timeline/tl067.png"
-  },
-  {
-    "id": "tl068",
+    "id": "tl060",
     "annee": 1810,
     "approx": false,
     "titre": "Première Junte nationale du Chili",
@@ -745,10 +657,10 @@
     "pays": ["Chili"],
     "theme": "indépendance",
     "difficulte": 2,
-    "image": "/images/timeline/tl068.png"
+    "image": "/images/timeline/tl060.png"
   },
   {
-    "id": "tl069",
+    "id": "tl061",
     "annee": 1812,
     "approx": false,
     "titre": "Belgrano crée le drapeau argentin",
@@ -756,10 +668,10 @@
     "pays": ["Argentine"],
     "theme": "indépendance",
     "difficulte": 2,
-    "image": "/images/timeline/tl069.png"
+    "image": "/images/timeline/tl061.png"
   },
   {
-    "id": "tl070",
+    "id": "tl062",
     "annee": 1816,
     "approx": false,
     "titre": "Déclaration d'indépendance à Tucumán",
@@ -767,10 +679,10 @@
     "pays": ["Argentine"],
     "theme": "indépendance",
     "difficulte": 1,
-    "image": "/images/timeline/tl070.png"
+    "image": "/images/timeline/tl062.png"
   },
   {
-    "id": "tl071",
+    "id": "tl063",
     "annee": 1817,
     "approx": false,
     "titre": "San Martín traverse les Andes",
@@ -778,10 +690,10 @@
     "pays": ["Argentine", "Chili"],
     "theme": "indépendance",
     "difficulte": 2,
-    "image": "/images/timeline/tl071.png"
+    "image": "/images/timeline/tl063.png"
   },
   {
-    "id": "tl072",
+    "id": "tl064",
     "annee": 1818,
     "approx": false,
     "titre": "Indépendance du Chili",
@@ -789,10 +701,10 @@
     "pays": ["Chili"],
     "theme": "indépendance",
     "difficulte": 1,
-    "image": "/images/timeline/tl072.png"
+    "image": "/images/timeline/tl064.png"
   },
   {
-    "id": "tl073",
+    "id": "tl065",
     "annee": 1821,
     "approx": false,
     "titre": "San Martín proclame l'indépendance du Pérou",
@@ -800,32 +712,10 @@
     "pays": ["Pérou"],
     "theme": "indépendance",
     "difficulte": 1,
-    "image": "/images/timeline/tl073.png"
+    "image": "/images/timeline/tl065.png"
   },
   {
-    "id": "tl074",
-    "annee": 1822,
-    "approx": false,
-    "titre": "Bataille de Pichincha",
-    "description": "Sur les pentes du volcan qui domine Quito, Sucre bat les troupes royalistes.",
-    "pays": ["Équateur"],
-    "theme": "indépendance",
-    "difficulte": 2,
-    "image": "/images/timeline/tl074.png"
-  },
-  {
-    "id": "tl075",
-    "annee": 1824,
-    "approx": false,
-    "titre": "Bataille d'Ayacucho",
-    "description": "La dernière grande bataille des guerres d'indépendance scelle la fin de l'Amérique espagnole.",
-    "pays": ["Pérou"],
-    "theme": "indépendance",
-    "difficulte": 2,
-    "image": "/images/timeline/tl075.png"
-  },
-  {
-    "id": "tl076",
+    "id": "tl066",
     "annee": 1825,
     "approx": false,
     "titre": "Naissance de la Bolivie",
@@ -833,21 +723,10 @@
     "pays": ["Bolivie"],
     "theme": "indépendance",
     "difficulte": 1,
-    "image": "/images/timeline/tl076.png"
+    "image": "/images/timeline/tl066.png"
   },
   {
-    "id": "tl077",
-    "annee": 1830,
-    "approx": false,
-    "titre": "L'Équateur devient une république",
-    "description": "En quittant la Grande Colombie, le pays prend le nom de la ligne qui le traverse.",
-    "pays": ["Équateur"],
-    "theme": "indépendance",
-    "difficulte": 2,
-    "image": "/images/timeline/tl077.png"
-  },
-  {
-    "id": "tl078",
+    "id": "tl067",
     "annee": 1830,
     "approx": false,
     "titre": "Mort de Simón Bolívar",
@@ -855,21 +734,21 @@
     "pays": ["Amérique du Sud"],
     "theme": "indépendance",
     "difficulte": 2,
-    "image": "/images/timeline/tl078.png"
+    "image": "/images/timeline/tl067.png"
   },
   {
-    "id": "tl079",
+    "id": "tl068",
     "annee": 1832,
     "approx": false,
-    "titre": "L'Équateur annexe les Galápagos",
+    "titre": "L'Equateur annexe les Galápagos",
     "description": "L'archipel volcanique, jusque-là repaire de pirates et de baleiniers, devient équatorien.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl079.png"
+    "image": "/images/timeline/tl068.png"
   },
   {
-    "id": "tl080",
+    "id": "tl069",
     "annee": 1833,
     "approx": false,
     "titre": "Les Britanniques s'installent aux Malouines",
@@ -877,10 +756,10 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl080.png"
+    "image": "/images/timeline/tl069.png"
   },
   {
-    "id": "tl081",
+    "id": "tl070",
     "annee": 1834,
     "approx": false,
     "titre": "Darwin remonte le río Santa Cruz",
@@ -888,32 +767,21 @@
     "pays": ["Argentine"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl081.png"
+    "image": "/images/timeline/tl070.png"
   },
   {
-    "id": "tl082",
+    "id": "tl071",
     "annee": 1835,
     "approx": false,
     "titre": "Darwin aux Galápagos",
     "description": "Pinsons, tortues et iguanes marins nourriront sa future théorie de l'évolution.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "science",
     "difficulte": 1,
-    "image": "/images/timeline/tl082.png"
+    "image": "/images/timeline/tl071.png"
   },
   {
-    "id": "tl083",
-    "annee": 1839,
-    "approx": false,
-    "titre": "La Plata devient Sucre",
-    "description": "La capitale bolivienne prend le nom du vainqueur d'Ayacucho, Antonio José de Sucre.",
-    "pays": ["Bolivie"],
-    "theme": "histoire",
-    "difficulte": 3,
-    "image": "/images/timeline/tl083.png"
-  },
-  {
-    "id": "tl084",
+    "id": "tl072",
     "annee": 1840,
     "approx": true,
     "titre": "Début de la fièvre du guano",
@@ -921,10 +789,10 @@
     "pays": ["Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl084.png"
+    "image": "/images/timeline/tl072.png"
   },
   {
-    "id": "tl085",
+    "id": "tl073",
     "annee": 1843,
     "approx": false,
     "titre": "Le Chili fonde Fuerte Bulnes",
@@ -932,10 +800,10 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl085.png"
+    "image": "/images/timeline/tl073.png"
   },
   {
-    "id": "tl086",
+    "id": "tl074",
     "annee": 1848,
     "approx": false,
     "titre": "Fondation de Punta Arenas",
@@ -943,21 +811,21 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl086.png"
+    "image": "/images/timeline/tl074.png"
   },
   {
-    "id": "tl087",
-    "annee": 1853,
+    "id": "tl075",
+    "annee": 1849,
     "approx": false,
-    "titre": "Adoption de la Constitution argentine",
-    "description": "Le texte fondateur de la république fédérale, toujours en vigueur avec ses réformes.",
-    "pays": ["Argentine"],
+    "titre": "Arrivée des premiers travailleurs chinois au Pérou",
+    "description": "Des milliers de travailleurs venus de Chine, engagés sur les plantations de canne à sucre souvent dans des conditions très dures, débarquent au Pérou ; leurs descendants créeront les « chifas ».",
+    "pays": ["Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl087.png"
+    "image": "/images/timeline/tl075.png"
   },
   {
-    "id": "tl088",
+    "id": "tl076",
     "annee": 1853,
     "approx": false,
     "titre": "Le malbec arrive à Mendoza",
@@ -965,10 +833,10 @@
     "pays": ["Argentine"],
     "theme": "gastronomie",
     "difficulte": 2,
-    "image": "/images/timeline/tl088.png"
+    "image": "/images/timeline/tl076.png"
   },
   {
-    "id": "tl089",
+    "id": "tl077",
     "annee": 1854,
     "approx": false,
     "titre": "Abolition de l'esclavage au Pérou",
@@ -976,21 +844,21 @@
     "pays": ["Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl089.png"
+    "image": "/images/timeline/tl077.png"
   },
   {
-    "id": "tl090",
+    "id": "tl078",
     "annee": 1859,
     "approx": false,
     "titre": "Parution de « L'Origine des espèces »",
     "description": "Darwin publie enfin la théorie de l'évolution, nourrie de ses observations sud-américaines.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "science",
     "difficulte": 2,
-    "image": "/images/timeline/tl090.png"
+    "image": "/images/timeline/tl078.png"
   },
   {
-    "id": "tl091",
+    "id": "tl079",
     "annee": 1862,
     "approx": false,
     "titre": "Raids esclavagistes sur Rapa Nui",
@@ -998,10 +866,21 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl091.png"
+    "image": "/images/timeline/tl079.png"
   },
   {
-    "id": "tl092",
+    "id": "tl080",
+    "annee": 1864,
+    "approx": false,
+    "titre": "Les tablettes rongorongo sont signalées au monde",
+    "description": "Un frère missionnaire remarque dans chaque case de l'île des tablettes de bois couvertes de signes ; cette écriture n'a jamais été déchiffrée.",
+    "pays": ["Chili"],
+    "theme": "science",
+    "difficulte": 3,
+    "image": "/images/timeline/tl080.png"
+  },
+  {
+    "id": "tl081",
     "annee": 1865,
     "approx": false,
     "titre": "Les Gallois débarquent en Patagonie",
@@ -1009,21 +888,10 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl092.png"
+    "image": "/images/timeline/tl081.png"
   },
   {
-    "id": "tl093",
-    "annee": 1866,
-    "approx": false,
-    "titre": "Combat du Deux Mai à Callao",
-    "description": "Le port péruvien repousse une escadre espagnole venue tenter de reprendre pied dans le Pacifique.",
-    "pays": ["Pérou"],
-    "theme": "histoire",
-    "difficulte": 3,
-    "image": "/images/timeline/tl093.png"
-  },
-  {
-    "id": "tl094",
+    "id": "tl082",
     "annee": 1868,
     "approx": false,
     "titre": "Un moaï emporté au British Museum",
@@ -1031,21 +899,21 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl094.png"
+    "image": "/images/timeline/tl082.png"
   },
   {
-    "id": "tl095",
-    "annee": 1877,
+    "id": "tl083",
+    "annee": 1870,
     "approx": false,
-    "titre": "Perito Moreno baptise le lac Argentino",
-    "description": "L'explorateur atteint le grand lac glaciaire de Patagonie ; un célèbre glacier portera son nom.",
-    "pays": ["Argentine"],
-    "theme": "exploration",
-    "difficulte": 2,
-    "image": "/images/timeline/tl095.png"
+    "titre": "Le Yavari est lancé sur le lac Titicaca",
+    "description": "Un navire britannique, transporté en 2 766 pièces à dos de mulet depuis la côte, est enfin mis à l'eau à près de 3 800 m d'altitude.",
+    "pays": ["Pérou"],
+    "theme": "histoire",
+    "difficulte": 3,
+    "image": "/images/timeline/tl083.png"
   },
   {
-    "id": "tl096",
+    "id": "tl084",
     "annee": 1879,
     "approx": false,
     "titre": "Début de la guerre du Pacifique",
@@ -1053,32 +921,21 @@
     "pays": ["Chili", "Pérou", "Bolivie"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl096.png"
+    "image": "/images/timeline/tl084.png"
   },
   {
-    "id": "tl097",
-    "annee": 1879,
-    "approx": false,
-    "titre": "La « Conquête du désert »",
-    "description": "L'armée argentine lance une campagne militaire vers la Patagonie contre les peuples autochtones.",
-    "pays": ["Argentine"],
-    "theme": "histoire",
-    "difficulte": 3,
-    "image": "/images/timeline/tl097.png"
-  },
-  {
-    "id": "tl098",
+    "id": "tl085",
     "annee": 1880,
     "approx": false,
     "titre": "Whymper au sommet du Chimborazo",
     "description": "L'alpiniste anglais, vainqueur du Cervin, réussit la première ascension du géant équatorien.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl098.png"
+    "image": "/images/timeline/tl085.png"
   },
   {
-    "id": "tl099",
+    "id": "tl086",
     "annee": 1880,
     "approx": true,
     "titre": "Naissance du tango",
@@ -1086,10 +943,10 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl099.png"
+    "image": "/images/timeline/tl086.png"
   },
   {
-    "id": "tl100",
+    "id": "tl087",
     "annee": 1881,
     "approx": false,
     "titre": "Traité de frontières entre l'Argentine et le Chili",
@@ -1097,10 +954,10 @@
     "pays": ["Argentine", "Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl100.png"
+    "image": "/images/timeline/tl087.png"
   },
   {
-    "id": "tl101",
+    "id": "tl088",
     "annee": 1884,
     "approx": false,
     "titre": "Fondation d'Ushuaia",
@@ -1108,10 +965,21 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl101.png"
+    "image": "/images/timeline/tl088.png"
   },
   {
-    "id": "tl102",
+    "id": "tl089",
+    "annee": 1885,
+    "approx": false,
+    "titre": "Le sacrifice de Daniel Alcides Carrión",
+    "description": "Un étudiant en médecine péruvien s'inocule du sang prélevé sur la verrue d'un malade pour prouver que deux maladies n'en font qu'une ; il en meurt.",
+    "pays": ["Pérou"],
+    "theme": "science",
+    "difficulte": 3,
+    "image": "/images/timeline/tl089.png"
+  },
+  {
+    "id": "tl090",
     "annee": 1888,
     "approx": false,
     "titre": "Le Chili annexe l'île de Pâques",
@@ -1119,10 +987,10 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl102.png"
+    "image": "/images/timeline/tl090.png"
   },
   {
-    "id": "tl103",
+    "id": "tl091",
     "annee": 1891,
     "approx": false,
     "titre": "Invention de l'identification par empreintes digitales",
@@ -1130,21 +998,10 @@
     "pays": ["Argentine"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl103.png"
+    "image": "/images/timeline/tl091.png"
   },
   {
-    "id": "tl104",
-    "annee": 1895,
-    "approx": false,
-    "titre": "Révolution libérale d'Eloy Alfaro",
-    "description": "Alfaro prend le pouvoir en Équateur, sépare l'Église et l'État et lance le grand chemin de fer.",
-    "pays": ["Équateur"],
-    "theme": "histoire",
-    "difficulte": 3,
-    "image": "/images/timeline/tl104.png"
-  },
-  {
-    "id": "tl105",
+    "id": "tl092",
     "annee": 1897,
     "approx": false,
     "titre": "Première ascension de l'Aconcagua",
@@ -1152,32 +1009,10 @@
     "pays": ["Argentine"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl105.png"
+    "image": "/images/timeline/tl092.png"
   },
   {
-    "id": "tl106",
-    "annee": 1898,
-    "approx": false,
-    "titre": "Première ascension de l'Illimani",
-    "description": "Martin Conway gravit la montagne qui veille sur La Paz.",
-    "pays": ["Bolivie"],
-    "theme": "exploration",
-    "difficulte": 3,
-    "image": "/images/timeline/tl106.png"
-  },
-  {
-    "id": "tl107",
-    "annee": 1899,
-    "approx": false,
-    "titre": "Naissance de Jorge Luis Borges",
-    "description": "Le futur maître des labyrinthes et des bibliothèques infinies naît à Buenos Aires.",
-    "pays": ["Argentine"],
-    "theme": "culture",
-    "difficulte": 2,
-    "image": "/images/timeline/tl107.png"
-  },
-  {
-    "id": "tl108",
+    "id": "tl093",
     "annee": 1899,
     "approx": false,
     "titre": "Le gouvernement s'installe à La Paz",
@@ -1185,10 +1020,21 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl108.png"
+    "image": "/images/timeline/tl093.png"
   },
   {
-    "id": "tl109",
+    "id": "tl094",
+    "annee": 1899,
+    "approx": false,
+    "titre": "Le Sakura Maru amène les premiers immigrants japonais",
+    "description": "Un navire parti de Yokohama débarque 790 Japonais au Callao : les débuts d'une importante communauté japonaise au Pérou.",
+    "pays": ["Pérou"],
+    "theme": "histoire",
+    "difficulte": 3,
+    "image": "/images/timeline/tl094.png"
+  },
+  {
+    "id": "tl095",
     "annee": 1900,
     "approx": true,
     "titre": "Simón Patiño découvre un filon d'étain",
@@ -1196,10 +1042,10 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl109.png"
+    "image": "/images/timeline/tl095.png"
   },
   {
-    "id": "tl110",
+    "id": "tl096",
     "annee": 1902,
     "approx": false,
     "titre": "Construction du bagne d'Ushuaia",
@@ -1207,10 +1053,10 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl110.png"
+    "image": "/images/timeline/tl096.png"
   },
   {
-    "id": "tl111",
+    "id": "tl097",
     "annee": 1903,
     "approx": false,
     "titre": "La Bolivie cède l'Acre au Brésil",
@@ -1218,10 +1064,10 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl111.png"
+    "image": "/images/timeline/tl097.png"
   },
   {
-    "id": "tl112",
+    "id": "tl098",
     "annee": 1904,
     "approx": false,
     "titre": "Inauguration du Christ des Andes",
@@ -1229,10 +1075,10 @@
     "pays": ["Argentine", "Chili"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl112.png"
+    "image": "/images/timeline/tl098.png"
   },
   {
-    "id": "tl113",
+    "id": "tl099",
     "annee": 1906,
     "approx": false,
     "titre": "Séisme de Valparaíso",
@@ -1240,10 +1086,10 @@
     "pays": ["Chili"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl113.png"
+    "image": "/images/timeline/tl099.png"
   },
   {
-    "id": "tl114",
+    "id": "tl100",
     "annee": 1908,
     "approx": false,
     "titre": "Inauguration du Teatro Colón",
@@ -1251,21 +1097,10 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl114.png"
+    "image": "/images/timeline/tl100.png"
   },
   {
-    "id": "tl115",
-    "annee": 1908,
-    "approx": false,
-    "titre": "Le train relie Guayaquil à Quito",
-    "description": "Après le vertigineux passage de la Nariz del Diablo, la locomotive entre enfin dans la capitale.",
-    "pays": ["Équateur"],
-    "theme": "histoire",
-    "difficulte": 2,
-    "image": "/images/timeline/tl115.png"
-  },
-  {
-    "id": "tl116",
+    "id": "tl101",
     "annee": 1908,
     "approx": false,
     "titre": "Mort de Butch Cassidy et du Sundance Kid",
@@ -1273,10 +1108,10 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl116.png"
+    "image": "/images/timeline/tl101.png"
   },
   {
-    "id": "tl117",
+    "id": "tl102",
     "annee": 1910,
     "approx": false,
     "titre": "Ouverture du chemin de fer transandin",
@@ -1284,10 +1119,10 @@
     "pays": ["Argentine", "Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl117.png"
+    "image": "/images/timeline/tl102.png"
   },
   {
-    "id": "tl118",
+    "id": "tl103",
     "annee": 1910,
     "approx": false,
     "titre": "Jorge Chávez franchit les Alpes en avion",
@@ -1295,10 +1130,10 @@
     "pays": ["Pérou"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl118.png"
+    "image": "/images/timeline/tl103.png"
   },
   {
-    "id": "tl119",
+    "id": "tl104",
     "annee": 1911,
     "approx": false,
     "titre": "Hiram Bingham révèle le Machu Picchu",
@@ -1306,21 +1141,10 @@
     "pays": ["Pérou"],
     "theme": "exploration",
     "difficulte": 1,
-    "image": "/images/timeline/tl119.png"
+    "image": "/images/timeline/tl104.png"
   },
   {
-    "id": "tl120",
-    "annee": 1913,
-    "approx": false,
-    "titre": "Création de « El Cóndor Pasa »",
-    "description": "Le compositeur péruvien Daniel Alomía Robles écrit la mélodie la plus célèbre des Andes.",
-    "pays": ["Pérou"],
-    "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl120.png"
-  },
-  {
-    "id": "tl121",
+    "id": "tl105",
     "annee": 1913,
     "approx": false,
     "titre": "Premier métro d'Amérique latine",
@@ -1328,21 +1152,10 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl121.png"
+    "image": "/images/timeline/tl105.png"
   },
   {
-    "id": "tl122",
-    "annee": 1914,
-    "approx": false,
-    "titre": "Expédition de Katherine Routledge",
-    "description": "L'archéologue britannique recueille les derniers témoignages sur les moaïs et les traditions de l'île.",
-    "pays": ["Chili"],
-    "theme": "science",
-    "difficulte": 3,
-    "image": "/images/timeline/tl122.png"
-  },
-  {
-    "id": "tl123",
+    "id": "tl106",
     "annee": 1916,
     "approx": false,
     "titre": "Première Copa América",
@@ -1350,21 +1163,10 @@
     "pays": ["Argentine", "Amérique du Sud"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl123.png"
+    "image": "/images/timeline/tl106.png"
   },
   {
-    "id": "tl124",
-    "annee": 1917,
-    "approx": false,
-    "titre": "Gardel chante « Mi noche triste »",
-    "description": "Carlos Gardel enregistre le premier tango-chanson, et le tango se met à raconter des histoires.",
-    "pays": ["Argentine"],
-    "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl124.png"
-  },
-  {
-    "id": "tl125",
+    "id": "tl107",
     "annee": 1920,
     "approx": true,
     "titre": "Invention du pisco sour",
@@ -1372,21 +1174,32 @@
     "pays": ["Pérou"],
     "theme": "gastronomie",
     "difficulte": 2,
-    "image": "/images/timeline/tl125.png"
+    "image": "/images/timeline/tl107.png"
   },
   {
-    "id": "tl126",
+    "id": "tl108",
+    "annee": 1920,
+    "approx": false,
+    "titre": "La première radiodiffusion de Buenos Aires",
+    "description": "Trois étudiants en médecine diffusent en direct un opéra de Wagner depuis un théâtre : l'une des toutes premières émissions de radio au monde.",
+    "pays": ["Argentine"],
+    "theme": "science",
+    "difficulte": 3,
+    "image": "/images/timeline/tl108.png"
+  },
+  {
+    "id": "tl109",
     "annee": 1924,
     "approx": false,
     "titre": "Matilde Hidalgo, première femme à voter en Amérique latine",
     "description": "La médecin équatorienne impose son droit de vote en s'appuyant sur la lettre de la Constitution.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl126.png"
+    "image": "/images/timeline/tl109.png"
   },
   {
-    "id": "tl127",
+    "id": "tl110",
     "annee": 1927,
     "approx": false,
     "titre": "Première étude des lignes de Nazca",
@@ -1394,10 +1207,10 @@
     "pays": ["Pérou"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl127.png"
+    "image": "/images/timeline/tl110.png"
   },
   {
-    "id": "tl128",
+    "id": "tl111",
     "annee": 1930,
     "approx": false,
     "titre": "L'Argentine en finale de la première Coupe du monde",
@@ -1405,21 +1218,10 @@
     "pays": ["Argentine"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl128.png"
+    "image": "/images/timeline/tl111.png"
   },
   {
-    "id": "tl129",
-    "annee": 1930,
-    "approx": false,
-    "titre": "L'aviateur Guillaumet survit dans les Andes",
-    "description": "Après un crash en plein hiver, le pilote de l'Aéropostale marche cinq jours dans la neige ; Saint-Exupéry le racontera.",
-    "pays": ["Argentine", "Chili"],
-    "theme": "exploration",
-    "difficulte": 3,
-    "image": "/images/timeline/tl129.png"
-  },
-  {
-    "id": "tl130",
+    "id": "tl112",
     "annee": 1932,
     "approx": false,
     "titre": "Début de la guerre du Chaco",
@@ -1427,21 +1229,10 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl130.png"
+    "image": "/images/timeline/tl112.png"
   },
   {
-    "id": "tl131",
-    "annee": 1932,
-    "approx": false,
-    "titre": "Première ascension du Huascarán",
-    "description": "Une expédition austro-allemande gravit le plus haut sommet du Pérou.",
-    "pays": ["Pérou"],
-    "theme": "exploration",
-    "difficulte": 3,
-    "image": "/images/timeline/tl131.png"
-  },
-  {
-    "id": "tl132",
+    "id": "tl113",
     "annee": 1934,
     "approx": false,
     "titre": "Création du parc national Nahuel Huapi",
@@ -1449,10 +1240,10 @@
     "pays": ["Argentine"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl132.png"
+    "image": "/images/timeline/tl113.png"
   },
   {
-    "id": "tl133",
+    "id": "tl114",
     "annee": 1935,
     "approx": false,
     "titre": "Mort de Carlos Gardel",
@@ -1460,10 +1251,10 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl133.png"
+    "image": "/images/timeline/tl114.png"
   },
   {
-    "id": "tl134",
+    "id": "tl115",
     "annee": 1935,
     "approx": false,
     "titre": "Fin de la guerre du Chaco",
@@ -1471,10 +1262,21 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl134.png"
+    "image": "/images/timeline/tl115.png"
   },
   {
-    "id": "tl135",
+    "id": "tl116",
+    "annee": 1935,
+    "approx": false,
+    "titre": "Naissance de l'Inca Kola",
+    "description": "Pour le 400e anniversaire de Lima, un immigrant britannique lance un soda jaune doré, parfumé à la verveine citronnée, qui deviendra un symbole du Pérou.",
+    "pays": ["Pérou"],
+    "theme": "gastronomie",
+    "difficulte": 2,
+    "image": "/images/timeline/tl116.png"
+  },
+  {
+    "id": "tl117",
     "annee": 1936,
     "approx": false,
     "titre": "Érection de l'Obélisque de Buenos Aires",
@@ -1482,32 +1284,32 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl135.png"
+    "image": "/images/timeline/tl117.png"
   },
   {
-    "id": "tl136",
-    "annee": 1937,
+    "id": "tl118",
+    "annee": 1936,
     "approx": false,
-    "titre": "Création du parc national Los Glaciares",
-    "description": "Le Perito Moreno et le Fitz Roy sont désormais protégés.",
-    "pays": ["Argentine"],
-    "theme": "nature",
-    "difficulte": 2,
-    "image": "/images/timeline/tl136.png"
+    "titre": "La Unión devient « Pisco Elqui »",
+    "description": "Pour mieux défendre son droit à l'appellation « pisco », le Chili donne à un village de la vallée d'Elqui le nom de cette eau-de-vie.",
+    "pays": ["Chili"],
+    "theme": "gastronomie",
+    "difficulte": 3,
+    "image": "/images/timeline/tl118.png"
   },
   {
-    "id": "tl137",
+    "id": "tl119",
     "annee": 1941,
     "approx": false,
-    "titre": "Guerre entre l'Équateur et le Pérou",
-    "description": "Un conflit frontalier en Amazonie fait perdre à l'Équateur une grande partie de son territoire revendiqué.",
-    "pays": ["Équateur", "Pérou"],
+    "titre": "Guerre entre l'Equateur et le Pérou",
+    "description": "Un conflit frontalier en Amazonie fait perdre à l'Equateur une grande partie de son territoire revendiqué.",
+    "pays": ["Equateur", "Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl137.png"
+    "image": "/images/timeline/tl119.png"
   },
   {
-    "id": "tl138",
+    "id": "tl120",
     "annee": 1943,
     "approx": false,
     "titre": "Brevet du stylo à bille",
@@ -1515,10 +1317,10 @@
     "pays": ["Argentine"],
     "theme": "science",
     "difficulte": 2,
-    "image": "/images/timeline/tl138.png"
+    "image": "/images/timeline/tl120.png"
   },
   {
-    "id": "tl139",
+    "id": "tl121",
     "annee": 1944,
     "approx": false,
     "titre": "Renaissance de l'Inti Raymi",
@@ -1526,21 +1328,10 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl139.png"
+    "image": "/images/timeline/tl121.png"
   },
   {
-    "id": "tl140",
-    "annee": 1944,
-    "approx": false,
-    "titre": "Séisme de San Juan",
-    "description": "La ville est détruite ; un jeune colonel nommé Perón se fait connaître en organisant les secours.",
-    "pays": ["Argentine"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl140.png"
-  },
-  {
-    "id": "tl141",
+    "id": "tl122",
     "annee": 1945,
     "approx": false,
     "titre": "Gabriela Mistral, prix Nobel de littérature",
@@ -1548,10 +1339,10 @@
     "pays": ["Chili"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl141.png"
+    "image": "/images/timeline/tl122.png"
   },
   {
-    "id": "tl142",
+    "id": "tl123",
     "annee": 1946,
     "approx": false,
     "titre": "Juan Perón élu président",
@@ -1559,21 +1350,10 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl142.png"
+    "image": "/images/timeline/tl123.png"
   },
   {
-    "id": "tl143",
-    "annee": 1947,
-    "approx": false,
-    "titre": "Le Kon-Tiki quitte le Callao",
-    "description": "Thor Heyerdahl traverse le Pacifique sur un radeau de balsa pour prouver que c'était possible.",
-    "pays": ["Pérou"],
-    "theme": "exploration",
-    "difficulte": 2,
-    "image": "/images/timeline/tl143.png"
-  },
-  {
-    "id": "tl144",
+    "id": "tl124",
     "annee": 1947,
     "approx": false,
     "titre": "Bernardo Houssay, prix Nobel de médecine",
@@ -1581,10 +1361,10 @@
     "pays": ["Argentine"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl144.png"
+    "image": "/images/timeline/tl124.png"
   },
   {
-    "id": "tl145",
+    "id": "tl125",
     "annee": 1947,
     "approx": false,
     "titre": "Loi sur le vote des femmes en Argentine",
@@ -1592,21 +1372,10 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl145.png"
+    "image": "/images/timeline/tl125.png"
   },
   {
-    "id": "tl146",
-    "annee": 1948,
-    "approx": false,
-    "titre": "Achèvement du Tren a las Nubes",
-    "description": "Le « train des nuages » atteint le viaduc de La Polvorilla, à plus de 4000 m d'altitude.",
-    "pays": ["Argentine"],
-    "theme": "histoire",
-    "difficulte": 3,
-    "image": "/images/timeline/tl146.png"
-  },
-  {
-    "id": "tl147",
+    "id": "tl126",
     "annee": 1949,
     "approx": false,
     "titre": "Parution de l'album « Le Temple du Soleil »",
@@ -1614,21 +1383,21 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl147.png"
+    "image": "/images/timeline/tl126.png"
   },
   {
-    "id": "tl148",
-    "annee": 1950,
+    "id": "tl127",
+    "annee": 1949,
     "approx": false,
-    "titre": "Pablo Neruda publie le « Canto General »",
-    "description": "Un immense poème épique sur l'histoire et la nature de l'Amérique latine.",
+    "titre": "Naissance de Condorito",
+    "description": "Un dessinateur chilien publie dans une nouvelle revue les aventures d'un petit condor maladroit ; il deviendra l'un des personnages de BD les plus populaires d'Amérique latine.",
     "pays": ["Chili"],
     "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl148.png"
+    "difficulte": 2,
+    "image": "/images/timeline/tl127.png"
   },
   {
-    "id": "tl149",
+    "id": "tl128",
     "annee": 1952,
     "approx": false,
     "titre": "Le voyage à moto du jeune Che Guevara",
@@ -1636,10 +1405,10 @@
     "pays": ["Argentine", "Chili", "Pérou"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl149.png"
+    "image": "/images/timeline/tl128.png"
   },
   {
-    "id": "tl150",
+    "id": "tl129",
     "annee": 1952,
     "approx": false,
     "titre": "Révolution nationale bolivienne",
@@ -1647,21 +1416,10 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl150.png"
+    "image": "/images/timeline/tl129.png"
   },
   {
-    "id": "tl151",
-    "annee": 1952,
-    "approx": false,
-    "titre": "Mort d'Eva Perón",
-    "description": "« Evita » meurt à 33 ans ; des foules immenses défilent devant son cercueil.",
-    "pays": ["Argentine"],
-    "theme": "histoire",
-    "difficulte": 2,
-    "image": "/images/timeline/tl151.png"
-  },
-  {
-    "id": "tl152",
+    "id": "tl130",
     "annee": 1952,
     "approx": false,
     "titre": "Première ascension du Fitz Roy",
@@ -1669,21 +1427,10 @@
     "pays": ["Argentine"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl152.png"
+    "image": "/images/timeline/tl130.png"
   },
   {
-    "id": "tl153",
-    "annee": 1955,
-    "approx": false,
-    "titre": "Expédition Heyerdahl sur l'île de Pâques",
-    "description": "L'aventurier du Kon-Tiki relève des moaïs et fouille l'île pour percer ses mystères.",
-    "pays": ["Chili"],
-    "theme": "science",
-    "difficulte": 3,
-    "image": "/images/timeline/tl153.png"
-  },
-  {
-    "id": "tl154",
+    "id": "tl131",
     "annee": 1957,
     "approx": false,
     "titre": "Cinquième titre mondial de Fangio",
@@ -1691,10 +1438,21 @@
     "pays": ["Argentine"],
     "theme": "sport",
     "difficulte": 3,
-    "image": "/images/timeline/tl154.png"
+    "image": "/images/timeline/tl131.png"
   },
   {
-    "id": "tl155",
+    "id": "tl132",
+    "annee": 1957,
+    "approx": false,
+    "titre": "Publication de « L'Éternaute »",
+    "description": "Un feuilleton de science-fiction imagine une neige mortelle tombant sur Buenos Aires ; il deviendra un classique de la bande dessinée argentine.",
+    "pays": ["Argentine"],
+    "theme": "culture",
+    "difficulte": 3,
+    "image": "/images/timeline/tl132.png"
+  },
+  {
+    "id": "tl133",
     "annee": 1958,
     "approx": false,
     "titre": "Naissance de l'ours Paddington",
@@ -1702,32 +1460,32 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl155.png"
+    "image": "/images/timeline/tl133.png"
   },
   {
-    "id": "tl156",
+    "id": "tl134",
+    "annee": 1958,
+    "approx": false,
+    "titre": "RA-1, premier réacteur nucléaire d'Argentine",
+    "description": "Un petit réacteur de recherche entre en service en Argentine : le premier du pays et le premier réacteur de recherche de l'hémisphère sud.",
+    "pays": ["Argentine"],
+    "theme": "science",
+    "difficulte": 3,
+    "image": "/images/timeline/tl134.png"
+  },
+  {
+    "id": "tl135",
     "annee": 1959,
     "approx": false,
     "titre": "Création du parc national des Galápagos",
     "description": "Pour les 100 ans de « L'Origine des espèces », l'archipel est presque entièrement protégé.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "nature",
     "difficulte": 2,
-    "image": "/images/timeline/tl156.png"
+    "image": "/images/timeline/tl135.png"
   },
   {
-    "id": "tl157",
-    "annee": 1959,
-    "approx": false,
-    "titre": "Création du parc Torres del Paine",
-    "description": "Les célèbres tours de granite de Patagonie chilienne deviennent parc national.",
-    "pays": ["Chili"],
-    "theme": "nature",
-    "difficulte": 2,
-    "image": "/images/timeline/tl157.png"
-  },
-  {
-    "id": "tl158",
+    "id": "tl136",
     "annee": 1960,
     "approx": false,
     "titre": "Séisme de Valdivia",
@@ -1735,21 +1493,10 @@
     "pays": ["Chili"],
     "theme": "nature",
     "difficulte": 1,
-    "image": "/images/timeline/tl158.png"
+    "image": "/images/timeline/tl136.png"
   },
   {
-    "id": "tl159",
-    "annee": 1960,
-    "approx": false,
-    "titre": "Le tsunami renverse les moaïs d'Ahu Tongariki",
-    "description": "La vague née du séisme de Valdivia traverse le Pacifique et disperse les statues géantes.",
-    "pays": ["Chili"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl159.png"
-  },
-  {
-    "id": "tl160",
+    "id": "tl137",
     "annee": 1962,
     "approx": false,
     "titre": "Coupe du monde de football au Chili",
@@ -1757,21 +1504,10 @@
     "pays": ["Chili"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl160.png"
+    "image": "/images/timeline/tl137.png"
   },
   {
-    "id": "tl161",
-    "annee": 1963,
-    "approx": false,
-    "titre": "Parution de « Marelle »",
-    "description": "Julio Cortázar publie un roman qu'on peut lire dans plusieurs ordres, entre Paris et Buenos Aires.",
-    "pays": ["Argentine"],
-    "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl161.png"
-  },
-  {
-    "id": "tl162",
+    "id": "tl138",
     "annee": 1964,
     "approx": false,
     "titre": "Première apparition de Mafalda",
@@ -1779,32 +1515,10 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl162.png"
+    "image": "/images/timeline/tl138.png"
   },
   {
-    "id": "tl163",
-    "annee": 1964,
-    "approx": false,
-    "titre": "Ouverture de la station Charles Darwin",
-    "description": "Sur l'île Santa Cruz, un centre de recherche se consacre à la protection des espèces de l'archipel.",
-    "pays": ["Équateur"],
-    "theme": "science",
-    "difficulte": 3,
-    "image": "/images/timeline/tl163.png"
-  },
-  {
-    "id": "tl164",
-    "annee": 1966,
-    "approx": false,
-    "titre": "Violeta Parra enregistre « Gracias a la vida »",
-    "description": "La chanson de l'artiste chilienne deviendra un hymne repris dans le monde entier.",
-    "pays": ["Chili"],
-    "theme": "culture",
-    "difficulte": 2,
-    "image": "/images/timeline/tl164.png"
-  },
-  {
-    "id": "tl165",
+    "id": "tl139",
     "annee": 1966,
     "approx": false,
     "titre": "Les Rapanui deviennent citoyens chiliens",
@@ -1812,10 +1526,21 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl165.png"
+    "image": "/images/timeline/tl139.png"
   },
   {
-    "id": "tl166",
+    "id": "tl140",
+    "annee": 1966,
+    "approx": false,
+    "titre": "L'île Más a Tierra devient l'île Robinson Crusoé",
+    "description": "Pour attirer les touristes, le Chili rebaptise une île du Pacifique du nom du héros d'un célèbre roman.",
+    "pays": ["Chili"],
+    "theme": "culture",
+    "difficulte": 3,
+    "image": "/images/timeline/tl140.png"
+  },
+  {
+    "id": "tl141",
     "annee": 1967,
     "approx": false,
     "titre": "Mort du Che en Bolivie",
@@ -1823,10 +1548,10 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 1,
-    "image": "/images/timeline/tl166.png"
+    "image": "/images/timeline/tl141.png"
   },
   {
-    "id": "tl167",
+    "id": "tl142",
     "annee": 1967,
     "approx": false,
     "titre": "Premiers vols réguliers vers l'île de Pâques",
@@ -1834,10 +1559,10 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl167.png"
+    "image": "/images/timeline/tl142.png"
   },
   {
-    "id": "tl168",
+    "id": "tl143",
     "annee": 1970,
     "approx": false,
     "titre": "Séisme et avalanche de Yungay",
@@ -1845,32 +1570,10 @@
     "pays": ["Pérou"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl168.png"
+    "image": "/images/timeline/tl143.png"
   },
   {
-    "id": "tl169",
-    "annee": 1970,
-    "approx": false,
-    "titre": "Salvador Allende élu président",
-    "description": "Pour la première fois, un président socialiste arrive au pouvoir au Chili par les urnes.",
-    "pays": ["Chili"],
-    "theme": "histoire",
-    "difficulte": 2,
-    "image": "/images/timeline/tl169.png"
-  },
-  {
-    "id": "tl170",
-    "annee": 1970,
-    "approx": false,
-    "titre": "Simon & Garfunkel reprennent « El Cóndor Pasa »",
-    "description": "La mélodie andine fait le tour du monde grâce au duo américain.",
-    "pays": ["Pérou"],
-    "theme": "culture",
-    "difficulte": 2,
-    "image": "/images/timeline/tl170.png"
-  },
-  {
-    "id": "tl171",
+    "id": "tl144",
     "annee": 1971,
     "approx": false,
     "titre": "Pablo Neruda, prix Nobel de littérature",
@@ -1878,21 +1581,10 @@
     "pays": ["Chili"],
     "theme": "culture",
     "difficulte": 1,
-    "image": "/images/timeline/tl171.png"
+    "image": "/images/timeline/tl144.png"
   },
   {
-    "id": "tl172",
-    "annee": 1971,
-    "approx": false,
-    "titre": "Découverte de Georges le Solitaire",
-    "description": "Sur l'île Pinta, un chercheur trouve une tortue géante qu'on croyait d'une espèce disparue.",
-    "pays": ["Équateur"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl172.png"
-  },
-  {
-    "id": "tl173",
+    "id": "tl145",
     "annee": 1972,
     "approx": false,
     "titre": "Le miracle des Andes",
@@ -1900,10 +1592,10 @@
     "pays": ["Argentine", "Chili"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl173.png"
+    "image": "/images/timeline/tl145.png"
   },
   {
-    "id": "tl174",
+    "id": "tl146",
     "annee": 1973,
     "approx": false,
     "titre": "Coup d'État au Chili",
@@ -1911,21 +1603,10 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 1,
-    "image": "/images/timeline/tl174.png"
+    "image": "/images/timeline/tl146.png"
   },
   {
-    "id": "tl175",
-    "annee": 1976,
-    "approx": false,
-    "titre": "Coup d'État en Argentine",
-    "description": "Une junte militaire s'empare du pouvoir ; commence la période des « disparus ».",
-    "pays": ["Argentine"],
-    "theme": "histoire",
-    "difficulte": 2,
-    "image": "/images/timeline/tl175.png"
-  },
-  {
-    "id": "tl176",
+    "id": "tl147",
     "annee": 1976,
     "approx": false,
     "titre": "Début de la Carretera Austral",
@@ -1933,10 +1614,10 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl176.png"
+    "image": "/images/timeline/tl147.png"
   },
   {
-    "id": "tl177",
+    "id": "tl148",
     "annee": 1977,
     "approx": false,
     "titre": "Guillermo Vilas gagne Roland-Garros",
@@ -1944,32 +1625,32 @@
     "pays": ["Argentine"],
     "theme": "sport",
     "difficulte": 3,
-    "image": "/images/timeline/tl177.png"
+    "image": "/images/timeline/tl148.png"
   },
   {
-    "id": "tl178",
-    "annee": 1978,
-    "approx": false,
-    "titre": "L'Argentine championne du monde de football",
-    "description": "À domicile, avec Mario Kempes, l'Albiceleste remporte sa première Coupe du monde.",
-    "pays": ["Argentine"],
-    "theme": "sport",
-    "difficulte": 2,
-    "image": "/images/timeline/tl178.png"
-  },
-  {
-    "id": "tl179",
+    "id": "tl149",
     "annee": 1978,
     "approx": false,
     "titre": "Quito et les Galápagos parmi les tout premiers sites UNESCO",
-    "description": "L'Équateur place d'emblée deux sites sur la toute première liste du patrimoine mondial.",
-    "pays": ["Équateur"],
+    "description": "L'Equateur place d'emblée deux sites sur la toute première liste du patrimoine mondial.",
+    "pays": ["Equateur"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl179.png"
+    "image": "/images/timeline/tl149.png"
   },
   {
-    "id": "tl180",
+    "id": "tl150",
+    "annee": 1979,
+    "approx": false,
+    "titre": "La tour de la Mitad del Mundo",
+    "description": "Près de Quito, une tour de 30 m surmontée d'un globe remplace un premier monument pour marquer l'Equateur ; le GPS montrera que la vraie ligne passe environ 240 m plus au nord.",
+    "pays": ["Equateur"],
+    "theme": "culture",
+    "difficulte": 2,
+    "image": "/images/timeline/tl150.png"
+  },
+  {
+    "id": "tl151",
     "annee": 1982,
     "approx": false,
     "titre": "Guerre des Malouines",
@@ -1977,43 +1658,10 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl180.png"
+    "image": "/images/timeline/tl151.png"
   },
   {
-    "id": "tl181",
-    "annee": 1982,
-    "approx": false,
-    "titre": "Parution de « La Maison aux esprits »",
-    "description": "Premier roman d'Isabel Allende, une saga familiale chilienne teintée de réalisme magique.",
-    "pays": ["Chili"],
-    "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl181.png"
-  },
-  {
-    "id": "tl182",
-    "annee": 1983,
-    "approx": false,
-    "titre": "Retour de la démocratie en Argentine",
-    "description": "Raúl Alfonsín est élu président et la dictature militaire prend fin.",
-    "pays": ["Argentine"],
-    "theme": "histoire",
-    "difficulte": 2,
-    "image": "/images/timeline/tl182.png"
-  },
-  {
-    "id": "tl183",
-    "annee": 1983,
-    "approx": false,
-    "titre": "Machu Picchu classé au patrimoine mondial",
-    "description": "La cité inca est reconnue à la fois pour sa valeur culturelle et naturelle.",
-    "pays": ["Pérou"],
-    "theme": "culture",
-    "difficulte": 2,
-    "image": "/images/timeline/tl183.png"
-  },
-  {
-    "id": "tl184",
+    "id": "tl152",
     "annee": 1985,
     "approx": false,
     "titre": "L'hyperinflation en Bolivie",
@@ -2021,10 +1669,10 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl184.png"
+    "image": "/images/timeline/tl152.png"
   },
   {
-    "id": "tl185",
+    "id": "tl153",
     "annee": 1986,
     "approx": false,
     "titre": "Maradona et la « main de Dieu »",
@@ -2032,43 +1680,10 @@
     "pays": ["Argentine"],
     "theme": "sport",
     "difficulte": 1,
-    "image": "/images/timeline/tl185.png"
+    "image": "/images/timeline/tl153.png"
   },
   {
-    "id": "tl186",
-    "annee": 1986,
-    "approx": false,
-    "titre": "Création de la réserve marine des Galápagos",
-    "description": "Les eaux autour de l'archipel, riches en requins et en otaries, sont à leur tour protégées.",
-    "pays": ["Équateur"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl186.png"
-  },
-  {
-    "id": "tl187",
-    "annee": 1987,
-    "approx": false,
-    "titre": "Découverte de la tombe du Seigneur de Sipán",
-    "description": "L'archéologue Walter Alva met au jour une tombe royale moche intacte, surnommée le « Toutankhamon des Amériques ».",
-    "pays": ["Pérou"],
-    "theme": "science",
-    "difficulte": 2,
-    "image": "/images/timeline/tl187.png"
-  },
-  {
-    "id": "tl188",
-    "annee": 1987,
-    "approx": false,
-    "titre": "Potosí au patrimoine mondial",
-    "description": "La ville de l'argent et son Cerro Rico sont classés par l'UNESCO.",
-    "pays": ["Bolivie"],
-    "theme": "culture",
-    "difficulte": 2,
-    "image": "/images/timeline/tl188.png"
-  },
-  {
-    "id": "tl189",
+    "id": "tl154",
     "annee": 1988,
     "approx": false,
     "titre": "Victoire du « Non » au référendum chilien",
@@ -2076,43 +1691,10 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl189.png"
+    "image": "/images/timeline/tl154.png"
   },
   {
-    "id": "tl190",
-    "annee": 1990,
-    "approx": false,
-    "titre": "Les missions de Chiquitos classées",
-    "description": "Les églises jésuites de l'est bolivien entrent au patrimoine mondial.",
-    "pays": ["Bolivie"],
-    "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl190.png"
-  },
-  {
-    "id": "tl191",
-    "annee": 1991,
-    "approx": false,
-    "titre": "Sucre au patrimoine mondial",
-    "description": "La « ville blanche » et ses façades coloniales sont classées par l'UNESCO.",
-    "pays": ["Bolivie"],
-    "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl191.png"
-  },
-  {
-    "id": "tl192",
-    "annee": 1993,
-    "approx": false,
-    "titre": "La Bolivie bat le Brésil à La Paz",
-    "description": "À 3600 m, la Seleção perd pour la première fois un match de qualification pour la Coupe du monde.",
-    "pays": ["Bolivie"],
-    "theme": "sport",
-    "difficulte": 2,
-    "image": "/images/timeline/tl192.png"
-  },
-  {
-    "id": "tl193",
+    "id": "tl155",
     "annee": 1994,
     "approx": false,
     "titre": "Redécouverte du carménère au Chili",
@@ -2120,76 +1702,43 @@
     "pays": ["Chili"],
     "theme": "gastronomie",
     "difficulte": 3,
-    "image": "/images/timeline/tl193.png"
+    "image": "/images/timeline/tl155.png"
   },
   {
-    "id": "tl194",
-    "annee": 1995,
-    "approx": false,
-    "titre": "Découverte de la momie Juanita",
-    "description": "Au sommet de l'Ampato, une jeune fille sacrifiée par les Incas est retrouvée, préservée par la glace.",
-    "pays": ["Pérou"],
-    "theme": "science",
-    "difficulte": 2,
-    "image": "/images/timeline/tl194.png"
-  },
-  {
-    "id": "tl195",
+    "id": "tl156",
     "annee": 1995,
     "approx": false,
     "titre": "Guerre du Cenepa",
-    "description": "Un nouveau conflit frontalier oppose l'Équateur et le Pérou dans la cordillère du Condor.",
-    "pays": ["Équateur", "Pérou"],
+    "description": "Un nouveau conflit frontalier oppose l'Equateur et le Pérou dans la cordillère du Condor.",
+    "pays": ["Equateur", "Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl195.png"
+    "image": "/images/timeline/tl156.png"
   },
   {
-    "id": "tl196",
-    "annee": 1995,
-    "approx": false,
-    "titre": "Rapa Nui au patrimoine mondial",
-    "description": "Le parc national et ses moaïs sont classés par l'UNESCO.",
-    "pays": ["Chili"],
-    "theme": "culture",
-    "difficulte": 2,
-    "image": "/images/timeline/tl196.png"
-  },
-  {
-    "id": "tl197",
-    "annee": 1995,
-    "approx": false,
-    "titre": "Création du parc national Madidi",
-    "description": "Entre Andes et Amazonie, l'un des lieux les plus riches en biodiversité de la planète est protégé.",
-    "pays": ["Bolivie"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl197.png"
-  },
-  {
-    "id": "tl198",
+    "id": "tl157",
     "annee": 1996,
     "approx": false,
-    "titre": "Première médaille d'or olympique de l'Équateur",
+    "titre": "Première médaille d'or olympique de l'Equateur",
     "description": "À Atlanta, Jefferson Pérez remporte le 20 km marche.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "sport",
     "difficulte": 3,
-    "image": "/images/timeline/tl198.png"
+    "image": "/images/timeline/tl157.png"
   },
   {
-    "id": "tl199",
+    "id": "tl158",
     "annee": 1998,
     "approx": false,
-    "titre": "Paix définitive entre l'Équateur et le Pérou",
+    "titre": "Paix définitive entre l'Equateur et le Pérou",
     "description": "L'accord de Brasilia règle enfin le plus long conflit frontalier du continent.",
-    "pays": ["Équateur", "Pérou"],
+    "pays": ["Equateur", "Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl199.png"
+    "image": "/images/timeline/tl158.png"
   },
   {
-    "id": "tl200",
+    "id": "tl159",
     "annee": 1998,
     "approx": false,
     "titre": "Premières images du Very Large Telescope",
@@ -2197,43 +1746,32 @@
     "pays": ["Chili"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl200.png"
+    "image": "/images/timeline/tl159.png"
   },
   {
-    "id": "tl201",
-    "annee": 1999,
-    "approx": false,
-    "titre": "Découverte des enfants de Llullaillaco",
-    "description": "Trois momies incas d'une conservation exceptionnelle sont retrouvées sur un volcan à plus de 6700 m.",
-    "pays": ["Argentine"],
-    "theme": "science",
-    "difficulte": 3,
-    "image": "/images/timeline/tl201.png"
-  },
-  {
-    "id": "tl202",
+    "id": "tl160",
     "annee": 1999,
     "approx": false,
     "titre": "Réveil du volcan Tungurahua",
     "description": "Après des décennies de sommeil, le volcan force l'évacuation de la ville de Baños.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl202.png"
+    "image": "/images/timeline/tl160.png"
   },
   {
-    "id": "tl203",
+    "id": "tl161",
     "annee": 2000,
     "approx": false,
-    "titre": "L'Équateur adopte le dollar",
+    "titre": "L'Equateur adopte le dollar",
     "description": "Après une grave crise, le sucre est abandonné au profit du dollar américain.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl203.png"
+    "image": "/images/timeline/tl161.png"
   },
   {
-    "id": "tl204",
+    "id": "tl162",
     "annee": 2000,
     "approx": false,
     "titre": "La guerre de l'eau à Cochabamba",
@@ -2241,10 +1779,10 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl204.png"
+    "image": "/images/timeline/tl162.png"
   },
   {
-    "id": "tl205",
+    "id": "tl163",
     "annee": 2001,
     "approx": false,
     "titre": "Crise argentine et « corralito »",
@@ -2252,43 +1790,21 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl205.png"
+    "image": "/images/timeline/tl163.png"
   },
   {
-    "id": "tl206",
-    "annee": 2001,
-    "approx": false,
-    "titre": "Le carnaval d'Oruro reconnu par l'UNESCO",
-    "description": "La Diablada et ses masques spectaculaires deviennent chef-d'œuvre du patrimoine immatériel.",
-    "pays": ["Bolivie"],
-    "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl206.png"
-  },
-  {
-    "id": "tl207",
-    "annee": 2001,
-    "approx": false,
-    "titre": "La réserve marine des Galápagos classée par l'UNESCO",
-    "description": "Le patrimoine mondial s'étend désormais aux fonds marins de l'archipel.",
-    "pays": ["Équateur"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl207.png"
-  },
-  {
-    "id": "tl208",
+    "id": "tl164",
     "annee": 2004,
     "approx": false,
     "titre": "Double or olympique pour Nicolás Massú",
-    "description": "À Athènes, le tennisman chilien gagne le simple et le double en une seule semaine.",
+    "description": "Le tennisman chilien gagne le simple et le double en une seule semaine.",
     "pays": ["Chili"],
     "theme": "sport",
     "difficulte": 3,
-    "image": "/images/timeline/tl208.png"
+    "image": "/images/timeline/tl164.png"
   },
   {
-    "id": "tl209",
+    "id": "tl165",
     "annee": 2006,
     "approx": false,
     "titre": "Evo Morales, premier président autochtone de Bolivie",
@@ -2296,10 +1812,10 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl209.png"
+    "image": "/images/timeline/tl165.png"
   },
   {
-    "id": "tl210",
+    "id": "tl166",
     "annee": 2006,
     "approx": false,
     "titre": "Michelle Bachelet, première présidente du Chili",
@@ -2307,10 +1823,10 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl210.png"
+    "image": "/images/timeline/tl166.png"
   },
   {
-    "id": "tl211",
+    "id": "tl167",
     "annee": 2007,
     "approx": false,
     "titre": "Machu Picchu élu nouvelle merveille du monde",
@@ -2318,65 +1834,10 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 1,
-    "image": "/images/timeline/tl211.png"
+    "image": "/images/timeline/tl167.png"
   },
   {
-    "id": "tl212",
-    "annee": 2007,
-    "approx": false,
-    "titre": "Les Galápagos déclarées « patrimoine en péril »",
-    "description": "Tourisme, espèces invasives et migrations inquiètent l'UNESCO, qui place l'archipel sous surveillance.",
-    "pays": ["Équateur"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl212.png"
-  },
-  {
-    "id": "tl213",
-    "annee": 2008,
-    "approx": false,
-    "titre": "Des droits pour la nature en Équateur",
-    "description": "La nouvelle Constitution reconnaît des droits à la Pachamama, une première mondiale.",
-    "pays": ["Équateur"],
-    "theme": "nature",
-    "difficulte": 2,
-    "image": "/images/timeline/tl213.png"
-  },
-  {
-    "id": "tl214",
-    "annee": 2008,
-    "approx": false,
-    "titre": "Éruption du Chaitén",
-    "description": "Un volcan qu'on croyait éteint se réveille et oblige à évacuer toute la ville voisine.",
-    "pays": ["Chili"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl214.png"
-  },
-  {
-    "id": "tl215",
-    "annee": 2009,
-    "approx": false,
-    "titre": "La Bolivie devient un État plurinational",
-    "description": "La nouvelle Constitution reconnaît 36 peuples autochtones et leurs langues.",
-    "pays": ["Bolivie"],
-    "theme": "histoire",
-    "difficulte": 3,
-    "image": "/images/timeline/tl215.png"
-  },
-  {
-    "id": "tl216",
-    "annee": 2009,
-    "approx": false,
-    "titre": "Le tango inscrit au patrimoine de l'UNESCO",
-    "description": "L'Argentine et l'Uruguay obtiennent ensemble la reconnaissance de leur danse emblématique.",
-    "pays": ["Argentine"],
-    "theme": "culture",
-    "difficulte": 2,
-    "image": "/images/timeline/tl216.png"
-  },
-  {
-    "id": "tl217",
+    "id": "tl168",
     "annee": 2009,
     "approx": false,
     "titre": "Le Dakar s'installe en Amérique du Sud",
@@ -2384,32 +1845,10 @@
     "pays": ["Argentine", "Chili"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl217.png"
+    "image": "/images/timeline/tl168.png"
   },
   {
-    "id": "tl218",
-    "annee": 2009,
-    "approx": false,
-    "titre": "Disparition du glacier de Chacaltaya",
-    "description": "La plus haute piste de ski du monde n'est plus qu'un souvenir : le glacier a fondu.",
-    "pays": ["Bolivie"],
-    "theme": "nature",
-    "difficulte": 2,
-    "image": "/images/timeline/tl218.png"
-  },
-  {
-    "id": "tl219",
-    "annee": 2010,
-    "approx": false,
-    "titre": "Séisme du Maule",
-    "description": "L'un des plus puissants séismes jamais enregistrés frappe le centre du Chili et provoque un tsunami.",
-    "pays": ["Chili"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl219.png"
-  },
-  {
-    "id": "tl220",
+    "id": "tl169",
     "annee": 2010,
     "approx": false,
     "titre": "Sauvetage des 33 mineurs chiliens",
@@ -2417,21 +1856,10 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 1,
-    "image": "/images/timeline/tl220.png"
+    "image": "/images/timeline/tl169.png"
   },
   {
-    "id": "tl221",
-    "annee": 2010,
-    "approx": false,
-    "titre": "Mario Vargas Llosa, prix Nobel de littérature",
-    "description": "L'écrivain péruvien de « La Ville et les Chiens » est récompensé.",
-    "pays": ["Pérou"],
-    "theme": "culture",
-    "difficulte": 2,
-    "image": "/images/timeline/tl221.png"
-  },
-  {
-    "id": "tl222",
+    "id": "tl170",
     "annee": 2011,
     "approx": false,
     "titre": "Éruption du Puyehue",
@@ -2439,32 +1867,10 @@
     "pays": ["Chili", "Argentine"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl222.png"
+    "image": "/images/timeline/tl170.png"
   },
   {
-    "id": "tl223",
-    "annee": 2012,
-    "approx": false,
-    "titre": "Mort de Georges le Solitaire",
-    "description": "La dernière tortue géante de l'île Pinta, symbole des Galápagos, s'éteint.",
-    "pays": ["Équateur"],
-    "theme": "nature",
-    "difficulte": 2,
-    "image": "/images/timeline/tl223.png"
-  },
-  {
-    "id": "tl224",
-    "annee": 2012,
-    "approx": false,
-    "titre": "Le « chapeau Panama » inscrit à l'UNESCO",
-    "description": "Le savoir-faire du tissage de paille toquilla est reconnu ; ce chapeau a toujours été équatorien.",
-    "pays": ["Équateur"],
-    "theme": "culture",
-    "difficulte": 2,
-    "image": "/images/timeline/tl224.png"
-  },
-  {
-    "id": "tl225",
+    "id": "tl171",
     "annee": 2012,
     "approx": false,
     "titre": "On fait « marcher » un moaï",
@@ -2472,10 +1878,10 @@
     "pays": ["Chili"],
     "theme": "science",
     "difficulte": 2,
-    "image": "/images/timeline/tl225.png"
+    "image": "/images/timeline/tl171.png"
   },
   {
-    "id": "tl226",
+    "id": "tl172",
     "annee": 2013,
     "approx": false,
     "titre": "Un Argentin devient pape",
@@ -2483,10 +1889,10 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 1,
-    "image": "/images/timeline/tl226.png"
+    "image": "/images/timeline/tl172.png"
   },
   {
-    "id": "tl227",
+    "id": "tl173",
     "annee": 2013,
     "approx": false,
     "titre": "Inauguration du radiotélescope ALMA",
@@ -2494,10 +1900,21 @@
     "pays": ["Chili"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl227.png"
+    "image": "/images/timeline/tl173.png"
   },
   {
-    "id": "tl228",
+    "id": "tl174",
+    "annee": 2013,
+    "approx": false,
+    "titre": "Pegaso, premier satellite équatorien",
+    "description": "Lancé depuis la Chine, un nanosatellite de 1,3 kg devient le premier satellite de son pays ; quelques semaines plus tard, il est frôlé par un débris spatial.",
+    "pays": ["Equateur"],
+    "theme": "science",
+    "difficulte": 3,
+    "image": "/images/timeline/tl174.png"
+  },
+  {
+    "id": "tl175",
     "annee": 2014,
     "approx": false,
     "titre": "Ouverture de Mi Teleférico",
@@ -2505,21 +1922,10 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl228.png"
+    "image": "/images/timeline/tl175.png"
   },
   {
-    "id": "tl229",
-    "annee": 2014,
-    "approx": false,
-    "titre": "Le Qhapaq Ñan au patrimoine mondial",
-    "description": "Le réseau de routes incas, reliant six pays actuels, est classé par l'UNESCO.",
-    "pays": ["Pérou", "Bolivie", "Équateur", "Chili", "Argentine"],
-    "theme": "culture",
-    "difficulte": 3,
-    "image": "/images/timeline/tl229.png"
-  },
-  {
-    "id": "tl230",
+    "id": "tl176",
     "annee": 2015,
     "approx": false,
     "titre": "Le Chili remporte sa première Copa América",
@@ -2527,98 +1933,32 @@
     "pays": ["Chili"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl230.png"
+    "image": "/images/timeline/tl176.png"
   },
   {
-    "id": "tl231",
-    "annee": 2016,
-    "approx": false,
-    "titre": "Séisme sur la côte équatorienne",
-    "description": "Un puissant tremblement de terre frappe la province de Manabí et fait des centaines de victimes.",
-    "pays": ["Équateur"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl231.png"
-  },
-  {
-    "id": "tl232",
-    "annee": 2018,
-    "approx": false,
-    "titre": "La CIJ rejette la demande bolivienne d'accès à la mer",
-    "description": "La Cour internationale de justice estime que le Chili n'est pas obligé de négocier.",
-    "pays": ["Bolivie"],
-    "theme": "histoire",
-    "difficulte": 3,
-    "image": "/images/timeline/tl232.png"
-  },
-  {
-    "id": "tl233",
+    "id": "tl177",
     "annee": 2019,
     "approx": false,
     "titre": "Richard Carapaz gagne le Tour d'Italie",
     "description": "Le coureur venu des hauteurs du Carchi est le premier Équatorien à remporter un grand tour cycliste.",
-    "pays": ["Équateur"],
+    "pays": ["Equateur"],
     "theme": "sport",
     "difficulte": 3,
-    "image": "/images/timeline/tl233.png"
+    "image": "/images/timeline/tl177.png"
   },
   {
-    "id": "tl234",
+    "id": "tl178",
     "annee": 2019,
     "approx": false,
-    "titre": "Le « réveil » social chilien",
-    "description": "Une hausse du ticket de métro déclenche un immense mouvement de contestation dans tout le pays.",
-    "pays": ["Chili"],
-    "theme": "histoire",
-    "difficulte": 2,
-    "image": "/images/timeline/tl234.png"
-  },
-  {
-    "id": "tl235",
-    "annee": 2019,
-    "approx": false,
-    "titre": "Une tortue qu'on croyait éteinte retrouvée",
-    "description": "Sur l'île Fernandina, une tortue géante d'une espèce disparue depuis plus d'un siècle est découverte vivante.",
-    "pays": ["Équateur"],
-    "theme": "nature",
-    "difficulte": 3,
-    "image": "/images/timeline/tl235.png"
-  },
-  {
-    "id": "tl236",
-    "annee": 2021,
-    "approx": false,
-    "titre": "Messi gagne enfin la Copa América",
-    "description": "Au Maracanã, l'Argentine bat le Brésil : le premier grand titre de Messi avec sa sélection.",
-    "pays": ["Argentine"],
+    "titre": "Les cholitas escaladoras au sommet de l'Aconcagua",
+    "description": "Des Boliviennes aymaras gravissent le plus haut sommet des Amériques en jupes traditionnelles.",
+    "pays": ["Bolivie", "Argentine"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl236.png"
+    "image": "/images/timeline/tl178.png"
   },
   {
-    "id": "tl237",
-    "annee": 2021,
-    "approx": false,
-    "titre": "Effondrement de l'arche de Darwin",
-    "description": "L'érosion fait tomber le célèbre arc de pierre, repère des plongeurs aux requins-marteaux.",
-    "pays": ["Équateur"],
-    "theme": "nature",
-    "difficulte": 2,
-    "image": "/images/timeline/tl237.png"
-  },
-  {
-    "id": "tl238",
-    "annee": 2022,
-    "approx": false,
-    "titre": "L'Argentine championne du monde au Qatar",
-    "description": "Au terme d'une finale folle contre la France, Messi soulève la Coupe du monde.",
-    "pays": ["Argentine"],
-    "theme": "sport",
-    "difficulte": 1,
-    "image": "/images/timeline/tl238.png"
-  },
-  {
-    "id": "tl239",
+    "id": "tl179",
     "annee": 2022,
     "approx": false,
     "titre": "Incendie à la carrière de Rano Raraku",
@@ -2626,17 +1966,6 @@
     "pays": ["Chili"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl239.png"
-  },
-  {
-    "id": "tl240",
-    "annee": 2023,
-    "approx": false,
-    "titre": "Central, meilleur restaurant du monde",
-    "description": "Le restaurant liménien de Virgilio Martínez, qui cuisine par altitude, est sacré numéro un.",
-    "pays": ["Pérou"],
-    "theme": "gastronomie",
-    "difficulte": 2,
-    "image": "/images/timeline/tl240.png"
+    "image": "/images/timeline/tl179.png"
   }
 ]
