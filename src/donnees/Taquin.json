@@ -2,85 +2,85 @@
   {
     "id": "machu-picchu",
     "titre": "Chevauchée d'un puma devant le Machu Picchu",
-    "image": "/images/jeux/taquin/macchu-picchu.png",
+    "image": "/images/jeux/taquin/macchu-picchu.webp",
     "cases": 16
   },
   {
     "id": "van-life",
     "titre": "Soirée sur la route",
-    "image": "/images/jeux/taquin/van_life.png",
+    "image": "/images/jeux/taquin/van_life.webp",
     "cases": 16
   },
   {
     "id": "moai",
     "titre": "Transport d'un moai",
-    "image": "/images/jeux/taquin/moai.png",
+    "image": "/images/jeux/taquin/moai.webp",
     "cases": 9
   },
   {
     "id": "ayar",
     "titre": "Légendes des frères Ayar et de la fondation de Cusco",
-    "image": "/images/jeux/taquin/ayar.png",
+    "image": "/images/jeux/taquin/ayar.webp",
     "cases": 9
   },
   {
     "id": "rapa-nui",
     "titre": "Tatouages Rapa Nui",
-    "image": "/images/jeux/taquin/rapa_nui.png",
+    "image": "/images/jeux/taquin/rapa_nui.webp",
     "cases": 16
   },
   {
     "id": "uros",
     "titre": "Iles flottantes d'Uros et leurs barques en roseau",
-    "image": "/images/jeux/taquin/uros.png",
+    "image": "/images/jeux/taquin/uros.webp",
     "cases": 9
   },
   {
     "id": "selfie-galapagos",
     "titre": "Selfie avec un iguane sur les iles Galapagos",
-    "image": "/images/jeux/taquin/selfie.png",
+    "image": "/images/jeux/taquin/selfie.webp",
     "cases": 16
   },
   {
     "id": "lama-uyuni",
     "titre": "Course de lamas sur le salar d'Uyuni",
-    "image": "/images/jeux/taquin/lama_uyuni.png",
+    "image": "/images/jeux/taquin/lama_uyuni.webp",
     "cases": 9
   },
   {
     "id": "glacier",
     "titre": "Glacier Perito Moreno au clair de lune",
-    "image": "/images/jeux/taquin/glacier.png",
+    "image": "/images/jeux/taquin/glacier.webp",
     "cases": 9
   },
   {
     "id": "la-paz",
     "titre": "Téléphérique de La Paz",
-    "image": "/images/jeux/taquin/la-paz.png",
+    "image": "/images/jeux/taquin/la-paz.webp",
     "cases": 9
   },
   {
     "id": "amazonie",
     "titre": "Canoe en Amazonie",
-    "image": "/images/jeux/taquin/amazonie.png",
+    "image": "/images/jeux/taquin/amazonie.webp",
     "cases": 16
   },
   {
     "id": "banos",
     "titre": "Balançoire à Casa del Arbol, Equateur",
-    "image": "/images/jeux/taquin/banos.png",
+    "image": "/images/jeux/taquin/banos.webp",
     "cases": 9
   },
   {
     "id": "fous",
     "titre": "Concours de danse des fous à pieds bleus",
-    "image": "/images/jeux/taquin/fous.png",
+    "image": "/images/jeux/taquin/fous.webp",
     "cases": 16
   },
   {
     "id": "quipus",
     "titre": "A quoi ça peut donc servir ?",
-    "image": "/images/jeux/taquin/quipus.png",
+    "image": "/images/jeux/taquin/quipus.webp",
     "cases": 9
   },
   {
@@ -92,7 +92,7 @@
   {
     "id": "lama-montagne",
     "titre": "Un lama et son maitre traversant un col andin",
-    "image": "/images/jeux/taquin/lama-montagne.png",
+    "image": "/images/jeux/taquin/lama-montagne.webp",
     "cases": 9
   },
   {
@@ -104,73 +104,73 @@
   {
     "id": "puma",
     "titre": "Un puma devant Torres des Paine",
-    "image": "/images/jeux/taquin/puma.png",
+    "image": "/images/jeux/taquin/puma.webp",
     "cases": 9
   },
   {
     "id": "ile_paques",
     "titre": "L'ile de Pâques sous la voie lactée",
-    "image": "/images/jeux/taquin/ile_paques.png",
+    "image": "/images/jeux/taquin/ile_paques.webp",
     "cases": 16
   },
   {
     "id": "seigneur_mines",
     "titre": "El Tio",
-    "image": "/images/jeux/taquin/seigneur_mines.png",
+    "image": "/images/jeux/taquin/seigneur_mines.webp",
     "cases": 9
   },
   {
     "id": "moai_fete",
     "titre": "Des moais en soirée",
-    "image": "/images/jeux/taquin/moai_fete.png",
+    "image": "/images/jeux/taquin/moai_fete.webp",
     "cases": 16
   },
   {
     "id": "otaries",
     "titre": "Des otaries jouent aux dominos",
-    "image": "/images/jeux/taquin/otaries.png",
+    "image": "/images/jeux/taquin/otaries.webp",
     "cases": 16
   },
   {
     "id": "renard",
     "titre": "Un culpeo sur le Salar d'Uyuni",
-    "image": "/images/jeux/taquin/renard.png",
+    "image": "/images/jeux/taquin/renard.webp",
     "cases": 9
   },
   {
     "id": "pont",
     "titre": "Sur un pont brumeux",
-    "image": "/images/jeux/taquin/pont.png",
+    "image": "/images/jeux/taquin/pont.webp",
     "cases": 16
   },
   {
     "id": "danse",
     "titre": "Deux manchots dansent la salsa",
-    "image": "/images/jeux/taquin/danse.png",
+    "image": "/images/jeux/taquin/danse.webp",
     "cases": 16
   },
   {
     "id": "condor",
     "titre": "Un condor devant le canyon de Colca",
-    "image": "/images/jeux/taquin/condor.png",
+    "image": "/images/jeux/taquin/condor.webp",
     "cases": 9
   },
   {
     "id": "caoutchouc",
     "titre": "Récolte du caoutchouc en Amazonie",
-    "image": "/images/jeux/taquin/caoutchouc.png",
+    "image": "/images/jeux/taquin/caoutchouc.webp",
     "cases": 9
   },
   {
     "id": "messager",
     "titre": "Un messager traverse les andes, quipus à la main",
-    "image": "/images/jeux/taquin/messager.png",
+    "image": "/images/jeux/taquin/messager.webp",
     "cases": 16
   },
   {
     "id": "constellation",
     "titre": "Constellation du lama",
-    "image": "/images/jeux/taquin/constellation.png",
+    "image": "/images/jeux/taquin/constellation.webp",
     "cases": 16
   }
 ]

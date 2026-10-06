@@ -8,7 +8,7 @@
     "pays": ["Chili"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl001.png"
+    "image": "/images/timeline/tl001.webp"
   },
   {
     "id": "tl002",
@@ -19,7 +19,7 @@
     "pays": ["Pérou", "Bolivie"],
     "theme": "gastronomie",
     "difficulte": 2,
-    "image": "/images/timeline/tl002.png"
+    "image": "/images/timeline/tl002.webp"
   },
   {
     "id": "tl003",
@@ -30,7 +30,7 @@
     "pays": ["Argentine"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl003.png"
+    "image": "/images/timeline/tl003.webp"
   },
   {
     "id": "tl004",
@@ -41,7 +41,7 @@
     "pays": ["Chili"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl004.png"
+    "image": "/images/timeline/tl004.webp"
   },
   {
     "id": "tl005",
@@ -52,7 +52,7 @@
     "pays": ["Pérou", "Bolivie"],
     "theme": "nature",
     "difficulte": 2,
-    "image": "/images/timeline/tl005.png"
+    "image": "/images/timeline/tl005.webp"
   },
   {
     "id": "tl006",
@@ -63,7 +63,7 @@
     "pays": ["Equateur"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl006.png"
+    "image": "/images/timeline/tl006.webp"
   },
   {
     "id": "tl007",
@@ -74,7 +74,7 @@
     "pays": ["Equateur"],
     "theme": "gastronomie",
     "difficulte": 3,
-    "image": "/images/timeline/tl007.png"
+    "image": "/images/timeline/tl007.webp"
   },
   {
     "id": "tl008",
@@ -85,7 +85,7 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl008.png"
+    "image": "/images/timeline/tl008.webp"
   },
   {
     "id": "tl009",
@@ -96,7 +96,7 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl009.png"
+    "image": "/images/timeline/tl009.webp"
   },
   {
     "id": "tl010",
@@ -107,7 +107,7 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl010.png"
+    "image": "/images/timeline/tl010.webp"
   },
   {
     "id": "tl011",
@@ -118,7 +118,7 @@
     "pays": ["Equateur"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl011.png"
+    "image": "/images/timeline/tl011.webp"
   },
   {
     "id": "tl012",
@@ -129,7 +129,7 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl012.png"
+    "image": "/images/timeline/tl012.webp"
   },
   {
     "id": "tl013",
@@ -140,7 +140,7 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl013.png"
+    "image": "/images/timeline/tl013.webp"
   },
   {
     "id": "tl014",
@@ -151,7 +151,7 @@
     "pays": ["Bolivie"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl014.png"
+    "image": "/images/timeline/tl014.webp"
   },
   {
     "id": "tl015",
@@ -162,7 +162,7 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl015.png"
+    "image": "/images/timeline/tl015.webp"
   },
   {
     "id": "tl016",
@@ -173,7 +173,7 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl016.png"
+    "image": "/images/timeline/tl016.webp"
   },
   {
     "id": "tl017",
@@ -184,7 +184,7 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl017.png"
+    "image": "/images/timeline/tl017.webp"
   },
   {
     "id": "tl018",
@@ -195,7 +195,7 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl018.png"
+    "image": "/images/timeline/tl018.webp"
   },
   {
     "id": "tl019",
@@ -206,7 +206,7 @@
     "pays": ["Chili"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl019.png"
+    "image": "/images/timeline/tl019.webp"
   },
   {
     "id": "tl020",
@@ -217,7 +217,7 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 2,
-    "image": "/images/timeline/tl020.png"
+    "image": "/images/timeline/tl020.webp"
   },
   {
     "id": "tl021",
@@ -228,7 +228,7 @@
     "pays": ["Pérou"],
     "theme": "précolombien",
     "difficulte": 1,
-    "image": "/images/timeline/tl021.png"
+    "image": "/images/timeline/tl021.webp"
   },
   {
     "id": "tl022",
@@ -239,7 +239,7 @@
     "pays": ["Amérique du Sud"],
     "theme": "conquête",
     "difficulte": 2,
-    "image": "/images/timeline/tl022.png"
+    "image": "/images/timeline/tl022.webp"
   },
   {
     "id": "tl023",
@@ -250,7 +250,7 @@
     "pays": ["Amérique du Sud"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl023.png"
+    "image": "/images/timeline/tl023.webp"
   },
   {
     "id": "tl024",
@@ -261,7 +261,7 @@
     "pays": ["Argentine"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl024.png"
+    "image": "/images/timeline/tl024.webp"
   },
   {
     "id": "tl025",
@@ -272,7 +272,7 @@
     "pays": ["Chili", "Argentine"],
     "theme": "exploration",
     "difficulte": 1,
-    "image": "/images/timeline/tl025.png"
+    "image": "/images/timeline/tl025.webp"
   },
   {
     "id": "tl026",
@@ -283,7 +283,7 @@
     "pays": ["Pérou", "Equateur"],
     "theme": "conquête",
     "difficulte": 3,
-    "image": "/images/timeline/tl026.png"
+    "image": "/images/timeline/tl026.webp"
   },
   {
     "id": "tl027",
@@ -294,7 +294,7 @@
     "pays": ["Pérou", "Equateur"],
     "theme": "précolombien",
     "difficulte": 3,
-    "image": "/images/timeline/tl027.png"
+    "image": "/images/timeline/tl027.webp"
   },
   {
     "id": "tl028",
@@ -305,7 +305,7 @@
     "pays": ["Pérou"],
     "theme": "conquête",
     "difficulte": 1,
-    "image": "/images/timeline/tl028.png"
+    "image": "/images/timeline/tl028.webp"
   },
   {
     "id": "tl029",
@@ -316,7 +316,7 @@
     "pays": ["Pérou"],
     "theme": "conquête",
     "difficulte": 2,
-    "image": "/images/timeline/tl029.png"
+    "image": "/images/timeline/tl029.webp"
   },
   {
     "id": "tl030",
@@ -327,7 +327,7 @@
     "pays": ["Equateur"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl030.png"
+    "image": "/images/timeline/tl030.webp"
   },
   {
     "id": "tl031",
@@ -338,7 +338,7 @@
     "pays": ["Pérou"],
     "theme": "conquête",
     "difficulte": 3,
-    "image": "/images/timeline/tl031.png"
+    "image": "/images/timeline/tl031.webp"
   },
   {
     "id": "tl032",
@@ -349,7 +349,7 @@
     "pays": ["Equateur", "Amérique du Sud"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl032.png"
+    "image": "/images/timeline/tl032.webp"
   },
   {
     "id": "tl033",
@@ -360,7 +360,7 @@
     "pays": ["Bolivie"],
     "theme": "colonie",
     "difficulte": 2,
-    "image": "/images/timeline/tl033.png"
+    "image": "/images/timeline/tl033.webp"
   },
   {
     "id": "tl034",
@@ -371,7 +371,7 @@
     "pays": ["Chili"],
     "theme": "conquête",
     "difficulte": 3,
-    "image": "/images/timeline/tl034.png"
+    "image": "/images/timeline/tl034.webp"
   },
   {
     "id": "tl035",
@@ -382,7 +382,7 @@
     "pays": ["Pérou", "Bolivie"],
     "theme": "gastronomie",
     "difficulte": 2,
-    "image": "/images/timeline/tl035.png"
+    "image": "/images/timeline/tl035.webp"
   },
   {
     "id": "tl036",
@@ -393,7 +393,7 @@
     "pays": ["Pérou", "Bolivie"],
     "theme": "colonie",
     "difficulte": 3,
-    "image": "/images/timeline/tl036.png"
+    "image": "/images/timeline/tl036.webp"
   },
   {
     "id": "tl037",
@@ -404,7 +404,7 @@
     "pays": ["Pérou"],
     "theme": "conquête",
     "difficulte": 3,
-    "image": "/images/timeline/tl037.png"
+    "image": "/images/timeline/tl037.webp"
   },
   {
     "id": "tl038",
@@ -415,7 +415,7 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl038.png"
+    "image": "/images/timeline/tl038.webp"
   },
   {
     "id": "tl039",
@@ -426,7 +426,7 @@
     "pays": ["Bolivie"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl039.png"
+    "image": "/images/timeline/tl039.webp"
   },
   {
     "id": "tl040",
@@ -437,7 +437,7 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl040.png"
+    "image": "/images/timeline/tl040.webp"
   },
   {
     "id": "tl041",
@@ -448,7 +448,7 @@
     "pays": ["Pérou"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl041.png"
+    "image": "/images/timeline/tl041.webp"
   },
   {
     "id": "tl042",
@@ -459,7 +459,7 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl042.png"
+    "image": "/images/timeline/tl042.webp"
   },
   {
     "id": "tl043",
@@ -470,7 +470,7 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl043.png"
+    "image": "/images/timeline/tl043.webp"
   },
   {
     "id": "tl044",
@@ -481,7 +481,7 @@
     "pays": ["Pérou"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl044.png"
+    "image": "/images/timeline/tl044.webp"
   },
   {
     "id": "tl045",
@@ -492,7 +492,7 @@
     "pays": ["Bolivie"],
     "theme": "colonie",
     "difficulte": 3,
-    "image": "/images/timeline/tl045.png"
+    "image": "/images/timeline/tl045.webp"
   },
   {
     "id": "tl046",
@@ -503,7 +503,7 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl046.png"
+    "image": "/images/timeline/tl046.webp"
   },
   {
     "id": "tl047",
@@ -514,7 +514,7 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl047.png"
+    "image": "/images/timeline/tl047.webp"
   },
   {
     "id": "tl048",
@@ -525,7 +525,7 @@
     "pays": ["Equateur"],
     "theme": "science",
     "difficulte": 2,
-    "image": "/images/timeline/tl048.png"
+    "image": "/images/timeline/tl048.webp"
   },
   {
     "id": "tl049",
@@ -536,7 +536,7 @@
     "pays": ["Pérou"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl049.png"
+    "image": "/images/timeline/tl049.webp"
   },
   {
     "id": "tl050",
@@ -547,7 +547,7 @@
     "pays": ["Amérique du Sud"],
     "theme": "colonie",
     "difficulte": 3,
-    "image": "/images/timeline/tl050.png"
+    "image": "/images/timeline/tl050.webp"
   },
   {
     "id": "tl051",
@@ -558,7 +558,7 @@
     "pays": ["Bolivie"],
     "theme": "colonie",
     "difficulte": 3,
-    "image": "/images/timeline/tl051.png"
+    "image": "/images/timeline/tl051.webp"
   },
   {
     "id": "tl052",
@@ -569,7 +569,7 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl052.png"
+    "image": "/images/timeline/tl052.webp"
   },
   {
     "id": "tl053",
@@ -580,7 +580,7 @@
     "pays": ["Pérou"],
     "theme": "colonie",
     "difficulte": 2,
-    "image": "/images/timeline/tl053.png"
+    "image": "/images/timeline/tl053.webp"
   },
   {
     "id": "tl054",
@@ -591,7 +591,7 @@
     "pays": ["Bolivie"],
     "theme": "colonie",
     "difficulte": 3,
-    "image": "/images/timeline/tl054.png"
+    "image": "/images/timeline/tl054.webp"
   },
   {
     "id": "tl055",
@@ -602,7 +602,7 @@
     "pays": ["Chili"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl055.png"
+    "image": "/images/timeline/tl055.webp"
   },
   {
     "id": "tl056",
@@ -613,7 +613,7 @@
     "pays": ["Equateur"],
     "theme": "science",
     "difficulte": 2,
-    "image": "/images/timeline/tl056.png"
+    "image": "/images/timeline/tl056.webp"
   },
   {
     "id": "tl057",
@@ -624,7 +624,7 @@
     "pays": ["Argentine"],
     "theme": "indépendance",
     "difficulte": 3,
-    "image": "/images/timeline/tl057.png"
+    "image": "/images/timeline/tl057.webp"
   },
   {
     "id": "tl058",
@@ -635,7 +635,7 @@
     "pays": ["Bolivie"],
     "theme": "indépendance",
     "difficulte": 3,
-    "image": "/images/timeline/tl058.png"
+    "image": "/images/timeline/tl058.webp"
   },
   {
     "id": "tl059",
@@ -646,7 +646,7 @@
     "pays": ["Equateur"],
     "theme": "indépendance",
     "difficulte": 3,
-    "image": "/images/timeline/tl059.png"
+    "image": "/images/timeline/tl059.webp"
   },
   {
     "id": "tl060",
@@ -657,7 +657,7 @@
     "pays": ["Chili"],
     "theme": "indépendance",
     "difficulte": 2,
-    "image": "/images/timeline/tl060.png"
+    "image": "/images/timeline/tl060.webp"
   },
   {
     "id": "tl061",
@@ -668,7 +668,7 @@
     "pays": ["Argentine"],
     "theme": "indépendance",
     "difficulte": 2,
-    "image": "/images/timeline/tl061.png"
+    "image": "/images/timeline/tl061.webp"
   },
   {
     "id": "tl062",
@@ -679,7 +679,7 @@
     "pays": ["Argentine"],
     "theme": "indépendance",
     "difficulte": 1,
-    "image": "/images/timeline/tl062.png"
+    "image": "/images/timeline/tl062.webp"
   },
   {
     "id": "tl063",
@@ -690,7 +690,7 @@
     "pays": ["Argentine", "Chili"],
     "theme": "indépendance",
     "difficulte": 2,
-    "image": "/images/timeline/tl063.png"
+    "image": "/images/timeline/tl063.webp"
   },
   {
     "id": "tl064",
@@ -701,7 +701,7 @@
     "pays": ["Chili"],
     "theme": "indépendance",
     "difficulte": 1,
-    "image": "/images/timeline/tl064.png"
+    "image": "/images/timeline/tl064.webp"
   },
   {
     "id": "tl065",
@@ -712,7 +712,7 @@
     "pays": ["Pérou"],
     "theme": "indépendance",
     "difficulte": 1,
-    "image": "/images/timeline/tl065.png"
+    "image": "/images/timeline/tl065.webp"
   },
   {
     "id": "tl066",
@@ -723,7 +723,7 @@
     "pays": ["Bolivie"],
     "theme": "indépendance",
     "difficulte": 1,
-    "image": "/images/timeline/tl066.png"
+    "image": "/images/timeline/tl066.webp"
   },
   {
     "id": "tl067",
@@ -734,7 +734,7 @@
     "pays": ["Amérique du Sud"],
     "theme": "indépendance",
     "difficulte": 2,
-    "image": "/images/timeline/tl067.png"
+    "image": "/images/timeline/tl067.webp"
   },
   {
     "id": "tl068",
@@ -745,7 +745,7 @@
     "pays": ["Equateur"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl068.png"
+    "image": "/images/timeline/tl068.webp"
   },
   {
     "id": "tl069",
@@ -756,7 +756,7 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl069.png"
+    "image": "/images/timeline/tl069.webp"
   },
   {
     "id": "tl070",
@@ -767,7 +767,7 @@
     "pays": ["Argentine"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl070.png"
+    "image": "/images/timeline/tl070.webp"
   },
   {
     "id": "tl071",
@@ -778,7 +778,7 @@
     "pays": ["Equateur"],
     "theme": "science",
     "difficulte": 1,
-    "image": "/images/timeline/tl071.png"
+    "image": "/images/timeline/tl071.webp"
   },
   {
     "id": "tl072",
@@ -789,7 +789,7 @@
     "pays": ["Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl072.png"
+    "image": "/images/timeline/tl072.webp"
   },
   {
     "id": "tl073",
@@ -800,7 +800,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl073.png"
+    "image": "/images/timeline/tl073.webp"
   },
   {
     "id": "tl074",
@@ -811,7 +811,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl074.png"
+    "image": "/images/timeline/tl074.webp"
   },
   {
     "id": "tl075",
@@ -822,7 +822,7 @@
     "pays": ["Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl075.png"
+    "image": "/images/timeline/tl075.webp"
   },
   {
     "id": "tl076",
@@ -833,7 +833,7 @@
     "pays": ["Argentine"],
     "theme": "gastronomie",
     "difficulte": 2,
-    "image": "/images/timeline/tl076.png"
+    "image": "/images/timeline/tl076.webp"
   },
   {
     "id": "tl077",
@@ -844,7 +844,7 @@
     "pays": ["Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl077.png"
+    "image": "/images/timeline/tl077.webp"
   },
   {
     "id": "tl078",
@@ -855,7 +855,7 @@
     "pays": ["Equateur"],
     "theme": "science",
     "difficulte": 2,
-    "image": "/images/timeline/tl078.png"
+    "image": "/images/timeline/tl078.webp"
   },
   {
     "id": "tl079",
@@ -866,7 +866,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl079.png"
+    "image": "/images/timeline/tl079.webp"
   },
   {
     "id": "tl080",
@@ -877,7 +877,7 @@
     "pays": ["Chili"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl080.png"
+    "image": "/images/timeline/tl080.webp"
   },
   {
     "id": "tl081",
@@ -888,7 +888,7 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl081.png"
+    "image": "/images/timeline/tl081.webp"
   },
   {
     "id": "tl082",
@@ -899,7 +899,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl082.png"
+    "image": "/images/timeline/tl082.webp"
   },
   {
     "id": "tl083",
@@ -910,7 +910,7 @@
     "pays": ["Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl083.png"
+    "image": "/images/timeline/tl083.webp"
   },
   {
     "id": "tl084",
@@ -921,7 +921,7 @@
     "pays": ["Chili", "Pérou", "Bolivie"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl084.png"
+    "image": "/images/timeline/tl084.webp"
   },
   {
     "id": "tl085",
@@ -932,7 +932,7 @@
     "pays": ["Equateur"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl085.png"
+    "image": "/images/timeline/tl085.webp"
   },
   {
     "id": "tl086",
@@ -943,7 +943,7 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl086.png"
+    "image": "/images/timeline/tl086.webp"
   },
   {
     "id": "tl087",
@@ -954,7 +954,7 @@
     "pays": ["Argentine", "Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl087.png"
+    "image": "/images/timeline/tl087.webp"
   },
   {
     "id": "tl088",
@@ -965,7 +965,7 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl088.png"
+    "image": "/images/timeline/tl088.webp"
   },
   {
     "id": "tl089",
@@ -976,7 +976,7 @@
     "pays": ["Pérou"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl089.png"
+    "image": "/images/timeline/tl089.webp"
   },
   {
     "id": "tl090",
@@ -987,7 +987,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl090.png"
+    "image": "/images/timeline/tl090.webp"
   },
   {
     "id": "tl091",
@@ -998,7 +998,7 @@
     "pays": ["Argentine"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl091.png"
+    "image": "/images/timeline/tl091.webp"
   },
   {
     "id": "tl092",
@@ -1009,7 +1009,7 @@
     "pays": ["Argentine"],
     "theme": "exploration",
     "difficulte": 2,
-    "image": "/images/timeline/tl092.png"
+    "image": "/images/timeline/tl092.webp"
   },
   {
     "id": "tl093",
@@ -1020,7 +1020,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl093.png"
+    "image": "/images/timeline/tl093.webp"
   },
   {
     "id": "tl094",
@@ -1031,7 +1031,7 @@
     "pays": ["Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl094.png"
+    "image": "/images/timeline/tl094.webp"
   },
   {
     "id": "tl095",
@@ -1042,7 +1042,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl095.png"
+    "image": "/images/timeline/tl095.webp"
   },
   {
     "id": "tl096",
@@ -1053,7 +1053,7 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl096.png"
+    "image": "/images/timeline/tl096.webp"
   },
   {
     "id": "tl097",
@@ -1064,7 +1064,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl097.png"
+    "image": "/images/timeline/tl097.webp"
   },
   {
     "id": "tl098",
@@ -1075,7 +1075,7 @@
     "pays": ["Argentine", "Chili"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl098.png"
+    "image": "/images/timeline/tl098.webp"
   },
   {
     "id": "tl099",
@@ -1086,7 +1086,7 @@
     "pays": ["Chili"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl099.png"
+    "image": "/images/timeline/tl099.webp"
   },
   {
     "id": "tl100",
@@ -1097,7 +1097,7 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl100.png"
+    "image": "/images/timeline/tl100.webp"
   },
   {
     "id": "tl101",
@@ -1108,7 +1108,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl101.png"
+    "image": "/images/timeline/tl101.webp"
   },
   {
     "id": "tl102",
@@ -1119,7 +1119,7 @@
     "pays": ["Argentine", "Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl102.png"
+    "image": "/images/timeline/tl102.webp"
   },
   {
     "id": "tl103",
@@ -1130,7 +1130,7 @@
     "pays": ["Pérou"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl103.png"
+    "image": "/images/timeline/tl103.webp"
   },
   {
     "id": "tl104",
@@ -1141,7 +1141,7 @@
     "pays": ["Pérou"],
     "theme": "exploration",
     "difficulte": 1,
-    "image": "/images/timeline/tl104.png"
+    "image": "/images/timeline/tl104.webp"
   },
   {
     "id": "tl105",
@@ -1152,7 +1152,7 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl105.png"
+    "image": "/images/timeline/tl105.webp"
   },
   {
     "id": "tl106",
@@ -1163,7 +1163,7 @@
     "pays": ["Argentine", "Amérique du Sud"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl106.png"
+    "image": "/images/timeline/tl106.webp"
   },
   {
     "id": "tl107",
@@ -1174,7 +1174,7 @@
     "pays": ["Pérou"],
     "theme": "gastronomie",
     "difficulte": 2,
-    "image": "/images/timeline/tl107.png"
+    "image": "/images/timeline/tl107.webp"
   },
   {
     "id": "tl108",
@@ -1185,7 +1185,7 @@
     "pays": ["Argentine"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl108.png"
+    "image": "/images/timeline/tl108.webp"
   },
   {
     "id": "tl109",
@@ -1196,7 +1196,7 @@
     "pays": ["Equateur"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl109.png"
+    "image": "/images/timeline/tl109.webp"
   },
   {
     "id": "tl110",
@@ -1207,7 +1207,7 @@
     "pays": ["Pérou"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl110.png"
+    "image": "/images/timeline/tl110.webp"
   },
   {
     "id": "tl111",
@@ -1218,7 +1218,7 @@
     "pays": ["Argentine"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl111.png"
+    "image": "/images/timeline/tl111.webp"
   },
   {
     "id": "tl112",
@@ -1229,7 +1229,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl112.png"
+    "image": "/images/timeline/tl112.webp"
   },
   {
     "id": "tl113",
@@ -1240,7 +1240,7 @@
     "pays": ["Argentine"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl113.png"
+    "image": "/images/timeline/tl113.webp"
   },
   {
     "id": "tl114",
@@ -1251,7 +1251,7 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl114.png"
+    "image": "/images/timeline/tl114.webp"
   },
   {
     "id": "tl115",
@@ -1262,7 +1262,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl115.png"
+    "image": "/images/timeline/tl115.webp"
   },
   {
     "id": "tl116",
@@ -1273,7 +1273,7 @@
     "pays": ["Pérou"],
     "theme": "gastronomie",
     "difficulte": 2,
-    "image": "/images/timeline/tl116.png"
+    "image": "/images/timeline/tl116.webp"
   },
   {
     "id": "tl117",
@@ -1284,7 +1284,7 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl117.png"
+    "image": "/images/timeline/tl117.webp"
   },
   {
     "id": "tl118",
@@ -1295,7 +1295,7 @@
     "pays": ["Chili"],
     "theme": "gastronomie",
     "difficulte": 3,
-    "image": "/images/timeline/tl118.png"
+    "image": "/images/timeline/tl118.webp"
   },
   {
     "id": "tl119",
@@ -1306,7 +1306,7 @@
     "pays": ["Equateur", "Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl119.png"
+    "image": "/images/timeline/tl119.webp"
   },
   {
     "id": "tl120",
@@ -1317,7 +1317,7 @@
     "pays": ["Argentine"],
     "theme": "science",
     "difficulte": 2,
-    "image": "/images/timeline/tl120.png"
+    "image": "/images/timeline/tl120.webp"
   },
   {
     "id": "tl121",
@@ -1328,7 +1328,7 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl121.png"
+    "image": "/images/timeline/tl121.webp"
   },
   {
     "id": "tl122",
@@ -1339,7 +1339,7 @@
     "pays": ["Chili"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl122.png"
+    "image": "/images/timeline/tl122.webp"
   },
   {
     "id": "tl123",
@@ -1350,7 +1350,7 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl123.png"
+    "image": "/images/timeline/tl123.webp"
   },
   {
     "id": "tl124",
@@ -1361,7 +1361,7 @@
     "pays": ["Argentine"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl124.png"
+    "image": "/images/timeline/tl124.webp"
   },
   {
     "id": "tl125",
@@ -1372,7 +1372,7 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl125.png"
+    "image": "/images/timeline/tl125.webp"
   },
   {
     "id": "tl126",
@@ -1383,7 +1383,7 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl126.png"
+    "image": "/images/timeline/tl126.webp"
   },
   {
     "id": "tl127",
@@ -1394,7 +1394,7 @@
     "pays": ["Chili"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl127.png"
+    "image": "/images/timeline/tl127.webp"
   },
   {
     "id": "tl128",
@@ -1405,7 +1405,7 @@
     "pays": ["Argentine", "Chili", "Pérou"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl128.png"
+    "image": "/images/timeline/tl128.webp"
   },
   {
     "id": "tl129",
@@ -1416,7 +1416,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl129.png"
+    "image": "/images/timeline/tl129.webp"
   },
   {
     "id": "tl130",
@@ -1427,7 +1427,7 @@
     "pays": ["Argentine"],
     "theme": "exploration",
     "difficulte": 3,
-    "image": "/images/timeline/tl130.png"
+    "image": "/images/timeline/tl130.webp"
   },
   {
     "id": "tl131",
@@ -1438,7 +1438,7 @@
     "pays": ["Argentine"],
     "theme": "sport",
     "difficulte": 3,
-    "image": "/images/timeline/tl131.png"
+    "image": "/images/timeline/tl131.webp"
   },
   {
     "id": "tl132",
@@ -1449,7 +1449,7 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl132.png"
+    "image": "/images/timeline/tl132.webp"
   },
   {
     "id": "tl133",
@@ -1460,7 +1460,7 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl133.png"
+    "image": "/images/timeline/tl133.webp"
   },
   {
     "id": "tl134",
@@ -1471,7 +1471,7 @@
     "pays": ["Argentine"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl134.png"
+    "image": "/images/timeline/tl134.webp"
   },
   {
     "id": "tl135",
@@ -1482,7 +1482,7 @@
     "pays": ["Equateur"],
     "theme": "nature",
     "difficulte": 2,
-    "image": "/images/timeline/tl135.png"
+    "image": "/images/timeline/tl135.webp"
   },
   {
     "id": "tl136",
@@ -1493,7 +1493,7 @@
     "pays": ["Chili"],
     "theme": "nature",
     "difficulte": 1,
-    "image": "/images/timeline/tl136.png"
+    "image": "/images/timeline/tl136.webp"
   },
   {
     "id": "tl137",
@@ -1504,7 +1504,7 @@
     "pays": ["Chili"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl137.png"
+    "image": "/images/timeline/tl137.webp"
   },
   {
     "id": "tl138",
@@ -1515,7 +1515,7 @@
     "pays": ["Argentine"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl138.png"
+    "image": "/images/timeline/tl138.webp"
   },
   {
     "id": "tl139",
@@ -1526,7 +1526,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl139.png"
+    "image": "/images/timeline/tl139.webp"
   },
   {
     "id": "tl140",
@@ -1537,7 +1537,7 @@
     "pays": ["Chili"],
     "theme": "culture",
     "difficulte": 3,
-    "image": "/images/timeline/tl140.png"
+    "image": "/images/timeline/tl140.webp"
   },
   {
     "id": "tl141",
@@ -1548,7 +1548,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 1,
-    "image": "/images/timeline/tl141.png"
+    "image": "/images/timeline/tl141.webp"
   },
   {
     "id": "tl142",
@@ -1559,7 +1559,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl142.png"
+    "image": "/images/timeline/tl142.webp"
   },
   {
     "id": "tl143",
@@ -1570,7 +1570,7 @@
     "pays": ["Pérou"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl143.png"
+    "image": "/images/timeline/tl143.webp"
   },
   {
     "id": "tl144",
@@ -1581,7 +1581,7 @@
     "pays": ["Chili"],
     "theme": "culture",
     "difficulte": 1,
-    "image": "/images/timeline/tl144.png"
+    "image": "/images/timeline/tl144.webp"
   },
   {
     "id": "tl145",
@@ -1592,7 +1592,7 @@
     "pays": ["Argentine", "Chili"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl145.png"
+    "image": "/images/timeline/tl145.webp"
   },
   {
     "id": "tl146",
@@ -1603,7 +1603,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 1,
-    "image": "/images/timeline/tl146.png"
+    "image": "/images/timeline/tl146.webp"
   },
   {
     "id": "tl147",
@@ -1614,7 +1614,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl147.png"
+    "image": "/images/timeline/tl147.webp"
   },
   {
     "id": "tl148",
@@ -1625,7 +1625,7 @@
     "pays": ["Argentine"],
     "theme": "sport",
     "difficulte": 3,
-    "image": "/images/timeline/tl148.png"
+    "image": "/images/timeline/tl148.webp"
   },
   {
     "id": "tl149",
@@ -1636,7 +1636,7 @@
     "pays": ["Equateur"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl149.png"
+    "image": "/images/timeline/tl149.webp"
   },
   {
     "id": "tl150",
@@ -1647,7 +1647,7 @@
     "pays": ["Equateur"],
     "theme": "culture",
     "difficulte": 2,
-    "image": "/images/timeline/tl150.png"
+    "image": "/images/timeline/tl150.webp"
   },
   {
     "id": "tl151",
@@ -1658,7 +1658,7 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl151.png"
+    "image": "/images/timeline/tl151.webp"
   },
   {
     "id": "tl152",
@@ -1669,7 +1669,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl152.png"
+    "image": "/images/timeline/tl152.webp"
   },
   {
     "id": "tl153",
@@ -1680,7 +1680,7 @@
     "pays": ["Argentine"],
     "theme": "sport",
     "difficulte": 1,
-    "image": "/images/timeline/tl153.png"
+    "image": "/images/timeline/tl153.webp"
   },
   {
     "id": "tl154",
@@ -1691,7 +1691,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl154.png"
+    "image": "/images/timeline/tl154.webp"
   },
   {
     "id": "tl155",
@@ -1702,7 +1702,7 @@
     "pays": ["Chili"],
     "theme": "gastronomie",
     "difficulte": 3,
-    "image": "/images/timeline/tl155.png"
+    "image": "/images/timeline/tl155.webp"
   },
   {
     "id": "tl156",
@@ -1713,7 +1713,7 @@
     "pays": ["Equateur", "Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl156.png"
+    "image": "/images/timeline/tl156.webp"
   },
   {
     "id": "tl157",
@@ -1724,7 +1724,7 @@
     "pays": ["Equateur"],
     "theme": "sport",
     "difficulte": 3,
-    "image": "/images/timeline/tl157.png"
+    "image": "/images/timeline/tl157.webp"
   },
   {
     "id": "tl158",
@@ -1735,7 +1735,7 @@
     "pays": ["Equateur", "Pérou"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl158.png"
+    "image": "/images/timeline/tl158.webp"
   },
   {
     "id": "tl159",
@@ -1746,7 +1746,7 @@
     "pays": ["Chili"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl159.png"
+    "image": "/images/timeline/tl159.webp"
   },
   {
     "id": "tl160",
@@ -1757,7 +1757,7 @@
     "pays": ["Equateur"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl160.png"
+    "image": "/images/timeline/tl160.webp"
   },
   {
     "id": "tl161",
@@ -1768,7 +1768,7 @@
     "pays": ["Equateur"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl161.png"
+    "image": "/images/timeline/tl161.webp"
   },
   {
     "id": "tl162",
@@ -1779,7 +1779,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 3,
-    "image": "/images/timeline/tl162.png"
+    "image": "/images/timeline/tl162.webp"
   },
   {
     "id": "tl163",
@@ -1790,7 +1790,7 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl163.png"
+    "image": "/images/timeline/tl163.webp"
   },
   {
     "id": "tl164",
@@ -1801,7 +1801,7 @@
     "pays": ["Chili"],
     "theme": "sport",
     "difficulte": 3,
-    "image": "/images/timeline/tl164.png"
+    "image": "/images/timeline/tl164.webp"
   },
   {
     "id": "tl165",
@@ -1812,7 +1812,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl165.png"
+    "image": "/images/timeline/tl165.webp"
   },
   {
     "id": "tl166",
@@ -1823,7 +1823,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl166.png"
+    "image": "/images/timeline/tl166.webp"
   },
   {
     "id": "tl167",
@@ -1834,7 +1834,7 @@
     "pays": ["Pérou"],
     "theme": "culture",
     "difficulte": 1,
-    "image": "/images/timeline/tl167.png"
+    "image": "/images/timeline/tl167.webp"
   },
   {
     "id": "tl168",
@@ -1845,7 +1845,7 @@
     "pays": ["Argentine", "Chili"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl168.png"
+    "image": "/images/timeline/tl168.webp"
   },
   {
     "id": "tl169",
@@ -1856,7 +1856,7 @@
     "pays": ["Chili"],
     "theme": "histoire",
     "difficulte": 1,
-    "image": "/images/timeline/tl169.png"
+    "image": "/images/timeline/tl169.webp"
   },
   {
     "id": "tl170",
@@ -1867,7 +1867,7 @@
     "pays": ["Chili", "Argentine"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl170.png"
+    "image": "/images/timeline/tl170.webp"
   },
   {
     "id": "tl171",
@@ -1878,7 +1878,7 @@
     "pays": ["Chili"],
     "theme": "science",
     "difficulte": 2,
-    "image": "/images/timeline/tl171.png"
+    "image": "/images/timeline/tl171.webp"
   },
   {
     "id": "tl172",
@@ -1889,7 +1889,7 @@
     "pays": ["Argentine"],
     "theme": "histoire",
     "difficulte": 1,
-    "image": "/images/timeline/tl172.png"
+    "image": "/images/timeline/tl172.webp"
   },
   {
     "id": "tl173",
@@ -1900,7 +1900,7 @@
     "pays": ["Chili"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl173.png"
+    "image": "/images/timeline/tl173.webp"
   },
   {
     "id": "tl174",
@@ -1911,7 +1911,7 @@
     "pays": ["Equateur"],
     "theme": "science",
     "difficulte": 3,
-    "image": "/images/timeline/tl174.png"
+    "image": "/images/timeline/tl174.webp"
   },
   {
     "id": "tl175",
@@ -1922,7 +1922,7 @@
     "pays": ["Bolivie"],
     "theme": "histoire",
     "difficulte": 2,
-    "image": "/images/timeline/tl175.png"
+    "image": "/images/timeline/tl175.webp"
   },
   {
     "id": "tl176",
@@ -1933,7 +1933,7 @@
     "pays": ["Chili"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl176.png"
+    "image": "/images/timeline/tl176.webp"
   },
   {
     "id": "tl177",
@@ -1944,7 +1944,7 @@
     "pays": ["Equateur"],
     "theme": "sport",
     "difficulte": 3,
-    "image": "/images/timeline/tl177.png"
+    "image": "/images/timeline/tl177.webp"
   },
   {
     "id": "tl178",
@@ -1955,7 +1955,7 @@
     "pays": ["Bolivie", "Argentine"],
     "theme": "sport",
     "difficulte": 2,
-    "image": "/images/timeline/tl178.png"
+    "image": "/images/timeline/tl178.webp"
   },
   {
     "id": "tl179",
@@ -1966,6 +1966,6 @@
     "pays": ["Chili"],
     "theme": "nature",
     "difficulte": 3,
-    "image": "/images/timeline/tl179.png"
+    "image": "/images/timeline/tl179.webp"
   }
 ]

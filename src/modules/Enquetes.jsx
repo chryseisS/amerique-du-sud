@@ -81,7 +81,7 @@ export default function Enquetes() {
         {/* Escapes — regroupé ici avec les enquêtes */}
         <Link to="/jeux/escapes"
               className="flex gap-3.5 items-stretch bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-3 shadow-[0_4px_12px_rgba(60,40,20,0.12)] transition-transform duration-200 hover:-translate-y-0.5">
-          <Vignette image="/images/jeux/escapes/vignette.jpg" />
+          <Vignette image="/images/jeux/escapes/vignette.webp" />
           <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
             <div>
               <h3 className="font-serif text-[16px] leading-tight text-encre font-semibold m-0">Escape books</h3>
