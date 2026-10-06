@@ -1,12 +1,6 @@
 import { useState } from 'react';
-import { Check, ChevronDown, Wine, Cookie, UtensilsCrossed, PenLine, Trash2, Calendar } from 'lucide-react';
-import { COULEURS_PAYS, COULEURS_TYPE, couleursDuPlat } from '../donnees/constantes';
-
-const ICONE_TYPE = {
-  'Plat': UtensilsCrossed,
-  'Boisson': Wine,
-  'Dessert': Cookie,
-};
+import { Check, ChevronDown, PenLine, Trash2, Calendar } from 'lucide-react';
+import { couleursDuType, ICONES_TYPES_GASTRONOMIE } from '../donnees/constantes';
 
 /**
  * CartePlat
@@ -23,9 +17,8 @@ function CartePlat({ plat, avis, onAjouter, onSupprimer }) {
   const [texteAvis, setTexteAvis] = useState('');
   const [enCours, setEnCours] = useState(false);
 
-  const cPays = couleursDuPlat(plat);
-  const cType = COULEURS_TYPE[plat.type] || COULEURS_TYPE['Plat'];
-  const Icone = ICONE_TYPE[plat.type] || UtensilsCrossed;
+  const cType = couleursDuType(plat.type);
+  const urlIcone = ICONES_TYPES_GASTRONOMIE[plat.type] || ICONES_TYPES_GASTRONOMIE.Plat;
 
   const teste = avis !== undefined;
 
@@ -46,16 +39,10 @@ function CartePlat({ plat, avis, onAjouter, onSupprimer }) {
       className="bg-terra-100 border border-[#D9CDB5] rounded-xl mb-2 overflow-hidden relative"
       style={{ borderLeftWidth: 0 }}
     >
-      {/* Barre verticale colorée par pays */}
+      {/* Barre verticale colorée par type (Boisson / Plat / Dessert) */}
       <div
         className="absolute left-0 top-0 bottom-0 w-[3px]"
-        style={{ backgroundColor: cPays.barre }}
-      />
-
-      {/* Liseré coloré par type (Boisson / Plat / Dessert) */}
-      <div
-        className="absolute right-0 top-0 bottom-0 w-[3px]"
-        style={{ backgroundColor: cType }}
+        style={{ backgroundColor: cType.barre }}
       />
 
       {/* ─── Ligne principale ─── */}
@@ -67,12 +54,26 @@ function CartePlat({ plat, avis, onAjouter, onSupprimer }) {
         }}
         className="w-full flex items-start gap-2.5 pl-4 pr-3.5 py-2.5 text-left"
       >
-        {/* Icône ronde colorée par pays */}
+        {/* Pastille ronde colorée par type, avec le SVG du type (masque : prend la couleur du texte) */}
         <div
           className="w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0"
-          style={{ backgroundColor: cPays.iconBg, color: cPays.iconText }}
+          style={{ backgroundColor: cType.iconBg }}
         >
-          <Icone className="w-[18px] h-[18px]" strokeWidth={2} />
+          <span
+            aria-hidden="true"
+            className="block w-[20px] h-[20px]"
+            style={{
+              backgroundColor: cType.iconText,
+              WebkitMaskImage: `url(${urlIcone})`,
+              maskImage: `url(${urlIcone})`,
+              WebkitMaskRepeat: 'no-repeat',
+              maskRepeat: 'no-repeat',
+              WebkitMaskPosition: 'center',
+              maskPosition: 'center',
+              WebkitMaskSize: 'contain',
+              maskSize: 'contain',
+            }}
+          />
         </div>
 
         {/* Bloc texte : nom + (pays · pastille type) */}
@@ -89,7 +90,7 @@ function CartePlat({ plat, avis, onAjouter, onSupprimer }) {
             </span>
             <span
               className="text-white text-[10px] font-medium px-2 py-0.5 rounded-md"
-              style={{ backgroundColor: cType }}
+              style={{ backgroundColor: cType.barre }}
             >
               {plat.type}
             </span>
@@ -133,7 +134,7 @@ function CartePlat({ plat, avis, onAjouter, onSupprimer }) {
             >
               <span
                 className="absolute left-2 top-0.5 text-2xl not-italic font-serif leading-none"
-                style={{ color: cPays.accent }}
+                style={{ color: cType.accent }}
               >
                 «
               </span>

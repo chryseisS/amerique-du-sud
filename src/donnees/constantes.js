@@ -68,6 +68,23 @@ export const COULEURS_TYPE = {
   Dessert: '#d4872a', // ambre
 };
 
+// Couleurs par TYPE de plat (utilisées par CartePlat : barre, pastille d'icône, badge, guillemet)
+export const COULEURS_TYPES_GASTRONOMIE = {
+  Plat:    { barre: '#c9623f', iconBg: '#FBEAE6', iconText: '#7A2C1C', accent: '#c9623f' }, // terracotta
+  Dessert: { barre: '#7a4f2e', iconBg: '#F1E6DA', iconText: '#4D3019', accent: '#7a4f2e' }, // brun
+  Boisson: { barre: '#d4872a', iconBg: '#FBEEDC', iconText: '#7a4f13', accent: '#d4872a' }, // ambre
+};
+
+export const couleursDuType = (type) =>
+  COULEURS_TYPES_GASTRONOMIE[type] || COULEURS_TYPES_GASTRONOMIE.Plat;
+
+// SVG monochromes, colorés via un masque CSS (voir CartePlat.jsx)
+export const ICONES_TYPES_GASTRONOMIE = {
+  Plat:    '/images/journal/plat.svg',
+  Boisson: '/images/journal/boisson.svg',
+  Dessert: '/images/journal/dessert.svg',
+};
+
 export const couleursDuPlat = (plat) => {
   const pays = Array.isArray(plat.pays) ? plat.pays[0] : plat.pays;
   return COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
