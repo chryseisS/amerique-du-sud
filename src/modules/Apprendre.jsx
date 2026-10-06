@@ -14,7 +14,7 @@ function Apprendre() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `url('${cheminImage('/images/themes/header_apprendre.png')}')`,
+            backgroundImage: `url('${cheminImage('/images/themes/header_apprendre.webp')}')`,
             backgroundSize: '100% 100%',
             backgroundPosition: 'center',
             WebkitMaskImage: 'linear-gradient(to bottom, black 0%, black 95%, transparent 100%)',

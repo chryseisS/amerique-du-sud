@@ -8,63 +8,63 @@
         "titre": "Les Incas",
         "sousTitre": null,
         "fichier": "incas",
-        "image": "/images/themes/incas.jpg"
+        "image": "/images/themes/incas.webp"
       },
       {
         "id": "conquete",
         "titre": "La conquête espagnole",
         "sousTitre": null,
         "fichier": "conquete",
-        "image": "/images/themes/conquete.jpg"
+        "image": "/images/themes/conquete.webp"
       },
       {
         "id": "coloniale",
         "titre": "L'époque coloniale",
         "sousTitre": null,
         "fichier": "coloniale",
-        "image": "/images/themes/coloniale.jpg"
+        "image": "/images/themes/coloniale.webp"
       },
       {
         "id": "independances",
         "titre": "Les indépendances",
         "sousTitre": null,
         "fichier": "independances",
-        "image": "/images/themes/independances.png"
+        "image": "/images/themes/independances.webp"
       },
       {
         "id": "fragmentation",
         "titre": "La Fragmentation",
         "sousTitre": null,
         "fichier": "fragmentation",
-        "image": "/images/themes/fragmentation.png"
+        "image": "/images/themes/fragmentation.webp"
       },
       {
         "id": "siecle-frontieres",
         "titre": "Le siècle des frontières",
         "sousTitre": null,
         "fichier": "siecle-frontiere",
-        "image": "/images/themes/siecle-frontieres.png"
+        "image": "/images/themes/siecle-frontieres.webp"
       },
       {
         "id": "siecle-foules",
         "titre": "Le siècle des foules",
         "sousTitre": null,
         "fichier": "siecle-foules",
-        "image": "/images/themes/siecle-foules.png"
+        "image": "/images/themes/siecle-foules.webp"
       },
       {
         "id": "guerre-froide",
         "titre": "La guerre froide sud-américaine",
         "sousTitre": null,
         "fichier": "guerre-froide",
-        "image": "/images/themes/guerre-froide.png"
+        "image": "/images/themes/guerre-froide.webp"
       },
       {
         "id": "apres-1990",
         "titre": "L'après 1990",
         "sousTitre": null,
         "fichier": "apres-1990",
-        "image": "/images/themes/apres-1990.png"
+        "image": "/images/themes/apres-1990.webp"
       }
     ]
   },
@@ -77,21 +77,21 @@
         "titre": "Ingrédients emblématiques",
         "sousTitre": null,
         "fichier": "ingredients",
-        "image": "/images/themes/ingredients.jpg"
+        "image": "/images/themes/ingredients.webp"
       },
       {
         "id": "perou",
         "titre": "Pérou, Bolivie et Equateur",
         "sousTitre": null,
         "fichier": "perou",
-        "image": "/images/themes/perou.png"
+        "image": "/images/themes/perou.webp"
       },
       {
         "id": "chili",
         "titre": "Chili et Argentine",
         "sousTitre": null,
         "fichier": "chili",
-        "image": "/images/themes/chili.png"
+        "image": "/images/themes/chili.webp"
       }
     ]
   },
@@ -104,35 +104,35 @@
         "titre": "Mythologie inca et andine",
         "sousTitre": null,
         "fichier": "mythologie-inca",
-        "image": "/images/themes/mythologie-inca.png"
+        "image": "/images/themes/mythologie-inca.webp"
       },
       {
         "id": "mythologie-amazonie",
         "titre": "Légendes de l'Amazonie",
         "sousTitre": null,
         "fichier": "mythologie-amazonie",
-        "image": "/images/themes/mythologie-amazonie.png"
+        "image": "/images/themes/mythologie-amazonie.webp"
       },
       {
         "id": "mythologie-chiloe",
         "titre": "Bestiaire fantastique de Chiloé",
         "sousTitre": null,
         "fichier": "mythologie-chiloe",
-        "image": "/images/themes/mythologie-chiloe.png"
+        "image": "/images/themes/mythologie-chiloe.webp"
       },
       {
         "id": "mythologie-mapuche",
         "titre": "Mythes mapuches",
         "sousTitre": null,
         "fichier": "mythologie-mapuche",
-        "image": "/images/themes/mythologie-mapuche.png"
+        "image": "/images/themes/mythologie-mapuche.webp"
       },
       {
         "id": "mythologie-bolivie",
         "titre": "Mythes de l'Altiplano bolivien",
         "sousTitre": null,
         "fichier": "mythologie-bolivie",
-        "image": "/images/themes/mythologie-bolivie.png"
+        "image": "/images/themes/mythologie-bolivie.webp"
       }
     ]
   },
@@ -145,42 +145,42 @@
         "titre": "L'Amazonie",
         "sousTitre": null,
         "fichier": "amazonie",
-        "image": "/images/themes/amazonie.png"
+        "image": "/images/themes/amazonie.webp"
       },
       {
         "id": "andes",
         "titre": "Les Andes",
         "sousTitre": null,
         "fichier": "andes",
-        "image": "/images/themes/andes.png"
+        "image": "/images/themes/andes.webp"
       },
       {
         "id": "patagonie",
         "titre": "La Patagonie",
         "sousTitre": null,
         "fichier": "patagonie",
-        "image": "/images/themes/patagonie.png"
+        "image": "/images/themes/patagonie.webp"
       },
       {
         "id": "desert",
         "titre": "Déserts et terres arides",
         "sousTitre": null,
         "fichier": "desert",
-        "image": "/images/themes/atacama.png"
+        "image": "/images/themes/atacama.webp"
       },
       {
         "id": "galapagos",
         "titre": "Les Galapagos",
         "sousTitre": null,
         "fichier": "galapagos",
-        "image": "/images/themes/galapagos.png"
+        "image": "/images/themes/galapagos.webp"
       },
       {
         "id": "faune",
         "titre": "Faune emblématique",
         "sousTitre": null,
         "fichier": "faune",
-        "image": "/images/themes/faune.png"
+        "image": "/images/themes/faune.webp"
       }
     ]
   },
@@ -193,48 +193,48 @@
         "titre": "Danse",
         "sousTitre": null,
         "fichier": "danse",
-        "image": "/images/themes/danse.png"
+        "image": "/images/themes/danse.webp"
       },
       {
         "id": "musique",
         "titre": "Musique",
         "fichier": "musique",
-        "image": "/images/themes/musique.png"
+        "image": "/images/themes/musique.webp"
       },
       {
         "id": "langues",
         "titre": "Langues vivantes",
         "sousTitre": null,
         "fichier": "langues",
-        "image": "/images/themes/langues.png"
+        "image": "/images/themes/langues.webp"
       },
       {
         "id": "peuples",
         "titre": "Peuples indigènes",
         "sousTitre": null,
         "fichier": "peuples",
-        "image": "/images/themes/peuples.png"
+        "image": "/images/themes/peuples.webp"
       },
       {
         "id": "art",
         "titre": "Art et artisanat",
         "sousTitre": null,
         "fichier": "art",
-        "image": "/images/themes/arts.png"
+        "image": "/images/themes/arts.webp"
       },
       {
         "id": "fetes",
         "titre": "Fêtes et traditions",
         "sousTitre": null,
         "fichier": "fetes",
-        "image": "/images/themes/fetes.png"
+        "image": "/images/themes/fetes.webp"
       },
       {
         "id": "litterature",
         "titre": "Littérature",
         "sousTitre": null,
         "fichier": "litterature",
-        "image": "/images/themes/litterature.png"
+        "image": "/images/themes/litterature.webp"
       }
     ]
   }
