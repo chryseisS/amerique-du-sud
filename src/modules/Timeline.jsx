@@ -44,7 +44,7 @@ import CARTES from '../donnees/timeline.json';
 
 const MODES = [
   { cle: 'facile', libelle: 'Facile', filtre: (c) => c.difficulte === 1 || c.difficulte === 2 },
-  { cle: 'difficile', libelle: 'Difficile', filtre: (c) => c.difficulte === 3 },
+  { cle: 'difficile', libelle: 'Difficile', filtre: (c) => c.difficulte === 1 || c.difficulte === 2 || c.difficulte === 3 },
 ];
 
 // Dimensions de la frise (≈ 4 dates visibles sur un téléphone)
