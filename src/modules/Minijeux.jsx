@@ -26,8 +26,8 @@ const JEUX = [
     desc: 'Fais deviner un mot sans utiliser les mots interdits.',
   },
   {
-    id: 'duel-vocabulaire', titre: 'Duel de vocabulaire', to: '/jeux/mini-jeux/duel-vocabulaire', Icone: Swords,
-    desc: 'Duelo de vocabulario — le premier à sécher a perdu.',
+    id: 'duel-vocabulaire', titre: 'Duelo de vocabulario', to: '/jeux/mini-jeux/duel-vocabulaire', Icone: Swords,
+    desc: 'Duel de vocabulaire — le premier à sécher a perdu.',
   },
   {
     id: 'timeline', titre: 'Timeline', to: '/jeux/mini-jeux/timeline', Icone: History,
