@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Check, ChevronDown, PenLine, Trash2, Calendar } from 'lucide-react';
 import { couleursDuType, ICONES_TYPES_GASTRONOMIE } from '../donnees/constantes';
+import { cheminImage } from '../utils/cheminImage';
 
 /**
  * CartePlat
@@ -18,7 +19,7 @@ function CartePlat({ plat, avis, onAjouter, onSupprimer }) {
   const [enCours, setEnCours] = useState(false);
 
   const cType = couleursDuType(plat.type);
-  const urlIcone = ICONES_TYPES_GASTRONOMIE[plat.type] || ICONES_TYPES_GASTRONOMIE.Plat;
+  const urlIcone = cheminImage(ICONES_TYPES_GASTRONOMIE[plat.type] || ICONES_TYPES_GASTRONOMIE.Plat);
 
   const teste = avis !== undefined;
 

@@ -4,6 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, Check, X, Play, RotateCcw, Trophy, Flag, Plus } from 'lucide-react';
 import { db } from '../db';
 import { DRAPEAUX } from '../donnees/constantes';
+import { cheminImage } from '../utils/cheminImage';
 import CARTES from '../donnees/timeline.json';
 
 /* ════════════════════════════════════════════════════════════════════
@@ -43,7 +44,7 @@ import CARTES from '../donnees/timeline.json';
 
 const MODES = [
   { cle: 'facile', libelle: 'Facile', filtre: (c) => c.difficulte === 1 || c.difficulte === 2 },
-  { cle: 'difficile', libelle: 'Difficile', filtre: (c) => c.difficulte === 1 || c.difficulte === 2 || c.difficulte === 3 },
+  { cle: 'difficile', libelle: 'Difficile', filtre: (c) => c.difficulte === 3 },
 ];
 
 // Dimensions de la frise (≈ 4 dates visibles sur un téléphone)
@@ -105,7 +106,7 @@ function Drapeaux({ pays, petit }) {
       {liste.map((p) => (
         <span key={p} className="inline-flex items-center gap-1">
           {DRAPEAUX?.[p] && (
-            <img src={DRAPEAUX[p]} alt="" className={`${petit ? 'w-3 h-2' : 'w-4 h-3'} object-cover rounded-[2px]`} />
+            <img src={cheminImage(DRAPEAUX[p])} alt="" className={`${petit ? 'w-3 h-2' : 'w-4 h-3'} object-cover rounded-[2px]`} />
           )}
           {!petit && p}
         </span>
@@ -138,7 +139,7 @@ function CarteJeu({ carte, annee = 'cachee', onFermer, pointilles }) {
         {carte.titre}
       </p>
       {carte.image && (
-        <img src={carte.image} alt="" className="w-full aspect-square object-cover rounded-xl mt-2.5 border border-parchemin-bordure" />
+        <img src={cheminImage(carte.image)} alt="" className="w-full aspect-square object-cover rounded-xl mt-2.5 border border-parchemin-bordure" />
       )}
       {carte.description && (
         <p className="text-[12px] text-encre-douce leading-snug mt-2.5">{carte.description}</p>

@@ -71,8 +71,8 @@ export const COULEURS_TYPE = {
 // Couleurs par TYPE de plat (utilisées par CartePlat : barre, pastille d'icône, badge, guillemet)
 export const COULEURS_TYPES_GASTRONOMIE = {
   Plat:    { barre: '#c9623f', iconBg: '#FBEAE6', iconText: '#7A2C1C', accent: '#c9623f' }, // terracotta
-  Dessert: { barre: '#7a4f2e', iconBg: '#F1E6DA', iconText: '#4D3019', accent: '#7a4f2e' }, // brun
-  Boisson: { barre: '#d4872a', iconBg: '#FBEEDC', iconText: '#7a4f13', accent: '#d4872a' }, // ambre
+  Boisson: { barre: '#7a4f2e', iconBg: '#F1E6DA', iconText: '#4D3019', accent: '#7a4f2e' }, // brun
+  Dessert: { barre: '#d4872a', iconBg: '#FBEEDC', iconText: '#7a4f13', accent: '#d4872a' }, // ambre
 };
 
 export const couleursDuType = (type) =>
