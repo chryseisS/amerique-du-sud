@@ -120,6 +120,7 @@ export default function Reglages() {
 
     setEnCours('import');
     setMessage(null);
+    window.dispatchEvent(new Event('import-debut'));   // met le watcher des surprises en pause
     try {
       await importInto(db, fichier, { clearTablesBeforeImport: true });
       await rafraichir();
@@ -128,6 +129,7 @@ export default function Reglages() {
       console.error('Erreur import :', err);
       setMessage({ type: 'erreur', texte: "L'import a échoué. Le fichier est-il bien un export de cette app ?" });
     } finally {
+      window.dispatchEvent(new Event('import-fin'));   // relance le watcher sur la base restaurée
       setEnCours(null);
     }
   }
@@ -196,7 +198,8 @@ export default function Reglages() {
               <div className="font-serif text-lg text-terra-900 leading-tight">Notifications</div>
               <p className="text-[11.5px] text-terra-muted mt-1 leading-snug">
                 L'app n'envoie aucune notification. Les autoriser ne sert qu'à tenter de
-                débloquer le stockage persistant sur Safari.
+                débloquer le stockage persistant sur Safari — sans garantie, mais sans risque
+                non plus. À faire depuis l'app ouverte via l'écran d'accueil.
               </p>
             </div>
 

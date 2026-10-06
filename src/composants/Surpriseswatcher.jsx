@@ -34,6 +34,13 @@ import SURPRISES from '../donnees/surprises.json';
      (ouvre directement sa page) ou "Plus tard" (ferme simplement).
    • S'il y a plusieurs déblocages d'un coup, les notifications
      s'enchaînent une par une.
+   • Pendant un import de sauvegarde (Reglages.jsx envoie les événements
+     'import-debut' / 'import-fin'), le watcher se met en pause : la base
+     est alors vidée puis réécrite table par table, et il pourrait voir
+     des événements restaurés avant les surprises déjà débloquées, donc
+     tout re-débloquer et notifier. À la fin de l'import, la file de
+     notifications est vidée et tout est re-vérifié sur la base propre
+     (seules les surprises vraiment nouvelles notifieront).
    • Un tic toutes les 5 minutes force une re-vérification, pour que
      'date' se débloque même si l'app reste ouverte en arrière-plan
      sans qu'aucune autre donnée ne change entretemps.
@@ -67,7 +74,24 @@ export default function SurprisesWatcher() {
   const [file, setFile] = useState([]);
   const enCours = useRef(new Set()); // évite de re-traiter une surprise pendant l'écriture Dexie en cours
 
+  const enPause = useRef(false); // true pendant un import de sauvegarde
+
   const [tic, setTic] = useState(0);
+  useEffect(() => {
+    const debut = () => { enPause.current = true; };
+    const fin = () => {
+      enCours.current.clear();
+      setFile([]);                  // jette les notifications nées pendant l'import
+      enPause.current = false;
+      setTic((t) => t + 1);         // re-vérifie sur la base restaurée
+    };
+    window.addEventListener('import-debut', debut);
+    window.addEventListener('import-fin', fin);
+    return () => {
+      window.removeEventListener('import-debut', debut);
+      window.removeEventListener('import-fin', fin);
+    };
+  }, []);
   useEffect(() => {
     const id = setInterval(() => setTic((t) => t + 1), 5 * 60 * 1000);
     return () => clearInterval(id);
@@ -78,9 +102,11 @@ export default function SurprisesWatcher() {
     // ce qui est déjà débloqué — ne rien vérifier pour éviter de
     // ré-écrire/ré-notifier une surprise déjà acquise.
     if (evenementsDB === undefined || debloqueesDB === undefined) return;
+    if (enPause.current) return;
 
     async function verifier() {
       for (const s of SURPRISES) {
+        if (enPause.current) return;
         if (debloqueesIds.has(s.id) || enCours.current.has(s.id)) continue;
         if (!estDeclenchee(s.declencheur, clesEvenements)) continue;
 
