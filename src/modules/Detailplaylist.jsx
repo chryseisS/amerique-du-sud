@@ -13,7 +13,7 @@ export default function DetailPlaylist() {
   if (!pays || !data) return <Navigate to="/jeux/medias/playlists" replace />;
 
   return (
-    <div className="fond-carte relative min-h-full overflow-hidden">
+    <div className="fond-carte-neutre relative min-h-full overflow-hidden">
       <div className="vignette-carte" aria-hidden="true" />
 
       {/* En-tête */}

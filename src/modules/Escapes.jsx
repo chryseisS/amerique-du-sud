@@ -74,7 +74,7 @@ export default function Escapes() {
   const faits = liste.filter((e) => faitesIds.has(e.id)).length;
 
   return (
-    <div className="fond-carte-escape relative min-h-full">
+    <div className="fond-carte-neutre relative min-h-full">
       <div className="grain-papier" aria-hidden="true" />
       <div className="vignette-carte" aria-hidden="true" />
 

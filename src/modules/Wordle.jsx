@@ -286,7 +286,7 @@ function Partie({ index, aujourdhui, parties }) {
   const traduction = traductionDe(solution);
 
   return (
-    <div className="fond-carte relative min-h-full overflow-hidden">
+    <div className="fond-carte-neutre relative min-h-full overflow-hidden">
       <div className="vignette-carte" aria-hidden="true" />
       <Entete
         retour={estRattrapage ? '/jeux/mini-jeux/wordle/rattrapage' : '/jeux/mini-jeux'}
@@ -366,7 +366,7 @@ export default function Wordle() {
 
   if (aujourdhui < 0 || SOLUTIONS.length === 0) {
     return (
-      <div className="fond-carte relative min-h-full overflow-hidden">
+      <div className="fond-carte-neutre relative min-h-full overflow-hidden">
         <div className="vignette-carte" aria-hidden="true" />
         <Entete retour="/jeux/mini-jeux" sousTitre="" nbRattrapage={0} onStats={() => {}} />
         <div className="relative px-5 pt-6">

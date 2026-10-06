@@ -19,7 +19,7 @@ export default function WordleRattrapage() {
   const jours = joursARattraper(parties, indexAujourdhui());
 
   return (
-    <div className="fond-carte relative min-h-full overflow-hidden">
+    <div className="fond-carte-neutre relative min-h-full overflow-hidden">
       <div className="vignette-carte" aria-hidden="true" />
 
       <div className="relative px-5 pt-5 pb-1">

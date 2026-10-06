@@ -17,7 +17,7 @@ import { cheminImage } from '../utils/cheminImage';
 
 export default function Playlists() {
   return (
-    <div className="fond-carte relative min-h-full overflow-hidden">
+    <div className="fond-carte-neutre relative min-h-full overflow-hidden">
       <div className="vignette-carte" aria-hidden="true" />
 
       {/* En-tête */}

@@ -371,7 +371,7 @@ export default function Timeline() {
   // ─── ACCUEIL ───
   if (phase === 'accueil') {
     return (
-      <div className="fond-carte relative min-h-full overflow-hidden">
+      <div className="fond-carte-neutre relative min-h-full overflow-hidden">
         <div className="vignette-carte" aria-hidden="true" />
         <Entete />
 
@@ -431,7 +431,7 @@ export default function Timeline() {
   const enJeu = phase === 'jeu';
 
   return (
-    <div className="fond-carte relative min-h-full overflow-hidden">
+    <div className="fond-carte-neutre relative min-h-full overflow-hidden">
       <div className="vignette-carte" aria-hidden="true" />
       <Entete />
 
