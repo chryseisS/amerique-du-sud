@@ -12,7 +12,7 @@ function DetailActivite() {
   const { slug } = useParams();
   const navigate = useNavigate();
   const activite = activites.find((a) => versSlug(a.nom) === slug);
-  const pays = activite[0]?.pays;
+  const pays = activite?.pays;
   const couleurs = COULEURS_PAYS[pays] || COULEURS_PAYS['Pérou'];
 
   if (!activite) {

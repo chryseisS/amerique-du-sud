@@ -369,5 +369,15 @@
     "indice": "Les Moaïs tournent le dos à l'océan. Ils veillent sur les vivants.\n\nUne vieille femme vous interpelle : « Mot de passe ? »",
     "titreVerrou": "Le secret des ancêtres",
     "conditionVerrou": "À un endroit particulier"
+  },
+  {
+    "id": "fin-voyage",
+    "titre": "Fin du voyage",
+    "defiTitre": "SOUVENIRS DÉFORMÉS",
+    "raison": "Débloqué à la fin du voyage",
+    "texte": "Vous pensiez connaître les endroits que vous avez visités ?\n\nPas si sûr…\n\nCertains de vos souvenirs ont été complètement transformés.\n\nSaurez-vous reconnaître votre voyage… sous sa forme la plus étrange ?",
+    "declencheur": { "type": "date", "valeur": "2026-09-28" },
+    "titreVerrou": "A un moment particulier",
+    "conditionVerrou": "Se débloque le 25 février 2028"
   }
 ]

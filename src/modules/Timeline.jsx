@@ -379,7 +379,7 @@ export default function Timeline() {
         <div className="relative px-5 pt-5 pb-8 flex flex-col gap-4">
           <div className="bg-parchemin-carte border border-parchemin-bordure rounded-2xl p-5 shadow-[0_4px_12px_rgba(60,40,20,0.12)]">
             <p className="font-serif text-[15px] text-encre font-semibold mb-2">Règles</p>
-            <p className="text-[12.5px] text-encre-douce leading-relaxed">
+            <p className="text-[12.5px] text-justify text-encre-douce leading-relaxed">
               Une première carte est posée, année visible. Chaque nouvelle carte arrive
               année cachée : choisis sa place sur la frise, puis valide.
               Bien placée, elle rejoint la frise. Mal placée, la partie s'arrête.

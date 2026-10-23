@@ -144,15 +144,17 @@ export const ICONES_ZONES = {
   // Bolivie
   'la-paz':          '/images/zones/la-paz.png',
   'uyuni':           '/images/zones/uyuni.png',
-  'rurrenabaque':      '/images/zones/cochabamba.png',
+  'rurrenabaque':      '/images/zones/rurrenabaque.png',
   'sucre':           '/images/zones/sucre.png',
   'tupiza':           '/images/zones/tupiza.png',
+  'cochabamba':           '/images/zones/cochabamba.png',
  
   // Equateur
   'quito':           '/images/zones/quito.png',
   'cuenca':          '/images/zones/cuenca.png',
   'ambato':          '/images/zones/ambato.png',
   'galapagos':       '/images/zones/galapagos.png',
+  'loja':       '/images/zones/loja.png',
  
   // Chili
   'nord-du-chili':       '/images/zones/nord-du-chili.png',
@@ -170,7 +172,7 @@ export const ICONES_ZONES = {
   'bariloche-chalten':         '/images/zones/bariloche-chalten.png',
 };
 
-export const ZONES_SI_TEMPS = ['Chachapoyas', 'Ayacucho'];
+export const ZONES_SI_TEMPS = ['Chachapoyas', 'Ayacucho', 'Cochabamba'];
 
 export const estIncontournable = (a) => (a.importance ?? 0) >= 5;
 

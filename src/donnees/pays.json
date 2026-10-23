@@ -4,6 +4,10 @@
     "nom": "Equateur",
     "sections": [
       {
+        "titre": "Trajet et sécurité",
+        "contenu": "Passer par le poste frontière de La Tina – Macará. Eviter la route côtière côté équatorien.\n\nTrajet à suivre à l'aller et au retour : frontière - Loja - Cuenca - Quito."
+      },
+      {
         "titre": "Visa",
         "contenu": "Pas de visa nécessaire pour les ressortissants UE. Le tampon d'entrée autorise un séjour de 90 jours, renouvelable une fois sur place pour 90 jours supplémentaires (soit 180 jours maximum par an)."
       },
@@ -33,7 +37,7 @@
       },
       {
         "titre": "Conduite & sécurité routière",
-        "contenu": "Conduite à droite. Ceinture obligatoire pour tous les passagers. Téléphone au volant strictement interdit (amende élevée). Les contrôles de police (retenes) sont fréquents sur les axes principaux : toujours avoir passeport, carte grise et documents du van à portée.\n\nLes routes de montagne (páramo, entre Quito et Cuenca notamment) peuvent être enveloppées de brouillard dense en fin d'après-midi. Éviter de rouler la nuit en dehors des axes principaux.\n\nÉviter de laisser des affaires visibles dans le van en stationnement, notamment dans les grandes villes (Quito, Guayaquil)."
+        "contenu": "Conduite à droite. Ceinture obligatoire pour tous les passagers. Téléphone au volant strictement interdit (amende élevée). Les contrôles de police (retenes) sont fréquents sur les axes principaux : toujours avoir passeport, carte grise et documents du van à portée.\n\nAvoir des pièces sur soi pour payer les péages (pas de carte bleue).\n\nLes routes de montagne (páramo, entre Quito et Cuenca notamment) peuvent être enveloppées de brouillard dense en fin d'après-midi. Éviter de rouler la nuit en dehors des axes principaux.\n\nÉviter de laisser des affaires visibles dans le van en stationnement, notamment dans les grandes villes (Quito, Guayaquil)."
       }
     ]
   },
@@ -89,7 +93,7 @@
     "sections": [
       {
         "titre": "Trajet",
-        "contenu": "À l'aller, arrivée en Bolivie depuis le Chili et le désert d'Atacama. Passer par Uyuni pour faire une excursion au salar. Puis remonter vers La Paz. Selon le temps, visiter La Paz et le lac Titicaca. Puis remonter au Pérou.\n\nAu retour, passer par La Paz, puis descendre vers Sucre et Tupiza avant de rejoindre l'Argentine. Excursion en Amazonie à caler soit à l'aller soit au retour selon le temps disponible (avion depuis La Paz)."
+        "contenu": "À l'aller, arrivée en Bolivie depuis le Chili et le désert d'Atacama. Passer par Uyuni pour faire une excursion au salar. Puis remonter vers La Paz. Selon le temps, visiter La Paz et le lac Titicaca. Rester jusqu'au festival Gran Poder puis traverser la frontière pour aller au Pérou.\n\nAu retour, passer par La Paz, puis descendre vers Sucre et Tupiza avant de rejoindre l'Argentine. Excursion en Amazonie à caler soit à l'aller soit au retour selon le temps disponible (avion depuis La Paz).\n\nPour retirer de l'argent sans frais, aller aux banques Banco Union, Banco Ganadero ou BNB."
       },
       {
         "titre": "Documents obligatoires pour le van",
@@ -147,7 +151,7 @@
       },
       {
         "titre": "Patagonie & Tierra del Fuego",
-        "contenu": "Le vent est la contrainte principale : rafales régulières à 80-100 km/h autour de El Calafate et El Chaltén, parfois plus. Prévoir des ancres de tente pour les nuits en camping sauvage.\n\nUshuaia est accessible par la Route Nationale 3. La ville est le terminus et le point de départ des croisières en Antarctique — réserver l'hébergement à l'avance en haute saison (janvier-février).\n\nPas de réseau mobile fiable entre les villes de Patagonie."
+        "contenu": "Le vent est la contrainte principale : rafales régulières à 80-100 km/h autour de El Calafate et El Chaltén, parfois plus.\n\nPas de réseau mobile fiable entre les villes de Patagonie."
       },
       {
         "titre": "Urgences",
