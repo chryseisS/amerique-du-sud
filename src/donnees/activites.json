@@ -1,5 +1,17 @@
 [
   {
+    "type": "Culture",
+    "nom": "Santuario Arqueológico de Pachacamac",
+    "lieu": "Autour de Lima",
+    "lieuId": "lima",
+    "pays": "Pérou",
+    "sousZone": "Sud Lima",
+    "importance": null,
+    "duree": null,
+    "description": "Grand centre cérémoniel, religieux et d'oracles de la côte péruvienne, occupé successivement par les cultures Lima, Wari, Ichma puis par les Incas pendant plus de 1000 ans.\n\nVisite du musée de site très moderne (abritant l'idole originale en bois sculpté de Pachacamac et des textiles anciens) suivi du circuit archéologique extérieur à pied ou en véhicule : le Temple du Soleil (pyramide en adobes face à l'océan), l'Acllahuasi (Temple des Virgenes del Sol) magnifiquement conservé et le Temple Peint.\n\nFermé le lundi. Prix : 15 soles par personne.\n\nParking sécurisé et surveillé sur place.",
+    "visiteGuidee": true
+  },
+  {
     "type": "Randonnée",
     "nom": "Pallay Punchu",
     "lieu": "De Puno à Cuzco",
@@ -9,6 +21,30 @@
     "duree": null,
     "description": "Montagne située à 4h de route au sud de Cuzco. Une des montagnes colorées moins touristique que Vinicunca. Entrée de 10 soles. Le départ du trek peut s'effectuer à Layo, avec une montée de 8km pour monter au Pallay Punchu. Il est également possible de monter sur une route en terre pour aller directement au départ, juste à côté de la montagne.",
     "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Glacier Pastoruri",
+    "lieu": "Huaraz",
+    "lieuId": "huaraz",
+    "pays": "Pérou",
+    "sousZone": "Sud Huaraz",
+    "importance": null,
+    "duree": null,
+    "description": "Au sud de Huaraz. A faire en venant de Lima. Petite randonnée très courte qui permet de monter de 4900m à 5200m pour atteindre le glacier.\n\nSur le chemin du glacier vers Huaraz, possibilité de faire de courts arrêts aux endroits suivants :\n\n - Gruta San Patricio : une jolie grotte.\n\n - Puya Raimondi : une zone dans laquelle pousse une espèce endémique d'arbre.\n\n - Etang de Pumashimi, aussi appelé étang aux 7 couleurs, et source d'eau gazeuse naturelle (non potable) à proximité.\n\n - Lagune Patococha : petit lac avec des canards andins.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Laguna Churup",
+    "lieu": "Huaraz",
+    "lieuId": "huaraz",
+    "pays": "Pérou",
+    "sousZone": "Huaraz",
+    "importance": null,
+    "duree": null,
+    "description": "A côté de Huaraz. 6km aller-retour. Petite randonnée d'acclimatation pour atteindre une altitude de 4450m. Possibilité de monter via des câbles de via ferrata (sans baudrier).",
+    "visiteGuidee": false
   },
   {
     "type": "Trek",
@@ -113,13 +149,38 @@
   },
   {
     "type": "Trek",
-    "nom": "Trek Santa Cruz",
+    "nom": "Trek Huayhuash",
     "lieu": "Huaraz",
     "lieuId": "huaraz",
     "pays": "Pérou",
     "importance": 5,
+    "duree": "8 jours",
+    "images": ["huayhuash.PNG"],
+    "description": "Un des plus beaux et plus exigeants treks du monde : un col à plus de 4700 m presque chaque jour, 100 % en camping.\n\nAccès : laisser le van à Chiquián. Taxi Chiquián - Cuartelhuain (environ 200 soles, partageable entre plusieurs personnes). Le départ à Cuartelhuain permet d'éviter la première journée moins intéressante. Le bus public Chiquián - Llamac est rare (un seul départ par jour en fin d'après-midi), donc le taxi est la solution la plus simple. Il n'y a pas de transport public jusqu'à Cuartelhuain. On paie la communauté de Llamac (30 soles) à une barrière sur la route, même en taxi, et celle de Pocpa (15 soles) au camp de Cuartelhuain.\n\nFrais de communautés : environ 300 soles au total pour la boucle (autour de 30 à 60 soles par camp, Huayllapa autour de 60). Tout se paie en cash, prévoir beaucoup de petites coupures car il n'y a pas toujours de monnaie.\n\nNourriture : prévoir tout pour les 4 premiers jours. Réapprovisionnement possible à Huayllapa au jour 5 pour les jours 6 à 8.\n\nJour 1 : Cuartelhuain (4180 m) - col Cacanan (4700 m) - Mitucocha. Étape courte pour s'y mettre, à faire après le taxi du matin.\n\nJour 2 : Mitucocha - Punta Carnicero (environ 4800 m) - Carhuacocha. Premiers grands panoramas sur le Yerupajá et le Siula Grande.\n\nJour 3 : Carhuacocha - col Siula (4830 m) - camp Huayhuash (4350 m). Longue journée, environ 8 h.\n\nJour 4 : Camp Huayhuash - col Trapecio (environ 5035 m) - camp Elefante (environ 4400 m). Environ 7 h, journée la plus haute avec le jour 5.\n\nJour 5 : Elefante - col San Antonio (environ 5020 m) - Huayllapa (3487 m). Environ 8 h, grande descente jusqu'au village : on peut y manger, se ravitailler et camper.\n\nJour 6 : Huayllapa - col Tapush (4800 m) - Gashpapampa. Environ 7 h.\n\nJour 7 : Gashpapampa - Jahuacocha. Dernier camp au pied du Yerupajá et du Rondoy, un des plus beaux de la boucle.\n\nJour 8 : Jahuacocha - col Pampa Llamac (4300 m) - Llamac. Partir très tôt : le dernier colectivo public Llamac - Chiquián part vers 11 h.\n\nRetour : colectivo ou minibus Llamac - Chiquián (environ 20 à 30 soles par personne, parfois plus s'il n'y a pas assez de monde). Si on rate le colectivo, taxi Llamac - Chiquián pour environ 150 soles.\n\nÀ vérifier sur place avant de partir : les règles sur le trek en autonomie et les montants exacts des frais de communauté, qui changent selon les années (règle d'interdiction d'effectuer ce trek en autonomie, mais encore faisable fin 2026).",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Trek",
+    "nom": "Trek Santa Cruz",
+    "lieu": "Huaraz",
+    "lieuId": "huaraz",
+    "pays": "Pérou",
+    "images": ["santa_cruz.PNG"],
+    "importance": 5,
     "duree": "4 jours",
-    "description": "Trek à haute altitude. Prendre quelques jours pour s'acclimater à Huaraz (3000m d'altitude) avec des randos à la journée. Départ à Vaqueria jusqu'à Cashapampa. Pour aller à Vaqueria : soit prendre collectivos jusqu'à Yungai, puis un autre jusqu'à Vaqueria, soit organiser le transport organisé via des agences à Huaraz. Nuits en tente dans des campings. Prévoir nourriture pour la durée du trek. Entrée dans le parc à payer : prendre le billet multi-jours pour 150 soles qui donne également accès à toutes les autres randonnées.\n\nJour 1 : Vaqueria - Paria : 10 km de mise en jambes. \n\nJour 2 : Paria - Punta Union (4750m) - Taullipampa : 12km, 1100m D+ pour monter au col de Punta Union puis descente vers le camping.\n\nJour 3 : Taullipampa - Laguna Arhuaycocha (A/R) - Llamacorral : 15km, 400m D+. Petit aller-retour vers Arhuaycocha qui permet de découvrir un des plus beaux spots du trek. \n\nJour 4 : Llamacorral - Cashapampa : 11km.\n\nRetour en collectivos depuis Cashapampa jusqu'à Huaraz.\n\nIl est possible d'effectuer le trek en 3 jours en faisant le jour 2 Paria puis l'aller retour vers Arhuaycocha. Ce qui fait 2 étapes de 18km pour les 2 derniers jours (premier jour plus tranquille car trajet d'environ 5 heures à prendre en compte pour aller au départ).",
+    "description": "Trek à haute altitude. Prendre quelques jours pour s'acclimater à Huaraz (3000m d'altitude) avec des randos à la journée. Départ à Vaqueria jusqu'à Cashapampa. Pour aller à Vaqueria : soit prendre collectivos jusqu'à Yungai, puis un autre jusqu'à Vaqueria, soit organiser le transport organisé via des agences à Huaraz. On peut aussi laisser le van à Yungay, pour éviter de revenir à Huaraz. Nuits en tente dans des campings. Prévoir nourriture pour la durée du trek. Entrée dans le parc à payer : prendre le billet multi-jours pour 150 soles qui donne également accès à toutes les autres randonnées.\n\nJour 1 : Vaqueria - Paria : 10 km de mise en jambes. \n\nJour 2 : Paria - Punta Union (4750m) - Taullipampa : 12km, 1100m D+ pour monter au col de Punta Union puis descente vers le camping.\n\nJour 3 : Taullipampa - Laguna Arhuaycocha (A/R) - Llamacorral : 15km, 400m D+. Petit aller-retour vers Arhuaycocha qui permet de découvrir un des plus beaux spots du trek. \n\nJour 4 : Llamacorral - Cashapampa : 11km.\n\nRetour en collectivos depuis Cashapampa jusqu'à Caraz, puis Yungay ou Huaraz.\n\nIl est possible d'effectuer le trek en 3 jours en faisant le jour 2 Paria puis l'aller retour vers Arhuaycocha. Ce qui fait 2 étapes de 18km pour les 2 derniers jours (premier jour plus tranquille car trajet d'environ 5 heures à prendre en compte pour aller au départ).",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Culture",
+    "nom": "Campo Santo de Yungay",
+    "lieu": "Huaraz",
+    "lieuId": "huaraz",
+    "sousZone": "Nord Huaraz",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Sur la route pour aller de Huaraz à Laguna 69. Yungay est une petite ville qui a été entièrement ensevelie au 20ème siècle. Le Campo Santo de Yungay est l'endroit où tout a été détruit.",
     "visiteGuidee": true
   },
   {
@@ -128,42 +189,22 @@
     "lieu": "Huaraz",
     "lieuId": "huaraz",
     "pays": "Pérou",
-    "importance": 4,
-    "duree": "1 jour",
+    "sousZone": "Nord Huaraz",
+    "importance": null,
+    "duree": null,
     "description": "A 2 heures au nord de Huaraz. Plus belle lagune. Randonnée pour y accéder de 14km - 800m D+, pour atteindre une altitude de 4600m. A faire sur le chemin pour aller en Equateur.",
     "visiteGuidee": true
   },
   {
     "type": "Randonnée",
-    "nom": "Laguna Churup",
+    "nom": "Laguna Parón",
     "lieu": "Huaraz",
     "lieuId": "huaraz",
     "pays": "Pérou",
+    "sousZone": "Nord Huaraz",
     "importance": null,
     "duree": null,
-    "description": "A côté de Huaraz. 6km aller-retour. Petite randonnée d'acclimatation pour atteindre une altitude de 4450m. Possibilité de monter via des câbles de via ferrata (sans baudrier).",
-    "visiteGuidee": false
-  },
-  {
-    "type": "Nature",
-    "nom": "Glacier Pastoruri",
-    "lieu": "Huaraz",
-    "lieuId": "huaraz",
-    "pays": "Pérou",
-    "importance": null,
-    "duree": null,
-    "description": "Au sud de Huaraz. A faire en venant de Lima. Petite randonnée très courte qui permet de monter de 4900m à 5200m pour atteindre le glacier.\n\nSur le chemin du glacier vers Huaraz, possibilité de faire de courts arrêts aux endroits suivants :\n\n - Gruta San Patricio : une jolie grotte.\n\n - Puya Raimondi : une zone dans laquelle pousse une espèce endémique d'arbre.\n\n - Etang de Pumashimi, aussi appelé étang aux 7 couleurs, et source d'eau gazeuse naturelle (non potable) à proximité.\n\n - Lagune Patococha : petit lac avec des canards andins.",
-    "visiteGuidee": true
-  },
-  {
-    "type": "Culture",
-    "nom": "Campo Santo de Yungay",
-    "lieu": "Huaraz",
-    "lieuId": "huaraz",
-    "pays": "Pérou",
-    "importance": null,
-    "duree": null,
-    "description": "Sur la route pour aller de Huaraz à Laguna 69. Yungay est une petite ville qui a été entièrement ensevelie au 20ème siècle. Le Campo Santo de Yungay est l'endroit où tout a été détruit.",
+    "description": "Le plus grand lac de la Cordillère Blanche (4 200 m), offrant une vue directe sur le pic Artesonraju. Très accessible en van via une piste en terre de 32 km depuis Caraz (~2h). Possibilité de bivouaquer gratuitement sur le parking au bord de l'eau (prévoir équipement grand froid, nuits < 0°C). \n\nTarifs : 5 PEN pour la communauté. \n\nRandonnées sur place : Le Mirador (+100 m D+, 45 min-1h A/R, blocs rocheux) pour la vue panoramique,  Laguna Artesoncocha (10 km A/R, 3-4h, plat) le long de la rive nord, Camp de Base Artesonraju (14 km A/R, 6-7h, +450 m D+) pour les marcheurs expérimentés. \n\nPossibilité de louer des kayaks sur place pour 20 soles.",
     "visiteGuidee": false
   },
   {
@@ -172,9 +213,9 @@
     "lieu": "Huaraz",
     "lieuId": "huaraz",
     "pays": "Pérou",
-    "importance": 4,
+    "importance": 5,
     "duree": "1 jour",
-    "description": "A proximité de Huaraz. Gratuite. Une des randonnées sur une journée les plus dures de Huaraz. Environ 23km avec 1500 de D+, pour une altitude maximale de 5000m. Cette boucle passe par 4 lagunes de la Cordillera Blanca. Attention à être bien acclimaté au moment d'effectuer cette randonnée (après le trek de Santa Cruz par exemple).",
+    "description": "A proximité de Huaraz. Gratuite. Une des randonnées sur une journée les plus dures de Huaraz. Environ 23km avec 1500 de D+, pour une altitude maximale de 5000m. Cette boucle passe par 4 lagunes de la Cordillera Blanca. Attention à être bien acclimaté au moment d'effectuer cette randonnée.",
     "visiteGuidee": true
   },
   {
@@ -291,18 +332,6 @@
     "visiteGuidee": true
   },
   {
-    "type": "Nature",
-    "nom": "Mirador El Cóndor",
-    "lieu": "De Puno à Cuzco",
-    "lieuId": "mirador-el-condor-puno",
-    "sousZone": "Puno",
-    "pays": "Pérou",
-    "importance": null,
-    "duree": null,
-    "description": "Perché à près de 3 900 m d'altitude sur une colline au sud-est de la ville, le mirador Kuntur Wassi (« la Maison du Cóndor ») est dominé par une immense statue en métal d'un condor déployant ses ailes. C'est l'un des meilleurs spots pour embrasser d'un seul coup d'œil toute la ville de Puno, la baie du lac Titicaca et les îles flottantes d'Uros au loin.\n\nInfos pratiques :\n\n- Prix : Gratuit (accès libre).\n\n- Option 1 (À pied via les escaliers) : Ascension de plus de 600 marches depuis le centre-ville (quartier Laykakota). Effort physique soutenu en raison de l'altitude (~3 900 m). Éviter les heures tardives pour des raisons de sécurité.\n\n- Option 2 (Taxi / Mototaxi). Compter 10 à 15 PEN en taxi depuis la Plaza de Armas pour un trajet de 10 à 15 minutes.",
-    "visiteGuidee": false
-  },
-  {
     "type": "Culture",
     "nom": "Vallée sacrée",
     "lieu": "Cuzco",
@@ -310,7 +339,7 @@
     "pays": "Pérou",
     "importance": null,
     "duree": "2 jours",
-    "description": "Vallée sculptée par la rivière Urubamba (rivière sacrée). Regorge de centres religieux et de domaines royaux. Prendre le boleto turistico integral pour pouvoir visiter l'ensemble des sites (valable 10 jours). A acheter au bureau officiel (COSITUC) au centre de Cuzco ou au niveau du premier site visité mais prévoir du liquide. Prix : 130 soles par personne.\n\nSites à visiter :\n\n - Ollantaytambo : village inca traditionnel, avec forteresse en amont de la ville.\n\n - Maras : Bassins de sel à flanc de montagne. Non inclus dans le boleto turistico\n\n - Moray : laboratoire agricole inca composé de terrasses circulaires concentriques.\n\n - Chinchero : Village dans lequel une église coloniale est construite sur un palais inca.\n\n - Pisac : capitale textile du Pérou et site archéologique (ruines d'une ancienne cité inca).\n\n Andahuaylillas : église San Pedro Apostol à visiter.\n\nIl est possible d'emprunter un bout du chemin inca (gratuitement) de Chinchero à Urquillos (9km de sentier)\n\nSi la visite se fait le dimanche, passer par le marché de Chinchero dans la Vallée Sacrée.\n\nCommencer par Pisac, puis visiter le musée Inkariy qui explique toute l'histoire, avant de continuer dans la vallée sacrée.",
+    "description": "Vallée sculptée par la rivière Urubamba (rivière sacrée). Regorge de centres religieux et de domaines royaux. Prendre le boleto turistico integral pour pouvoir visiter l'ensemble des sites (valable 10 jours). A acheter au bureau officiel (COSITUC) au centre de Cuzco ou au niveau du premier site visité mais prévoir du liquide. Prix : 130 soles par personne.\n\nSites à visiter :\n\n - Ollantaytambo : village inca traditionnel, avec forteresse en amont de la ville.\n\n - Maras : Bassins de sel à flanc de montagne. Non inclus dans le boleto turistico\n\n - Moray : laboratoire agricole inca composé de terrasses circulaires concentriques.\n\n - Chinchero : Village dans lequel une église coloniale est construite sur un palais inca.\n\n - Pisac : capitale textile du Pérou et site archéologique (ruines d'une ancienne cité inca).\n\nIl est possible d'emprunter un bout du chemin inca (gratuitement) de Chinchero à Urquillos (9km de sentier)\n\nSi la visite se fait le dimanche, passer par le marché de Chinchero dans la Vallée Sacrée.\n\nCommencer par Pisac, puis visiter le musée Inkariy qui explique toute l'histoire, avant de continuer dans la vallée sacrée.",
     "visiteGuidee": true
   },
   {
@@ -321,7 +350,7 @@
     "pays": "Pérou",
     "importance": 4,
     "duree": "3 jours",
-    "description": "Trek de 45km en aller-retour sur 3 jours, à une altitude maximale de 3000m (pas de mal des montagnes). Il permet de visiter les ruines de Choquequirao, beaucoup moins fréquentée que le Machu Picchu. Le départ se fait à Capuliyoc (mirador), où il est possible de laisser le van au départ du sentier. Le trek consiste en une descente de 1500m, puis une remontée de 1500m avant l'arrivée à Choquequirao. L'idéal est de dormir dans la même auberge les deux jours, ce qui permet de laisser ses affaires à l'auberge pour la visite de Choquequirao. Chambre à moins de 20 euros et repas à 5 euros.\n\nJour 1 : Capuliyoc - Marampata : 15km, 1500m D+, 1500m D-. Partir tôt.\n\nJour 2 : Marampata - Choquequirao - Marampata : visite des ruines de Choquequirao et retour à Marampata.\n\nJour 3 : Marampata - Capuliyoc : 15km, 1500m D+, 1500m D-.",
+    "description": "Trek de 45km en aller-retour sur 3 jours, à une altitude maximale de 3000m (pas de mal des montagnes). Il permet de visiter les ruines de Choquequirao, beaucoup moins fréquentée que le Machu Picchu. Le départ se fait à Capuliyoc (mirador), où il est possible de laisser le van au départ du sentier. Si pas possible de laisser le van au mirador, le laisser dans un hébergement à Cachora, et soit prendre un taxi, soit faire le trajet à pied jusqu'à Capuliyoc (et prendre un jour de plus pour faire le trek). Frais de 60 soles par personne au départ du trek (au poste de contrôle de Capuliyoc), prévoir du liquide. \n\nLe trek consiste en une descente de 1500m, puis une remontée de 1500m avant l'arrivée à Choquequirao. L'idéal est de dormir dans la même auberge les deux jours, ce qui permet de laisser ses affaires à l'auberge pour la visite de Choquequirao. Chambre à moins de 20 euros et repas à 5 euros.\n\nJour 1 : Capuliyoc - Marampata : 15km, 1500m D+, 1500m D-. Partir tôt.\n\nJour 2 : Marampata - Choquequirao - Marampata : visite des ruines de Choquequirao et retour à Marampata.\n\nJour 3 : Marampata - Capuliyoc : 15km, 1500m D+, 1500m D-.\n\nLe site est assez grand, prévoir un peu de temps sur place. Le trek se fait habituellement en 4 jours.",
     "visiteGuidee": true
   },
   {
@@ -450,17 +479,6 @@
     "visiteGuidee": true
   },
   {
-    "type": "Divers",
-    "nom": "Festival Mistura",
-    "lieu": "Autour de Lima",
-    "lieuId": "lima",
-    "pays": "Pérou",
-    "importance": null,
-    "duree": null,
-    "description": "Le plus grand festival gastronomique d'Amérique latine, fondé par le chef Gastón Acurio. Début septembre (du 5 au 14 septembre 2026 / début septembre 2027). \n\nDécouverte des spécialités péruviennes réparties par espaces thématiques (ceviche, anticuchos, pisco, cacao/café, zones Amazonie et Ande) et grand marché de producteurs venus de tout le pays (Gran Mercado).\n\nAccès payant pour l'entrée du site + achat de jetons/crédits à l'intérieur pour déguster sur les stands. Privilégier une visite en semaine dès 11h/12h pour éviter la grande affluence. Se garer en ville (Miraflores/Barranco) et s'y rendre en taxi/navette.",
-    "visiteGuidee": false
-  },
-  {
     "type": "Nature",
     "nom": "Sorata (Laguna Glaciar & Vallée de l'Illampu)",
     "lieu": "La Paz",
@@ -517,7 +535,7 @@
     "sousZone": null,
     "importance": 5,
     "duree": "2-3 jours",
-    "description": "Sur la route pour aller de la Bolivie au Pérou, s'arrêter à Copacabana pour visiter la Isla del Sol. En van, passer par Tiquina et prendre le bac. Possitilité de bivouaquer à la Péninsule de Yampupata. Puis laisser le van à Copacabana pour prendre le bateau direction Isla del Sol.\n\nPour prendre le bateau, se rendre sur le port de Copacabana et prendre un bateau public (*lanchas*). Deux horaires pour l'aller : 8h30 le matin et 13h30 l'après-midi. Préciser si on veut débarquer au Nord ou au Sud. Pour le retour, il se fait depuis le Sud (Yumani) à 10h30 et 15h30. Prix : environ 5 euros l'aller-retour. Compter 2h30 de trajet.\n\nSur l'île, il est possible de faire une grande randonnée depuis le Sud permettant d'aller voir les vestiges incas du Nord et de revenir par le littoral (19km sans trop de dénivelé mais à 4000m d'altitude). Une taxe de 10-20 sol sera demandée au passage de chaque village, pour une trentaine de sol au total. Garder de la monnaie sur soi pendant la randonnée. Faire également une petite randonnée pour visiter la partie sud de l'île.\n\nItinéraire possible : prendre le bateau le matin pour faire le sud, et le lendemain la grande boucle. Puis revenir avec le dernier bateau ou rester une nuit de plus sur l'île.",
+    "description": "Sur la route pour aller de la Bolivie au Pérou, s'arrêter à Copacabana pour visiter la Isla del Sol. En van, passer par Tiquina et prendre le bac (50 bob et aller-retours en continu de 6h à 22h, ticket à acheter sur place, traversée de 10-15min). Possitilité de bivouaquer à la Péninsule de Yampupata. Puis laisser le van à Copacabana pour prendre le bateau direction Isla del Sol.\n\nPour prendre le bateau, se rendre sur le port de Copacabana et prendre un bateau public (*lanchas*). Deux horaires pour l'aller : 8h30 le matin et 13h30 l'après-midi. Préciser si on veut débarquer au Nord ou au Sud. A Yumani, une taxe de 10 bob sera demandée. Pour le retour, il se fait depuis le Sud (Yumani) à 10h30 et 15h30. Prix : environ 5 euros l'aller-retour. Compter 2h30 de trajet.\n\nSur l'île, il est possible de faire une grande randonnée depuis le Sud permettant d'aller voir les vestiges incas du Nord et de revenir par le littoral (19km sans trop de dénivelé mais à 4000m d'altitude). Une taxe de 10-20 sol sera demandée au passage de chaque village, pour une trentaine de sol au total. Garder de la monnaie sur soi pendant la randonnée. Faire également une petite randonnée pour visiter la partie sud de l'île.\n\nItinéraire possible : prendre le bateau le matin pour faire le sud, et le lendemain la grande boucle. Puis revenir avec le dernier bateau ou rester une nuit de plus sur l'île.",
     "visiteGuidee": true
   },
   {
@@ -528,7 +546,7 @@
     "pays": "Pérou",
     "importance": 5,
     "duree": null,
-    "description": "Pour visiter le lac Titicaca côté péruvien, tout se fait principalement via une excursion. Les zones principales à visiter : iles flottantes d'Uros, ile Taquile et ile Amantani. Le prix de l'excursion pour 2 jours et une nuit est d'environ 50-60 euros par personne et permet de visiter les 3 îles.\n\nIl est possible de faire en autonome sur une journée l'ile de Taquile (bateau directement au port), ou passer une nuit sur l'ile Amantani (bateau + attribution automatique d'une 'famille' pour passer la nuit sur l'ile). Lile d'Uros ne se fait que via une excursion, sur la demi-journée.",
+    "description": "Excursion en bateau depuis le port de Puno sur le plus haut lac navigable du monde, avec une nuit dans chacune des trois îles : Uros, Amantani puis Taquile.\n\nVersion complète (4 jours / 3 nuits) :\n\n - Jour 1 : Puno - îles flottantes Uros (environ 30 à 40 min de bateau). Départ possible en milieu de matinée. Visite des îles, balade en bateau de roseau, nuit sur les Uros (lodge flottant ou Airbnb).\n\n - Jour 2 : Uros - Amantani (environ 2 h 30 à 3 h de bateau). Déjeuner chez l'habitant, montée au coucher de soleil jusqu'à Pachatata ou Pachamama, nuit en famille.\n\n - Jour 3 : Amantani - Taquile (court trajet en bateau). Visite de l'île, textiles, terrasses et ruines préincas, nuit chez l'habitant sur Taquile.\n\n - Jour 4 : matinée sur Taquile, puis bateau de retour vers Puno (départ vers 13 h, arrivée vers 15 h 30).\n\nVersion courte (2 jours / 1 nuit) : jour 1 Puno - Uros (arrêt visite) - Amantani, nuit en famille ; jour 2 Amantani - Taquile - Puno. Version classique pour les voyageurs. Contacter une famille sur Amantani qui organiser l'ensemble (à trouver sur le groupe Facebook 'Les Français au Pérou').\n\nC'est faisable sans agence. Il faut se coordonner avec les familles sur place qui nous conseillent sur le bateau à prendre (ou affrètent un bateau spécialement pour nous). Un collectivo-bateau part du port de Puno vers Amantani (environ 30 soles A/R, avec arrêt aux Uros à l'aller et à Taquile au retour, billet valable plusieurs jours).\n\nVan : le laisser à Puno pendant toute l'excursion. Puno n'est pas considérée comme très sûre. Trouver un hôtel pour laisser le van quelques jours dans un endroit sécurisé.\n\nÎle Uros : villages flottants construits en roseau (totora), à environ 7 km de Puno. On y voit comment les îles sont construites et réparées, les maisons des familles, et on peut faire une traversée en bateau de roseau (environ 10 soles, optionnelle). Très touristique en journée : dormir sur place permet de voir l'île une fois les groupes partis.\n\nÎle Amantani : île sans voitures, à environ 3900 m d'altitude, habitée par des familles quechua. Montée d'environ 1 h jusqu'aux deux sommets Pachatata et Pachamama, avec des ruines préincas (le plus haut, Pachatata, culmine vers 4130 m), pour un coucher de soleil sur le lac. Repas chez l'habitant avec produits de l'île. Textiles et céramiques locales.\n\nÎle Taquile : île sans voitures ni police, connue pour ses textiles tissés par les hommes, classés au patrimoine immatériel de l'UNESCO. Chemin de pierre qui monte jusqu'à la place principale, centre d'artisanat à deux niveaux, terrasses agricoles, ruines préincas. Les bonnets que portent les habitants indiquent leur statut (célibataire, marié, autorité). Rester dormir permet d'éviter les groupes de la journée.\n\nÀ prévoir : vêtements chauds (nuits froides sur les îles), lampe frontale, petites coupures, crème solaire et un petit cadeau pour chaque famille.",
     "visiteGuidee": true
   },
   {
@@ -555,6 +573,28 @@
   },
   {
     "type": "Culture",
+    "nom": "Lampa",
+    "lieu": "De Puno à Cuzco",
+    "lieuId": "puno-cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Petite ville coloniale de l'altiplano (environ 3900 m), surnommée la Ciudad Rosada pour la couleur de ses rues et de ses façades, et aussi la ville des sept merveilles. Elle se situe à environ 1 h de route de Juliaca : c'est un détour de 30min par rapport à l'axe Puno - Cuzco, mais qui vaut la peine si on a une demi-journée.\n\nÉglise Santiago Apóstol (XVIIe siècle) : le grand incontournable, construite en pierre sur la place principale. À l'intérieur : la Capilla de la Piedad avec une réplique de la Pietà de Michel-Ange (d'où le surnom de Sixtine d'Amérique), un ossuaire avec des milliers de crânes et d'ossements, des catacombes, une Cène grandeur nature et une statue de Santiago sur un cheval naturalisé.\n\nCentre historique : Plaza de Armas et Plaza Grau, le parc 4 de Junio, les maisons peintes en rose. La mairie, juste à côté de la place, est ornée de fresques sur l'histoire de la ville.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Canyon de Tinajani",
+    "lieu": "De Puno à Cuzco",
+    "lieuId": "puno-cuzco",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Plusieurs canyons avec des formations rocheuses ocre. Gratuit et possibilité de bivouaquer. Petite balade au milieu des canyons. Des circuits de randonnées démarrent au Tinajani Canyon Campground (4000m d'altitude).\n\nGoûter le Kankacho (plat typique originaire d'Ayaviri) sur le chemin.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Culture",
     "nom": "Raqchi Archeological Park",
     "lieu": "De Puno à Cuzco",
     "lieuId": "puno-cuzco",
@@ -569,21 +609,11 @@
     "nom": "Andahuaylillas",
     "lieu": "Cuzco",
     "lieuId": "cuzco",
+    "sousZone": "Sud Cuzco",
     "pays": "Pérou",
     "importance": null,
     "duree": null,
     "description": "Petit village colonial au Sud de Cuzco. Son église San Pedro est surnommée la 'Chapelle Sixtine des Andes'. Prix : 4 euros. Possibilité de se garer autour de la Plaza de Armas.",
-    "visiteGuidee": true
-  },
-  {
-    "type": "Nature",
-    "nom": "Canyon de Tinajani",
-    "lieu": "De Puno à Cuzco",
-    "lieuId": "puno-cuzco",
-    "pays": "Pérou",
-    "importance": null,
-    "duree": null,
-    "description": "Plusieurs canyons avec des formations rocheuses ocre. Gratuit et possibilité de bivouaquer. Petite balade au milieu des canyons. Goûter le Kankacho (plat typique originaire d'Ayaviri) sur le chemin.",
     "visiteGuidee": true
   },
   {
@@ -595,29 +625,6 @@
     "importance": null,
     "duree": "1 jour",
     "description": "Randonnée à la journée côté de La Paz. 10km qui part de La Rinconada (sentier de randonnée, 4500m d'altitude) jusqu'au sommet du Pico Austria (5300m). Route en terre mais accessible jusqu'au parking. Télécharger la carte sur AllTrails. Si départ de Tuni, cela rajoute 10km aller-retour.",
-    "visiteGuidee": true
-  },
-  {
-    "type": "Culture",
-    "nom": "Chan Chan",
-    "lieu": "Côte Pacifique Nord",
-    "lieuId": "cote-pacifique-nord",
-    "sousZone": "Trujillo",
-    "pays": "Pérou",
-    "importance": null,
-    "duree": null,
-    "description": "Site archéologique, capitale de la civilisation chimù, dans la ville de Trujillo. Prix : 11 soles. Donne accès au musée, au palais Tschudi (ou Nik An) et aux sites Huaca La Esmeralda et Huaca El Dragon (temples de la culture Moche).",
-    "visiteGuidee": true
-  },
-  {
-    "type": "Culture",
-    "nom": "Ciudad Sagrada de Caral",
-    "lieu": "Côte Pacifique Nord",
-    "lieuId": "cote-pacifique-nord",
-    "pays": "Pérou",
-    "importance": null,
-    "duree": null,
-    "description": "A un peu plus de 3h de route au nord de Lima, c'est la plus ancienne ville connue des Amériques. Inscrite au patrimoine mondial de l'UNESCO. Rejoindre le Parador Turistico de Caral et laisser le van. Ne pas y dormir la nuit. Prix de l'entrée : 11 soles. Une fois sur place, un guide est obligatoire. Prévoir 20 soles en plus pour le groupe.\n\nPossibilité de dormir au bord de la plage à Playa Tuquillo après.",
     "visiteGuidee": true
   },
   {
@@ -646,6 +653,18 @@
   },
   {
     "type": "Culture",
+    "nom": "Chan Chan",
+    "lieu": "Côte Pacifique Nord",
+    "lieuId": "cote-pacifique-nord",
+    "sousZone": "Trujillo",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Site archéologique, capitale de la civilisation chimù, dans la ville de Trujillo. Prix : 11 soles. Donne accès au musée, au palais Tschudi (ou Nik An) et aux sites Huaca La Esmeralda et Huaca El Dragon (temples de la culture Moche).",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Culture",
     "nom": "Huaca del Sol et de la Luna",
     "lieu": "Côte Pacifique Nord",
     "lieuId": "cote-pacifique-nord",
@@ -666,6 +685,18 @@
     "importance": null,
     "duree": null,
     "description": "Un des meilleurs musées archéologiques d'Amérique du Sud, situé tout près de Chiclayo. Ouvert du mardi au dimanche de 9h à 17h. Prix 10 soles.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Réserve écologique de Chaparrí",
+    "lieu": "Côte Pacifique Nord",
+    "lieuId": "cote-pacifique-nord",
+    "sousZone": "Chiclayo",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "Première aire de conservation privée du Pérou, gérée par la communauté de Santa Catalina de Chongoyape. Environ 34 000 ha de forêt sèche, qui abritent la plus grande population d'ours à lunettes de la côte péruvienne (plus de 60 individus identifiés en 2025). Une partie des ours est en semi-captivité (rescapés de cirques), les autres sont sauvages. On y observe aussi la pava aliblanca (oiseau menacé), des condors, des rapaces, des renards de Sechura et un serpentarium. Septembre est le meilleur mois pour les ours (fruits mûrs). Visiter finance la communauté et la protection de la réserve, menacée par des accapareurs de terres.\n\nAccès : la réserve est à environ 75 km de Chiclayo (environ 2 h). \n\nOption 1 : en van : accès par la piste. La visite se fait avec les guides de la communauté.\n\nOption 2 : excursion organisée depuis Chiclayo : visite avec transport depuis l'hôtel, centre d'interprétation, trois circuits au choix (ours à lunettes, Huachuma/San Pedro, pava aliblanca), centre de sauvetage des ours et serpentarium, puis retour à Chiclayo.\n\nOption 3 : transport local : bus de Chiclayo (terminal de microbuses Epsel) jusqu'à Chongoyape, environ 5 soles et 1 h. Puis transport privé jusqu'à la réserve organisé sur place : environ 120 soles l'aller-retour.\n\nDans tous les cas, contacter en amont la réserve pour avoir un guide et connaitre l'état de la route (faisable ou non en van selon conditions météo). Il est possible de dormir dans la réserve pour 100 euros la nuit, guide et repas compris.",
     "visiteGuidee": true
   },
   {
@@ -730,6 +761,7 @@
     "nom": "Mirador Cielo Punku",
     "lieu": "Cuzco",
     "lieuId": "Cuzco",
+    "sousZone": "Sud Cuzco",
     "pays": "Pérou",
     "importance": null,
     "duree": null,
@@ -760,9 +792,10 @@
   },
   {
     "type": "Nature",
-    "nom": "Manupata",
+    "nom": "Muñapata",
     "lieu": "Cuzco",
     "lieuId": "cuzco",
+    "sousZone": "Sud Cuzco",
     "pays": "Pérou",
     "importance": null,
     "duree": null,
@@ -1560,18 +1593,6 @@
     "visiteGuidee": true
   },
   {
-    "type": "Culture",
-    "nom": "Santuario Arqueológico de Pachacamac",
-    "lieu": "Autour de Lima",
-    "lieuId": "lima",
-    "pays": "Pérou",
-    "sousZone": "Sud Lima",
-    "importance": null,
-    "duree": null,
-    "description": "Grand centre cérémoniel, religieux et d'oracles de la côte péruvienne, occupé successivement par les cultures Lima, Wari, Ichma puis par les Incas pendant plus de 1000 ans.\n\nVisite du musée de site très moderne (abritant l'idole originale en bois sculpté de Pachacamac et des textiles anciens) suivi du circuit archéologique extérieur à pied ou en véhicule : le Temple du Soleil (pyramide en adobes face à l'océan), l'Acllahuasi (Temple des Virgenes del Sol) magnifiquement conservé et le Temple Peint.\n\nFermé le lundi. Prix : 15 soles par personne.\n\nParking sécurisé et surveillé sur place.",
-    "visiteGuidee": false
-  },
-  {
     "type": "Divers",
     "nom": "Lima",
     "lieu": "Autour de Lima",
@@ -1698,6 +1719,18 @@
     "duree": null,
     "description": "Randonnée en boucle de 13km qui part de Tupiza. Télécharger la trace AllTrails.\n\nPeut s'enchainer avec la randonnée El Duende Canyon de 3km dans la même journée.",
     "visiteGuidee": false
+  },
+  {
+    "type": "Culture",
+    "nom": "Ciudad Sagrada de Caral",
+    "lieu": "Autour de Lima",
+    "lieuId": "lima",
+    "sousZone": "Nord Lima",
+    "pays": "Pérou",
+    "importance": null,
+    "duree": null,
+    "description": "A un peu plus de 3h de route au nord de Lima, c'est la plus ancienne ville connue des Amériques. Inscrite au patrimoine mondial de l'UNESCO. Pour y accéder, s'arrêter au centre d'interprétation Caral, et traverser le pont piéton pour accéder au site. Ne pas y dormir la nuit. Prix de l'entrée : 11 soles. Une fois sur place, un guide est obligatoire. Prévoir 20 soles en plus pour le groupe.\n\nPossibilité de dormir au bord de la plage à Playa Tuquillo après.",
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",

@@ -84,7 +84,7 @@
     "nom": "De Puno à Cuzco",
     "pays": "Pérou",
     "ordre": 1,
-    "description": "Très belle route appelée la route du Soleil. Compter 9 heures de route. Point le plus haut : Col de la Raya à 4438m. Juliaca, sur le chemin, est une des villes les plus embouteillées du Pérou, éviter le centre-ville.\n\nDans l'ordre des arrêts : [[Aramu Muru]] (avant Puno), [[Lac Titicaca]], [[Mirador El Cóndor]], [[Sillustani]], [[Canyon de Tinajani]], [[Pallay Punchu]], [[Raqchi Archeological Park]] et [[Checacupe]]."
+    "description": "Très belle route appelée la route du Soleil. Compter 9 heures de route. Point le plus haut : Col de la Raya à 4438m. Juliaca, sur le chemin, est une des villes les plus embouteillées du Pérou, éviter le centre-ville.\n\nDans l'ordre des arrêts : [[Aramu Muru]] (avant Puno), [[Lac Titicaca]], [[Sillustani]], [[Canyon de Tinajani]], [[Pallay Punchu]], [[Raqchi Archeological Park]] et [[Checacupe]].\n\nA Puno, éviter les miradors (celui du Condor et celui du Puma), qui ne sont pas safe (y aller en van ou en taxi, pas à pied). Dans la ville, une visite du Yavari steamship sur le lac Titicaca est possible, et visiter le centre-ville (cathédrale et Balcon du Compte de Lemos)."
   },
   {
     "id": "cuzco-nazca",
@@ -114,7 +114,7 @@
     "pays": "Pérou",
     "ordre": 11,
     "type": "trek",
-    "description": "Capitale de l'andinisme péruvien, base pour les treks de la Cordillère Blanche. La ville est à 3052 m, prévoir 2-3 jours d'acclimatation.\n\nLa quasi-totalité des randonnées autour de la ville sont dans le parc National Huascaran. Il faut prendre un billet (boleto turistico) qui dépend de la durée du séjour dans le parc. A partir de 4 jours, le prix est de 37 euros.\n\nL'objectif est de faire le [[Trek Santa Cruz]] et le [[Paso del Zorro]]. \n\nPour ce faire, faire quelques journées de randonnée pour acclimatation. Sur le chemin depuis Lima, s'arrêter à [[Glacier Pastoruri]]. Puis faire la [[Laguna Churup]] à côté de Huaraz. Partir ensuite sur le [[Trek Santa Cruz]]. Au retour, faire le [[Paso del Zorro]]. Puis départ vers l'Equateur et sur le chemin faire la ville de Yungay ([[Campo Santo de Yungay]]) et les [[Laguna 69]] et [[Laguna Paron]]. D'autres randonnées sont disponibles à Huaraz pour faire quelques jours d'acclimatation en plus si besoin (Laguna Wilcochoa ou possibilité de faire les lagunes un peu plus lointaines en passant par une agence sur la journée)."
+    "description": "Capitale de l'andinisme péruvien, base pour les treks de la Cordillère Blanche. La ville est à 3052 m, prévoir 2-3 jours d'acclimatation.\n\nAutour de la ville, faire le Monumento Nacional Wilcahuaín (site archéologique pré-inca), 10 soles. Bar à tester : Trece buhos.\n\nLa quasi-totalité des randonnées autour de la ville sont dans le parc National Huascaran. Il faut prendre un billet (boleto turistico) qui dépend de la durée du séjour dans le parc. A partir de 4 jours, le prix est de 150 soles. A acheter en ligne (SERNANP tu ticket) ou directement aux postes de contrôle.\n\nL'objectif est de faire le [[Trek Huayhuash]], le [[Trek Santa Cruz]] et le [[Paso del Zorro]]. \n\nSur le chemin depuis Lima, faire le [[Trek Huayhuash]], puis s'arrêter à [[Glacier Pastoruri]]. Ensuite, faire la [[Laguna Churup]] à côté de Huaraz, ainsi que le [[Paso del Zorro]]. Puis départ vers l'Equateur et sur le chemin faire le [[Trek Santa Cruz]] et la ville de Yungay ([[Campo Santo de Yungay]]) et les [[Laguna 69]] et [[Laguna Parón]]. La route vers le Nord qui rejoint la côte est une route étroite avec de nombreux tunnels. Pour avoir une route plus récente, revenir sur Huaraz pour rejoindre la côte par l'Ouest. \n\nD'autres randonnées sont disponibles à Huaraz selon les envies (Laguna Wilcochoa ou possibilité de faire les lagunes un peu plus lointaines en passant par une agence sur la journée)."
   },
   {
     "id": "la-paz",
@@ -170,7 +170,7 @@
     "pays": "Pérou",
     "ordre": 20,
     "type": "cotier",
-    "description": "Le trajet de Lima vers la frontière équatorienne prend environ 18 heures de trajet. A faire à l'aller et au retour un mois plus tard. Faire la moitié des sites à l'aller et l'autre moitié au retour.\n\nSites touristiques du Sud au Nord : [[Ciudad Sagrada de Caral]], [[Cerro Sechin]] et [[Chankillo]] à Casma, [[Huaca del Sol et de la Luna]] et [[Chan Chan]] à Trujillo, [[Zaña]], [[Musée des Tombes Royales de Sipán]] et [[Pyramides de Tucume]] à Chiclayo.\n\nEn profiter pour visiter la ville de Trujillo et son centre historique.\n\nGoûter le King Kong, dessert traditionnel du Pérou dans la ville de Lambayeque, à côté de Chiclayo."
+    "description": "Le trajet de Lima vers la frontière équatorienne prend environ 18 heures de trajet. A faire à l'aller et au retour un mois plus tard. Faire la moitié des sites à l'aller et l'autre moitié au retour.\n\nSites touristiques du Sud au Nord : [[Cerro Sechin]] et [[Chankillo]] à Casma, [[Huaca del Sol et de la Luna]] et [[Chan Chan]] à Trujillo, [[Zaña]], [[Musée des Tombes Royales de Sipán]] et [[Pyramides de Tucume]] à Chiclayo.\n\nEn profiter pour visiter la ville de Trujillo, son centre historique et tester le bar El Tragsu. A côté, la station balnéaire de Huancacho est agréable pour passer une nuit.\n\nGoûter le King Kong, dessert traditionnel du Pérou dans la ville de Lambayeque, à côté de Chiclayo."
   },
   {
     "id": "paracas",
@@ -178,7 +178,7 @@
     "pays": "Pérou",
     "ordre": 7,
     "type": "cotier",
-    "description": "Du Sud au Nord : [[Nazca]], [[Huacachina]], [[Bodegas de Pisco]], [[Réserve de Paracas]], [[Islas Ballestas]], [[Laguna de Moron]], [[El Carmen]]."
+    "description": "Du Sud au Nord : [[Nazca]], [[Huacachina]], [[Bodegas de Pisco]], [[Réserve de Paracas]], [[Islas Ballestas]], [[El Carmen]]."
   },
   {
     "id": "patagonie",
@@ -201,7 +201,7 @@
     "nom": "Autour de Lima",
     "pays": "Pérou",
     "ordre": 9,
-    "description": "La ville de Lima est une ville très embouteillée, ne pas aller dans le centre historique en van. La zone la plus sûre de la ville pour laisser le van est le quartier de Miraflores ou Barranco.\n\nSur le chemin, faire le [[Santuario Arqueológico de Pachacamac]], puis passer quelques jours à visiter la ville. Au retour, si nous y passons début septembre, s'arrêter pour le [[Festival Mistura]]."
+    "description": "La ville de Lima est une ville très embouteillée, ne pas aller dans le centre historique en van. La zone la plus sûre de la ville pour laisser le van est le quartier de Miraflores ou Barranco.\n\nSur le chemin, faire le [[Santuario Arqueológico de Pachacamac]], puis passer quelques jours à visiter la ville."
   },
   {
     "id": "terre-de-feu",
