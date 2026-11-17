@@ -2,7 +2,7 @@ import lieux from './lieux.json';
 
 // module Planification
 
-export const PAYS = ['Pérou', 'Equateur', 'Bolivie', 'Chili', 'Argentine'];
+export const PAYS = ['Chili', 'Bolivie', 'Pérou', 'Equateur', 'Argentine'];
 
 export const TYPES_ACTIVITES = ['Trek', 'Randonnée', 'Culture', 'Nature', 'Faune', 'Excursion', 'Gastronomie', 'Divers'];
 
@@ -157,9 +157,10 @@ export const ICONES_ZONES = {
   'loja':       '/images/zones/loja.png',
  
   // Chili
-  'nord-du-chili':       '/images/zones/nord-du-chili.png',
+  'nord-du-chili':       '/images/zones/atacama.png',
   'carretera-austral':  '/images/zones/carretera-austral.png',
-  'pucon':              '/images/zones/pucon.png',
+  'santiago':              '/images/zones/valparaiso.png',
+  'santiago-atacama':              '/images/zones/santiago-atacama.png',
   'ile-de-paques':      '/images/zones/paques.png',
   'santiago-puerto-montt':      '/images/zones/santiago-puerto-montt.png',
  

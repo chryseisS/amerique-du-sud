@@ -54,7 +54,7 @@
     "pays": "Pérou",
     "importance": 5,
     "duree": "4 jours",
-    "description": "Trek permettant de rejoindre le Machu Picchu à pied (70km). Prix d'entrée pour le Salkantay trek + lagune Humantay (environ 10-15 euros au total). Le départ se fait de Soraypampa. Soit en tente avec possibilité de poser la tente dans les jardins des auberges, soit en auberge (20 euros la nuit pour 2, moins cher en dortoir et repas à moins de 5 euros). Nombreux points d'eau, partir avec une gourde filtrante.\n\nJour 1 : trajet Cuzco vers Soraypampa et lagune Humantay. 2 possibilités : bus jusqu'à Mollepata puis taxi pour monter à Soraypampa. Ou excursion organisée vers lagune Humantay depuis Cuzco (20 euros par personne) pour avoir transport et repas compris.Van à laisser à Cuzco.\n\nJour 2 : Soraypampa - Salkantay pass - Colpapampa : 22km avec montée à 4600m d'altitude. 900m D+ - 1700m D-. \n\nJour 3 : Colpapampa - La Playa : 16km, principalement descente.\n\nJour 4 : La Playa - Hidroelectrica - Agua Calientes : 19km, principalement plat.\n\nA la fin du jour 3, à La Playa, possible de prendre un taxi pour aller aux Thermes de Cocalmayo pour quelques euros. Le restaurant de Valle Santa à Santa Teresa est également recommandé. Possibilité également de visiter des fincas de café à côté du campement.",
+    "description": "Trek permettant de rejoindre le Machu Picchu à pied (70km). Prix d'entrée pour le Salkantay trek + lagune Humantay (environ 10-15 euros au total). Le départ se fait de Soraypampa. Soit en tente avec possibilité de poser la tente dans les jardins des auberges, soit en auberge (20 euros la nuit pour 2, moins cher en dortoir et repas à moins de 5 euros). Nombreux points d'eau, partir avec une gourde filtrante.\n\nJour 1 : trajet Cuzco vers Soraypampa et lagune Humantay. 2 possibilités : bus jusqu'à Mollepata puis taxi pour monter à Soraypampa. Ou excursion organisée vers lagune Humantay depuis Cuzco (20 euros par personne) pour avoir transport et repas compris.Van à laisser à Cuzco.\n\nJour 2 : Soraypampa - Salkantay pass - Colpapampa : 22km avec montée à 4600m d'altitude. 900m D+ - 1700m D-. \n\nJour 3 : Colpapampa - La Playa : 16km, principalement descente.\n\nJour 4 : La Playa - Hidroelectrica - Aguas Calientes : 19km, principalement plat.\n\nA la fin du jour 3, à La Playa, possible de prendre un taxi pour aller aux Thermes de Cocalmayo pour quelques euros. Le restaurant de Valle Santa à Santa Teresa est également recommandé. Possibilité également de visiter des fincas de café à côté du campement.",
     "visiteGuidee": true
   },
   {
@@ -192,7 +192,7 @@
     "sousZone": "Nord Huaraz",
     "importance": null,
     "duree": null,
-    "description": "A 2 heures au nord de Huaraz. Plus belle lagune. Randonnée pour y accéder de 14km - 800m D+, pour atteindre une altitude de 4600m. A faire sur le chemin pour aller en Equateur.",
+    "description": "A 2 heures au nord de Huaraz. Plus belle lagune. Randonnée pour y accéder de 14km - 800m D+, pour atteindre une altitude de 4600m. A faire sur le chemin pour aller en Equateur.\n\nVérifier si un guide est obligatoire.",
     "visiteGuidee": true
   },
   {
@@ -249,8 +249,19 @@
     "pays": "Chili",
     "importance": 5,
     "duree": null,
-    "description": "Ville portuaire légendaire classée au patrimoine mondial de l'UNESCO, Valparaíso est célèbre pour son relief escarpé, ses maisons en tôle colorée accrochées aux collines (cerros), ses funiculaires séculaires (ascensores) et ses fresques de street art omniprésentes.\n\nLes deux collines les plus touristiques, à visiter, sont Cerro Alegre et Cerro Concepcion.\n\nVisiter la Sebastiana, maison de Pablo Neruda (11 euros, ouvert du mardi au dimanche).\n\nNe pas monter en van sur les collines. Laisser le van garé dans un parking sécurisé en bas (ville non safe). Faire le museo a cielo abierto (parcours pédestre passant par 20 fresques murales sur le Cerro Bellavista.",
-    "visiteGuidee": false
+    "description": "Ville portuaire légendaire classée au patrimoine mondial de l'UNESCO, Valparaíso est célèbre pour son relief escarpé, ses maisons en tôle colorée accrochées aux collines (*cerros*), ses funiculaires séculaires (*ascensores*) et ses fresques de street art omniprésentes.\n\nLes deux collines les plus touristiques, à visiter, sont Cerro Alegre et Cerro Concepcion.\n\nVisiter la Sebastiana, maison de Pablo Neruda (11 euros, ouvert du mardi au dimanche).\n\nNe pas monter en van sur les collines. Laisser le van garé dans un parking sécurisé en bas (ville non safe).\n\nIdée de balade : depuis la plaza Sotomayor, dans la ville basse, on atteint le cerro Concepción par l’ascenseur (ou l’escalier escarpé) El Peral. De là, on rejoint rapidement le paseo Yugoslavo, où se trouve aussi le musée des Beaux-Arts (voir ci-après), pour une 1ʳᵉ vue panoramique sur la ville et le port. De là, poursuivre par la rue Miramar puis Alvaro Besa pour rejoindre, sur Urriola, le paseo Gálvez qui débute par une belle volée de marches ! Continuer pendant un moment pour admirer les nombreuses fresques présentes dans ce passage, et faire des pas de côté sur les passages Fischer et Templeman eux aussi couverts de remarquables peintures. De là, on peut atteindre le paseo Gervasoni, promenade courte et élégante, bordée de splendides maisons du XIXᵉ s (et du célèbre café Turri), avec vue plongeante sur la ville. Par la rue Papudo, on accède en 2 mn au paseo Atkinson, d’où l’on surplombe la place Anibal Pinto. Ces petites maisons mitoyennes et colorées édifiées au tournant du XXᵉ s (la majorité de style anglais) constituent l’une des vues les plus photographiées de la ville.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Divers",
+    "nom": "Ville de Santiago",
+    "lieu": "Autour de Santiago",
+    "lieuId": "santiago",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "Capitale du Chili installée au pied de la Cordillère des Andes, Santiago offre une grande diversité d'expériences urbaines entre histoire coloniale, culture, vie nocturne et panoramas exceptionnels sur les sommets environnants.\n\nIncontournables :\n\n- Cerro San Cristóbal (Parque Metropolitano) : Grand poumon vert. Montée en funiculaire ou téléphérique pour profiter d'une des plus belles vues panoramiques à 360° sur Santiago et les Andes.\n\n- Cerro Santa Lucía : Colline aménagée en parc romantique au cœur du centre-ville, avec terrasses, fontaines et le Castillo Hidalgo.\n\n- Centre Historique : La Plaza de Armas, la Cathédrale Métropolitaine, le Palacio de La Moneda (siège de la présidence) et le très renommé Musée d'Art Précolombien (Museo de Arte Precolombino). Museo historico nacional qui retrace toute l'histoire du Chili.\n\n- Templo Bahá'í de Sudamérica : Édifice à l'architecture contemporaine spectaculaire, perché sur les contreforts des Andes (parking sur place).\n\nInfos pratiques :\n\n- Circulation : Santiago dispose d'un réseau d'autoroutes urbaines payantes. En cas de passage à un péage, régler sur le site Pasaste sin tag le montant du péage (à vérifier pour une plaque étrangère). Il est vivement recommandé d'éviter de conduire un van imposant dans le centre historique aux heures de pointe.\n\n- Stationnement & Nuit : Préférer les parkings gardés ou surveillés 24h/24 en périphérie / zones résidentielles sûres.",
+    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -261,8 +272,32 @@
     "pays": "Chili",
     "importance": null,
     "duree": null,
-    "description": "Surnommée 'La Ciudad Jardín' (la ville jardin), Viña del Mar est la grande station balnéaire moderne de la côte centrale chilienne. Située à seulement quelques kilomètres au nord de Valparaíso, elle offre une ambiance radicalement différente : de larges avenues bordées de palmiers, des plages, des parcs soignés et des édifices historiques.\n\nActivités :\n\n- Reloj de Flores (Horloge de fleurs) : L'emblème végétal emblématique situé au pied du Cerro Castillo.\n\n- Patrimoine & Culture : Visite du Castillo Wulff (château construit en bord de rochers face à l'océan) et du Museo Fonck (qui abrite l'un des rares authentiques Moaï de l'Île de Pâques sur le continent).\n\n- Secteur Reñaca & Concón : Poursuite vers le nord pour voir les dunes géantes de Concón et profiter des restaurants de fruits de mer.\n\nInfos pratiques :\n\n- Accès & Circulation : Contrairement aux reliefs escarpés de Valparaíso, Viña del Mar est une ville plate avec de larges boulevards, très facile à naviguer en van.\n\n- Stationnement & Bivouac : Nombreux parkings payants et surveillés le long du littoral. C'est une excellente alternative sécurisée pour dormir en van par rapport à Valparaíso, avec des spots plus calmes vers Concón ou Reñaca.",
-    "visiteGuidee": false
+    "description": "Surnommée 'La Ciudad Jardín' (la ville jardin), Viña del Mar est la grande station balnéaire moderne de la côte centrale chilienne. Située à seulement quelques kilomètres au nord de Valparaíso, elle offre une ambiance radicalement différente : de larges avenues bordées de palmiers, des plages, des parcs soignés et des édifices historiques.\n\nActivités :\n\n- Reloj de Flores (Horloge de fleurs) : L'emblème végétal emblématique situé au pied du Cerro Castillo. En profiter pour se balader jusqu'au castillo Wulff\n\n- Parc Quinta Vergara, jardin botanique gratuit, avec accès au palais Vergara et au musée des Beaux-Arts gratuit.\n\n- Dunes géantes de Concón plus au Nord. Jolie vue du haut de la dune.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Valle del Encanto",
+    "lieu": "De Santiago à Atacama",
+    "lieuId": "santiago-atacama",
+    "pays": "Chili",
+    "sousZone": "Sud La Serena",
+    "importance": null,
+    "duree": null,
+    "description": "Petit arrêt sur le chemin en allant vers La Serena, à 120km au Sud. Site archéologique avec pétroglyphes. Peut se visiter en autonome via une balade de 3km. Prix de l'entrée : 2 euros.\n\nJuste à côté, à Ovalle, on peut s'arrêter à la feria modelo de Ovalle, plus grand marché de fruits et légumes du nord, ouvert lundi, mercredi, vendredi et samedi de 6h à 18h et le dimanche de 8h à 14h.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Valle del Elqui",
+    "lieu": "De Santiago à Atacama",
+    "lieuId": "santiago-atacama",
+    "sousZone": "La Serena",
+    "pays": "Chili",
+    "importance": null,
+    "duree": "2 jours",
+    "description": "Vallée verte et sèche de la région de Coquimbo, connue pour son pisco, ses villages tranquilles et l'un des meilleurs ciels étoilés du Chili. À environ 60 km de La Serena par la Ruta 41 jusqu'à Vicuña. A faire seulement si nous avons 2 jours en plus. \n\n**Vicuña**\n\n- Tour à vélo avec Elki Magic. Pour 25 euros, location de vélo pour la journée, avec transport jusqu'à Pisco Elqui, et descente à vélo de Pisco Elqui à Vicuña.\n\n- Museo Gabriela Mistral (gratuit, fermé le lundi, environ 1h, textes en espagnol).\n\n- Helados La Bilbaina, sur le côté nord de la plaza : glacerie locale depuis plus de 50 ans, parfums régionaux comme le copao (fruit de cactus).\n\n- Mirador Cerro de la Virgen, à l'entrée sud de la ville par l'Avenida Champaqui : environ 30 min de montée, bancs et un peu d'ombre au sommet. Idéal au coucher du soleil.\n\n- Torre Bauer sur la Plaza de Armas.\n\n**Observatoires**\n\n- Cerro Tololo (visite de jour gratuite) : uniquement le samedi, à 9h ou 13h, environ 2h30. Réservation en ligne obligatoire, places très limitées, à faire longtemps à l'avance. \n\n- Observatorio del Pangue (nocturne) : à 17 km au sud de Vicuña. Tour à environ 52 000 CLP par personne depuis Vicuña, transport inclus. Pas de tours autour de la pleine lune, fermé en juillet-août : vérifier la phase de la Lune.\n\n- Mamalluca : le plus touristique, à environ 9 km de Vicuña (tours de 15 000 à 18 000 CLP).\n\n**Pisco et gastronomie**\n\n- Pisquera ABA (Fundo San Juan, El Arenal s/n, près de Vicuña) : petite pisquera familiale depuis 1921, visite d'environ 40 min avec dégustations. \n\n- Delicias del Sol : restaurant solaire, plats cuits dans des fours solaires (cabri au four solaire, pastel de choclo, charquicán).",
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -271,20 +306,9 @@
     "lieuId": "santiago",
     "sousZone": "Sud-Est Santiago",
     "pays": "Chili",
-    "importance": 5,
+    "importance": null,
     "duree": null,
-    "description": "Une spectaculaire vallée glaciaire s'enfonçant au cœur de la Cordillère des Andes, située à seulement 2h de route au sud-est de Santiago. Très populaire pour ses paysages alpins, ses sources thermales naturelles et ses sentiers de randonnée.\n\nActivités :\n\n- Embalse El Yeso : Lac de retenue aux eaux turquoise entouré de sommets enneigés culminant à plus de 3 000 m d'altitude (point de vue spectaculaire).\n\n- Termas de Colina : Bassins thermaux naturels en terrasses, alimentés par le volcan San José, chauffés entre 25°C et 55°C.\n\n- Monument Natural El Morado : Réserve naturelle proposant de belles randonnées menant au glacier El Morado et à la lagune glaciaire. Randonnées possibles : glacier San Francisco, glacier El morado. Réservation obligatoire. Site géré par la CONAF.\n\nInfos pratiques :\n\n- Conduite & Pistes : La route principale est asphaltée jusqu'à San Gabriel, puis cède la place à des pistes non revêtues (ripiadas), sinueuses et parfois étroites vers l'Embalse El Yeso et les Termas de Colina. Un véhicule avec une bonne garde au sol est fortement recommandé.\n\n- Météo : En hiver et au printemps (mai à octobre), l'accès à l'Embalse El Yeso peut être fermé ou réglementé en raison des risques de chutes de pierres, de glissements de terrain ou de neige. Etat de la route à vérifier. A faire de novembre à avril, donc retour sur Santiago.",
-    "visiteGuidee": false
-  },
-  {
-    "type": "Divers",
-    "nom": "Ville de Santiago",
-    "lieu": "Autour de Santiago",
-    "lieuId": "santiago",
-    "pays": "Chili",
-    "importance": 5,
-    "duree": null,
-    "description": "Capitale du Chili installée au pied de la Cordillère des Andes, Santiago offre une grande diversité d'expériences urbaines entre histoire coloniale, culture, vie nocturne et panoramas exceptionnels sur les sommets environnants.\n\nIncontournables :\n\n- Cerro San Cristóbal (Parque Metropolitano) : Grand poumon vert. Montée en funiculaire ou téléphérique pour profiter d'une des plus belles vues panoramiques à 360° sur Santiago et les Andes.\n\n- Cerro Santa Lucía : Colline aménagée en parc romantique au cœur du centre-ville, avec terrasses, fontaines et le Castillo Hidalgo.\n\n- Centre Historique : La Plaza de Armas, la Cathédrale Métropolitaine, le Palacio de La Moneda (siège de la présidence) et le très renommé Musée d'Art Précolombien (Museo de Arte Precolombino).\n\n- Musée de la Mémoire et des Droits de l'Homme : Musée poignant et incontournable pour comprendre l'histoire contemporaine du Chili sous la dictature militaire.\n\n- Templo Bahá'í de Sudamérica : Édifice à l'architecture contemporaine spectaculaire, perché sur les contreforts des Andes (parking sur place).\n\nInfos pratiques :\n\n- Circulation : Santiago dispose d'un réseau d'autoroutes urbaines payantes. En cas de passage à un péage, régler sur le site Pasaste sin tag le montant du péage (à vérifier pour une plaque étrangère). Il est vivement recommandé d'éviter de conduire un van imposant dans le centre historique aux heures de pointe.\n\n- Stationnement & Nuit : Préférer les parkings gardés ou surveillés 24h/24 en périphérie / zones résidentielles sûres.",
+    "description": "Excursion à faire depuis Santiago, ou sur la route du retour si nous avons le temps.\n\nUne spectaculaire vallée glaciaire s'enfonçant au cœur de la Cordillère des Andes, située à seulement 2h de route au sud-est de Santiago. Très populaire pour ses paysages alpins, ses sources thermales naturelles et ses sentiers de randonnée.\n\nActivités :\n\n- Embalse El Yeso : Lac de retenue aux eaux turquoise entouré de sommets enneigés culminant à plus de 3 000 m d'altitude (point de vue spectaculaire).\n\n- Termas de Colina : Bassins thermaux naturels en terrasses, alimentés par le volcan San José, chauffés entre 25°C et 55°C.\n\n- Monument Natural El Morado : Réserve naturelle proposant de belles randonnées menant au glacier El Morado et à la lagune glaciaire. Randonnées possibles : glacier San Francisco, glacier El morado. Réservation obligatoire. Site géré par la CONAF.\n\nInfos pratiques :\n\n- Conduite & Pistes : La route principale est asphaltée jusqu'à San Gabriel, puis cède la place à des pistes non revêtues (ripiadas), sinueuses et parfois étroites vers l'Embalse El Yeso et les Termas de Colina. Un véhicule avec une bonne garde au sol est fortement recommandé.\n\n- Météo : En hiver et au printemps (mai à octobre), l'accès à l'Embalse El Yeso peut être fermé ou réglementé en raison des risques de chutes de pierres, de glissements de terrain ou de neige. Etat de la route à vérifier. A faire de novembre à avril, donc retour sur Santiago.",
     "visiteGuidee": false
   },
   {
@@ -306,7 +330,7 @@
     "pays": "Pérou",
     "importance": null,
     "duree": null,
-    "description": "Excursion en bateau (tour organisé de 2h, départ le matin), pour aller à côté des îles Ballestas (petits ilots rocheux). Possibilité de voir des otaries, lions de mer et pingouins.",
+    "description": "Excursion en bateau (tour organisé de 2h, départ le matin), pour aller à côté des îles Ballestas (petits ilots rocheux). Possibilité de voir des otaries, lions de mer et manchots.",
     "visiteGuidee": false
   },
   {
@@ -369,7 +393,7 @@
     "nom": "Gran Poder",
     "lieu": "La Paz",
     "lieuId": "la-paz",
-    "souszone": "La Paz",
+    "sousZone": "La Paz",
     "pays": "Bolivie",
     "importance": 5,
     "duree": null,
@@ -417,7 +441,7 @@
     "pays": "Bolivie",
     "importance": null,
     "duree": null,
-    "description": "Ancienne deuxième plus grande mine d'argent au monde au XIXe siècle, Pulacayo est aujourd'hui une cité minière quasiment fantôme.\n\nActivités :\n\n - Visite du matériel ferroviaire historique : Observation des premières locomotives à vapeur de Bolivie (importées par la Huanchaca Company) et du train braqué par Butch Cassidy et le Sundance Kid en 1908.\n\n - Patrimoine industriel : Exploration extérieure du village minier, de la maison du président Aniceto Arce et des structures industrielles abandonnées.\n\nInfos pratiques :\n\n- Prix : Gratuit / ~10 BOB si le petit musée local est ouvert.\n\n- Accès Van : Situé à seulement 20 km d'Uyuni sur la route Potosí-Uyuni. Court détour de 2 km sur piste en terre praticable en 2WD.",
+    "description": "Ancienne deuxième plus grande mine d'argent au monde au XIXe siècle, Pulacayo est aujourd'hui une cité minière quasiment fantôme.\n\n**Activités :**\n\n - Visite du matériel ferroviaire historique : Observation des premières locomotives à vapeur de Bolivie (importées par la Huanchaca Company) et du train braqué par Butch Cassidy et le Sundance Kid en 1908.\n\n - Patrimoine industriel : Exploration extérieure du village minier, de la maison du président Aniceto Arce et des structures industrielles abandonnées.\n\n**Infos pratiques :**\n\n- Prix : Gratuit / ~10 BOB si le petit musée local est ouvert.\n\n- Accès Van : Situé à seulement 20 km d'Uyuni sur la route Potosí-Uyuni. Court détour de 2 km sur piste en terre praticable en 2WD.",
     "visiteGuidee": true
   },
   {
@@ -436,7 +460,7 @@
     "nom": "Inkallajta",
     "lieu": "Cochabamba",
     "lieuId": "cochabamba",
-    "sousZone": "Route Cochambamba - Sucre",
+    "sousZone": "Route Cochabamba - Sucre",
     "pays": "Bolivie",
     "importance": null,
     "duree": null,
@@ -448,7 +472,7 @@
     "nom": "Aiquile",
     "lieu": "Cochabamba",
     "lieuId": "cochabamba",
-    "sousZone": "Route Cochambamba - Sucre",
+    "sousZone": "Route Cochabamba - Sucre",
     "pays": "Bolivie",
     "importance": null,
     "duree": null,
@@ -523,7 +547,7 @@
     "sousZone": "Route Pérou",
     "importance": null,
     "duree": null,
-    "description": "Tiwanuku est l'un des sites archéologiques les plus importants d'Amérique du Sud, à 70km à l'Ouest de La Paz. Prix : 15 euros environ. Prévoir 3-4 heures sur place pour la visite.",
+    "description": "Tiwanaku est l'un des sites archéologiques les plus importants d'Amérique du Sud, à 70km à l'Ouest de La Paz. Prix : 15 euros environ. Prévoir 3-4 heures sur place pour la visite.",
     "visiteGuidee": true
   },
   {
@@ -535,7 +559,7 @@
     "sousZone": null,
     "importance": 5,
     "duree": "2-3 jours",
-    "description": "Sur la route pour aller de la Bolivie au Pérou, s'arrêter à Copacabana pour visiter la Isla del Sol. En van, passer par Tiquina et prendre le bac (50 bob et aller-retours en continu de 6h à 22h, ticket à acheter sur place, traversée de 10-15min). Possitilité de bivouaquer à la Péninsule de Yampupata. Puis laisser le van à Copacabana pour prendre le bateau direction Isla del Sol.\n\nPour prendre le bateau, se rendre sur le port de Copacabana et prendre un bateau public (*lanchas*). Deux horaires pour l'aller : 8h30 le matin et 13h30 l'après-midi. Préciser si on veut débarquer au Nord ou au Sud. A Yumani, une taxe de 10 bob sera demandée. Pour le retour, il se fait depuis le Sud (Yumani) à 10h30 et 15h30. Prix : environ 5 euros l'aller-retour. Compter 2h30 de trajet.\n\nSur l'île, il est possible de faire une grande randonnée depuis le Sud permettant d'aller voir les vestiges incas du Nord et de revenir par le littoral (19km sans trop de dénivelé mais à 4000m d'altitude). Une taxe de 10-20 sol sera demandée au passage de chaque village, pour une trentaine de sol au total. Garder de la monnaie sur soi pendant la randonnée. Faire également une petite randonnée pour visiter la partie sud de l'île.\n\nItinéraire possible : prendre le bateau le matin pour faire le sud, et le lendemain la grande boucle. Puis revenir avec le dernier bateau ou rester une nuit de plus sur l'île.",
+    "description": "Sur la route pour aller de la Bolivie au Pérou, s'arrêter à Copacabana pour visiter la Isla del Sol. En van, passer par Tiquina et prendre le bac (50 bob et aller-retours en continu de 6h à 22h, ticket à acheter sur place, traversée de 10-15min). Possibilité de bivouaquer à la Péninsule de Yampupata. Puis laisser le van à Copacabana pour prendre le bateau direction Isla del Sol.\n\nPour prendre le bateau, se rendre sur le port de Copacabana et prendre un bateau public (*lanchas*). Deux horaires pour l'aller : 8h30 le matin et 13h30 l'après-midi. Préciser si on veut débarquer au Nord ou au Sud. A Yumani, une taxe de 10 bob sera demandée. Pour le retour, il se fait depuis le Sud (Yumani) à 10h30 et 15h30. Prix : environ 5 euros l'aller-retour. Compter 2h30 de trajet.\n\nSur l'île, il est possible de faire une grande randonnée depuis le Sud permettant d'aller voir les vestiges incas du Nord et de revenir par le littoral (19km sans trop de dénivelé mais à 4000m d'altitude). Une taxe de 10-20 sol sera demandée au passage de chaque village, pour une trentaine de sol au total. Garder de la monnaie sur soi pendant la randonnée. Faire également une petite randonnée pour visiter la partie sud de l'île.\n\nItinéraire possible : prendre le bateau le matin pour faire le sud, et le lendemain la grande boucle. Puis revenir avec le dernier bateau ou rester une nuit de plus sur l'île.",
     "visiteGuidee": true
   },
   {
@@ -629,7 +653,7 @@
   },
   {
     "type": "Culture",
-    "nom": "Cerro Sechin",
+    "nom": "Cerro Sechín",
     "lieu": "Côte Pacifique Nord",
     "lieuId": "cote-pacifique-nord",
     "pays": "Pérou",
@@ -713,7 +737,7 @@
   },
   {
     "type": "Culture",
-    "nom": "Pyramides de Tucume",
+    "nom": "Pyramides de Túcume",
     "lieu": "Côte Pacifique Nord",
     "lieuId": "cote-pacifique-nord",
     "sousZone": "Chiclayo",
@@ -753,7 +777,7 @@
     "pays": "Pérou",
     "importance": null,
     "duree": null,
-    "description": "Sanctuaire des vigognes. Prix : 30 soles. Visite du musée du site sur la faune locale et petites balades autour. \n\nLe 24 juin : Chacchu National, rite ancestral inca : des centaines de membres des communautés locales forment une immense chaîne humaine de plusieurs kilomètres à travers la plaine pour encercler les vigognes sauvages, les rassembler dans un enclos, les tondre pour leur laine ultra-précieuse, puis les relâcher saines et sauves.",
+    "description": "Sanctuaire des vigognes. Prix : 30 soles. Visite du musée du site sur la faune locale et petites balades autour. \n\nLe 24 juin : Chacchu, rite ancestral inca : des centaines de membres des communautés locales forment une immense chaîne humaine de plusieurs kilomètres à travers la plaine pour encercler les vigognes sauvages, les rassembler dans un enclos, les tondre pour leur laine ultra-précieuse, puis les relâcher saines et sauves.",
     "visiteGuidee": true
   },
   {
@@ -810,7 +834,7 @@
     "pays": "Equateur",
     "importance": 5,
     "duree": "2 jours",
-    "description": "Petite ville située à 2h de route de Quito, connue comme la ville aux oiseaux et des papillons. Très humide. Dormir en lodge pour 30 dollars la nuit, ou dormir dans des zones de camping aménagée avec le van. Les  activités à faire à Mindo :\n\n - Observation des oiseaux : ils s'observent mieux entre 6h et 9h du matin. Certains lodges ont des mangeoires pour attirer les oiseaux. La Casa Amarillo Mindo a des sentiers de randonnée privés (6 dollars) sur lesquels l'observation des oiseaux est possible. La référence est sinon le Refugio Paz de las Avec, mais uniquement en tour guidé.\n\n - Randonnée des 5 cascades. Prendre un téléphérique (Tarabita) pour 5 dollars aller-retour. Arrivée à un réseau de sentiers qui permettent de se balader : sentier de la Cascada Reina et sentier des 5 cascades. Sentiers boueux.\n\n - Ateliers de chocolat : Yumbos Chocolate ou El Quetzal de Mindo. Proposent des tours et des dégustations.\n\n - Mindo Frog Concert : visite qui commence à la nuit tombée (vers 18h30) à Mindo Lago, qui permet d'observer et entendre les espèces nocturnes, notamment les grenouilles.\n\n - Mariposario de Mindo : une serre aux papillons.\n\n - Des expériences de tubing, tyroliennes, canyoning sont organisées.\n\nLes applications eBird ou Merlin Bird ID permettent d'identifier les oiseaux par le son ou la photo. Une carte des sentiers peut être récupérée à l'office du tourisme.",
+    "description": "Petite ville située à 2h de route de Quito, connue comme la ville aux oiseaux et des papillons. Très humide. Dormir en lodge pour 30 dollars la nuit, ou dormir dans des zones de camping aménagée avec le van. Les  activités à faire à Mindo :\n\n - Observation des oiseaux : ils s'observent mieux entre 6h et 9h du matin. Certains lodges ont des mangeoires pour attirer les oiseaux. La Casa Amarillo Mindo a des sentiers de randonnée privés (6 dollars) sur lesquels l'observation des oiseaux est possible. La référence est sinon le Refugio Paz de las Aves, mais uniquement en tour guidé.\n\n - Randonnée des 5 cascades. Prendre un téléphérique (Tarabita) pour 5 dollars aller-retour. Arrivée à un réseau de sentiers qui permettent de se balader : sentier de la Cascada Reina et sentier des 5 cascades. Sentiers boueux.\n\n - Ateliers de chocolat : Yumbos Chocolate ou El Quetzal de Mindo. Proposent des tours et des dégustations.\n\n - Mindo Frog Concert : visite qui commence à la nuit tombée (vers 18h30) à Mindo Lago, qui permet d'observer et entendre les espèces nocturnes, notamment les grenouilles.\n\n - Mariposario de Mindo : une serre aux papillons.\n\n - Des expériences de tubing, tyroliennes, canyoning sont organisées.\n\nLes applications eBird ou Merlin Bird ID permettent d'identifier les oiseaux par le son ou la photo. Une carte des sentiers peut être récupérée à l'office du tourisme.",
     "visiteGuidee": true
   },
   {
@@ -871,7 +895,7 @@
     "images": ["quilotoa.PNG"],
     "importance": 5,
     "duree": "3 jours",
-    "description": "Malgré son nom, ce trek est en fait un trek de Sigchos à Quilotoa. Trek de 35km. Penser à amener du cash. Possibilité de dormir en tente ou en hostel (20 dollars par personne par nuit avec diner et petit déjeuner compris). Pour réserver les hostels, soit par Booking, WhatsApp, soit via l'hébegement de la nuit d'avant. Laisser le van à Latacunga. L'hostel Tiana peut être un bon choix pour laisser le van (dormir la veille et au retour dans l'hostel et laisser le van quelques jours avec les affaires). Prendre le bus jusqu'à Sigchos, depuis le terminal terrestre  de Latacunga (aller voir la veille les horaires). Au retour, bus direct de Quilotoa vers Latacunga à l'entrée du village.\n\nJour 1 : Sigchos - Isinlivi : 10km, 600m D+.\n\nJour 2 : Isinlivi - Chugchilán : 12.4km - 781m D+.\n\nJour 3 : Chugchilán - Quilotoa : 13km, 1050m D+.\n\nCircuti classique en 3 jours. Si on veut raccourcir, prendre le premier bus du matin et doubler les deux premières étapes. Ou doubler étape 2 et 3, mais attention à l'altitude (3000m) et beaucoup de dénivelé.\n\nA Isinlivi, dormir à Llullu Llama. Plusieurs day hikes possibles à Isinlivi, si on veut rajouter une nuit pendant le trek.\n\nA Chugchilán, possibilité de visiter une petite fabrique de fromage (Queseria), et d'en acheter. Beaucoup de guesthouses ont le sauna inclus.\n\nA Quilotoa, possible de louer un kayak pour 3 dollars les 30min.",
+    "description": "Malgré son nom, ce trek est en fait un trek de Sigchos à Quilotoa. Trek de 35km. Penser à amener du cash. Possibilité de dormir en tente ou en hostel (20 dollars par personne par nuit avec diner et petit déjeuner compris). Pour réserver les hostels, soit par Booking, WhatsApp, soit via l'hébergement de la nuit d'avant. Laisser le van à Latacunga. L'hostel Tiana peut être un bon choix pour laisser le van (dormir la veille et au retour dans l'hostel et laisser le van quelques jours avec les affaires). Prendre le bus jusqu'à Sigchos, depuis le terminal terrestre  de Latacunga (aller voir la veille les horaires). Au retour, bus direct de Quilotoa vers Latacunga à l'entrée du village.\n\nJour 1 : Sigchos - Isinlivi : 10km, 600m D+.\n\nJour 2 : Isinlivi - Chugchilán : 12.4km - 781m D+.\n\nJour 3 : Chugchilán - Quilotoa : 13km, 1050m D+.\n\nCircuit classique en 3 jours. Si on veut raccourcir, prendre le premier bus du matin et doubler les deux premières étapes. Ou doubler étape 2 et 3, mais attention à l'altitude (3000m) et beaucoup de dénivelé.\n\nA Isinlivi, dormir à Llullu Llama. Plusieurs day hikes possibles à Isinlivi, si on veut rajouter une nuit pendant le trek.\n\nA Chugchilán, possibilité de visiter une petite fabrique de fromage (Queseria), et d'en acheter. Beaucoup de guesthouses ont le sauna inclus.\n\nA Quilotoa, possible de louer un kayak pour 3 dollars les 30min.",
     "visiteGuidee": true
   },
   {
@@ -931,7 +955,7 @@
     "images": ["saraguro.PNG"],
     "importance": null,
     "duree": null,
-    "description": "Bourgade andine réputée pour sa communauté indigène Kichwa Saraguro, qui a préservé un mode de vie et un style vestimentaire uniques (vêtements noirs traditionnels, bijoux en perles de verre chaquira et grands chapeaux peints à motifs). Étape idéale et très accessible en van sur la Panamericanax entre Cuenca et Loja.\n\nActivités :\n\n- Marché local & Centre-ville : Visite de la plaza central, découverte de l'artisanat du perlage (*chaquiras*) et observation des tenues traditionnelles (marché principal le dimanche, très animé).\n\n- Baños del Inca (Incañan) : Site naturel et archéologique à proximité avec de petites grottes et des cascades d'eau sacrée.\n\n - Marcher jusqu'à Las Lagunas, communauté spécialisée dans le textile traditionnel, et jusqu'à Tungarta, spécialisé dans la confection de chapeaux traditionnels.\n\n - Balade dans le Bosque Protegido Huashapampa et vers les cascades de Virgen de Santa Agua et Sarashi.",
+    "description": "Bourgade andine réputée pour sa communauté indigène Kichwa Saraguro, qui a préservé un mode de vie et un style vestimentaire uniques (vêtements noirs traditionnels, bijoux en perles de verre chaquira et grands chapeaux peints à motifs). Étape idéale et très accessible en van sur la Panaméricaine entre Cuenca et Loja.\n\nActivités :\n\n- Marché local & Centre-ville : Visite de la plaza central, découverte de l'artisanat du perlage (*chaquiras*) et observation des tenues traditionnelles (marché principal le dimanche, très animé).\n\n- Baños del Inca (Incañan) : Site naturel et archéologique à proximité avec de petites grottes et des cascades d'eau sacrée.\n\n - Marcher jusqu'à Las Lagunas, communauté spécialisée dans le textile traditionnel, et jusqu'à Tungarta, spécialisé dans la confection de chapeaux traditionnels.\n\n - Balade dans le Bosque Protegido Huashapampa et vers les cascades de Virgen de Santa Agua et Sarashi.",
     "visiteGuidee": true
   },
   {
@@ -978,12 +1002,12 @@
     "importance": null,
     "sousZone": "Nord de Cuenca",
     "duree": null,
-    "description": "Complexe archéologique situé à 2 heures de route au Nord de Cuenca. Ouvert du mercredi au dimanche. Prix : 2$ par personne avec guide, visites à heure fixe.\n\nJuste à côté, petite balade pour aller voir La Cara del Inca.",
+    "description": "Complexe archéologique situé à 2 heures de route au Nord de Cuenca. Ouvert du mercredi au dimanche. Prix : 6$ par personne avec guide, visites à heure fixe.\n\nJuste à côté, petite balade pour aller voir La Cara del Inca.",
     "visiteGuidee": true
   },
   {
     "type": "Nature",
-    "nom": "El Chorro de Giron",
+    "nom": "El Chorro de Girón",
     "lieu": "Cuenca",
     "lieuId": "cuenca",
     "pays": "Equateur",
@@ -1002,7 +1026,7 @@
     "importance": null,
     "sousZone": "Nord de Cuenca",
     "duree": null,
-    "description": "Immense paroi rocheuse en forme de nez. Un chemin de fer est construit sur les parois. Dénivelé de 500m en 12km à faire. Système ingénieux de fonctionnement du train : es ingénieurs ont conçu un système de zigzag unique au monde : le train avance, dépasse un aiguillage, s'arrête, change de voie et recule pour continuer à descendre (ou monter) le long de la falaise.\n\nFaire la randonnée du Cerro Pistishi pour atteindre le mirador Condor Pununa. Départ d'Alausi, et aller-retour de 12km. Une taxe communautaire de 2$ peut être demandée pour l'accès au mirador. Depuis le mirador, vue sur Nariz del Diablo et le train. Le train part de la gare d'Alausi toutes les semaines du mercredi au dimanche à 3 horaires : 8h, 11h et 14h (horaires à vérifier la veille). Pour le voir en action, privilégier le créneau du matin (brume) et arriver au mirador au plus tard à 8h45 (45min de trajet entre la gare et l'arrivée à Nariz del Diablo).",
+    "description": "Immense paroi rocheuse en forme de nez. Un chemin de fer est construit sur les parois. Dénivelé de 500m en 12km à faire. Système ingénieux de fonctionnement du train : les ingénieurs ont conçu un système de zigzag unique au monde : le train avance, dépasse un aiguillage, s'arrête, change de voie et recule pour continuer à descendre (ou monter) le long de la falaise.\n\nFaire la randonnée du Cerro Pistishi pour atteindre le mirador Condor Pununa. Départ d'Alausi, et aller-retour de 12km. Une taxe communautaire de 2$ peut être demandée pour l'accès au mirador. Depuis le mirador, vue sur Nariz del Diablo et le train. Le train part de la gare d'Alausi toutes les semaines du mercredi au dimanche à 3 horaires : 8h, 11h et 14h (horaires à vérifier la veille). Pour le voir en action, privilégier le créneau du matin (brume) et arriver au mirador au plus tard à 8h45 (45min de trajet entre la gare et l'arrivée à Nariz del Diablo).",
     "visiteGuidee": true
   },
   {
@@ -1024,30 +1048,75 @@
     "pays": "Bolivie",
     "importance": 5,
     "duree": "5 jours",
-    "description": "Visite de l'Amazonie via Rurrennabaque. Prendre l'avion depuis La Paz (moins d'une heure de vol). Possibilité de faire 5 jours : quelques jours dans la selva (jungle amazonienne dense) et quelques jours dans la pampa (zones humides ouvertes). La pampa permet d'effectuer un vrai safari amazonien. Compter 400 euros pour 5 jours via des agences du type Jaja Tours. Voir agences recommandées (et autres partenaires) dans le groupe Facebook 'Les Français en Bolivie'.\n\nPossibilité également de faire quelques jours dans un écolodge dans la forêt.\n\nHostel pour dormir à Rurrenabaque : El Lobo Hostal.",
+    "description": "Visite de l'Amazonie via Rurrenabaque. Prendre l'avion depuis La Paz (moins d'une heure de vol). Possibilité de faire 5 jours : quelques jours dans la selva (jungle amazonienne dense) et quelques jours dans la pampa (zones humides ouvertes). La pampa permet d'effectuer un vrai safari amazonien. Compter 400 euros pour 5 jours via des agences du type Jaja Tours. Voir agences recommandées (et autres partenaires) dans le groupe Facebook 'Les Français en Bolivie'.\n\nPossibilité également de faire quelques jours dans un écolodge dans la forêt.\n\nHostel pour dormir à Rurrenabaque : El Lobo Hostal.",
     "visiteGuidee": true
   },
   {
     "type": "Nature",
-    "nom": "Parc Pan de Azucar",
-    "lieu": "Nord du Chili",
-    "lieuId": "nord-chili",
+    "nom": "Parc Pan de Azúcar",
+    "lieu": "De Santiago à Atacama",
+    "lieuId": "santiago-atacama",
+    "sousZone": "Nord Copiapó",
     "images": ["pan-de-azucar.jpg"],
     "pays": "Chili",
     "importance": null,
     "duree": null,
-    "description": "Parc sur la route pour monter de Santiago vers San Pedro de Atacama. Prix : 11 euros environ. A réserver à l'avance sur le site officiel. Quelques randonnées pas très longues, à finir avant 18h, permettant d'observer des guanacos ou des renards gris (avant 10h ou après 16h30). Chemins de randonnées : sendero Mirador (5km aller-retour) et sendero Quebrada del Castillo (4km). Plage Playa Blanca.",
+    "description": "Parc sur la route pour monter de Santiago vers San Pedro de Atacama. Prix : 11 euros environ. A réserver à l'avance sur le site officiel. Pas de réseau dans le parc. S'il est ouvert, passer voir le centre d'administration de la conaf en face de la plage Piqueros (visitor center). Campings disponibles dans le parc.\n\nQuelques randonnées pas très longues, à finir avant 18h, permettant d'observer des guanacos ou des renards gris (avant 10h ou après 16h30). Chemins de randonnées : sendero Mirador (5km aller-retour), sendero Quebrada del Castillo (4km) et sendero Las Lomitas (plus long mais possible de faire le début pour voir les filets 'attrape-brume'). Plage Playa Blanca.",
     "visiteGuidee": true
   },
   {
     "type": "Nature",
-    "nom": "Désert d'Atacama",
+    "nom": "Valle Arcoiris et Yerbas Buenas",
     "lieu": "Nord du Chili",
     "lieuId": "nord-chili",
     "pays": "Chili",
-    "importance": 5,
-    "duree": "3-4 jours",
-    "description": "Le désert d'Atacama est un des endroits les plus arides du monde, avec des paysages lunaires, des lagunes colorées et des geysers fumants. Chaque spot touristique du désert est payant, à réserver en avance. Le désert est à une altitude comprise entre 2000m et 4200m pour certaines zones. La visite du désert se fait en plusieurs jours.\n\n**Arrivée depuis Calama.** Sur le chemin, faire un petit détour vers Valle del Arcoiris (vallée arc-en-ciel) et Yerbas Buenas. 10 euros environ les deux sites. Quelques passages de gué peu profonds.\n\n**Nord de San Pedro de Atacama.** Point d'intérêt principal : les geysers de Tatio. Arriver entre 6h et 8h pour voir les geysers (avant le lever du soleil). 15 euros l'entrée. Accès au champ de geyser, le geyser blanc et les Termas de El Tatio. Sur le chemin, possibilité de s'arrêter à Machuca, petit village traditionnel dans lequel les habitants élèvent des lamas, et dans lequel on peut manger de la viande de lama. Arrêt possible à la Quebrada Escalera (gratuit). Après le point de vue, il y a un sentier qui remonte vers des piscines chaudes gratuites. Sur la route du retour, proche de SPA, petite balade dans le canyon de Guatin et vallée des cactus.\n\n**Sud de San Pedro de Atacama.** Points d'intérêts principaux : Piedras Rojas et lagunas Miscanti et Miniques. 15 euros, à acheter la veille, et entrées papier à récupérer à Socaire une heure avant le jour J. Piedras Rojas est à 4200m d'altitude. Laguna Tuyalito (gratuit) juste après. Sur la route du retour, possibilité de s'arrêter à la lagune de Chaxa (15 euros). Plus proche de SPA, lagunas Cejar et Piedra : 15 euros avec réservation obligatoire. Permet de se baigner dans la laguna Piedra, plus salée que la mer morte.\n\n**Autour de San Pedro de Atacama.** Valle de la Luna : 15 euros, plusieurs secteurs balisés (mirador Duna Mayor, Mina Victoria, Tres Marias, Anfiteatro et mirador de Ckari). Canyon Garganta del Diablo, 5 euros. Mirador Pukara Quito et forteresse. Valle de Marte. Magic Bus.\n\nLe désert d'Atacama est le meilleur endroit pour faire un tour astronomie. Choisir une nuit dégagée et avec le moins de lune possible.\n\nAprès les quelques jours de route, effectuer un lavage complet du châssis (énormément de sel).",
+    "importance": null,
+    "duree": null,
+    "description": "Sur la route de Calama (à l'aller ou au retour), deux sites majeurs : Valle Arcoiris et pétroglyphes Yerbas Buenas. 25km de piste depuis la route principale pour y accéder. Prix : 5 euros chaque site. Ouvert tous les jours de 9h à 17h.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Geysers de Tatio",
+    "lieu": "Nord du Chili",
+    "lieuId": "nord-chili",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "Plus haut champ de geysers au monde, à plus de 4200m d'altitude. A 1h30 de route depuis San Pedro de Atacama, il faut arriver à l'aube (entre 6h et 7h) pour pouvoir observer les geysers. Environ 15 euros l'entrée (en espèces).\n\nFaire une halte sur le chemin du retour au Vado Río Putana (point de vue), au Mirador de Machuca et au Cañon de Guatín (balade dans le canyon).\n\nNe pas s'arrêter au village de Machuca, qui fait payer l'entrée.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Autour de San Pedro",
+    "lieu": "Nord du Chili",
+    "lieuId": "nord-chili",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "Le site touristique principal autour de San Pedro de Atacama est Valle de la Luna. Prix 14 euros. Ouvert tous les jours de 8h à 16h. La vallée s'étend sur une piste de 11km de long. Après le poste de garde, suivre la piste sur 6km et s'arrêter à côté de la *duna Mayor*. Petite balade pour aller jusqu'au mirador 1 puis jusqu'au mirador 2. Reprendre la route pour aller au départ d'une autre balade *Los Achaches*. Aller ensuite jusqu'à la *mina de sal Victoria*, 1km plus loin, puis jusqu'au site *Tres Marias*, tout au bout de la piste.\n\nAvec le billet d'entrée de la vallée de la Luna, il est possible d'aller au Mirador del Coyote, où toutes les agences vont pour le coucher du soleil.\n\nAutour de San Pedro, il faut également visiter la Valle de Marte. Prix 6 euros. Ouvert tous les jours de 8h30 à 19h. Permet de grimper la dune principale et d'avoir une belle vue.\n\nJuste à côte, visiter le Pukara de Quitor. Prix 6 euros. Ouvert tous les jours de 8h à 16h30. Permet d'aller jusqu'à un mirador qui donne un beau point de vue sur la vallée de Marte.\n\nQuelques km plus au nord, se balader dans Garganta del Diablo (canyon). Prix 5 euros. Ouvert tous les jours de 8h30 à 17h.\n\nUne autre attraction est le 'Magic Bus', un bus abandonné en plein désert.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Salar d'Atacama",
+    "lieu": "Nord du Chili",
+    "lieuId": "nord-chili",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "Grand salar situé au sud de San Pedro de Atacama. \n\nA 20min de San Pedro, les lagunas Cejar et Piedras permettent de se baigner dans un lac très salé. Prix 15 euros. Ouvert tous les jours sauf le mardi de 9h à 12h.\n\nUn peu plus loin, la laguna Tebenquiche offre un paysage magnifique, avec de nombreux flamands roses. Prix 5 euros. Ouvert tous les jours de 9h à 13h30 et de 14h30 à 17h30.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Lagunas Miscanti-Miñiques",
+    "lieu": "Nord du Chili",
+    "lieuId": "nord-chili",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "A 1h30 de route au sud de San Pedro de Atacama. Prix 15 euros avec Piedras Rojas. Acheter le ticket à l'avance et arriver 1h avant l'heure de réservation au point de contrôle à Socaire. Ouvert tous les jours de 9h à 14h. Avec le même billet, on peut aller plus au sud se balader au Salar de Talar et les piedras Rojas.\n\nSur le chemin, on peut s'arrêter au village de Toconao et à la Valle de Jere (5 euros). Le panneau du passage du tropique du capricorne est en bord de route.\n\nPossibilité de cumuler avec la laguna Chaxa (15 euros l'entrée).",
     "visiteGuidee": true
   },
   {
@@ -1073,26 +1142,14 @@
     "visiteGuidee": true
   },
   {
-    "type": "Nature",
-    "nom": "Glacier Perito Moreno",
-    "lieu": "Patagonie",
-    "lieuId": "patagonie",
-    "images": ["perito-moreno.jpg"],
-    "pays": "Argentine",
-    "importance": 5,
-    "duree": null,
-    "description": "Glacier qui se situe à environ 1 heure en voiture de El Calafate. Prix de l'entrée à la journée : 35 dollars. Très cher, il peut être intéressant de prendre le pass annuel des parcs nationaux payants d'Argentine. Plusieurs sentiers permettent d'avoir de beaux points de vue sur le glacier.\n\nParmi les activités à faire : marche sur glacier (très cher), kayak, ou bateau proche du glacier.",
-    "visiteGuidee": true
-  },
-  {
     "type": "Divers",
-    "nom": "Cueva del Milodon",
+    "nom": "Cueva del Milodón",
     "lieu": "Patagonie",
     "lieuId": "patagonie",
     "pays": "Argentine",
     "importance": null,
     "duree": null,
-    "description": "Grotte juste au sud de Torres del Paine, dans laquelle des reste fossilisés du Milodon ont été découverts (paresseux terrestre géant).\n\nA combiner avec la randonnée du Cerro Benitez ou du Cerro Dorotea dans la journée.",
+    "description": "Grotte juste au sud de Torres del Paine, dans laquelle des restes fossilisés du Milodón ont été découverts (paresseux terrestre géant).\n\nFaire le 'Circuit de la grotte de Milodón' de 8km en même temps pour voir d'autres grottes (Cueva del Medio et Cueva Chica). A combiner avec la randonnée du Cerro Benitez ou du Cerro Dorotea dans la journée.",
     "visiteGuidee": true
   },
   {
@@ -1100,22 +1157,11 @@
     "nom": "Cojitambo",
     "lieu": "Cuenca",
     "lieuId": "cuenca",
-    "sousZone": "Nord Cuenca",
+    "sousZone": "Nord de Cuenca",
     "pays": "Equateur",
     "importance": null,
     "duree": null,
     "description": "Sommet volcanique emblématique combinant des ruines archéologiques Cañari/Inca et le spot d'escalade le plus réputé d'Équateur. Halte idéale entre Ingapirca et Cuenca.\n\nRandonnée du Cerro Cojitambo : Courte ascension raide (30 min A/R, 100m D+) jusqu'au sommet à travers les terrasses incas pour profiter d'un panorama à 360° sur la vallée d'Azogues.\n\nInfos pratiques :\n\n- Prix : Entrée totalement libre et gratuite.\n\n- Accès Van : Route asphaltée depuis la Panaméricaine, puis courte route pavée étroite jusqu'au parking du complexe archéologique (facile en 2WD).\n\n- Bivouac : Possibilité de passer la nuit gratuitement et au calme sur le parking du site.",
-    "visiteGuidee": true
-  },
-  {
-    "type": "Randonnée",
-    "nom": "Torres del Paine",
-    "lieu": "Patagonie",
-    "lieuId": "patagonie",
-    "pays": "Argentine",
-    "importance": 5,
-    "duree": null,
-    "description": "Trek le plus connu : W trek. Les campings sont souvent pris d'assault donc compliqué de faire un trek sur plusieurs jours. Randonnées à la journée à la place. Il est interdit de dormir dans le parc. Juste à l'extérieur du parc, il y a de grands espaces dégagés pour dormir.\n\nPrix : environ 50 euros pour 3 jours. A acheter en avance sur le site internet.\n\nPas de station service dans le parc.\n\nRandonnées incontournables :\n\n - Mirador Base Las Torres : 20km, 1000m D+. Rando classique du parc.\n\n - Mirador Ferrier : « km vertical » 6km aller-retour 700m D+. Très raide mais superbe panorama.\n\nD'autres randonnées plus courtes offrent de jolis points de vue : Mirador Condor (45min), sentier Fauna + Laguna Azul pour observer la faune du parc, Salto Grande + Mirador Cuernos.",
     "visiteGuidee": true
   },
   {
@@ -1174,6 +1220,17 @@
     "visiteGuidee": true
   },
   {
+    "type": "Divers",
+    "nom": "Caleta Tortel",
+    "lieu": "Carretera Austral",
+    "lieuId": "carretera-austral",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "Petit village insolite et très mignon. Pas de voitures, toute la ville est construite autour de passerelle en bois. Se balader sur le sentier Cerro Tortel pour avoir une vue sur le village. L'accès à la ville implique un détour de 3 heures vers le sud de la carretera austral. Le faire si le temps le permet.\n\nComme l'accès en voiture n'est pas possible, un grand parking à l'extérieur de la ville est présent pour se garer, tout le reste se fait ensuite à pied.",
+    "visiteGuidee": true
+  },
+  {
     "type": "Randonnée",
     "nom": "Parc national Patagonia",
     "lieu": "Carretera Austral",
@@ -1181,7 +1238,29 @@
     "pays": "Chili",
     "importance": null,
     "duree": null,
-    "description": "Le parc Patagonia est un parc situé à côté de la ville de Cochrane. Le parc est payant et à réserver en ligne (comme la majorité des parcs chiliens). Prix : 10 euros par personne.\n\nLa randonnée à faire est le circuit Lagunas Altas, boucle de 21km et 1000m D+. Récupérer la trace GPX sur AllTrails.\n\nLe bivouac est interdit dans le parc, mais il existe plusieurs campings pas loin.\n\nPasser par le Museo de la Patagonia qui retrace l'histoire de la Patagonie et les conflits entre les pionniers et la faune sauvage.",
+    "description": "Le parc Patagonia est un parc situé à côté de la ville de Cochrane. Le parc est payant et à réserver en ligne (comme la majorité des parcs chiliens). Prix : 10 euros par personne.\n\nLa randonnée à faire est le circuit Lagunas Altas, boucle de 21km et 1000m D+. Récupérer la trace GPX sur AllTrails. Faire également la randonnée Sendero Cañadon Chacabuco, sur une demi-journée.\n\nLe bivouac est interdit dans le parc, mais il existe plusieurs campings pas loin.\n\nPasser par le Centro de visitantes del Parque Nacional Patagonia qui retrace l'histoire de la Patagonie et les conflits entre les pionniers et la faune sauvage.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Excursion",
+    "nom": "Cathédrales de marbre",
+    "lieu": "Carretera Austral",
+    "lieuId": "carretera-austral",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "Les cathédrales de marbre (ou Capillas de Marmol) sont situées sur le lac General Carrerra, à proximité de Puerto Rio Tranquilo. Il faut prendre un bateau à moteur ou un kayak pour pouvoir aller les explorer. Le moment idéal est le matin avant 10h. La période pour les visiter va d'octobre à avril.\n\nCompter entre 50 et 60 euros pour une demi-journée de kayak, contre une vingtaine d'euros pour un bateau à moteur. Les départs se font généralement depuis Bahia Mansa.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Trek",
+    "nom": "Trek Cerro Castillo",
+    "lieu": "Carretera Austral",
+    "lieuId": "carretera-austral",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "Trek 'Las Horquetas' de 51km à travers le parc National Cerro Castillo. Le trek se fait nominalement en 4 jours et se fait en totale autonomie. Le coût du trek est d'environ 35 euros, payés au départ du trek. Le départ se fait à Las Horquetas et l'arrivée à Villa Cerro Castillo. Laisser le van à l'arrivée, dans un camping par exemple. Prendre un bus pour aller jusqu'au départ du trek (voir site internet du parc pour les compagnies de bus).\n\nJour 1 : Las Horquetas - Campamento Rio Turbio : 17km, 450m D+. Terrain facile.\n\nJour 2 : Río Turbio - Campamento El Bosque : 12km 900m D+. Montée raide jusqu'au col Penon et descente technique sur éboulis.\n\nJour 3 : El Bosque - Campamento Neozelandes : 400m D+. Passage du 2ème col en début de journée.\n\nJour 4 : Campamento Neozelandés - Villa Cerro Castillo : 14km, 250m D+, 1100m D-. Petit aller-retour vers la Laguna Duff (si non fait la veille) et retour en descente vers Cerro Castillo.\n\nSi limité par le temps, possibilité de cumuler jours 1 et 2 ou/et 3 et 4.",
     "visiteGuidee": true
   },
   {
@@ -1194,7 +1273,43 @@
     "importance": null,
     "duree": null,
     "description": "Parc situé à côté de la ville de Talca, à 3h30 au sud de Santiago. Parc ouvert du mardi au dimanche de 9h à 17h de mars à décembre, ou de 8h30 à 18h30 toute la semaine en janvier-février. Prix de l'entrée : 5 euros à réserver sur le site officiel chilien.\n\nLa randonnée principale à faire est El Enladrillado (17km, 1000m D+) qui peut se cumuler avec Laguna del Alto pour faire une boucle de 28km. D'autres petites randonnées plus courtes vers des points de vue sont possibles également.",
-    "visiteGuidee": false
+    "visiteGuidee": true
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Parc National Conguillio",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "Un des parcs les plus spectaculaires du Chili. Paysages lunaires de lave noire et forêts préhistoriques. Ouvert du mardi au dimanche de 8h30 à 17h30. Billet à acheter en avance sur le site internet, prix 14 euros par personne. Deux entrées pour ce parc : via le Sud (Melipeuco) et via le Nord (Curacautín). Pour les véhicules non 4x4, privilégier l'entrée sud.\n\nPasser par le visitor center (Parador Turístico de Melipeuco) à l'entrée sud. \n\nLa randonnée incontournable du parc est le sendero Sierra Nevada, depuis le lac Conguilio (10km, 600m D+). Faire également la petite balade 'Sendero Las Araucarias'. Voir le site internet du parc pour la carte et les détails sur les sentiers.\n\nSur le lac Conguilio, il est possible de louer des barques ou des kayaks.\n\nPasser également à côté du lac Arcoiris, très beau lac qui s'est formé lors d'une éruption volcanique.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Parc National Huerquehue",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "sousZone": "Pucón",
+    "importance": null,
+    "duree": null,
+    "description": "Parc proche de Pucón. Réserver le billet en avance sur le site internet. 11 euros par personne. Ouvert du mardi au dimanche de 8h30 à 17h30.\n\nDeux randonnées incontournables. La première est le sendero Los Lagos, randonnée la plus connue du parc (14km, 800m D+, avec possibilité de rajouter une boucle de 5km). La deuxième est le Sendero San Sebastian, qui permet de grimper au cerro San Sebastian (14km, 1100m D+).\n\nJuste à côté du parc, visiter le Parque Ojos del Caburgua, ouvert tous les jours de 9h à 18h30 (3 euros). C'est un parc privé permettant de voir des cascades. En profiter aussi pour aller voir le lac Caburgua, avec sa Playa Negra et sa Playa Blanca. Stationnement payant (entre 2 et 3 euros la journée).\n\nJuste au sud du parc, possibilité de faire une randonnée au Sanctuario El Cañi, ouvert tous les jours de la semaine, et qui propose une randonnée sur la journée pour monter à un mirador et avoir une vue sur toute la région (5 euros).",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Nature",
+    "nom": "Parc Villarica",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "sousZone": "Pucón",
+    "images": ["villarica.jpg"],
+    "importance": null,
+    "duree": null,
+    "description": "Parc proche de Pucón. Réserver le billet en avance sur le site internet. 11 euros par personne. Ouvert du mardi au dimanche de 8h30 à 17h30.\n\nLe secteur principal est le secteur Rucapillán au Nord. Deux randonnées dans ce secteur : Sendero Mirador Los Crateres (7km, 300m D+), et Pichillancahue Glacier (8km 500m D+). La route d'accès au glacier n'est accessible qu'en 4x4. En voiture, s'arrêter plus loin au niveau de la ranger station, cela rajoute 5km à la randonnée.\n\nUne autre randonnée plus sportive est celle du point de vue sur le volcan Quinquilil, ou celle du volcan Quetrupillán, accessibles en autonomie.",
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -1202,11 +1317,22 @@
     "lieu": "De Santiago à Puerto Montt",
     "lieuId": "santiago-puerto-montt",
     "pays": "Chili",
-    "sousZone": "Pucon",
+    "sousZone": "Pucón",
     "importance": null,
     "duree": null,
-    "description": "Réserve privée regroupant plusieurs secteurs. Le billet donnant l'accès à tous les secteurs coûte 14 euros par personne. Si nous logeons dans un hôtel de la réserve ou au camping, les sentiers sont inclus dedans.\n\nEn plus de plusieurs sentiers, la réserve permet d'observer des hôtels architecturalement intégrés dans la forêt.",
-    "visiteGuidee": false
+    "description": "Réserve privée regroupant plusieurs secteurs. Le billet donnant l'accès à tous les secteurs coûte 14 euros par personne. Prendre le pack complet qui est valable 5 jours. A réserver sur internet. Chaque secteur donne accès à une petite balade d'environ 1h.\n\nEn plus de plusieurs sentiers, la réserve permet d'observer des hôtels architecturalement intégrés dans la forêt.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Parc Puyehue",
+    "lieu": "De Santiago à Puerto Montt",
+    "lieuId": "santiago-puerto-montt",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "Parc gratuit, facile d'accès (route goudronnée). Ouvert tous les jours de 9h à 18h.\n\nPlusieurs secteurs dans le parc.\n\nLe plus beau secteur est le secteur Antillanca. Se garer à la station de ski pour démarrer une randonnée vers le cratère et le volcan Casablanca (10km 1000m D+)\n\nLe deuxième secteur est Anticura, pour voir des cascades. Les incontournables sont Salto del Pudu et Salto del Indio (balade de 1-3km). Ce secteur permet également de grimper le volcan Puyehue (22km, 1900m D+). Si nous voulons faire cette randonnée, il faut payer 15 euros par personne, ce qui donne accès également au refuge au milieu du chemin. Possibilité également de dormir au départ. Le chemin est privé, le départ se fait au camping/restaurant El Chaulle.\n\nLe dernier secteur est le secteur Aguas Calientes, qui est un secteur familial avec des petites randonnées telles que le sentier El Recodo ou le sentier Los Rapidos.",
+    "visiteGuidee": true
   },
   {
     "type": "Nature",
@@ -1218,54 +1344,7 @@
     "importance": null,
     "duree": "3 jours",
     "description": "Ile accessible uniquement à ferry. Compter 60 euros aller-retour. Pas besoin de réserver le ferry. Le bivouac est facile et gratuit.\n\nA faire et a voir :\n\n - Eglises en bois (Castro, Achao, Tenaun).\n\n - Explorer la capitale avec notamment les Palafitos (maisons colorées sur pilotis).\n\n - Parc national Chiloé pour faire de la randonnée.\n\n - Muelle de las Almas : passerelle en bois au-dessus des falaises de Cucao.\n\n - Goûter le Curanto en hoyo (plat traditionnel de l'ile).",
-    "visiteGuidee": false
-  },
-  {
-    "type": "Randonnée",
-    "nom": "Parc national Conguillio",
-    "lieu": "De Santiago à Puerto Montt",
-    "lieuId": "santiago-puerto-montt",
-    "pays": "Chili",
-    "importance": 5,
-    "duree": null,
-    "description": "Un des parcs les plus spectaculaires du Chili. Paysages lunaires de lave noire et forêts préhistoriques. Ouvert du mardi au dimanche de 8h30 à 17h30. Billet à acheter en avance sur le site internet, prix 14 euros par personne.\n\nLa randonnée incontournable du parc est le sendero Sierra Nevada. De nombreuses autres randonnées plus courtes sont également proposées.",
-    "visiteGuidee": false
-  },
-  {
-    "type": "Randonnée",
-    "nom": "Parc National Huerquehue",
-    "lieu": "De Santiago à Puerto Montt",
-    "lieuId": "santiago-puerto-montt",
-    "pays": "Chili",
-    "sousZone": "Pucon",
-    "importance": 5,
-    "duree": null,
-    "description": "Parc proche de Pucon. Réserver le billet en avance sur le site internet. 11 euros par personne. Ouvert du mardi au dimanche de 8h30 à 17h30.\n\nRandonnées incontournables : Sendero San Sebastian, et sendero Los Lagos.",
-    "visiteGuidee": false
-  },
-  {
-    "type": "Nature",
-    "nom": "Parc Villarica",
-    "lieu": "De Santiago à Puerto Montt",
-    "lieuId": "santiago-puerto-montt",
-    "pays": "Chili",
-    "sousZone": "Pucon",
-    "importance": null,
-    "duree": null,
-    "description": "Parc proche de Pucon. Réserver le billet en avance sur le site internet. 11 euros par personne. Ouvert du mardi au dimanche de 8h30 à 17h30.\n\nRandonnée facile : Sendero Mirador Los Cráteres.",
-    "visiteGuidee": false
-  },
-  {
-    "type": "Randonnée",
-    "nom": "Parc Puyehue",
-    "lieu": "De Santiago à Puerto Montt",
-    "lieuId": "santiago-puerto-montt",
-    "pays": "Chili",
-    "sousZone": "Osorno",
-    "importance": 5,
-    "duree": null,
-    "description": "Parc gratuit, facile d'accès (route goudronnée). Ouvert tous les jours de 9h à 18h.\n\nRandonnée incontournable : ascension du volcan Puyehue (16km 1000m D+).",
-    "visiteGuidee": false
+    "visiteGuidee": true
   },
   {
     "type": "Randonnée",
@@ -1276,7 +1355,7 @@
     "sousZone": "Puerto Montt - si bateau",
     "importance": null,
     "duree": null,
-    "description": "Parc proche de Puerto Montt. Réserver le billet en avance sur le site internet. 11 euros par personne. Ouvert tous les jours de 9h à 17h.\n\nRandonnée incontournable : Sendero Laguna Sargazo et Laguna Triangulo.\n\nPas de camping dans le parc.",
+    "description": "Parc proche de Puerto Montt. Réserver le billet en avance sur le site internet. 11 euros par personne. Ouvert tous les jours de 9h à 17h.\n\nRandonnées incontournables : Sendero Laguna Sargazo et Laguna Triangulo.\n\nPas de camping dans le parc.",
     "visiteGuidee": false
   },
   {
@@ -1310,18 +1389,7 @@
     "pays": "Chili",
     "importance": null,
     "duree": null,
-    "description": "Le parc Pumalin est situé au Nord de Villa Santa Lucia. Il est ouvert 7 jours sur 7, de 8h30 à 17h30. Parc gratuit, pas besoin de réserver de billet en avance. Aucun réseau dans le parc. Aires de camping officielles disponibles.\n\nNombreuses randonnées d'environ 5km dans le parc. Les plus connues sont 'Volcan Chaiten', 'Cascadas Escondidas' et 'Laguna Tronador'.",
-    "visiteGuidee": true
-  },
-  {
-    "type": "Divers",
-    "nom": "Caleta Tortel",
-    "lieu": "Carretera Austral",
-    "lieuId": "carretera-austral",
-    "pays": "Chili",
-    "importance": null,
-    "duree": null,
-    "description": "Petit village insolite et très mignon. Pas de voitures, toute la ville est construite autour de passerelle en bois. Se balader sur le sentier Cerro Tortel pour avoir une vue sur le village. L'accès à la ville implique un détour de 3 heures vers le sud de la carretera austral. Le faire si le temps le permet.\n\nComme l'accès en voiture n'est pas possible, un grand parking à l'extérieur de la ville est présent pour se garer, tout le reste se fait ensuite à pied.",
+    "description": "Le parc Pumalin s'étend de Caleta Gonzalo, juste à la sortie du ferry, jusqu'à Chaiten, quelques dizaines de km au sud. Il est ouvert 7 jours sur 7, de 8h30 à 17h30. Parc gratuit, pas besoin de réserver de billet en avance. Aucun réseau dans le parc. Aires de camping officielles disponibles.\n\nPlusieurs randonnées le long de la route, du nord au sud : 'Laguna Tronador' (4,6km 500m D+), 'Sendero Los Alerces' (1km), 'Cascadas Escondidas' (4km, 200m D+), et 'Volcan Chaiten' (5,3km 600m D+).",
     "visiteGuidee": true
   },
   {
@@ -1332,8 +1400,32 @@
     "pays": "Argentine",
     "importance": 5,
     "duree": null,
-    "description": "Un des plus beaux treks d'Argentine, au départ d'El Chalten. 65km pour 3000m D+. 4 jours exigeants avec tyrolienne et traversée de rivière à gué. Prévoir de louer le matériel (corde de 35m, baudriers, mousquetons) dans un magasin de montagne à El Chalten (dispo partout). Prévoir également les chaussures d'eau pour les traversées de gué. S'energistrer en ligne ou au centre des visiteurs du parc. Prévoir 4 jours en autonomie totale.\n\nJour 1 : El chalten - Laguna Toro 16km 800m D+. Pas de difficultés particulières pour cette première journée.\n\nJour 2 : Laguna Toro - Refugio Paso del Viento. 15km 900m D+. Traversée en tyrolienne. Partir tôt pour éviter embouteillages à la tyrolienne. Passage du col du vent. Si vent supérieur à 80km/h, faire demi-tour et attendre une meilleure fenêtre météo.\n\nJour 3 : Refugio Paso del Viento - Lago Viedma : 15km 700m D+. Deux campements possibles à 3km d'écart : bahia de los tempanos ou bahia de hornos.\n\nJour 4 : Lago Viedma - El Chalten : 25km 400m D+. Retour principalement plat. Et 1 tyrolienne. Arrivée à un parking (Bahia tunnel) et encore 6km pour arriver à El Chalten.\n\nLes deux jours difficiles (et les plus beaux) sont les jours 2 et 3.\n\nAu retour envoyer un email pour indiquer que nous avons bien terminé le trek.",
+    "description": "Un des plus beaux treks d'Argentine, au départ d'El Chalten. 65km pour 3000m D+. 4 jours exigeants avec tyrolienne et traversée de rivière à gué. Prévoir de louer le matériel (corde de 35m, baudriers, mousquetons) dans un magasin de montagne à El Chalten (dispo partout). Prévoir également les chaussures d'eau pour les traversées de gué. S'enregistrer en ligne ou au centre des visiteurs du parc. Prévoir 4 jours en autonomie totale.\n\nJour 1 : El chalten - Laguna Toro 16km 800m D+. Pas de difficultés particulières pour cette première journée.\n\nJour 2 : Laguna Toro - Refugio Paso del Viento. 15km 900m D+. Traversée en tyrolienne. Partir tôt pour éviter embouteillages à la tyrolienne. Passage du col du vent. Si vent supérieur à 80km/h, faire demi-tour et attendre une meilleure fenêtre météo.\n\nJour 3 : Refugio Paso del Viento - Lago Viedma : 15km 700m D+. Deux campements possibles à 3km d'écart : bahia de los tempanos ou bahia de hornos.\n\nJour 4 : Lago Viedma - El Chalten : 25km 400m D+. Retour principalement plat. Et 1 tyrolienne. Arrivée à un parking (Bahia tunnel) et encore 6km pour arriver à El Chalten.\n\nLes deux jours difficiles (et les plus beaux) sont les jours 2 et 3.\n\nAu retour envoyer un email pour indiquer que nous avons bien terminé le trek.",
     "visiteGuidee": false
+  },
+  {
+    "type": "Nature",
+    "nom": "Glacier Perito Moreno",
+    "lieu": "Patagonie",
+    "lieuId": "patagonie",
+    "images": ["perito-moreno.jpg"],
+    "pays": "Argentine",
+    "importance": 5,
+    "duree": null,
+    "description": "Glacier qui se situe à environ 1 heure en voiture de El Calafate. Prix de l'entrée à la journée : 35 dollars. Très cher, il peut être intéressant de prendre le pass annuel des parcs nationaux payants d'Argentine. Plusieurs sentiers permettent d'avoir de beaux points de vue sur le glacier.\n\nParmi les activités à faire : marche sur glacier (très cher), kayak, ou bateau proche du glacier.",
+    "visiteGuidee": true
+  },
+  {
+    "type": "Randonnée",
+    "nom": "Torres del Paine",
+    "lieu": "Patagonie",
+    "lieuId": "patagonie",
+    "pays": "Argentine",
+    "importance": 5,
+    "images": ["torres_paine.png"],
+    "duree": null,
+    "description": "Trek le plus connu : W trek. Les campings sont souvent pris d'assault donc compliqué de faire un trek sur plusieurs jours. Se renseigner quand même sur les réservations en amont pour voir s'il y a des campings de disponibles au sein du parc. \n\nLes campings sur le trek sont gérés par deux organismes privés. Vertice gère Paine Grande, Grey, Perros et Dickson (côté ouest du trek). Prix une dizaine d'euros par personne. Mi-novembre 2026, il restait de la place en camping pour le mois de décembre. Le deuxième est Las Torres. Beaucoup plus cher. Beaucoup moins de places disponibles. Si seuls les campings de Vertice sont disponibles, il est possible de prendre le bateau jusqu'à Paine Grande et faire uniquement la partie Ouest du trek.\n\nSi campsites à Vertice disponibles, possibilité de partir de faire le O trek (sens antihoraire uniquement), en doublant la première étape, ainsi que les deux dernières sans faire la branche du milieu du W, ou revenir en bateau depuis Paine Grande (compter alors 5 jours de trek).\n\nSinon, randonnées à la journée à la place. Il est interdit de dormir dans le parc. Juste à l'extérieur du parc, il y a de grands espaces dégagés pour dormir.\n\nPrix : environ 50 euros pour 3 jours. A acheter en avance sur le site internet.\n\nPas de station service dans le parc.\n\nRandonnées incontournables :\n\n - Mirador Base Las Torres : 20km, 1000m D+. Rando classique du parc.\n\n - Mirador Ferrier : « km vertical » 6km aller-retour 700m D+. Très raide mais superbe panorama.\n\nD'autres randonnées plus courtes offrent de jolis points de vue : Mirador Condor (45min), sentier Fauna + Laguna Azul pour observer la faune du parc, Salto Grande + Mirador Cuernos.",
+    "visiteGuidee": true
   },
   {
     "type": "Trek",
@@ -1357,28 +1449,6 @@
     "duree": null,
     "description": "Il est possible de faire une plongée en eau froide à Ushuaia. Dans une eau à 5 degrés, en combinaison étanche. Milieu marin très différent de ce que nous avons l'habitude de voir.",
     "visiteGuidee": false
-  },
-  {
-    "type": "Excursion",
-    "nom": "Cathédrales de marbre",
-    "lieu": "Carretera Austral",
-    "lieuId": "carretera-austral",
-    "pays": "Chili",
-    "importance": 5,
-    "duree": null,
-    "description": "Les cathédrales de marbre (ou Capillas de Marmol) sont situées sur le lac General Carrerra, à proximité de Puerto Rio Tranquilo. Il faut prendre un bateau à moteur ou un kayak pour pouvoir aller les explorer. Le moment idéal est le matin avant 10h. Le lac est classé zonee dangereuse et le lac est le plus grand lac du Chili. La période pour les visiter va d'octobre à avril.",
-    "visiteGuidee": true
-  },
-  {
-    "type": "Trek",
-    "nom": "Trek Cerro Castillo",
-    "lieu": "Carretera Austral",
-    "lieuId": "carretera-austral",
-    "pays": "Chili",
-    "importance": 5,
-    "duree": null,
-    "description": "Trek de 51km à travers le parc National Cerro Castillo. Le trek se fait nominalement en 4 jours et se fait en totale autonomie. Le coût du trek est d'environ 35 euros, payés au départ du trek. Le départ se fait à Las Horquetas et l'arrivée à Villa Cerro Castillo. Laisser le van à l'arrivée, dans un camping par exemple. Prendre un bus pour aller jusqu'au départ du trek.\n\nJour 1 : Las Horquetas - Campamento Rio Turbio : 17km, 450m D+. Terrain facile.\n\nJour 2 : Río Turbio - Campamento El Bosque : 12km 900m D+. Montée raide jusqu'au col Penon et descente technique sur éboulis.\n\nJour 3 : El Bosque - Campamento Neozelandes : 400m D+. Passage du 2ème col en début de journée.\n\nJour 4 : Campamento Neozelandés - Villa Cerro Castillo : 14km, 250m D+, 1100m D-. Petit aller-retour vers la Laguna Duff (si non fait la veille) et retour en descente vers Cerro Castillo.\n\nSi limité par le temps, possibilité de cumuler jours 1 et 2 ou/et 3 et 4.",
-    "visiteGuidee": true
   },
   {
     "type": "Culture",
@@ -1590,7 +1660,7 @@
   },
   {
     "type": "Trek",
-    "nom": "El Bolson",
+    "nom": "El Bolsón",
     "lieu": "San Carlos de Bariloche",
     "lieuId": "san-carlos-bariloche",
     "sousZone": "Sud San Carlos",
@@ -1621,7 +1691,7 @@
     "pays": "Pérou",
     "importance": null,
     "duree": null,
-    "description": "Les différents points d'intérêt dans la ville de Lima sont les suivants :\n\n - **Plaza de Armas** : Palais du Gouvernement (relève de la garde à midi), cathédrale de Lima, iglesia de Santo Domingo.\n\n - **Couvent San Francisco** : monastère baroque et catacombes souterraines où reposent plus de 25000 ossements.\n\n - **Casa de Aliaga** : plus ancienne demeure coloniale des Amériques, habitée par la même famille depuis 1535.\n\n - **Huaca Pullana** (Miraflores) : vestiges d'une pyramide construite par la civilisation Wari.\n\n - **Parque de Amor** (Miraflores) : parc au bord du Pacifique.\n\n - **ChocoMuseo** (Miraflores) pour créer ses propres tablettes de chocolat.\n\n - **Circuito Mágico del Agua** au Parque de la Reserva, plus grand complexe de fontaines publiques au monde, spectacles tous les soirs à 19h15, 20h15 et 21h. 5 soles l'entrée.\n\n - **Musée Larco** : meilleur musée du Pérou. Collections d'objets précolombiens et explications accessibles.\n\n - **Mercado central**. Ouvert du lundi au samedi de 8h à 18h. Enormément de jus frais et de fruits venant de l'Amazonie.\n\nLes meilleurs quartiers le soir sont Miraflores et Barranco. Ne pas se balader la nuit en dehors de ces quartiers (notamment centre historique et Callao). Prendre un Uber (ou Cabify, très populaire au Pérou) pour rentrer.\n\nPour boire un coup à Lima, *Lady Bee* fait partie des meilleurs bars au monde (13ème) dans le quartier de Barranco, *Sastreria Martinez* (33ème) juste au Nord de Miraflores. Pour tester les différents pisco, aller au Museo del Pisco.\n\nPour manger à Lima :\n\n - tester la cuisine sino-péruvienne ou Chifa (plats principaux : Arroz Chaufa (plat emblématique), Lomo Saltado, Tallarin Saltado ou Kam Lu Wantán)\n\n - Plusieurs restaurants sont classés parmi les meilleurs du monde : Maido (1er) cuisine Japon/Pérou - à réserver 1 mois à l'avance 300 euros, Kjolle (9ème) - plus de dispo 250 euros, Merito (26ème) lieu chaleureux cuisine Vénézuela/Pérou - plus de dispo 180 euros, Mayta (39ème) - plus de dispo 250 euros. Maido ou Merito à choisir.\n\nFaire une soirée dans une peña. Diner-spectacle et danses péruviennes. Les peñas se situent dans le quartier de Barranco. Les meilleurs : Peña La Candelaria ou Del Carajo!. Prix entre 25 et 50 euros la soirée tout compris.\n\nPrévoir entre 2 et 3 jours à Lima pour faire le tour.",
+    "description": "Les différents points d'intérêt dans la ville de Lima sont les suivants :\n\n - **Plaza de Armas** : Palais du Gouvernement (relève de la garde à midi), cathédrale de Lima, iglesia de Santo Domingo.\n\n - **Couvent San Francisco** : monastère baroque et catacombes souterraines où reposent plus de 25000 ossements.\n\n - **Casa de Aliaga** : plus ancienne demeure coloniale des Amériques, habitée par la même famille depuis 1535.\n\n - **Huaca Pullana** (Miraflores) : vestiges d'une pyramide construite par la civilisation Wari.\n\n - **Parque de Amor** (Miraflores) : parc au bord du Pacifique.\n\n - **ChocoMuseo** (Miraflores) pour créer ses propres tablettes de chocolat.\n\n - **Circuito Mágico del Agua** au Parque de la Reserva, plus grand complexe de fontaines publiques au monde, spectacles tous les soirs à 19h15, 20h15 et 21h. 5 soles l'entrée.\n\n - **Musée Larco** : meilleur musée du Pérou. Collections d'objets précolombiens et explications accessibles.\n\n - **Mercado central**. Ouvert du lundi au samedi de 8h à 18h. Enormément de jus frais et de fruits venant de l'Amazonie.\n\nLes meilleurs quartiers le soir sont Miraflores et Barranco. Ne pas se balader la nuit en dehors de ces quartiers (notamment centre historique et Callao). Prendre un Uber (ou Cabify, très populaire au Pérou) pour rentrer.\n\nPour boire un coup à Lima, *Lady Bee* fait partie des meilleurs bars au monde (13ème) dans le quartier de Barranco, *Sastreria Martinez* (33ème) juste au Nord de Miraflores. Pour tester les différents pisco, aller au Museo del Pisco.\n\nPour manger à Lima :\n\n - tester la cuisine sino-péruvienne ou Chifa (plats principaux : Arroz Chaufa (plat emblématique), Lomo Saltado, Tallarin Saltado ou Kam Lu Wantán)\n\n - Plusieurs restaurants sont classés parmi les meilleurs du monde : Kjolle (9ème), Merito (26ème) lieu chaleureux cuisine Vénézuela/Pérou - 180 euros, Mayta (39ème) - 250 euros. Kjolle ou Merito à choisir.\n\nFaire une soirée dans une peña. Diner-spectacle et danses péruviennes. Les peñas se situent dans le quartier de Barranco. Les meilleurs : Peña La Candelaria ou Del Carajo!. Prix entre 25 et 50 euros la soirée tout compris.\n\nPrévoir entre 2 et 3 jours à Lima pour faire le tour.",
     "visiteGuidee": true
   },
   {
@@ -1703,7 +1773,7 @@
     "pays": "Bolivie",
     "importance": null,
     "duree": null,
-    "description": "Visite des mines du Cerro Rico. Mines exploitées en continu depuis 1545. Conditions de travail très difficiles. Pour le visite, soit passer par une agence, soit avec David, dont le contact est sur le groupe 'Les Français en Bolivie'. Compter environ 150 bs/personne.\n\nPossibilité de visiter la Casa de la Monedad à Potosi également dans lequel l'argent du Cerro Rico était fondu pour frapper les pièces de monnaie espagnoles.",
+    "description": "Visite des mines du Cerro Rico. Mines exploitées en continu depuis 1545. Conditions de travail très difficiles. Pour le visite, soit passer par une agence, soit avec David, dont le contact est sur le groupe 'Les Français en Bolivie'. Compter environ 150 bs/personne.\n\nPossibilité de visiter la Casa de la Moneda à Potosi également dans lequel l'argent du Cerro Rico était fondu pour frapper les pièces de monnaie espagnoles.",
     "visiteGuidee": true
   },
   {
@@ -1805,7 +1875,7 @@
     "pays": "Equateur",
     "importance": 5,
     "duree": null,
-    "description": "Une des 4 iles habitées des iles Galapagos. Ile la plus grande et la plus sauvage. Paysages volcaniques. A l'arrivée sur l'ile, il faut payer une taxe municipale d'entrée de 10$.\n\nLes activités à faire sont les suivantes :\n\n - Concha de Perla : spot de snorkeling gratuit proche de la ville.\n\n - Humedal de Isabela : sentier de passerelles en bois permettant d'observer des flamands roses (à pied).\n\n - Muro de las Lagrimas : randonnée (ou vélo) de 6km depuis la ville (12km aller-retour). Plusieurs arrêts à faire sur le chemin : El Estero (mangroves), Playa del Amor (iguanes), La Playita, El Pozon de los Flamencos (flamands roses), et el Cerro Orchilla. Derrière le mur, possibilité de continuer le sentier pour atteindre un mirador.\n\nLes meilleures excursions de l'ile sont les suivantes : \n\n - Los Tuneles : excursion incontournable des Galapagos. Des vagues et des coulées de lave ont formé des arches, des ponts et des tunnels naturels transparents au-dessus et en dessous de l'eau. Sortie d'environ 5 heures avec snorkeling sur place. Prix : environ 140$.\n\n - Randonnée du volcan Sierra Negra & Chico : randonnée d'environ 16km pour accéder au volcan. Prix : environ 70$.\n\nSur l'ile Isabela, deux jours suffisent si on ne fait pas d'excursion.",
+    "description": "Une des 4 iles habitées des iles Galapagos. Ile la plus grande et la plus sauvage. Paysages volcaniques. A l'arrivée sur l'ile, il faut payer une taxe municipale d'entrée de 10$.\n\nLes activités à faire sont les suivantes :\n\n - Concha de Perla : spot de snorkeling gratuit proche de la ville.\n\n - Humedal de Isabela : sentier de passerelles en bois permettant d'observer des flamands roses (à pied).\n\n - Muro de las Lagrimas : randonnée (ou vélo) de 6km depuis la ville (12km aller-retour). Plusieurs arrêts à faire sur le chemin : El Estero (mangroves), Playa del Amor (iguanes), La Playita, El Pozon de los Flamencos (flamands roses), et el Cerro Orchilla. Derrière le mur, possibilité de continuer le sentier pour atteindre un mirador.\n\nLes meilleures excursions de l'ile sont les suivantes : \n\n - Los Tuneles : excursion incontournable des Galapagos. Des vagues et des coulées de lave ont formé des arches, des ponts et des tunnels naturels transparents au-dessus et en dessous de l'eau. Sortie d'environ 5 heures avec snorkeling sur place. Prix : environ 200$.\n\n - Randonnée du volcan Sierra Negra & Chico : randonnée d'environ 16km pour accéder au volcan. Prix : environ 80$.\n\nSur l'ile Isabela, deux jours suffisent si on ne fait pas d'excursion.",
     "visiteGuidee": true
   },
   {
@@ -1832,7 +1902,7 @@
   },
   {
     "type": "Culture",
-    "nom": "Cueva de las manos",
+    "nom": "Cueva de las Manos",
     "lieu": "De Bariloche à El Chalten",
     "lieuId": "bariloche-chalten",
     "pays": "Argentine",
@@ -1843,6 +1913,17 @@
     "visiteGuidee": true
   },
   {
+    "type": "Divers",
+    "nom": "Hanga Roa",
+    "lieu": "Ile de Pâques",
+    "lieuId": "ile-de-paques",
+    "pays": "Chili",
+    "importance": null,
+    "duree": null,
+    "description": "La ville principale de l'ile de Pâques est Hanga Roa. De nombreux moais peuvent se visiter dans et autour de la ville, notamment le complexe de Tahai, ou Ahu Akapu (Hanga Kio'e).\n\nDans la ville, aller voir le Musée anthropologique Père-Sébastien-Englert (gratuit, si ouvert), la Iglesia de Hanga Roa, la Caleta Hanga Roa (où nous pouvons observer des tortues) et Ahu Tautira, Hanga Vare Vare,",
+    "visiteGuidee": false
+  },
+  {
     "type": "Culture",
     "nom": "Sites archéologiques",
     "lieu": "Ile de Pâques",
@@ -1850,18 +1931,18 @@
     "pays": "Chili",
     "importance": null,
     "duree": null,
-    "description": "La plupart des sites archéologiques de l'ile de Pâques se visitent obligatoirement avec un guide.\n\nLes sites les plus importants à visiter : \n\n - **Rano Raraku** : carrière dans laquelle la plupart des moaï ont été sculptés.\n\n - **Ahu Tongariki** : 15 moaï alignés face à l'océan.\n\n - **Orongo** : ancien village cérémoniel.",
+    "description": "La plupart des sites archéologiques de l'ile de Pâques se visitent obligatoirement avec un guide.\n\nLes sites les plus importants à visiter (avec guide) : \n\n - **Rano Raraku** : carrière dans laquelle la plupart des moaï ont été sculptés.\n\n - **Ahu Tongariki** : 15 moaï alignés face à l'océan.\n\n - **Orongo** : ancien village cérémoniel.\n\nSans guide, il est possible d'aller sur la plage d'Anakena ou à Tahai.",
     "visiteGuidee": true
   },
   {
     "type": "Randonnée",
-    "nom": "Terenaka",
+    "nom": "Terevaka",
     "lieu": "Ile de Pâques",
     "lieuId": "ile-de-paques",
     "pays": "Chili",
     "importance": null,
     "duree": null,
-    "description": "Randonnée permettant d'accéder au point culminant de l'ile (507m). Compter 10km aller-retour pour environ 350m de D+. Présence obligatoire d'un guide à confirmer.",
+    "description": "Randonnée permettant d'accéder au point culminant de l'ile (507m). Compter 10km aller-retour pour environ 350m de D+.",
     "visiteGuidee": false
   }
 ]
