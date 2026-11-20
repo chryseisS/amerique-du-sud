@@ -30,12 +30,12 @@ function Gastronomie() {
   const ORDRE_TYPES = { Boisson: 0, Plat: 1, Dessert: 2 };
 
   const resultats = [...filtres].sort((a, b) => {
-    const dt = (ORDRE_TYPES[a.type] ?? 99) - (ORDRE_TYPES[b.type] ?? 99);
-    if (dt !== 0) return dt;
-    // Non-testés en haut
+    // 1) Les plats testés tout en bas de la liste (tous types confondus)
     const testeA = testeSet.has(a.nom) ? 1 : 0;
     const testeB = testeSet.has(b.nom) ? 1 : 0;
-    return testeA - testeB;
+    if (testeA !== testeB) return testeA - testeB;
+    // 2) Puis regroupement par type (Boisson / Plat / Dessert)
+    return (ORDRE_TYPES[a.type] ?? 99) - (ORDRE_TYPES[b.type] ?? 99);
   });
 
   // ─── COMPTEURS ──────────────────────────────────────

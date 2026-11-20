@@ -30,6 +30,8 @@ function CartePlat({ plat, avis, onAjouter, onSupprimer }) {
       await onAjouter({ platNom: plat.nom, avis: texteAvis.trim() });
       setFormulaireOuvert(false);
       setTexteAvis('');
+      // Referme la carte une fois l'avis validé
+      setOuvert(false);
     } finally {
       setEnCours(false);
     }
@@ -37,8 +39,15 @@ function CartePlat({ plat, avis, onAjouter, onSupprimer }) {
 
   return (
     <div
-      className="bg-terra-100 border border-[#D9CDB5] rounded-xl mb-2 overflow-hidden relative"
-      style={{ borderLeftWidth: 0 }}
+      className={`border rounded-xl mb-2 overflow-hidden relative transition-colors ${
+        teste ? '' : 'bg-terra-100'
+      }`}
+      style={{
+        borderLeftWidth: 0,
+        // Testé : fond vert très léger ; sinon fond terra habituel
+        ...(teste ? { backgroundColor: '#EBF2EB' } : {}),
+        borderColor: teste ? '#CCD6B9' : '#D9CDB5',
+      }}
     >
       {/* Barre verticale colorée par type (Boisson / Plat / Dessert) */}
       <div

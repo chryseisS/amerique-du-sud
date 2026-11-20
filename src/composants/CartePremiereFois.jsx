@@ -60,6 +60,8 @@ function CartePremiereFois({ premiere, commentaire, onMarquer, onSupprimer }) {
       await onMarquer({ nom: premiere.nom, commentaire: texte.trim() });
       setFormulaireOuvert(false);
       setTexte('');
+      // Referme la carte une fois le défi validé
+      setOuvert(false);
     } finally {
       setEnCours(false);
     }
@@ -70,7 +72,13 @@ function CartePremiereFois({ premiere, commentaire, onMarquer, onSupprimer }) {
   };
 
   return (
-    <div className="bg-terra-100 border border-terra-border rounded-xl mb-2 overflow-hidden relative">
+    <div
+      className={`border rounded-xl mb-2 overflow-hidden relative transition-colors ${
+        fait ? '' : 'bg-terra-100 border-terra-border'
+      }`}
+      // Fait : fond vert très léger ; sinon fond terra habituel
+      style={fait ? { backgroundColor: '#EBF2EB', borderColor: '#CCD6B9' } : undefined}
+    >
       {/* Barre verticale colorée par type */}
       <div
         className="absolute left-0 top-0 bottom-0 w-[3px]"

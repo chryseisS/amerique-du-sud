@@ -1,39 +1,8 @@
 [
   {
-    "id": "compet-chili",
-    "nom": "Participer à une compétition sportive au Chili",
-    "type": "Sport"
-  },
-  {
-    "id": "compet-argentine",
-    "nom": "Participer à une compétition sportive en Argentine",
-    "type": "Sport"
-  },
-  {
-    "id": "compet-bolivie",
-    "nom": "Participer à une compétition sportive en Bolivie",
-    "type": "Sport"
-  },
-  {
-    "id": "compet-equateur",
-    "nom": "Participer à une compétition sportive en Équateur",
-    "type": "Sport"
-  },
-  {
-    "id": "compet-perou",
-    "nom": "Participer à une compétition sportive au Pérou",
-    "type": "Sport"
-  },
-  {
     "id": "burpees-5000",
     "nom": "Faire 50 burpees au-dessus de 5000 m",
     "type": "Sport"
-  },
-  {
-    "id": "la-paz-el-alto",
-    "nom": "Monter à pied de La Paz à El Alto",
-    "type": "Sport",
-    "description": "Sans téléphérique, du centre-ville jusqu'en haut, sur ses deux jambes."
   },
   {
     "id": "sommet-6000",
@@ -42,7 +11,7 @@
   },
   {
     "id": "journee-espagnol",
-    "nom": "Passer une journée entière en espagnol",
+    "nom": "Passer une journée entière à se parler en espagnol",
     "type": "Culture"
   },
   {
@@ -84,10 +53,28 @@
     "type": "Absurde"
   },
   {
-    "id": "repas-monochrome",
-    "nom": "Manger un repas entièrement d'une seule couleur",
+    "id": "repas-monochrome-violet",
+    "nom": "Manger un repas entièrement violet.",
     "type": "Gastronomie",
-    "description": "Violet, jaune, vert ou rouge — maïs violet, pommes de terre violettes…"
+    "description": "Entrée, plat, dessert, boisson..."
+  },
+  {
+    "id": "repas-monochrome-jaune",
+    "nom": "Manger un repas entièrement jaune.",
+    "type": "Gastronomie",
+    "description": "Entrée, plat, dessert, boisson..."
+  },
+  {
+    "id": "repas-monochrome-noir",
+    "nom": "Manger un repas entièrement noir.",
+    "type": "Gastronomie",
+    "description": "Entrée, plat, dessert, boisson..."
+  },
+  {
+    "id": "repas-monochrome-blanc",
+    "nom": "Manger un repas entièrement blanc.",
+    "type": "Gastronomie",
+    "description": "Entrée, plat, dessert, boisson..."
   },
   {
     "id": "sport-pluie-tropicale",
@@ -98,6 +85,31 @@
     "id": "van-isole",
     "nom": "Dormir en van sans aucune construction ni personne en vue",
     "type": "Aventure"
+  },
+  {
+    "id": "compet-chili",
+    "nom": "Participer à une compétition sportive au Chili",
+    "type": "Sport"
+  },
+  {
+    "id": "compet-argentine",
+    "nom": "Participer à une compétition sportive en Argentine",
+    "type": "Sport"
+  },
+  {
+    "id": "compet-bolivie",
+    "nom": "Participer à une compétition sportive en Bolivie",
+    "type": "Sport"
+  },
+  {
+    "id": "compet-equateur",
+    "nom": "Participer à une compétition sportive en Équateur",
+    "type": "Sport"
+  },
+  {
+    "id": "compet-perou",
+    "nom": "Participer à une compétition sportive au Pérou",
+    "type": "Sport"
   },
   {
     "id": "etoiles-3h",
@@ -332,6 +344,12 @@
     "id": "pates-4000",
     "nom": "Faire cuire des pâtes à plus de 4000 m",
     "type": "Absurde"
+  },
+  {
+    "id": "la-paz-el-alto",
+    "nom": "Monter à pied de La Paz à El Alto",
+    "type": "Sport",
+    "description": "Sans téléphérique, du centre-ville jusqu'en haut, sur ses deux jambes."
   },
   {
     "id": "ricochets-lac",

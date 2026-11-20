@@ -75,7 +75,7 @@ function JournalBord() {
         {/* Titre — bas du hero */}
         <div className="relative">
           <h1 className="text-3xl font-serif font-semibold text-terra-900 tracking-tight leading-tight">
-            Journal de bord
+            Journal
           </h1>
           <p className="text-sm text-terra-muted mt-0.5 italic">
             {total === 0

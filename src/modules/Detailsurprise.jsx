@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react';
-import { Link, useParams, Navigate } from 'react-router-dom';
+import { useEffect, useMemo, useState } from 'react';
+import { Link, useParams, Navigate, useLocation } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, ChevronLeft, ChevronRight, Gift } from 'lucide-react';
 import { db } from '../db';
@@ -211,7 +211,14 @@ export default function DetailSurprise() {
     [debloqueesDB]
   );
 
-  const [indexJour, setIndexJour] = useState(0);
+  // null = "choisir automatiquement" (voir indexAffiche plus bas). La notification
+  // de SurprisesWatcher peut imposer un jour via navigate(..., { state: { jour } }).
+  const location = useLocation();
+  const [indexJour, setIndexJour] = useState(location.state?.jour ?? null);
+  useEffect(() => {
+    // Cas où on est déjà sur cette page quand on appuie sur "Voir ce jour".
+    if (location.state?.jour != null) setIndexJour(location.state.jour);
+  }, [location.state]);
 
   // Tant que la requête Dexie n'a pas encore résolu, on ne sait pas
   // encore si la surprise est débloquée — ne pas rediriger trop tôt.
@@ -239,8 +246,18 @@ export default function DetailSurprise() {
   // ─── Surprise à plusieurs jours (trek) ───
   if (aDesJours) {
     const totalJours = surprise.jours.length;
-    const jour = surprise.jours[indexJour];
     const heuresEcoulees = (Date.now() - new Date(dateDebloquee).getTime()) / 3_600_000;
+
+    // Jour affiché par défaut : le plus récent déjà atteint (parmi ceux qui ont un
+    // délai > 0), sinon le premier. Ouvrir un trek au jour 3 affiche donc le jour 3.
+    let dernierAccessible = 0;
+    surprise.jours.forEach((j, i) => {
+      const s = j.heuresDepuisDebut ?? 0;
+      if (s > 0 && s <= heuresEcoulees) dernierAccessible = i;
+    });
+    const indexAffiche = Math.min(indexJour ?? dernierAccessible, totalJours - 1);
+
+    const jour = surprise.jours[indexAffiche];
     const seuil = jour.heuresDepuisDebut ?? 0;
     const jourAccessible = heuresEcoulees >= seuil;
 
@@ -253,17 +270,17 @@ export default function DetailSurprise() {
           <Gift className="w-8 h-8 text-vert-cta" strokeWidth={1.6} />
 
           <div className="w-full flex items-center justify-between gap-3">
-            <button onClick={() => setIndexJour((i) => Math.max(0, i - 1))}
-                    disabled={indexJour === 0}
+            <button onClick={() => setIndexJour(Math.max(0, indexAffiche - 1))}
+                    disabled={indexAffiche === 0}
                     aria-label="Jour précédent"
                     className="shrink-0 w-11 h-11 rounded-full flex items-center justify-center bg-parchemin-carte border border-parchemin-bordure disabled:opacity-30">
               <ChevronLeft className="w-5 h-5 text-encre-douce" strokeWidth={2} />
             </button>
             <p className="font-serif text-[15px] text-encre font-semibold uppercase tracking-wide">
-              {jour.titre ?? `Jour ${indexJour + 1}`}
+              {jour.titre ?? `Jour ${indexAffiche + 1}`}
             </p>
-            <button onClick={() => setIndexJour((i) => Math.min(totalJours - 1, i + 1))}
-                    disabled={indexJour === totalJours - 1}
+            <button onClick={() => setIndexJour(Math.min(totalJours - 1, indexAffiche + 1))}
+                    disabled={indexAffiche === totalJours - 1}
                     aria-label="Jour suivant"
                     className="shrink-0 w-11 h-11 rounded-full flex items-center justify-center bg-parchemin-carte border border-parchemin-bordure disabled:opacity-30">
               <ChevronRight className="w-5 h-5 text-encre-douce" strokeWidth={2} />
@@ -271,7 +288,7 @@ export default function DetailSurprise() {
           </div>
 
           {jourAccessible ? (
-            <RenduSurprise key={indexJour} contenu={jour} />
+            <RenduSurprise key={indexAffiche} contenu={jour} />
           ) : (
             <p className="text-[13px] text-encre-douce leading-relaxed">
               Se débloque dans environ {Math.max(1, Math.ceil(seuil - heuresEcoulees))}h.

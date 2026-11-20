@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { ArrowLeft, ChevronRight, Lock, Gift } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Lock, Unlock, Gift } from 'lucide-react';
 import { db } from '../db';
 import SURPRISES from '../donnees/surprises.json';
+import BarreProgression from '../composants/BarreProgression';
 
 /* ════════════════════════════════════════════════════════════════════
    ÉCRAN « SURPRISES »  — route /jeux/surprises
@@ -97,6 +98,7 @@ export default function Surprises() {
   const [ouvert, setOuvert] = useState(null); // id de la surprise dont le champ mot de passe est affiché
   const [saisie, setSaisie] = useState('');
   const [erreur, setErreur] = useState(false);
+  const [reussi, setReussi] = useState(null); // id de la surprise dont l'animation de déverrouillage est en cours
 
   const total = SURPRISES.length;
   const triees = useMemo(
@@ -121,9 +123,16 @@ export default function Surprises() {
   }
 
   async function tenterDeverrouiller(surprise) {
+    if (reussi) return; // animation en cours : ignore les taps répétés
     const attendu = (surprise.declencheur?.valeur ?? '').trim().toLowerCase();
     if (saisie.trim().toLowerCase() === attendu) {
+      // Petite animation (cadenas qui s'ouvre) AVANT d'écrire en base : l'écriture
+      // fait basculer la carte en "débloquée" et la sortirait de ce rendu.
+      setErreur(false);
+      setReussi(surprise.id);
+      await new Promise((r) => setTimeout(r, 1000));
       await db.surprisesDebloquees.put({ id: surprise.id, date: new Date().toISOString() });
+      setReussi(null);
       annuler();
       navigate(`/jeux/surprises/${surprise.id}`);
     } else {
@@ -149,10 +158,11 @@ export default function Surprises() {
       {total > 0 && (
         <div className="relative px-5 pt-3.5">
           <div className="text-[12px] text-encre-douce mb-1.5">{debloquees} / {total} débloquées</div>
-          <div className="h-1.5 rounded-full bg-parchemin-bordure overflow-hidden">
-            <div className="h-full bg-vert-cta rounded-full transition-all duration-300"
-                 style={{ width: `${(debloquees / total) * 100}%` }} />
-          </div>
+          <BarreProgression
+            pct={(debloquees / total) * 100}
+            className="h-1.5 rounded-full bg-parchemin-bordure"
+            remplissageClassName="bg-vert-cta rounded-full"
+          />
         </div>
       )}
 
@@ -177,9 +187,16 @@ export default function Surprises() {
                   <div key={s.id}
                        className={`flex flex-col gap-3 bg-parchemin-carte border border-parchemin-bordure border-l-[3px] ${c.accent} rounded-2xl p-4 shadow-[0_4px_12px_rgba(60,40,20,0.12)]`}>
                     <button type="button" onClick={annuler} className="flex items-center gap-3.5 text-left">
-                      <div className={`shrink-0 w-11 h-11 rounded-full flex items-center justify-center ${c.fond} border ${c.bordure}`}>
-                        <Lock className={`w-5 h-5 ${c.icone}`} strokeWidth={1.8} />
-                      </div>
+                      {reussi === s.id ? (
+                        <div className="relative shrink-0 w-11 h-11 rounded-full flex items-center justify-center bg-vert-cta/15 border border-vert-cta/50">
+                          <span className="anim-halo absolute inset-0 rounded-full border-2 border-vert-cta/60" aria-hidden="true" />
+                          <Unlock className="anim-cadenas w-5 h-5 text-vert-cta" strokeWidth={1.8} />
+                        </div>
+                      ) : (
+                        <div className={`shrink-0 w-11 h-11 rounded-full flex items-center justify-center ${c.fond} border ${c.bordure}`}>
+                          <Lock className={`w-5 h-5 ${c.icone}`} strokeWidth={1.8} />
+                        </div>
+                      )}
                       <h3 className="flex-1 min-w-0 font-serif text-[16px] leading-tight text-encre font-semibold m-0">{titreAffiche}</h3>
                     </button>
 
@@ -199,6 +216,7 @@ export default function Surprises() {
                       </button>
                     </div>
                     {erreur && <p className="text-[11px] text-terra-500">Mot de passe incorrect</p>}
+                    {reussi === s.id && <p className="anim-monte text-[11px] font-semibold text-vert-cta">Mot de passe accepté ✓</p>}
                   </div>
                 );
               }

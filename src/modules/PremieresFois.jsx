@@ -45,9 +45,14 @@ function PremieresFois() {
     ? parStatut
     : parStatut.filter((p) => (p.type || 'À définir') === typeActif);
 
-  const resultats = rechercheNorm
+  const filtres = rechercheNorm
     ? parType.filter((p) => p.nom.toLowerCase().includes(rechercheNorm))
     : parType;
+
+  // Les défis faits tout en bas (le tri est stable : l'ordre du JSON est conservé dans chaque groupe)
+  const resultats = [...filtres].sort(
+    (a, b) => (faitSet.has(a.nom) ? 1 : 0) - (faitSet.has(b.nom) ? 1 : 0)
+  );
 
   // ─── COMPTEURS ──────────────────────────────────────
   // On ne compte que les défis présents dans le JSON actuel : un défi
